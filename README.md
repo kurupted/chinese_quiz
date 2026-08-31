@@ -74,10 +74,24 @@ Simply open index.html in your browser.
 
 ## Adding or Updating Images
 
-When saving new images to `vocab_images/`, run the update script:
+### 1. Automatically Download Missing Images from OpenSymbols
+You can run the automated downloader script, which queries OpenSymbols for all missing vocabulary items and saves the results directly to `vocab_images/`:
+
+```bash
+# Download all missing vocabulary images from OpenSymbols
+python download_opensymbols.py
+
+# Or download in batches (e.g. next 25 items)
+python download_opensymbols.py 25
+```
+
+### 2. Manual Image Updates
+When manually adding or renaming images in `vocab_images/`:
 
 ```bash
 python parse_all_data.py
 ```
+
+This will automatically map the images to the corresponding vocabulary entries across Book 1 and Book 2, generate character-level Pinyin, and update `vocab_data.js` and `grammar_data.js`.
 
 This will automatically map the new images to the corresponding vocabulary entries across Book 1 and Book 2, generate character-level Pinyin, and update `vocab_data.js` and `grammar_data.js`.

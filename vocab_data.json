@@ -30,9 +30,9 @@
     "traditional": "叫",
     "pinyin": "jiào",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/be called.png",
+    "localImage": "vocab_images/be called.png",
     "searchTerm": "to be called (named)"
   },
   {
@@ -78,9 +78,9 @@
     "traditional": "好",
     "pinyin": "hǎo",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/easy to.png",
+    "localImage": "vocab_images/easy to.png",
     "searchTerm": "easy to"
   },
   {
@@ -90,9 +90,9 @@
     "traditional": "樓下",
     "pinyin": "lóu xià",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/downstairs.png",
+    "localImage": "vocab_images/downstairs.png",
     "searchTerm": "downstairs"
   },
   {
@@ -222,9 +222,9 @@
     "traditional": "不",
     "pinyin": "bù",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not.png",
+    "localImage": "vocab_images/not.png",
     "searchTerm": "not"
   },
   {
@@ -234,9 +234,9 @@
     "traditional": "不",
     "pinyin": "bù",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not.png",
+    "localImage": "vocab_images/not.png",
     "searchTerm": "not"
   },
   {
@@ -258,9 +258,9 @@
     "traditional": "啊",
     "pinyin": "a",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/realization particle.png",
+    "localImage": "vocab_images/realization particle.png",
     "searchTerm": "realization particle"
   },
   {
@@ -330,9 +330,9 @@
     "traditional": "很",
     "pinyin": "hěn",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
     "searchTerm": "so (very)"
   },
   {
@@ -355,8 +355,8 @@
     "pinyin": "Tái wān",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/country.png",
-    "localImage": "vocab_images/country.png",
+    "photoUrl": "vocab_images/Taiwan.png",
+    "localImage": "vocab_images/Taiwan.png",
     "searchTerm": "taiwan"
   },
   {
@@ -450,9 +450,9 @@
     "traditional": "要",
     "pinyin": "yào",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/want to.png",
+    "localImage": "vocab_images/want to.png",
     "searchTerm": "to want to"
   },
   {
@@ -462,9 +462,9 @@
     "traditional": "我們",
     "pinyin": "wǒ men",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/we.png",
+    "localImage": "vocab_images/we.png",
     "searchTerm": "we / us"
   },
   {
@@ -486,9 +486,9 @@
     "traditional": "什麼",
     "pinyin": "shén me",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/what.png",
+    "localImage": "vocab_images/what.png",
     "searchTerm": "what"
   },
   {
@@ -498,9 +498,9 @@
     "traditional": "哪",
     "pinyin": "nǎ",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/which.png",
+    "localImage": "vocab_images/which.png",
     "searchTerm": "which"
   },
   {
@@ -534,9 +534,9 @@
     "traditional": "是的",
     "pinyin": "shì de",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/yes.png",
+    "localImage": "vocab_images/yes.png",
     "searchTerm": "yes"
   },
   {
@@ -546,9 +546,9 @@
     "traditional": "你",
     "pinyin": "nǐ",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/you.png",
+    "localImage": "vocab_images/you.png",
     "searchTerm": "you"
   },
   {
@@ -582,9 +582,9 @@
     "traditional": "都",
     "pinyin": "dōu",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/all.png",
+    "localImage": "vocab_images/all.png",
     "searchTerm": "all, both"
   },
   {
@@ -594,9 +594,9 @@
     "traditional": "伯母",
     "pinyin": "bó mǔ",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/aunt.png",
+    "localImage": "vocab_images/aunt.png",
     "searchTerm": "aunt (friend’s mother)"
   },
   {
@@ -690,9 +690,9 @@
     "traditional": "有",
     "pinyin": "yǒu",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/have.png",
+    "localImage": "vocab_images/have.png",
     "searchTerm": "to have"
   },
   {
@@ -726,9 +726,9 @@
     "traditional": "幾",
     "pinyin": "jǐ",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/how many.png",
+    "localImage": "vocab_images/how many.png",
     "searchTerm": "how many"
   },
   {
@@ -810,9 +810,9 @@
     "traditional": "比較",
     "pinyin": "bǐ jiào",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/comparatively more.png",
+    "localImage": "vocab_images/comparatively more.png",
     "searchTerm": "comparatively more"
   },
   {
@@ -834,9 +834,9 @@
     "traditional": "好的",
     "pinyin": "hǎo de",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ok.png",
+    "localImage": "vocab_images/ok.png",
     "searchTerm": "ok (agreeing)"
   },
   {
@@ -858,9 +858,9 @@
     "traditional": "喂",
     "pinyin": "wéi",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/phone particle.png",
+    "localImage": "vocab_images/phone particle.png",
     "searchTerm": "phone particle"
   },
   {
@@ -870,9 +870,9 @@
     "traditional": "可憐",
     "pinyin": "kě lián",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/poor.png",
+    "localImage": "vocab_images/poor.png",
     "searchTerm": "poor, bad"
   },
   {
@@ -942,9 +942,9 @@
     "traditional": "傳統",
     "pinyin": "chuán tǒng",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/tradition.png",
+    "localImage": "vocab_images/tradition.png",
     "searchTerm": "tradition / customs"
   },
   {
@@ -978,9 +978,9 @@
     "traditional": "您",
     "pinyin": "nín",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/you.png",
+    "localImage": "vocab_images/you.png",
     "searchTerm": "you (honorific)"
   },
   {
@@ -1134,9 +1134,9 @@
     "traditional": "大家",
     "pinyin": "dà jiā",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/everyone.png",
+    "localImage": "vocab_images/everyone.png",
     "searchTerm": "everyone"
   },
   {
@@ -1158,9 +1158,9 @@
     "traditional": "覺得",
     "pinyin": "jué de",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/feel.png",
+    "localImage": "vocab_images/feel.png",
     "searchTerm": "to feel, to think"
   },
   {
@@ -1351,8 +1351,8 @@
     "pinyin": "kàn",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/watch.png",
-    "localImage": "vocab_images/watch.png",
+    "photoUrl": "vocab_images/see.png",
+    "localImage": "vocab_images/see.png",
     "searchTerm": "to see / to watch"
   },
   {
@@ -1410,9 +1410,9 @@
     "traditional": "那",
     "pinyin": "nà",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/that.png",
+    "localImage": "vocab_images/that.png",
     "searchTerm": "that"
   },
   {
@@ -1434,9 +1434,9 @@
     "traditional": "非常",
     "pinyin": "fēi cháng",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/very.png",
+    "localImage": "vocab_images/very.png",
     "searchTerm": "very"
   },
   {
@@ -1446,9 +1446,9 @@
     "traditional": "想",
     "pinyin": "xiǎng",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/want.png",
+    "localImage": "vocab_images/want.png",
     "searchTerm": "to want / to think"
   },
   {
@@ -1482,9 +1482,9 @@
     "traditional": "妳",
     "pinyin": "nǐ",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/you.png",
+    "localImage": "vocab_images/you.png",
     "searchTerm": "you (female)"
   },
   {
@@ -1578,9 +1578,9 @@
     "traditional": "好",
     "pinyin": "hǎo",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fine.png",
+    "localImage": "vocab_images/fine.png",
     "searchTerm": "fine, well"
   },
   {
@@ -1614,9 +1614,9 @@
     "traditional": "多少",
     "pinyin": "duō shǎo",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/how much.png",
+    "localImage": "vocab_images/how much.png",
     "searchTerm": "how much / how many"
   },
   {
@@ -1626,9 +1626,9 @@
     "traditional": "百",
     "pinyin": "bǎi",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hundred.png",
+    "localImage": "vocab_images/hundred.png",
     "searchTerm": "hundred"
   },
   {
@@ -1698,9 +1698,9 @@
     "traditional": "媽媽",
     "pinyin": "mā ma",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/mom.png",
+    "localImage": "vocab_images/mom.png",
     "searchTerm": "mom"
   },
   {
@@ -1734,9 +1734,9 @@
     "traditional": "好啊",
     "pinyin": "hǎo a",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ok.png",
+    "localImage": "vocab_images/ok.png",
     "searchTerm": "ok (enthusiastic)"
   },
   {
@@ -1746,9 +1746,9 @@
     "traditional": "油",
     "pinyin": "yóu",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/oily.png",
+    "localImage": "vocab_images/oily.png",
     "searchTerm": "oily, greasy"
   },
   {
@@ -1794,9 +1794,9 @@
     "traditional": "所以",
     "pinyin": "suǒ yǐ",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
     "searchTerm": "so"
   },
   {
@@ -1830,9 +1830,9 @@
     "traditional": "外帶",
     "pinyin": "wài dài",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take out.png",
+    "localImage": "vocab_images/take out.png",
     "searchTerm": "take out (food)"
   },
   {
@@ -1842,9 +1842,9 @@
     "traditional": "要",
     "pinyin": "yào",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
     "searchTerm": "to take / to need"
   },
   {
@@ -1866,9 +1866,9 @@
     "traditional": "所以",
     "pinyin": "suǒ yǐ",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
     "searchTerm": "therefore / so"
   },
   {
@@ -1878,9 +1878,9 @@
     "traditional": "千",
     "pinyin": "qiān",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/thousand.png",
+    "localImage": "vocab_images/thousand.png",
     "searchTerm": "thousand"
   },
   {
@@ -1890,9 +1890,9 @@
     "traditional": "要",
     "pinyin": "yào",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/want.png",
+    "localImage": "vocab_images/want.png",
     "searchTerm": "to want / to need"
   },
   {
@@ -1902,9 +1902,9 @@
     "traditional": "誰",
     "pinyin": "shéi",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/who.png",
+    "localImage": "vocab_images/who.png",
     "searchTerm": "who"
   },
   {
@@ -1914,9 +1914,9 @@
     "traditional": "有一點",
     "pinyin": "yǒu yī diǎn",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/little.png",
+    "localImage": "vocab_images/little.png",
     "searchTerm": "a little"
   },
   {
@@ -2010,9 +2010,9 @@
     "traditional": "爸爸",
     "pinyin": "bà ba",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dad.png",
+    "localImage": "vocab_images/dad.png",
     "searchTerm": "dad"
   },
   {
@@ -2046,9 +2046,9 @@
     "traditional": "少",
     "pinyin": "shǎo",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/few in number.png",
+    "localImage": "vocab_images/few in number.png",
     "searchTerm": "few in number"
   },
   {
@@ -2202,9 +2202,9 @@
     "traditional": "說",
     "pinyin": "shuō",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/say.png",
+    "localImage": "vocab_images/say.png",
     "searchTerm": "say"
   },
   {
@@ -2214,9 +2214,9 @@
     "traditional": "自己",
     "pinyin": "zì jǐ",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/self.png",
+    "localImage": "vocab_images/self.png",
     "searchTerm": "self"
   },
   {
@@ -2262,9 +2262,9 @@
     "traditional": "萬",
     "pinyin": "wàn",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ten thousand.png",
+    "localImage": "vocab_images/ten thousand.png",
     "searchTerm": "ten thousand"
   },
   {
@@ -2286,9 +2286,9 @@
     "traditional": "一樣",
     "pinyin": "yī yàng",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the same.png",
+    "localImage": "vocab_images/the same.png",
     "searchTerm": "the same / alike"
   },
   {
@@ -2298,9 +2298,9 @@
     "traditional": "想",
     "pinyin": "xiǎng",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/think.png",
+    "localImage": "vocab_images/think.png",
     "searchTerm": "to think"
   },
   {
@@ -2358,9 +2358,9 @@
     "traditional": "在",
     "pinyin": "zài",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/at.png",
+    "localImage": "vocab_images/at.png",
     "searchTerm": "at"
   },
   {
@@ -2514,9 +2514,9 @@
     "traditional": "聽說",
     "pinyin": "tīng shuō",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hear that.png",
+    "localImage": "vocab_images/hear that.png",
     "searchTerm": "hear that"
   },
   {
@@ -2586,9 +2586,9 @@
     "traditional": "最",
     "pinyin": "zuì",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/most.png",
+    "localImage": "vocab_images/most.png",
     "searchTerm": "most"
   },
   {
@@ -2610,9 +2610,9 @@
     "traditional": "山上",
     "pinyin": "shān shàng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/on a mountain.png",
+    "localImage": "vocab_images/on a mountain.png",
     "searchTerm": "on a mountain"
   },
   {
@@ -2658,9 +2658,9 @@
     "traditional": "不好",
     "pinyin": "bù hǎo",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not well.png",
+    "localImage": "vocab_images/not well.png",
     "searchTerm": "not well"
   },
   {
@@ -2670,9 +2670,9 @@
     "traditional": "好",
     "pinyin": "hǎo",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/good.png",
+    "localImage": "vocab_images/good.png",
     "searchTerm": "good"
   },
   {
@@ -2706,9 +2706,9 @@
     "traditional": "地方",
     "pinyin": "dì fāng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/place.png",
+    "localImage": "vocab_images/place.png",
     "searchTerm": "place"
   },
   {
@@ -2790,9 +2790,9 @@
     "traditional": "學生",
     "pinyin": "xué shēng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/student.png",
+    "localImage": "vocab_images/student.png",
     "searchTerm": "student"
   },
   {
@@ -2826,9 +2826,9 @@
     "traditional": "後天",
     "pinyin": "hòu tiān",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the day after tomorrow.png",
+    "localImage": "vocab_images/the day after tomorrow.png",
     "searchTerm": "the day after tomorrow"
   },
   {
@@ -2838,9 +2838,9 @@
     "traditional": "這些",
     "pinyin": "zhè xiē",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/these.png",
+    "localImage": "vocab_images/these.png",
     "searchTerm": "these"
   },
   {
@@ -2850,9 +2850,9 @@
     "traditional": "我就是",
     "pinyin": "wǒ jiù shì",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/this is s.png",
+    "localImage": "vocab_images/this is s.png",
     "searchTerm": "this is s/he speaking"
   },
   {
@@ -2862,9 +2862,9 @@
     "traditional": "很",
     "pinyin": "hěn",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/very.png",
+    "localImage": "vocab_images/very.png",
     "searchTerm": "very"
   },
   {
@@ -2982,9 +2982,9 @@
     "traditional": "手機",
     "pinyin": "shǒu jī",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cell phone.png",
+    "localImage": "vocab_images/cell phone.png",
     "searchTerm": "cell phone"
   },
   {
@@ -3114,9 +3114,9 @@
     "traditional": "有意思",
     "pinyin": "yǒu yì si",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/be interesting.png",
+    "localImage": "vocab_images/be interesting.png",
     "searchTerm": "to be interesting"
   },
   {
@@ -3162,9 +3162,9 @@
     "traditional": "找",
     "pinyin": "zhǎo",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/look for.png",
+    "localImage": "vocab_images/look for.png",
     "searchTerm": "to look for"
   },
   {
@@ -3174,9 +3174,9 @@
     "traditional": "多",
     "pinyin": "duō",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/many.png",
+    "localImage": "vocab_images/many.png",
     "searchTerm": "many"
   },
   {
@@ -3234,9 +3234,9 @@
     "traditional": "下個星期",
     "pinyin": "xià gè xīng qī",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/next week.png",
+    "localImage": "vocab_images/next week.png",
     "searchTerm": "next week"
   },
   {
@@ -3258,9 +3258,9 @@
     "traditional": "海",
     "pinyin": "hǎi",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ocean.png",
+    "localImage": "vocab_images/ocean.png",
     "searchTerm": "ocean"
   },
   {
@@ -3306,9 +3306,9 @@
     "traditional": "足球",
     "pinyin": "zú qiú",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/soccer.png",
+    "localImage": "vocab_images/soccer.png",
     "searchTerm": "soccer"
   },
   {
@@ -3330,9 +3330,9 @@
     "traditional": "時候",
     "pinyin": "shí hou",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/when.png",
+    "localImage": "vocab_images/when.png",
     "searchTerm": "when"
   },
   {
@@ -3414,9 +3414,9 @@
     "traditional": "有線電視",
     "pinyin": "yǒu xiàn diàn shì",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cable tv.png",
+    "localImage": "vocab_images/cable tv.png",
     "searchTerm": "cable tv"
   },
   {
@@ -3498,9 +3498,9 @@
     "traditional": "拿",
     "pinyin": "ná",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get.png",
+    "localImage": "vocab_images/get.png",
     "searchTerm": "to get"
   },
   {
@@ -3510,9 +3510,9 @@
     "traditional": "玩",
     "pinyin": "wán",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/have fun.png",
+    "localImage": "vocab_images/have fun.png",
     "searchTerm": "to have fun"
   },
   {
@@ -3522,9 +3522,9 @@
     "traditional": "這裡",
     "pinyin": "zhè lǐ",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/here.png",
+    "localImage": "vocab_images/here.png",
     "searchTerm": "here, this place"
   },
   {
@@ -3558,9 +3558,9 @@
     "traditional": "怎麼",
     "pinyin": "zěn me",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/how.png",
+    "localImage": "vocab_images/how.png",
     "searchTerm": "how"
   },
   {
@@ -3570,9 +3570,9 @@
     "traditional": "網路上",
     "pinyin": "wǎng lù shàng",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/on the internet.png",
+    "localImage": "vocab_images/on the internet.png",
     "searchTerm": "on the internet"
   },
   {
@@ -3786,9 +3786,9 @@
     "traditional": "號",
     "pinyin": "hào",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/date.png",
+    "localImage": "vocab_images/date.png",
     "searchTerm": "date (day of month)"
   },
   {
@@ -3822,9 +3822,9 @@
     "traditional": "回家",
     "pinyin": "huí jiā",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go home.png",
+    "localImage": "vocab_images/go home.png",
     "searchTerm": "go home"
   },
   {
@@ -3858,9 +3858,9 @@
     "traditional": "多久",
     "pinyin": "duō jiǔ",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/how long.png",
+    "localImage": "vocab_images/how long.png",
     "searchTerm": "how long"
   },
   {
@@ -3906,9 +3906,9 @@
     "traditional": "夜市",
     "pinyin": "yè shì",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/night market.png",
+    "localImage": "vocab_images/night market.png",
     "searchTerm": "night market"
   },
   {
@@ -3930,9 +3930,9 @@
     "traditional": "打算",
     "pinyin": "dǎ suàn",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/plan to.png",
+    "localImage": "vocab_images/plan to.png",
     "searchTerm": "to plan to"
   },
   {
@@ -3954,9 +3954,9 @@
     "traditional": "她",
     "pinyin": "tā",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/she.png",
+    "localImage": "vocab_images/she.png",
     "searchTerm": "she, her"
   },
   {
@@ -3978,9 +3978,9 @@
     "traditional": "有時候",
     "pinyin": "yǒu shí hou",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sometimes.png",
+    "localImage": "vocab_images/sometimes.png",
     "searchTerm": "sometimes"
   },
   {
@@ -3990,9 +3990,9 @@
     "traditional": "特別",
     "pinyin": "tè bié",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/special.png",
+    "localImage": "vocab_images/special.png",
     "searchTerm": "special"
   },
   {
@@ -4002,9 +4002,9 @@
     "traditional": "還",
     "pinyin": "hái",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/still.png",
+    "localImage": "vocab_images/still.png",
     "searchTerm": "still / additionally"
   },
   {
@@ -4014,9 +4014,9 @@
     "traditional": "建議",
     "pinyin": "jiàn yì",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/suggestion.png",
+    "localImage": "vocab_images/suggestion.png",
     "searchTerm": "suggestion"
   },
   {
@@ -4026,9 +4026,9 @@
     "traditional": "拿",
     "pinyin": "ná",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
     "searchTerm": "to take"
   },
   {
@@ -4074,9 +4074,9 @@
     "traditional": "逛",
     "pinyin": "guàng",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wander around.png",
+    "localImage": "vocab_images/wander around.png",
     "searchTerm": "to wander around"
   },
   {
@@ -4086,9 +4086,9 @@
     "traditional": "星期",
     "pinyin": "xīng qī",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/week.png",
+    "localImage": "vocab_images/week.png",
     "searchTerm": "week"
   },
   {
@@ -4110,9 +4110,9 @@
     "traditional": "以前",
     "pinyin": "yǐ qián",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/before.png",
+    "localImage": "vocab_images/before.png",
     "searchTerm": "before"
   },
   {
@@ -4170,9 +4170,9 @@
     "traditional": "五",
     "pinyin": "wǔ",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/five.png",
+    "localImage": "vocab_images/five.png",
     "searchTerm": "five"
   },
   {
@@ -4218,9 +4218,9 @@
     "traditional": "吃吃看",
     "pinyin": "chī chī kàn",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/have a taste.png",
+    "localImage": "vocab_images/have a taste.png",
     "searchTerm": "to have a taste, try it"
   },
   {
@@ -4242,9 +4242,9 @@
     "traditional": "大",
     "pinyin": "dà",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/large.png",
+    "localImage": "vocab_images/large.png",
     "searchTerm": "large"
   },
   {
@@ -4302,9 +4302,9 @@
     "traditional": "最近",
     "pinyin": "zuì jìn",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/recently.png",
+    "localImage": "vocab_images/recently.png",
     "searchTerm": "recently"
   },
   {
@@ -4339,8 +4339,8 @@
     "pinyin": "zhù",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/live.png",
-    "localImage": "vocab_images/live.png",
+    "photoUrl": "vocab_images/stay.png",
+    "localImage": "vocab_images/stay.png",
     "searchTerm": "to stay / live"
   },
   {
@@ -4362,9 +4362,9 @@
     "traditional": "拍",
     "pinyin": "pāi",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
     "searchTerm": "to take (pictures)"
   },
   {
@@ -4386,9 +4386,9 @@
     "traditional": "這",
     "pinyin": "zhè",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/this.png",
+    "localImage": "vocab_images/this.png",
     "searchTerm": "this"
   },
   {
@@ -4422,9 +4422,9 @@
     "traditional": "穿",
     "pinyin": "chuān",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wear.png",
+    "localImage": "vocab_images/wear.png",
     "searchTerm": "to wear / put on"
   },
   {
@@ -4434,9 +4434,9 @@
     "traditional": "為什麼",
     "pinyin": "wèi shén me",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/why.png",
+    "localImage": "vocab_images/why.png",
     "searchTerm": "why"
   },
   {
@@ -4470,9 +4470,9 @@
     "traditional": "弟弟",
     "pinyin": "dì di",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/younger brother.png",
+    "localImage": "vocab_images/younger brother.png",
     "searchTerm": "younger brother"
   },
   {
@@ -4494,9 +4494,9 @@
     "traditional": "到",
     "pinyin": "dào",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/arrive.png",
+    "localImage": "vocab_images/arrive.png",
     "searchTerm": "to arrive"
   },
   {
@@ -4506,9 +4506,9 @@
     "traditional": "生意",
     "pinyin": "shēng yì",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/business.png",
+    "localImage": "vocab_images/business.png",
     "searchTerm": "business"
   },
   {
@@ -4590,9 +4590,9 @@
     "traditional": "知道",
     "pinyin": "zhī dào",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/know.png",
+    "localImage": "vocab_images/know.png",
     "searchTerm": "to know"
   },
   {
@@ -4603,8 +4603,8 @@
     "pinyin": "xué",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/study.png",
-    "localImage": "vocab_images/study.png",
+    "photoUrl": "vocab_images/learn.png",
+    "localImage": "vocab_images/learn.png",
     "searchTerm": "to learn, study"
   },
   {
@@ -4698,9 +4698,9 @@
     "traditional": "問題",
     "pinyin": "wèn tí",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/problem.png",
+    "localImage": "vocab_images/problem.png",
     "searchTerm": "problem, question"
   },
   {
@@ -4830,9 +4830,9 @@
     "traditional": "他們",
     "pinyin": "tā men",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/they.png",
+    "localImage": "vocab_images/they.png",
     "searchTerm": "they (people only)"
   },
   {
@@ -4878,9 +4878,9 @@
     "traditional": "等",
     "pinyin": "děng",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wait for.png",
+    "localImage": "vocab_images/wait for.png",
     "searchTerm": "to wait for"
   },
   {
@@ -4938,9 +4938,9 @@
     "traditional": "再",
     "pinyin": "zài",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/again.png",
+    "localImage": "vocab_images/again.png",
     "searchTerm": "again"
   },
   {
@@ -4998,9 +4998,9 @@
     "traditional": "決定",
     "pinyin": "jué dìng",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/decide.png",
+    "localImage": "vocab_images/decide.png",
     "searchTerm": "to decide"
   },
   {
@@ -5034,9 +5034,9 @@
     "traditional": "忘（了）",
     "pinyin": "wàng (le)",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/forget.png",
+    "localImage": "vocab_images/forget.png",
     "searchTerm": "to forget"
   },
   {
@@ -5046,9 +5046,9 @@
     "traditional": "個",
     "pinyin": "gè",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/general measure word.png",
+    "localImage": "vocab_images/general measure word.png",
     "searchTerm": "general measure word"
   },
   {
@@ -5082,9 +5082,9 @@
     "traditional": "上課",
     "pinyin": "shàng kè",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go to class.png",
+    "localImage": "vocab_images/go to class.png",
     "searchTerm": "to go to class"
   },
   {
@@ -5118,9 +5118,9 @@
     "traditional": "難",
     "pinyin": "nán",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hard to.png",
+    "localImage": "vocab_images/hard to.png",
     "searchTerm": "hard to, difficult to"
   },
   {
@@ -5226,9 +5226,9 @@
     "traditional": "需要",
     "pinyin": "xū yào",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/need.png",
+    "localImage": "vocab_images/need.png",
     "searchTerm": "to need"
   },
   {
@@ -5250,9 +5250,9 @@
     "traditional": "花",
     "pinyin": "huā",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/spend.png",
+    "localImage": "vocab_images/spend.png",
     "searchTerm": "to spend (time/money)"
   },
   {
@@ -5286,9 +5286,9 @@
     "traditional": "東西",
     "pinyin": "dōng xi",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/things.png",
+    "localImage": "vocab_images/things.png",
     "searchTerm": "things / stuff"
   },
   {
@@ -5298,9 +5298,9 @@
     "traditional": "時間",
     "pinyin": "shí jiān",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/time.png",
+    "localImage": "vocab_images/time.png",
     "searchTerm": "time"
   },
   {
@@ -5334,9 +5334,9 @@
     "traditional": "電視",
     "pinyin": "diàn shì",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/tv.png",
+    "localImage": "vocab_images/tv.png",
     "searchTerm": "tv"
   },
   {
@@ -5406,9 +5406,9 @@
     "traditional": "慶祝",
     "pinyin": "qìng zhù",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/celebrate.png",
+    "localImage": "vocab_images/celebrate.png",
     "searchTerm": "to celebrate"
   },
   {
@@ -5454,9 +5454,9 @@
     "traditional": "貴",
     "pinyin": "guì",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/expensive.png",
+    "localImage": "vocab_images/expensive.png",
     "searchTerm": "expensive"
   },
   {
@@ -5478,9 +5478,9 @@
     "traditional": "先",
     "pinyin": "xiān",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/first.png",
+    "localImage": "vocab_images/first.png",
     "searchTerm": "first"
   },
   {
@@ -5646,9 +5646,9 @@
     "traditional": "痛",
     "pinyin": "tòng",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/painful.png",
+    "localImage": "vocab_images/painful.png",
     "searchTerm": "painful"
   },
   {
@@ -5658,9 +5658,9 @@
     "traditional": "漂亮",
     "pinyin": "piào liang",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pretty.png",
+    "localImage": "vocab_images/pretty.png",
     "searchTerm": "pretty"
   },
   {
@@ -5670,9 +5670,9 @@
     "traditional": "紅葉",
     "pinyin": "hóng yè",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/red maple leaves.png",
+    "localImage": "vocab_images/red maple leaves.png",
     "searchTerm": "red maple leaves"
   },
   {
@@ -5718,9 +5718,9 @@
     "traditional": "今年",
     "pinyin": "jīn nián",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/this year.png",
+    "localImage": "vocab_images/this year.png",
     "searchTerm": "this year"
   },
   {
@@ -5742,9 +5742,9 @@
     "traditional": "兩",
     "pinyin": "liǎng",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/two.png",
+    "localImage": "vocab_images/two.png",
     "searchTerm": "two"
   },
   {
@@ -5754,9 +5754,9 @@
     "traditional": "年輕",
     "pinyin": "nián qīng",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/young.png",
+    "localImage": "vocab_images/young.png",
     "searchTerm": "young"
   },
   {
@@ -5766,9 +5766,9 @@
     "traditional": "討厭",
     "pinyin": "tǎo yàn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/annoying.png",
+    "localImage": "vocab_images/annoying.png",
     "searchTerm": "annoying"
   },
   {
@@ -5802,9 +5802,9 @@
     "traditional": "小心",
     "pinyin": "xiǎo xīn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/be careful.png",
+    "localImage": "vocab_images/be careful.png",
     "searchTerm": "to be careful / take care"
   },
   {
@@ -5826,9 +5826,9 @@
     "traditional": "更",
     "pinyin": "gèng",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/even.png",
+    "localImage": "vocab_images/even.png",
     "searchTerm": "even (more)"
   },
   {
@@ -5850,9 +5850,9 @@
     "traditional": "交換",
     "pinyin": "jiāo huàn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/exchange.png",
+    "localImage": "vocab_images/exchange.png",
     "searchTerm": "to exchange"
   },
   {
@@ -5874,9 +5874,9 @@
     "traditional": "分",
     "pinyin": "fēn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/minute.png",
+    "localImage": "vocab_images/minute.png",
     "searchTerm": "minute"
   },
   {
@@ -5994,9 +5994,9 @@
     "traditional": "可怕",
     "pinyin": "kě pà",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/scary.png",
+    "localImage": "vocab_images/scary.png",
     "searchTerm": "scary"
   },
   {
@@ -6030,9 +6030,9 @@
     "traditional": "快",
     "pinyin": "kuài",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/soon.png",
+    "localImage": "vocab_images/soon.png",
     "searchTerm": "soon"
   },
   {
@@ -6090,9 +6090,9 @@
     "traditional": "一起",
     "pinyin": "yī qǐ",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/together.png",
+    "localImage": "vocab_images/together.png",
     "searchTerm": "together"
   },
   {
@@ -6210,9 +6210,9 @@
     "traditional": "祝",
     "pinyin": "zhù",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wish.png",
+    "localImage": "vocab_images/wish.png",
     "searchTerm": "to wish (sb happiness, luck)"
   },
   {
@@ -6246,9 +6246,9 @@
     "traditional": "幾",
     "pinyin": "jǐ",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/few.png",
+    "localImage": "vocab_images/few.png",
     "searchTerm": "(a) few"
   },
   {
@@ -6258,9 +6258,9 @@
     "traditional": "胃口",
     "pinyin": "wèi kǒu",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/appetite.png",
+    "localImage": "vocab_images/appetite.png",
     "searchTerm": "appetite"
   },
   {
@@ -6366,9 +6366,9 @@
     "traditional": "片",
     "pinyin": "piàn",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/film.png",
+    "localImage": "vocab_images/film.png",
     "searchTerm": "film"
   },
   {
@@ -6414,9 +6414,9 @@
     "traditional": "陪",
     "pinyin": "péi",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/accompany.png",
+    "localImage": "vocab_images/accompany.png",
     "searchTerm": "to accompany"
   },
   {
@@ -6450,9 +6450,9 @@
     "traditional": "健康",
     "pinyin": "jiàn kāng",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/health.png",
+    "localImage": "vocab_images/health.png",
     "searchTerm": "health"
   },
   {
@@ -6498,9 +6498,9 @@
     "traditional": "保險",
     "pinyin": "bǎo xiǎn",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/insurance.png",
+    "localImage": "vocab_images/insurance.png",
     "searchTerm": "insurance"
   },
   {
@@ -6558,9 +6558,9 @@
     "traditional": "中",
     "pinyin": "zhōng",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/medium.png",
+    "localImage": "vocab_images/medium.png",
     "searchTerm": "medium"
   },
   {
@@ -6582,9 +6582,9 @@
     "traditional": "常",
     "pinyin": "cháng",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/often.png",
+    "localImage": "vocab_images/often.png",
     "searchTerm": "often"
   },
   {
@@ -6678,9 +6678,9 @@
     "traditional": "休息",
     "pinyin": "xiū xí",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take a rest.png",
+    "localImage": "vocab_images/take a rest.png",
     "searchTerm": "to take a rest"
   },
   {
@@ -6858,9 +6858,9 @@
     "traditional": "往前",
     "pinyin": "wǎng qián",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/forward.png",
+    "localImage": "vocab_images/forward.png",
     "searchTerm": "forward / ahead"
   },
   {
@@ -6978,9 +6978,9 @@
     "traditional": "不見",
     "pinyin": "bú jiàn",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/disappear.png",
+    "localImage": "vocab_images/disappear.png",
     "searchTerm": "to disappear"
   },
   {
@@ -7050,9 +7050,9 @@
     "traditional": "巴黎",
     "pinyin": "Bā lí",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/paris.png",
+    "localImage": "vocab_images/paris.png",
     "searchTerm": "paris"
   },
   {
@@ -7218,9 +7218,9 @@
     "traditional": "懂",
     "pinyin": "dǒng",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/comprehend.png",
+    "localImage": "vocab_images/comprehend.png",
     "searchTerm": "to comprehend"
   },
   {
@@ -7230,9 +7230,9 @@
     "traditional": "平常",
     "pinyin": "píng cháng",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/usually.png",
+    "localImage": "vocab_images/usually.png",
     "searchTerm": "usually"
   },
   {
@@ -7422,9 +7422,9 @@
     "traditional": "地球",
     "pinyin": "dì qiú",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the earth.png",
+    "localImage": "vocab_images/the earth.png",
     "searchTerm": "the earth"
   },
   {
@@ -7458,9 +7458,9 @@
     "traditional": "事情",
     "pinyin": "shì qing",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/event.png",
+    "localImage": "vocab_images/event.png",
     "searchTerm": "event / happening"
   },
   {
@@ -7530,9 +7530,9 @@
     "traditional": "約",
     "pinyin": "yuē",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/make an appointment.png",
+    "localImage": "vocab_images/make an appointment.png",
     "searchTerm": "to make an appointment"
   },
   {
@@ -7674,9 +7674,9 @@
     "traditional": "見",
     "pinyin": "jiàn",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/see.png",
+    "localImage": "vocab_images/see.png",
     "searchTerm": "to see"
   },
   {
@@ -7770,9 +7770,9 @@
     "traditional": "想法",
     "pinyin": "xiǎng fǎ",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/idea.png",
+    "localImage": "vocab_images/idea.png",
     "searchTerm": "idea"
   },
   {
@@ -7782,9 +7782,9 @@
     "traditional": "透過",
     "pinyin": "tòu guò",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/through.png",
+    "localImage": "vocab_images/through.png",
     "searchTerm": "through"
   },
   {
@@ -7806,9 +7806,9 @@
     "traditional": "交通",
     "pinyin": "jiāo tōng",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/transportation.png",
+    "localImage": "vocab_images/transportation.png",
     "searchTerm": "transportation"
   },
   {
@@ -7818,9 +7818,9 @@
     "traditional": "打擾",
     "pinyin": "dǎ rǎo",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/trouble.png",
+    "localImage": "vocab_images/trouble.png",
     "searchTerm": "to trouble / disturb"
   },
   {
@@ -8022,9 +8022,9 @@
     "traditional": "電",
     "pinyin": "diàn",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/electric power.png",
+    "localImage": "vocab_images/electric power.png",
     "searchTerm": "electric power"
   },
   {
@@ -8046,9 +8046,9 @@
     "traditional": "連",
     "pinyin": "lián",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/even.png",
+    "localImage": "vocab_images/even.png",
     "searchTerm": "even"
   },
   {
@@ -8106,9 +8106,9 @@
     "traditional": "爬山",
     "pinyin": "pá shān",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go hiking.png",
+    "localImage": "vocab_images/go hiking.png",
     "searchTerm": "to go hiking"
   },
   {
@@ -8118,9 +8118,9 @@
     "traditional": "聊天",
     "pinyin": "liáo tiān",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/chat.png",
+    "localImage": "vocab_images/chat.png",
     "searchTerm": "to chat"
   },
   {
@@ -8130,9 +8130,9 @@
     "traditional": "認為",
     "pinyin": "rèn wéi",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/think.png",
+    "localImage": "vocab_images/think.png",
     "searchTerm": "to think / hold the opinion"
   },
   {
@@ -8166,9 +8166,9 @@
     "traditional": "進步",
     "pinyin": "jìn bù",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/improve.png",
+    "localImage": "vocab_images/improve.png",
     "searchTerm": "to improve"
   },
   {
@@ -8226,9 +8226,9 @@
     "traditional": "北部",
     "pinyin": "běi bù",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the north.png",
+    "localImage": "vocab_images/the north.png",
     "searchTerm": "the north"
   },
   {
@@ -8274,9 +8274,9 @@
     "traditional": "選",
     "pinyin": "xuǎn",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/select.png",
+    "localImage": "vocab_images/select.png",
     "searchTerm": "to select"
   },
   {
@@ -8298,9 +8298,9 @@
     "traditional": "春假",
     "pinyin": "chūn jià",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/spring break.png",
+    "localImage": "vocab_images/spring break.png",
     "searchTerm": "spring break"
   },
   {
@@ -8370,9 +8370,9 @@
     "traditional": "答應",
     "pinyin": "dā yìng",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/accept.png",
+    "localImage": "vocab_images/accept.png",
     "searchTerm": "to accept"
   },
   {
@@ -8466,9 +8466,9 @@
     "traditional": "研究",
     "pinyin": "yán jiū",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/do research.png",
+    "localImage": "vocab_images/do research.png",
     "searchTerm": "to do research"
   },
   {
@@ -8490,9 +8490,9 @@
     "traditional": "經驗",
     "pinyin": "jīng yàn",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/experience.png",
+    "localImage": "vocab_images/experience.png",
     "searchTerm": "experience"
   },
   {
@@ -8514,9 +8514,9 @@
     "traditional": "法文",
     "pinyin": "Fǎ wén",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/french language.png",
+    "localImage": "vocab_images/french language.png",
     "searchTerm": "french language"
   },
   {
@@ -8634,9 +8634,9 @@
     "traditional": "地點",
     "pinyin": "dì diǎn",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/location.png",
+    "localImage": "vocab_images/location.png",
     "searchTerm": "location"
   },
   {
@@ -8706,9 +8706,9 @@
     "traditional": "專業",
     "pinyin": "zhuān yè",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/profession.png",
+    "localImage": "vocab_images/profession.png",
     "searchTerm": "profession / specialization"
   },
   {
@@ -8802,9 +8802,9 @@
     "traditional": "搭",
     "pinyin": "dā",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
     "searchTerm": "to take (transport)"
   },
   {
@@ -8838,9 +8838,9 @@
     "traditional": "歲",
     "pinyin": "suì",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/years of age.png",
+    "localImage": "vocab_images/years of age.png",
     "searchTerm": "years of age"
   },
   {
@@ -8850,9 +8850,9 @@
     "traditional": "貴",
     "pinyin": "guì",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/your.png",
+    "localImage": "vocab_images/your.png",
     "searchTerm": "your (honorific)"
   },
   {
@@ -8934,9 +8934,9 @@
     "traditional": "建築",
     "pinyin": "jiàn zhú",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/buildings.png",
+    "localImage": "vocab_images/buildings.png",
     "searchTerm": "buildings"
   },
   {
@@ -8982,9 +8982,9 @@
     "traditional": "充電",
     "pinyin": "chōng diàn",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/charge.png",
+    "localImage": "vocab_images/charge.png",
     "searchTerm": "to charge (battery)"
   },
   {
@@ -9018,9 +9018,9 @@
     "traditional": "比起來",
     "pinyin": "bǐ qǐ lái",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/compared to.png",
+    "localImage": "vocab_images/compared to.png",
     "searchTerm": "compared to"
   },
   {
@@ -9030,9 +9030,9 @@
     "traditional": "念完",
     "pinyin": "niàn wán",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/complete.png",
+    "localImage": "vocab_images/complete.png",
     "searchTerm": "to complete (academic program)"
   },
   {
@@ -9042,9 +9042,9 @@
     "traditional": "複雜",
     "pinyin": "fù zá",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/complicated.png",
+    "localImage": "vocab_images/complicated.png",
     "searchTerm": "complicated"
   },
   {
@@ -9066,9 +9066,9 @@
     "traditional": "恭喜",
     "pinyin": "gōng xǐ",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/congratulate.png",
+    "localImage": "vocab_images/congratulate.png",
     "searchTerm": "to congratulate"
   },
   {
@@ -9078,9 +9078,9 @@
     "traditional": "好奇",
     "pinyin": "hào qí",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/curious.png",
+    "localImage": "vocab_images/curious.png",
     "searchTerm": "curious / to wonder"
   },
   {
@@ -9126,9 +9126,9 @@
     "traditional": "結婚",
     "pinyin": "jié hūn",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get married.png",
+    "localImage": "vocab_images/get married.png",
     "searchTerm": "to get married"
   },
   {
@@ -9138,9 +9138,9 @@
     "traditional": "送",
     "pinyin": "sòng",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/send off.png",
+    "localImage": "vocab_images/send off.png",
     "searchTerm": "to send off / give gift"
   },
   {
@@ -9150,9 +9150,9 @@
     "traditional": "祝福",
     "pinyin": "zhù fú",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/give blessings.png",
+    "localImage": "vocab_images/give blessings.png",
     "searchTerm": "to give blessings"
   },
   {
@@ -9162,9 +9162,9 @@
     "traditional": "客人",
     "pinyin": "kè rén",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/guest.png",
+    "localImage": "vocab_images/guest.png",
     "searchTerm": "guest"
   },
   {
@@ -9186,9 +9186,9 @@
     "traditional": "帥",
     "pinyin": "shuài",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/handsome.png",
+    "localImage": "vocab_images/handsome.png",
     "searchTerm": "handsome"
   },
   {
@@ -9198,9 +9198,9 @@
     "traditional": "酸辣湯",
     "pinyin": "suān là tāng",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hot and sour soup.png",
+    "localImage": "vocab_images/hot and sour soup.png",
     "searchTerm": "hot and sour soup"
   },
   {
@@ -9210,9 +9210,9 @@
     "traditional": "一會兒",
     "pinyin": "yī huìr",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/in a moment.png",
+    "localImage": "vocab_images/in a moment.png",
     "searchTerm": "in a moment"
   },
   {
@@ -9234,9 +9234,9 @@
     "traditional": "敬酒",
     "pinyin": "jìng jiǔ",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/make a toast.png",
+    "localImage": "vocab_images/make a toast.png",
     "searchTerm": "to make a toast"
   },
   {
@@ -9270,9 +9270,9 @@
     "traditional": "皮包",
     "pinyin": "pí bāo",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/purse.png",
+    "localImage": "vocab_images/purse.png",
     "searchTerm": "purse"
   },
   {
@@ -9318,9 +9318,9 @@
     "traditional": "網站",
     "pinyin": "wǎng zhàn",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/website.png",
+    "localImage": "vocab_images/website.png",
     "searchTerm": "website"
   },
   {
@@ -9342,9 +9342,9 @@
     "traditional": "西方",
     "pinyin": "xī fāng",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the west.png",
+    "localImage": "vocab_images/the west.png",
     "searchTerm": "the west"
   },
   {
@@ -9354,9 +9354,9 @@
     "traditional": "活動",
     "pinyin": "huó dòng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/activity.png",
+    "localImage": "vocab_images/activity.png",
     "searchTerm": "activity"
   },
   {
@@ -9414,9 +9414,9 @@
     "traditional": "聊",
     "pinyin": "liáo",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/chat.png",
+    "localImage": "vocab_images/chat.png",
     "searchTerm": "to chat"
   },
   {
@@ -9438,9 +9438,9 @@
     "traditional": "考慮",
     "pinyin": "kǎo lǜ",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/consider.png",
+    "localImage": "vocab_images/consider.png",
     "searchTerm": "to consider"
   },
   {
@@ -9534,9 +9534,9 @@
     "traditional": "隨身碟",
     "pinyin": "suí shēn dié",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/flash drive.png",
+    "localImage": "vocab_images/flash drive.png",
     "searchTerm": "flash drive"
   },
   {
@@ -9546,9 +9546,9 @@
     "traditional": "還好",
     "pinyin": "hái hǎo",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fortunately.png",
+    "localImage": "vocab_images/fortunately.png",
     "searchTerm": "fortunately"
   },
   {
@@ -9594,9 +9594,9 @@
     "traditional": "重要",
     "pinyin": "zhòng yào",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/important.png",
+    "localImage": "vocab_images/important.png",
     "searchTerm": "important"
   },
   {
@@ -9606,9 +9606,9 @@
     "traditional": "資料",
     "pinyin": "zī liào",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/information.png",
+    "localImage": "vocab_images/information.png",
     "searchTerm": "information"
   },
   {
@@ -9642,9 +9642,9 @@
     "traditional": "迷路",
     "pinyin": "mí lù",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get lost.png",
+    "localImage": "vocab_images/get lost.png",
     "searchTerm": "to get lost"
   },
   {
@@ -9786,9 +9786,9 @@
     "traditional": "存",
     "pinyin": "cún",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/save.png",
+    "localImage": "vocab_images/save.png",
     "searchTerm": "to save"
   },
   {
@@ -9810,9 +9810,9 @@
     "traditional": "嚴重",
     "pinyin": "yán zhòng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/serious.png",
+    "localImage": "vocab_images/serious.png",
     "searchTerm": "serious"
   },
   {
@@ -9834,9 +9834,9 @@
     "traditional": "貼上",
     "pinyin": "tiē shàng",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/stick on.png",
+    "localImage": "vocab_images/stick on.png",
     "searchTerm": "to stick on"
   },
   {
@@ -9882,9 +9882,9 @@
     "traditional": "世界",
     "pinyin": "shì jiè",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the world.png",
+    "localImage": "vocab_images/the world.png",
     "searchTerm": "the world"
   },
   {
@@ -9918,9 +9918,9 @@
     "traditional": "禮拜",
     "pinyin": "lǐ bài",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/week.png",
+    "localImage": "vocab_images/week.png",
     "searchTerm": "week"
   },
   {
@@ -9954,9 +9954,9 @@
     "traditional": "提",
     "pinyin": "tí",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/withdraw.png",
+    "localImage": "vocab_images/withdraw.png",
     "searchTerm": "to withdraw (money)"
   },
   {
@@ -10086,9 +10086,9 @@
     "traditional": "垃圾",
     "pinyin": "lā jī",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/garbage.png",
+    "localImage": "vocab_images/garbage.png",
     "searchTerm": "garbage"
   },
   {
@@ -10206,9 +10206,9 @@
     "traditional": "回收桶",
     "pinyin": "huí shōu tǒng",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/recycling bin.png",
+    "localImage": "vocab_images/recycling bin.png",
     "searchTerm": "recycling bin"
   },
   {
@@ -10230,9 +10230,9 @@
     "traditional": "規定",
     "pinyin": "guī dìng",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/rules.png",
+    "localImage": "vocab_images/rules.png",
     "searchTerm": "rules / regulations"
   },
   {
@@ -10314,9 +10314,9 @@
     "traditional": "紅綠燈",
     "pinyin": "hóng lǜ dēng",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/traffic light.png",
+    "localImage": "vocab_images/traffic light.png",
     "searchTerm": "traffic light"
   },
   {
@@ -10326,9 +10326,9 @@
     "traditional": "轉機",
     "pinyin": "zhuǎn jī",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/transfer.png",
+    "localImage": "vocab_images/transfer.png",
     "searchTerm": "to transfer (flights)"
   },
   {
@@ -10338,9 +10338,9 @@
     "traditional": "換",
     "pinyin": "huàn",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/transfer.png",
+    "localImage": "vocab_images/transfer.png",
     "searchTerm": "to transfer (transport)"
   },
   {
@@ -10398,9 +10398,9 @@
     "traditional": "總是",
     "pinyin": "zǒng shì",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/always.png",
+    "localImage": "vocab_images/always.png",
     "searchTerm": "always / invariably"
   },
   {
@@ -10494,9 +10494,9 @@
     "traditional": "天分",
     "pinyin": "tiān fèn",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/talent.png",
+    "localImage": "vocab_images/talent.png",
     "searchTerm": "talent"
   },
   {
@@ -10566,9 +10566,9 @@
     "traditional": "學會",
     "pinyin": "xué huì",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/learn.png",
+    "localImage": "vocab_images/learn.png",
     "searchTerm": "to learn / master"
   },
   {
@@ -10602,9 +10602,9 @@
     "traditional": "可能",
     "pinyin": "kě néng",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/maybe.png",
+    "localImage": "vocab_images/maybe.png",
     "searchTerm": "maybe"
   },
   {
@@ -10626,9 +10626,9 @@
     "traditional": "越",
     "pinyin": "yuè",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/more.png",
+    "localImage": "vocab_images/more.png",
     "searchTerm": "more (even more)"
   },
   {
@@ -10638,9 +10638,9 @@
     "traditional": "動作",
     "pinyin": "dòng zuò",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/movement.png",
+    "localImage": "vocab_images/movement.png",
     "searchTerm": "movement / action"
   },
   {
@@ -10650,9 +10650,9 @@
     "traditional": "練習",
     "pinyin": "liàn xí",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/practice.png",
+    "localImage": "vocab_images/practice.png",
     "searchTerm": "to practice"
   },
   {
@@ -10674,9 +10674,9 @@
     "traditional": "親戚",
     "pinyin": "qīn qī",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/relatives.png",
+    "localImage": "vocab_images/relatives.png",
     "searchTerm": "relatives"
   },
   {
@@ -10806,9 +10806,9 @@
     "traditional": "氣氛",
     "pinyin": "qì fēn",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/atmosphere.png",
+    "localImage": "vocab_images/atmosphere.png",
     "searchTerm": "atmosphere"
   },
   {
@@ -10842,9 +10842,9 @@
     "traditional": "過年",
     "pinyin": "guò nián",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/celebrate the new year.png",
+    "localImage": "vocab_images/celebrate the new year.png",
     "searchTerm": "to celebrate the new year"
   },
   {
@@ -10890,9 +10890,9 @@
     "traditional": "打掃",
     "pinyin": "dǎ sǎo",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/clean up.png",
+    "localImage": "vocab_images/clean up.png",
     "searchTerm": "to clean up (sweep)"
   },
   {
@@ -10938,9 +10938,9 @@
     "traditional": "發展",
     "pinyin": "fā zhǎn",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/develop.png",
+    "localImage": "vocab_images/develop.png",
     "searchTerm": "to develop"
   },
   {
@@ -11070,9 +11070,9 @@
     "traditional": "開業",
     "pinyin": "kāi yè",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/open.png",
+    "localImage": "vocab_images/open.png",
     "searchTerm": "to open (business)"
   },
   {
@@ -11118,9 +11118,9 @@
     "traditional": "酸",
     "pinyin": "suān",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sour.png",
+    "localImage": "vocab_images/sour.png",
     "searchTerm": "sour"
   },
   {
@@ -11250,9 +11250,9 @@
     "traditional": "加",
     "pinyin": "jiā",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/add.png",
+    "localImage": "vocab_images/add.png",
     "searchTerm": "to add"
   },
   {
@@ -11274,9 +11274,9 @@
     "traditional": "分公司",
     "pinyin": "fēn gōng sī",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/branch.png",
+    "localImage": "vocab_images/branch.png",
     "searchTerm": "branch (company)"
   },
   {
@@ -11286,9 +11286,9 @@
     "traditional": "新郎",
     "pinyin": "xīn láng",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/bridegroom.png",
+    "localImage": "vocab_images/bridegroom.png",
     "searchTerm": "bridegroom"
   },
   {
@@ -11382,9 +11382,9 @@
     "traditional": "餡兒",
     "pinyin": "xiàn ér",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/filling.png",
+    "localImage": "vocab_images/filling.png",
     "searchTerm": "filling (food)"
   },
   {
@@ -11418,9 +11418,9 @@
     "traditional": "食物",
     "pinyin": "shí wù",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/food.png",
+    "localImage": "vocab_images/food.png",
     "searchTerm": "food"
   },
   {
@@ -11430,9 +11430,9 @@
     "traditional": "玻璃",
     "pinyin": "bō lí",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/glass.png",
+    "localImage": "vocab_images/glass.png",
     "searchTerm": "glass"
   },
   {
@@ -11467,8 +11467,8 @@
     "pinyin": "xiǎng qǐ lái",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/remember.png",
-    "localImage": "vocab_images/remember.png",
+    "photoUrl": "vocab_images/recall.png",
+    "localImage": "vocab_images/recall.png",
     "searchTerm": "to recall / remember"
   },
   {
@@ -11490,9 +11490,9 @@
     "traditional": "材料",
     "pinyin": "cái liào",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ingredients.png",
+    "localImage": "vocab_images/ingredients.png",
     "searchTerm": "ingredients / materials"
   },
   {
@@ -11634,9 +11634,9 @@
     "traditional": "路線",
     "pinyin": "lù xiàn",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/route.png",
+    "localImage": "vocab_images/route.png",
     "searchTerm": "route"
   },
   {
@@ -11682,9 +11682,9 @@
     "traditional": "放鞭炮",
     "pinyin": "fàng biān pào",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/set off firecrackers.png",
+    "localImage": "vocab_images/set off firecrackers.png",
     "searchTerm": "to set off firecrackers"
   },
   {
@@ -11694,9 +11694,9 @@
     "traditional": "鞋",
     "pinyin": "xié",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/shoes.png",
+    "localImage": "vocab_images/shoes.png",
     "searchTerm": "shoes"
   },
   {
@@ -11706,9 +11706,9 @@
     "traditional": "皮",
     "pinyin": "pí",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/skin.png",
+    "localImage": "vocab_images/skin.png",
     "searchTerm": "skin / wrap"
   },
   {
@@ -11730,9 +11730,9 @@
     "traditional": "奇怪",
     "pinyin": "qí guài",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/strange.png",
+    "localImage": "vocab_images/strange.png",
     "searchTerm": "strange"
   },
   {
@@ -11778,9 +11778,9 @@
     "traditional": "所有",
     "pinyin": "suǒ yǒu",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/all.png",
+    "localImage": "vocab_images/all.png",
     "searchTerm": "all"
   },
   {
@@ -11982,9 +11982,9 @@
     "traditional": "輛",
     "pinyin": "liàng",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/measure word for vehicles.png",
+    "localImage": "vocab_images/measure word for vehicles.png",
     "searchTerm": "measure word for vehicles"
   },
   {
@@ -12006,9 +12006,9 @@
     "traditional": "那邊",
     "pinyin": "nà biān",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/over there.png",
+    "localImage": "vocab_images/over there.png",
     "searchTerm": "over there"
   },
   {
@@ -12030,9 +12030,9 @@
     "traditional": "注意",
     "pinyin": "zhù yì",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pay attention to.png",
+    "localImage": "vocab_images/pay attention to.png",
     "searchTerm": "to pay attention to"
   },
   {
@@ -12078,9 +12078,9 @@
     "traditional": "安全",
     "pinyin": "ān quán",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/safe.png",
+    "localImage": "vocab_images/safe.png",
     "searchTerm": "safe"
   },
   {
@@ -12102,9 +12102,9 @@
     "traditional": "拌",
     "pinyin": "bàn",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/stir.png",
+    "localImage": "vocab_images/stir.png",
     "searchTerm": "to stir / mix"
   },
   {
@@ -12114,9 +12114,9 @@
     "traditional": "建議",
     "pinyin": "jiàn yì",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/suggest.png",
+    "localImage": "vocab_images/suggest.png",
     "searchTerm": "to suggest"
   },
   {
@@ -12270,9 +12270,9 @@
     "traditional": "社團",
     "pinyin": "shè tuán",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/club.png",
+    "localImage": "vocab_images/club.png",
     "searchTerm": "club / association"
   },
   {
@@ -12318,9 +12318,9 @@
     "traditional": "早",
     "pinyin": "zǎo",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/early.png",
+    "localImage": "vocab_images/early.png",
     "searchTerm": "early"
   },
   {
@@ -12330,9 +12330,9 @@
     "traditional": "速食",
     "pinyin": "sù shí",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fast food.png",
+    "localImage": "vocab_images/fast food.png",
     "searchTerm": "fast food"
   },
   {
@@ -12450,9 +12450,9 @@
     "traditional": "讓",
     "pinyin": "ràng",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/let.png",
+    "localImage": "vocab_images/let.png",
     "searchTerm": "to let / allow"
   },
   {
@@ -12546,9 +12546,9 @@
     "traditional": "保護",
     "pinyin": "bǎo hù",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/protect.png",
+    "localImage": "vocab_images/protect.png",
     "searchTerm": "to protect"
   },
   {
@@ -12570,9 +12570,9 @@
     "traditional": "放下",
     "pinyin": "fàng xià",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/put down.png",
+    "localImage": "vocab_images/put down.png",
     "searchTerm": "put down"
   },
   {
@@ -12678,9 +12678,9 @@
     "traditional": "放",
     "pinyin": "fàng",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/store.png",
+    "localImage": "vocab_images/store.png",
     "searchTerm": "to store / leave at"
   },
   {
@@ -12786,9 +12786,9 @@
     "traditional": "生氣",
     "pinyin": "shēng qì",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get angry at.png",
+    "localImage": "vocab_images/get angry at.png",
     "searchTerm": "to get angry at"
   },
   {
@@ -12822,9 +12822,9 @@
     "traditional": "英文",
     "pinyin": "yīng wén",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/english language.png",
+    "localImage": "vocab_images/english language.png",
     "searchTerm": "english language"
   },
   {
@@ -12918,9 +12918,9 @@
     "traditional": "起床",
     "pinyin": "qǐ chuáng",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get out of bed.png",
+    "localImage": "vocab_images/get out of bed.png",
     "searchTerm": "to get out of bed"
   },
   {
@@ -12978,9 +12978,9 @@
     "traditional": "急著",
     "pinyin": "jí zhe",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/in a hurry to.png",
+    "localImage": "vocab_images/in a hurry to.png",
     "searchTerm": "in a hurry to"
   },
   {
@@ -13038,9 +13038,9 @@
     "traditional": "運氣",
     "pinyin": "yùn qì",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/luck.png",
+    "localImage": "vocab_images/luck.png",
     "searchTerm": "luck"
   },
   {
@@ -13122,9 +13122,9 @@
     "traditional": "節省",
     "pinyin": "jié shěng",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/save.png",
+    "localImage": "vocab_images/save.png",
     "searchTerm": "to save (economize)"
   },
   {
@@ -13146,9 +13146,9 @@
     "traditional": "傳",
     "pinyin": "chuán",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/send.png",
+    "localImage": "vocab_images/send.png",
     "searchTerm": "to send (text/email)"
   },
   {
@@ -13374,9 +13374,9 @@
     "traditional": "不同",
     "pinyin": "bù tóng",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/different.png",
+    "localImage": "vocab_images/different.png",
     "searchTerm": "different"
   },
   {
@@ -13386,9 +13386,9 @@
     "traditional": "討厭",
     "pinyin": "tǎo yàn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dislike.png",
+    "localImage": "vocab_images/dislike.png",
     "searchTerm": "to dislike"
   },
   {
@@ -13422,9 +13422,9 @@
     "traditional": "招待",
     "pinyin": "zhāo dài",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/entertain.png",
+    "localImage": "vocab_images/entertain.png",
     "searchTerm": "to entertain (guests)"
   },
   {
@@ -13434,9 +13434,9 @@
     "traditional": "整天",
     "pinyin": "zhěng tiān",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/entire day.png",
+    "localImage": "vocab_images/entire day.png",
     "searchTerm": "an entire day"
   },
   {
@@ -13446,9 +13446,9 @@
     "traditional": "全家",
     "pinyin": "quán jiā",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the entire family.png",
+    "localImage": "vocab_images/the entire family.png",
     "searchTerm": "the entire family"
   },
   {
@@ -13494,9 +13494,9 @@
     "traditional": "目的",
     "pinyin": "mù dì",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/goal.png",
+    "localImage": "vocab_images/goal.png",
     "searchTerm": "goal / objective"
   },
   {
@@ -13506,9 +13506,9 @@
     "traditional": "畢業",
     "pinyin": "bì yè",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/graduate.png",
+    "localImage": "vocab_images/graduate.png",
     "searchTerm": "to graduate"
   },
   {
@@ -13530,9 +13530,9 @@
     "traditional": "聽見",
     "pinyin": "tīng jiàn",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hear.png",
+    "localImage": "vocab_images/hear.png",
     "searchTerm": "to hear"
   },
   {
@@ -13566,9 +13566,9 @@
     "traditional": "教師",
     "pinyin": "jiào shī",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/instructor.png",
+    "localImage": "vocab_images/instructor.png",
     "searchTerm": "instructor"
   },
   {
@@ -13578,9 +13578,9 @@
     "traditional": "國際",
     "pinyin": "guó jì",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/international.png",
+    "localImage": "vocab_images/international.png",
     "searchTerm": "international"
   },
   {
@@ -13638,9 +13638,9 @@
     "traditional": "越來越",
     "pinyin": "yuè lái yuè",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/more and more.png",
+    "localImage": "vocab_images/more and more.png",
     "searchTerm": "more and more"
   },
   {
@@ -13698,9 +13698,9 @@
     "traditional": "想起",
     "pinyin": "xiǎng qǐ",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/recall.png",
+    "localImage": "vocab_images/recall.png",
     "searchTerm": "to recall"
   },
   {
@@ -13710,9 +13710,9 @@
     "traditional": "徵求",
     "pinyin": "zhēng qiú",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/seek.png",
+    "localImage": "vocab_images/seek.png",
     "searchTerm": "to seek (applications)"
   },
   {
@@ -13746,9 +13746,9 @@
     "traditional": "留",
     "pinyin": "liú",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/stay.png",
+    "localImage": "vocab_images/stay.png",
     "searchTerm": "to stay / remain"
   },
   {
@@ -13770,9 +13770,9 @@
     "traditional": "聲調",
     "pinyin": "shēng diào",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/tones.png",
+    "localImage": "vocab_images/tones.png",
     "searchTerm": "tones"
   },
   {
@@ -13818,9 +13818,9 @@
     "traditional": "又",
     "pinyin": "yòu",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/again.png",
+    "localImage": "vocab_images/again.png",
     "searchTerm": "again"
   },
   {
@@ -13830,9 +13830,9 @@
     "traditional": "年紀",
     "pinyin": "nián jì",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/age.png",
+    "localImage": "vocab_images/age.png",
     "searchTerm": "age"
   },
   {
@@ -13866,9 +13866,9 @@
     "traditional": "慶祝",
     "pinyin": "qìng zhù",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/celebrate.png",
+    "localImage": "vocab_images/celebrate.png",
     "searchTerm": "to celebrate"
   },
   {
@@ -13938,9 +13938,9 @@
     "traditional": "文化",
     "pinyin": "wén huà",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/culture.png",
+    "localImage": "vocab_images/culture.png",
     "searchTerm": "culture"
   },
   {
@@ -13962,9 +13962,9 @@
     "traditional": "睡著",
     "pinyin": "shuì zháo",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fall asleep.png",
+    "localImage": "vocab_images/fall asleep.png",
     "searchTerm": "to fall asleep"
   },
   {
@@ -14202,9 +14202,9 @@
     "traditional": "平安",
     "pinyin": "píng ān",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/peaceful.png",
+    "localImage": "vocab_images/peaceful.png",
     "searchTerm": "peaceful / safe"
   },
   {
@@ -14214,9 +14214,9 @@
     "traditional": "脫",
     "pinyin": "tuō",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take off.png",
+    "localImage": "vocab_images/take off.png",
     "searchTerm": "to take off (clothes)"
   },
   {
@@ -14226,9 +14226,9 @@
     "traditional": "河邊",
     "pinyin": "hé biān",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/riverside.png",
+    "localImage": "vocab_images/riverside.png",
     "searchTerm": "riverside"
   },
   {
