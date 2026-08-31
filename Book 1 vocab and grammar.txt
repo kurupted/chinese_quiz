@@ -1,0 +1,705 @@
+from https://yakyacker.com/learn-trad-chinese/contemporary-chinese-book-1/
+
+Book 1 Vocabulary List:
+
+
+English Traditional Pinyin Lesson
+America	美國	Měi guó	1
+a bowl of	碗	wǎn	1
+to be called (named)	叫	jiào	1
+clean	乾淨	gān jìng	1
+coffee	咖啡	kā fēi	1
+doctor	醫生	yī shēng	1
+easy to	好	hǎo	1
+downstairs	樓下	lóu xià	1
+he, him	他	tā	1
+How are you? Hello.	你好	nǐ hǎo	1
+I, me	我	wǒ	1
+I'm sorry	對不起	duì bù qǐ	1
+Japan	日本	Rì běn	1
+light repast, snack	小吃	xiǎo chī	1
+a man from Japan	田中誠一	Tián Zhōng Chéng Yī	1
+a man from Taiwan	李明華	Lǐ Míng Huá	1
+to miss (someone)	想	xiǎng	1
+Mr.	先生	xiān shēng	1
+not	不	bù	1
+not	不	bù	1
+only, merely	就	jiù	1
+realization particle	啊	a	1
+person / people	人	rén	1
+to pick someone up	接	jiē	1
+please come in	請進	qǐng jìn	1
+sentence-final particle (question)	嗎	ma	1
+sentence-final particle	呢	ne	1
+so (very)	很	hěn	1
+to be surnamed	姓	xìng	1
+Taiwan	臺灣	Tái wān	1
+tea	茶	chá	1
+teacher	老師	lǎo shī	1
+telephone	電話	diàn huà	1
+(more…) than	比	bǐ	1
+Thank you	謝謝	xiè xie	1
+That's right	是啊	shì a	1
+vacant / empty	空	kōng	1
+to want to	要	yào	1
+we / us	我們	wǒ men	1
+welcome	歡迎	huān yíng	1
+what	什麼	shén me	1
+which	哪	nǎ	1
+a woman from Taiwan	張怡君	Zhāng Yí Jūn	1
+a woman from Vietnam	陳月美	Chén Yuè Měi	1
+yes	是的	shì de	1
+you	你	nǐ	1
+you (plural)	你們	nǐ men	1
+You're welcome	不客氣	bù kè qì	1
+all, both	都	dōu	2
+aunt (friend’s mother)	伯母	bó mǔ	2
+bathroom	洗手間	xǐ shǒu jiān	2
+because	因為	yīn wèi	2
+book	書	shū	2
+but, however	可是	kě shì	2
+family members	家人	jiā rén	2
+from	從	cóng	2
+good-looking	好看	hǎo kàn	2
+to have	有	yǒu	2
+High Speed Rail (HSR)	高鐵	gāo tiě	2
+hour	小時	xiǎo shí	2
+how many	幾	jǐ	2
+to make a phone call	打電話	dǎ diàn huà	2
+a man from the US	王開文	Wáng Kāi Wén	2
+may (permission)	可以	kě yǐ	2
+measure word for days	天	tiān	2
+Miss / Ms.	小姐	xiǎo jiě	2
+modification marker	的	de	2
+comparatively more	比較	bǐ jiào	2
+name	名字	míng zì	2
+OK (agreeing)	好的	hǎo de	2
+old	舊	jiù	2
+phone particle	喂	wéi	2
+poor, bad	可憐	kě lián	2
+to read	看書	kàn shū	2
+sisters	姐妹	jiě mèi	2
+to sit	坐	zuò	2
+to take a photo	照相	zhào xiàng	2
+today	今天	jīn tiān	2
+tradition / customs	傳統	chuán tǒng	2
+to try	試	shì	2
+Which country?	哪國	nǎ guó	2
+you (honorific)	您	nín	2
+younger sister	妹妹	mèi mei	2
+also	也	yě	3
+and, as well as	和	hé	3
+baseball	棒球	bàng qiú	3
+basketball	籃球	lán qiú	3
+cheap, inexpensive	便宜	pián yi	3
+cold	冷	lěng	3
+to cook	做飯	zuò fàn	3
+could (possibility)	可能	kě néng	3
+dessert	甜點	tián diǎn	3
+disposal marker	把	bǎ	3
+to eat	吃	chī	3
+everyone	大家	dà jiā	3
+extra fine noodles	麵線	miàn xiàn	3
+to feel, to think	覺得	jué de	3
+to get settled down / get used to	習慣	xí guàn	3
+How about it? / What do you think?	怎麼樣	zěn me yàng	3
+How about…? How does that sound?	好不好	hǎo bù hǎo	3
+interesting, fun	好玩	hǎo wán	3
+to kick	踢	tī	3
+to laugh, smile	笑	xiào	3
+to like	喜歡	xǐ huān	3
+month (of a year)	月	yuè	3
+movie	電影	diàn yǐng	3
+music	音樂	yīn yuè	3
+now	現在	xiàn zài	3
+o’clock (to order / dot)	點	diǎn	3
+opportunity	機會	jī huì	3
+pharmacy / drugstore	藥局	yào jú	3
+to play (ball games)	打	dǎ	3
+to see / to watch	看	kàn	3
+sentence-final particle	啊	a	3
+sentence-final particle (suggestion)	吧	ba	3
+to swim	游泳	yóu yǒng	3
+to teach	教	jiāo	3
+that	那	nà	3
+to / toward	對	duì	3
+very	非常	fēi cháng	3
+to want / to think	想	xiǎng	3
+weekend	週末	zhōu mò	3
+a woman from the US	白如玉	Bái Rú Yù	3
+you (female)	妳	nǐ	3
+to access the internet / to use the internet	上網	shàng wǎng	4
+altogether	一共	yī gòng	4
+boy; male	男	nán	4
+cake	蛋糕	dàn gāo	4
+can / to be able to	能	néng	4
+certainly, of course	當然	dāng rán	4
+country	國家	guó jiā	4
+fine, well	好	hǎo	4
+to finish	結束	jié shù	4
+to hope	希望	xī wàng	4
+how much / how many	多少	duō shǎo	4
+hundred	百	bǎi	4
+scale (to weigh)	秤	chèng	4
+language center	語言中心	yǔ yán zhōng xīn	4
+measure word for bags/packages	包	bāo	4
+measure word for cell phones	支	zhī	4
+to meet (each other)	見面	jiàn miàn	4
+mom	媽媽	mā ma	4
+money	錢	qián	4
+new	新	xīn	4
+OK (enthusiastic)	好啊	hǎo a	4
+oily, greasy	油	yóu	4
+to sell	賣	mài	4
+sentence-final particle (certainty)	了	le	4
+small	小	xiǎo	4
+so	所以	suǒ yǐ	4
+steamed buns (with meat)	包子	bāo zi	4
+store-owner, boss	老闆	lǎo bǎn	4
+take out (food)	外帶	wài dài	4
+to take / to need	要	yào	4
+That's very kind of you	太客氣	tài kè qì	4
+therefore / so	所以	suǒ yǐ	4
+thousand	千	qiān	4
+to want / to need	要	yào	4
+who	誰	shéi	4
+a little	有一點	yǒu yī diǎn	5
+to be able to, can	會	huì	5
+beef	牛肉	niú ròu	5
+Bye. Take care.	慢走	màn zǒu	5
+comfortable	舒服	shū fú	5
+convenience store	便利商店	biàn lì shāng diàn	5
+correct, right	對	duì	5
+cup	杯	bēi	5
+dad	爸爸	bà ba	5
+delicious	好吃	hǎo chī	5
+to exercise	運動	yùn dòng	5
+few in number	少	shǎo	5
+hot	熱	rè	5
+library	圖書館	tú shū guǎn	5
+measure word for buildings	棟	dòng	5
+measure word for restaurants/shops	家	jiā	5
+medicine	藥	yào	5
+next year	明年	míng nián	5
+not bad	不錯	bù cuò	5
+not to look good	難看	nán kàn	5
+or	或是	huò shì	5
+really	真	zhēn	5
+to rent	租	zū	5
+right (side)	右邊	yòu biān	5
+say	說	shuō	5
+self	自己	zì jǐ	5
+shop, store	店	diàn	5
+soup, broth	湯	tāng	5
+stinky tofu	臭豆腐	chòu dòu fu	5
+ten thousand	萬	wàn	5
+to taste good	好喝	hǎo hē	5
+the same / alike	一樣	yī yàng	5
+to think	想	xiǎng	5
+tired	累	lèi	5
+well-known / famous	有名	yǒu míng	5
+xiaolongbao	小籠包	xiǎo lóng bāo	5
+yesterday	昨天	zuó tiān	5
+at	在	zài	6
+back	後面	hòu miàn	6
+class	課	kè	6
+continuously, all the way	一直	yī zhí	6
+to drink	喝	hē	6
+far	遠	yuǎn	6
+dormitory	宿舍	sù shè	6
+to flow	流	liú	6
+for here	內用	nèi yòng	6
+to give it a try	試試看	shì shì kàn	6
+to go out	出去	chū qù	6
+to have a meal	吃飯	chī fàn	6
+health center	健康中心	jiàn kāng zhōng xīn	6
+hear that	聽說	tīng shuō	6
+inside	裡面	lǐ miàn	6
+left (side)	左邊	zuǒ biān	6
+living room	客廳	kè tīng	6
+measure word for year	年	nián	6
+to microwave	微波	wéi bō	6
+most	最	zuì	6
+mountain	山	shān	6
+on a mountain	山上	shān shàng	6
+multi-storey building	大樓	dà lóu	6
+Hualien (city in Taiwan)	花蓮	Huā lián	6
+near	近	jìn	6
+not well	不好	bù hǎo	6
+good	好	hǎo	6
+to order (meals)	點	diǎn	6
+to pay	付	fù	6
+place	地方	dì fāng	6
+really must / definitely	一定	yī dìng	6
+scenery, landscape	風景	fēng jǐng	6
+school	學校	xué xiào	6
+side, next to	旁邊	páng biān	6
+store, shop	商店	shāng diàn	6
+a storey / floor	樓	lóu	6
+student	學生	xué shēng	6
+swimming pool	游泳池	yóu yǒng chí	6
+teahouse	茶館	chá guǎn	6
+the day after tomorrow	後天	hòu tiān	6
+these	這些	zhè xiē	6
+This is s/he speaking	我就是	wǒ jiù shì	6
+very	很	hěn	6
+where	哪裡	nǎ lǐ	6
+afternoon	下午	xià wǔ	7
+to ask	問	wèn	7
+bank	銀行	yín háng	7
+to begin, to start	開始	kāi shǐ	7
+brothers	兄弟	xiōng dì	7
+to be busy / engaged	有事	yǒu shì	7
+by the way	對了	duì le	7
+calligraphy	書法	shū fǎ	7
+cell phone	手機	shǒu jī	7
+Chinese last name (common in Taiwan)	林	Lín	7
+cuisine	菜	cài	7
+Excellent. Great.	太好了	tài hǎo le	7
+for (use)	用	yòng	7
+fragrant	香	xiāng	7
+to go/come to	到	dào	7
+Goodbye	再見	zài jiàn	7
+half	半	bàn	7
+to have free time	有空	yǒu kòng	7
+to have to, must	得	děi	7
+to be interesting	有意思	yǒu yì si	7
+don't (imperative)	別	bié	7
+KTV	KTV	KTV	7
+last year	去年	qù nián	7
+to look for	找	zhǎo	7
+many	多	duō	7
+May all your wishes come true	心想事成	xīn xiǎng shì chéng	7
+measure word for Chinese money	塊	kuài	7
+to meet / to see (someone)	找	zhǎo	7
+morning	早上	zǎo shàng	7
+next week	下個星期	xià gè xīng qī	7
+No problem	沒問題	méi wèn tí	7
+ocean	海	hǎi	7
+progressive marker	在	zài	7
+to receive	收到	shōu dào	7
+to sing	唱歌	chàng gē	7
+soccer	足球	zú qiú	7
+then	就	jiù	7
+when	時候	shí hou	7
+to write	寫	xiě	7
+about the same	差不多	chà bù duō	8
+ancient times	古代	gǔ dài	8
+to be	是	shì	8
+both … and …	又…又…	yòu…yòu…	8
+but, however	但是	dàn shì	8
+cable TV	有線電視	yǒu xiàn diàn shì	8
+character	字	zì	8
+Chinese language	中文	Zhōng wén	8
+a city in southwestern Taiwan (Tainan)	臺南	Tái nán	8
+to come	來	lái	8
+to be concerned about	關心	guān xīn	8
+fast	快	kuài	8
+to get	拿	ná	8
+to have fun	玩	wán	8
+here, this place	這裡	zhè lǐ	8
+hotel	旅館	lǚ guǎn	8
+house	房子	fáng zi	8
+how	怎麼	zěn me	8
+on the Internet	網路上	wǎng lù shàng	8
+mango	芒果	máng guǒ	8
+motorcycle / scooter	機車	jī chē	8
+National Palace Museum	故宮博物院	Gù gōng bó wù yuàn	8
+Oolong tea	烏龍茶	wū lóng chá	8
+restaurant	餐廳	cān tīng	8
+slow	慢	màn	8
+station	站	zhàn	8
+to take by / travel by	坐	zuò	8
+taxi	計程車	jì chéng chē	8
+tennis	網球	wǎng qiú	8
+that place / there	那裡	nà lǐ	8
+(train/bus) ticket	車票	chē piào	8
+completed action particle	了	le	8
+vicinity / nearby	附近	fù jìn	8
+will / be able to	會	huì	8
+with	跟	gēn	8
+approximately, about, probably	大概	dà gài	9
+date (day of month)	號	hào	9
+game, competition	比賽	bǐ sài	9
+to give	給	gěi	9
+go home	回家	huí jiā	9
+to have a holiday	放假	fàng jià	9
+home, house	家	jiā	9
+how long	多久	duō jiǔ	9
+if	要是	yào shì	9
+Maokong (tea area in Taipei)	貓空	Māo kōng	9
+Taitung (city in Taiwan)	臺東	Tái dōng	9
+night market	夜市	yè shì	9
+noon	中午	zhōng wǔ	9
+to plan to	打算	dǎ suàn	9
+rent (for a room/house)	房租	fáng zū	9
+she, her	她	tā	9
+should	應該	yīng gāi	9
+sometimes	有時候	yǒu shí hou	9
+special	特別	tè bié	9
+still / additionally	還	hái	9
+suggestion	建議	jiàn yì	9
+to take	拿	ná	9
+then	那麼	nà me	9
+toward / to	往	wǎng	9
+to treat sb to sth	請	qǐng	9
+to wander around	逛	guàng	9
+week	星期	xīng qī	9
+beautiful	美	měi	10
+before	以前	yǐ qián	10
+blue	藍色	lán sè	10
+classmate	同學	tóng xué	10
+classroom	教室	jiào shì	10
+convenient	方便	fāng biàn	10
+five	五	wǔ	10
+for, on behalf of	替	tì	10
+gate, entrance	門口	mén kǒu	10
+happy	開心	kāi xīn	10
+to have a taste, try it	吃吃看	chī chī kàn	10
+hot (spicy)	辣	là	10
+large	大	dà	10
+later / wait a moment	等一下	děng yī xià	10
+a man from Honduras	馬安同	Mǎ Ān Tóng	10
+measure word for minutes	分鐘	fēn zhōng	10
+only, merely	只	zhǐ	10
+recently	最近	zuì jìn	10
+sentence-final particle (guess)	吧	ba	10
+short (height)	矮	ǎi	10
+to stay / live	住	zhù	10
+sweet	甜	tián	10
+to take (pictures)	拍	pāi	10
+tall	高	gāo	10
+this	這	zhè	10
+tomorrow	明天	míng tiān	10
+watermelon	西瓜	xī guā	10
+to wear / put on	穿	chuān	10
+why	為什麼	wèi shén me	10
+wind	風	fēng	10
+yellow	黃色	huáng sè	10
+younger brother	弟弟	dì di	10
+already	已經	yǐ jīng	11
+to arrive	到	dào	11
+business	生意	shēng yì	11
+China	中國	Zhōng guó	11
+fruit	水果	shuǐ guǒ	11
+gift, present	禮物	lǐ wù	11
+however, but	不過	bù guò	11
+to install	裝	zhuāng	11
+kitchen	廚房	chú fáng	11
+to know	知道	zhī dào	11
+to learn, study	學	xué	11
+to listen	聽	tīng	11
+lunch	午餐	wǔ cān	11
+measure word for flat objects (paper, tickets)	張	zhāng	11
+measure word for houses/rooms	間	jiān	11
+Not a problem	沒關係	méi guān xì	11
+older brother	哥哥	gē ge	11
+parents	父母	fù mǔ	11
+problem, question	問題	wèn tí	11
+really, truly	真的	zhēn de	11
+to remember	記得	jì de	11
+to return to one's country	回國	huí guó	11
+to ride	騎	qí	11
+room	房間	fáng jiān	11
+to seem / appear to be	好像	hǎo xiàng	11
+sorry / excuse me	不好意思	bù hǎo yì si	11
+suite (apartment)	套房	tào fáng	11
+supermarket	超市	chāo shì	11
+then / in that case	那	nà	11
+they (people only)	他們	tā men	11
+this kind (of)	這樣	zhè yàng	11
+to (arrive at)	到	dào	11
+typhoon	颱風	tái fēng	11
+to wait for	等	děng	11
+to walk	走路	zǒu lù	11
+water heater	熱水器	rè shuǐ qì	11
+wife	太太	tài tai	11
+afterwards	以後	yǐ hòu	12
+again	再	zài	12
+to buy	買	mǎi	12
+to come back	回來	huí lái	12
+could (possibility)	可以	kě yǐ	12
+do what	做什麼	zuò shén me	12
+to decide	決定	jué dìng	12
+egg	蛋	dàn	12
+to finish class	下課	xià kè	12
+to forget	忘（了）	wàng (le)	12
+general measure word	個	gè	12
+to give someone a ride	載	zài	12
+to go	去	qù	12
+to go to class	上課	shàng kè	12
+to go to work	上班	shàng bān	12
+grades	成績	chéng jī	12
+hard to, difficult to	難	nán	12
+homework	功課	gōng kè	12
+job, work	工作	gōng zuò	12
+keep it up / cheer up	加油	jiā yóu	12
+language	語言	yǔ yán	12
+last time	上次	shàng cì	12
+to be located at	在	zài	12
+long time no see	好久不見	hǎo jiǔ bú jiàn	12
+measure word for times/occurrences	次	cì	12
+to need	需要	xū yào	12
+scholarship	獎學金	jiǎng xué jīn	12
+to spend (time/money)	花	huā	12
+to study (recite)	念	niàn	12
+to study	念書	niàn shū	12
+things / stuff	東西	dōng xi	12
+time	時間	shí jiān	12
+too	太	tài	12
+to travel	旅行	lǚ xíng	12
+TV	電視	diàn shì	12
+to work	工作	gōng zuò	12
+a little, some	一點	yī diǎn	13
+approximately	左右	zuǒ yòu	13
+birthday	生日	shēng rì	13
+busy	忙	máng	13
+to celebrate	慶祝	qìng zhù	13
+Da-an (district name)	大安	Dà ān	13
+with enthusiasm	熱心	rè xīn	13
+evening, night	晚上	wǎn shàng	13
+expensive	貴	guì	13
+Don't mention it / My pleasure	哪裡	nǎ lǐ	13
+first	先	xiān	13
+friend	朋友	péng yǒu	13
+in the future	以後	yǐ hòu	13
+happy	快樂	kuài lè	13
+Happy Birthday	生日快樂	shēng rì kuài lè	13
+How come?	怎麼	zěn me	13
+landlord	房東	fáng dōng	13
+long (time)	久	jiǔ	13
+MRT	捷運	jié yùn	13
+May everything go your way	萬事如意	wàn shì rú yì	13
+most (of), mostly	大部分	dà bù fèn	13
+next time	下次	xià cì	13
+No need to stand on formalities	不必客氣	bú bì kè qì	13
+or (in a question)	還是	hái shì	13
+painful	痛	tòng	13
+pretty	漂亮	piào liang	13
+red maple leaves	紅葉	hóng yè	13
+Spain	西班牙	Xī bān yá	13
+Spanish language	西班牙文	Xī bān yá wén	13
+and then	再	zài	13
+this year	今年	jīn nián	13
+to (give to)	給	gěi	13
+two	兩	liǎng	13
+young	年輕	nián qīng	13
+annoying	討厭	tǎo yàn	14
+autumn (season)	秋天	qiū tiān	14
+bus	公共汽車（公車）	gōng gòng qì chē (gōng chē)	14
+to be careful / take care	小心	xiǎo xīn	14
+clothes	衣服	yī fú	14
+even (more)	更	gèng	14
+every, each	每	měi	14
+to exchange	交換	jiāo huàn	14
+last month	上個月	shàng gè yuè	14
+minute	分	fēn	14
+New Year	新年	xīn nián	14
+New York	紐約	Niǔ yuē	14
+news	新聞	xīn wén	14
+noodles	麵	miàn	14
+older sister	姐姐	jiě jie	14
+outside	外面	wài miàn	14
+rain	雨	yǔ	14
+to rain	下雨	xià yǔ	14
+red	紅色	hóng sè	14
+scary	可怕	kě pà	14
+to ski	滑雪	huá xuě	14
+to snow	下雪	xià xuě	14
+soon	快	kuài	14
+spring (season)	春天	chūn tiān	14
+to stop	停	tíng	14
+summer (season)	夏天	xià tiān	14
+this time	這次	zhè cì	14
+together	一起	yī qǐ	14
+tram / train	火車	huǒ chē	14
+tuition	學費	xué fèi	14
+Vietnam	越南	Yuè nán	14
+weather	天氣	tiān qì	14
+wet	濕	shī	14
+will not do	不行	bù xíng	14
+will / be going to	要	yào	14
+window	窗戶	chuāng hù	14
+winter (season)	冬天	dōng tiān	14
+to wish (sb happiness, luck)	祝	zhù	14
+Yu Shan (Mount Jade)	玉山	Yù Shān	14
+a bit earlier	早一點	zǎo yī diǎn	15
+(a) few	幾	jǐ	15
+appetite	胃口	wèi kǒu	15
+to catch/have a cold	感冒	gǎn mào	15
+company	公司	gōng sī	15
+complement marker	得	de	15
+dinner	晚飯	wǎn fàn	15
+to do, to engage in	做	zuò	15
+the end of December	十二月底	shí èr yuè dǐ	15
+to fall ill	生病	shēng bìng	15
+don't (imperative)	別	bié	15
+film	片	piàn	15
+front	前面	qián miàn	15
+girl; female	女	nǚ	15
+to go back, return	回去	huí qù	15
+to accompany	陪	péi	15
+to have a fever	發燒	fā shāo	15
+head	頭	tóu	15
+health	健康	jiàn kāng	15
+hour (spoken)	鐘頭	zhōng tóu	15
+ice	冰	bīng	15
+to have inflammation	發炎	fā yán	15
+insurance	保險	bǎo xiǎn	15
+It would be best / should	最好	zuì hǎo	15
+It's not necessary	不用了	bù yòng le	15
+May I ask you… / Excuse me…	請問	qǐng wèn	15
+measure word for pieces of food	塊	kuài	15
+medium	中	zhōng	15
+to fear / not like	怕	pà	15
+often	常	cháng	15
+to order (in advance)	訂	dìng	15
+pork knuckles	豬腳	zhū jiǎo	15
+to see a doctor	看病	kàn bìng	15
+to sleep (noun form)	睡覺	shuì jiào	15
+to sleep	睡	shuì	15
+snot / runny nose	鼻水	bí shuǐ	15
+stomach, abdomen	肚子	dù zi	15
+to take a rest	休息	xiū xí	15
+throat	喉嚨	hóu lóng	15
+to throw up / vomit	吐	tù	15
+water	水	shuǐ	15
+What's wrong?	怎麼了	zěn me le	15
+
+
+
+
+
+
+
+
+Book 1 Grammar List:
+
+Chapter
+Grammar Point (Traditional Chinese)
+Pinyin
+English Translation
+Example 1
+Example 2
+Example 3
+Explanation
+
+1	動詞 + 不 + 動詞	A-not-A form	Verb-not-Verb question pattern	王先生要不要喝咖啡？	這是不是烏龍茶？	臺灣人喜不喜歡喝茶？	The A-not-A pattern forms neutral yes/no questions by repeating the verb and inserting 不 between the two forms to ask whether something is or is not the case.
+1	嗎	ma	Question particle (yes/no)	你好嗎？	你來接我們嗎？	他是日本人嗎？	嗎 is added to the end of a statement to turn it into a yes/no question without changing the word order.
+1	肯定回答（重複動詞）	kěndìng huídá (chóngfù dòngcí)	Affirmative reply (repeat the verb)	是，他是臺灣人。	喜歡，我喜歡臺灣。	是的，我是學生。	Affirmative answers are formed by repeating the main verb from the question, sometimes followed by a complete sentence.
+1	不 + 動詞（否定回答）	bù + dòngcí	Negative reply pattern	不是，他不是李先生。	不，他不喝。	不是，李小姐不是臺灣人。	Negative replies are formed by placing 不 before the verb. A short negative form often appears first, followed by a full negative sentence.
+1	很	hěn	Modification marker (“very”)	我很好。	他很喜歡臺灣。	臺灣人很喜歡喝烏龍茶。	很 is placed before state verbs to modify them and commonly appears even when “very” is not strongly emphasized.
+1	呢	ne	Contrastive / follow-up question particle	我要喝茶，你呢？	他不喝咖啡，陳小姐呢？	王先生是日本人，李先生呢？	呢 is used to form a follow-up or contrastive question, often meaning “what about…?” after a statement.
+2	的（表示所有）	de	Possessive particle	我的書	你們的照片	李老師的姐姐	的 is placed between the possessor and the possessed noun to show ownership or possession. Structure: Noun + 的 + Noun.
+2	的（修飾語標記）	de	Modifier marker	漂亮的小姐	好喝的咖啡	很好看的房子	的 links a modifier (adjective or descriptive phrase) to a noun. Structure: Modifier + 的 + Noun. In casual speech, 的 may sometimes be omitted in fixed expressions.
+2	有	yǒu	To have; possession	我有很多照片。	他們有好喝的茶。	我有書。	有 is a verb meaning “to have” and expresses possession or ownership. Structure: Subject + 有 + Object.
+2	沒有（有的否定）	méiyǒu	To not have	他沒有房子。	我沒有書。	我沒有兄弟姐妹。	有 is always negated with 沒有, not 不. Structure: Subject + 沒有 + Object.
+2	有沒有（A-not-A 問句）	yǒu méiyǒu	Have or not have (A-not-A form)	你有沒有書？	他有沒有房子？	你們有沒有照片？	The A-not-A question form of 有 is 有沒有. It asks whether someone has something. Structure: Subject + 有沒有 + Object?
+2	都	dōu	All; both	我們都姓陳。	這兩個房子都是他的。	他的兄弟姐妹都很好看。	都 indicates totality, meaning “all” or “both.” It is an adverb placed after the noun it refers to and before the main verb. Structure: Noun + 都 + Verb Phrase.
+2	個	gè	General measure word	一個哥哥	幾個老師？	哪三個人？	個 is a common measure word used between a number (or determiner) and a noun. Structure: Number + Measure + Noun.
+2	張	zhāng	Measure word for flat objects	兩張好看的照片	幾張照片？	哪一張照片？	張 is used for flat objects such as photos or paper. It appears between the number and the noun. Structure: Number + Measure + Noun.
+2	數量結構	shùliàng jiégòu	Quantity structure	三個人	哪一張照片？	幾張照片？	Basic structure: Number + Measure + Noun. With determiners: Determiner + Number + Measure + Noun. When 哪 is followed by 一, the 一 is often omitted in speech.
+3	時間詞的位置	shíjiān cí de wèizhì	Placement of time words	我們今天去看電影。	週末他要去打籃球。	明天你想做什麼？	Time words usually appear before the verb phrase. They can appear after the subject (most common) or before the subject for emphasis. Larger time units come before smaller ones.
+3	去 + 動詞	qù + dòngcí	To go do something	我去打網球。	他去踢足球。	我們都去看電影。	去 followed by a verb phrase expresses intention or movement to do something. Structure: Subject + 去 + VP. Negation and auxiliaries appear before 去.
+3	主題句	zhǔtí jù	Topic-comment sentence	烏龍茶，臺灣人都喜歡喝。	哥哥、姐姐，我都沒有。	這張照片，我覺得很好看。	The topic is placed at the beginning of the sentence, followed by a comment about it. Structure: Topic + Comment.
+3	也	yě	Also; too	我也是美國人。	他也很漂亮。	他也不去。	也 is an adverb placed before the verb phrase. It means “also” or “too.” In negation, 也 comes before 不 or 沒.
+3	都	dōu	All; both	我們都是美國人。	他們都喜歡他。	臺灣人都喜歡喝茶。	都 is an adverb meaning “all” or “both.” It appears after the noun it refers to and before the verb phrase. It indicates totality.
+3	常	cháng	Often	我常打網球。	我常喝咖啡。	我常去踢足球。	常 is an adverb meaning “often.” It appears before the verb phrase. In negation, 常 follows 不.
+3	也 + 都 / 常	yě + dōu / cháng	Also + all / often	他們也都是日本人。	我們也都喜歡照相。	我也常喝咖啡。	When 也 occurs together with 都 or 常, 也 comes first. Structure: 也 + 都 / 常 + VP.
+3	吧	ba	Suggestion particle	我們去喝咖啡吧。	我們去看臺灣電影吧！	我們打網球吧！	吧 is placed at the end of a sentence to make a suggestion. It softens the tone and invites agreement.
+4	量詞：塊、杯、支、種	kuài, bēi, zhī, zhǒng	Measure words	一杯咖啡	十支手機	三個弟弟	A measure word is required between a number and a noun. Structure: Number + Measure + Noun. Different nouns require different measure words.
+4	指示詞 + 數量結構	zhǐshìcí + shùliàng jiégòu	Determiner + number + measure + noun	這兩杯熱咖啡一共多少錢？	那三支手機太舊了。	哪三個人？	Demonstratives 這、那、哪 come before the number and measure word. Structure: Determiner + Number + Measure + Noun.
+4	幫	bāng	On behalf of; for (someone)	請幫我微波包子。	請幫我照相。	請幫我買一杯咖啡。	幫 introduces the beneficiary of an action. Structure: 幫 + Person + Verb Phrase. In negation, 不 is placed before 幫.
+4	不 + 幫	bù bāng	Not help (negation placement)	他不幫我微波包子。	他不幫我買咖啡。	他不幫我照相。	The negation marker 不 is placed before 幫, not before the main verb. Structure: Subject + 不 + 幫 + Person + VP.
+4	的（省略名詞）	de (shěnglüè míngcí)	De-phrase with omitted head noun	我要新的。	不要舊的。	他買大的。	When the noun is clear from context, the head noun after 的 can be omitted. Structure: Modifier + 的 (implied noun).
+4	能	néng	Can; be able to	新手機能上網。	那支手機能照相。	我能去嗎？	能 expresses ability or capability. Structure: Subject + 能 + Verb Phrase.
+4	不 + 能	bù néng	Cannot	我的手機不能上網。	誰的手機不能照相？	我不能去。	In negation, 不 is placed before 能. Structure: Subject + 不 + 能 + VP.
+4	多（數字後）	duō	More than; over	二十多個人	五百多個包子	三萬四千多塊錢	多 placed after a number means “more than” or “over.” It indicates an unspecified additional amount. For larger numbers, it implies a range below the next ten, hundred, or thousand.
+4	多（省略名詞）	duō	More than (noun omitted)	五塊多（錢）	一塊多（錢）	十塊多（錢）	When the noun is understood from context, it may be omitted after 多. Structure: Number + Measure + 多 (implied noun).
+5	有一點	yǒu yìdiǎn	A little; slightly (negative nuance)	這碗牛肉麵有一點辣。	那支手機有一點貴。	他的房子有一點舊。	有一點 + state verb expresses a slightly negative evaluation. It cannot be used with clearly positive adjectives. There is no negative form of this pattern.
+5	得（補語標記）	de	Complement marker	他學中文學得不錯。	你做得很好。	這種手機賣得很好。	得 follows a verb and introduces a complement describing the result or degree of the action. Structure: Verb + 得 + Complement.
+5	動詞重複 + 得	dòngcí chóngfù + de	Verb repetition with complement	你做飯做得真好吃。	我的老師教中文教得很好。	他唱歌唱得很好聽。	When the object directly follows a transitive verb, the verb must be repeated before 得 + complement. Structure: V + Object + V + 得 + Complement.
+5	主題前置 + 得	zhǔtí qiánzhì + de	Topic fronting with complement	飯，他做得真好吃。	中文，你說得很好。	這道菜，他做得很好。	When the object is moved to the front as a topic, the verb is not repeated. Structure: Object + Subject + Verb + 得 + Complement.
+5	會	huì	To know how to; acquired skill	陳小姐會做飯。	他哥哥會踢足球。	他們都會游泳。	會 expresses learned or acquired ability. Structure: Subject + 會 + Verb.
+5	不會	bù huì	Cannot; not know how to	他的媽媽不會做飯。	我不會說中文。	我們都不會打棒球。	不會 negates 會. Structure: Subject + 不會 + Verb.
+5	會不會（A-not-A）	huì bù huì	Know how to or not	你會做甜點嗎？	你會不會說中文？	你的姐姐會不會做飯？	The A-not-A form of 會 is 會不會. It asks whether someone has a learned skill.
+5	到	dào	To; arrive at (destination marker)	他這個週末到臺灣來。	老師明天到臺北來。	明天到我家來吧！	到 indicates the destination of movement. Structure: Subject + 到 + Place + Motion Verb (來/去). It marks where someone is going or arriving.
+6	在（地方標記）	zài	Locative marker “at/in”	我在臺灣。	餐廳在宿舍的一樓。	我在宿舍裡面。	在 introduces the location of someone or something. Basic structure: Noun + 在 + Location. Location may be a place word or include localizers like 上、下、裡面、外面、旁邊、附近.
+6	有（存在句）	yǒu	Existential “there is/are”	我家附近有圖書館。	山上有兩家咖啡店。	樓下有一家書店。	Existential sentences express existence at a location. Structure: Location + 有 + Noun. It means “there is/are.”
+6	動詞重疊	dòngcí chóngdié	Verb reduplication (softened action)	我想去看看。	請教教我。	在家看看書。	Verb reduplication suggests a light, brief, or casual action. It softens requests and suggestions. Mostly monosyllabic action verbs can be reduplicated.
+6	動詞重疊（疑問句）	dòngcí chóngdié (yíwènjù)	Verb reduplication in questions	請幫幫我，好不好？	你要不要在家看看書？	你可不可以教教我？	In questions, reduplication appears in tag questions or with auxiliary verbs. It makes requests more polite and moderate.
+6	不是（否定）	bú shì	It is not that…	我覺得不是很貴。	他不是點大的牛肉麵。	餐廳不是在學校裡面。	不是 negates a statement or assumption. It corrects or denies what was said or implied, not simply negating a verb like 不 or 沒.
+6	活動地點（在 / 到）	huódòng dìdiǎn (zài / dào)	Location of an activity	我爸爸在家做飯。	他到七樓的教室上網。	我們在這家餐廳吃牛肉麵。	在 and 到 introduce where an activity takes place. Structure: Subject + 在/到 + Location + Verb Phrase. In negation, 不 is placed before 在 or 到.
+7	事件的時間與地點	shìjiàn de shíjiān yǔ dìdiǎn	Time and place of events	我昨天晚上到我家附近的咖啡店喝咖啡。	我們這個週末去圖書館看書。	你們明天早上十一點到我家來吃牛肉麵。	Time expressions usually come before place expressions, and both appear before the verb phrase. Typical order: Subject + Time + Place + Verb Phrase. Negation goes before the verb.
+7	從…到…	cóng… dào…	From… to…	我從早上十點上到下午一點。	他從圖書館到那家餐廳去吃飯。	從這棟大樓到那家KTV不遠。	從 marks the starting point and 到 marks the ending point in time or space. Structure: 從 + A + 到 + B. Used for both time ranges and movement.
+7	在（進行式）	zài	Progressive / ongoing action	李老師在上課。	你看！陳先生在唱歌。	昨天下午五點我在做飯。	在 before a verb indicates an action in progress. Structure: Subject + 在 + Verb Phrase. Negation uses 不是在 when correcting, or 不在 depending on meaning.
+7	每…都…	měi… dōu…	Each and every	他妹妹每天都有空。	每一棟大樓都可以上網。	他家裡每個人都會做甜點。	每 introduces “each/every,” and 都 emphasizes totality. Structure: 每 + (Measure) + Noun + 都 + Verb Phrase.
+7	每…都…（否定差異）	měi… dōu… (negation difference)	Not every / none	他朋友不是每天都去看電影。	我媽媽每個週末都沒有空。	他兄弟姐妹不是每個人都喜歡打球。	Negation placement changes meaning. 每…都不… means none; 不是每…都… means not all. Position of 不 or 不是 determines scope.
+7	可以	kěyǐ	Can; may (permission)	你們可以來我家打籃球。	我可以買這支手機。	你可以叫我小馬。	可以 expresses permission or possibility. Structure: Subject + 可以 + Verb Phrase.
+7	不可以	bù kěyǐ	Not allowed	你不可以在圖書館吃東西。	我不可以買這支手機。	你不可以在這裡照相。	不可以 expresses prohibition. Structure: Subject + 不可以 + Verb Phrase.
+7	可不可以（疑問）	kě bù kěyǐ	May I / Can I	我可不可以去看比賽？	我可不可以買新手機？	這本書我可以看看嗎？	The A-not-A form 可不可以 asks for permission politely. It is common in spoken Mandarin.
+8	跟	gēn	With (companionship)	我常跟哥哥去看棒球比賽。	我跟朋友在餐廳吃飯。	我週末要跟同學去參觀故宮。	跟 expresses doing something together with someone. Structure: Subject + 跟 + Person + Verb Phrase. In negation, 不 comes before 跟.
+8	怎麼	zěnme	How; in what way	你們怎麼去？	這個菜怎麼做？	這支新手機怎麼上網？	怎麼 asks about method or manner. It usually appears before the verb: 怎麼 + Verb.
+8	比較	bǐjiào	Relatively; comparatively	今天比較熱。	坐捷運比較快。	我最近比較沒有空。	比較 indicates a moderate or relative comparison, often without explicitly stating what it is compared to. It softens the degree of comparison.
+8	又…又…	yòu… yòu…	Both A and B	這家餐廳的菜又便宜又好吃。	坐高鐵又快又舒服。	我又想喝茶又想喝咖啡。	又…又… links two qualities or actions, meaning “both…and…”. Often used with adjectives or verbs to describe dual characteristics.
+8	比	bǐ	Comparison (A is more… than B)	山上的風景比這裡漂亮。	我們學校比他們學校遠。	坐捷運比坐火車快。	比 introduces direct comparison. Structure: A + 比 + B + Adjective/Verb. The adjective is not preceded by 很.
+8	不比	bù bǐ	Not more than	我不比他高。	我的車不比他的貴。	坐公車不比坐計程車快。	不比 indicates that A is not more than B. It negates the comparison rather than the adjective itself. Structure: A + 不比 + B + Adj.
+9	時間點（Time-When）	shíjiān diǎn	Time-when expressions	去年我去日本旅行。	今天我很忙。	明天我要上課。	Time-when expressions indicate a specific point in time (past, present, future). They usually appear before the verb phrase and answer “when?”.
+9	時間長度（Time-Duration）	shíjiān chángdù	Time-duration expressions	我去花蓮玩一個星期。	我要看三個鐘頭。	我想學中文一年半。	Time-duration expresses how long an action lasts. Structure: Subject + Verb + Duration. It answers “how long?”.
+9	動詞 + 時間長度	dòngcí + shíjiān chángdù	Verb followed by duration	我去日本旅行一個多星期。	我想坐高鐵去臺南玩兩天。	我們學校要上四年。	Duration follows the verb directly. If the verb has an object, the verb must be repeated before the duration.
+9	動詞重複 + 時間長度	dòngcí chóngfù + shíjiān chángdù	Verb repetition with duration	他教中文教一年。	我學書法學兩天。	我學中文學九個月。	When the verb takes an object, structure becomes: Subject + Verb + Object + Verb + Duration.
+9	時間長度 + 否定	shíjiān chángdù + fǒudìng	Duration before negation	他兩天不能來上課。	我兩個星期不能上網。	她一個月不能上課。	When expressing how long something will not happen, the duration appears before the negation marker.
+9	…的時候	de shíhou	When; at the time of	看風景的時候，我覺得很舒服。	放假的時候，我喜歡逛夜市。	你有空的時候，請到我家來玩。	Verb/Clause + 的時候 indicates the time an action happens. It can refer to past, present, or future situations.
+9	有時候…有時候…	yǒu shíhou… yǒu shíhou…	Sometimes… and sometimes…	我有時候吃中國菜，有時候吃越南菜。	我有時候看書，有時候上網。	放假的時候，我有時候在家寫功課，有時候出去玩。	This pattern describes alternating or varying situations within the same context. It highlights contrast or variation.
+9	要是…就…	yàoshi… jiù…	If… then…	要是我有錢，我就買大房子。	要是我有空，我就去KTV。	要是下雨，我就不去。	要是 introduces a condition, and 就 introduces the result. It expresses hypothetical or conditional relationships.
+10	V + 看	kàn	Try and see	這杯咖啡很香，你喝喝看。	那家餐廳很好吃，我想去吃吃看。	這個週末我想去逛逛看。	V + 看 softens the action and suggests “try and see what happens.” It expresses experimentation or curiosity. Often the verb is reduplicated before 看.
+10	狀態動詞重疊（強調）	zhuàngtài dòngcí chóngdié	Reduplicated state verbs for emphasis	牛肉湯香香的。	熱咖啡真香香的。	那裡有很多高高的樓。	Reduplicating state verbs intensifies the quality and adds a vivid, descriptive tone. Common in spoken language.
+10	子句修飾名詞	zǐjù xiūshì míngcí	Clause as noun modifier	你說的水果是西瓜。	他喝的茶是烏龍茶。	穿紅衣的這個人是老闆。	A clause can modify a noun using 的. Structure: Clause + 的 + Noun. It functions like a relative clause in English.
+10	不 + 子句 + 的	bù + zǐjù + de	Negative relative clause	不能上網的手機很不方便。	不去逛夜市的人可以去喝茶。	不來上課的同學不能去看比賽。	Negation appears inside the modifying clause before 的. It describes people or things that do not perform an action.
+10	句尾了（情況改變）	jùwěi le	Sentential 了 (change of state)	咖啡貴了。	我會打網球了。	現在有手機的人多了。	Sentence-final 了 indicates a change of situation or new state. It often implies “now” compared to before.
+10	不…了	bù… le	No longer	我媽媽不喝咖啡了。	他不想買那支手機了。	我們不想去參觀故宮了。	不 + Verb + 了 expresses that a previous habit or intention has stopped. It marks a change from before.
+10	因為…所以…	yīnwèi… suǒyǐ…	Because… therefore…	因為火車太慢了，所以我想坐高鐵。	因為我不會做飯，所以常去餐廳吃飯。	因為現在去玩的人比較少，所以旅館不貴。	因為 introduces the cause, and 所以 introduces the result. Both clauses together clearly mark cause and effect. Sometimes 所以 can be omitted in speech.
+11	來 + 動詞	lái + dòngcí	Come to do something	我來學中文。	他來打籃球。	我跟朋友來逛夜市。	來 followed by a verb expresses purpose: coming somewhere in order to do something. Structure: Subject + 來 + Verb Phrase.
+11	不來	bù lái	Not come to do something	我明天有事不來上課。	他不來吃晚飯。	她不來看電影。	Negation is formed by placing 不 before 來. It means someone will not come to do something.
+11	就（很快）	jiù	Sooner than expected; quickly	走路十分鐘就到了。	很快就到了。	他等一下就來。	就 emphasizes that something happens earlier or faster than expected. It often suggests immediacy or short time.
+11	有（存在主語）	yǒu	Existential subject “there is someone who…”	有兩個學生來找你。	昨天有一個先生來裝有線電視。	外面有一個人在唱歌。	有 introduces the existence of someone or something performing an action. Structure: 有 + Noun + Verb Phrase.
+11	沒有（存在句否定）	méiyǒu	There is no…	這間沒有住人。	沒有人要跟我去。	沒有學生要去故宮。	Existential negation uses 沒有, not 不. Structure: 沒有 + Noun + Verb Phrase.
+11	有沒有（存在問句）	yǒu méiyǒu	Is there…?	有人在裡面看書嗎？	有沒有人想去KTV唱歌？	有沒有人要跟我去花蓮？	The A-not-A form 有沒有 asks about existence. It is used to ask if someone or something exists.
+11	會（能力 vs. 未來）	huì	Can / will	他會做飯。	我明天會去看他。	他明天不會去上課。	會 has two meanings: learned ability (“know how to”) and future likelihood (“will”). Context determines meaning.
+11	省略主語或受詞	shěnglüè zhǔyǔ huò shòucí	Omission of subject or object	請進。	要買什麼？	我姓王，叫凱文。	Subjects or objects can be omitted when understood from context or previously mentioned. Mandarin frequently drops predictable elements.
+12	先…再…	xiān… zài…	First…, then…	我想先吃晚飯再打電話。	明天我先去圖書館再去超市。	他打算先旅行再找工作。	先 introduces the first action, 再 introduces the second. Structure: Subject + 先 + V1 + 再 + V2. It emphasizes sequence of actions.
+12	是…的（強調句）	shì… de	It was… that… (focus construction)	他是昨天晚上到臺灣的。	我是坐捷運來學校的。	是我打電話給房東的。	是…的 emphasizes time, place, manner, or subject of a past event. It highlights specific details of a completed action.
+12	不是…的	bú shì… de	It was not… that…	他不是今天早上去美國的。	不是我打電話的。	我不是在圖書館看書的。	Negation of the focus construction places 不是 before the emphasized element. It denies a specific detail of the event.
+12	以後	yǐhòu	After; in the future	以後我都得上班。	回國以後我要找工作。	下課以後我去圖書館。	以後 can mean “after (an event)” or “in the future.” It may appear at the beginning or after a clause.
+12	好 + 動詞	hǎo + dòngcí	Pleasant / easy to do	這首歌好聽。	這家店的菜好吃。	這個字很好寫。	好 before a verb often means easy or pleasant to do. It describes subjective evaluation of experience.
+12	難 + 動詞	nán + dòngcí	Hard to do	中文難學。	這個字難寫。	這種工作難找。	難 + Verb means difficult to perform that action. It expresses difficulty rather than moral “badness.”
+12	不 + 好 / 難 + 動詞	bù + hǎo / nán + dòngcí	Not easy / not pleasant	便宜的咖啡不好喝。	這首歌不難唱。	這個地方不好找。	Negation modifies the adjective (好/難). 不好 V means not pleasant/easy; 不難 V means not difficult.
+13	一…就…	yī… jiù…	As soon as… then…	我一下課就回家。	他一回國就找工作。	妹妹一回去就打電話。	一 + Verb indicates the first action happens; 就 emphasizes the immediate result. It expresses “as soon as A happens, B happens.”
+13	動詞 + 了（完成）	dòngcí + le	Completed action marker	我買了三張票。	昨天我吃了很多東西。	他租了一個房子。	Verbal 了 marks a completed action. It focuses on the occurrence of the event, not change of state.
+13	不 vs. 沒（動詞否定）	bù vs. méi	Negation of action verbs	我不去圖書館。	我昨天沒打電話。	上星期我沒去KTV。	不 negates habitual actions or future intentions. 沒 negates completed past actions. Choice depends on time reference.
+13	不（狀態動詞否定）	bù	Negation of state verbs	今天不熱。	中文不難學。	我不舒服。	State verbs (adjectival verbs) are negated with 不. They describe conditions or qualities.
+13	還沒（過程未完成）	hái méi	Not yet	中文課還沒結束。	我還沒決定。	他還沒來。	還沒 expresses that something has not happened yet. It indicates incomplete process or expectation.
+13	疑問詞 + 都	yíwèncí + dōu	All-inclusive meaning	誰都喜歡旅行。	他什麼都想買。	他什麼時候都在上網。	Question words + 都 express “everyone,” “everything,” or “all the time.” It generalizes inclusively.
+13	疑問詞 + 也 + 不 / 沒	yíwèncí + yě + bù/méi	None; not any	誰也不喜歡。	我什麼也不想吃。	昨天我哪裡都沒去。	Question word + 也 + negation expresses “no one,” “nothing,” or “nowhere.” It creates total negation.
+13	多 / 少 + 動詞	duō / shǎo + dòngcí	More / less than usual	我應該多看書。	我應該少買東西。	他想多學一點中文。	多 or 少 before a verb expresses doing more or less than usual or expected. Often implies adjustment.
+13	是不是	shì bù shì	Is it true that…?	你是不是在等我？	那家餐廳是不是很有名？	你是不是剛旅行回來？	是不是 checks or confirms an assumption. It is softer than a direct yes/no question.
+13	跟…一樣	gēn… yíyàng	The same as	這支手機跟那支一樣。	我跟妹妹一樣高。	他跟我一樣喜歡游泳。	跟 + Noun + 一樣 expresses similarity or equality. It compares two things as being the same.
+13	不一樣	bù yíyàng	Different	中國茶跟日本茶不一樣。	我跟妹妹不一樣高。	今年生意不一樣好。	不一樣 expresses difference. It negates similarity and indicates contrast.
+14	動詞 + 了 + 時間	dòngcí + le + shíjiān	Did something for (a period of time)	他住臺北住了三年。	老師在美國住了一年。	她準備了三天。	Verbal 了 + duration shows how long an action lasted and implies it is finished or no longer continuing.
+14	動詞 + 了 + 時間 + 了	dòngcí + le + shíjiān + le	Have been doing (up to now)	他在臺灣玩了一年了。	我工作兩個月了。	他租這間房子半年了。	Double 了 indicates the action started in the past and continues up to the present. It emphasizes “so far.”
+14	快…了	kuài… le	About to	快下雨了。	電影快結束了。	爸爸快到了。	快 + Verb + 了 expresses that something will happen very soon. It signals an upcoming change.
+14	更	gèng	Even more	他比我更高。	今年比去年更冷。	芒果比西瓜更好吃。	更 intensifies comparison. It suggests an increase beyond an already existing condition.
+14	沒有…那麼…	méi yǒu… nàme…	Not as… as…	哥哥沒有爸爸那麼高。	火車沒有高鐵那麼快。	我的中文沒有老師那麼好。	沒有 + 那麼 expresses inferior comparison. It means “not as … as …”
+14	A 比 B + Adj	A bǐ B + Adj	A is more… than B	今天比昨天冷。	高鐵比火車快。	芒果比西瓜甜。	比 introduces comparison. The adjective follows directly and shows difference in degree.
+14	一樣 / 跟…一樣	yíyàng / gēn… yíyàng	The same as	今天跟昨天一樣熱。	他跟我一樣高。	這兩間房子一樣貴。	一樣 expresses equality. It indicates two things share the same degree or quality.
+14	沒有（比較疑問句）	méi yǒu (comparison question)	Is A as… as B?	妹妹有沒有姐姐那麼漂亮？	花蓮的房租有沒有臺北那麼貴？	夏天有沒有春天那麼舒服？	有沒有…那麼… forms a comparison question asking whether A reaches the same level as B.
+15	疑問詞 + 都 / 也（非特指語氣）	yíwèncí + dōu / yě	Indefinite / non-committal meaning (not really / not any)	我沒有多少錢。	他沒有幾個朋友。	我昨天沒跟誰去看電影。	Question words (多少、幾、誰、哪裡、什麼) in negative sentences lose their literal question meaning and mean “not much / not many / no one / nowhere / nothing.”
+15	把 + N + V + 了	bǎ + N + V + le	Disposal construction	他把我的湯喝了。	房東把房子賣了。	別把我的藥吃了。	把 moves the object before the verb to emphasize disposal or result. The action affects the object in a completed way.
+15	V 了… 就…	V le… jiù…	Do A, then immediately B	我放假了就去旅行。	他吃了藥就睡覺。	妹妹喝了熱湯就不冷了。	After finishing the first action, the second action happens right away. Emphasizes sequence and immediacy.
+15	一點	yìdiǎn	A little / a bit	他喝了一點咖啡。	這支手機有一點貴。	請你早一點來。	一點 expresses small quantity or slight degree. It can modify verbs, adjectives, comparisons, or indicate slight change.
+15	比 + 得 補語	bǐ + de complement	Comparing actions (how well / how much)	他做得比我快。	弟弟念得比哥哥好。	這種手機賣得比那種好。	When comparing actions, use 比 + verb + 得 + complement to compare performance or degree.
+15	比 + Adj + 一點 / 多	bǐ + adj + yìdiǎn / duō	Slight / much greater comparison	他的房間比我的大一點。	捷運站比公車站遠得多。	晚上比早上舒服多了。	Adds degree to comparisons. 一點 = slightly; 多 / 得多 = much more.
+15	分離動詞	fēnlí dòngcí	Separable verbs	我想見你一面。	他照了你一張相。	我們每天上八個鐘頭的班。	Separable verbs split into verb + object. Time, quantity, or complements are inserted between the parts.
+15	把（否定與疑問）	bǎ (negation/questions)	Negation & question forms	他沒把書賣了。	你是不是把早餐吃了？	你把功課寫了沒有？	In negation, 沒/不 comes before 把. In questions, 把 structure remains but sentence type changes.
+							
+

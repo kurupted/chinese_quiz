@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Chinese Practice | Vocab & Grammar Trainer</title>
+  <meta name="description" content="Interactive Chinese vocabulary and grammar speed trainer for Book 1 & Book 2.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+  <div class="app-background">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Top Floating Controls -->
+  <div class="floating-top-controls">
+    <button id="soundToggleBtn" class="icon-btn-compact" title="Toggle Sound" aria-label="Toggle Sound">
+      <span class="icon">🔊</span>
+    </button>
+    <button id="themeToggleBtn" class="icon-btn-compact" title="Toggle Theme" aria-label="Toggle Theme">
+      <span class="icon">🌙</span>
+    </button>
+  </div>
+
+  <div class="app-container">
+    <main id="mainContent" class="main-content">
+
+      <!-- SCREEN 1: SETUP & CONFIG SCREEN -->
+      <section id="setupScreen" class="view-screen active">
+        <div class="setup-card glass-panel compact-setup">
+
+          <!-- Book Selection Filter -->
+          <div class="form-group-compact">
+            <div class="section-label">BOOK SELECTION</div>
+            <div class="chips-group-compact" id="bookFilterChips">
+              <button type="button" class="chip-btn-c active" data-book="all">All (B1 + B2)</button>
+              <button type="button" class="chip-btn-c" data-book="1">Book 1</button>
+              <button type="button" class="chip-btn-c" data-book="2">Book 2</button>
+            </div>
+          </div>
+
+          <!-- Mode Selection -->
+          <div class="form-group-compact">
+            <div class="section-label">SELECT MODE</div>
+            <div class="mode-compact-grid">
+              <button type="button" class="mode-card-compact active" data-mode="photo">
+                <span class="mode-c-icon">📸</span>
+                <div class="mode-c-details">
+                  <div class="mode-c-title">Photo → Chinese</div>
+                  <div class="mode-c-sub">Vocab images & visual sprint</div>
+                </div>
+              </button>
+
+              <button type="button" class="mode-card-compact" data-mode="zh2en">
+                <span class="mode-c-icon">🀄</span>
+                <div class="mode-c-details">
+                  <div class="mode-c-title">Chinese → English</div>
+                  <div class="mode-c-sub">Hanzi character recognition</div>
+                </div>
+              </button>
+
+              <button type="button" class="mode-card-compact" data-mode="en2zh">
+                <span class="mode-c-icon">🇬🇧</span>
+                <div class="mode-c-details">
+                  <div class="mode-c-title">English → Chinese</div>
+                  <div class="mode-c-sub">English definition to Hanzi</div>
+                </div>
+              </button>
+
+              <button type="button" class="mode-card-compact" data-mode="grammar">
+                <span class="mode-c-icon">📝</span>
+                <div class="mode-c-details">
+                  <div class="mode-c-title">Grammar & Sentences</div>
+                  <div class="mode-c-sub">Particles, word order & blanks</div>
+                </div>
+              </button>
+
+              <button type="button" class="mode-card-compact mode-full-span" data-mode="mixed">
+                <span class="mode-c-icon">⚡</span>
+                <div class="mode-c-details">
+                  <div class="mode-c-title">Mixed Mastery Round</div>
+                  <div class="mode-c-sub">Random combination of Photos, Vocab, and Grammar</div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Settings Row -->
+          <div class="settings-compact-row">
+            <div class="form-group-compact">
+              <div class="section-label">QUESTIONS</div>
+              <div class="chips-group-compact" id="questionCountChips">
+                <button type="button" class="chip-btn-c" data-count="5">5</button>
+                <button type="button" class="chip-btn-c active" data-count="10">10</button>
+                <button type="button" class="chip-btn-c" data-count="20">20</button>
+                <button type="button" class="chip-btn-c" data-count="30">30</button>
+                <button type="button" class="chip-btn-c" data-count="all">All</button>
+              </div>
+            </div>
+
+            <div class="form-group-compact">
+              <div class="section-label">PINYIN</div>
+              <div class="chips-group-compact" id="pinyinChips">
+                <button type="button" class="chip-btn-c" data-pinyin="always">Always</button>
+                <button type="button" class="chip-btn-c active" data-pinyin="on-answer">On Answer</button>
+                <button type="button" class="chip-btn-c" data-pinyin="hidden">Hidden</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Lessons Container -->
+          <div class="form-group-compact" id="lessonsContainer">
+            <!-- Dynamically populated per book in app.js -->
+          </div>
+
+          <div class="pool-badge-compact" id="poolStats" style="margin-top: -0.4rem; margin-bottom: 0.8rem;">
+            <span>Pool: <strong>0 words</strong></span>
+          </div>
+
+          <!-- Start Action -->
+          <div class="action-footer-compact">
+            <button type="button" id="startQuizBtn" class="primary-btn-compact pulse-glow">
+              <span>🚀 Start Round</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 2: PRE-CACHING SCREEN -->
+      <section id="precacheScreen" class="view-screen">
+        <div class="loading-card glass-panel text-center">
+          <div class="loader-visual-compact">
+            <div class="radar-spinner"></div>
+            <div class="loader-icon-center">🖼️</div>
+          </div>
+          <h3 class="loading-title">Loading Images...</h3>
+
+          <div class="progress-bar-container">
+            <div id="precacheProgressBar" class="progress-bar-fill" style="width: 0%;"></div>
+          </div>
+          <div class="loading-status">
+            <span id="precacheStatusText">Checking images...</span>
+            <span id="precacheProgressPct">0%</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 3: QUIZ IN-PROGRESS SCREEN (ZERO SCROLL) -->
+      <section id="quizScreen" class="view-screen">
+        <!-- Compact HUD Bar -->
+        <div class="quiz-hud-compact glass-panel">
+          <div class="hud-item-c">
+            <span class="hud-label-c">Q</span>
+            <span class="hud-val-c" id="hudProgress">1/10</span>
+          </div>
+
+          <div class="hud-item-c timer-c">
+            <span class="timer-icon">⏱️</span>
+            <span class="timer-digits-c" id="hudTimer">00:00.0</span>
+          </div>
+
+          <div class="hud-item-c streak-c">
+            <span class="streak-icon">🔥</span>
+            <span class="hud-val-c" id="hudStreak">0</span>
+          </div>
+        </div>
+
+        <div class="quiz-progress-track">
+          <div id="quizProgressBar" class="quiz-progress-fill" style="width: 0%;"></div>
+        </div>
+
+        <!-- Question Prompt Area -->
+        <div class="quiz-card-compact glass-panel">
+
+          <!-- Image Prompt Container (Photo Mode) -->
+          <div id="imagePromptContainer" class="image-prompt-wrapper-compact">
+            <div class="image-frame-compact">
+              <img id="quizImage" src="" alt="Object" class="quiz-img-compact" loading="eager"
+                referrerpolicy="no-referrer" />
+              <div id="imageLoaderOverlay" class="image-skeleton-loader">
+                <div class="skeleton-shimmer"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Prompt Container (Zh->En or En->Zh) -->
+          <div id="textPromptContainer" class="text-prompt-wrapper-compact">
+            <div class="prompt-mode-tag-c" id="promptModeTag">CHINESE</div>
+            <div class="prompt-main-text-c" id="promptMainText">咖啡</div>
+            <div class="prompt-pinyin-text-c" id="promptPinyinText">kā fēi</div>
+            <button type="button" id="promptAudioBtn" class="audio-circle-btn-c" title="Pronounce">
+              🔊
+            </button>
+          </div>
+
+          <!-- Grammar Cloze Prompt Container -->
+          <div id="grammarPromptContainer" class="grammar-prompt-wrapper-compact" style="display: none;">
+            <div class="grammar-header-row">
+              <span class="prompt-mode-tag-c" id="grammarBookLessonTag">BOOK 1 • LESSON 3</span>
+              <span class="grammar-point-pill" id="grammarPointPill">從…往…走</span>
+            </div>
+            <div class="grammar-sentence-display" id="grammarSentenceDisplay">
+              從這裡 <span class="grammar-blank-slot">____</span> 走，就到師大了。
+            </div>
+            <div class="grammar-english-hint" id="grammarEnglishHint">
+              go from … toward … (to get somewhere)
+            </div>
+            <button type="button" id="grammarAudioBtn" class="audio-circle-btn-c" title="Listen Sentence">
+              🔊
+            </button>
+          </div>
+
+          <!-- Instruction -->
+          <div class="prompt-instruction-c" id="promptInstruction">
+            Select the correct option:
+          </div>
+
+          <!-- 4 Multiple Choice Option Buttons -->
+          <div class="options-grid-compact" id="optionsGrid">
+            <!-- 4 buttons dynamically inserted -->
+          </div>
+
+          <!-- Feedback Toast -->
+          <div id="feedbackBanner" class="feedback-banner-compact">
+            <div class="feedback-icon-c" id="feedbackIcon">✅</div>
+            <div class="feedback-info-c">
+              <div class="feedback-title-c" id="feedbackTitle">Correct!</div>
+              <div class="feedback-details-c" id="feedbackDetails">Explanation details...</div>
+            </div>
+            <button type="button" id="nextQuestionBtn" class="next-btn-c">Next ➔</button>
+          </div>
+        </div>
+
+        <!-- Shortcuts Hint -->
+        <div class="keyboard-hints-compact">
+          <span><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> to pick • <kbd>Space</kbd> next</span>
+        </div>
+      </section>
+
+      <!-- SCREEN 4: RESULTS & REVIEW SCREEN -->
+      <section id="resultsScreen" class="view-screen">
+        <div class="results-hero-compact glass-panel text-center">
+          <div class="results-badge-c" id="resultsBadgeIcon">🏆</div>
+          <h2 class="results-title-c" id="resultsHeadline">Round Complete!</h2>
+          <p class="results-subtitle-c" id="resultsSubhead">Fast and accurate!</p>
+
+          <!-- Core Stat Cards -->
+          <div class="stats-summary-grid-c">
+            <div class="stat-card-c">
+              <div class="stat-num-c" id="statAccuracy">100%</div>
+              <div class="stat-label-c">Accuracy</div>
+            </div>
+
+            <div class="stat-card-c">
+              <div class="stat-num-c" id="statTotalTime">14.2s</div>
+              <div class="stat-label-c">Total Time</div>
+            </div>
+
+            <div class="stat-card-c">
+              <div class="stat-num-c" id="statAvgSpeed">1.4s</div>
+              <div class="stat-label-c">Avg / Item</div>
+            </div>
+
+            <div class="stat-card-c">
+              <div class="stat-num-c" id="statMaxStreak">10</div>
+              <div class="stat-label-c">Max Streak</div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="results-actions-c">
+            <button type="button" id="retryMistakesBtn" class="secondary-btn-c">
+              <span>❌ Retry Mistakes (<span id="mistakeCountBadge">0</span>)</span>
+            </button>
+            <button type="button" id="playAgainBtn" class="primary-btn-c pulse-glow">
+              <span>🔄 Play Again</span>
+            </button>
+            <button type="button" id="changeSettingsBtn" class="ghost-btn-c">
+              <span>⚙️ Settings</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Detailed Question Review Section -->
+        <div class="review-section-compact glass-panel">
+          <div class="review-header-compact">
+            <div class="review-title-group-c">
+              <h4>Review (<span id="reviewCountPill">10 items</span>)</h4>
+            </div>
+
+            <div class="review-filter-tabs-c">
+              <button type="button" class="tab-btn-c active" data-filter="all">All (<span
+                  id="tabCountAll">10</span>)</button>
+              <button type="button" class="tab-btn-c" data-filter="wrong">Mistakes (<span
+                  id="tabCountWrong">0</span>)</button>
+              <button type="button" class="tab-btn-c" data-filter="correct">Correct (<span
+                  id="tabCountCorrect">10</span>)</button>
+            </div>
+          </div>
+
+          <div class="review-list-compact" id="reviewList">
+            <!-- Review items inserted -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vocab_data.js"></script>
+  <script src="grammar_data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
