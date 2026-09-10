@@ -244,6 +244,17 @@ def parse_all():
         "way of saying / theory": ["say", "speech"]
     }
 
+    grammar_translations = {}
+    sentence_translations = {}
+    if os.path.exists('grammar_translations.json'):
+        try:
+            with open('grammar_translations.json', 'r', encoding='utf-8') as f:
+                t_data = json.load(f)
+                grammar_translations = t_data.get('by_id', {})
+                sentence_translations = t_data.get('by_sentence', {})
+        except Exception as e:
+            print("Notice: could not load grammar_translations.json", e)
+
     for b in books:
         book_num = b["book"]
         filename = b["filename"]
@@ -335,16 +346,21 @@ def parse_all():
                 
                 if point_zh and raw_examples:
                     example_objects = []
-                    for ex in raw_examples:
+                    example_trans_list = []
+                    next_gp_id = len(all_grammar) + 1
+                    for ex_idx, ex in enumerate(raw_examples):
                         pyn = format_sentence_pinyin(ex)
                         chars = get_sentence_char_details(ex)
+                        trans = grammar_translations.get(f"{next_gp_id}_{ex_idx}", sentence_translations.get(ex, ""))
                         example_objects.append({
                             "chinese": ex,
                             "pinyin": pyn,
+                            "english": trans,
                             "charDetails": chars
                         })
+                        example_trans_list.append(trans)
                     all_grammar.append({
-                        "id": len(all_grammar) + 1,
+                        "id": next_gp_id,
                         "book": book_num,
                         "chapter": chapter,
                         "pointZh": point_zh,
@@ -352,6 +368,7 @@ def parse_all():
                         "english": english,
                         "examples": raw_examples,
                         "exampleDetails": example_objects,
+                        "exampleTranslations": example_trans_list,
                         "explanation": explanation
                     })
 

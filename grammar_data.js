@@ -15,6 +15,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "王先生要不要喝咖啡？",
         "pinyin": "wáng xiān shēng yào bù yào hē kā fēi？",
+        "english": "Does Mr. Wang want or not want to drink coffee?",
         "charDetails": [
           {
             "char": "王",
@@ -61,6 +62,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這是不是烏龍茶？",
         "pinyin": "zhè shì bú shì wū lóng chá？",
+        "english": "Is this or is this not oolong tea?",
         "charDetails": [
           {
             "char": "這",
@@ -99,6 +101,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣人喜不喜歡喝茶？",
         "pinyin": "tái wān rén xǐ bù xǐ huān hē chá？",
+        "english": "Do Taiwanese people like or not like drinking tea?",
         "charDetails": [
           {
             "char": "臺",
@@ -143,6 +146,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Does Mr. Wang want or not want to drink coffee?",
+      "Is this or is this not oolong tea?",
+      "Do Taiwanese people like or not like drinking tea?"
+    ],
     "explanation": "The A-not-A pattern forms neutral yes/no questions by repeating the verb and inserting 不 between the two forms to ask whether something is or is not the case."
   },
   {
@@ -161,6 +169,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你好嗎？",
         "pinyin": "nǐ hǎo ma？",
+        "english": "Are you well? (How are you?)",
         "charDetails": [
           {
             "char": "你",
@@ -183,6 +192,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你來接我們嗎？",
         "pinyin": "nǐ lái jiē wǒ men ma？",
+        "english": "Are you coming to pick us up?",
         "charDetails": [
           {
             "char": "你",
@@ -217,6 +227,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他是日本人嗎？",
         "pinyin": "tā shì rì běn rén ma？",
+        "english": "Is he Japanese?",
         "charDetails": [
           {
             "char": "他",
@@ -249,6 +260,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Are you well? (How are you?)",
+      "Are you coming to pick us up?",
+      "Is he Japanese?"
+    ],
     "explanation": "嗎 is added to the end of a statement to turn it into a yes/no question without changing the word order."
   },
   {
@@ -267,6 +283,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "是，他是臺灣人。",
         "pinyin": "shì， tā shì tái wān rén。",
+        "english": "Yes, he is Taiwanese.",
         "charDetails": [
           {
             "char": "是",
@@ -305,6 +322,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "喜歡，我喜歡臺灣。",
         "pinyin": "xǐ huān， wǒ xǐ huān tái wān。",
+        "english": "Like, I like Taiwan.",
         "charDetails": [
           {
             "char": "喜",
@@ -347,6 +365,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "是的，我是學生。",
         "pinyin": "shì de， wǒ shì xué shēng。",
+        "english": "Yes, I am a student.",
         "charDetails": [
           {
             "char": "是",
@@ -383,6 +402,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Yes, he is Taiwanese.",
+      "Like, I like Taiwan.",
+      "Yes, I am a student."
+    ],
     "explanation": "Affirmative answers are formed by repeating the main verb from the question, sometimes followed by a complete sentence."
   },
   {
@@ -401,6 +425,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不是，他不是李先生。",
         "pinyin": "bú shì， tā bú shì lǐ xiān shēng。",
+        "english": "No, he is not Mr. Li.",
         "charDetails": [
           {
             "char": "不",
@@ -447,6 +472,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不，他不喝。",
         "pinyin": "bù， tā bù hē。",
+        "english": "No, he does not drink [it].",
         "charDetails": [
           {
             "char": "不",
@@ -477,6 +503,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不是，李小姐不是臺灣人。",
         "pinyin": "bú shì， lǐ xiǎo jiě bú shì tái wān rén。",
+        "english": "No, Miss Li is not Taiwanese.",
         "charDetails": [
           {
             "char": "不",
@@ -529,6 +556,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "No, he is not Mr. Li.",
+      "No, he does not drink [it].",
+      "No, Miss Li is not Taiwanese."
+    ],
     "explanation": "Negative replies are formed by placing 不 before the verb. A short negative form often appears first, followed by a full negative sentence."
   },
   {
@@ -547,6 +579,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我很好。",
         "pinyin": "wǒ hěn hǎo。",
+        "english": "I am very well.",
         "charDetails": [
           {
             "char": "我",
@@ -569,6 +602,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他很喜歡臺灣。",
         "pinyin": "tā hěn xǐ huān tái wān。",
+        "english": "He likes Taiwan very much.",
         "charDetails": [
           {
             "char": "他",
@@ -603,6 +637,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣人很喜歡喝烏龍茶。",
         "pinyin": "tái wān rén hěn xǐ huān hē wū lóng chá。",
+        "english": "Taiwanese people like drinking oolong tea very much.",
         "charDetails": [
           {
             "char": "臺",
@@ -651,6 +686,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I am very well.",
+      "He likes Taiwan very much.",
+      "Taiwanese people like drinking oolong tea very much."
+    ],
     "explanation": "很 is placed before state verbs to modify them and commonly appears even when “very” is not strongly emphasized."
   },
   {
@@ -669,6 +709,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我要喝茶，你呢？",
         "pinyin": "wǒ yào hē chá， nǐ ne？",
+        "english": "I want to drink tea, what about you?",
         "charDetails": [
           {
             "char": "我",
@@ -707,6 +748,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不喝咖啡，陳小姐呢？",
         "pinyin": "tā bù hē kā fēi， chén xiǎo jiě ne？",
+        "english": "He does not drink coffee, what about Miss Chen?",
         "charDetails": [
           {
             "char": "他",
@@ -757,6 +799,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "王先生是日本人，李先生呢？",
         "pinyin": "wáng xiān shēng shì rì běn rén， lǐ xiān shēng ne？",
+        "english": "Mr. Wang is Japanese, what about Mr. Li?",
         "charDetails": [
           {
             "char": "王",
@@ -813,6 +856,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I want to drink tea, what about you?",
+      "He does not drink coffee, what about Miss Chen?",
+      "Mr. Wang is Japanese, what about Mr. Li?"
+    ],
     "explanation": "呢 is used to form a follow-up or contrastive question, often meaning “what about…?” after a statement."
   },
   {
@@ -831,6 +879,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的書",
         "pinyin": "wǒ de shū",
+        "english": "My book",
         "charDetails": [
           {
             "char": "我",
@@ -849,6 +898,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你們的照片",
         "pinyin": "nǐ men de zhào piān",
+        "english": "Your (plural) photos",
         "charDetails": [
           {
             "char": "你",
@@ -875,6 +925,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "李老師的姐姐",
         "pinyin": "lǐ lǎo shī de jiě jiě",
+        "english": "Teacher Li's older sister",
         "charDetails": [
           {
             "char": "李",
@@ -903,6 +954,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My book",
+      "Your (plural) photos",
+      "Teacher Li's older sister"
+    ],
     "explanation": "的 is placed between the possessor and the possessed noun to show ownership or possession. Structure: Noun + 的 + Noun."
   },
   {
@@ -921,6 +977,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "漂亮的小姐",
         "pinyin": "piào liàng de xiǎo jiě",
+        "english": "Beautiful miss / lady",
         "charDetails": [
           {
             "char": "漂",
@@ -947,6 +1004,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "好喝的咖啡",
         "pinyin": "hǎo hē de kā fēi",
+        "english": "Good-to-drink (delicious) coffee",
         "charDetails": [
           {
             "char": "好",
@@ -973,6 +1031,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "很好看的房子",
         "pinyin": "hěn hǎo kàn de fáng zi",
+        "english": "Very good-looking house",
         "charDetails": [
           {
             "char": "很",
@@ -1001,6 +1060,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Beautiful miss / lady",
+      "Good-to-drink (delicious) coffee",
+      "Very good-looking house"
+    ],
     "explanation": "的 links a modifier (adjective or descriptive phrase) to a noun. Structure: Modifier + 的 + Noun. In casual speech, 的 may sometimes be omitted in fixed expressions."
   },
   {
@@ -1019,6 +1083,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我有很多照片。",
         "pinyin": "wǒ yǒu hěn duō zhào piān。",
+        "english": "I have many photos.",
         "charDetails": [
           {
             "char": "我",
@@ -1053,6 +1118,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他們有好喝的茶。",
         "pinyin": "tā men yǒu hǎo hē de chá。",
+        "english": "They have good-to-drink tea.",
         "charDetails": [
           {
             "char": "他",
@@ -1091,6 +1157,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我有書。",
         "pinyin": "wǒ yǒu shū。",
+        "english": "I have books.",
         "charDetails": [
           {
             "char": "我",
@@ -1111,6 +1178,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I have many photos.",
+      "They have good-to-drink tea.",
+      "I have books."
+    ],
     "explanation": "有 is a verb meaning “to have” and expresses possession or ownership. Structure: Subject + 有 + Object."
   },
   {
@@ -1129,6 +1201,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他沒有房子。",
         "pinyin": "tā méi yǒu fáng zi。",
+        "english": "He does not have a house.",
         "charDetails": [
           {
             "char": "他",
@@ -1159,6 +1232,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我沒有書。",
         "pinyin": "wǒ méi yǒu shū。",
+        "english": "I do not have books.",
         "charDetails": [
           {
             "char": "我",
@@ -1185,6 +1259,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我沒有兄弟姐妹。",
         "pinyin": "wǒ méi yǒu xiōng dì jiě mèi。",
+        "english": "I do not have brothers and sisters.",
         "charDetails": [
           {
             "char": "我",
@@ -1221,6 +1296,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He does not have a house.",
+      "I do not have books.",
+      "I do not have brothers and sisters."
+    ],
     "explanation": "有 is always negated with 沒有, not 不. Structure: Subject + 沒有 + Object."
   },
   {
@@ -1239,6 +1319,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你有沒有書？",
         "pinyin": "nǐ yǒu méi yǒu shū？",
+        "english": "Do you have or not have books?",
         "charDetails": [
           {
             "char": "你",
@@ -1269,6 +1350,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他有沒有房子？",
         "pinyin": "tā yǒu méi yǒu fáng zi？",
+        "english": "Does he have or not have a house?",
         "charDetails": [
           {
             "char": "他",
@@ -1303,6 +1385,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你們有沒有照片？",
         "pinyin": "nǐ men yǒu méi yǒu zhào piān？",
+        "english": "Do you (plural) have or not have photos?",
         "charDetails": [
           {
             "char": "你",
@@ -1339,6 +1422,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Do you have or not have books?",
+      "Does he have or not have a house?",
+      "Do you (plural) have or not have photos?"
+    ],
     "explanation": "The A-not-A question form of 有 is 有沒有. It asks whether someone has something. Structure: Subject + 有沒有 + Object?"
   },
   {
@@ -1357,6 +1445,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們都姓陳。",
         "pinyin": "wǒ men dōu xìng chén。",
+        "english": "We all are surnamed Chen.",
         "charDetails": [
           {
             "char": "我",
@@ -1387,6 +1476,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這兩個房子都是他的。",
         "pinyin": "zhè liǎng gè fáng zi dōu shì tā de。",
+        "english": "These two houses are both his.",
         "charDetails": [
           {
             "char": "這",
@@ -1433,6 +1523,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他的兄弟姐妹都很好看。",
         "pinyin": "tā de xiōng dì jiě mèi dōu hěn hǎo kàn。",
+        "english": "His brothers and sisters are all very good-looking.",
         "charDetails": [
           {
             "char": "他",
@@ -1481,6 +1572,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We all are surnamed Chen.",
+      "These two houses are both his.",
+      "His brothers and sisters are all very good-looking."
+    ],
     "explanation": "都 indicates totality, meaning “all” or “both.” It is an adverb placed after the noun it refers to and before the main verb. Structure: Noun + 都 + Verb Phrase."
   },
   {
@@ -1499,6 +1595,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "一個哥哥",
         "pinyin": "yī gè gē gē",
+        "english": "One older brother",
         "charDetails": [
           {
             "char": "一",
@@ -1521,6 +1618,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "幾個老師？",
         "pinyin": "jǐ gè lǎo shī？",
+        "english": "How many teachers?",
         "charDetails": [
           {
             "char": "幾",
@@ -1547,6 +1645,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哪三個人？",
         "pinyin": "nǎ sān gè rén？",
+        "english": "Which three people?",
         "charDetails": [
           {
             "char": "哪",
@@ -1571,6 +1670,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "One older brother",
+      "How many teachers?",
+      "Which three people?"
+    ],
     "explanation": "個 is a common measure word used between a number (or determiner) and a noun. Structure: Number + Measure + Noun."
   },
   {
@@ -1589,6 +1693,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "兩張好看的照片",
         "pinyin": "liǎng zhāng hǎo kàn de zhào piān",
+        "english": "Two good-looking photos",
         "charDetails": [
           {
             "char": "兩",
@@ -1623,6 +1728,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "幾張照片？",
         "pinyin": "jǐ zhāng zhào piān？",
+        "english": "How many photos?",
         "charDetails": [
           {
             "char": "幾",
@@ -1649,6 +1755,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哪一張照片？",
         "pinyin": "nǎ yī zhāng zhào piān？",
+        "english": "Which photo?",
         "charDetails": [
           {
             "char": "哪",
@@ -1677,6 +1784,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Two good-looking photos",
+      "How many photos?",
+      "Which photo?"
+    ],
     "explanation": "張 is used for flat objects such as photos or paper. It appears between the number and the noun. Structure: Number + Measure + Noun."
   },
   {
@@ -1695,6 +1807,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "三個人",
         "pinyin": "sān gè rén",
+        "english": "Three people",
         "charDetails": [
           {
             "char": "三",
@@ -1713,6 +1826,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哪一張照片？",
         "pinyin": "nǎ yī zhāng zhào piān？",
+        "english": "Which photo?",
         "charDetails": [
           {
             "char": "哪",
@@ -1743,6 +1857,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "幾張照片？",
         "pinyin": "jǐ zhāng zhào piān？",
+        "english": "How many photos?",
         "charDetails": [
           {
             "char": "幾",
@@ -1767,6 +1882,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Three people",
+      "Which photo?",
+      "How many photos?"
+    ],
     "explanation": "Basic structure: Number + Measure + Noun. With determiners: Determiner + Number + Measure + Noun. When 哪 is followed by 一, the 一 is often omitted in speech."
   },
   {
@@ -1785,6 +1905,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們今天去看電影。",
         "pinyin": "wǒ men jīn tiān qù kàn diàn yǐng。",
+        "english": "We today go to watch a movie.",
         "charDetails": [
           {
             "char": "我",
@@ -1827,6 +1948,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "週末他要去打籃球。",
         "pinyin": "zhōu mò tā yào qù dǎ lán qiú。",
+        "english": "On the weekend he is going to play basketball.",
         "charDetails": [
           {
             "char": "週",
@@ -1869,6 +1991,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "明天你想做什麼？",
         "pinyin": "míng tiān nǐ xiǎng zuò shén me？",
+        "english": "Tomorrow what do you want to do?",
         "charDetails": [
           {
             "char": "明",
@@ -1905,6 +2028,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We today go to watch a movie.",
+      "On the weekend he is going to play basketball.",
+      "Tomorrow what do you want to do?"
+    ],
     "explanation": "Time words usually appear before the verb phrase. They can appear after the subject (most common) or before the subject for emphasis. Larger time units come before smaller ones."
   },
   {
@@ -1923,6 +2051,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我去打網球。",
         "pinyin": "wǒ qù dǎ wǎng qiú。",
+        "english": "I go play tennis.",
         "charDetails": [
           {
             "char": "我",
@@ -1953,6 +2082,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他去踢足球。",
         "pinyin": "tā qù tī zú qiú。",
+        "english": "He goes to play soccer.",
         "charDetails": [
           {
             "char": "他",
@@ -1983,6 +2113,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們都去看電影。",
         "pinyin": "wǒ men dōu qù kàn diàn yǐng。",
+        "english": "We all go watch a movie.",
         "charDetails": [
           {
             "char": "我",
@@ -2019,6 +2150,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I go play tennis.",
+      "He goes to play soccer.",
+      "We all go watch a movie."
+    ],
     "explanation": "去 followed by a verb phrase expresses intention or movement to do something. Structure: Subject + 去 + VP. Negation and auxiliaries appear before 去."
   },
   {
@@ -2037,6 +2173,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "烏龍茶，臺灣人都喜歡喝。",
         "pinyin": "wū lóng chá， tái wān rén dōu xǐ huān hē。",
+        "english": "Oolong tea, Taiwanese people all like to drink.",
         "charDetails": [
           {
             "char": "烏",
@@ -2091,6 +2228,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哥哥、姐姐，我都沒有。",
         "pinyin": "gē gē、 jiě jiě， wǒ dōu méi yǒu。",
+        "english": "Older brothers, older sisters, I don't have either.",
         "charDetails": [
           {
             "char": "哥",
@@ -2141,6 +2279,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這張照片，我覺得很好看。",
         "pinyin": "zhè zhāng zhào piān， wǒ jué dé hěn hǎo kàn。",
+        "english": "This photo, I think is very good-looking.",
         "charDetails": [
           {
             "char": "這",
@@ -2193,6 +2332,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Oolong tea, Taiwanese people all like to drink.",
+      "Older brothers, older sisters, I don't have either.",
+      "This photo, I think is very good-looking."
+    ],
     "explanation": "The topic is placed at the beginning of the sentence, followed by a comment about it. Structure: Topic + Comment."
   },
   {
@@ -2211,6 +2355,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我也是美國人。",
         "pinyin": "wǒ yě shì měi guó rén。",
+        "english": "I also am American.",
         "charDetails": [
           {
             "char": "我",
@@ -2245,6 +2390,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他也很漂亮。",
         "pinyin": "tā yě hěn piào liàng。",
+        "english": "She also is very pretty.",
         "charDetails": [
           {
             "char": "他",
@@ -2275,6 +2421,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他也不去。",
         "pinyin": "tā yě bù qù。",
+        "english": "He also is not going.",
         "charDetails": [
           {
             "char": "他",
@@ -2299,6 +2446,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I also am American.",
+      "She also is very pretty.",
+      "He also is not going."
+    ],
     "explanation": "也 is an adverb placed before the verb phrase. It means “also” or “too.” In negation, 也 comes before 不 or 沒."
   },
   {
@@ -2317,6 +2469,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們都是美國人。",
         "pinyin": "wǒ men dōu shì měi guó rén。",
+        "english": "We all are Americans.",
         "charDetails": [
           {
             "char": "我",
@@ -2355,6 +2508,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他們都喜歡他。",
         "pinyin": "tā men dōu xǐ huān tā。",
+        "english": "They all like him.",
         "charDetails": [
           {
             "char": "他",
@@ -2389,6 +2543,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣人都喜歡喝茶。",
         "pinyin": "tái wān rén dōu xǐ huān hē chá。",
+        "english": "Taiwanese people all like to drink tea.",
         "charDetails": [
           {
             "char": "臺",
@@ -2429,6 +2584,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We all are Americans.",
+      "They all like him.",
+      "Taiwanese people all like to drink tea."
+    ],
     "explanation": "都 is an adverb meaning “all” or “both.” It appears after the noun it refers to and before the verb phrase. It indicates totality."
   },
   {
@@ -2447,6 +2607,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我常打網球。",
         "pinyin": "wǒ cháng dǎ wǎng qiú。",
+        "english": "I often play tennis.",
         "charDetails": [
           {
             "char": "我",
@@ -2477,6 +2638,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我常喝咖啡。",
         "pinyin": "wǒ cháng hē kā fēi。",
+        "english": "I often drink coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -2507,6 +2669,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我常去踢足球。",
         "pinyin": "wǒ cháng qù tī zú qiú。",
+        "english": "I often go play soccer.",
         "charDetails": [
           {
             "char": "我",
@@ -2539,6 +2702,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I often play tennis.",
+      "I often drink coffee.",
+      "I often go play soccer."
+    ],
     "explanation": "常 is an adverb meaning “often.” It appears before the verb phrase. In negation, 常 follows 不."
   },
   {
@@ -2557,6 +2725,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他們也都是日本人。",
         "pinyin": "tā men yě dōu shì rì běn rén。",
+        "english": "They also all are Japanese.",
         "charDetails": [
           {
             "char": "他",
@@ -2599,6 +2768,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們也都喜歡照相。",
         "pinyin": "wǒ men yě dōu xǐ huān zhào xiàng。",
+        "english": "We also all like taking photos.",
         "charDetails": [
           {
             "char": "我",
@@ -2641,6 +2811,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我也常喝咖啡。",
         "pinyin": "wǒ yě cháng hē kā fēi。",
+        "english": "I also often drink coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -2673,6 +2844,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "They also all are Japanese.",
+      "We also all like taking photos.",
+      "I also often drink coffee."
+    ],
     "explanation": "When 也 occurs together with 都 or 常, 也 comes first. Structure: 也 + 都 / 常 + VP."
   },
   {
@@ -2691,6 +2867,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們去喝咖啡吧。",
         "pinyin": "wǒ men qù hē kā fēi ba。",
+        "english": "Let's go drink coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -2729,6 +2906,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們去看臺灣電影吧！",
         "pinyin": "wǒ men qù kàn tái wān diàn yǐng ba！",
+        "english": "Let's go watch a Taiwanese movie!",
         "charDetails": [
           {
             "char": "我",
@@ -2775,6 +2953,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們打網球吧！",
         "pinyin": "wǒ men dǎ wǎng qiú ba！",
+        "english": "Let's play tennis!",
         "charDetails": [
           {
             "char": "我",
@@ -2807,6 +2986,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Let's go drink coffee.",
+      "Let's go watch a Taiwanese movie!",
+      "Let's play tennis!"
+    ],
     "explanation": "吧 is placed at the end of a sentence to make a suggestion. It softens the tone and invites agreement."
   },
   {
@@ -2825,6 +3009,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "一杯咖啡",
         "pinyin": "yī bēi kā fēi",
+        "english": "A cup of coffee",
         "charDetails": [
           {
             "char": "一",
@@ -2847,6 +3032,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "十支手機",
         "pinyin": "shí zhī shǒu jī",
+        "english": "Ten mobile phones",
         "charDetails": [
           {
             "char": "十",
@@ -2869,6 +3055,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "三個弟弟",
         "pinyin": "sān gè dì di",
+        "english": "Three younger brothers",
         "charDetails": [
           {
             "char": "三",
@@ -2889,6 +3076,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "A cup of coffee",
+      "Ten mobile phones",
+      "Three younger brothers"
+    ],
     "explanation": "A measure word is required between a number and a noun. Structure: Number + Measure + Noun. Different nouns require different measure words."
   },
   {
@@ -2907,6 +3099,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這兩杯熱咖啡一共多少錢？",
         "pinyin": "zhè liǎng bēi rè kā fēi yī gòng duō shǎo qián？",
+        "english": "These two cups of hot coffee in total are how much money?",
         "charDetails": [
           {
             "char": "這",
@@ -2961,6 +3154,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那三支手機太舊了。",
         "pinyin": "nà sān zhī shǒu jī tài jiù le。",
+        "english": "Those three mobile phones are too old.",
         "charDetails": [
           {
             "char": "那",
@@ -3003,6 +3197,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哪三個人？",
         "pinyin": "nǎ sān gè rén？",
+        "english": "Which three people?",
         "charDetails": [
           {
             "char": "哪",
@@ -3027,6 +3222,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "These two cups of hot coffee in total are how much money?",
+      "Those three mobile phones are too old.",
+      "Which three people?"
+    ],
     "explanation": "Demonstratives 這、那、哪 come before the number and measure word. Structure: Determiner + Number + Measure + Noun."
   },
   {
@@ -3045,6 +3245,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請幫我微波包子。",
         "pinyin": "qǐng bāng wǒ wēi bō bāo zi。",
+        "english": "Please help me microwave the steamed bun.",
         "charDetails": [
           {
             "char": "請",
@@ -3083,6 +3284,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請幫我照相。",
         "pinyin": "qǐng bāng wǒ zhào xiàng。",
+        "english": "Please help me take a photo.",
         "charDetails": [
           {
             "char": "請",
@@ -3113,6 +3315,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請幫我買一杯咖啡。",
         "pinyin": "qǐng bāng wǒ mǎi yī bēi kā fēi。",
+        "english": "Please help me buy a cup of coffee.",
         "charDetails": [
           {
             "char": "請",
@@ -3153,6 +3356,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please help me microwave the steamed bun.",
+      "Please help me take a photo.",
+      "Please help me buy a cup of coffee."
+    ],
     "explanation": "幫 introduces the beneficiary of an action. Structure: 幫 + Person + Verb Phrase. In negation, 不 is placed before 幫."
   },
   {
@@ -3171,6 +3379,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不幫我微波包子。",
         "pinyin": "tā bù bāng wǒ wēi bō bāo zi。",
+        "english": "He does not help me microwave the steamed bun.",
         "charDetails": [
           {
             "char": "他",
@@ -3213,6 +3422,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不幫我買咖啡。",
         "pinyin": "tā bù bāng wǒ mǎi kā fēi。",
+        "english": "He does not help me buy coffee.",
         "charDetails": [
           {
             "char": "他",
@@ -3251,6 +3461,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不幫我照相。",
         "pinyin": "tā bù bāng wǒ zhào xiàng。",
+        "english": "He does not help me take a photo.",
         "charDetails": [
           {
             "char": "他",
@@ -3283,6 +3494,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He does not help me microwave the steamed bun.",
+      "He does not help me buy coffee.",
+      "He does not help me take a photo."
+    ],
     "explanation": "The negation marker 不 is placed before 幫, not before the main verb. Structure: Subject + 不 + 幫 + Person + VP."
   },
   {
@@ -3301,6 +3517,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我要新的。",
         "pinyin": "wǒ yào xīn de。",
+        "english": "I want the new one.",
         "charDetails": [
           {
             "char": "我",
@@ -3327,6 +3544,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不要舊的。",
         "pinyin": "bú yào jiù de。",
+        "english": "Don't want the old one.",
         "charDetails": [
           {
             "char": "不",
@@ -3353,6 +3571,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他買大的。",
         "pinyin": "tā mǎi dà de。",
+        "english": "He buys the big one.",
         "charDetails": [
           {
             "char": "他",
@@ -3377,6 +3596,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I want the new one.",
+      "Don't want the old one.",
+      "He buys the big one."
+    ],
     "explanation": "When the noun is clear from context, the head noun after 的 can be omitted. Structure: Modifier + 的 (implied noun)."
   },
   {
@@ -3395,6 +3619,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "新手機能上網。",
         "pinyin": "xīn shǒu jī néng shàng wǎng。",
+        "english": "The new phone can access the internet.",
         "charDetails": [
           {
             "char": "新",
@@ -3429,6 +3654,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那支手機能照相。",
         "pinyin": "nà zhī shǒu jī néng zhào xiàng。",
+        "english": "That phone can take photos.",
         "charDetails": [
           {
             "char": "那",
@@ -3467,6 +3693,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我能去嗎？",
         "pinyin": "wǒ néng qù ma？",
+        "english": "Can I go?",
         "charDetails": [
           {
             "char": "我",
@@ -3491,6 +3718,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The new phone can access the internet.",
+      "That phone can take photos.",
+      "Can I go?"
+    ],
     "explanation": "能 expresses ability or capability. Structure: Subject + 能 + Verb Phrase."
   },
   {
@@ -3509,6 +3741,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的手機不能上網。",
         "pinyin": "wǒ de shǒu jī bù néng shàng wǎng。",
+        "english": "My mobile phone cannot access the internet.",
         "charDetails": [
           {
             "char": "我",
@@ -3551,6 +3784,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "誰的手機不能照相？",
         "pinyin": "shuí de shǒu jī bù néng zhào xiàng？",
+        "english": "Whose mobile phone cannot take photos?",
         "charDetails": [
           {
             "char": "誰",
@@ -3593,6 +3827,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不能去。",
         "pinyin": "wǒ bù néng qù。",
+        "english": "I cannot go.",
         "charDetails": [
           {
             "char": "我",
@@ -3617,6 +3852,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My mobile phone cannot access the internet.",
+      "Whose mobile phone cannot take photos?",
+      "I cannot go."
+    ],
     "explanation": "In negation, 不 is placed before 能. Structure: Subject + 不 + 能 + VP."
   },
   {
@@ -3635,6 +3875,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "二十多個人",
         "pinyin": "èr shí duō gè rén",
+        "english": "Twenty-something people (over twenty people)",
         "charDetails": [
           {
             "char": "二",
@@ -3661,6 +3902,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "五百多個包子",
         "pinyin": "wǔ bǎi duō gè bāo zi",
+        "english": "Five hundred-plus steamed buns",
         "charDetails": [
           {
             "char": "五",
@@ -3691,6 +3933,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "三萬四千多塊錢",
         "pinyin": "sān wàn sì qiān duō kuài qián",
+        "english": "Thirty-four thousand-plus dollars",
         "charDetails": [
           {
             "char": "三",
@@ -3723,6 +3966,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Twenty-something people (over twenty people)",
+      "Five hundred-plus steamed buns",
+      "Thirty-four thousand-plus dollars"
+    ],
     "explanation": "多 placed after a number means “more than” or “over.” It indicates an unspecified additional amount. For larger numbers, it implies a range below the next ten, hundred, or thousand."
   },
   {
@@ -3741,6 +3989,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "五塊多（錢）",
         "pinyin": "wǔ kuài duō （ qián ）",
+        "english": "Five-plus dollars (money)",
         "charDetails": [
           {
             "char": "五",
@@ -3771,6 +4020,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "一塊多（錢）",
         "pinyin": "yī kuài duō （ qián ）",
+        "english": "One-plus dollar (money)",
         "charDetails": [
           {
             "char": "一",
@@ -3801,6 +4051,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "十塊多（錢）",
         "pinyin": "shí kuài duō （ qián ）",
+        "english": "Ten-plus dollars (money)",
         "charDetails": [
           {
             "char": "十",
@@ -3829,6 +4080,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Five-plus dollars (money)",
+      "One-plus dollar (money)",
+      "Ten-plus dollars (money)"
+    ],
     "explanation": "When the noun is understood from context, it may be omitted after 多. Structure: Number + Measure + 多 (implied noun)."
   },
   {
@@ -3847,6 +4103,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這碗牛肉麵有一點辣。",
         "pinyin": "zhè wǎn niú ròu miàn yǒu yī diǎn là。",
+        "english": "This bowl of beef noodles is a little bit spicy.",
         "charDetails": [
           {
             "char": "這",
@@ -3893,6 +4150,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那支手機有一點貴。",
         "pinyin": "nà zhī shǒu jī yǒu yī diǎn guì。",
+        "english": "That mobile phone is a little bit expensive.",
         "charDetails": [
           {
             "char": "那",
@@ -3935,6 +4193,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他的房子有一點舊。",
         "pinyin": "tā de fáng zi yǒu yī diǎn jiù。",
+        "english": "His house is a little bit old.",
         "charDetails": [
           {
             "char": "他",
@@ -3975,6 +4234,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This bowl of beef noodles is a little bit spicy.",
+      "That mobile phone is a little bit expensive.",
+      "His house is a little bit old."
+    ],
     "explanation": "有一點 + state verb expresses a slightly negative evaluation. It cannot be used with clearly positive adjectives. There is no negative form of this pattern."
   },
   {
@@ -3993,6 +4257,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他學中文學得不錯。",
         "pinyin": "tā xué zhōng wén xué dé bù cuò。",
+        "english": "He learns Chinese [and learns] not badly.",
         "charDetails": [
           {
             "char": "他",
@@ -4035,6 +4300,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你做得很好。",
         "pinyin": "nǐ zuò dé hěn hǎo。",
+        "english": "You do [it] very well.",
         "charDetails": [
           {
             "char": "你",
@@ -4065,6 +4331,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這種手機賣得很好。",
         "pinyin": "zhè zhǒng shǒu jī mài dé hěn hǎo。",
+        "english": "This kind of mobile phone sells very well.",
         "charDetails": [
           {
             "char": "這",
@@ -4105,6 +4372,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He learns Chinese [and learns] not badly.",
+      "You do [it] very well.",
+      "This kind of mobile phone sells very well."
+    ],
     "explanation": "得 follows a verb and introduces a complement describing the result or degree of the action. Structure: Verb + 得 + Complement."
   },
   {
@@ -4123,6 +4395,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你做飯做得真好吃。",
         "pinyin": "nǐ zuò fàn zuò dé zhēn hǎo chī。",
+        "english": "You cook food [and cook] really deliciously.",
         "charDetails": [
           {
             "char": "你",
@@ -4165,6 +4438,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的老師教中文教得很好。",
         "pinyin": "wǒ de lǎo shī jiāo zhōng wén jiào dé hěn hǎo。",
+        "english": "My teacher teaches Chinese [and teaches] very well.",
         "charDetails": [
           {
             "char": "我",
@@ -4219,6 +4493,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他唱歌唱得很好聽。",
         "pinyin": "tā chàng gē chàng dé hěn hǎo tīng。",
+        "english": "He sings songs [and sings] very pleasantly.",
         "charDetails": [
           {
             "char": "他",
@@ -4259,6 +4534,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "You cook food [and cook] really deliciously.",
+      "My teacher teaches Chinese [and teaches] very well.",
+      "He sings songs [and sings] very pleasantly."
+    ],
     "explanation": "When the object directly follows a transitive verb, the verb must be repeated before 得 + complement. Structure: V + Object + V + 得 + Complement."
   },
   {
@@ -4277,6 +4557,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "飯，他做得真好吃。",
         "pinyin": "fàn， tā zuò dé zhēn hǎo chī。",
+        "english": "Food, he makes really deliciously.",
         "charDetails": [
           {
             "char": "飯",
@@ -4319,6 +4600,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "中文，你說得很好。",
         "pinyin": "zhōng wén， nǐ shuō dé hěn hǎo。",
+        "english": "Chinese, you speak very well.",
         "charDetails": [
           {
             "char": "中",
@@ -4361,6 +4643,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這道菜，他做得很好。",
         "pinyin": "zhè dào cài， tā zuò dé hěn hǎo。",
+        "english": "This dish, he makes very well.",
         "charDetails": [
           {
             "char": "這",
@@ -4405,6 +4688,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Food, he makes really deliciously.",
+      "Chinese, you speak very well.",
+      "This dish, he makes very well."
+    ],
     "explanation": "When the object is moved to the front as a topic, the verb is not repeated. Structure: Object + Subject + Verb + 得 + Complement."
   },
   {
@@ -4423,6 +4711,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "陳小姐會做飯。",
         "pinyin": "chén xiǎo jiě huì zuò fàn。",
+        "english": "Miss Chen knows how to cook.",
         "charDetails": [
           {
             "char": "陳",
@@ -4457,6 +4746,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他哥哥會踢足球。",
         "pinyin": "tā gē gē huì tī zú qiú。",
+        "english": "His older brother knows how to play soccer.",
         "charDetails": [
           {
             "char": "他",
@@ -4495,6 +4785,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他們都會游泳。",
         "pinyin": "tā men dōu huì yóu yǒng。",
+        "english": "They all know how to swim.",
         "charDetails": [
           {
             "char": "他",
@@ -4527,6 +4818,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Miss Chen knows how to cook.",
+      "His older brother knows how to play soccer.",
+      "They all know how to swim."
+    ],
     "explanation": "會 expresses learned or acquired ability. Structure: Subject + 會 + Verb."
   },
   {
@@ -4545,6 +4841,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他的媽媽不會做飯。",
         "pinyin": "tā de mā mā bù huì zuò fàn。",
+        "english": "His mother does not know how to cook.",
         "charDetails": [
           {
             "char": "他",
@@ -4587,6 +4884,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不會說中文。",
         "pinyin": "wǒ bù huì shuō zhōng wén。",
+        "english": "I do not know how to speak Chinese.",
         "charDetails": [
           {
             "char": "我",
@@ -4621,6 +4919,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們都不會打棒球。",
         "pinyin": "wǒ men dōu bù huì dǎ bàng qiú。",
+        "english": "We all do not know how to play baseball.",
         "charDetails": [
           {
             "char": "我",
@@ -4661,6 +4960,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "His mother does not know how to cook.",
+      "I do not know how to speak Chinese.",
+      "We all do not know how to play baseball."
+    ],
     "explanation": "不會 negates 會. Structure: Subject + 不會 + Verb."
   },
   {
@@ -4679,6 +4983,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你會做甜點嗎？",
         "pinyin": "nǐ huì zuò tián diǎn ma？",
+        "english": "Do you know how to make desserts?",
         "charDetails": [
           {
             "char": "你",
@@ -4713,6 +5018,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你會不會說中文？",
         "pinyin": "nǐ huì bù huì shuō zhōng wén？",
+        "english": "Do you know or not know how to speak Chinese?",
         "charDetails": [
           {
             "char": "你",
@@ -4751,6 +5057,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你的姐姐會不會做飯？",
         "pinyin": "nǐ de jiě jiě huì bù huì zuò fàn？",
+        "english": "Does your older sister know or not know how to cook?",
         "charDetails": [
           {
             "char": "你",
@@ -4795,6 +5102,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Do you know how to make desserts?",
+      "Do you know or not know how to speak Chinese?",
+      "Does your older sister know or not know how to cook?"
+    ],
     "explanation": "The A-not-A form of 會 is 會不會. It asks whether someone has a learned skill."
   },
   {
@@ -4813,6 +5125,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他這個週末到臺灣來。",
         "pinyin": "tā zhè gè zhōu mò dào tái wān lái。",
+        "english": "He this weekend comes to Taiwan.",
         "charDetails": [
           {
             "char": "他",
@@ -4859,6 +5172,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師明天到臺北來。",
         "pinyin": "lǎo shī míng tiān dào tái běi lái。",
+        "english": "Teacher tomorrow comes to Taipei.",
         "charDetails": [
           {
             "char": "老",
@@ -4901,6 +5215,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "明天到我家來吧！",
         "pinyin": "míng tiān dào wǒ jiā lái ba！",
+        "english": "Tomorrow come to my house!",
         "charDetails": [
           {
             "char": "明",
@@ -4937,6 +5252,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He this weekend comes to Taiwan.",
+      "Teacher tomorrow comes to Taipei.",
+      "Tomorrow come to my house!"
+    ],
     "explanation": "到 indicates the destination of movement. Structure: Subject + 到 + Place + Motion Verb (來/去). It marks where someone is going or arriving."
   },
   {
@@ -4955,6 +5275,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我在臺灣。",
         "pinyin": "wǒ zài tái wān。",
+        "english": "I am in Taiwan.",
         "charDetails": [
           {
             "char": "我",
@@ -4981,6 +5302,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "餐廳在宿舍的一樓。",
         "pinyin": "cān tīng zài sù shè de yī lóu。",
+        "english": "The restaurant is on the first floor of the dormitory.",
         "charDetails": [
           {
             "char": "餐",
@@ -5023,6 +5345,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我在宿舍裡面。",
         "pinyin": "wǒ zài sù shè lǐ miàn。",
+        "english": "I am inside the dormitory.",
         "charDetails": [
           {
             "char": "我",
@@ -5055,6 +5378,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I am in Taiwan.",
+      "The restaurant is on the first floor of the dormitory.",
+      "I am inside the dormitory."
+    ],
     "explanation": "在 introduces the location of someone or something. Basic structure: Noun + 在 + Location. Location may be a place word or include localizers like 上、下、裡面、外面、旁邊、附近."
   },
   {
@@ -5073,6 +5401,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我家附近有圖書館。",
         "pinyin": "wǒ jiā fù jìn yǒu tú shū guǎn。",
+        "english": "Near my house there is a library.",
         "charDetails": [
           {
             "char": "我",
@@ -5115,6 +5444,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "山上有兩家咖啡店。",
         "pinyin": "shān shàng yǒu liǎng jiā kā fēi diàn。",
+        "english": "On the mountain there are two coffee shops.",
         "charDetails": [
           {
             "char": "山",
@@ -5157,6 +5487,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "樓下有一家書店。",
         "pinyin": "lóu xià yǒu yī jiā shū diàn。",
+        "english": "Downstairs there is a bookstore.",
         "charDetails": [
           {
             "char": "樓",
@@ -5193,6 +5524,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Near my house there is a library.",
+      "On the mountain there are two coffee shops.",
+      "Downstairs there is a bookstore."
+    ],
     "explanation": "Existential sentences express existence at a location. Structure: Location + 有 + Noun. It means “there is/are.”"
   },
   {
@@ -5211,6 +5547,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想去看看。",
         "pinyin": "wǒ xiǎng qù kàn kàn。",
+        "english": "I want to go have a look.",
         "charDetails": [
           {
             "char": "我",
@@ -5241,6 +5578,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請教教我。",
         "pinyin": "qǐng jiào jiào wǒ。",
+        "english": "Please teach me a bit.",
         "charDetails": [
           {
             "char": "請",
@@ -5267,6 +5605,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "在家看看書。",
         "pinyin": "zài jiā kàn kàn shū。",
+        "english": "At home read books a bit.",
         "charDetails": [
           {
             "char": "在",
@@ -5295,6 +5634,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I want to go have a look.",
+      "Please teach me a bit.",
+      "At home read books a bit."
+    ],
     "explanation": "Verb reduplication suggests a light, brief, or casual action. It softens requests and suggestions. Mostly monosyllabic action verbs can be reduplicated."
   },
   {
@@ -5313,6 +5657,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請幫幫我，好不好？",
         "pinyin": "qǐng bāng bāng wǒ， hǎo bù hǎo？",
+        "english": "Please help me a bit, okay?",
         "charDetails": [
           {
             "char": "請",
@@ -5355,6 +5700,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你要不要在家看看書？",
         "pinyin": "nǐ yào bù yào zài jiā kàn kàn shū？",
+        "english": "Do you want or not want to read books a bit at home?",
         "charDetails": [
           {
             "char": "你",
@@ -5401,6 +5747,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你可不可以教教我？",
         "pinyin": "nǐ kě bù kě yǐ jiào jiào wǒ？",
+        "english": "Can you teach me a bit?",
         "charDetails": [
           {
             "char": "你",
@@ -5441,6 +5788,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please help me a bit, okay?",
+      "Do you want or not want to read books a bit at home?",
+      "Can you teach me a bit?"
+    ],
     "explanation": "In questions, reduplication appears in tag questions or with auxiliary verbs. It makes requests more polite and moderate."
   },
   {
@@ -5459,6 +5811,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我覺得不是很貴。",
         "pinyin": "wǒ jué dé bú shì hěn guì。",
+        "english": "I feel it is not that it's very expensive.",
         "charDetails": [
           {
             "char": "我",
@@ -5497,6 +5850,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不是點大的牛肉麵。",
         "pinyin": "tā bú shì diǎn dà de niú ròu miàn。",
+        "english": "It is not that he ordered large beef noodles.",
         "charDetails": [
           {
             "char": "他",
@@ -5543,6 +5897,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "餐廳不是在學校裡面。",
         "pinyin": "cān tīng bú shì zài xué xiào lǐ miàn。",
+        "english": "The restaurant is not inside the school.",
         "charDetails": [
           {
             "char": "餐",
@@ -5587,6 +5942,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I feel it is not that it's very expensive.",
+      "It is not that he ordered large beef noodles.",
+      "The restaurant is not inside the school."
+    ],
     "explanation": "不是 negates a statement or assumption. It corrects or denies what was said or implied, not simply negating a verb like 不 or 沒."
   },
   {
@@ -5605,6 +5965,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我爸爸在家做飯。",
         "pinyin": "wǒ bà bà zài jiā zuò fàn。",
+        "english": "My father cooks at home.",
         "charDetails": [
           {
             "char": "我",
@@ -5643,6 +6004,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他到七樓的教室上網。",
         "pinyin": "tā dào qī lóu de jiào shì shàng wǎng。",
+        "english": "He goes to the 7th floor classroom to access the internet.",
         "charDetails": [
           {
             "char": "他",
@@ -5689,6 +6051,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們在這家餐廳吃牛肉麵。",
         "pinyin": "wǒ men zài zhè jiā cān tīng chī niú ròu miàn。",
+        "english": "We eat beef noodles at this restaurant.",
         "charDetails": [
           {
             "char": "我",
@@ -5741,6 +6104,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My father cooks at home.",
+      "He goes to the 7th floor classroom to access the internet.",
+      "We eat beef noodles at this restaurant."
+    ],
     "explanation": "在 and 到 introduce where an activity takes place. Structure: Subject + 在/到 + Location + Verb Phrase. In negation, 不 is placed before 在 or 到."
   },
   {
@@ -5759,6 +6127,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我昨天晚上到我家附近的咖啡店喝咖啡。",
         "pinyin": "wǒ zuó tiān wǎn shàng dào wǒ jiā fù jìn de kā fēi diàn hē kā fēi。",
+        "english": "Yesterday evening I went to the coffee shop near my house to drink coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -5837,6 +6206,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們這個週末去圖書館看書。",
         "pinyin": "wǒ men zhè gè zhōu mò qù tú shū guǎn kàn shū。",
+        "english": "This weekend we go to the library to read books.",
         "charDetails": [
           {
             "char": "我",
@@ -5895,6 +6265,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你們明天早上十一點到我家來吃牛肉麵。",
         "pinyin": "nǐ men míng tiān zǎo shàng shí yī diǎn dào wǒ jiā lái chī niú ròu miàn。",
+        "english": "Tomorrow morning at eleven o'clock you all come to my house to eat beef noodles.",
         "charDetails": [
           {
             "char": "你",
@@ -5971,6 +6342,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Yesterday evening I went to the coffee shop near my house to drink coffee.",
+      "This weekend we go to the library to read books.",
+      "Tomorrow morning at eleven o'clock you all come to my house to eat beef noodles."
+    ],
     "explanation": "Time expressions usually come before place expressions, and both appear before the verb phrase. Typical order: Subject + Time + Place + Verb Phrase. Negation goes before the verb."
   },
   {
@@ -5989,6 +6365,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我從早上十點上到下午一點。",
         "pinyin": "wǒ cóng zǎo shàng shí diǎn shàng dào xià wǔ yī diǎn。",
+        "english": "I attend class from 10:00 in the morning up to 1:00 in the afternoon.",
         "charDetails": [
           {
             "char": "我",
@@ -6047,6 +6424,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他從圖書館到那家餐廳去吃飯。",
         "pinyin": "tā cóng tú shū guǎn dào nà jiā cān tīng qù chī fàn。",
+        "english": "He goes from the library to that restaurant to eat.",
         "charDetails": [
           {
             "char": "他",
@@ -6109,6 +6487,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "從這棟大樓到那家KTV不遠。",
         "pinyin": "cóng zhè dòng dà lóu dào nà jiā KTV bù yuǎn。",
+        "english": "From this building to that KTV is not far.",
         "charDetails": [
           {
             "char": "從",
@@ -6169,6 +6548,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I attend class from 10:00 in the morning up to 1:00 in the afternoon.",
+      "He goes from the library to that restaurant to eat.",
+      "From this building to that KTV is not far."
+    ],
     "explanation": "從 marks the starting point and 到 marks the ending point in time or space. Structure: 從 + A + 到 + B. Used for both time ranges and movement."
   },
   {
@@ -6187,6 +6571,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "李老師在上課。",
         "pinyin": "lǐ lǎo shī zài shàng kè。",
+        "english": "Teacher Li is in the middle of having class.",
         "charDetails": [
           {
             "char": "李",
@@ -6221,6 +6606,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看！陳先生在唱歌。",
         "pinyin": "nǐ kàn！ chén xiān shēng zài chàng gē。",
+        "english": "Look! Mr. Chen is singing.",
         "charDetails": [
           {
             "char": "你",
@@ -6267,6 +6653,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "昨天下午五點我在做飯。",
         "pinyin": "zuó tiān xià wǔ wǔ diǎn wǒ zài zuò fàn。",
+        "english": "Yesterday afternoon at five o'clock I was cooking.",
         "charDetails": [
           {
             "char": "昨",
@@ -6315,6 +6702,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Teacher Li is in the middle of having class.",
+      "Look! Mr. Chen is singing.",
+      "Yesterday afternoon at five o'clock I was cooking."
+    ],
     "explanation": "在 before a verb indicates an action in progress. Structure: Subject + 在 + Verb Phrase. Negation uses 不是在 when correcting, or 不在 depending on meaning."
   },
   {
@@ -6333,6 +6725,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他妹妹每天都有空。",
         "pinyin": "tā mèi mèi měi tiān dōu yǒu kòng。",
+        "english": "His younger sister every day has free time.",
         "charDetails": [
           {
             "char": "他",
@@ -6375,6 +6768,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "每一棟大樓都可以上網。",
         "pinyin": "měi yī dòng dà lóu dōu kě yǐ shàng wǎng。",
+        "english": "Every single building can access the internet.",
         "charDetails": [
           {
             "char": "每",
@@ -6425,6 +6819,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他家裡每個人都會做甜點。",
         "pinyin": "tā jiā lǐ měi gè rén dōu huì zuò tián diǎn。",
+        "english": "In his family every person knows how to make desserts.",
         "charDetails": [
           {
             "char": "他",
@@ -6477,6 +6872,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "His younger sister every day has free time.",
+      "Every single building can access the internet.",
+      "In his family every person knows how to make desserts."
+    ],
     "explanation": "每 introduces “each/every,” and 都 emphasizes totality. Structure: 每 + (Measure) + Noun + 都 + Verb Phrase."
   },
   {
@@ -6495,6 +6895,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他朋友不是每天都去看電影。",
         "pinyin": "tā péng yǒu bú shì měi tiān dōu qù kàn diàn yǐng。",
+        "english": "His friend is not every day going to watch movies.",
         "charDetails": [
           {
             "char": "他",
@@ -6553,6 +6954,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我媽媽每個週末都沒有空。",
         "pinyin": "wǒ mā mā měi gè zhōu mò dōu méi yǒu kòng。",
+        "english": "My mother every weekend has no free time.",
         "charDetails": [
           {
             "char": "我",
@@ -6607,6 +7009,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他兄弟姐妹不是每個人都喜歡打球。",
         "pinyin": "tā xiōng dì jiě mèi bú shì měi gè rén dōu xǐ huān dǎ qiú。",
+        "english": "His brothers and sisters are not every person likes playing ball.",
         "charDetails": [
           {
             "char": "他",
@@ -6675,6 +7078,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "His friend is not every day going to watch movies.",
+      "My mother every weekend has no free time.",
+      "His brothers and sisters are not every person likes playing ball."
+    ],
     "explanation": "Negation placement changes meaning. 每…都不… means none; 不是每…都… means not all. Position of 不 or 不是 determines scope."
   },
   {
@@ -6693,6 +7101,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你們可以來我家打籃球。",
         "pinyin": "nǐ men kě yǐ lái wǒ jiā dǎ lán qiú。",
+        "english": "You all can come to my house to play basketball.",
         "charDetails": [
           {
             "char": "你",
@@ -6743,6 +7152,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我可以買這支手機。",
         "pinyin": "wǒ kě yǐ mǎi zhè zhī shǒu jī。",
+        "english": "I can buy this mobile phone.",
         "charDetails": [
           {
             "char": "我",
@@ -6785,6 +7195,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你可以叫我小馬。",
         "pinyin": "nǐ kě yǐ jiào wǒ xiǎo mǎ。",
+        "english": "You can call me Xiao Ma.",
         "charDetails": [
           {
             "char": "你",
@@ -6821,6 +7232,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "You all can come to my house to play basketball.",
+      "I can buy this mobile phone.",
+      "You can call me Xiao Ma."
+    ],
     "explanation": "可以 expresses permission or possibility. Structure: Subject + 可以 + Verb Phrase."
   },
   {
@@ -6839,6 +7255,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你不可以在圖書館吃東西。",
         "pinyin": "nǐ bù kě yǐ zài tú shū guǎn chī dōng xī。",
+        "english": "You may not eat things in the library.",
         "charDetails": [
           {
             "char": "你",
@@ -6893,6 +7310,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不可以買這支手機。",
         "pinyin": "wǒ bù kě yǐ mǎi zhè zhī shǒu jī。",
+        "english": "I cannot buy this mobile phone.",
         "charDetails": [
           {
             "char": "我",
@@ -6939,6 +7357,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你不可以在這裡照相。",
         "pinyin": "nǐ bù kě yǐ zài zhè lǐ zhào xiàng。",
+        "english": "You may not take photos here.",
         "charDetails": [
           {
             "char": "你",
@@ -6983,6 +7402,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "You may not eat things in the library.",
+      "I cannot buy this mobile phone.",
+      "You may not take photos here."
+    ],
     "explanation": "不可以 expresses prohibition. Structure: Subject + 不可以 + Verb Phrase."
   },
   {
@@ -7001,6 +7425,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我可不可以去看比賽？",
         "pinyin": "wǒ kě bù kě yǐ qù kàn bǐ sài？",
+        "english": "May I go watch the match?",
         "charDetails": [
           {
             "char": "我",
@@ -7047,6 +7472,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我可不可以買新手機？",
         "pinyin": "wǒ kě bù kě yǐ mǎi xīn shǒu jī？",
+        "english": "May I buy a new mobile phone?",
         "charDetails": [
           {
             "char": "我",
@@ -7093,6 +7519,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這本書我可以看看嗎？",
         "pinyin": "zhè běn shū wǒ kě yǐ kàn kàn ma？",
+        "english": "May I read this book a bit?",
         "charDetails": [
           {
             "char": "這",
@@ -7137,6 +7564,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "May I go watch the match?",
+      "May I buy a new mobile phone?",
+      "May I read this book a bit?"
+    ],
     "explanation": "The A-not-A form 可不可以 asks for permission politely. It is common in spoken Mandarin."
   },
   {
@@ -7155,6 +7587,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我常跟哥哥去看棒球比賽。",
         "pinyin": "wǒ cháng gēn gē gē qù kàn bàng qiú bǐ sài。",
+        "english": "I often with older brother go watch baseball games.",
         "charDetails": [
           {
             "char": "我",
@@ -7209,6 +7642,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我跟朋友在餐廳吃飯。",
         "pinyin": "wǒ gēn péng yǒu zài cān tīng chī fàn。",
+        "english": "I with friend eat in the restaurant.",
         "charDetails": [
           {
             "char": "我",
@@ -7255,6 +7689,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我週末要跟同學去參觀故宮。",
         "pinyin": "wǒ zhōu mò yào gēn tóng xué qù cān guān gù gōng。",
+        "english": "This weekend I will with classmate go visit the National Palace Museum.",
         "charDetails": [
           {
             "char": "我",
@@ -7311,6 +7746,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I often with older brother go watch baseball games.",
+      "I with friend eat in the restaurant.",
+      "This weekend I will with classmate go visit the National Palace Museum."
+    ],
     "explanation": "跟 expresses doing something together with someone. Structure: Subject + 跟 + Person + Verb Phrase. In negation, 不 comes before 跟."
   },
   {
@@ -7329,6 +7769,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你們怎麼去？",
         "pinyin": "nǐ men zěn me qù？",
+        "english": "How do you all go?",
         "charDetails": [
           {
             "char": "你",
@@ -7359,6 +7800,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個菜怎麼做？",
         "pinyin": "zhè gè cài zěn me zuò？",
+        "english": "How do you make this dish?",
         "charDetails": [
           {
             "char": "這",
@@ -7393,6 +7835,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這支新手機怎麼上網？",
         "pinyin": "zhè zhī xīn shǒu jī zěn me shàng wǎng？",
+        "english": "How does this new mobile phone access the internet?",
         "charDetails": [
           {
             "char": "這",
@@ -7437,6 +7880,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "How do you all go?",
+      "How do you make this dish?",
+      "How does this new mobile phone access the internet?"
+    ],
     "explanation": "怎麼 asks about method or manner. It usually appears before the verb: 怎麼 + Verb."
   },
   {
@@ -7455,6 +7903,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天比較熱。",
         "pinyin": "jīn tiān bǐ jiào rè。",
+        "english": "Today is comparatively hot.",
         "charDetails": [
           {
             "char": "今",
@@ -7485,6 +7934,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "坐捷運比較快。",
         "pinyin": "zuò jié yùn bǐ jiào kuài。",
+        "english": "Taking the MRT is comparatively fast.",
         "charDetails": [
           {
             "char": "坐",
@@ -7519,6 +7969,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我最近比較沒有空。",
         "pinyin": "wǒ zuì jìn bǐ jiào méi yǒu kòng。",
+        "english": "Recently I comparatively don't have free time.",
         "charDetails": [
           {
             "char": "我",
@@ -7559,6 +8010,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Today is comparatively hot.",
+      "Taking the MRT is comparatively fast.",
+      "Recently I comparatively don't have free time."
+    ],
     "explanation": "比較 indicates a moderate or relative comparison, often without explicitly stating what it is compared to. It softens the degree of comparison."
   },
   {
@@ -7577,6 +8033,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這家餐廳的菜又便宜又好吃。",
         "pinyin": "zhè jiā cān tīng de cài yòu pián yi yòu hǎo chī。",
+        "english": "This restaurant's dishes are both cheap and delicious.",
         "charDetails": [
           {
             "char": "這",
@@ -7635,6 +8092,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "坐高鐵又快又舒服。",
         "pinyin": "zuò gāo tiě yòu kuài yòu shū fú。",
+        "english": "Riding the High Speed Rail is both fast and comfortable.",
         "charDetails": [
           {
             "char": "坐",
@@ -7677,6 +8135,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我又想喝茶又想喝咖啡。",
         "pinyin": "wǒ yòu xiǎng hē chá yòu xiǎng hē kā fēi。",
+        "english": "I both want to drink tea and want to drink coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -7725,6 +8184,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This restaurant's dishes are both cheap and delicious.",
+      "Riding the High Speed Rail is both fast and comfortable.",
+      "I both want to drink tea and want to drink coffee."
+    ],
     "explanation": "又…又… links two qualities or actions, meaning “both…and…”. Often used with adjectives or verbs to describe dual characteristics."
   },
   {
@@ -7743,6 +8207,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "山上的風景比這裡漂亮。",
         "pinyin": "shān shàng de fēng jǐng bǐ zhè lǐ piào liàng。",
+        "english": "The scenery on the mountain is more pretty than here.",
         "charDetails": [
           {
             "char": "山",
@@ -7793,6 +8258,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們學校比他們學校遠。",
         "pinyin": "wǒ men xué xiào bǐ tā men xué xiào yuǎn。",
+        "english": "Our school is farther than their school.",
         "charDetails": [
           {
             "char": "我",
@@ -7843,6 +8309,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "坐捷運比坐火車快。",
         "pinyin": "zuò jié yùn bǐ zuò huǒ chē kuài。",
+        "english": "Taking the MRT is faster than taking the train.",
         "charDetails": [
           {
             "char": "坐",
@@ -7883,6 +8350,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The scenery on the mountain is more pretty than here.",
+      "Our school is farther than their school.",
+      "Taking the MRT is faster than taking the train."
+    ],
     "explanation": "比 introduces direct comparison. Structure: A + 比 + B + Adjective/Verb. The adjective is not preceded by 很."
   },
   {
@@ -7901,6 +8373,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不比他高。",
         "pinyin": "wǒ bù bǐ tā gāo。",
+        "english": "I am not taller than him.",
         "charDetails": [
           {
             "char": "我",
@@ -7931,6 +8404,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的車不比他的貴。",
         "pinyin": "wǒ de chē bù bǐ tā de guì。",
+        "english": "My car is not more expensive than his.",
         "charDetails": [
           {
             "char": "我",
@@ -7973,6 +8447,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "坐公車不比坐計程車快。",
         "pinyin": "zuò gōng chē bù bǐ zuò jì chéng chē kuài。",
+        "english": "Taking the bus is not faster than taking a taxi.",
         "charDetails": [
           {
             "char": "坐",
@@ -8021,6 +8496,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I am not taller than him.",
+      "My car is not more expensive than his.",
+      "Taking the bus is not faster than taking a taxi."
+    ],
     "explanation": "不比 indicates that A is not more than B. It negates the comparison rather than the adjective itself. Structure: A + 不比 + B + Adj."
   },
   {
@@ -8039,6 +8519,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "去年我去日本旅行。",
         "pinyin": "qù nián wǒ qù rì běn lǚ xíng。",
+        "english": "Last year I went to Japan to travel.",
         "charDetails": [
           {
             "char": "去",
@@ -8081,6 +8562,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天我很忙。",
         "pinyin": "jīn tiān wǒ hěn máng。",
+        "english": "Today I am very busy.",
         "charDetails": [
           {
             "char": "今",
@@ -8111,6 +8593,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "明天我要上課。",
         "pinyin": "míng tiān wǒ yào shàng kè。",
+        "english": "Tomorrow I have to attend class.",
         "charDetails": [
           {
             "char": "明",
@@ -8143,6 +8626,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Last year I went to Japan to travel.",
+      "Today I am very busy.",
+      "Tomorrow I have to attend class."
+    ],
     "explanation": "Time-when expressions indicate a specific point in time (past, present, future). They usually appear before the verb phrase and answer “when?”."
   },
   {
@@ -8161,6 +8649,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我去花蓮玩一個星期。",
         "pinyin": "wǒ qù huā lián wán yī gè xīng qī。",
+        "english": "I go to Hualien to have fun for one week.",
         "charDetails": [
           {
             "char": "我",
@@ -8207,6 +8696,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我要看三個鐘頭。",
         "pinyin": "wǒ yào kàn sān gè zhōng tóu。",
+        "english": "I want to watch for three hours.",
         "charDetails": [
           {
             "char": "我",
@@ -8245,6 +8735,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想學中文一年半。",
         "pinyin": "wǒ xiǎng xué zhōng wén yī nián bàn。",
+        "english": "I want to study Chinese for one and a half years.",
         "charDetails": [
           {
             "char": "我",
@@ -8285,6 +8776,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I go to Hualien to have fun for one week.",
+      "I want to watch for three hours.",
+      "I want to study Chinese for one and a half years."
+    ],
     "explanation": "Time-duration expresses how long an action lasts. Structure: Subject + Verb + Duration. It answers “how long?”."
   },
   {
@@ -8303,6 +8799,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我去日本旅行一個多星期。",
         "pinyin": "wǒ qù rì běn lǚ xíng yī gè duō xīng qī。",
+        "english": "I went to Japan to travel for more than a week.",
         "charDetails": [
           {
             "char": "我",
@@ -8357,6 +8854,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想坐高鐵去臺南玩兩天。",
         "pinyin": "wǒ xiǎng zuò gāo tiě qù tái nán wán liǎng tiān。",
+        "english": "I want to take the High Speed Rail to Tainan to have fun for two days.",
         "charDetails": [
           {
             "char": "我",
@@ -8411,6 +8909,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們學校要上四年。",
         "pinyin": "wǒ men xué xiào yào shàng sì nián。",
+        "english": "Our school requires attending for four years.",
         "charDetails": [
           {
             "char": "我",
@@ -8451,6 +8950,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I went to Japan to travel for more than a week.",
+      "I want to take the High Speed Rail to Tainan to have fun for two days.",
+      "Our school requires attending for four years."
+    ],
     "explanation": "Duration follows the verb directly. If the verb has an object, the verb must be repeated before the duration."
   },
   {
@@ -8469,6 +8973,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他教中文教一年。",
         "pinyin": "tā jiāo zhōng wén jiào yī nián。",
+        "english": "He has taught Chinese [and taught] for one year.",
         "charDetails": [
           {
             "char": "他",
@@ -8507,6 +9012,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我學書法學兩天。",
         "pinyin": "wǒ xué shū fǎ xué liǎng tiān。",
+        "english": "I have practiced calligraphy [and practiced] for two days.",
         "charDetails": [
           {
             "char": "我",
@@ -8545,6 +9051,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我學中文學九個月。",
         "pinyin": "wǒ xué zhōng wén xué jiǔ gè yuè。",
+        "english": "I have studied Chinese [and studied] for nine months.",
         "charDetails": [
           {
             "char": "我",
@@ -8585,6 +9092,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He has taught Chinese [and taught] for one year.",
+      "I have practiced calligraphy [and practiced] for two days.",
+      "I have studied Chinese [and studied] for nine months."
+    ],
     "explanation": "When the verb takes an object, structure becomes: Subject + Verb + Object + Verb + Duration."
   },
   {
@@ -8603,6 +9115,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他兩天不能來上課。",
         "pinyin": "tā liǎng tiān bù néng lái shàng kè。",
+        "english": "For two days he cannot come to class.",
         "charDetails": [
           {
             "char": "他",
@@ -8645,6 +9158,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我兩個星期不能上網。",
         "pinyin": "wǒ liǎng gè xīng qī bù néng shàng wǎng。",
+        "english": "For two weeks I cannot access the internet.",
         "charDetails": [
           {
             "char": "我",
@@ -8691,6 +9205,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她一個月不能上課。",
         "pinyin": "tā yī gè yuè bù néng shàng kè。",
+        "english": "For one month she cannot attend class.",
         "charDetails": [
           {
             "char": "她",
@@ -8731,6 +9246,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "For two days he cannot come to class.",
+      "For two weeks I cannot access the internet.",
+      "For one month she cannot attend class."
+    ],
     "explanation": "When expressing how long something will not happen, the duration appears before the negation marker."
   },
   {
@@ -8749,6 +9269,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "看風景的時候，我覺得很舒服。",
         "pinyin": "kàn fēng jǐng de shí hòu， wǒ jué dé hěn shū fú。",
+        "english": "At the time of looking at the scenery, I feel very comfortable.",
         "charDetails": [
           {
             "char": "看",
@@ -8811,6 +9332,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "放假的時候，我喜歡逛夜市。",
         "pinyin": "fàng jià de shí hòu， wǒ xǐ huān guàng yè shì。",
+        "english": "At the time of being on vacation, I like to stroll the night market.",
         "charDetails": [
           {
             "char": "放",
@@ -8869,6 +9391,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你有空的時候，請到我家來玩。",
         "pinyin": "nǐ yǒu kòng de shí hòu， qǐng dào wǒ jiā lái wán。",
+        "english": "At the time you have free time, please come to my house to hang out.",
         "charDetails": [
           {
             "char": "你",
@@ -8929,6 +9452,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "At the time of looking at the scenery, I feel very comfortable.",
+      "At the time of being on vacation, I like to stroll the night market.",
+      "At the time you have free time, please come to my house to hang out."
+    ],
     "explanation": "Verb/Clause + 的時候 indicates the time an action happens. It can refer to past, present, or future situations."
   },
   {
@@ -8947,6 +9475,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我有時候吃中國菜，有時候吃越南菜。",
         "pinyin": "wǒ yǒu shí hòu chī zhōng guó cài， yǒu shí hòu chī yuè nán cài。",
+        "english": "I sometimes eat Chinese food, sometimes eat Vietnamese food.",
         "charDetails": [
           {
             "char": "我",
@@ -9021,6 +9550,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我有時候看書，有時候上網。",
         "pinyin": "wǒ yǒu shí hòu kàn shū， yǒu shí hòu shàng wǎng。",
+        "english": "I sometimes read books, sometimes go online.",
         "charDetails": [
           {
             "char": "我",
@@ -9079,6 +9609,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "放假的時候，我有時候在家寫功課，有時候出去玩。",
         "pinyin": "fàng jià de shí hòu， wǒ yǒu shí hòu zài jiā xiě gōng kè， yǒu shí hòu chū qù wán。",
+        "english": "When on vacation, I sometimes at home write homework, sometimes go out to have fun.",
         "charDetails": [
           {
             "char": "放",
@@ -9175,6 +9706,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I sometimes eat Chinese food, sometimes eat Vietnamese food.",
+      "I sometimes read books, sometimes go online.",
+      "When on vacation, I sometimes at home write homework, sometimes go out to have fun."
+    ],
     "explanation": "This pattern describes alternating or varying situations within the same context. It highlights contrast or variation."
   },
   {
@@ -9193,6 +9729,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "要是我有錢，我就買大房子。",
         "pinyin": "yào shì wǒ yǒu qián， wǒ jiù mǎi dà fáng zi。",
+        "english": "If I have money, then I buy a big house.",
         "charDetails": [
           {
             "char": "要",
@@ -9251,6 +9788,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "要是我有空，我就去KTV。",
         "pinyin": "yào shì wǒ yǒu kòng， wǒ jiù qù KTV。",
+        "english": "If I have free time, then I go to KTV.",
         "charDetails": [
           {
             "char": "要",
@@ -9309,6 +9847,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "要是下雨，我就不去。",
         "pinyin": "yào shì xià yǔ， wǒ jiù bù qù。",
+        "english": "If it rains, then I won't go.",
         "charDetails": [
           {
             "char": "要",
@@ -9353,6 +9892,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "If I have money, then I buy a big house.",
+      "If I have free time, then I go to KTV.",
+      "If it rains, then I won't go."
+    ],
     "explanation": "要是 introduces a condition, and 就 introduces the result. It expresses hypothetical or conditional relationships."
   },
   {
@@ -9371,6 +9915,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這杯咖啡很香，你喝喝看。",
         "pinyin": "zhè bēi kā fēi hěn xiāng， nǐ hē hē kàn。",
+        "english": "This cup of coffee is very fragrant, drink [it] and see.",
         "charDetails": [
           {
             "char": "這",
@@ -9425,6 +9970,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那家餐廳很好吃，我想去吃吃看。",
         "pinyin": "nà jiā cān tīng hěn hǎo chī， wǒ xiǎng qù chī chī kàn。",
+        "english": "That restaurant is very delicious, I want to go eat and see.",
         "charDetails": [
           {
             "char": "那",
@@ -9491,6 +10037,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個週末我想去逛逛看。",
         "pinyin": "zhè gè zhōu mò wǒ xiǎng qù guàng guàng kàn。",
+        "english": "This weekend I want to go stroll and see.",
         "charDetails": [
           {
             "char": "這",
@@ -9539,6 +10086,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This cup of coffee is very fragrant, drink [it] and see.",
+      "That restaurant is very delicious, I want to go eat and see.",
+      "This weekend I want to go stroll and see."
+    ],
     "explanation": "V + 看 softens the action and suggests “try and see what happens.” It expresses experimentation or curiosity. Often the verb is reduplicated before 看."
   },
   {
@@ -9557,6 +10109,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "牛肉湯香香的。",
         "pinyin": "niú ròu tāng xiāng xiāng de。",
+        "english": "The beef soup is delightfully fragrant.",
         "charDetails": [
           {
             "char": "牛",
@@ -9591,6 +10144,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "熱咖啡真香香的。",
         "pinyin": "rè kā fēi zhēn xiāng xiāng de。",
+        "english": "The hot coffee really is delightfully fragrant.",
         "charDetails": [
           {
             "char": "熱",
@@ -9629,6 +10183,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那裡有很多高高的樓。",
         "pinyin": "nà lǐ yǒu hěn duō gāo gāo de lóu。",
+        "english": "Over there has many tall, tall buildings.",
         "charDetails": [
           {
             "char": "那",
@@ -9673,6 +10228,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The beef soup is delightfully fragrant.",
+      "The hot coffee really is delightfully fragrant.",
+      "Over there has many tall, tall buildings."
+    ],
     "explanation": "Reduplicating state verbs intensifies the quality and adds a vivid, descriptive tone. Common in spoken language."
   },
   {
@@ -9691,6 +10251,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你說的水果是西瓜。",
         "pinyin": "nǐ shuō de shuǐ guǒ shì xī guā。",
+        "english": "The fruit that you mentioned is watermelon.",
         "charDetails": [
           {
             "char": "你",
@@ -9733,6 +10294,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他喝的茶是烏龍茶。",
         "pinyin": "tā hē de chá shì wū lóng chá。",
+        "english": "The tea that he drinks is oolong tea.",
         "charDetails": [
           {
             "char": "他",
@@ -9775,6 +10337,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "穿紅衣的這個人是老闆。",
         "pinyin": "chuān hóng yī de zhè gè rén shì lǎo bǎn。",
+        "english": "This person who wears red clothes is the boss.",
         "charDetails": [
           {
             "char": "穿",
@@ -9823,6 +10386,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The fruit that you mentioned is watermelon.",
+      "The tea that he drinks is oolong tea.",
+      "This person who wears red clothes is the boss."
+    ],
     "explanation": "A clause can modify a noun using 的. Structure: Clause + 的 + Noun. It functions like a relative clause in English."
   },
   {
@@ -9841,6 +10409,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不能上網的手機很不方便。",
         "pinyin": "bù néng shàng wǎng de shǒu jī hěn bù fāng biàn。",
+        "english": "Mobile phones that cannot access the internet are very inconvenient.",
         "charDetails": [
           {
             "char": "不",
@@ -9895,6 +10464,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不去逛夜市的人可以去喝茶。",
         "pinyin": "bù qù guàng yè shì de rén kě yǐ qù hē chá。",
+        "english": "People who do not go stroll the night market can go drink tea.",
         "charDetails": [
           {
             "char": "不",
@@ -9953,6 +10523,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不來上課的同學不能去看比賽。",
         "pinyin": "bù lái shàng kè de tóng xué bù néng qù kàn bǐ sài。",
+        "english": "Classmates who do not come to class cannot go watch the match.",
         "charDetails": [
           {
             "char": "不",
@@ -10013,6 +10584,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Mobile phones that cannot access the internet are very inconvenient.",
+      "People who do not go stroll the night market can go drink tea.",
+      "Classmates who do not come to class cannot go watch the match."
+    ],
     "explanation": "Negation appears inside the modifying clause before 的. It describes people or things that do not perform an action."
   },
   {
@@ -10031,6 +10607,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "咖啡貴了。",
         "pinyin": "kā fēi guì le。",
+        "english": "Coffee has become expensive.",
         "charDetails": [
           {
             "char": "咖",
@@ -10057,6 +10634,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我會打網球了。",
         "pinyin": "wǒ huì dǎ wǎng qiú le。",
+        "english": "I now know how to play tennis.",
         "charDetails": [
           {
             "char": "我",
@@ -10091,6 +10669,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "現在有手機的人多了。",
         "pinyin": "xiàn zài yǒu shǒu jī de rén duō le。",
+        "english": "Now people who have mobile phones have increased.",
         "charDetails": [
           {
             "char": "現",
@@ -10135,6 +10714,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Coffee has become expensive.",
+      "I now know how to play tennis.",
+      "Now people who have mobile phones have increased."
+    ],
     "explanation": "Sentence-final 了 indicates a change of situation or new state. It often implies “now” compared to before."
   },
   {
@@ -10153,6 +10737,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我媽媽不喝咖啡了。",
         "pinyin": "wǒ mā mā bù hē kā fēi le。",
+        "english": "My mother does not drink coffee anymore.",
         "charDetails": [
           {
             "char": "我",
@@ -10195,6 +10780,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不想買那支手機了。",
         "pinyin": "tā bù xiǎng mǎi nà zhī shǒu jī le。",
+        "english": "He does not want to buy that mobile phone anymore.",
         "charDetails": [
           {
             "char": "他",
@@ -10241,6 +10827,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們不想去參觀故宮了。",
         "pinyin": "wǒ men bù xiǎng qù cān guān gù gōng le。",
+        "english": "We do not want to visit the National Palace Museum anymore.",
         "charDetails": [
           {
             "char": "我",
@@ -10289,6 +10876,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My mother does not drink coffee anymore.",
+      "He does not want to buy that mobile phone anymore.",
+      "We do not want to visit the National Palace Museum anymore."
+    ],
     "explanation": "不 + Verb + 了 expresses that a previous habit or intention has stopped. It marks a change from before."
   },
   {
@@ -10307,6 +10899,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "因為火車太慢了，所以我想坐高鐵。",
         "pinyin": "yīn wèi huǒ chē tài màn le， suǒ yǐ wǒ xiǎng zuò gāo tiě。",
+        "english": "Because the train is too slow, therefore I want to take the High Speed Rail.",
         "charDetails": [
           {
             "char": "因",
@@ -10377,6 +10970,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "因為我不會做飯，所以常去餐廳吃飯。",
         "pinyin": "yīn wèi wǒ bù huì zuò fàn， suǒ yǐ cháng qù cān tīng chī fàn。",
+        "english": "Because I do not know how to cook, therefore I often go to restaurants to eat.",
         "charDetails": [
           {
             "char": "因",
@@ -10451,6 +11045,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "因為現在去玩的人比較少，所以旅館不貴。",
         "pinyin": "yīn wèi xiàn zài qù wán de rén bǐ jiào shǎo， suǒ yǐ lǚ guǎn bù guì。",
+        "english": "Because now people going to travel are comparatively few, therefore hotels are not expensive.",
         "charDetails": [
           {
             "char": "因",
@@ -10531,6 +11126,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Because the train is too slow, therefore I want to take the High Speed Rail.",
+      "Because I do not know how to cook, therefore I often go to restaurants to eat.",
+      "Because now people going to travel are comparatively few, therefore hotels are not expensive."
+    ],
     "explanation": "因為 introduces the cause, and 所以 introduces the result. Both clauses together clearly mark cause and effect. Sometimes 所以 can be omitted in speech."
   },
   {
@@ -10549,6 +11149,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我來學中文。",
         "pinyin": "wǒ lái xué zhōng wén。",
+        "english": "I come to study Chinese.",
         "charDetails": [
           {
             "char": "我",
@@ -10579,6 +11180,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他來打籃球。",
         "pinyin": "tā lái dǎ lán qiú。",
+        "english": "He comes to play basketball.",
         "charDetails": [
           {
             "char": "他",
@@ -10609,6 +11211,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我跟朋友來逛夜市。",
         "pinyin": "wǒ gēn péng yǒu lái guàng yè shì。",
+        "english": "I and friend come to stroll the night market.",
         "charDetails": [
           {
             "char": "我",
@@ -10649,6 +11252,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I come to study Chinese.",
+      "He comes to play basketball.",
+      "I and friend come to stroll the night market."
+    ],
     "explanation": "來 followed by a verb expresses purpose: coming somewhere in order to do something. Structure: Subject + 來 + Verb Phrase."
   },
   {
@@ -10667,6 +11275,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我明天有事不來上課。",
         "pinyin": "wǒ míng tiān yǒu shì bù lái shàng kè。",
+        "english": "Tomorrow I have things to do and will not come to attend class.",
         "charDetails": [
           {
             "char": "我",
@@ -10713,6 +11322,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不來吃晚飯。",
         "pinyin": "tā bù lái chī wǎn fàn。",
+        "english": "He is not coming to eat dinner.",
         "charDetails": [
           {
             "char": "他",
@@ -10747,6 +11357,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她不來看電影。",
         "pinyin": "tā bù lái kàn diàn yǐng。",
+        "english": "She is not coming to watch the movie.",
         "charDetails": [
           {
             "char": "她",
@@ -10779,6 +11390,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Tomorrow I have things to do and will not come to attend class.",
+      "He is not coming to eat dinner.",
+      "She is not coming to watch the movie."
+    ],
     "explanation": "Negation is formed by placing 不 before 來. It means someone will not come to do something."
   },
   {
@@ -10797,6 +11413,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "走路十分鐘就到了。",
         "pinyin": "zǒu lù shí fēn zhōng jiù dào le。",
+        "english": "Walking for ten minutes and [you] then arrive.",
         "charDetails": [
           {
             "char": "走",
@@ -10839,6 +11456,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "很快就到了。",
         "pinyin": "hěn kuài jiù dào le。",
+        "english": "Very quickly then [we] arrive.",
         "charDetails": [
           {
             "char": "很",
@@ -10869,6 +11487,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他等一下就來。",
         "pinyin": "tā děng yí xià jiù lái。",
+        "english": "He will come in just a little while.",
         "charDetails": [
           {
             "char": "他",
@@ -10901,6 +11520,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Walking for ten minutes and [you] then arrive.",
+      "Very quickly then [we] arrive.",
+      "He will come in just a little while."
+    ],
     "explanation": "就 emphasizes that something happens earlier or faster than expected. It often suggests immediacy or short time."
   },
   {
@@ -10919,6 +11543,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有兩個學生來找你。",
         "pinyin": "yǒu liǎng gè xué shēng lái zhǎo nǐ。",
+        "english": "There are two students coming to look for you.",
         "charDetails": [
           {
             "char": "有",
@@ -10961,6 +11586,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "昨天有一個先生來裝有線電視。",
         "pinyin": "zuó tiān yǒu yī gè xiān shēng lái zhuāng yǒu xiàn diàn shì。",
+        "english": "Yesterday there was a gentleman who came to install cable TV.",
         "charDetails": [
           {
             "char": "昨",
@@ -11023,6 +11649,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "外面有一個人在唱歌。",
         "pinyin": "wài miàn yǒu yī gè rén zài chàng gē。",
+        "english": "Outside there is a person singing.",
         "charDetails": [
           {
             "char": "外",
@@ -11067,6 +11694,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "There are two students coming to look for you.",
+      "Yesterday there was a gentleman who came to install cable TV.",
+      "Outside there is a person singing."
+    ],
     "explanation": "有 introduces the existence of someone or something performing an action. Structure: 有 + Noun + Verb Phrase."
   },
   {
@@ -11085,6 +11717,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這間沒有住人。",
         "pinyin": "zhè jiān méi yǒu zhù rén。",
+        "english": "This room has no person living [in it].",
         "charDetails": [
           {
             "char": "這",
@@ -11119,6 +11752,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "沒有人要跟我去。",
         "pinyin": "méi yǒu rén yào gēn wǒ qù。",
+        "english": "There is no one who wants to go with me.",
         "charDetails": [
           {
             "char": "沒",
@@ -11157,6 +11791,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "沒有學生要去故宮。",
         "pinyin": "méi yǒu xué shēng yào qù gù gōng。",
+        "english": "There are no students who will go to the National Palace Museum.",
         "charDetails": [
           {
             "char": "沒",
@@ -11197,6 +11832,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This room has no person living [in it].",
+      "There is no one who wants to go with me.",
+      "There are no students who will go to the National Palace Museum."
+    ],
     "explanation": "Existential negation uses 沒有, not 不. Structure: 沒有 + Noun + Verb Phrase."
   },
   {
@@ -11215,6 +11855,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有人在裡面看書嗎？",
         "pinyin": "yǒu rén zài lǐ miàn kàn shū ma？",
+        "english": "Is there someone inside reading books?",
         "charDetails": [
           {
             "char": "有",
@@ -11257,6 +11898,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有沒有人想去KTV唱歌？",
         "pinyin": "yǒu méi yǒu rén xiǎng qù KTV chàng gē？",
+        "english": "Is there or is there not anyone who wants to go to KTV to sing?",
         "charDetails": [
           {
             "char": "有",
@@ -11311,6 +11953,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有沒有人要跟我去花蓮？",
         "pinyin": "yǒu méi yǒu rén yào gēn wǒ qù huā lián？",
+        "english": "Is there or is there not anyone who wants to go to Hualien with me?",
         "charDetails": [
           {
             "char": "有",
@@ -11359,6 +12002,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Is there someone inside reading books?",
+      "Is there or is there not anyone who wants to go to KTV to sing?",
+      "Is there or is there not anyone who wants to go to Hualien with me?"
+    ],
     "explanation": "The A-not-A form 有沒有 asks about existence. It is used to ask if someone or something exists."
   },
   {
@@ -11377,6 +12025,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他會做飯。",
         "pinyin": "tā huì zuò fàn。",
+        "english": "He knows how to cook.",
         "charDetails": [
           {
             "char": "他",
@@ -11403,6 +12052,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我明天會去看他。",
         "pinyin": "wǒ míng tiān huì qù kàn tā。",
+        "english": "Tomorrow I will go see him.",
         "charDetails": [
           {
             "char": "我",
@@ -11441,6 +12091,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他明天不會去上課。",
         "pinyin": "tā míng tiān bù huì qù shàng kè。",
+        "english": "Tomorrow he will not go attend class.",
         "charDetails": [
           {
             "char": "他",
@@ -11481,6 +12132,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He knows how to cook.",
+      "Tomorrow I will go see him.",
+      "Tomorrow he will not go attend class."
+    ],
     "explanation": "會 has two meanings: learned ability (“know how to”) and future likelihood (“will”). Context determines meaning."
   },
   {
@@ -11499,6 +12155,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請進。",
         "pinyin": "qǐng jìn。",
+        "english": "Please enter.",
         "charDetails": [
           {
             "char": "請",
@@ -11517,6 +12174,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "要買什麼？",
         "pinyin": "yào mǎi shén me？",
+        "english": "[You] want to buy what?",
         "charDetails": [
           {
             "char": "要",
@@ -11543,6 +12201,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我姓王，叫凱文。",
         "pinyin": "wǒ xìng wáng， jiào kǎi wén。",
+        "english": "My surname is Wang, called Kaiwen.",
         "charDetails": [
           {
             "char": "我",
@@ -11579,6 +12238,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please enter.",
+      "[You] want to buy what?",
+      "My surname is Wang, called Kaiwen."
+    ],
     "explanation": "Subjects or objects can be omitted when understood from context or previously mentioned. Mandarin frequently drops predictable elements."
   },
   {
@@ -11597,6 +12261,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想先吃晚飯再打電話。",
         "pinyin": "wǒ xiǎng xiān chī wǎn fàn zài dǎ diàn huà。",
+        "english": "I want to first eat dinner, then make a phone call.",
         "charDetails": [
           {
             "char": "我",
@@ -11647,6 +12312,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "明天我先去圖書館再去超市。",
         "pinyin": "míng tiān wǒ xiān qù tú shū guǎn zài qù chāo shì。",
+        "english": "Tomorrow I first go to the library, then go to the supermarket.",
         "charDetails": [
           {
             "char": "明",
@@ -11705,6 +12371,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他打算先旅行再找工作。",
         "pinyin": "tā dǎ suàn xiān lǚ xíng zài zhǎo gōng zuò。",
+        "english": "He plans to first travel, then look for a job.",
         "charDetails": [
           {
             "char": "他",
@@ -11753,6 +12420,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I want to first eat dinner, then make a phone call.",
+      "Tomorrow I first go to the library, then go to the supermarket.",
+      "He plans to first travel, then look for a job."
+    ],
     "explanation": "先 introduces the first action, 再 introduces the second. Structure: Subject + 先 + V1 + 再 + V2. It emphasizes sequence of actions."
   },
   {
@@ -11771,6 +12443,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他是昨天晚上到臺灣的。",
         "pinyin": "tā shì zuó tiān wǎn shàng dào tái wān de。",
+        "english": "It was yesterday evening that he arrived in Taiwan.",
         "charDetails": [
           {
             "char": "他",
@@ -11821,6 +12494,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我是坐捷運來學校的。",
         "pinyin": "wǒ shì zuò jié yùn lái xué xiào de。",
+        "english": "It was by riding the MRT that I came to school.",
         "charDetails": [
           {
             "char": "我",
@@ -11867,6 +12541,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "是我打電話給房東的。",
         "pinyin": "shì wǒ dǎ diàn huà gěi fáng dōng de。",
+        "english": "It was I who called the landlord.",
         "charDetails": [
           {
             "char": "是",
@@ -11911,6 +12586,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "It was yesterday evening that he arrived in Taiwan.",
+      "It was by riding the MRT that I came to school.",
+      "It was I who called the landlord."
+    ],
     "explanation": "是…的 emphasizes time, place, manner, or subject of a past event. It highlights specific details of a completed action."
   },
   {
@@ -11929,6 +12609,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不是今天早上去美國的。",
         "pinyin": "tā bú shì jīn tiān zǎo shàng qù měi guó de。",
+        "english": "It was not this morning that he went to America.",
         "charDetails": [
           {
             "char": "他",
@@ -11983,6 +12664,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "不是我打電話的。",
         "pinyin": "bú shì wǒ dǎ diàn huà de。",
+        "english": "It was not I who made the phone call.",
         "charDetails": [
           {
             "char": "不",
@@ -12021,6 +12703,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不是在圖書館看書的。",
         "pinyin": "wǒ bú shì zài tú shū guǎn kàn shū de。",
+        "english": "It was not in the library that I read books.",
         "charDetails": [
           {
             "char": "我",
@@ -12069,6 +12752,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "It was not this morning that he went to America.",
+      "It was not I who made the phone call.",
+      "It was not in the library that I read books."
+    ],
     "explanation": "Negation of the focus construction places 不是 before the emphasized element. It denies a specific detail of the event."
   },
   {
@@ -12087,6 +12775,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "以後我都得上班。",
         "pinyin": "yǐ hòu wǒ dōu dé shàng bān。",
+        "english": "In the future I all must go to work.",
         "charDetails": [
           {
             "char": "以",
@@ -12125,6 +12814,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "回國以後我要找工作。",
         "pinyin": "huí guó yǐ hòu wǒ yào zhǎo gōng zuò。",
+        "english": "After returning to [my] country, I want to look for a job.",
         "charDetails": [
           {
             "char": "回",
@@ -12171,6 +12861,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "下課以後我去圖書館。",
         "pinyin": "xià kè yǐ hòu wǒ qù tú shū guǎn。",
+        "english": "After class finishes, I go to the library.",
         "charDetails": [
           {
             "char": "下",
@@ -12215,6 +12906,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "In the future I all must go to work.",
+      "After returning to [my] country, I want to look for a job.",
+      "After class finishes, I go to the library."
+    ],
     "explanation": "以後 can mean “after (an event)” or “in the future.” It may appear at the beginning or after a clause."
   },
   {
@@ -12233,6 +12929,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這首歌好聽。",
         "pinyin": "zhè shǒu gē hǎo tīng。",
+        "english": "This song is pleasant to listen to.",
         "charDetails": [
           {
             "char": "這",
@@ -12263,6 +12960,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這家店的菜好吃。",
         "pinyin": "zhè jiā diàn de cài hǎo chī。",
+        "english": "This shop's dishes are good to eat (delicious).",
         "charDetails": [
           {
             "char": "這",
@@ -12301,6 +12999,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個字很好寫。",
         "pinyin": "zhè gè zì hěn hǎo xiě。",
+        "english": "This character is easy to write.",
         "charDetails": [
           {
             "char": "這",
@@ -12333,6 +13032,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This song is pleasant to listen to.",
+      "This shop's dishes are good to eat (delicious).",
+      "This character is easy to write."
+    ],
     "explanation": "好 before a verb often means easy or pleasant to do. It describes subjective evaluation of experience."
   },
   {
@@ -12351,6 +13055,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "中文難學。",
         "pinyin": "zhōng wén nán xué。",
+        "english": "Chinese is hard to learn.",
         "charDetails": [
           {
             "char": "中",
@@ -12377,6 +13082,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個字難寫。",
         "pinyin": "zhè gè zì nán xiě。",
+        "english": "This character is hard to write.",
         "charDetails": [
           {
             "char": "這",
@@ -12407,6 +13113,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這種工作難找。",
         "pinyin": "zhè zhǒng gōng zuò nán zhǎo。",
+        "english": "This kind of job is hard to find.",
         "charDetails": [
           {
             "char": "這",
@@ -12439,6 +13146,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Chinese is hard to learn.",
+      "This character is hard to write.",
+      "This kind of job is hard to find."
+    ],
     "explanation": "難 + Verb means difficult to perform that action. It expresses difficulty rather than moral “badness.”"
   },
   {
@@ -12457,6 +13169,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "便宜的咖啡不好喝。",
         "pinyin": "pián yi de kā fēi bù hǎo hē。",
+        "english": "Cheap coffee is not good to drink.",
         "charDetails": [
           {
             "char": "便",
@@ -12499,6 +13212,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這首歌不難唱。",
         "pinyin": "zhè shǒu gē bù nán chàng。",
+        "english": "This song is not hard to sing.",
         "charDetails": [
           {
             "char": "這",
@@ -12533,6 +13247,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個地方不好找。",
         "pinyin": "zhè gè dì fāng bù hǎo zhǎo。",
+        "english": "This place is not easy to find.",
         "charDetails": [
           {
             "char": "這",
@@ -12569,6 +13284,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Cheap coffee is not good to drink.",
+      "This song is not hard to sing.",
+      "This place is not easy to find."
+    ],
     "explanation": "Negation modifies the adjective (好/難). 不好 V means not pleasant/easy; 不難 V means not difficult."
   },
   {
@@ -12587,6 +13307,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我一下課就回家。",
         "pinyin": "wǒ yī xià kè jiù huí jiā。",
+        "english": "As soon as I finish class, I immediately go home.",
         "charDetails": [
           {
             "char": "我",
@@ -12625,6 +13346,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他一回國就找工作。",
         "pinyin": "tā yī huí guó jiù zhǎo gōng zuò。",
+        "english": "As soon as he returns to [his] country, he immediately looks for a job.",
         "charDetails": [
           {
             "char": "他",
@@ -12667,6 +13389,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "妹妹一回去就打電話。",
         "pinyin": "mèi mèi yī huí qù jiù dǎ diàn huà。",
+        "english": "As soon as younger sister went back, she immediately called.",
         "charDetails": [
           {
             "char": "妹",
@@ -12711,6 +13434,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "As soon as I finish class, I immediately go home.",
+      "As soon as he returns to [his] country, he immediately looks for a job.",
+      "As soon as younger sister went back, she immediately called."
+    ],
     "explanation": "一 + Verb indicates the first action happens; 就 emphasizes the immediate result. It expresses “as soon as A happens, B happens.”"
   },
   {
@@ -12729,6 +13457,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我買了三張票。",
         "pinyin": "wǒ mǎi le sān zhāng piào。",
+        "english": "I bought three tickets.",
         "charDetails": [
           {
             "char": "我",
@@ -12763,6 +13492,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "昨天我吃了很多東西。",
         "pinyin": "zuó tiān wǒ chī le hěn duō dōng xī。",
+        "english": "Yesterday I ate many things.",
         "charDetails": [
           {
             "char": "昨",
@@ -12809,6 +13539,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他租了一個房子。",
         "pinyin": "tā zū le yī gè fáng zi。",
+        "english": "He rented a house.",
         "charDetails": [
           {
             "char": "他",
@@ -12845,6 +13576,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I bought three tickets.",
+      "Yesterday I ate many things.",
+      "He rented a house."
+    ],
     "explanation": "Verbal 了 marks a completed action. It focuses on the occurrence of the event, not change of state."
   },
   {
@@ -12863,6 +13599,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不去圖書館。",
         "pinyin": "wǒ bù qù tú shū guǎn。",
+        "english": "I am not going to the library.",
         "charDetails": [
           {
             "char": "我",
@@ -12897,6 +13634,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我昨天沒打電話。",
         "pinyin": "wǒ zuó tiān méi dǎ diàn huà。",
+        "english": "Yesterday I did not make a phone call.",
         "charDetails": [
           {
             "char": "我",
@@ -12935,6 +13673,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "上星期我沒去KTV。",
         "pinyin": "shàng xīng qī wǒ méi qù KTV。",
+        "english": "Last week I did not go to KTV.",
         "charDetails": [
           {
             "char": "上",
@@ -12979,6 +13718,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I am not going to the library.",
+      "Yesterday I did not make a phone call.",
+      "Last week I did not go to KTV."
+    ],
     "explanation": "不 negates habitual actions or future intentions. 沒 negates completed past actions. Choice depends on time reference."
   },
   {
@@ -12997,6 +13741,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天不熱。",
         "pinyin": "jīn tiān bù rè。",
+        "english": "Today is not hot.",
         "charDetails": [
           {
             "char": "今",
@@ -13023,6 +13768,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "中文不難學。",
         "pinyin": "zhōng wén bù nán xué。",
+        "english": "Chinese is not hard to learn.",
         "charDetails": [
           {
             "char": "中",
@@ -13053,6 +13799,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不舒服。",
         "pinyin": "wǒ bù shū fú。",
+        "english": "I am not comfortable / well.",
         "charDetails": [
           {
             "char": "我",
@@ -13077,6 +13824,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Today is not hot.",
+      "Chinese is not hard to learn.",
+      "I am not comfortable / well."
+    ],
     "explanation": "State verbs (adjectival verbs) are negated with 不. They describe conditions or qualities."
   },
   {
@@ -13095,6 +13847,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "中文課還沒結束。",
         "pinyin": "zhōng wén kè hái méi jié shù。",
+        "english": "Chinese class has not yet ended.",
         "charDetails": [
           {
             "char": "中",
@@ -13133,6 +13886,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我還沒決定。",
         "pinyin": "wǒ hái méi jué dìng。",
+        "english": "I have not yet decided.",
         "charDetails": [
           {
             "char": "我",
@@ -13163,6 +13917,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他還沒來。",
         "pinyin": "tā hái méi lái。",
+        "english": "He has not yet come.",
         "charDetails": [
           {
             "char": "他",
@@ -13187,6 +13942,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Chinese class has not yet ended.",
+      "I have not yet decided.",
+      "He has not yet come."
+    ],
     "explanation": "還沒 expresses that something has not happened yet. It indicates incomplete process or expectation."
   },
   {
@@ -13205,6 +13965,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "誰都喜歡旅行。",
         "pinyin": "shuí dōu xǐ huān lǚ xíng。",
+        "english": "Anyone likes traveling (Everyone likes traveling).",
         "charDetails": [
           {
             "char": "誰",
@@ -13239,6 +14000,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他什麼都想買。",
         "pinyin": "tā shén me dōu xiǎng mǎi。",
+        "english": "He wants to buy everything.",
         "charDetails": [
           {
             "char": "他",
@@ -13273,6 +14035,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他什麼時候都在上網。",
         "pinyin": "tā shén me shí hòu dōu zài shàng wǎng。",
+        "english": "Whatever time [it is], he is online.",
         "charDetails": [
           {
             "char": "他",
@@ -13317,6 +14080,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Anyone likes traveling (Everyone likes traveling).",
+      "He wants to buy everything.",
+      "Whatever time [it is], he is online."
+    ],
     "explanation": "Question words + 都 express “everyone,” “everything,” or “all the time.” It generalizes inclusively."
   },
   {
@@ -13335,6 +14103,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "誰也不喜歡。",
         "pinyin": "shuí yě bù xǐ huān。",
+        "english": "Whoever also doesn't like [it] (No one likes it).",
         "charDetails": [
           {
             "char": "誰",
@@ -13365,6 +14134,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我什麼也不想吃。",
         "pinyin": "wǒ shén me yě bù xiǎng chī。",
+        "english": "Whatever, I also don't want to eat (I don't want to eat anything).",
         "charDetails": [
           {
             "char": "我",
@@ -13403,6 +14173,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "昨天我哪裡都沒去。",
         "pinyin": "zuó tiān wǒ nǎ lǐ dōu méi qù。",
+        "english": "Yesterday wherever I all didn't go (Yesterday I didn't go anywhere).",
         "charDetails": [
           {
             "char": "昨",
@@ -13443,6 +14214,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Whoever also doesn't like [it] (No one likes it).",
+      "Whatever, I also don't want to eat (I don't want to eat anything).",
+      "Yesterday wherever I all didn't go (Yesterday I didn't go anywhere)."
+    ],
     "explanation": "Question word + 也 + negation expresses “no one,” “nothing,” or “nowhere.” It creates total negation."
   },
   {
@@ -13461,6 +14237,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我應該多看書。",
         "pinyin": "wǒ yīng gāi duō kàn shū。",
+        "english": "I should read books more.",
         "charDetails": [
           {
             "char": "我",
@@ -13495,6 +14272,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我應該少買東西。",
         "pinyin": "wǒ yīng gāi shǎo mǎi dōng xī。",
+        "english": "I should buy things less.",
         "charDetails": [
           {
             "char": "我",
@@ -13533,6 +14311,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他想多學一點中文。",
         "pinyin": "tā xiǎng duō xué yī diǎn zhōng wén。",
+        "english": "He wants to learn a bit more Chinese.",
         "charDetails": [
           {
             "char": "他",
@@ -13573,6 +14352,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I should read books more.",
+      "I should buy things less.",
+      "He wants to learn a bit more Chinese."
+    ],
     "explanation": "多 or 少 before a verb expresses doing more or less than usual or expected. Often implies adjustment."
   },
   {
@@ -13591,6 +14375,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你是不是在等我？",
         "pinyin": "nǐ shì bú shì zài děng wǒ？",
+        "english": "Are you or are you not waiting for me?",
         "charDetails": [
           {
             "char": "你",
@@ -13629,6 +14414,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那家餐廳是不是很有名？",
         "pinyin": "nà jiā cān tīng shì bú shì hěn yǒu míng？",
+        "english": "Is that restaurant or is it not very famous?",
         "charDetails": [
           {
             "char": "那",
@@ -13679,6 +14465,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你是不是剛旅行回來？",
         "pinyin": "nǐ shì bú shì gāng lǚ xíng huí lái？",
+        "english": "Did you or did you not just return from traveling?",
         "charDetails": [
           {
             "char": "你",
@@ -13723,6 +14510,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Are you or are you not waiting for me?",
+      "Is that restaurant or is it not very famous?",
+      "Did you or did you not just return from traveling?"
+    ],
     "explanation": "是不是 checks or confirms an assumption. It is softer than a direct yes/no question."
   },
   {
@@ -13741,6 +14533,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這支手機跟那支一樣。",
         "pinyin": "zhè zhī shǒu jī gēn nà zhī yī yàng。",
+        "english": "This mobile phone and that one are the same.",
         "charDetails": [
           {
             "char": "這",
@@ -13787,6 +14580,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我跟妹妹一樣高。",
         "pinyin": "wǒ gēn mèi mèi yī yàng gāo。",
+        "english": "I and younger sister are equally tall.",
         "charDetails": [
           {
             "char": "我",
@@ -13825,6 +14619,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他跟我一樣喜歡游泳。",
         "pinyin": "tā gēn wǒ yī yàng xǐ huān yóu yǒng。",
+        "english": "He and I like swimming equally.",
         "charDetails": [
           {
             "char": "他",
@@ -13869,6 +14664,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This mobile phone and that one are the same.",
+      "I and younger sister are equally tall.",
+      "He and I like swimming equally."
+    ],
     "explanation": "跟 + Noun + 一樣 expresses similarity or equality. It compares two things as being the same."
   },
   {
@@ -13887,6 +14687,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "中國茶跟日本茶不一樣。",
         "pinyin": "zhōng guó chá gēn rì běn chá bù yī yàng。",
+        "english": "Chinese tea and Japanese tea are not the same.",
         "charDetails": [
           {
             "char": "中",
@@ -13937,6 +14738,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我跟妹妹不一樣高。",
         "pinyin": "wǒ gēn mèi mèi bù yī yàng gāo。",
+        "english": "I and younger sister are not equally tall.",
         "charDetails": [
           {
             "char": "我",
@@ -13979,6 +14781,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今年生意不一樣好。",
         "pinyin": "jīn nián shēng yì bù yī yàng hǎo。",
+        "english": "This year business is not the same good (not as good).",
         "charDetails": [
           {
             "char": "今",
@@ -14019,6 +14822,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Chinese tea and Japanese tea are not the same.",
+      "I and younger sister are not equally tall.",
+      "This year business is not the same good (not as good)."
+    ],
     "explanation": "不一樣 expresses difference. It negates similarity and indicates contrast."
   },
   {
@@ -14037,6 +14845,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他住臺北住了三年。",
         "pinyin": "tā zhù tái běi zhù le sān nián。",
+        "english": "He lived in Taipei [and lived] for three years.",
         "charDetails": [
           {
             "char": "他",
@@ -14079,6 +14888,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師在美國住了一年。",
         "pinyin": "lǎo shī zài měi guó zhù le yī nián。",
+        "english": "Teacher lived in America for one year.",
         "charDetails": [
           {
             "char": "老",
@@ -14125,6 +14935,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她準備了三天。",
         "pinyin": "tā zhǔn bèi le sān tiān。",
+        "english": "She prepared for three days.",
         "charDetails": [
           {
             "char": "她",
@@ -14157,6 +14968,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He lived in Taipei [and lived] for three years.",
+      "Teacher lived in America for one year.",
+      "She prepared for three days."
+    ],
     "explanation": "Verbal 了 + duration shows how long an action lasted and implies it is finished or no longer continuing."
   },
   {
@@ -14175,6 +14991,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他在臺灣玩了一年了。",
         "pinyin": "tā zài tái wān wán le yī nián le。",
+        "english": "He has been traveling in Taiwan for a year already.",
         "charDetails": [
           {
             "char": "他",
@@ -14221,6 +15038,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我工作兩個月了。",
         "pinyin": "wǒ gōng zuò liǎng gè yuè le。",
+        "english": "I have been working for two months already.",
         "charDetails": [
           {
             "char": "我",
@@ -14259,6 +15077,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他租這間房子半年了。",
         "pinyin": "tā zū zhè jiān fáng zi bàn nián le。",
+        "english": "He has been renting this house for half a year already.",
         "charDetails": [
           {
             "char": "他",
@@ -14303,6 +15122,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He has been traveling in Taiwan for a year already.",
+      "I have been working for two months already.",
+      "He has been renting this house for half a year already."
+    ],
     "explanation": "Double 了 indicates the action started in the past and continues up to the present. It emphasizes “so far.”"
   },
   {
@@ -14321,6 +15145,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "快下雨了。",
         "pinyin": "kuài xià yǔ le。",
+        "english": "It is about to rain.",
         "charDetails": [
           {
             "char": "快",
@@ -14347,6 +15172,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "電影快結束了。",
         "pinyin": "diàn yǐng kuài jié shù le。",
+        "english": "The movie is about to finish.",
         "charDetails": [
           {
             "char": "電",
@@ -14381,6 +15207,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "爸爸快到了。",
         "pinyin": "bà bà kuài dào le。",
+        "english": "Father is about to arrive.",
         "charDetails": [
           {
             "char": "爸",
@@ -14409,6 +15236,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "It is about to rain.",
+      "The movie is about to finish.",
+      "Father is about to arrive."
+    ],
     "explanation": "快 + Verb + 了 expresses that something will happen very soon. It signals an upcoming change."
   },
   {
@@ -14427,6 +15259,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他比我更高。",
         "pinyin": "tā bǐ wǒ gèng gāo。",
+        "english": "He is even taller than me.",
         "charDetails": [
           {
             "char": "他",
@@ -14457,6 +15290,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今年比去年更冷。",
         "pinyin": "jīn nián bǐ qù nián gèng lěng。",
+        "english": "This year is even colder than last year.",
         "charDetails": [
           {
             "char": "今",
@@ -14495,6 +15329,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "芒果比西瓜更好吃。",
         "pinyin": "máng guǒ bǐ xī guā gèng hǎo chī。",
+        "english": "Mango is even more delicious than watermelon.",
         "charDetails": [
           {
             "char": "芒",
@@ -14535,6 +15370,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He is even taller than me.",
+      "This year is even colder than last year.",
+      "Mango is even more delicious than watermelon."
+    ],
     "explanation": "更 intensifies comparison. It suggests an increase beyond an already existing condition."
   },
   {
@@ -14553,6 +15393,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "哥哥沒有爸爸那麼高。",
         "pinyin": "gē gē méi yǒu bà bà nà me gāo。",
+        "english": "Older brother is not as tall as father.",
         "charDetails": [
           {
             "char": "哥",
@@ -14599,6 +15440,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "火車沒有高鐵那麼快。",
         "pinyin": "huǒ chē méi yǒu gāo tiě nà me kuài。",
+        "english": "The train is not as fast as the High Speed Rail.",
         "charDetails": [
           {
             "char": "火",
@@ -14645,6 +15487,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的中文沒有老師那麼好。",
         "pinyin": "wǒ de zhōng wén méi yǒu lǎo shī nà me hǎo。",
+        "english": "My Chinese is not as good as the teacher's.",
         "charDetails": [
           {
             "char": "我",
@@ -14697,6 +15540,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Older brother is not as tall as father.",
+      "The train is not as fast as the High Speed Rail.",
+      "My Chinese is not as good as the teacher's."
+    ],
     "explanation": "沒有 + 那麼 expresses inferior comparison. It means “not as … as …”"
   },
   {
@@ -14715,6 +15563,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天比昨天冷。",
         "pinyin": "jīn tiān bǐ zuó tiān lěng。",
+        "english": "Today is colder than yesterday.",
         "charDetails": [
           {
             "char": "今",
@@ -14749,6 +15598,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "高鐵比火車快。",
         "pinyin": "gāo tiě bǐ huǒ chē kuài。",
+        "english": "The High Speed Rail is faster than the train.",
         "charDetails": [
           {
             "char": "高",
@@ -14783,6 +15633,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "芒果比西瓜甜。",
         "pinyin": "máng guǒ bǐ xī guā tián。",
+        "english": "Mango is sweeter than watermelon.",
         "charDetails": [
           {
             "char": "芒",
@@ -14815,6 +15666,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Today is colder than yesterday.",
+      "The High Speed Rail is faster than the train.",
+      "Mango is sweeter than watermelon."
+    ],
     "explanation": "比 introduces comparison. The adjective follows directly and shows difference in degree."
   },
   {
@@ -14833,6 +15689,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天跟昨天一樣熱。",
         "pinyin": "jīn tiān gēn zuó tiān yī yàng rè。",
+        "english": "Today and yesterday are equally hot.",
         "charDetails": [
           {
             "char": "今",
@@ -14875,6 +15732,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他跟我一樣高。",
         "pinyin": "tā gēn wǒ yī yàng gāo。",
+        "english": "He and I are equally tall.",
         "charDetails": [
           {
             "char": "他",
@@ -14909,6 +15767,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這兩間房子一樣貴。",
         "pinyin": "zhè liǎng jiān fáng zi yī yàng guì。",
+        "english": "These two houses are equally expensive.",
         "charDetails": [
           {
             "char": "這",
@@ -14949,6 +15808,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Today and yesterday are equally hot.",
+      "He and I are equally tall.",
+      "These two houses are equally expensive."
+    ],
     "explanation": "一樣 expresses equality. It indicates two things share the same degree or quality."
   },
   {
@@ -14967,6 +15831,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "妹妹有沒有姐姐那麼漂亮？",
         "pinyin": "mèi mèi yǒu méi yǒu jiě jiě nà me piào liàng？",
+        "english": "Does younger sister have or not have older sister's pretty (Is younger sister as pretty as older sister)?",
         "charDetails": [
           {
             "char": "妹",
@@ -15021,6 +15886,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "花蓮的房租有沒有臺北那麼貴？",
         "pinyin": "huā lián de fáng zū yǒu méi yǒu tái běi nà me guì？",
+        "english": "Is the rent in Hualien as expensive as Taipei?",
         "charDetails": [
           {
             "char": "花",
@@ -15083,6 +15949,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "夏天有沒有春天那麼舒服？",
         "pinyin": "xià tiān yǒu méi yǒu chūn tiān nà me shū fú？",
+        "english": "Is summer as comfortable as spring?",
         "charDetails": [
           {
             "char": "夏",
@@ -15135,6 +16002,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Does younger sister have or not have older sister's pretty (Is younger sister as pretty as older sister)?",
+      "Is the rent in Hualien as expensive as Taipei?",
+      "Is summer as comfortable as spring?"
+    ],
     "explanation": "有沒有…那麼… forms a comparison question asking whether A reaches the same level as B."
   },
   {
@@ -15153,6 +16025,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我沒有多少錢。",
         "pinyin": "wǒ méi yǒu duō shǎo qián。",
+        "english": "I don't have much money.",
         "charDetails": [
           {
             "char": "我",
@@ -15187,6 +16060,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他沒有幾個朋友。",
         "pinyin": "tā méi yǒu jǐ gè péng yǒu。",
+        "english": "He doesn't have many friends.",
         "charDetails": [
           {
             "char": "他",
@@ -15225,6 +16099,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我昨天沒跟誰去看電影。",
         "pinyin": "wǒ zuó tiān méi gēn shuí qù kàn diàn yǐng。",
+        "english": "Yesterday I didn't go watch a movie with anyone [in particular].",
         "charDetails": [
           {
             "char": "我",
@@ -15273,6 +16148,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I don't have much money.",
+      "He doesn't have many friends.",
+      "Yesterday I didn't go watch a movie with anyone [in particular]."
+    ],
     "explanation": "Question words (多少、幾、誰、哪裡、什麼) in negative sentences lose their literal question meaning and mean “not much / not many / no one / nowhere / nothing.”"
   },
   {
@@ -15291,6 +16171,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他把我的湯喝了。",
         "pinyin": "tā bǎ wǒ de tāng hē le。",
+        "english": "He drank up my soup.",
         "charDetails": [
           {
             "char": "他",
@@ -15329,6 +16210,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "房東把房子賣了。",
         "pinyin": "fáng dōng bǎ fáng zi mài le。",
+        "english": "The landlord sold the house.",
         "charDetails": [
           {
             "char": "房",
@@ -15367,6 +16249,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別把我的藥吃了。",
         "pinyin": "bié bǎ wǒ de yào chī le。",
+        "english": "Don't eat up my medicine.",
         "charDetails": [
           {
             "char": "別",
@@ -15403,6 +16286,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He drank up my soup.",
+      "The landlord sold the house.",
+      "Don't eat up my medicine."
+    ],
     "explanation": "把 moves the object before the verb to emphasize disposal or result. The action affects the object in a completed way."
   },
   {
@@ -15421,6 +16309,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我放假了就去旅行。",
         "pinyin": "wǒ fàng jià le jiù qù lǚ xíng。",
+        "english": "Once I am on vacation, then I immediately go traveling.",
         "charDetails": [
           {
             "char": "我",
@@ -15463,6 +16352,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他吃了藥就睡覺。",
         "pinyin": "tā chī le yào jiù shuì jué。",
+        "english": "Once he takes the medicine, then he immediately sleeps.",
         "charDetails": [
           {
             "char": "他",
@@ -15501,6 +16391,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "妹妹喝了熱湯就不冷了。",
         "pinyin": "mèi mèi hē le rè tāng jiù bù lěng le。",
+        "english": "Once younger sister drank hot soup, then she wasn't cold anymore.",
         "charDetails": [
           {
             "char": "妹",
@@ -15549,6 +16440,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Once I am on vacation, then I immediately go traveling.",
+      "Once he takes the medicine, then he immediately sleeps.",
+      "Once younger sister drank hot soup, then she wasn't cold anymore."
+    ],
     "explanation": "After finishing the first action, the second action happens right away. Emphasizes sequence and immediacy."
   },
   {
@@ -15567,6 +16463,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他喝了一點咖啡。",
         "pinyin": "tā hē le yī diǎn kā fēi。",
+        "english": "He drank a little coffee.",
         "charDetails": [
           {
             "char": "他",
@@ -15605,6 +16502,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這支手機有一點貴。",
         "pinyin": "zhè zhī shǒu jī yǒu yī diǎn guì。",
+        "english": "This mobile phone is a little bit expensive.",
         "charDetails": [
           {
             "char": "這",
@@ -15647,6 +16545,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請你早一點來。",
         "pinyin": "qǐng nǐ zǎo yī diǎn lái。",
+        "english": "Please come a little bit earlier.",
         "charDetails": [
           {
             "char": "請",
@@ -15679,6 +16578,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He drank a little coffee.",
+      "This mobile phone is a little bit expensive.",
+      "Please come a little bit earlier."
+    ],
     "explanation": "一點 expresses small quantity or slight degree. It can modify verbs, adjectives, comparisons, or indicate slight change."
   },
   {
@@ -15697,6 +16601,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他做得比我快。",
         "pinyin": "tā zuò dé bǐ wǒ kuài。",
+        "english": "He does [it] faster than I do.",
         "charDetails": [
           {
             "char": "他",
@@ -15731,6 +16636,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "弟弟念得比哥哥好。",
         "pinyin": "dì di niàn dé bǐ gē gē hǎo。",
+        "english": "Younger brother reads better than older brother.",
         "charDetails": [
           {
             "char": "弟",
@@ -15773,6 +16679,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這種手機賣得比那種好。",
         "pinyin": "zhè zhǒng shǒu jī mài dé bǐ nà zhǒng hǎo。",
+        "english": "This kind of mobile phone sells better than that kind.",
         "charDetails": [
           {
             "char": "這",
@@ -15821,6 +16728,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He does [it] faster than I do.",
+      "Younger brother reads better than older brother.",
+      "This kind of mobile phone sells better than that kind."
+    ],
     "explanation": "When comparing actions, use 比 + verb + 得 + complement to compare performance or degree."
   },
   {
@@ -15839,6 +16751,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他的房間比我的大一點。",
         "pinyin": "tā de fáng jiān bǐ wǒ de dà yī diǎn。",
+        "english": "His room is a bit bigger than mine.",
         "charDetails": [
           {
             "char": "他",
@@ -15889,6 +16802,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "捷運站比公車站遠得多。",
         "pinyin": "jié yùn zhàn bǐ gōng chē zhàn yuǎn dé duō。",
+        "english": "The MRT station is much farther than the bus stop.",
         "charDetails": [
           {
             "char": "捷",
@@ -15939,6 +16853,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "晚上比早上舒服多了。",
         "pinyin": "wǎn shàng bǐ zǎo shàng shū fú duō le。",
+        "english": "The evening is much more comfortable than the morning.",
         "charDetails": [
           {
             "char": "晚",
@@ -15983,6 +16898,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "His room is a bit bigger than mine.",
+      "The MRT station is much farther than the bus stop.",
+      "The evening is much more comfortable than the morning."
+    ],
     "explanation": "Adds degree to comparisons. 一點 = slightly; 多 / 得多 = much more."
   },
   {
@@ -16001,6 +16921,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想見你一面。",
         "pinyin": "wǒ xiǎng jiàn nǐ yí miàn。",
+        "english": "I want to meet with you once (see one face with you).",
         "charDetails": [
           {
             "char": "我",
@@ -16035,6 +16956,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他照了你一張相。",
         "pinyin": "tā zhào le nǐ yī zhāng xiāng。",
+        "english": "He took a photo of you.",
         "charDetails": [
           {
             "char": "他",
@@ -16073,6 +16995,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們每天上八個鐘頭的班。",
         "pinyin": "wǒ men měi tiān shàng bā gè zhōng tóu de bān。",
+        "english": "Every day we work for eight hours (attend eight hours of work).",
         "charDetails": [
           {
             "char": "我",
@@ -16125,6 +17048,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I want to meet with you once (see one face with you).",
+      "He took a photo of you.",
+      "Every day we work for eight hours (attend eight hours of work)."
+    ],
     "explanation": "Separable verbs split into verb + object. Time, quantity, or complements are inserted between the parts."
   },
   {
@@ -16143,6 +17071,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他沒把書賣了。",
         "pinyin": "tā méi bǎ shū mài le。",
+        "english": "He did not sell the books.",
         "charDetails": [
           {
             "char": "他",
@@ -16177,6 +17106,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你是不是把早餐吃了？",
         "pinyin": "nǐ shì bú shì bǎ zǎo cān chī le？",
+        "english": "Did you or did you not eat up the breakfast?",
         "charDetails": [
           {
             "char": "你",
@@ -16223,6 +17153,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你把功課寫了沒有？",
         "pinyin": "nǐ bǎ gōng kè xiě le méi yǒu？",
+        "english": "Did you finish writing your homework or not?",
         "charDetails": [
           {
             "char": "你",
@@ -16263,6 +17194,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He did not sell the books.",
+      "Did you or did you not eat up the breakfast?",
+      "Did you finish writing your homework or not?"
+    ],
     "explanation": "In negation, 沒/不 comes before 把. In questions, 把 structure remains but sentence type changes."
   },
   {
@@ -16281,6 +17217,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "從這裡往前走，就到師大了。",
         "pinyin": "cóng zhè lǐ wǎng qián zǒu， jiù dào shī dà le。",
+        "english": "From here walk forward, then [you] arrive at NTNU (Shida).",
         "charDetails": [
           {
             "char": "從",
@@ -16339,6 +17276,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "從路口往右轉，就到宿舍了。",
         "pinyin": "cóng lù kǒu wǎng yòu zhuǎn， jiù dào sù shè le。",
+        "english": "From the intersection turn toward the right, then [you] arrive at the dormitory.",
         "charDetails": [
           {
             "char": "從",
@@ -16397,6 +17335,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "從校門往裡走十分鐘，就到語言中心。",
         "pinyin": "cóng xiào mén wǎng lǐ zǒu shí fēn zhōng， jiù dào yǔ yán zhōng xīn。",
+        "english": "From the school gate walk toward inside for ten minutes, then [you] arrive at the Language Center.",
         "charDetails": [
           {
             "char": "從",
@@ -16469,6 +17408,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "From here walk forward, then [you] arrive at NTNU (Shida).",
+      "From the intersection turn toward the right, then [you] arrive at the dormitory.",
+      "From the school gate walk toward inside for ten minutes, then [you] arrive at the Language Center."
+    ],
     "explanation": "Used for giving directions: start point + direction/target. Often pairs with 就到… (“then you’ll arrive at…”). Common with 往前走／往左轉／往右轉. Negation often uses 不能…. Questions often use …會到…嗎？／…就到了嗎？"
   },
   {
@@ -16487,6 +17431,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她笑起來很好看。",
         "pinyin": "tā xiào qǐ lái hěn hǎo kàn。",
+        "english": "When she smiles it looks very nice.",
         "charDetails": [
           {
             "char": "她",
@@ -16525,6 +17470,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這家店的點心看起來很香。",
         "pinyin": "zhè jiā diàn de diǎn xīn kàn qǐ lái hěn xiāng。",
+        "english": "This shop's dim sum / snacks look very fragrant (delicious).",
         "charDetails": [
           {
             "char": "這",
@@ -16579,6 +17525,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你說的很簡單，但做起來不簡單。",
         "pinyin": "nǐ shuō de hěn jiǎn dān， dàn zuò qǐ lái bù jiǎn dān。",
+        "english": "What you said is very simple, but doing [it] is not simple.",
         "charDetails": [
           {
             "char": "你",
@@ -16643,6 +17590,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "When she smiles it looks very nice.",
+      "This shop's dim sum / snacks look very fragrant (delicious).",
+      "What you said is very simple, but doing [it] is not simple."
+    ],
     "explanation": "Expresses the speaker’s impression based on observation/experience. Often adjective-focused: 看起來很好／不太好. Contrast pattern: 看起來…，但…. Negation: 看起來不…／聽起來不…"
   },
   {
@@ -16661,6 +17613,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他在門口等著你。",
         "pinyin": "tā zài mén kǒu děng zhù nǐ。",
+        "english": "He is at the doorway waiting for you.",
         "charDetails": [
           {
             "char": "他",
@@ -16699,6 +17652,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他拿著一杯冰咖啡。",
         "pinyin": "tā ná zhù yī bēi bīng kā fēi。",
+        "english": "He is holding a cup of iced coffee.",
         "charDetails": [
           {
             "char": "他",
@@ -16741,6 +17695,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他看著我，一句話也不說。",
         "pinyin": "tā kàn zhù wǒ， yī jù huà yě bù shuō。",
+        "english": "He looked at me, without saying even one sentence.",
         "charDetails": [
           {
             "char": "他",
@@ -16793,6 +17748,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He is at the doorway waiting for you.",
+      "He is holding a cup of iced coffee.",
+      "He looked at me, without saying even one sentence."
+    ],
     "explanation": "Marks an action/state that is continuing. Common: 拿著／坐著／站著／等著／看著. Often used in descriptions of what’s happening now."
   },
   {
@@ -16811,6 +17771,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我常常一邊走路一邊聽歌。",
         "pinyin": "wǒ cháng cháng yī biān zǒu lù yī biān tīng gē。",
+        "english": "I often while walking, while listen to songs (listen to songs while walking).",
         "charDetails": [
           {
             "char": "我",
@@ -16865,6 +17826,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她一邊吃飯一邊看電視。",
         "pinyin": "tā yī biān chī fàn yī biān kàn diàn shì。",
+        "english": "She while eating, while watches TV (watches TV while eating).",
         "charDetails": [
           {
             "char": "她",
@@ -16915,6 +17877,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他一邊逛夜市一邊拍照。",
         "pinyin": "tā yī biān guàng yè shì yī biān pāi zhào。",
+        "english": "He while strolling the night market, while takes photos.",
         "charDetails": [
           {
             "char": "他",
@@ -16963,6 +17926,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I often while walking, while listen to songs (listen to songs while walking).",
+      "She while eating, while watches TV (watches TV while eating).",
+      "He while strolling the night market, while takes photos."
+    ],
     "explanation": "Two actions happen at the same time (same subject). Common with habits. Negation often: 不要／不能一邊…一邊…"
   },
   {
@@ -16981,6 +17949,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我家離學校很遠。",
         "pinyin": "wǒ jiā lí xué xiào hěn yuǎn。",
+        "english": "My home is very far from the school.",
         "charDetails": [
           {
             "char": "我",
@@ -17019,6 +17988,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "牛肉麵店離火車站很近。",
         "pinyin": "niú ròu miàn diàn lí huǒ chē zhàn hěn jìn。",
+        "english": "The beef noodle shop is very close to the train station.",
         "charDetails": [
           {
             "char": "牛",
@@ -17069,6 +18039,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "學校離郵局遠不遠？",
         "pinyin": "xué xiào lí yóu jú yuǎn bù yuǎn？",
+        "english": "Is the school far or not far from the post office?",
         "charDetails": [
           {
             "char": "學",
@@ -17109,6 +18080,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My home is very far from the school.",
+      "The beef noodle shop is very close to the train station.",
+      "Is the school far or not far from the post office?"
+    ],
     "explanation": "離 + place + 遠/近 describes distance. Intensifiers: 很／不太／非常. Questions: 離…遠不遠？／離…有多遠？. Preference constraints: 不能太近／不能太遠."
   },
   {
@@ -17127,6 +18103,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我一點也不累。",
         "pinyin": "wǒ yī diǎn yě bù lèi。",
+        "english": "I am not tired at all (not even a little bit tired).",
         "charDetails": [
           {
             "char": "我",
@@ -17161,6 +18138,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他一點也不喝茶。",
         "pinyin": "tā yī diǎn yě bù hē chá。",
+        "english": "He does not drink tea at all.",
         "charDetails": [
           {
             "char": "他",
@@ -17199,6 +18177,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "夜市的東西一點也不貴。",
         "pinyin": "yè shì de dōng xī yī diǎn yě bù guì。",
+        "english": "Things at the night market are not expensive at all.",
         "charDetails": [
           {
             "char": "夜",
@@ -17247,6 +18226,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I am not tired at all (not even a little bit tired).",
+      "He does not drink tea at all.",
+      "Things at the night market are not expensive at all."
+    ],
     "explanation": "Strongly emphasizes negation (“not even a little”). Common with adjectives/verbs: 一點也不慢／不想去／不困. Can take objects with “anything” sense: 一點也沒(有)吃／一點也沒(有)喝. Often used to contradict an expectation or what someone said."
   },
   {
@@ -17265,6 +18249,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "週末還是出去吃吧。",
         "pinyin": "zhōu mò hái shì chū qù chī ba。",
+        "english": "On the weekend [we] had better go out to eat.",
         "charDetails": [
           {
             "char": "週",
@@ -17307,6 +18292,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "已經十一點了，還是明天早上再打吧。",
         "pinyin": "yǐ jīng shí yī diǎn le， hái shì míng tiān zǎo shàng zài dǎ ba。",
+        "english": "It is already 11 o'clock, [you] had better call tomorrow morning instead.",
         "charDetails": [
           {
             "char": "已",
@@ -17381,6 +18367,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "坐公車或捷運都可以，但還是坐捷運吧。",
         "pinyin": "zuò gōng chē huò jié yùn dōu kě yǐ， dàn hái shì zuò jié yùn ba。",
+        "english": "Taking the bus or MRT are both fine, but [we] had better take the MRT.",
         "charDetails": [
           {
             "char": "坐",
@@ -17457,6 +18444,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "On the weekend [we] had better go out to eat.",
+      "It is already 11 o'clock, [you] had better call tomorrow morning instead.",
+      "Taking the bus or MRT are both fine, but [we] had better take the MRT."
+    ],
     "explanation": "Suggestion after considering options; “let’s/you should probably…” Often implies the speaker thinks this is the wiser choice. Negation commonly: 還是不要…吧 (“better not…”)."
   },
   {
@@ -17475,6 +18467,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請走慢一點。",
         "pinyin": "qǐng zǒu màn yī diǎn。",
+        "english": "Please walk a bit slower.",
         "charDetails": [
           {
             "char": "請",
@@ -17505,6 +18498,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請吃快一點。",
         "pinyin": "qǐng chī kuài yī diǎn。",
+        "english": "Please eat a bit faster.",
         "charDetails": [
           {
             "char": "請",
@@ -17535,6 +18529,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "字寫好一點。",
         "pinyin": "zì xiě hǎo yī diǎn。",
+        "english": "Write the characters a bit better.",
         "charDetails": [
           {
             "char": "字",
@@ -17563,6 +18558,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please walk a bit slower.",
+      "Please eat a bit faster.",
+      "Write the characters a bit better."
+    ],
     "explanation": "Adds “a bit” to adjust degree, usually in requests/commands. Often pairs with a verb/adjective result: 走慢一點／說慢一點／寫清楚一點. Can be used in warnings/conditions: 不…一點就… (“if you don’t do it a bit better/faster…”)."
   },
   {
@@ -17581,6 +18581,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "大家高高興興地慶祝生日。",
         "pinyin": "dà jiā gāo gāo xìng xìng dì qìng zhù shēng rì。",
+        "english": "Everyone happily celebrated the birthday.",
         "charDetails": [
           {
             "char": "大",
@@ -17635,6 +18636,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "大家舒舒服服地坐在餐廳裡。",
         "pinyin": "dà jiā shū shū fú fú dì zuò zài cān tīng lǐ。",
+        "english": "Everyone comfortably sat in the restaurant.",
         "charDetails": [
           {
             "char": "大",
@@ -17693,6 +18695,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他字寫得漂漂亮亮。",
         "pinyin": "tā zì xiě dé piāo piāo liàng liàng。",
+        "english": "He wrote the characters beautifully (neat and pretty).",
         "charDetails": [
           {
             "char": "他",
@@ -17733,6 +18736,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Everyone happily celebrated the birthday.",
+      "Everyone comfortably sat in the restaurant.",
+      "He wrote the characters beautifully (neat and pretty)."
+    ],
     "explanation": "Reduplicating disyllabic adjectives (AABB) makes the tone more vivid/natural and often functions like an adverb (“in a ___ way”). Common: 高高興興、客客氣氣、乾乾淨淨、舒舒服服、漂漂亮亮. Often used with 地 or with 得 after verbs."
   },
   {
@@ -17751,6 +18759,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這杯茶不太熱。",
         "pinyin": "zhè bēi chá bù tài rè。",
+        "english": "This cup of tea is not too hot.",
         "charDetails": [
           {
             "char": "這",
@@ -17785,6 +18794,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "票不太貴。",
         "pinyin": "piào bù tài guì。",
+        "english": "The ticket is not too expensive.",
         "charDetails": [
           {
             "char": "票",
@@ -17811,6 +18821,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "今天不太冷。",
         "pinyin": "jīn tiān bù tài lěng。",
+        "english": "Today is not too cold.",
         "charDetails": [
           {
             "char": "今",
@@ -17839,6 +18850,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This cup of tea is not too hot.",
+      "The ticket is not too expensive.",
+      "Today is not too cold."
+    ],
     "explanation": "Softens a negative judgment (milder than “不”). Often used in replies to downplay: 不太累／不太好買／不太像. In questions: …不太…吧？ to seek confirmation."
   },
   {
@@ -17857,6 +18873,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣北部/南部有很多好玩的地方。",
         "pinyin": "tái wān běi bù / nán bù yǒu hěn duō hǎo wán de dì fāng。",
+        "english": "The northern/southern part of Taiwan has many fun places.",
         "charDetails": [
           {
             "char": "臺",
@@ -17927,6 +18944,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣東部風景很美。",
         "pinyin": "tái wān dōng bù fēng jǐng hěn měi。",
+        "english": "The scenery in eastern Taiwan is very beautiful.",
         "charDetails": [
           {
             "char": "臺",
@@ -17969,6 +18987,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "臺灣東邊的海很乾淨。",
         "pinyin": "tái wān dōng biān de hǎi hěn qián jìng。",
+        "english": "The sea on the east side of Taiwan is very clean.",
         "charDetails": [
           {
             "char": "臺",
@@ -18013,6 +19032,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The northern/southern part of Taiwan has many fun places.",
+      "The scenery in eastern Taiwan is very beautiful.",
+      "The sea on the east side of Taiwan is very clean."
+    ],
     "explanation": "Used to describe regions/parts and “side of” something. X部 = region/part (北部/南部/東部/西部). X邊 = side (東邊/西邊/南邊/北邊). Often combines with 的: 臺灣東邊的海; can pair directions in one sentence: 西邊有山，南邊有海."
   },
   {
@@ -18031,6 +19055,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的作業差不多做完了。",
         "pinyin": "wǒ de zuò yè chà bu duō zuò wán le。",
+        "english": "My homework is almost done.",
         "charDetails": [
           {
             "char": "我",
@@ -18081,6 +19106,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這兩個房間的租金差不多。",
         "pinyin": "zhè liǎng gè fáng jiān de zū jīn chà bu duō。",
+        "english": "The rents of these two rooms are roughly the same.",
         "charDetails": [
           {
             "char": "這",
@@ -18135,6 +19161,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我學中文差不多四個月了。",
         "pinyin": "wǒ xué zhōng wén chà bu duō sì gè yuè le。",
+        "english": "I have studied Chinese for about four months.",
         "charDetails": [
           {
             "char": "我",
@@ -18187,6 +19214,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My homework is almost done.",
+      "The rents of these two rooms are roughly the same.",
+      "I have studied Chinese for about four months."
+    ],
     "explanation": "Has several uses: (1) “almost finished” (差不多做完了), (2) “about/approximately” with time/number (差不多十分鐘), (3) “roughly the same” (差不多一樣). Often used alone in replies: 差不多了／差不多吧."
   },
   {
@@ -18205,6 +19237,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我去過日本。",
         "pinyin": "wǒ qù guò rì běn。",
+        "english": "I have been to Japan before.",
         "charDetails": [
           {
             "char": "我",
@@ -18235,6 +19268,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我學過西班牙文。",
         "pinyin": "wǒ xué guò xī bān yá wén。",
+        "english": "I have studied Spanish before.",
         "charDetails": [
           {
             "char": "我",
@@ -18273,6 +19307,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看過那本書嗎？",
         "pinyin": "nǐ kàn guò nà běn shū ma？",
+        "english": "Have you read that book before?",
         "charDetails": [
           {
             "char": "你",
@@ -18309,6 +19344,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I have been to Japan before.",
+      "I have studied Spanish before.",
+      "Have you read that book before?"
+    ],
     "explanation": "Indicates life experience at least once before now. Focus is on experience, not when it happened. Negation: 沒（有）V過 (“have never…”). Questions: V過…嗎？ Compare: 去過 (have been) vs. 去了 (went)."
   },
   {
@@ -18327,6 +19367,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我才去過法國一次。",
         "pinyin": "wǒ cái qù guò fǎ guó yī cì。",
+        "english": "I have only been to France once.",
         "charDetails": [
           {
             "char": "我",
@@ -18369,6 +19410,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這本書才五十塊。",
         "pinyin": "zhè běn shū cái wǔ shí kuài。",
+        "english": "This book is only fifty dollars.",
         "charDetails": [
           {
             "char": "這",
@@ -18407,6 +19449,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他才學中文半年。",
         "pinyin": "tā cái xué zhōng wén bàn nián。",
+        "english": "He has only studied Chinese for half a year.",
         "charDetails": [
           {
             "char": "他",
@@ -18443,6 +19486,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I have only been to France once.",
+      "This book is only fifty dollars.",
+      "He has only studied Chinese for half a year."
+    ],
     "explanation": "Emphasizes a small amount (less than expected). Often carries speaker attitude (surprise/contrast). Used with time, quantity, frequency. Questions may show disbelief: 你才吃一片？"
   },
   {
@@ -18461,6 +19509,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想起來他的電話號碼了。",
         "pinyin": "wǒ xiǎng qǐ lái tā de diàn huà hào mǎ le。",
+        "english": "I recalled (remembered) his phone number.",
         "charDetails": [
           {
             "char": "我",
@@ -18515,6 +19564,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想起來她姓張。",
         "pinyin": "wǒ xiǎng qǐ lái tā xìng zhāng。",
+        "english": "I remembered that her surname is Zhang.",
         "charDetails": [
           {
             "char": "我",
@@ -18553,6 +19603,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你還想得起來嗎？",
         "pinyin": "nǐ hái xiǎng dé qǐ lái ma？",
+        "english": "Can you still remember [it]?",
         "charDetails": [
           {
             "char": "你",
@@ -18589,6 +19640,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I recalled (remembered) his phone number.",
+      "I remembered that her surname is Zhang.",
+      "Can you still remember [it]?"
+    ],
     "explanation": "Means something comes back to mind. Often used with 了 when the memory returns. Negation: 想不起來 (“can’t remember”). Can refer to facts, names, places, past events."
   },
   {
@@ -18607,6 +19663,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他昨天才到臺北。",
         "pinyin": "tā zuó tiān cái dào tái běi。",
+        "english": "He did not arrive in Taipei until yesterday.",
         "charDetails": [
           {
             "char": "他",
@@ -18645,6 +19702,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我等了十分鐘，捷運才來。",
         "pinyin": "wǒ děng le shí fēn zhōng， jié yùn cái lái。",
+        "english": "I waited for ten minutes, only then did the MRT arrive.",
         "charDetails": [
           {
             "char": "我",
@@ -18699,6 +19757,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你昨天十點才打給他？",
         "pinyin": "nǐ zuó tiān shí diǎn cái dǎ gěi tā？",
+        "english": "You did not call him until ten o'clock yesterday?",
         "charDetails": [
           {
             "char": "你",
@@ -18743,6 +19802,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He did not arrive in Taipei until yesterday.",
+      "I waited for ten minutes, only then did the MRT arrive.",
+      "You did not call him until ten o'clock yesterday?"
+    ],
     "explanation": "Expresses that something happened later than expected. Structure often: …才… after a time/condition. Contrast: 十分鐘就來了 (came quickly) vs. 十分鐘才來 (finally came after waiting)."
   },
   {
@@ -18761,6 +19825,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我還要練習練習今天學的字。",
         "pinyin": "wǒ hái yào liàn xí liàn xí jīn tiān xué de zì。",
+        "english": "I still need to practice-practice the characters learned today.",
         "charDetails": [
           {
             "char": "我",
@@ -18819,6 +19884,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有空應該旅行旅行。",
         "pinyin": "yǒu kòng yīng gāi lǚ xíng lǚ xíng。",
+        "english": "When free [one] should travel-travel a bit.",
         "charDetails": [
           {
             "char": "有",
@@ -18861,6 +19927,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想了解了解你怎麼學中文。",
         "pinyin": "wǒ xiǎng liǎo jiě liǎo jiě nǐ zěn me xué zhōng wén。",
+        "english": "I want to understand-understand a bit how you study Chinese.",
         "charDetails": [
           {
             "char": "我",
@@ -18917,6 +19984,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I still need to practice-practice the characters learned today.",
+      "When free [one] should travel-travel a bit.",
+      "I want to understand-understand a bit how you study Chinese."
+    ],
     "explanation": "Reduplication of disyllabic verbs softens tone and implies doing something lightly, briefly, or “a bit.” Often suggests tentative action. Common in conversation: 看看、想想、試試、練習練習、了解了解. Negation typically uses normal verb form (not reduplicated)."
   },
   {
@@ -18935,6 +20007,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "除了打籃球，他還常常踢足球。",
         "pinyin": "chú le dǎ lán qiú， tā hái cháng cháng tī zú qiú。",
+        "english": "Besides playing basketball, he also often plays soccer.",
         "charDetails": [
           {
             "char": "除",
@@ -18997,6 +20070,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "除了牛肉麵，還可以吃小籠包。",
         "pinyin": "chú le niú ròu miàn， hái kě yǐ chī xiǎo lóng bāo。",
+        "english": "Besides beef noodles, [one] can also eat xiao long bao.",
         "charDetails": [
           {
             "char": "除",
@@ -19059,6 +20133,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "除了坐捷運，還可以坐公車。",
         "pinyin": "chú le zuò jié yùn， hái kě yǐ zuò gōng chē。",
+        "english": "Besides taking the MRT, [one] can also take the bus.",
         "charDetails": [
           {
             "char": "除",
@@ -19115,6 +20190,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Besides playing basketball, he also often plays soccer.",
+      "Besides beef noodles, [one] can also eat xiao long bao.",
+      "Besides taking the MRT, [one] can also take the bus."
+    ],
     "explanation": "Adds extra information: “in addition to A, also B.” Structure: 除了 A，還 B. With negation: 除了不…，也不…. Can be used in suggestions or statements of inclusion."
   },
   {
@@ -19133,6 +20213,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "按照醫生的話，你要吃藥。",
         "pinyin": "àn zhào yī shēng de huà， nǐ yào chī yào。",
+        "english": "According to the doctor's words, you must take medicine.",
         "charDetails": [
           {
             "char": "按",
@@ -19187,6 +20268,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "按照計畫，他現在應該在法國。",
         "pinyin": "àn zhào jì huà， tā xiàn zài yīng gāi zài fǎ guó。",
+        "english": "According to the plan, he should be in France right now.",
         "charDetails": [
           {
             "char": "按",
@@ -19249,6 +20331,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "按照老師的建議，多練習寫字。",
         "pinyin": "àn zhào lǎo shī de jiàn yì， duō liàn xí xiě zì。",
+        "english": "According to the teacher's suggestion, practice writing characters more.",
         "charDetails": [
           {
             "char": "按",
@@ -19309,6 +20392,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "According to the doctor's words, you must take medicine.",
+      "According to the plan, he should be in France right now.",
+      "According to the teacher's suggestion, practice writing characters more."
+    ],
     "explanation": "Means following rules, advice, plan, law, or instructions. Often used with 建議／計畫／法律／安排. Negation: 沒有按照… (did not follow…)."
   },
   {
@@ -19327,6 +20415,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他跟朋友一起去台南。",
         "pinyin": "tā gēn péng yǒu yì qǐ qù tái nán。",
+        "english": "He with friend goes to Tainan together.",
         "charDetails": [
           {
             "char": "他",
@@ -19373,6 +20462,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我跟老師學書法。",
         "pinyin": "wǒ gēn lǎo shī xué shū fǎ。",
+        "english": "I learn calligraphy from the teacher.",
         "charDetails": [
           {
             "char": "我",
@@ -19411,6 +20501,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他跟我說明天有考試。",
         "pinyin": "tā gēn wǒ shuō míng tiān yǒu kǎo shì。",
+        "english": "He spoke to me [saying] tomorrow there is an exam.",
         "charDetails": [
           {
             "char": "他",
@@ -19455,6 +20546,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He with friend goes to Tainan together.",
+      "I learn calligraphy from the teacher.",
+      "He spoke to me [saying] tomorrow there is an exam."
+    ],
     "explanation": "Multi-function preposition: (1) “with” (一起), (2) “from” (learning from someone), (3) “to” (speaking to someone). Structure depends on verb: 跟…說／跟…學／跟…一起…. Negation follows normal verb pattern."
   },
   {
@@ -19473,6 +20569,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他給我介紹很多朋友。",
         "pinyin": "tā gěi wǒ jiè shào hěn duō péng yǒu。",
+        "english": "He introduced many friends to me.",
         "charDetails": [
           {
             "char": "他",
@@ -19519,6 +20616,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我給你準備生日蛋糕。",
         "pinyin": "wǒ gěi nǐ zhǔn bèi shēng rì dàn gāo。",
+        "english": "I prepare a birthday cake for you.",
         "charDetails": [
           {
             "char": "我",
@@ -19565,6 +20663,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他給媽媽打電話。",
         "pinyin": "tā gěi mā mā dǎ diàn huà。",
+        "english": "He makes a phone call to mom.",
         "charDetails": [
           {
             "char": "他",
@@ -19601,6 +20700,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He introduced many friends to me.",
+      "I prepare a birthday cake for you.",
+      "He makes a phone call to mom."
+    ],
     "explanation": "Marks recipient or beneficiary. Pattern: 給 + person + verb/object. Can mean “for someone” or indicate direction toward someone. Negation: 沒（有）給…."
   },
   {
@@ -19619,6 +20723,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他對我笑。",
         "pinyin": "tā duì wǒ xiào。",
+        "english": "He smiled toward me.",
         "charDetails": [
           {
             "char": "他",
@@ -19645,6 +20750,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老闆對老師很客氣。",
         "pinyin": "lǎo bǎn duì lǎo shī hěn kè qì。",
+        "english": "The boss is very polite toward the teacher.",
         "charDetails": [
           {
             "char": "老",
@@ -19687,6 +20793,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "醫生對你說了什麼？",
         "pinyin": "yī shēng duì nǐ shuō le shén me？",
+        "english": "What did the doctor say to you?",
         "charDetails": [
           {
             "char": "醫",
@@ -19727,6 +20834,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He smiled toward me.",
+      "The boss is very polite toward the teacher.",
+      "What did the doctor say to you?"
+    ],
     "explanation": "Indicates direction of speech/action/attitude toward someone. Common with verbs like 說／笑／解釋／告訴 and adjectives describing attitude (對…很好／客氣／關心). Often interchangeable with 跟 in speech contexts but emphasizes direction or attitude."
   },
   {
@@ -19745,6 +20857,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "學生還沒來。",
         "pinyin": "xué shēng hái méi lái。",
+        "english": "The students still haven't come.",
         "charDetails": [
           {
             "char": "學",
@@ -19775,6 +20888,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我還沒有足夠的錢。",
         "pinyin": "wǒ hái méi yǒu zú gòu de qián。",
+        "english": "I still do not have enough money.",
         "charDetails": [
           {
             "char": "我",
@@ -19817,6 +20931,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "現在還太早。",
         "pinyin": "xiàn zài hái tài zǎo。",
+        "english": "Right now it is still too early.",
         "charDetails": [
           {
             "char": "現",
@@ -19845,6 +20960,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The students still haven't come.",
+      "I still do not have enough money.",
+      "Right now it is still too early."
+    ],
     "explanation": "Indicates something continues or has not changed yet. Often used with negation: 還沒(有)… (“still haven’t…”). Can express “still too…” (還太早／還太冷). Also used to add emphasis (“there’s still more”)."
   },
   {
@@ -19863,6 +20983,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他笑著跟客人說話。",
         "pinyin": "tā xiào zhù gēn kè rén shuō huà。",
+        "english": "He smilingly talked with the guests.",
         "charDetails": [
           {
             "char": "他",
@@ -19905,6 +21026,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "吃飯的時候不要站著。",
         "pinyin": "chī fàn de shí hòu bú yào zhàn zhù。",
+        "english": "At the time of eating a meal, don't stand.",
         "charDetails": [
           {
             "char": "吃",
@@ -19951,6 +21073,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他站著等你。",
         "pinyin": "tā zhàn zhù děng nǐ。",
+        "english": "He is standing waiting for you.",
         "charDetails": [
           {
             "char": "他",
@@ -19979,6 +21102,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He smilingly talked with the guests.",
+      "At the time of eating a meal, don't stand.",
+      "He is standing waiting for you."
+    ],
     "explanation": "Describes the manner or accompanying state during an action. The first verb with 著 shows posture or condition. Often implies simultaneity or background state."
   },
   {
@@ -19997,6 +21125,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我帶你去找位子。",
         "pinyin": "wǒ dài nǐ qù zhǎo wèi zi。",
+        "english": "I take you to go look for seats.",
         "charDetails": [
           {
             "char": "我",
@@ -20035,6 +21164,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們去機場接朋友。",
         "pinyin": "wǒ men qù jī chǎng jiē péng yǒu。",
+        "english": "We go to the airport to pick up friends.",
         "charDetails": [
           {
             "char": "我",
@@ -20077,6 +21207,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他帶妹妹回宿舍。",
         "pinyin": "tā dài mèi mèi huí sù shè。",
+        "english": "He brings younger sister back to the dormitory.",
         "charDetails": [
           {
             "char": "他",
@@ -20113,6 +21244,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I take you to go look for seats.",
+      "We go to the airport to pick up friends.",
+      "He brings younger sister back to the dormitory."
+    ],
     "explanation": "Multiple verb phrases in one sentence without conjunctions. Usually shows sequence or purpose: 去 + 地點 + 做事 or 帶 + 人 + 去 + 地點. The first verb often expresses movement or arrangement; the second expresses purpose."
   },
   {
@@ -20131,6 +21267,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "等客人走了，婚宴就結束了。",
         "pinyin": "děng kè rén zǒu le， hūn yàn jiù jié shù le。",
+        "english": "Wait until the guests have left, then the wedding banquet will end.",
         "charDetails": [
           {
             "char": "等",
@@ -20189,6 +21326,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "等夏天來了，大家就去海邊。",
         "pinyin": "děng xià tiān lái le， dà jiā jiù qù hǎi biān。",
+        "english": "Wait until summer comes, then everyone goes to the seaside.",
         "charDetails": [
           {
             "char": "等",
@@ -20247,6 +21385,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "等你準備好了，我就給你建議。",
         "pinyin": "děng nǐ zhǔn bèi hǎo le， wǒ jiù gěi nǐ jiàn yì。",
+        "english": "Wait until you are ready, then I will give you suggestions.",
         "charDetails": [
           {
             "char": "等",
@@ -20307,6 +21446,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Wait until the guests have left, then the wedding banquet will end.",
+      "Wait until summer comes, then everyone goes to the seaside.",
+      "Wait until you are ready, then I will give you suggestions."
+    ],
     "explanation": "Shows sequence: once A happens, B immediately follows. 就 indicates quick or natural result. Negation may appear as “without waiting…” or contrasting actions."
   },
   {
@@ -20325,6 +21469,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "大家吃著吃著，新人來敬酒了。",
         "pinyin": "dà jiā chī zhù chī zhù， xīn rén lái jìng jiǔ le。",
+        "english": "While everyone was eating and eating, the newlyweds came to make a toast.",
         "charDetails": [
           {
             "char": "大",
@@ -20387,6 +21532,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們等著等著，宴會就開始了。",
         "pinyin": "wǒ men děng zhù děng zhù， yàn huì jiù kāi shǐ le。",
+        "english": "While we were waiting and waiting, the banquet then started.",
         "charDetails": [
           {
             "char": "我",
@@ -20449,6 +21595,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他看著看著，就學會做菜了。",
         "pinyin": "tā kàn zhù kàn zhù， jiù xué huì zuò cài le。",
+        "english": "While he was watching and watching, he then learned how to cook.",
         "charDetails": [
           {
             "char": "他",
@@ -20505,6 +21652,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "While everyone was eating and eating, the newlyweds came to make a toast.",
+      "While we were waiting and waiting, the banquet then started.",
+      "While he was watching and watching, he then learned how to cook."
+    ],
     "explanation": "Repeated V著V著 shows an ongoing action; 就…了 marks a new or unexpected result occurring during that action. Often implies something gradual or sudden happening in the middle of another activity."
   },
   {
@@ -20523,6 +21675,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他騎機車從台北到花蓮。",
         "pinyin": "tā qí jī chē cóng tái běi dào huā lián。",
+        "english": "He rides a scooter from Taipei to Hualien.",
         "charDetails": [
           {
             "char": "他",
@@ -20573,6 +21726,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把蛋糕帶到學校。",
         "pinyin": "wǒ bǎ dàn gāo dài dào xué xiào。",
+        "english": "I bring the cake to the school.",
         "charDetails": [
           {
             "char": "我",
@@ -20615,6 +21769,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "球踢到學校外面去了。",
         "pinyin": "qiú tī dào xué xiào wài miàn qù le。",
+        "english": "The ball was kicked to the outside of the school.",
         "charDetails": [
           {
             "char": "球",
@@ -20659,6 +21814,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He rides a scooter from Taipei to Hualien.",
+      "I bring the cake to the school.",
+      "The ball was kicked to the outside of the school."
+    ],
     "explanation": "Marks the endpoint of movement. Structure: 從 A 到 B or V + 到 + 地點. Can show physical movement or abstract reaching. Negation often indicates not reaching the destination (沒到…)."
   },
   {
@@ -20677,6 +21837,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他給房東付了三個月的房租。",
         "pinyin": "tā gěi fáng dōng fù le sān gè yuè de fáng zū。",
+        "english": "He paid three months of rent to the landlord.",
         "charDetails": [
           {
             "char": "他",
@@ -20735,6 +21896,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我給同學這些桌椅。",
         "pinyin": "wǒ gěi tóng xué zhè xiē zhuō yǐ。",
+        "english": "I give these desks and chairs to classmates.",
         "charDetails": [
           {
             "char": "我",
@@ -20777,6 +21939,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他給我一些法國點心。",
         "pinyin": "tā gěi wǒ yī xiē fǎ guó diǎn xīn。",
+        "english": "He gave me some French pastries.",
         "charDetails": [
           {
             "char": "他",
@@ -20821,6 +21984,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He paid three months of rent to the landlord.",
+      "I give these desks and chairs to classmates.",
+      "He gave me some French pastries."
+    ],
     "explanation": "Marks the recipient/beneficiary. Two common patterns: 給 + 人 + 物 or V + 物 + 給 + 人. Topic structures may front the object. Negation: 沒給…."
   },
   {
@@ -20839,6 +22007,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請把椅子放在樓下。",
         "pinyin": "qǐng bǎ yǐ zi fàng zài lóu xià。",
+        "english": "Please put the chairs downstairs.",
         "charDetails": [
           {
             "char": "請",
@@ -20881,6 +22050,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把字寫在筆記本裡。",
         "pinyin": "wǒ bǎ zì xiě zài bǐ jì běn lǐ。",
+        "english": "I write the characters in the notebook.",
         "charDetails": [
           {
             "char": "我",
@@ -20927,6 +22097,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把履歷留在我這裡。",
         "pinyin": "bǎ lǚ lì liú zài wǒ zhè lǐ。",
+        "english": "Leave the resume here with me.",
         "charDetails": [
           {
             "char": "把",
@@ -20967,6 +22138,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please put the chairs downstairs.",
+      "I write the characters in the notebook.",
+      "Leave the resume here with me."
+    ],
     "explanation": "Indicates the location where something ends up after an action. Pattern: V + 東西 + 在 + 地點. Focus is on final position. Often appears with 放／寫／留／存."
   },
   {
@@ -20985,6 +22161,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把球踢到操場外。",
         "pinyin": "wǒ bǎ qiú tī dào cāo chǎng wài。",
+        "english": "I kicked the ball to the outside of the sports field.",
         "charDetails": [
           {
             "char": "我",
@@ -21027,6 +22204,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他把公司搬到台南。",
         "pinyin": "tā bǎ gōng sī bān dào tái nán。",
+        "english": "He moved the company to Tainan.",
         "charDetails": [
           {
             "char": "他",
@@ -21069,6 +22247,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把錢存進銀行。",
         "pinyin": "wǒ bǎ qián cún jìn yín xíng。",
+        "english": "I deposited the money into the bank.",
         "charDetails": [
           {
             "char": "我",
@@ -21105,6 +22284,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I kicked the ball to the outside of the sports field.",
+      "He moved the company to Tainan.",
+      "I deposited the money into the bank."
+    ],
     "explanation": "Highlights how the object is affected or moved. Structure: 把 + 受詞 + 動詞 + 結果/方向. Common with movement or result complements (到／在／給／完／好). Negation: 沒把…／不要把…."
   },
   {
@@ -21123,6 +22307,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "台灣夏天很熱，而且很潮濕。",
         "pinyin": "tái wān xià tiān hěn rè， ér qiě hěn cháo shī。",
+        "english": "Taiwan's summer is very hot, and furthermore very humid.",
         "charDetails": [
           {
             "char": "台",
@@ -21181,6 +22366,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這份工作需要中文流利，而且要有經驗。",
         "pinyin": "zhè fèn gōng zuò xū yào zhōng wén liú lì， ér qiě yào yǒu jīng yàn。",
+        "english": "This job requires fluent Chinese, and furthermore must have experience.",
         "charDetails": [
           {
             "char": "這",
@@ -21259,6 +22445,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "房東幫她裝了電視，而且也裝了網路。",
         "pinyin": "fáng dōng bāng tā zhuāng le diàn shì， ér qiě yě zhuāng le wǎng lù。",
+        "english": "The landlord helped her install TV, and furthermore also installed internet.",
         "charDetails": [
           {
             "char": "房",
@@ -21331,6 +22518,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Taiwan's summer is very hot, and furthermore very humid.",
+      "This job requires fluent Chinese, and furthermore must have experience.",
+      "The landlord helped her install TV, and furthermore also installed internet."
+    ],
     "explanation": "Connects two related positive statements, often adding emphasis. Unlike simple 和, it implies strengthening or adding extra information. Often used in formal or written contexts."
   },
   {
@@ -21349,6 +22541,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "爸爸走出去了。",
         "pinyin": "bà bà zǒu chū qù le。",
+        "english": "Father walked out.",
         "charDetails": [
           {
             "char": "爸",
@@ -21383,6 +22576,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他從東門走進去。",
         "pinyin": "tā cóng dōng mén zǒu jìn qù。",
+        "english": "He walked in from the east gate.",
         "charDetails": [
           {
             "char": "他",
@@ -21421,6 +22615,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我怎麼把這些東西帶回去？",
         "pinyin": "wǒ zěn me bǎ zhè xiē dōng xī dài huí qù？",
+        "english": "How do I bring these things back?",
         "charDetails": [
           {
             "char": "我",
@@ -21473,6 +22668,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Father walked out.",
+      "He walked in from the east gate.",
+      "How do I bring these things back?"
+    ],
     "explanation": "Combines a verb with direction words like 上／下／進／出／回／過／來／去 to show movement direction. Pattern: V + 來/去 or V + 上來／拿回去. Can include destination: 帶上樓去."
   },
   {
@@ -21491,6 +22691,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把垃圾拿出去。",
         "pinyin": "wǒ bǎ lā jī ná chū qù。",
+        "english": "I take the trash out.",
         "charDetails": [
           {
             "char": "我",
@@ -21529,6 +22730,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他把書帶回家。",
         "pinyin": "tā bǎ shū dài huí jiā。",
+        "english": "He brought the books back home.",
         "charDetails": [
           {
             "char": "他",
@@ -21563,6 +22765,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她把錢拿出來。",
         "pinyin": "tā bǎ qián ná chū lái。",
+        "english": "She took the money out.",
         "charDetails": [
           {
             "char": "她",
@@ -21595,6 +22798,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I take the trash out.",
+      "He brought the books back home.",
+      "She took the money out."
+    ],
     "explanation": "Uses 把 to emphasize the object being moved plus direction. Structure: 把 + 受詞 + V + 方向補語 (e.g., 拿出來／帶回去). Highlights disposal or movement result."
   },
   {
@@ -21613,6 +22821,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你不覺得這個字很難寫嗎？",
         "pinyin": "nǐ bù jué dé zhè gè zì hěn nán xiě ma？",
+        "english": "Don't you feel this character is very hard to write?",
         "charDetails": [
           {
             "char": "你",
@@ -21667,6 +22876,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她不知道今天有考試嗎？",
         "pinyin": "tā bù zhī dào jīn tiān yǒu kǎo shì ma？",
+        "english": "Doesn't she know there is an exam today?",
         "charDetails": [
           {
             "char": "她",
@@ -21717,6 +22927,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看不出來我很忙嗎？",
         "pinyin": "nǐ kàn bù chū lái wǒ hěn máng ma？",
+        "english": "Can't you tell that I am very busy?",
         "charDetails": [
           {
             "char": "你",
@@ -21761,6 +22972,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Don't you feel this character is very hard to write?",
+      "Doesn't she know there is an exam today?",
+      "Can't you tell that I am very busy?"
+    ],
     "explanation": "Uses 嗎 in rhetorical questions to express surprise, disbelief, or mild criticism. Often implies the speaker thinks the answer is obvious. Structure: 不是…嗎？／不知道…嗎？"
   },
   {
@@ -21779,6 +22995,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "路口已經站著很多人。",
         "pinyin": "lù kǒu yǐ jīng zhàn zhù hěn duō rén。",
+        "english": "At the intersection there are already many people standing.",
         "charDetails": [
           {
             "char": "路",
@@ -21825,6 +23042,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "活動中心前面站著很多外國學生。",
         "pinyin": "huó dòng zhōng xīn qián miàn zhàn zhù hěn duō wài guó xué shēng。",
+        "english": "In front of the activity center there are many foreign students standing.",
         "charDetails": [
           {
             "char": "活",
@@ -21891,6 +23109,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "咖啡廳裡坐著很多學生。",
         "pinyin": "kā fēi tīng lǐ zuò zhù hěn duō xué shēng。",
+        "english": "In the café there are many students sitting.",
         "charDetails": [
           {
             "char": "咖",
@@ -21939,6 +23158,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "At the intersection there are already many people standing.",
+      "In front of the activity center there are many foreign students standing.",
+      "In the café there are many students sitting."
+    ],
     "explanation": "Uses posture verbs (站著／坐著／躺著) to describe existence of people/things in a place. Structure: 地點 + V著 + 人/東西. Emphasizes ongoing state."
   },
   {
@@ -21957,6 +23181,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "為了保護環境，大家要分類垃圾。",
         "pinyin": "wèi le bǎo hù huán jìng， dà jiā yào fēn lèi lā jī。",
+        "english": "In order to protect the environment, everyone must sort garbage.",
         "charDetails": [
           {
             "char": "為",
@@ -22023,6 +23248,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她為了參加婚禮買了新衣服。",
         "pinyin": "tā wèi le cān jiā hūn lǐ mǎi le xīn yī fú。",
+        "english": "She bought new clothes in order to attend the wedding.",
         "charDetails": [
           {
             "char": "她",
@@ -22081,6 +23307,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們坐捷運，為了早點回家。",
         "pinyin": "wǒ men zuò jié yùn， wèi le zǎo diǎn huí jiā。",
+        "english": "We take the MRT, in order to go home earlier.",
         "charDetails": [
           {
             "char": "我",
@@ -22137,6 +23364,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "In order to protect the environment, everyone must sort garbage.",
+      "She bought new clothes in order to attend the wedding.",
+      "We take the MRT, in order to go home earlier."
+    ],
     "explanation": "Expresses purpose or intention. Structure: 為了 + 目的 + 行動. Often placed at beginning of sentence. Negation may contrast motives (not for money, but for…)."
   },
   {
@@ -22155,6 +23387,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我昨天在夜市看見小美。",
         "pinyin": "wǒ zuó tiān zài yè shì kàn jiàn xiǎo měi。",
+        "english": "Yesterday I saw Xiao Mei at the night market.",
         "charDetails": [
           {
             "char": "我",
@@ -22205,6 +23438,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我聽見你說的話。",
         "pinyin": "wǒ tīng jiàn nǐ shuō de huà。",
+        "english": "I heard the words you said.",
         "charDetails": [
           {
             "char": "我",
@@ -22243,6 +23477,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看見他出來了嗎？",
         "pinyin": "nǐ kàn jiàn tā chū lái le ma？",
+        "english": "Did you see him come out?",
         "charDetails": [
           {
             "char": "你",
@@ -22283,6 +23518,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Yesterday I saw Xiao Mei at the night market.",
+      "I heard the words you said.",
+      "Did you see him come out?"
+    ],
     "explanation": "Used after perception verbs to show successful perception. Pattern: 看見／聽見. Emphasizes that the action was perceived completely. Negation: 沒看見／沒聽見."
   },
   {
@@ -22301,6 +23541,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我聽懂老師說的話了。",
         "pinyin": "wǒ tīng dǒng lǎo shī shuō de huà le。",
+        "english": "I understood [by listening] the words the teacher said.",
         "charDetails": [
           {
             "char": "我",
@@ -22347,6 +23588,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我看懂這篇文章了。",
         "pinyin": "wǒ kàn dǒng zhè piān wén zhāng le。",
+        "english": "I understood [by reading] this article.",
         "charDetails": [
           {
             "char": "我",
@@ -22389,6 +23631,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你聽懂他剛才說的話嗎？",
         "pinyin": "nǐ tīng dǒng tā gāng cái shuō de huà ma？",
+        "english": "Did you understand what he just said?",
         "charDetails": [
           {
             "char": "你",
@@ -22437,6 +23680,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I understood [by listening] the words the teacher said.",
+      "I understood [by reading] this article.",
+      "Did you understand what he just said?"
+    ],
     "explanation": "Indicates cognitive understanding after hearing/reading. Often used as complement: 聽懂／看懂／讀懂. Negation: 沒聽懂／沒看懂."
   },
   {
@@ -22455,6 +23703,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我學會開車了。",
         "pinyin": "wǒ xué huì kāi chē le。",
+        "english": "I learned how to drive.",
         "charDetails": [
           {
             "char": "我",
@@ -22489,6 +23738,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他學會自我介紹。",
         "pinyin": "tā xué huì zì wǒ jiè shào。",
+        "english": "He learned how to do a self-introduction.",
         "charDetails": [
           {
             "char": "他",
@@ -22527,6 +23777,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你學會這些字了嗎？",
         "pinyin": "nǐ xué huì zhè xiē zì le ma？",
+        "english": "Have you learned these characters?",
         "charDetails": [
           {
             "char": "你",
@@ -22567,6 +23818,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I learned how to drive.",
+      "He learned how to do a self-introduction.",
+      "Have you learned these characters?"
+    ],
     "explanation": "Indicates mastery of a skill after learning. Pattern: 學會 + 技能. Negation: 還沒學會／學不會. Emphasizes achievement rather than ability."
   },
   {
@@ -22585,6 +23841,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我看得懂中文電影。",
         "pinyin": "wǒ kàn de dǒng zhōng wén diàn yǐng。",
+        "english": "I can understand [by watching] Chinese movies.",
         "charDetails": [
           {
             "char": "我",
@@ -22627,6 +23884,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我聽不見音樂。",
         "pinyin": "wǒ tīng bù jiàn yīn lè。",
+        "english": "I cannot hear the music.",
         "charDetails": [
           {
             "char": "我",
@@ -22661,6 +23919,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看得見那行字嗎？",
         "pinyin": "nǐ kàn dé jiàn nà xíng zì ma？",
+        "english": "Can you see that line of words?",
         "charDetails": [
           {
             "char": "你",
@@ -22701,6 +23960,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I can understand [by watching] Chinese movies.",
+      "I cannot hear the music.",
+      "Can you see that line of words?"
+    ],
     "explanation": "Expresses ability depending on circumstances. Pattern: V + 得 + 補語 (can) / V + 不 + 補語 (cannot). Often used with perception verbs and result complements."
   },
   {
@@ -22719,6 +23983,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我吃得了這碗麵。",
         "pinyin": "wǒ chī dé le zhè wǎn miàn。",
+        "english": "I can finish eating this bowl of noodles.",
         "charDetails": [
           {
             "char": "我",
@@ -22757,6 +24022,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我拿不了那麼多書。",
         "pinyin": "wǒ ná bù liǎo nà me duō shū。",
+        "english": "I cannot carry so many books.",
         "charDetails": [
           {
             "char": "我",
@@ -22799,6 +24065,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你走得了半小時嗎？",
         "pinyin": "nǐ zǒu dé le bàn xiǎo shí ma？",
+        "english": "Can you walk for half an hour?",
         "charDetails": [
           {
             "char": "你",
@@ -22839,6 +24106,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I can finish eating this bowl of noodles.",
+      "I cannot carry so many books.",
+      "Can you walk for half an hour?"
+    ],
     "explanation": "Indicates whether one can handle or complete an action due to capacity or situation. Negation often inherent: 不了."
   },
   {
@@ -22857,6 +24129,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我累得走不動。",
         "pinyin": "wǒ lèi dé zǒu bù dòng。",
+        "english": "I was tired to the point of being unable to walk.",
         "charDetails": [
           {
             "char": "我",
@@ -22891,6 +24164,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "天氣冷得大家不想出門。",
         "pinyin": "tiān qì lěng dé dà jiā bù xiǎng chū mén。",
+        "english": "The weather was cold to the point that everyone didn't want to go out.",
         "charDetails": [
           {
             "char": "天",
@@ -22941,6 +24215,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他痛得不能跑。",
         "pinyin": "tā tòng dé bù néng pǎo。",
+        "english": "He was in pain to the point of being unable to run.",
         "charDetails": [
           {
             "char": "他",
@@ -22973,6 +24248,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I was tired to the point of being unable to walk.",
+      "The weather was cold to the point that everyone didn't want to go out.",
+      "He was in pain to the point of being unable to run."
+    ],
     "explanation": "Describes degree leading to result. Structure: 形容詞/動詞 + 得 + 結果句. Often expresses extreme condition."
   },
   {
@@ -22991,6 +24271,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請繼續說下去。",
         "pinyin": "qǐng jì xù shuō xià qù。",
+        "english": "Please continue speaking on.",
         "charDetails": [
           {
             "char": "請",
@@ -23025,6 +24306,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我想繼續做下去。",
         "pinyin": "wǒ xiǎng jì xù zuò xià qù。",
+        "english": "I want to continue doing [this] on.",
         "charDetails": [
           {
             "char": "我",
@@ -23063,6 +24345,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你還要等下去嗎？",
         "pinyin": "nǐ hái yào děng xià qù ma？",
+        "english": "Do you still want to keep waiting on?",
         "charDetails": [
           {
             "char": "你",
@@ -23099,6 +24382,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Please continue speaking on.",
+      "I want to continue doing [this] on.",
+      "Do you still want to keep waiting on?"
+    ],
     "explanation": "Indicates continuation into the future. Added after verbs to mean “keep doing.” Often used with state or long-term activity."
   },
   {
@@ -23117,6 +24405,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我喝完咖啡了。",
         "pinyin": "wǒ hē wán kā fēi le。",
+        "english": "I finished drinking the coffee.",
         "charDetails": [
           {
             "char": "我",
@@ -23151,6 +24440,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我看完那本書了。",
         "pinyin": "wǒ kàn wán nà běn shū le。",
+        "english": "I finished reading that book.",
         "charDetails": [
           {
             "char": "我",
@@ -23189,6 +24479,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你寫完作業了嗎？",
         "pinyin": "nǐ xiě wán zuò yè le ma？",
+        "english": "Have you finished writing the homework?",
         "charDetails": [
           {
             "char": "你",
@@ -23225,6 +24516,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I finished drinking the coffee.",
+      "I finished reading that book.",
+      "Have you finished writing the homework?"
+    ],
     "explanation": "Result complement indicating completion. Pattern: V + 完. Often followed by 了. Negation: 還沒V完."
   },
   {
@@ -23243,6 +24539,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我把搬家搬好了。",
         "pinyin": "wǒ bǎ bān jiā bān hǎo le。",
+        "english": "I have finished moving house [and am all set].",
         "charDetails": [
           {
             "char": "我",
@@ -23281,6 +24578,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "明天的考試我準備好了。",
         "pinyin": "míng tiān de kǎo shì wǒ zhǔn bèi hǎo le。",
+        "english": "For tomorrow's exam I have prepared ready.",
         "charDetails": [
           {
             "char": "明",
@@ -23331,6 +24629,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "旅行需要的資料我都收集好了。",
         "pinyin": "lǚ xíng xū yào de zī liào wǒ dōu shōu jí hǎo le。",
+        "english": "The information needed for traveling I have all collected ready.",
         "charDetails": [
           {
             "char": "旅",
@@ -23391,6 +24690,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I have finished moving house [and am all set].",
+      "For tomorrow's exam I have prepared ready.",
+      "The information needed for traveling I have all collected ready."
+    ],
     "explanation": "Result complement 好 shows completion with a “ready/good to go” sense: 做好／準備好／收拾好／買好. Negation often: 還沒V好. Questions: V好了嗎？"
   },
   {
@@ -23409,6 +24713,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我找了很久才找到手機。",
         "pinyin": "wǒ zhǎo le hěn jiǔ cái zhǎo dào shǒu jī。",
+        "english": "I searched for a long time, only then did I find the mobile phone.",
         "charDetails": [
           {
             "char": "我",
@@ -23459,6 +24764,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "在台灣買得到外國貨。",
         "pinyin": "zài tái wān mǎi dé dào wài guó huò。",
+        "english": "In Taiwan one can buy foreign goods.",
         "charDetails": [
           {
             "char": "在",
@@ -23505,6 +24811,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你聽得到十樓外面的車聲嗎？",
         "pinyin": "nǐ tīng dé dào shí lóu wài miàn de chē shēng ma？",
+        "english": "Can you hear the car sounds outside on the tenth floor?",
         "charDetails": [
           {
             "char": "你",
@@ -23561,6 +24868,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I searched for a long time, only then did I find the mobile phone.",
+      "In Taiwan one can buy foreign goods.",
+      "Can you hear the car sounds outside on the tenth floor?"
+    ],
     "explanation": "Result complement 到 indicates the intended result is achieved: 找到／買到／聽到／吃到／學到. Negation: V不到 (can’t) or 沒V到 (didn’t)."
   },
   {
@@ -23579,6 +24891,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "比起美國的書，台灣的書比較便宜。",
         "pinyin": "bǐ qǐ měi guó de shū， tái wān de shū bǐ jiào pián yi。",
+        "english": "Compared to books in America, books in Taiwan are comparatively cheap.",
         "charDetails": [
           {
             "char": "比",
@@ -23649,6 +24962,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "比起住大城市，住鄉下更舒服。",
         "pinyin": "bǐ qǐ zhù dà chéng shì， zhù xiāng xià gèng shū fú。",
+        "english": "Compared to living in a big city, living in the countryside is even more comfortable.",
         "charDetails": [
           {
             "char": "比",
@@ -23711,6 +25025,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "比起足球，太極比較不累。",
         "pinyin": "bǐ qǐ zú qiú， tài jí bǐ jiào bù lèi。",
+        "english": "Compared to soccer, Tai Chi is comparatively less tiring.",
         "charDetails": [
           {
             "char": "比",
@@ -23763,6 +25078,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Compared to books in America, books in Taiwan are comparatively cheap.",
+      "Compared to living in a big city, living in the countryside is even more comfortable.",
+      "Compared to soccer, Tai Chi is comparatively less tiring."
+    ],
     "explanation": "Sets up a comparison topic (“when you compare…”). Often followed by 比較 + adjective, or directly by evaluation. Useful for general comparisons and opinions."
   },
   {
@@ -23781,6 +25101,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "花蓮的海邊像他國家的海邊一樣漂亮。",
         "pinyin": "huā lián de hǎi biān xiàng tā guó jiā de hǎi biān yī yàng piào liàng。",
+        "english": "Hualien's seaside is just like his country's seaside, equally pretty.",
         "charDetails": [
           {
             "char": "花",
@@ -23855,6 +25176,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "手機像電腦一樣方便。",
         "pinyin": "shǒu jī xiàng diàn nǎo yī yàng fāng biàn。",
+        "english": "Mobile phones are just like computers, equally convenient.",
         "charDetails": [
           {
             "char": "手",
@@ -23901,6 +25223,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "跑三千公尺對他來說像走路一樣容易。",
         "pinyin": "pǎo sān qiān gōng chǐ duì tā lái shuō xiàng zǒu lù yī yàng róng yì。",
+        "english": "Running three thousand meters for him is just like walking, equally easy.",
         "charDetails": [
           {
             "char": "跑",
@@ -23973,6 +25296,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Hualien's seaside is just like his country's seaside, equally pretty.",
+      "Mobile phones are just like computers, equally convenient.",
+      "Running three thousand meters for him is just like walking, equally easy."
+    ],
     "explanation": "Expresses similarity or “as…as…” equivalence. Can compare nouns (像…一樣) or degree (像…一樣 + adj). Negation: 不像…那麼…／不跟…一樣…"
   },
   {
@@ -23991,6 +25319,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這些菜好吃極了。",
         "pinyin": "zhè xiē cài hǎo chī jí le。",
+        "english": "These dishes are delicious to the extreme (extremely delicious).",
         "charDetails": [
           {
             "char": "這",
@@ -24029,6 +25358,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我餓得不得了。",
         "pinyin": "wǒ è dé bù dé le。",
+        "english": "I am hungry terribly (terribly hungry).",
         "charDetails": [
           {
             "char": "我",
@@ -24063,6 +25393,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "婚禮氣氛熱鬧得很。",
         "pinyin": "hūn lǐ qì fēn rè nào dé hěn。",
+        "english": "The wedding atmosphere was lively indeed (very lively).",
         "charDetails": [
           {
             "char": "婚",
@@ -24103,6 +25434,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "These dishes are delicious to the extreme (extremely delicious).",
+      "I am hungry terribly (terribly hungry).",
+      "The wedding atmosphere was lively indeed (very lively)."
+    ],
     "explanation": "Intensifier patterns for strong degree. Often used in spoken emphasis. Structure: Adj + 極了 or Adj/ V + 得 + 很/不得了."
   },
   {
@@ -24121,6 +25457,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "房子太貴，我買不起。",
         "pinyin": "fáng zi tài guì， wǒ mǎi bù qǐ。",
+        "english": "The house is too expensive, I cannot afford to buy [it].",
         "charDetails": [
           {
             "char": "房",
@@ -24167,6 +25504,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "雖然房租不便宜，我還租得起。",
         "pinyin": "suī rán fáng zū bù biàn yí， wǒ hái zū dé qǐ。",
+        "english": "Although the rent is not cheap, I can still afford to rent [it].",
         "charDetails": [
           {
             "char": "雖",
@@ -24229,6 +25567,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這家店的東西大家都吃得起。",
         "pinyin": "zhè jiā diàn de dōng xī dà jiā dōu chī dé qǐ。",
+        "english": "Things at this shop, everyone can afford to eat.",
         "charDetails": [
           {
             "char": "這",
@@ -24285,6 +25624,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The house is too expensive, I cannot afford to buy [it].",
+      "Although the rent is not cheap, I can still afford to rent [it].",
+      "Things at this shop, everyone can afford to eat."
+    ],
     "explanation": "Potential complement meaning “afford” (money/expense/effort). Negation: V不起. Common with 買／租／付／用. Questions: 租得起嗎？買得起嗎？"
   },
   {
@@ -24303,6 +25647,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你要看久一點才看得出來是誰。",
         "pinyin": "nǐ yào kàn jiǔ yī diǎn cái kàn dé chū lái shì shuí。",
+        "english": "You need to look a bit longer, only then can [you] tell who it is.",
         "charDetails": [
           {
             "char": "你",
@@ -24365,6 +25710,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我聽得出來他在講台語。",
         "pinyin": "wǒ tīng dé chū lái tā zài jiǎng tái yǔ。",
+        "english": "I can discern [by listening] that he is speaking Taiwanese.",
         "charDetails": [
           {
             "char": "我",
@@ -24415,6 +25761,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我吃不出來裡面有什麼料。",
         "pinyin": "wǒ chī bù chū lái lǐ miàn yǒu shén me liào。",
+        "english": "I cannot taste out what ingredients are inside.",
         "charDetails": [
           {
             "char": "我",
@@ -24467,6 +25814,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "You need to look a bit longer, only then can [you] tell who it is.",
+      "I can discern [by listening] that he is speaking Taiwanese.",
+      "I cannot taste out what ingredients are inside."
+    ],
     "explanation": "Result complement 出來 means the result “emerges” from perception/thinking. Common: 看得出來／聽得出來／吃得出來／想得出來／算得出來／寫得出來. Negation often: 看不出來／想不出來."
   },
   {
@@ -24485,6 +25837,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這台車坐得下九個人。",
         "pinyin": "zhè tái chē zuò dé xià jiǔ gè rén。",
+        "english": "This car can seat nine people.",
         "charDetails": [
           {
             "char": "這",
@@ -24531,6 +25884,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個教室坐不下那麼多人。",
         "pinyin": "zhè gè jiào shì zuò bù xià nà me duō rén。",
+        "english": "This classroom cannot seat that many people.",
         "charDetails": [
           {
             "char": "這",
@@ -24585,6 +25939,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這個隨身碟裝得下這些照片嗎？",
         "pinyin": "zhè gè suí shēn dié zhuāng dé xià zhè xiē zhào piān ma？",
+        "english": "Can this flash drive fit these photos?",
         "charDetails": [
           {
             "char": "這",
@@ -24645,6 +26000,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This car can seat nine people.",
+      "This classroom cannot seat that many people.",
+      "Can this flash drive fit these photos?"
+    ],
     "explanation": "Complement 下 indicates capacity to accommodate (space/volume). Often with 坐／放／裝／塞／住. Negation: V不下."
   },
   {
@@ -24663,6 +26023,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把那本書看一看，再告訴我好不好。",
         "pinyin": "bǎ nà běn shū kàn yī kàn， zài gào sù wǒ hǎo bù hǎo。",
+        "english": "Take a look at that book, then tell me if it is good.",
         "charDetails": [
           {
             "char": "把",
@@ -24733,6 +26094,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把錢數一數再去繳學費。",
         "pinyin": "bǎ qián shù yī shù zài qù jiǎo xué fèi。",
+        "english": "Count the money a bit, then go pay the tuition fee.",
         "charDetails": [
           {
             "char": "把",
@@ -24783,6 +26145,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把上課方式說一說給新同學聽。",
         "pinyin": "bǎ shàng kè fāng shì shuō yī shuō gěi xīn tóng xué tīng。",
+        "english": "Explain the class format a bit for the new classmates to hear.",
         "charDetails": [
           {
             "char": "把",
@@ -24843,6 +26206,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Take a look at that book, then tell me if it is good.",
+      "Count the money a bit, then go pay the tuition fee.",
+      "Explain the class format a bit for the new classmates to hear."
+    ],
     "explanation": "把 + verb reduplication softens the tone and suggests “do it a bit / do it first.” Often used with sequencing: 先…再…. Common patterns: 看一看／想一想／問一問／查一查／數一數."
   },
   {
@@ -24861,6 +26229,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把高麗菜洗乾淨。",
         "pinyin": "bǎ gāo lì cài xǐ qián jìng。",
+        "english": "Wash the cabbage clean.",
         "charDetails": [
           {
             "char": "把",
@@ -24899,6 +26268,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把窗戶關上，該走了。",
         "pinyin": "bǎ chuāng hù guān shàng， gāi zǒu le。",
+        "english": "Close the window, [we] ought to leave.",
         "charDetails": [
           {
             "char": "把",
@@ -24945,6 +26315,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "把湯喝完了嗎？",
         "pinyin": "bǎ tāng hē wán le ma？",
+        "english": "Have [you] finished drinking the soup?",
         "charDetails": [
           {
             "char": "把",
@@ -24977,6 +26348,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Wash the cabbage clean.",
+      "Close the window, [we] ought to leave.",
+      "Have [you] finished drinking the soup?"
+    ],
     "explanation": "把 sentence highlighting the object being affected + a result complement. Structure: 把 + 受詞 + V + 結果 (e.g., 弄壞／洗好／吃完／包好／關上／寫完). Negation: 不要把…V完／還沒把…V好."
   },
   {
@@ -24995,6 +26371,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "趁這週末有空，去東海岸走走。",
         "pinyin": "chèn zhè zhōu mò yǒu kòng， qù dōng hǎi àn zǒu zǒu。",
+        "english": "Taking advantage of having free time this weekend, go walk along the east coast.",
         "charDetails": [
           {
             "char": "趁",
@@ -25057,6 +26434,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "趁老師還沒來，出去買咖啡。",
         "pinyin": "chèn lǎo shī hái méi lái， chū qù mǎi kā fēi。",
+        "english": "Taking advantage of the teacher not having arrived yet, go out to buy coffee.",
         "charDetails": [
           {
             "char": "趁",
@@ -25115,6 +26493,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "趁天氣好，去河濱公園騎車。",
         "pinyin": "chèn tiān qì hǎo， qù hé bīn gōng yuán qí chē。",
+        "english": "Taking advantage of the good weather, go ride a bicycle at the riverside park.",
         "charDetails": [
           {
             "char": "趁",
@@ -25171,6 +26550,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Taking advantage of having free time this weekend, go walk along the east coast.",
+      "Taking advantage of the teacher not having arrived yet, go out to buy coffee.",
+      "Taking advantage of the good weather, go ride a bicycle at the riverside park."
+    ],
     "explanation": "Means “while there’s a chance/while a condition holds.” Pattern: 趁 + 時間/狀態 + 行動. Often implies acting promptly before the chance disappears."
   },
   {
@@ -25189,6 +26573,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他去過花蓮，沒去過其他的地方。",
         "pinyin": "tā qù guò huā lián， méi qù guò qí tā de dì fāng。",
+        "english": "He has been to Hualien, [but] has not been to other places.",
         "charDetails": [
           {
             "char": "他",
@@ -25255,6 +26640,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不吃牛肉，我們點別的吧。",
         "pinyin": "wǒ bù chī niú ròu， wǒ men diǎn bié de ba。",
+        "english": "I do not eat beef, let's order something else.",
         "charDetails": [
           {
             "char": "我",
@@ -25313,6 +26699,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這份工作太遠，我想找另外的工作。",
         "pinyin": "zhè fèn gōng zuò tài yuǎn， wǒ xiǎng zhǎo lìng wài de gōng zuò。",
+        "english": "This job is too far, I want to look for another job.",
         "charDetails": [
           {
             "char": "這",
@@ -25381,6 +26768,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He has been to Hualien, [but] has not been to other places.",
+      "I do not eat beef, let's order something else.",
+      "This job is too far, I want to look for another job."
+    ],
     "explanation": "其他的 = “the other(s)” (within a known group). 別的 = “another/different one.” 另外的 = “an additional/another separate one.” Often used before nouns: 其他的地方／別的東西／另外的工作."
   },
   {
@@ -25399,6 +26791,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他打了我一下。",
         "pinyin": "tā dǎ le wǒ yī xià。",
+        "english": "He hit me once.",
         "charDetails": [
           {
             "char": "他",
@@ -25433,6 +26826,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我去過泰國兩趟。",
         "pinyin": "wǒ qù guò tài guó liǎng tàng。",
+        "english": "I have been to Thailand for two trips.",
         "charDetails": [
           {
             "char": "我",
@@ -25471,6 +26865,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我看了那部電影三次。",
         "pinyin": "wǒ kàn le nà bù diàn yǐng sān cì。",
+        "english": "I watched that movie three times.",
         "charDetails": [
           {
             "char": "我",
@@ -25515,6 +26910,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He hit me once.",
+      "I have been to Thailand for two trips.",
+      "I watched that movie three times."
+    ],
     "explanation": "Verb classifiers measure frequency or completeness of actions. 下 = light/brief action; 趟 = round trip; 遍 = from beginning to end; 次 = general occurrence. Structure: V + 次數 + 動量詞."
   },
   {
@@ -25533,6 +26933,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們先去台中，然後去墾丁。",
         "pinyin": "wǒ men xiān qù tái zhōng， rán hòu qù kěn dīng。",
+        "english": "We first go to Taichung, and then go to Kenting.",
         "charDetails": [
           {
             "char": "我",
@@ -25591,6 +26992,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "後來我發現太極很有趣。",
         "pinyin": "hòu lái wǒ fā xiàn tài jí hěn yǒu qù。",
+        "english": "Later on I discovered Tai Chi is very interesting.",
         "charDetails": [
           {
             "char": "後",
@@ -25641,6 +27043,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "以後我一定會騎腳踏車。",
         "pinyin": "yǐ hòu wǒ yí dìng huì qí jiǎo tà chē。",
+        "english": "In the future I definitely will ride bicycles.",
         "charDetails": [
           {
             "char": "以",
@@ -25689,6 +27092,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We first go to Taichung, and then go to Kenting.",
+      "Later on I discovered Tai Chi is very interesting.",
+      "In the future I definitely will ride bicycles."
+    ],
     "explanation": "然後 = sequence in events; 後來 = later (after some time); 以後 = from now on/in the future or after a specific time. Time reference determines meaning."
   },
   {
@@ -25707,6 +27115,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "選好日子才可以結婚。",
         "pinyin": "xuǎn hǎo rì zi cái kě yǐ jié hūn。",
+        "english": "Only after choosing a good day can [one] get married.",
         "charDetails": [
           {
             "char": "選",
@@ -25753,6 +27162,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "先準備好材料才包餃子。",
         "pinyin": "xiān zhǔn bèi hǎo cái liào cái bāo jiǎo zi。",
+        "english": "First prepare the ingredients ready, only then wrap dumplings.",
         "charDetails": [
           {
             "char": "先",
@@ -25803,6 +27213,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只有試穿才知道合不合適。",
         "pinyin": "zhǐ yǒu shì chuān cái zhī dào hé bù hé shì。",
+        "english": "Only by trying [them] on does [one] know whether [they] fit or not.",
         "charDetails": [
           {
             "char": "只",
@@ -25855,6 +27266,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Only after choosing a good day can [one] get married.",
+      "First prepare the ingredients ready, only then wrap dumplings.",
+      "Only by trying [them] on does [one] know whether [they] fit or not."
+    ],
     "explanation": "Indicates prerequisite: action B happens only after A. Often paired with 先…才…／只有…才… to stress condition."
   },
   {
@@ -25873,6 +27289,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的腳踏車被偷了。",
         "pinyin": "wǒ de jiǎo tà chē bèi tōu le。",
+        "english": "My bicycle was stolen.",
         "charDetails": [
           {
             "char": "我",
@@ -25915,6 +27332,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "那些碗被弟弟打破了。",
         "pinyin": "nà xiē wǎn bèi dì di dǎ pò le。",
+        "english": "Those bowls were broken by younger brother.",
         "charDetails": [
           {
             "char": "那",
@@ -25961,6 +27379,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我的手機被拿走了嗎？",
         "pinyin": "wǒ de shǒu jī bèi ná zǒu le ma？",
+        "english": "Was my mobile phone taken away?",
         "charDetails": [
           {
             "char": "我",
@@ -26005,6 +27424,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "My bicycle was stolen.",
+      "Those bowls were broken by younger brother.",
+      "Was my mobile phone taken away?"
+    ],
     "explanation": "Marks passive construction. Structure: 受詞 + 被 + 施事 + 動詞 (agent optional). Often implies negative/unfortunate event."
   },
   {
@@ -26023,6 +27447,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "媽媽試了試那件衣服。",
         "pinyin": "mā mā shì le shì nà jiàn yī fú。",
+        "english": "Mother tried on that piece of clothing a bit.",
         "charDetails": [
           {
             "char": "媽",
@@ -26069,6 +27494,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老闆看了看提案。",
         "pinyin": "lǎo bǎn kàn le kàn tí àn。",
+        "english": "The boss took a look at the proposal.",
         "charDetails": [
           {
             "char": "老",
@@ -26107,6 +27533,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我嚐了嚐芒果。",
         "pinyin": "wǒ cháng le cháng máng guǒ。",
+        "english": "I tasted the mango a bit.",
         "charDetails": [
           {
             "char": "我",
@@ -26139,6 +27566,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Mother tried on that piece of clothing a bit.",
+      "The boss took a look at the proposal.",
+      "I tasted the mango a bit."
+    ],
     "explanation": "Reduplicated verb with 了 expresses trying briefly or testing something. Often implies “have a quick go and see what happens.”"
   },
   {
@@ -26157,6 +27589,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他穿上西裝去上班。",
         "pinyin": "tā chuān shàng xī zhuāng qù shàng bān。",
+        "english": "He put on a suit to go to work.",
         "charDetails": [
           {
             "char": "他",
@@ -26199,6 +27632,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我趕上垃圾車了。",
         "pinyin": "wǒ gǎn shàng lā jī chē le。",
+        "english": "I caught up with the garbage truck.",
         "charDetails": [
           {
             "char": "我",
@@ -26237,6 +27671,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他愛上台灣的芒果。",
         "pinyin": "tā ài shàng tái wān de máng guǒ。",
+        "english": "He fell in love with Taiwan's mangoes.",
         "charDetails": [
           {
             "char": "他",
@@ -26277,6 +27712,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He put on a suit to go to work.",
+      "I caught up with the garbage truck.",
+      "He fell in love with Taiwan's mangoes."
+    ],
     "explanation": "Complement 上 indicates contact, attachment, or successful catching/engagement. Common: 穿上／寫上／趕上／愛上／看上. Negation: 沒趕上／沒寫上."
   },
   {
@@ -26295,6 +27735,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老闆讓我做這份工作。",
         "pinyin": "lǎo bǎn ràng wǒ zuò zhè fèn gōng zuò。",
+        "english": "The boss let me do this job.",
         "charDetails": [
           {
             "char": "老",
@@ -26341,6 +27782,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "媽媽不讓我們出去玩。",
         "pinyin": "mā mā bù ràng wǒ men chū qù wán。",
+        "english": "Mother does not let us go out to play.",
         "charDetails": [
           {
             "char": "媽",
@@ -26387,6 +27829,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這次旅行讓我更了解台東。",
         "pinyin": "zhè cì lǚ xíng ràng wǒ gèng liǎo jiě tái dōng。",
+        "english": "This trip made me understand Taitung even better.",
         "charDetails": [
           {
             "char": "這",
@@ -26439,6 +27882,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The boss let me do this job.",
+      "Mother does not let us go out to play.",
+      "This trip made me understand Taitung even better."
+    ],
     "explanation": "Causative verb. Structure: A 讓 B + 動詞 (“A lets/makes B do…”). Can express permission or cause/result. Negation: 不讓."
   },
   {
@@ -26457,6 +27905,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "電影要開始了，快一點！",
         "pinyin": "diàn yǐng yào kāi shǐ le， kuài yī diǎn！",
+        "english": "The movie is about to start, hurry up a bit!",
         "charDetails": [
           {
             "char": "電",
@@ -26507,6 +27956,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "快一點吃，不然來不及。",
         "pinyin": "kuài yī diǎn chī， bù rán lái bù jí。",
+        "english": "Eat a bit faster, otherwise [we] won't make it in time.",
         "charDetails": [
           {
             "char": "快",
@@ -26557,6 +28007,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "快一點決定吧。",
         "pinyin": "kuài yī diǎn jué dìng ba。",
+        "english": "Decide a bit faster.",
         "charDetails": [
           {
             "char": "快",
@@ -26589,6 +28040,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The movie is about to start, hurry up a bit!",
+      "Eat a bit faster, otherwise [we] won't make it in time.",
+      "Decide a bit faster."
+    ],
     "explanation": "Used to urge someone to act faster. Often in imperatives. Pattern: V + 快一點 or simply 快一點！"
   },
   {
@@ -26607,6 +28063,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他們談起台灣小吃。",
         "pinyin": "tā men tán qǐ tái wān xiǎo chī。",
+        "english": "They started talking about Taiwan snacks.",
         "charDetails": [
           {
             "char": "他",
@@ -26649,6 +28106,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別提起薪水的事。",
         "pinyin": "bié tí qǐ xīn shuǐ de shì。",
+        "english": "Don't bring up the matter of salary.",
         "charDetails": [
           {
             "char": "別",
@@ -26687,6 +28145,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我不知道怎麼說起這個話題。",
         "pinyin": "wǒ bù zhī dào zěn me shuō qǐ zhè gè huà tí。",
+        "english": "I do not know how to start speaking about this topic.",
         "charDetails": [
           {
             "char": "我",
@@ -26743,6 +28202,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "They started talking about Taiwan snacks.",
+      "Don't bring up the matter of salary.",
+      "I do not know how to start speaking about this topic."
+    ],
     "explanation": "Complement 起 here means “to bring up/start (a topic).” Common: 談起／提起／說起／想起. Often used for initiating discussion or recalling topics."
   },
   {
@@ -26761,6 +28225,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只要坐捷運，就可以到很多地方。",
         "pinyin": "zhǐ yào zuò jié yùn， jiù kě yǐ dào hěn duō dì fāng。",
+        "english": "As long as [you] ride the MRT, then [you] can arrive at many places.",
         "charDetails": [
           {
             "char": "只",
@@ -26827,6 +28292,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只要多喝水，感冒就會好。",
         "pinyin": "zhǐ yào duō hē shuǐ， gǎn mào jiù huì hǎo。",
+        "english": "As long as [you] drink more water, then the cold will get well.",
         "charDetails": [
           {
             "char": "只",
@@ -26881,6 +28347,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只要房東降租，我就不搬。",
         "pinyin": "zhǐ yào fáng dōng jiàng zū， wǒ jiù bù bān。",
+        "english": "As long as the landlord lowers the rent, then I won't move.",
         "charDetails": [
           {
             "char": "只",
@@ -26933,6 +28400,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "As long as [you] ride the MRT, then [you] can arrive at many places.",
+      "As long as [you] drink more water, then the cold will get well.",
+      "As long as the landlord lowers the rent, then I won't move."
+    ],
     "explanation": "Conditional pattern expressing sufficient condition. Structure: 只要 A，就 B. Similar to “if,” but stresses minimal requirement."
   },
   {
@@ -26951,6 +28423,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "越紅的辣椒越辣。",
         "pinyin": "yuè hóng de là jiāo yuè là。",
+        "english": "The redder the chili pepper, the spicier [it is].",
         "charDetails": [
           {
             "char": "越",
@@ -26989,6 +28462,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "越緊張越找不到資料。",
         "pinyin": "yuè jǐn zhāng yuè zhǎo bú dào zī liào。",
+        "english": "The more nervous [one is], the more [one] cannot find information.",
         "charDetails": [
           {
             "char": "越",
@@ -27035,6 +28509,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "越聽越喜歡這首歌。",
         "pinyin": "yuè tīng yuè xǐ huān zhè shǒu gē。",
+        "english": "The more [I] listen, the more [I] like this song.",
         "charDetails": [
           {
             "char": "越",
@@ -27075,6 +28550,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The redder the chili pepper, the spicier [it is].",
+      "The more nervous [one is], the more [one] cannot find information.",
+      "The more [I] listen, the more [I] like this song."
+    ],
     "explanation": "Comparative correlative structure. Shows parallel increase/decrease. Pattern: 越 + adj/verb + 越 + adj/verb. Often used for general truths or gradual change."
   },
   {
@@ -27093,6 +28573,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "小籠包，陳月梅不會包。",
         "pinyin": "xiǎo lóng bāo， chén yuè méi bù huì bāo。",
+        "english": "Xiao long bao, Chen Yuemei does not know how to wrap.",
         "charDetails": [
           {
             "char": "小",
@@ -27143,6 +28624,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "法文，他會；西班牙文，他不會。",
         "pinyin": "fǎ wén， tā huì ； xī bān yá wén， tā bù huì。",
+        "english": "French, he knows; Spanish, he does not know.",
         "charDetails": [
           {
             "char": "法",
@@ -27209,6 +28691,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "經驗教法文有，教西班牙文沒有。",
         "pinyin": "jīng yàn jiào fǎ wén yǒu， jiào xī bān yá wén méi yǒu。",
+        "english": "Experience teaching French he has; teaching Spanish he does not have.",
         "charDetails": [
           {
             "char": "經",
@@ -27273,6 +28756,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Xiao long bao, Chen Yuemei does not know how to wrap.",
+      "French, he knows; Spanish, he does not know.",
+      "Experience teaching French he has; teaching Spanish he does not have."
+    ],
     "explanation": "Topic placed at beginning to create contrast (“as for…”). Highlights contrast between items. Can contrast subject or object. Often used without conjunctions, relying on parallel structure."
   },
   {
@@ -27291,6 +28779,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我吃過餃子了。",
         "pinyin": "wǒ chī guò jiǎo zi le。",
+        "english": "I have eaten the dumplings (already).",
         "charDetails": [
           {
             "char": "我",
@@ -27325,6 +28814,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他付過這個月的房租了。",
         "pinyin": "tā fù guò zhè gè yuè de fáng zū le。",
+        "english": "He has paid this month's rent (already).",
         "charDetails": [
           {
             "char": "他",
@@ -27375,6 +28865,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "你看過那部電影了嗎？",
         "pinyin": "nǐ kàn guò nà bù diàn yǐng le ma？",
+        "english": "Have you watched that movie (already)?",
         "charDetails": [
           {
             "char": "你",
@@ -27419,6 +28910,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I have eaten the dumplings (already).",
+      "He has paid this month's rent (already).",
+      "Have you watched that movie (already)?"
+    ],
     "explanation": "Different from experiential 過. Here it means an action has been completed (often “already”). Common in conversation: 吃過了／做過了. Negation: 還沒V過."
   },
   {
@@ -27437,6 +28933,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他把我的手機拿走了。",
         "pinyin": "tā bǎ wǒ de shǒu jī ná zǒu le。",
+        "english": "He took my mobile phone away.",
         "charDetails": [
           {
             "char": "他",
@@ -27483,6 +28980,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "請把東西推走。",
         "pinyin": "qǐng bǎ dōng xī tuī zǒu。",
+        "english": "Please push the things away.",
         "charDetails": [
           {
             "char": "請",
@@ -27517,6 +29015,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "小偷跑走了。",
         "pinyin": "xiǎo tōu pǎo zǒu le。",
+        "english": "The thief ran away.",
         "charDetails": [
           {
             "char": "小",
@@ -27545,6 +29044,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He took my mobile phone away.",
+      "Please push the things away.",
+      "The thief ran away."
+    ],
     "explanation": "Complement 走 indicates movement away or removal. Often implies disappearance or loss. Pattern: V + 走."
   },
   {
@@ -27563,6 +29067,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師叫學生進教室考試。",
         "pinyin": "lǎo shī jiào xué shēng jìn jiào shì kǎo shì。",
+        "english": "The teacher told the students to enter the classroom for the exam.",
         "charDetails": [
           {
             "char": "老",
@@ -27613,6 +29118,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "醫生叫我多休息。",
         "pinyin": "yī shēng jiào wǒ duō xiū xī。",
+        "english": "The doctor told me to rest more.",
         "charDetails": [
           {
             "char": "醫",
@@ -27651,6 +29157,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "媽媽叫我準備材料。",
         "pinyin": "mā mā jiào wǒ zhǔn bèi cái liào。",
+        "english": "Mother told me to prepare the ingredients.",
         "charDetails": [
           {
             "char": "媽",
@@ -27691,6 +29198,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The teacher told the students to enter the classroom for the exam.",
+      "The doctor told me to rest more.",
+      "Mother told me to prepare the ingredients."
+    ],
     "explanation": "Causative verb meaning “tell/ask/order.” Structure: A 叫 B + 動詞. Can also mean “be called/named.”"
   },
   {
@@ -27709,6 +29221,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別再玩手機了。",
         "pinyin": "bié zài wán shǒu jī le。",
+        "english": "Don't play on your phone anymore.",
         "charDetails": [
           {
             "char": "別",
@@ -27743,6 +29256,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別再抱怨工作了。",
         "pinyin": "bié zài bào yuàn gōng zuò le。",
+        "english": "Don't complain about work anymore.",
         "charDetails": [
           {
             "char": "別",
@@ -27781,6 +29295,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別再生氣了。",
         "pinyin": "bié zài shēng qì le。",
+        "english": "Don't be angry anymore.",
         "charDetails": [
           {
             "char": "別",
@@ -27809,6 +29324,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Don't play on your phone anymore.",
+      "Don't complain about work anymore.",
+      "Don't be angry anymore."
+    ],
     "explanation": "Used to tell someone to stop an ongoing or repeated action. Pattern: 別再 + V + 了. Often expresses impatience or advice."
   },
   {
@@ -27827,6 +29347,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "別擔心，我會去的。",
         "pinyin": "bié dān xīn， wǒ huì qù de。",
+        "english": "Don't worry, I will go.",
         "charDetails": [
           {
             "char": "別",
@@ -27869,6 +29390,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她一定會來參加婚禮的。",
         "pinyin": "tā yí dìng huì lái cān jiā hūn lǐ de。",
+        "english": "She will definitely come to attend the wedding.",
         "charDetails": [
           {
             "char": "她",
@@ -27919,6 +29441,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他會成功的。",
         "pinyin": "tā huì chéng gōng de。",
+        "english": "He will succeed.",
         "charDetails": [
           {
             "char": "他",
@@ -27947,6 +29470,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Don't worry, I will go.",
+      "She will definitely come to attend the wedding.",
+      "He will succeed."
+    ],
     "explanation": "Adds reassurance or prediction with certainty. Often used to comfort or guarantee outcome."
   },
   {
@@ -27965,6 +29493,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "透過網路可以了解世界。",
         "pinyin": "tòu guò wǎng lù kě yǐ liǎo jiě shì jiè。",
+        "english": "Through the internet [one] can understand the world.",
         "charDetails": [
           {
             "char": "透",
@@ -28015,6 +29544,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他透過活動認識很多朋友。",
         "pinyin": "tā tòu guò huó dòng rèn shí hěn duō péng yǒu。",
+        "english": "He through activities got to know many friends.",
         "charDetails": [
           {
             "char": "他",
@@ -28069,6 +29599,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我透過教授找到這份工作。",
         "pinyin": "wǒ tòu guò jiào shòu zhǎo dào zhè fèn gōng zuò。",
+        "english": "I through the professor found this job.",
         "charDetails": [
           {
             "char": "我",
@@ -28121,6 +29652,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Through the internet [one] can understand the world.",
+      "He through activities got to know many friends.",
+      "I through the professor found this job."
+    ],
     "explanation": "Indicates method or medium used to achieve something. Similar to “by means of.”"
   },
   {
@@ -28139,6 +29675,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他才拿到薪水就花了一半。",
         "pinyin": "tā cái ná dào xīn shuǐ jiù huā le yí bàn。",
+        "english": "He had only just received his salary, and immediately spent half of it.",
         "charDetails": [
           {
             "char": "他",
@@ -28193,6 +29730,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師才走，學生就聊天了。",
         "pinyin": "lǎo shī cái zǒu， xué shēng jiù liáo tiān le。",
+        "english": "The teacher had only just left, and the students immediately chatted.",
         "charDetails": [
           {
             "char": "老",
@@ -28247,6 +29785,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她才搬家就想再搬。",
         "pinyin": "tā cái bān jiā jiù xiǎng zài bān。",
+        "english": "She had only just moved, and already wants to move again.",
         "charDetails": [
           {
             "char": "她",
@@ -28287,6 +29826,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He had only just received his salary, and immediately spent half of it.",
+      "The teacher had only just left, and the students immediately chatted.",
+      "She had only just moved, and already wants to move again."
+    ],
     "explanation": "Shows something happened sooner than expected. Often implies surprise at how quickly B followed A."
   },
   {
@@ -28305,6 +29849,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我每週游泳一次。",
         "pinyin": "wǒ měi zhōu yóu yǒng yī cì。",
+        "english": "I swim once every week.",
         "charDetails": [
           {
             "char": "我",
@@ -28343,6 +29888,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他每三天去健身房一次。",
         "pinyin": "tā měi sān tiān qù jiàn shēn fáng yī cì。",
+        "english": "He goes to the gym once every three days.",
         "charDetails": [
           {
             "char": "他",
@@ -28393,6 +29939,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我每兩個月付一次房租。",
         "pinyin": "wǒ měi liǎng gè yuè fù yī cì fáng zū。",
+        "english": "I pay rent once every two months.",
         "charDetails": [
           {
             "char": "我",
@@ -28441,6 +29988,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I swim once every week.",
+      "He goes to the gym once every three days.",
+      "I pay rent once every two months."
+    ],
     "explanation": "Expresses frequency. Pattern: 每 + 時間單位 + V + 次數."
   },
   {
@@ -28459,6 +30011,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只有預約才能訂到房間。",
         "pinyin": "zhǐ yǒu yù yuē cái néng dìng dào fáng jiān。",
+        "english": "Only by making an advance reservation can [one] book a room.",
         "charDetails": [
           {
             "char": "只",
@@ -28509,6 +30062,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只有多休息才會好得快。",
         "pinyin": "zhǐ yǒu duō xiū xī cái huì hǎo dé kuài。",
+        "english": "Only by resting more will [one] recover quickly.",
         "charDetails": [
           {
             "char": "只",
@@ -28559,6 +30113,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "只有懂法文才可以工作。",
         "pinyin": "zhǐ yǒu dǒng fǎ wén cái kě yǐ gōng zuò。",
+        "english": "Only if [one] understands French can [one] work.",
         "charDetails": [
           {
             "char": "只",
@@ -28607,6 +30162,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Only by making an advance reservation can [one] book a room.",
+      "Only by resting more will [one] recover quickly.",
+      "Only if [one] understands French can [one] work."
+    ],
     "explanation": "Conditional emphasizing necessity. Structure: 只有 A，才 B. Stronger than simple “if.” Often implies exclusivity."
   },
   {
@@ -28625,6 +30185,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們就要畢業了。",
         "pinyin": "wǒ men jiù yào bì yè le。",
+        "english": "We are soon about to graduate.",
         "charDetails": [
           {
             "char": "我",
@@ -28663,6 +30224,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "下個月就要放暑假了。",
         "pinyin": "xià gè yuè jiù yào fàng shǔ jià le。",
+        "english": "Next month [we] will soon be on summer vacation.",
         "charDetails": [
           {
             "char": "下",
@@ -28709,6 +30271,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "婚禮就要開始了。",
         "pinyin": "hūn lǐ jiù yào kāi shǐ le。",
+        "english": "The wedding is soon about to start.",
         "charDetails": [
           {
             "char": "婚",
@@ -28745,6 +30308,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We are soon about to graduate.",
+      "Next month [we] will soon be on summer vacation.",
+      "The wedding is soon about to start."
+    ],
     "explanation": "Indicates something will happen very soon. Often used for near-future events. Structure: 就要 + V + 了."
   },
   {
@@ -28763,6 +30331,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "說到台灣小吃，大家都想到臭豆腐。",
         "pinyin": "shuō dào tái wān xiǎo chī， dà jiā dōu xiǎng dào chòu dòu fǔ。",
+        "english": "Speaking of Taiwan snacks, everyone thinks of stinky tofu.",
         "charDetails": [
           {
             "char": "說",
@@ -28833,6 +30402,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "談到旅行，我就想到墾丁。",
         "pinyin": "tán dào lǚ xíng， wǒ jiù xiǎng dào kěn dīng。",
+        "english": "Speaking of traveling, I immediately think of Kenting.",
         "charDetails": [
           {
             "char": "談",
@@ -28887,6 +30457,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "說到教小孩，每個家長都有意見。",
         "pinyin": "shuō dào jiào xiǎo hái， měi gè jiā zhǎng dōu yǒu yì jiàn。",
+        "english": "Speaking of teaching children, every parent has opinions.",
         "charDetails": [
           {
             "char": "說",
@@ -28951,6 +30522,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Speaking of Taiwan snacks, everyone thinks of stinky tofu.",
+      "Speaking of traveling, I immediately think of Kenting.",
+      "Speaking of teaching children, every parent has opinions."
+    ],
     "explanation": "Introduces a topic when mentioned. Often used to shift or introduce related discussion."
   },
   {
@@ -28969,6 +30545,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他對學中文有興趣。",
         "pinyin": "tā duì xué zhōng wén yǒu xìng qù。",
+        "english": "He has interest toward studying Chinese.",
         "charDetails": [
           {
             "char": "他",
@@ -29011,6 +30588,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "多看書對你有幫助。",
         "pinyin": "duō kàn shū duì nǐ yǒu bāng zhù。",
+        "english": "Reading more books has help for you (is helpful to you).",
         "charDetails": [
           {
             "char": "多",
@@ -29053,6 +30631,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "吃蔬菜對身體有好處。",
         "pinyin": "chī shū cài duì shēn tǐ yǒu hǎo chù。",
+        "english": "Eating vegetables has benefits for the body.",
         "charDetails": [
           {
             "char": "吃",
@@ -29097,6 +30676,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He has interest toward studying Chinese.",
+      "Reading more books has help for you (is helpful to you).",
+      "Eating vegetables has benefits for the body."
+    ],
     "explanation": "Expresses attitude, effect, or evaluation. Structure: 對 + 對象 + 有 + 名詞 (e.g., 興趣／幫助／影響／好處)."
   },
   {
@@ -29115,6 +30699,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他連南部的夜市都去過。",
         "pinyin": "tā lián nán bù de yè shì dōu qù guò。",
+        "english": "He even has been to the night markets in the south.",
         "charDetails": [
           {
             "char": "他",
@@ -29165,6 +30750,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他連三十塊的咖啡都買不起。",
         "pinyin": "tā lián sān shí kuài de kā fēi dōu mǎi bù qǐ。",
+        "english": "He even cannot afford to buy thirty-dollar coffee.",
         "charDetails": [
           {
             "char": "他",
@@ -29223,6 +30809,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他連你都忘了。",
         "pinyin": "tā lián nǐ dōu wàng le。",
+        "english": "He even forgot you.",
         "charDetails": [
           {
             "char": "他",
@@ -29255,6 +30842,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He even has been to the night markets in the south.",
+      "He even cannot afford to buy thirty-dollar coffee.",
+      "He even forgot you."
+    ],
     "explanation": "Emphasizes extremity or unexpected inclusion. Structure: 連 + 最小/極端 + 都 + V. Often implies surprise or criticism."
   },
   {
@@ -29273,6 +30865,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這房間不但明亮，而且離捷運站很近。",
         "pinyin": "zhè fáng jiān bù dàn míng liàng， ér qiě lí jié yùn zhàn hěn jìn。",
+        "english": "This room is not only bright, but furthermore very close to the MRT station.",
         "charDetails": [
           {
             "char": "這",
@@ -29347,6 +30940,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "學中文不但有趣，而且對找工作有幫助。",
         "pinyin": "xué zhōng wén bù dàn yǒu qù， ér qiě duì zhǎo gōng zuò yǒu bāng zhù。",
+        "english": "Studying Chinese is not only interesting, but furthermore helpful for finding a job.",
         "charDetails": [
           {
             "char": "學",
@@ -29425,6 +31019,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他不但沒買衣服，而且錢還被偷了。",
         "pinyin": "tā bù dàn méi mǎi yī fú， ér qiě qián hái bèi tōu le。",
+        "english": "He not only did not buy clothes, but furthermore money was even stolen.",
         "charDetails": [
           {
             "char": "他",
@@ -29493,6 +31088,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "This room is not only bright, but furthermore very close to the MRT station.",
+      "Studying Chinese is not only interesting, but furthermore helpful for finding a job.",
+      "He not only did not buy clothes, but furthermore money was even stolen."
+    ],
     "explanation": "Connects two related positive (or intensifying) statements. Often emphasizes addition or escalation."
   },
   {
@@ -29511,6 +31111,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我太忙，不小心忘了買東西。",
         "pinyin": "wǒ tài máng， bù xiǎo xīn wàng le mǎi dōng xī。",
+        "english": "I was too busy, and accidentally forgot to buy things.",
         "charDetails": [
           {
             "char": "我",
@@ -29569,6 +31170,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他把隨身碟弄丟了。",
         "pinyin": "tā bǎ suí shēn dié nòng diū le。",
+        "english": "He accidentally lost the flash drive.",
         "charDetails": [
           {
             "char": "他",
@@ -29611,6 +31213,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師提醒學生別忘了學過的中文。",
         "pinyin": "lǎo shī tí xǐng xué shēng bié wàng le xué guò de zhōng wén。",
+        "english": "The teacher reminded the students not to forget the Chinese they had learned.",
         "charDetails": [
           {
             "char": "老",
@@ -29675,6 +31278,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "I was too busy, and accidentally forgot to buy things.",
+      "He accidentally lost the flash drive.",
+      "The teacher reminded the students not to forget the Chinese they had learned."
+    ],
     "explanation": "Expresses unintended result or accident. Often uses 不小心 + V or V + 掉／忘了 to show accidental outcome."
   },
   {
@@ -29693,6 +31301,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們慶祝春節到正月十五。",
         "pinyin": "wǒ men qìng zhù chūn jié dào zhēng yuè shí wǔ。",
+        "english": "We celebrate the Spring Festival up to the fifteenth of the first lunar month.",
         "charDetails": [
           {
             "char": "我",
@@ -29747,6 +31356,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "我們吃年夜飯吃到快十二點。",
         "pinyin": "wǒ men chī nián yè fàn chī dào kuài shí èr diǎn。",
+        "english": "We ate the New Year's Eve dinner [and ate] until nearly twelve o'clock.",
         "charDetails": [
           {
             "char": "我",
@@ -29805,6 +31415,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "這學期上課到下星期五。",
         "pinyin": "zhè xué qī shàng kè dào xià xīng qī wǔ。",
+        "english": "This semester has classes until next Friday.",
         "charDetails": [
           {
             "char": "這",
@@ -29853,6 +31464,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "We celebrate the Spring Festival up to the fifteenth of the first lunar month.",
+      "We ate the New Year's Eve dinner [and ate] until nearly twelve o'clock.",
+      "This semester has classes until next Friday."
+    ],
     "explanation": "Post-verbal 到 indicates a time limit or endpoint. Structure: V + 到 + 時間."
   },
   {
@@ -29871,6 +31487,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "老師叫學生一個一個念。",
         "pinyin": "lǎo shī jiào xué shēng yī gè yī gè niàn。",
+        "english": "The teacher told the students to read one by one.",
         "charDetails": [
           {
             "char": "老",
@@ -29921,6 +31538,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "她一間一間地打掃教室。",
         "pinyin": "tā yī jiān yī jiān dì dǎ sǎo jiào shì。",
+        "english": "She cleaned the classrooms one by one.",
         "charDetails": [
           {
             "char": "她",
@@ -29971,6 +31589,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他一個一個打電話拜年。",
         "pinyin": "tā yī gè yī gè dǎ diàn huà bài nián。",
+        "english": "He made phone calls one by one to give New Year greetings.",
         "charDetails": [
           {
             "char": "他",
@@ -30019,6 +31638,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "The teacher told the students to read one by one.",
+      "She cleaned the classrooms one by one.",
+      "He made phone calls one by one to give New Year greetings."
+    ],
     "explanation": "Repetition of classifier shows sequential action. Structure: 一 + CL + 一 + CL + V."
   },
   {
@@ -30037,6 +31661,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他一天比一天進步。",
         "pinyin": "tā yī tiān bǐ yī tiān jìn bù。",
+        "english": "He makes progress day by day (each day more than the last).",
         "charDetails": [
           {
             "char": "他",
@@ -30079,6 +31704,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "生意一年比一年好。",
         "pinyin": "shēng yì yī nián bǐ yī nián hǎo。",
+        "english": "Business is better year by year (each year better than the last).",
         "charDetails": [
           {
             "char": "生",
@@ -30121,6 +31747,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "天氣一天比一天冷。",
         "pinyin": "tiān qì yī tiān bǐ yī tiān lěng。",
+        "english": "The weather gets colder day by day (each day colder than the last).",
         "charDetails": [
           {
             "char": "天",
@@ -30161,6 +31788,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "He makes progress day by day (each day more than the last).",
+      "Business is better year by year (each year better than the last).",
+      "The weather gets colder day by day (each day colder than the last)."
+    ],
     "explanation": "Indicates progressive comparison. Often describes gradual change over time."
   },
   {
@@ -30179,6 +31811,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "價格開始漲起來了。",
         "pinyin": "jià gé kāi shǐ zhǎng qǐ lái le。",
+        "english": "Prices have begun to rise up.",
         "charDetails": [
           {
             "char": "價",
@@ -30221,6 +31854,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "夏天一到，旅客多起來了。",
         "pinyin": "xià tiān yī dào， lǚ kè duō qǐ lái le。",
+        "english": "As soon as summer arrives, tourists start to increase.",
         "charDetails": [
           {
             "char": "夏",
@@ -30275,6 +31909,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "他想到昨天的事就笑起來。",
         "pinyin": "tā xiǎng dào zuó tiān de shì jiù xiào qǐ lái。",
+        "english": "When he thought of yesterday's matter, he immediately started laughing.",
         "charDetails": [
           {
             "char": "他",
@@ -30327,6 +31962,11 @@ const GRAMMAR_DATA = [
         ]
       }
     ],
+    "exampleTranslations": [
+      "Prices have begun to rise up.",
+      "As soon as summer arrives, tourists start to increase.",
+      "When he thought of yesterday's matter, he immediately started laughing."
+    ],
     "explanation": "V + 起來 expresses inchoative meaning — a state begins or becomes noticeable."
   },
   {
@@ -30345,6 +31985,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "山明水秀。",
         "pinyin": "shān míng shuǐ xiù。",
+        "english": "Mountains are bright and waters are clear (picturesque scenery).",
         "charDetails": [
           {
             "char": "山",
@@ -30371,6 +32012,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "有說有笑。",
         "pinyin": "yǒu shuō yǒu xiào。",
+        "english": "Having talking and having laughing (full of talk and laughter).",
         "charDetails": [
           {
             "char": "有",
@@ -30397,6 +32039,7 @@ const GRAMMAR_DATA = [
       {
         "chinese": "大吉大利。",
         "pinyin": "dà jí dà lì。",
+        "english": "Great luck and great profit (great fortune and prosperity).",
         "charDetails": [
           {
             "char": "大",
@@ -30420,6 +32063,11 @@ const GRAMMAR_DATA = [
           }
         ]
       }
+    ],
+    "exampleTranslations": [
+      "Mountains are bright and waters are clear (picturesque scenery).",
+      "Having talking and having laughing (full of talk and laughter).",
+      "Great luck and great profit (great fortune and prosperity)."
     ],
     "explanation": "Fixed four-character expressions, often idiomatic. Common in formal or festive language (e.g., 春節吉祥話)."
   }

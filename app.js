@@ -819,13 +819,15 @@ async function startRound(isRetryMistakes = false) {
       const questions = [];
       grammarPool.forEach(g => {
         if (g.exampleDetails && g.exampleDetails.length > 0) {
-          g.exampleDetails.forEach(exDetail => {
-            const q = createGrammarClozeQuestion(g, exDetail.chinese, exDetail.pinyin, exDetail.charDetails);
+          g.exampleDetails.forEach((exDetail, exIdx) => {
+            const trans = exDetail.english || (g.exampleTranslations && g.exampleTranslations[exIdx]) || '';
+            const q = createGrammarClozeQuestion(g, exDetail.chinese, exDetail.pinyin, exDetail.charDetails, trans);
             if (q) questions.push(q);
           });
         } else {
-          g.examples.forEach(ex => {
-            const q = createGrammarClozeQuestion(g, ex, '', []);
+          g.examples.forEach((ex, exIdx) => {
+            const trans = (g.exampleTranslations && g.exampleTranslations[exIdx]) || '';
+            const q = createGrammarClozeQuestion(g, ex, '', [], trans);
             if (q) questions.push(q);
           });
         }
@@ -851,13 +853,15 @@ async function startRound(isRetryMistakes = false) {
       const grammarQuestions = [];
       grammarPool.forEach(g => {
         if (g.exampleDetails && g.exampleDetails.length > 0) {
-          g.exampleDetails.forEach(exDetail => {
-            const q = createGrammarClozeQuestion(g, exDetail.chinese, exDetail.pinyin, exDetail.charDetails);
+          g.exampleDetails.forEach((exDetail, exIdx) => {
+            const trans = exDetail.english || (g.exampleTranslations && g.exampleTranslations[exIdx]) || '';
+            const q = createGrammarClozeQuestion(g, exDetail.chinese, exDetail.pinyin, exDetail.charDetails, trans);
             if (q) grammarQuestions.push(q);
           });
         } else {
-          g.examples.forEach(ex => {
-            const q = createGrammarClozeQuestion(g, ex, '', []);
+          g.examples.forEach((ex, exIdx) => {
+            const trans = (g.exampleTranslations && g.exampleTranslations[exIdx]) || '';
+            const q = createGrammarClozeQuestion(g, ex, '', [], trans);
             if (q) grammarQuestions.push(q);
           });
         }
@@ -907,7 +911,7 @@ async function startRound(isRetryMistakes = false) {
 }
 
 // Convert a Grammar point & sentence into a cloze question with full Pinyin & charDetails
-function createGrammarClozeQuestion(grammarPoint, sentence, sentencePinyin = '', charDetails = []) {
+function createGrammarClozeQuestion(grammarPoint, sentence, sentencePinyin = '', charDetails = [], sentenceTranslation = '') {
   let target = null;
   for (const kw of GRAMMAR_TARGET_KEYWORDS) {
     if (sentence.includes(kw)) {
@@ -951,6 +955,7 @@ function createGrammarClozeQuestion(grammarPoint, sentence, sentencePinyin = '',
     explanation: grammarPoint.explanation,
     fullSentence: sentence,
     sentencePinyin: sentencePinyin,
+    sentenceTranslation: sentenceTranslation,
     charDetails: charDetails,
     blankSentence: blankSentence,
     target: target,
@@ -1368,8 +1373,14 @@ function handleGrammarAnswer(selectedText, currentItem, clickedBtn) {
   elements.feedbackBanner.className = `feedback-banner-compact active ${isCorrect ? 'correct' : 'wrong'}`;
   elements.feedbackIcon.textContent = isCorrect ? '✅' : '❌';
   elements.feedbackTitle.textContent = isCorrect ? `Correct! (${currentItem.target})` : `Incorrect (Answer: ${currentItem.target})`;
+  
+  const transHtml = currentItem.sentenceTranslation ? `
+    <div class="feedback-sentence-translation">“${escapeHtml(currentItem.sentenceTranslation)}”</div>
+  ` : '';
+
   elements.feedbackDetails.innerHTML = `
-    <div><strong>${currentItem.grammarPoint}</strong> (${currentItem.pinyin}) — ${currentItem.explanation}</div>
+    ${transHtml}
+    <div class="feedback-grammar-rule"><strong>${escapeHtml(currentItem.grammarPoint)}</strong> (${escapeHtml(currentItem.pinyin)}) — ${escapeHtml(currentItem.explanation)}</div>
   `;
 
   // Note: NO auto-advance timer for grammar mode so user can comfortably read the explanation and pinyin!
@@ -1645,7 +1656,8 @@ function renderReviewList(filterType) {
             <span style="font-size: 0.72rem; color: var(--text-muted); margin-left: auto;">⏱️ ${timeSec}s</span>
           </div>
           <div style="margin-bottom: 0.35rem;">${sentenceCharGrid}</div>
-          <div class="review-english"><strong>${item.grammarPoint}</strong> (${item.pinyin}) — ${item.explanation}</div>
+          ${item.sentenceTranslation ? `<div class="review-sentence-translation">“${escapeHtml(item.sentenceTranslation)}”</div>` : ''}
+          <div class="review-english"><strong>${escapeHtml(item.grammarPoint)}</strong> (${escapeHtml(item.pinyin)}) — ${escapeHtml(item.explanation)}</div>
           ${grammarChoiceHtml}
         </div>
         <div style="flex-shrink: 0; align-self: flex-start; margin-top: 0.2rem;">
@@ -1927,19 +1939,24 @@ function renderGrammarExplorer(reset = true) {
           <div class="grammar-example-lines">
             <div class="grammar-example-zh">${escapeHtml(ex.chinese)}</div>
             <div class="grammar-example-pinyin">${escapeHtml(ex.pinyin)}</div>
+            ${ex.english ? `<div class="grammar-example-en">“${escapeHtml(ex.english)}”</div>` : ''}
           </div>
           <button type="button" class="grammar-example-audio" title="Listen" data-sentence="${escapeHtml(ex.chinese)}">🔊</button>
         </div>
       `).join('');
     } else if (item.examples && item.examples.length > 0) {
-      examplesHtml = item.examples.map(ex => `
+      examplesHtml = item.examples.map((ex, exIdx) => {
+        const trans = (item.exampleTranslations && item.exampleTranslations[exIdx]) || '';
+        return `
         <div class="grammar-example-item">
           <div class="grammar-example-lines">
             <div class="grammar-example-zh">${escapeHtml(ex)}</div>
+            ${trans ? `<div class="grammar-example-en">“${escapeHtml(trans)}”</div>` : ''}
           </div>
           <button type="button" class="grammar-example-audio" title="Listen" data-sentence="${escapeHtml(ex)}">🔊</button>
         </div>
-      `).join('');
+      `;
+      }).join('');
     }
 
     card.innerHTML = `
