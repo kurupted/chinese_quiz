@@ -1,5 +1,5 @@
 /**
- * HanziSprint - Chinese Vocabulary & Grammar Practice
+ * Chinese Practice - Chinese Vocabulary & Grammar Practice
  * Supports Book 1 & Book 2 with independent lesson selection,
  * Local vocab_images/*.png with Unsplash fallback,
  * and Grammar Sentence Cloze with full Pinyin & manual advance.
@@ -7,9 +7,10 @@
 
 // App State
 const state = {
+  activeTab: 'practice', // 'practice' | 'vocab' | 'grammar'
   selectedBook: 'all', // 'all' | 1 | 2
-  selectedLessonsB1: new Set(Array.from({ length: 15 }, (_, i) => i + 1)), // Book 1: 1..15
-  selectedLessonsB2: new Set(Array.from({ length: 15 }, (_, i) => i + 1)), // Book 2: 1..15
+  selectedLessonsB1: new Set(), // Book 1: 1..15 (default off)
+  selectedLessonsB2: new Set(), // Book 2: 1..15 (default off)
   mode: 'photo', // 'photo' | 'zh2en' | 'en2zh' | 'grammar' | 'mixed'
   questionCount: 10,
   pinyinSetting: 'on-answer', // 'always' | 'on-answer' | 'hidden'
@@ -32,7 +33,28 @@ const state = {
   cachedImages: new Map(),
 
   isRetryRound: false,
-  autoNextTimeout: null
+  autoNextTimeout: null,
+
+  // Vocabulary Explorer State
+  vocabFilter: {
+    book: 'all', // 'all' | 1 | 2
+    lesson: 'all', // 'all' | 1..15
+    photosOnly: false,
+    search: '',
+    renderedCount: 0,
+    batchSize: 60
+  },
+
+  // Grammar Reference State
+  grammarFilter: {
+    book: 'all', // 'all' | 1 | 2
+    lesson: 'all', // 'all' | 1..15
+    search: '',
+    renderedCount: 0,
+    batchSize: 30
+  },
+
+  activeModalItem: null
 };
 
 // Common Grammar Target Markers for Cloze Extraction
@@ -220,21 +242,67 @@ const ttsEngine = {
 
 // DOM Elements
 const elements = {
+  // Navigation & Screens
+  mainNavTabs: document.querySelectorAll('#mainNavTabs .nav-tab-btn'),
   setupScreen: document.getElementById('setupScreen'),
   precacheScreen: document.getElementById('precacheScreen'),
   quizScreen: document.getElementById('quizScreen'),
   resultsScreen: document.getElementById('resultsScreen'),
+  vocabScreen: document.getElementById('vocabScreen'),
+  grammarScreen: document.getElementById('grammarScreen'),
 
-  soundToggleBtn: document.getElementById('soundToggleBtn'),
-  themeToggleBtn: document.getElementById('themeToggleBtn'),
+  vocabNavCount: document.getElementById('vocabNavCount'),
+  grammarNavCount: document.getElementById('grammarNavCount'),
 
-  bookChips: document.querySelectorAll('#bookFilterChips .chip-btn-c'),
+  menuToggleBtn: document.getElementById('menuToggleBtn'),
+  settingsDropdownMenu: document.getElementById('settingsDropdownMenu'),
+  soundToggleBtns: document.querySelectorAll('.sound-toggle-btn'),
+  themeToggleBtns: document.querySelectorAll('.theme-toggle-btn'),
+
   modeCards: document.querySelectorAll('.mode-card-compact'),
   questionChips: document.querySelectorAll('#questionCountChips .chip-btn-c'),
   pinyinChips: document.querySelectorAll('#pinyinChips .chip-btn-c'),
   lessonsContainer: document.getElementById('lessonsContainer'),
   poolStats: document.getElementById('poolStats'),
   startQuizBtn: document.getElementById('startQuizBtn'),
+
+  // Vocab Explorer Elements
+  vocabFilterStats: document.getElementById('vocabFilterStats'),
+  vocabBookChips: document.querySelectorAll('#vocabBookFilter .chip-btn-c'),
+  vocabLessonFilter: document.getElementById('vocabLessonFilter'),
+  vocabPrevLessonBtn: document.getElementById('vocabPrevLessonBtn'),
+  vocabNextLessonBtn: document.getElementById('vocabNextLessonBtn'),
+  vocabPhotoFilterBtn: document.getElementById('vocabPhotoFilterBtn'),
+  vocabSearchInput: document.getElementById('vocabSearchInput'),
+  vocabSearchClear: document.getElementById('vocabSearchClear'),
+  vocabGrid: document.getElementById('vocabGrid'),
+  vocabLoadMoreWrap: document.getElementById('vocabLoadMoreWrap'),
+  vocabLoadMoreBtn: document.getElementById('vocabLoadMoreBtn'),
+  vocabRemainingCount: document.getElementById('vocabRemainingCount'),
+
+  // Grammar Reference Elements
+  grammarFilterStats: document.getElementById('grammarFilterStats'),
+  grammarBookChips: document.querySelectorAll('#grammarBookFilter .chip-btn-c'),
+  grammarLessonFilter: document.getElementById('grammarLessonFilter'),
+  grammarPrevLessonBtn: document.getElementById('grammarPrevLessonBtn'),
+  grammarNextLessonBtn: document.getElementById('grammarNextLessonBtn'),
+  grammarSearchInput: document.getElementById('grammarSearchInput'),
+  grammarSearchClear: document.getElementById('grammarSearchClear'),
+  grammarList: document.getElementById('grammarList'),
+  grammarLoadMoreWrap: document.getElementById('grammarLoadMoreWrap'),
+  grammarLoadMoreBtn: document.getElementById('grammarLoadMoreBtn'),
+  grammarRemainingCount: document.getElementById('grammarRemainingCount'),
+
+  // Lightbox Modal Elements
+  imageLightboxModal: document.getElementById('imageLightboxModal'),
+  lightboxBackdrop: document.getElementById('lightboxBackdrop'),
+  lightboxCloseBtn: document.getElementById('lightboxCloseBtn'),
+  lightboxImg: document.getElementById('lightboxImg'),
+  lightboxHanzi: document.getElementById('lightboxHanzi'),
+  lightboxPinyin: document.getElementById('lightboxPinyin'),
+  lightboxEnglish: document.getElementById('lightboxEnglish'),
+  lightboxBadge: document.getElementById('lightboxBadge'),
+  lightboxAudioBtn: document.getElementById('lightboxAudioBtn'),
 
   precacheProgressBar: document.getElementById('precacheProgressBar'),
   precacheStatusText: document.getElementById('precacheStatusText'),
@@ -306,7 +374,7 @@ function init() {
   }
 }
 
-// Render dynamic lesson selector rows (separate rows for Book 1 & Book 2 when 'all')
+// Render dynamic lesson selector rows (separate rows for Book 1 & Book 2)
 function renderLessonSelectors() {
   elements.lessonsContainer.innerHTML = '';
 
@@ -335,10 +403,8 @@ function renderLessonSelectors() {
       chip.textContent = `${l}`;
       chip.addEventListener('click', () => {
         if (setObj.has(l)) {
-          if (setObj.size > 1) {
-            setObj.delete(l);
-            chip.classList.remove('active');
-          }
+          setObj.delete(l);
+          chip.classList.remove('active');
         } else {
           setObj.add(l);
           chip.classList.add('active');
@@ -357,11 +423,7 @@ function renderLessonSelectors() {
 
     header.querySelector('[data-action="clear"]').addEventListener('click', () => {
       setObj.clear();
-      setObj.add(1); // keep lesson 1
-      grid.querySelectorAll('.lesson-chip-c').forEach((c, idx) => {
-        if (idx === 0) c.classList.add('active');
-        else c.classList.remove('active');
-      });
+      grid.querySelectorAll('.lesson-chip-c').forEach(c => c.classList.remove('active'));
       updatePoolStats();
     });
 
@@ -370,30 +432,17 @@ function renderLessonSelectors() {
     elements.lessonsContainer.appendChild(block);
   };
 
-  if (state.selectedBook === 'all') {
-    renderBookRow(1, 'BOOK 1 LESSONS', state.selectedLessonsB1);
-    renderBookRow(2, 'BOOK 2 LESSONS', state.selectedLessonsB2);
-  } else if (state.selectedBook === 1) {
-    renderBookRow(1, 'BOOK 1 LESSONS', state.selectedLessonsB1);
-  } else if (state.selectedBook === 2) {
-    renderBookRow(2, 'BOOK 2 LESSONS', state.selectedLessonsB2);
-  }
+  renderBookRow(1, 'BOOK 1 LESSONS', state.selectedLessonsB1);
+  renderBookRow(2, 'BOOK 2 LESSONS', state.selectedLessonsB2);
 }
 
 // Filtered Vocabulary Pool
 function getFilteredPool() {
   if (typeof VOCAB_DATA === 'undefined') return [];
   return VOCAB_DATA.filter(item => {
-    if (state.selectedBook === 1) {
-      return item.book === 1 && state.selectedLessonsB1.has(item.lesson);
-    } else if (state.selectedBook === 2) {
-      return item.book === 2 && state.selectedLessonsB2.has(item.lesson);
-    } else {
-      // 'all'
-      if (item.book === 1) return state.selectedLessonsB1.has(item.lesson);
-      if (item.book === 2) return state.selectedLessonsB2.has(item.lesson);
-      return false;
-    }
+    if (item.book === 1) return state.selectedLessonsB1.has(item.lesson);
+    if (item.book === 2) return state.selectedLessonsB2.has(item.lesson);
+    return false;
   });
 }
 
@@ -401,16 +450,9 @@ function getFilteredPool() {
 function getFilteredGrammar() {
   if (typeof GRAMMAR_DATA === 'undefined') return [];
   return GRAMMAR_DATA.filter(item => {
-    if (state.selectedBook === 1) {
-      return item.book === 1 && state.selectedLessonsB1.has(item.chapter);
-    } else if (state.selectedBook === 2) {
-      return item.book === 2 && state.selectedLessonsB2.has(item.chapter);
-    } else {
-      // 'all'
-      if (item.book === 1) return state.selectedLessonsB1.has(item.chapter);
-      if (item.book === 2) return state.selectedLessonsB2.has(item.chapter);
-      return false;
-    }
+    if (item.book === 1) return state.selectedLessonsB1.has(item.chapter);
+    if (item.book === 2) return state.selectedLessonsB2.has(item.chapter);
+    return false;
   });
 }
 
@@ -418,30 +460,13 @@ function getFilteredGrammar() {
 function updatePoolStats() {
   const pool = getFilteredPool();
   const grammarPool = getFilteredGrammar();
-  const visualCount = pool.filter(w => w.isVisual || w.localImage).length;
-
-  if (state.selectedBook === 'all') {
-    const b1Count = pool.filter(w => w.book === 1).length;
-    const b2Count = pool.filter(w => w.book === 2).length;
-    elements.poolStats.innerHTML = `Pool: <strong>${pool.length} vocab</strong> (B1: ${b1Count}, B2: ${b2Count}) • <strong>${grammarPool.length} grammar points</strong>`;
-  } else {
-    elements.poolStats.innerHTML = `Pool (Book ${state.selectedBook}): <strong>${pool.length} vocab</strong> (${visualCount} visual) • <strong>${grammarPool.length} grammar points</strong>`;
-  }
+  const b1Count = pool.filter(w => w.book === 1).length;
+  const b2Count = pool.filter(w => w.book === 2).length;
+  elements.poolStats.innerHTML = `Pool: <strong>${pool.length} vocab</strong> (B1: ${b1Count}, B2: ${b2Count}) • <strong>${grammarPool.length} grammar points</strong>`;
 }
 
 // Event Bindings
 function bindEvents() {
-  // Book Filter Chips
-  elements.bookChips.forEach(chip => {
-    chip.addEventListener('click', () => {
-      elements.bookChips.forEach(c => c.classList.remove('active'));
-      chip.classList.add('active');
-      const b = chip.dataset.book;
-      state.selectedBook = b === 'all' ? 'all' : parseInt(b, 10);
-      renderLessonSelectors();
-      updatePoolStats();
-    });
-  });
 
   // Mode selection
   elements.modeCards.forEach(card => {
@@ -471,25 +496,36 @@ function bindEvents() {
     });
   });
 
-  // Sound toggle
-  elements.soundToggleBtn.addEventListener('click', () => {
-    state.soundEnabled = !state.soundEnabled;
-    elements.soundToggleBtn.querySelector('.icon').textContent = state.soundEnabled ? '🔊' : '🔇';
+  // Sound toggles (desktop & mobile sync)
+  elements.soundToggleBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.soundEnabled = !state.soundEnabled;
+      elements.soundToggleBtns.forEach(b => {
+        const icon = b.querySelector('.icon');
+        if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
+      });
+    });
   });
 
-  // Theme toggle
-  elements.themeToggleBtn.addEventListener('click', () => {
-    if (document.body.classList.contains('light-theme')) {
-      document.body.classList.remove('light-theme');
-      document.body.classList.add('dark-theme');
-      elements.themeToggleBtn.querySelector('.icon').textContent = '🌙';
-      state.theme = 'dark';
-    } else {
-      document.body.classList.remove('dark-theme');
-      document.body.classList.add('light-theme');
-      elements.themeToggleBtn.querySelector('.icon').textContent = '☀️';
-      state.theme = 'light';
-    }
+  // Theme toggles (desktop & mobile sync)
+  elements.themeToggleBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const isLight = document.body.classList.contains('light-theme');
+      if (isLight) {
+        document.body.classList.remove('light-theme');
+        document.body.classList.add('dark-theme');
+        state.theme = 'dark';
+      } else {
+        document.body.classList.remove('dark-theme');
+        document.body.classList.add('light-theme');
+        state.theme = 'light';
+      }
+      const newIcon = state.theme === 'light' ? '☀️' : '🌙';
+      elements.themeToggleBtns.forEach(b => {
+        const icon = b.querySelector('.icon');
+        if (icon) icon.textContent = newIcon;
+      });
+    });
   });
 
   // Start button
@@ -539,8 +575,170 @@ function bindEvents() {
     }
   });
 
+  // Main Navigation Tabs
+  elements.mainNavTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      if (target === 'practice') {
+        if (elements.quizScreen.classList.contains('active')) {
+          switchScreen('quizScreen');
+        } else if (elements.resultsScreen.classList.contains('active')) {
+          switchScreen('resultsScreen');
+        } else {
+          switchScreen('setupScreen');
+        }
+      } else if (target === 'vocab') {
+        switchScreen('vocabScreen');
+        renderVocabExplorer(true);
+      } else if (target === 'grammar') {
+        switchScreen('grammarScreen');
+        renderGrammarExplorer(true);
+      }
+    });
+  });
+
+  // Hamburger Settings Menu Toggle
+  if (elements.menuToggleBtn && elements.settingsDropdownMenu) {
+    elements.menuToggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isVisible = elements.settingsDropdownMenu.style.display === 'flex';
+      elements.settingsDropdownMenu.style.display = isVisible ? 'none' : 'flex';
+      elements.menuToggleBtn.classList.toggle('active', !isVisible);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!elements.settingsDropdownMenu.contains(e.target) && !elements.menuToggleBtn.contains(e.target)) {
+        elements.settingsDropdownMenu.style.display = 'none';
+        elements.menuToggleBtn.classList.remove('active');
+      }
+    });
+  }
+
+  // Vocab Explorer Book Chips
+  elements.vocabBookChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      elements.vocabBookChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const b = chip.dataset.book;
+      state.vocabFilter.book = b === 'all' ? 'all' : parseInt(b, 10);
+      renderVocabExplorer(true);
+    });
+  });
+
+  // Helper to step a select element forward or backward
+  function stepSelect(selectEl, delta) {
+    const total = selectEl.options.length;
+    if (total === 0) return;
+    let nextIdx = (selectEl.selectedIndex + delta) % total;
+    if (nextIdx < 0) nextIdx += total;
+    selectEl.selectedIndex = nextIdx;
+    selectEl.dispatchEvent(new Event('change'));
+  }
+
+  // Vocab Explorer Lesson Filter & Step Buttons
+  elements.vocabLessonFilter.addEventListener('change', (e) => {
+    const val = e.target.value;
+    state.vocabFilter.lesson = val === 'all' ? 'all' : parseInt(val, 10);
+    renderVocabExplorer(true);
+  });
+
+  elements.vocabPrevLessonBtn.addEventListener('click', () => {
+    stepSelect(elements.vocabLessonFilter, -1);
+  });
+
+  elements.vocabNextLessonBtn.addEventListener('click', () => {
+    stepSelect(elements.vocabLessonFilter, 1);
+  });
+
+  // Vocab Photos Only Toggle
+  elements.vocabPhotoFilterBtn.addEventListener('click', () => {
+    state.vocabFilter.photosOnly = !state.vocabFilter.photosOnly;
+    elements.vocabPhotoFilterBtn.classList.toggle('active', state.vocabFilter.photosOnly);
+    renderVocabExplorer(true);
+  });
+
+  // Vocab Search Input
+  elements.vocabSearchInput.addEventListener('input', (e) => {
+    state.vocabFilter.search = e.target.value;
+    elements.vocabSearchClear.style.display = e.target.value ? 'flex' : 'none';
+    renderVocabExplorer(true);
+  });
+
+  elements.vocabSearchClear.addEventListener('click', () => {
+    elements.vocabSearchInput.value = '';
+    state.vocabFilter.search = '';
+    elements.vocabSearchClear.style.display = 'none';
+    elements.vocabSearchInput.focus();
+    renderVocabExplorer(true);
+  });
+
+  // Vocab Load More
+  elements.vocabLoadMoreBtn.addEventListener('click', () => {
+    renderVocabExplorer(false);
+  });
+
+  // Grammar Reference Book Chips
+  elements.grammarBookChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      elements.grammarBookChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const b = chip.dataset.book;
+      state.grammarFilter.book = b === 'all' ? 'all' : parseInt(b, 10);
+      renderGrammarExplorer(true);
+    });
+  });
+
+  // Grammar Reference Lesson Filter & Step Buttons
+  elements.grammarLessonFilter.addEventListener('change', (e) => {
+    const val = e.target.value;
+    state.grammarFilter.lesson = val === 'all' ? 'all' : parseInt(val, 10);
+    renderGrammarExplorer(true);
+  });
+
+  elements.grammarPrevLessonBtn.addEventListener('click', () => {
+    stepSelect(elements.grammarLessonFilter, -1);
+  });
+
+  elements.grammarNextLessonBtn.addEventListener('click', () => {
+    stepSelect(elements.grammarLessonFilter, 1);
+  });
+
+  // Grammar Search Input
+  elements.grammarSearchInput.addEventListener('input', (e) => {
+    state.grammarFilter.search = e.target.value;
+    elements.grammarSearchClear.style.display = e.target.value ? 'flex' : 'none';
+    renderGrammarExplorer(true);
+  });
+
+  elements.grammarSearchClear.addEventListener('click', () => {
+    elements.grammarSearchInput.value = '';
+    state.grammarFilter.search = '';
+    elements.grammarSearchClear.style.display = 'none';
+    elements.grammarSearchInput.focus();
+    renderGrammarExplorer(true);
+  });
+
+  // Grammar Load More
+  elements.grammarLoadMoreBtn.addEventListener('click', () => {
+    renderGrammarExplorer(false);
+  });
+
+  // Lightbox Modal Listeners
+  elements.lightboxCloseBtn.addEventListener('click', closeImageLightbox);
+  elements.lightboxBackdrop.addEventListener('click', closeImageLightbox);
+  elements.lightboxAudioBtn.addEventListener('click', () => {
+    if (state.activeModalItem && state.activeModalItem.traditional) {
+      ttsEngine.speak(state.activeModalItem.traditional);
+    }
+  });
+
   // Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && elements.imageLightboxModal.style.display === 'flex') {
+      closeImageLightbox();
+      return;
+    }
+
     if (!elements.quizScreen.classList.contains('active')) return;
 
     if (['1', '2', '3', '4'].includes(e.key)) {
@@ -566,10 +764,30 @@ function bindEvents() {
 }
 
 function switchScreen(screenName) {
-  ['setupScreen', 'precacheScreen', 'quizScreen', 'resultsScreen'].forEach(id => {
-    elements[id].classList.remove('active');
+  ['setupScreen', 'precacheScreen', 'quizScreen', 'resultsScreen', 'vocabScreen', 'grammarScreen'].forEach(id => {
+    if (elements[id]) elements[id].classList.remove('active');
   });
-  elements[screenName].classList.add('active');
+  if (elements[screenName]) {
+    elements[screenName].classList.add('active');
+  }
+
+  // Update nav tabs active indicator
+  elements.mainNavTabs.forEach(tab => {
+    const target = tab.dataset.tab;
+    if (target === 'vocab' && screenName === 'vocabScreen') {
+      tab.classList.add('active');
+      state.activeTab = 'vocab';
+    } else if (target === 'grammar' && screenName === 'grammarScreen') {
+      tab.classList.add('active');
+      state.activeTab = 'grammar';
+    } else if (target === 'practice' && ['setupScreen', 'precacheScreen', 'quizScreen', 'resultsScreen'].includes(screenName)) {
+      tab.classList.add('active');
+      state.activeTab = 'practice';
+    } else {
+      tab.classList.remove('active');
+    }
+  });
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -585,6 +803,13 @@ async function startRound(isRetryMistakes = false) {
     if (wrongResults.length === 0) return;
     itemsToPlay = shuffleArray([...wrongResults.map(r => r.item)]);
   } else {
+    const hasLessons = state.selectedLessonsB1.size > 0 || state.selectedLessonsB2.size > 0;
+
+    if (!hasLessons) {
+      alert('Please select at least one lesson before starting.');
+      return;
+    }
+
     if (state.mode === 'grammar') {
       const grammarPool = getFilteredGrammar();
       if (grammarPool.length === 0) {
@@ -903,7 +1128,7 @@ function loadQuestion(index) {
         ${parts[0]}<span class="grammar-blank-slot">____</span>${parts[1] || ''}
       `;
     }
-    
+
     elements.grammarEnglishHint.textContent = `${currentItem.english}`;
     elements.promptInstruction.textContent = 'Choose the word that correctly completes the sentence:';
 
@@ -912,7 +1137,7 @@ function loadQuestion(index) {
 
   } else if (qType === 'photo') {
     elements.imagePromptContainer.style.display = 'flex';
-    elements.promptInstruction.textContent = 'Select the correct Chinese name:';
+    elements.promptInstruction.textContent = 'Select the correct Chinese word/phrase:';
 
     const photoUrl = state.cachedImages.get(currentItem.id) || currentItem.localImage || currentItem.photoUrl;
     elements.quizImage.src = photoUrl;
@@ -1482,4 +1707,290 @@ function shuffleArray(array) {
   return arr;
 }
 
+// ==========================================================================
+// VOCABULARY & GRAMMAR EXPLORER ENGINE
+// ==========================================================================
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function normalizePinyin(str) {
+  if (!str) return '';
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // strip tone marks/diacritics
+    .toLowerCase()
+    .replace(/ü/g, 'u')
+    .replace(/v/g, 'u');
+}
+
+function matchPinyin(source, query) {
+  if (!source || !query) return false;
+  const normSource = normalizePinyin(source);
+  const normQuery = normalizePinyin(query);
+
+  if (normSource.includes(normQuery)) return true;
+
+  // Also match ignoring spaces, hyphens, and apostrophes (e.g. "kafei" matches "kā fēi")
+  const compactSource = normSource.replace(/[\s\-_'’]/g, '');
+  const compactQuery = normQuery.replace(/[\s\-_'’]/g, '');
+  if (compactQuery.length > 0 && compactSource.includes(compactQuery)) {
+    return true;
+  }
+
+  return false;
+}
+
+function openImageLightbox(item) {
+  state.activeModalItem = item;
+  const imgSrc = item.localImage || item.photoUrl || '';
+  elements.lightboxImg.src = imgSrc;
+  elements.lightboxImg.alt = item.traditional;
+  elements.lightboxHanzi.textContent = item.traditional;
+  elements.lightboxPinyin.textContent = item.pinyin;
+  elements.lightboxEnglish.textContent = item.english;
+  elements.lightboxBadge.textContent = `Book ${item.book} • Lesson ${item.lesson}`;
+  elements.imageLightboxModal.style.display = 'flex';
+}
+
+function closeImageLightbox() {
+  elements.imageLightboxModal.style.display = 'none';
+  state.activeModalItem = null;
+}
+
+// Vocabulary Explorer
+function getExplorerVocabList() {
+  if (typeof VOCAB_DATA === 'undefined') return [];
+  const q = state.vocabFilter.search.trim().toLowerCase();
+  const book = state.vocabFilter.book;
+  const lesson = state.vocabFilter.lesson;
+  const photosOnly = state.vocabFilter.photosOnly;
+
+  return VOCAB_DATA.filter(item => {
+    if (book !== 'all' && item.book !== book) return false;
+    if (lesson !== 'all' && item.lesson !== lesson) return false;
+    if (photosOnly && !item.localImage && !item.photoUrl) return false;
+    if (q) {
+      const matchZh = item.traditional && item.traditional.toLowerCase().includes(q);
+      const matchPy = matchPinyin(item.pinyin, q);
+      const matchEn = item.english && item.english.toLowerCase().includes(q);
+      if (!matchZh && !matchPy && !matchEn) return false;
+    }
+    return true;
+  });
+}
+
+function renderVocabExplorer(reset = true) {
+  const filtered = getExplorerVocabList();
+  elements.vocabFilterStats.textContent = `Showing ${filtered.length.toLocaleString()} word${filtered.length === 1 ? '' : 's'}`;
+
+  if (reset) {
+    elements.vocabGrid.innerHTML = '';
+    state.vocabFilter.renderedCount = 0;
+  }
+
+  if (filtered.length === 0) {
+    elements.vocabGrid.innerHTML = `
+      <div class="empty-state-card" style="grid-column: 1 / -1;">
+        <div class="empty-state-icon">🔍</div>
+        <div class="empty-state-text">No vocabulary words match your search or filter.</div>
+      </div>
+    `;
+    elements.vocabLoadMoreWrap.style.display = 'none';
+    return;
+  }
+
+  const start = state.vocabFilter.renderedCount;
+  const end = Math.min(start + state.vocabFilter.batchSize, filtered.length);
+  const chunk = filtered.slice(start, end);
+
+  const fragment = document.createDocumentFragment();
+  chunk.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'vocab-card';
+
+    const imgSrc = item.localImage || item.photoUrl;
+    const hasImg = Boolean(imgSrc);
+
+    card.innerHTML = `
+      <div class="vocab-card-body">
+        <div class="vocab-card-text">
+          <div class="vocab-hanzi-row">
+            <span class="vocab-hanzi">${escapeHtml(item.traditional)}</span>
+          </div>
+          <div class="vocab-pinyin">${escapeHtml(item.pinyin)}</div>
+          <div class="vocab-english">${escapeHtml(item.english)}</div>
+        </div>
+        ${hasImg ? `
+          <div class="vocab-thumb-wrap" title="Click to view image">
+            <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(item.traditional)}" class="vocab-thumb-img" loading="lazy" />
+          </div>
+        ` : ''}
+      </div>
+      <div class="vocab-card-footer">
+        <span class="vocab-lesson-pill b${item.book}">Book ${item.book} • L${item.lesson}</span>
+        <button type="button" class="vocab-audio-btn" title="Pronounce ${escapeHtml(item.traditional)}">🔊</button>
+      </div>
+    `;
+
+    // Audio click
+    card.querySelector('.vocab-audio-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      ttsEngine.speak(item.traditional);
+    });
+
+    // Thumb click for modal
+    if (hasImg) {
+      card.querySelector('.vocab-thumb-wrap').addEventListener('click', (e) => {
+        e.stopPropagation();
+        openImageLightbox(item);
+      });
+    }
+
+    fragment.appendChild(card);
+  });
+
+  elements.vocabGrid.appendChild(fragment);
+  state.vocabFilter.renderedCount = end;
+
+  const remaining = filtered.length - end;
+  if (remaining > 0) {
+    elements.vocabLoadMoreWrap.style.display = 'flex';
+    elements.vocabRemainingCount.textContent = remaining.toLocaleString();
+  } else {
+    elements.vocabLoadMoreWrap.style.display = 'none';
+  }
+}
+
+// Grammar Reference Explorer
+function getExplorerGrammarList() {
+  if (typeof GRAMMAR_DATA === 'undefined') return [];
+  const q = state.grammarFilter.search.trim().toLowerCase();
+  const book = state.grammarFilter.book;
+  const lesson = state.grammarFilter.lesson;
+
+  return GRAMMAR_DATA.filter(item => {
+    if (book !== 'all' && item.book !== book) return false;
+    if (lesson !== 'all' && item.chapter !== lesson) return false;
+    if (q) {
+      const matchZh = item.pointZh && item.pointZh.toLowerCase().includes(q);
+      const matchEn = item.english && item.english.toLowerCase().includes(q);
+      const matchPy = matchPinyin(item.pinyin, q);
+      const matchExpl = item.explanation && item.explanation.toLowerCase().includes(q);
+      // Example sentences are intentionally excluded from search per user specification
+      if (!matchZh && !matchEn && !matchPy && !matchExpl) return false;
+    }
+    return true;
+  });
+}
+
+function renderGrammarExplorer(reset = true) {
+  const filtered = getExplorerGrammarList();
+  elements.grammarFilterStats.textContent = `Showing ${filtered.length.toLocaleString()} rule${filtered.length === 1 ? '' : 's'}`;
+
+  if (reset) {
+    elements.grammarList.innerHTML = '';
+    state.grammarFilter.renderedCount = 0;
+  }
+
+  if (filtered.length === 0) {
+    elements.grammarList.innerHTML = `
+      <div class="empty-state-card">
+        <div class="empty-state-icon">🔍</div>
+        <div class="empty-state-text">No grammar rules match your search or filter.</div>
+      </div>
+    `;
+    elements.grammarLoadMoreWrap.style.display = 'none';
+    return;
+  }
+
+  const start = state.grammarFilter.renderedCount;
+  const end = Math.min(start + state.grammarFilter.batchSize, filtered.length);
+  const chunk = filtered.slice(start, end);
+
+  const fragment = document.createDocumentFragment();
+  chunk.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'grammar-card';
+
+    // Build example items
+    let examplesHtml = '';
+    if (item.exampleDetails && item.exampleDetails.length > 0) {
+      examplesHtml = item.exampleDetails.map(ex => `
+        <div class="grammar-example-item">
+          <div class="grammar-example-lines">
+            <div class="grammar-example-zh">${escapeHtml(ex.chinese)}</div>
+            <div class="grammar-example-pinyin">${escapeHtml(ex.pinyin)}</div>
+          </div>
+          <button type="button" class="grammar-example-audio" title="Listen" data-sentence="${escapeHtml(ex.chinese)}">🔊</button>
+        </div>
+      `).join('');
+    } else if (item.examples && item.examples.length > 0) {
+      examplesHtml = item.examples.map(ex => `
+        <div class="grammar-example-item">
+          <div class="grammar-example-lines">
+            <div class="grammar-example-zh">${escapeHtml(ex)}</div>
+          </div>
+          <button type="button" class="grammar-example-audio" title="Listen" data-sentence="${escapeHtml(ex)}">🔊</button>
+        </div>
+      `).join('');
+    }
+
+    card.innerHTML = `
+      <div class="grammar-card-header">
+        <div>
+          <div class="grammar-point-title">${escapeHtml(item.pointZh)}</div>
+          <div class="grammar-sub-row">
+            ${item.pinyin ? `<span class="grammar-pinyin-pill">${escapeHtml(item.pinyin)}</span>` : ''}
+            <span class="grammar-english-tag">${escapeHtml(item.english)}</span>
+          </div>
+        </div>
+        <span class="vocab-lesson-pill b${item.book}">Book ${item.book} • L${item.chapter}</span>
+      </div>
+
+      ${item.explanation ? `
+        <div class="grammar-explanation-box">${escapeHtml(item.explanation)}</div>
+      ` : ''}
+
+      ${examplesHtml ? `
+        <div class="grammar-examples-container">
+          <div class="grammar-examples-label">Example Sentences</div>
+          <div class="grammar-examples-list">
+            ${examplesHtml}
+          </div>
+        </div>
+      ` : ''}
+    `;
+
+    // Example audio click listeners
+    card.querySelectorAll('.grammar-example-audio').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const sentence = btn.dataset.sentence;
+        if (sentence) ttsEngine.speak(sentence);
+      });
+    });
+
+    fragment.appendChild(card);
+  });
+
+  elements.grammarList.appendChild(fragment);
+  state.grammarFilter.renderedCount = end;
+
+  const remaining = filtered.length - end;
+  if (remaining > 0) {
+    elements.grammarLoadMoreWrap.style.display = 'flex';
+    elements.grammarRemainingCount.textContent = remaining.toLocaleString();
+  } else {
+    elements.grammarLoadMoreWrap.style.display = 'none';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', init);
+

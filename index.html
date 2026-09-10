@@ -22,32 +22,67 @@
     <div class="blob blob-3"></div>
   </div>
 
-  <!-- Top Floating Controls -->
-  <div class="floating-top-controls">
-    <button id="soundToggleBtn" class="icon-btn-compact" title="Toggle Sound" aria-label="Toggle Sound">
-      <span class="icon">🔊</span>
-    </button>
-    <button id="themeToggleBtn" class="icon-btn-compact" title="Toggle Theme" aria-label="Toggle Theme">
-      <span class="icon">🌙</span>
-    </button>
-  </div>
-
   <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="app-header glass-panel">
+      <nav class="main-nav-tabs" id="mainNavTabs" aria-label="Main Navigation">
+        <button type="button" class="nav-tab-btn active" data-tab="practice">
+          <span class="tab-icon">🎯</span>
+          <span class="tab-label">Practice</span>
+        </button>
+        <button type="button" class="nav-tab-btn" data-tab="vocab">
+          <span class="tab-icon">📖</span>
+          <span class="tab-label">Vocabulary</span>
+          <span class="tab-badge" id="vocabNavCount">1,198</span>
+        </button>
+        <button type="button" class="nav-tab-btn" data-tab="grammar">
+          <span class="tab-icon">📝</span>
+          <span class="tab-label">Grammar</span>
+          <span class="tab-badge" id="grammarNavCount">206</span>
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Desktop Direct Buttons -->
+        <div class="desktop-header-controls">
+          <button type="button" class="icon-btn-compact sound-toggle-btn" title="Toggle Sound" aria-label="Toggle Sound">
+            <span class="icon">🔊</span>
+          </button>
+          <button type="button" class="icon-btn-compact theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+            <span class="icon">🌙</span>
+          </button>
+        </div>
+
+        <!-- Mobile Hamburger Menu -->
+        <div class="mobile-header-menu">
+          <button type="button" id="menuToggleBtn" class="icon-btn-compact" title="Menu" aria-label="Menu">
+            <span class="icon">☰</span>
+          </button>
+
+          <!-- Dropdown Menu -->
+          <div id="settingsDropdownMenu" class="settings-dropdown-menu glass-panel" style="display: none;">
+            <div class="menu-item-row">
+              <span class="menu-item-label">Sound</span>
+              <button type="button" class="icon-btn-compact sound-toggle-btn" title="Toggle Sound" aria-label="Toggle Sound">
+                <span class="icon">🔊</span>
+              </button>
+            </div>
+            <div class="menu-item-row">
+              <span class="menu-item-label">Theme</span>
+              <button type="button" class="icon-btn-compact theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+                <span class="icon">🌙</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <main id="mainContent" class="main-content">
 
       <!-- SCREEN 1: SETUP & CONFIG SCREEN -->
       <section id="setupScreen" class="view-screen active">
         <div class="setup-card glass-panel compact-setup">
-
-          <!-- Book Selection Filter -->
-          <div class="form-group-compact">
-            <div class="section-label">BOOK SELECTION</div>
-            <div class="chips-group-compact" id="bookFilterChips">
-              <button type="button" class="chip-btn-c active" data-book="all">All (B1 + B2)</button>
-              <button type="button" class="chip-btn-c" data-book="1">Book 1</button>
-              <button type="button" class="chip-btn-c" data-book="2">Book 2</button>
-            </div>
-          </div>
 
           <!-- Mode Selection -->
           <div class="form-group-compact">
@@ -56,7 +91,7 @@
               <button type="button" class="mode-card-compact active" data-mode="photo">
                 <span class="mode-c-icon">📸</span>
                 <div class="mode-c-details">
-                  <div class="mode-c-title">Photo → Chinese</div>
+                  <div class="mode-c-title">Photo&nbsp;→&nbsp;Chinese</div>
                   <div class="mode-c-sub">Vocab images & visual sprint</div>
                 </div>
               </button>
@@ -64,7 +99,7 @@
               <button type="button" class="mode-card-compact" data-mode="zh2en">
                 <span class="mode-c-icon">🀄</span>
                 <div class="mode-c-details">
-                  <div class="mode-c-title">Chinese → English</div>
+                  <div class="mode-c-title">Chinese&nbsp;→&nbsp;English</div>
                   <div class="mode-c-sub">Hanzi character recognition</div>
                 </div>
               </button>
@@ -72,7 +107,7 @@
               <button type="button" class="mode-card-compact" data-mode="en2zh">
                 <span class="mode-c-icon">🇬🇧</span>
                 <div class="mode-c-details">
-                  <div class="mode-c-title">English → Chinese</div>
+                  <div class="mode-c-title">English&nbsp;→&nbsp;Chinese</div>
                   <div class="mode-c-sub">English definition to Hanzi</div>
                 </div>
               </button>
@@ -237,7 +272,7 @@
               <div class="feedback-title-c" id="feedbackTitle">Correct!</div>
               <div class="feedback-details-c" id="feedbackDetails">Explanation details...</div>
             </div>
-            <button type="button" id="nextQuestionBtn" class="next-btn-c">Next ➔</button>
+            <button type="button" id="nextQuestionBtn" class="next-btn-c">Next&nbsp;➔</button>
           </div>
         </div>
 
@@ -314,7 +349,197 @@
         </div>
       </section>
 
+      <!-- SCREEN 5: VOCABULARY EXPLORER SCREEN -->
+      <section id="vocabScreen" class="view-screen">
+        <div class="viewer-card glass-panel">
+          <!-- Header & Filters -->
+          <div class="viewer-header">
+            <div class="viewer-title-row">
+              <div class="viewer-title-wrap">
+                <span class="viewer-icon">📖</span>
+                <div>
+                  <h2 class="viewer-heading">Vocabulary Explorer</h2>
+                  <p class="viewer-sub">Browse, search, and listen to all words across Book 1 & 2</p>
+                </div>
+              </div>
+              <span class="viewer-count-pill" id="vocabFilterStats">Showing 1,198 words</span>
+            </div>
+
+            <div class="viewer-filter-bar">
+              <!-- Book Filter -->
+              <div class="filter-group">
+                <span class="filter-label">BOOK:</span>
+                <div class="chips-group-compact" id="vocabBookFilter">
+                  <button type="button" class="chip-btn-c active" data-book="all">All</button>
+                  <button type="button" class="chip-btn-c" data-book="1">Book 1</button>
+                  <button type="button" class="chip-btn-c" data-book="2">Book 2</button>
+                </div>
+              </div>
+
+              <!-- Lesson Filter Dropdown -->
+              <div class="filter-group">
+                <span class="filter-label">LESSON:</span>
+                <div class="stepper-dropdown-wrap">
+                  <button type="button" id="vocabPrevLessonBtn" class="step-btn-c" title="Previous Lesson"
+                    aria-label="Previous Lesson">◀</button>
+                  <select id="vocabLessonFilter" class="custom-select-c">
+                    <option value="all">All Lessons (1–15)</option>
+                    <option value="1">Lesson 1</option>
+                    <option value="2">Lesson 2</option>
+                    <option value="3">Lesson 3</option>
+                    <option value="4">Lesson 4</option>
+                    <option value="5">Lesson 5</option>
+                    <option value="6">Lesson 6</option>
+                    <option value="7">Lesson 7</option>
+                    <option value="8">Lesson 8</option>
+                    <option value="9">Lesson 9</option>
+                    <option value="10">Lesson 10</option>
+                    <option value="11">Lesson 11</option>
+                    <option value="12">Lesson 12</option>
+                    <option value="13">Lesson 13</option>
+                    <option value="14">Lesson 14</option>
+                    <option value="15">Lesson 15</option>
+                  </select>
+                  <button type="button" id="vocabNextLessonBtn" class="step-btn-c" title="Next Lesson"
+                    aria-label="Next Lesson">▶</button>
+                </div>
+              </div>
+
+              <!-- Visual Filter Toggle -->
+              <div class="filter-group">
+                <span class="filter-label">MEDIA:</span>
+                <button type="button" id="vocabPhotoFilterBtn" class="toggle-pill-btn" data-active="false">
+                  <span>🖼️ Photos Only</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Instant Search Input -->
+            <div class="viewer-search-wrap">
+              <span class="search-lens-icon">🔍</span>
+              <input type="text" id="vocabSearchInput" class="search-input-field"
+                placeholder="Search Chinese characters, Pinyin, or English...">
+              <button type="button" id="vocabSearchClear" class="search-clear-btn" title="Clear search"
+                style="display: none;">✕</button>
+            </div>
+          </div>
+
+          <!-- Vocabulary Cards Grid -->
+          <div class="vocab-grid" id="vocabGrid">
+            <!-- Dynamic vocab cards -->
+          </div>
+
+          <!-- Load More Trigger -->
+          <div class="load-more-wrap" id="vocabLoadMoreWrap">
+            <button type="button" id="vocabLoadMoreBtn" class="secondary-btn-c">
+              <span>Load More Words (<span id="vocabRemainingCount">0</span> left)</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 6: GRAMMAR REFERENCE SCREEN -->
+      <section id="grammarScreen" class="view-screen">
+        <div class="viewer-card glass-panel">
+          <!-- Header & Filters -->
+          <div class="viewer-header">
+            <div class="viewer-title-row">
+              <div class="viewer-title-wrap">
+                <span class="viewer-icon">📝</span>
+                <div>
+                  <h2 class="viewer-heading">Grammar Reference</h2>
+                  <p class="viewer-sub">Master sentence patterns, particles, and usage with audio examples</p>
+                </div>
+              </div>
+              <span class="viewer-count-pill" id="grammarFilterStats">Showing 206 rules</span>
+            </div>
+
+            <div class="viewer-filter-bar">
+              <!-- Book Filter -->
+              <div class="filter-group">
+                <span class="filter-label">BOOK:</span>
+                <div class="chips-group-compact" id="grammarBookFilter">
+                  <button type="button" class="chip-btn-c active" data-book="all">All</button>
+                  <button type="button" class="chip-btn-c" data-book="1">Book 1</button>
+                  <button type="button" class="chip-btn-c" data-book="2">Book 2</button>
+                </div>
+              </div>
+
+              <!-- Lesson Filter Dropdown -->
+              <div class="filter-group">
+                <span class="filter-label">LESSON:</span>
+                <div class="stepper-dropdown-wrap">
+                  <button type="button" id="grammarPrevLessonBtn" class="step-btn-c" title="Previous Lesson"
+                    aria-label="Previous Lesson">◀</button>
+                  <select id="grammarLessonFilter" class="custom-select-c">
+                    <option value="all">All Lessons (1–15)</option>
+                    <option value="1">Lesson 1</option>
+                    <option value="2">Lesson 2</option>
+                    <option value="3">Lesson 3</option>
+                    <option value="4">Lesson 4</option>
+                    <option value="5">Lesson 5</option>
+                    <option value="6">Lesson 6</option>
+                    <option value="7">Lesson 7</option>
+                    <option value="8">Lesson 8</option>
+                    <option value="9">Lesson 9</option>
+                    <option value="10">Lesson 10</option>
+                    <option value="11">Lesson 11</option>
+                    <option value="12">Lesson 12</option>
+                    <option value="13">Lesson 13</option>
+                    <option value="14">Lesson 14</option>
+                    <option value="15">Lesson 15</option>
+                  </select>
+                  <button type="button" id="grammarNextLessonBtn" class="step-btn-c" title="Next Lesson"
+                    aria-label="Next Lesson">▶</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Instant Search Input -->
+            <div class="viewer-search-wrap">
+              <span class="search-lens-icon">🔍</span>
+              <input type="text" id="grammarSearchInput" class="search-input-field"
+                placeholder="Search patterns, keywords, or English explanations...">
+              <button type="button" id="grammarSearchClear" class="search-clear-btn" title="Clear search"
+                style="display: none;">✕</button>
+            </div>
+          </div>
+
+          <!-- Grammar Rules List -->
+          <div class="grammar-list" id="grammarList">
+            <!-- Dynamic grammar cards -->
+          </div>
+
+          <!-- Load More Trigger -->
+          <div class="load-more-wrap" id="grammarLoadMoreWrap">
+            <button type="button" id="grammarLoadMoreBtn" class="secondary-btn-c">
+              <span>Load More Rules (<span id="grammarRemainingCount">0</span> left)</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
     </main>
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageLightboxModal" class="lightbox-modal" style="display: none;">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-card glass-panel">
+      <button type="button" id="lightboxCloseBtn" class="lightbox-close-btn" title="Close modal">✕</button>
+      <div class="lightbox-img-frame">
+        <img id="lightboxImg" src="" alt="Vocabulary visual" />
+      </div>
+      <div class="lightbox-info">
+        <div class="lightbox-hanzi-row">
+          <span class="lightbox-hanzi" id="lightboxHanzi">咖啡</span>
+          <button type="button" id="lightboxAudioBtn" class="audio-circle-btn-c" title="Pronounce">🔊</button>
+        </div>
+        <div class="lightbox-pinyin" id="lightboxPinyin">kā fēi</div>
+        <div class="lightbox-english" id="lightboxEnglish">coffee</div>
+        <div class="lightbox-badge" id="lightboxBadge">Book 1 • Lesson 1</div>
+      </div>
+    </div>
   </div>
 
   <!-- Scripts -->
