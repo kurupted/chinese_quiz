@@ -1,52 +1,48 @@
 from https://yakyacker.com/learn-trad-chinese/contemporary-chinese-book-1/
+updated from pdf
 
 Book 1 Vocabulary List:
 
 
-English Traditional Pinyin Lesson
+English	Traditional	Pinyin	Lesson
 America	美國	Měi guó	1
-a bowl of	碗	wǎn	1
-to be called (named)	叫	jiào	1
-clean	乾淨	gān jìng	1
 coffee	咖啡	kā fēi	1
-doctor	醫生	yī shēng	1
-easy to	好	hǎo	1
-downstairs	樓下	lóu xià	1
+to be called (named)	叫	jiào	1
+to come	來	lái	1
+to drink	喝	hē	1
+fine, well	好	hǎo	1
 he, him	他	tā	1
 How are you? Hello.	你好	nǐ hǎo	1
 I, me	我	wǒ	1
 I'm sorry	對不起	duì bù qǐ	1
 Japan	日本	Rì běn	1
-light repast, snack	小吃	xiǎo chī	1
-a man from Japan	田中誠一	Tián Zhōng Chéng Yī	1
+to like	喜歡	xǐ huān	1
 a man from Taiwan	李明華	Lǐ Míng Huá	1
-to miss (someone)	想	xiǎng	1
+a man from the US	王開文	Wáng Kāi Wén	1
+May I ask you… / Excuse me…	請問	qǐng wèn	1
+Miss / Ms.	小姐	xiǎo jiě	1
 Mr.	先生	xiān shēng	1
 not	不	bù	1
-not	不	bù	1
-only, merely	就	jiù	1
-realization particle	啊	a	1
+Oolong tea	烏龍茶	wū lóng chá	1
 person / people	人	rén	1
 to pick someone up	接	jiē	1
-please come in	請進	qǐng jìn	1
+please	請	qǐng	1
 sentence-final particle (question)	嗎	ma	1
 sentence-final particle	呢	ne	1
-so (very)	很	hěn	1
+to be	是	shì	1
 to be surnamed	姓	xìng	1
 Taiwan	臺灣	Tái wān	1
 tea	茶	chá	1
-teacher	老師	lǎo shī	1
-telephone	電話	diàn huà	1
-(more…) than	比	bǐ	1
 Thank you	謝謝	xiè xie	1
-That's right	是啊	shì a	1
-vacant / empty	空	kōng	1
+this	這	zhè	1
+to taste good (drink)	好喝	hǎo hē	1
 to want to	要	yào	1
+very	很	hěn	1
 we / us	我們	wǒ men	1
 welcome	歡迎	huān yíng	1
 what	什麼	shén me	1
 which	哪	nǎ	1
-a woman from Taiwan	張怡君	Zhāng Yí Jūn	1
+Which country?	哪國	nǎ guó	1
 a woman from Vietnam	陳月美	Chén Yuè Měi	1
 yes	是的	shì de	1
 you	你	nǐ	1
@@ -54,455 +50,468 @@ you (plural)	你們	nǐ men	1
 You're welcome	不客氣	bù kè qì	1
 all, both	都	dōu	2
 aunt (friend’s mother)	伯母	bó mǔ	2
-bathroom	洗手間	xǐ shǒu jiān	2
-because	因為	yīn wèi	2
 book	書	shū	2
-but, however	可是	kě shì	2
+brothers	兄弟	xiōng dì	2
+dad	爸爸	bà ba	2
 family members	家人	jiā rén	2
-from	從	cóng	2
+five	五	wǔ	2
+general measure word	個	gè	2
 good-looking	好看	hǎo kàn	2
 to have	有	yǒu	2
-High Speed Rail (HSR)	高鐵	gāo tiě	2
-hour	小時	xiǎo shí	2
+home, house	家	jiā	2
+house	房子	fáng zi	2
 how many	幾	jǐ	2
-to make a phone call	打電話	dǎ diàn huà	2
-a man from the US	王開文	Wáng Kāi Wén	2
-may (permission)	可以	kě yǐ	2
-measure word for days	天	tiān	2
-Miss / Ms.	小姐	xiǎo jiě	2
+a man from Honduras	馬安同	Mǎ Ān Tóng	2
+a man from Japan	田中誠一	Tián Zhōng Chéng Yī	2
+many	多	duō	2
+measure word for flat objects	張	zhāng	2
 modification marker	的	de	2
-comparatively more	比較	bǐ jiào	2
+mom	媽媽	mā ma	2
 name	名字	míng zì	2
-OK (agreeing)	好的	hǎo de	2
-old	舊	jiù	2
-phone particle	喂	wéi	2
-poor, bad	可憐	kě lián	2
+not	沒	méi	2
+OK	好	hǎo	2
+older brother	哥哥	gē ge	2
+older sister	姐姐	jiě jie	2
+photo	照片	zhào piàn	2
+please come in	請進	qǐng jìn	2
+pretty	漂亮	piào liang	2
 to read	看書	kàn shū	2
 sisters	姐妹	jiě mèi	2
 to sit	坐	zuò	2
+teacher	老師	lǎo shī	2
 to take a photo	照相	zhào xiàng	2
-today	今天	jīn tiān	2
-tradition / customs	傳統	chuán tǒng	2
-to try	試	shì	2
-Which country?	哪國	nǎ guó	2
+two	兩	liǎng	2
+who	誰	shéi	2
+a woman from Taiwan	張怡君	Zhāng Yí Jūn	2
 you (honorific)	您	nín	2
 younger sister	妹妹	mèi mei	2
 also	也	yě	3
 and, as well as	和	hé	3
 baseball	棒球	bàng qiú	3
 basketball	籃球	lán qiú	3
-cheap, inexpensive	便宜	pián yi	3
-cold	冷	lěng	3
-to cook	做飯	zuò fàn	3
-could (possibility)	可能	kě néng	3
-dessert	甜點	tián diǎn	3
-disposal marker	把	bǎ	3
+Chinese language	中文	Zhōng wén	3
+could (possibility)	可以	kě yǐ	3
+cuisine	菜	cài	3
+dinner	晚飯	wǎn fàn	3
+do what	做什麼	zuò shén me	3
 to eat	吃	chī	3
-everyone	大家	dà jiā	3
-extra fine noodles	麵線	miàn xiàn	3
+to exercise	運動	yùn dòng	3
 to feel, to think	覺得	jué de	3
-to get settled down / get used to	習慣	xí guàn	3
 How about it? / What do you think?	怎麼樣	zěn me yàng	3
 How about…? How does that sound?	好不好	hǎo bù hǎo	3
 interesting, fun	好玩	hǎo wán	3
 to kick	踢	tī	3
-to laugh, smile	笑	xiào	3
-to like	喜歡	xǐ huān	3
-month (of a year)	月	yuè	3
+to listen	聽	tīng	3
+morning	早上	zǎo shàng	3
 movie	電影	diàn yǐng	3
 music	音樂	yīn yuè	3
-now	現在	xiàn zài	3
-o’clock (to order / dot)	點	diǎn	3
-opportunity	機會	jī huì	3
-pharmacy / drugstore	藥局	yào jú	3
+often	常	cháng	3
+OK (enthusiastic)	好啊	hǎo a	3
+or (in a question)	還是	hái shì	3
 to play (ball games)	打	dǎ	3
 to see / to watch	看	kàn	3
 sentence-final particle	啊	a	3
 sentence-final particle (suggestion)	吧	ba	3
 to swim	游泳	yóu yǒng	3
-to teach	教	jiāo	3
-that	那	nà	3
-to / toward	對	duì	3
-very	非常	fēi cháng	3
+tennis	網球	wǎng qiú	3
+to go	去	qù	3
 to want / to think	想	xiǎng	3
+today	今天	jīn tiān	3
+together	一起	yī qǐ	3
+tomorrow	明天	míng tiān	3
+evening, night	晚上	wǎn shàng	3
+Vietnam	越南	Yuè nán	3
 weekend	週末	zhōu mò	3
 a woman from the US	白如玉	Bái Rú Yù	3
 you (female)	妳	nǐ	3
 to access the internet / to use the internet	上網	shàng wǎng	4
 altogether	一共	yī gòng	4
-boy; male	男	nán	4
-cake	蛋糕	dàn gāo	4
+to buy	買	mǎi	4
 can / to be able to	能	néng	4
-certainly, of course	當然	dāng rán	4
-country	國家	guó jiā	4
-fine, well	好	hǎo	4
-to finish	結束	jié shù	4
-to hope	希望	xī wàng	4
+cheap, inexpensive	便宜	pián yi	4
+cup	杯	bēi	4
+cell phone	手機	shǒu jī	4
+expensive	貴	guì	4
+for	幫	bāng	4
+for here	內用	nèi yòng	4
+hot	熱	rè	4
 how much / how many	多少	duō shǎo	4
 hundred	百	bǎi	4
-scale (to weigh)	秤	chèng	4
-language center	語言中心	yǔ yán zhōng xīn	4
-measure word for bags/packages	包	bāo	4
+kind, type	種	zhǒng	4
+large	大	dà	4
 measure word for cell phones	支	zhī	4
-to meet (each other)	見面	jiàn miàn	4
-mom	媽媽	mā ma	4
+measure word for Chinese money	塊	kuài	4
+medium	中	zhōng	4
+to microwave	微波	wéi bō	4
 money	錢	qián	4
 new	新	xīn	4
-OK (enthusiastic)	好啊	hǎo a	4
-oily, greasy	油	yóu	4
+OK (agreeing)	好的	hǎo de	4
+old	舊	jiù	4
 to sell	賣	mài	4
 sentence-final particle (certainty)	了	le	4
 small	小	xiǎo	4
-so	所以	suǒ yǐ	4
 steamed buns (with meat)	包子	bāo zi	4
 store-owner, boss	老闆	lǎo bǎn	4
 take out (food)	外帶	wài dài	4
-to take / to need	要	yào	4
-That's very kind of you	太客氣	tài kè qì	4
-therefore / so	所以	suǒ yǐ	4
+ten thousand	萬	wàn	4
+that	那	nà	4
 thousand	千	qiān	4
+to take / to need	要	yào	4
 to want / to need	要	yào	4
-who	誰	shéi	4
+too	太	tài	4
+why	為什麼	wèi shén me	4
 a little	有一點	yǒu yī diǎn	5
-to be able to, can	會	huì	5
 beef	牛肉	niú ròu	5
-Bye. Take care.	慢走	màn zǒu	5
-comfortable	舒服	shū fú	5
-convenience store	便利商店	biàn lì shāng diàn	5
-correct, right	對	duì	5
-cup	杯	bēi	5
-dad	爸爸	bà ba	5
+a bowl of	碗	wǎn	5
+but, however	可是	kě shì	5
+complement marker	得	de	5
+to cook	做飯	zuò fàn	5
+could (possibility)	可以	kě yǐ	5
 delicious	好吃	hǎo chī	5
-to exercise	運動	yùn dòng	5
+dessert	甜點	tián diǎn	5
+Excellent. Great.	太好了	tài hǎo le	5
+to fear / not like	怕	pà	5
 few in number	少	shǎo	5
-hot	熱	rè	5
-library	圖書館	tú shū guǎn	5
-measure word for buildings	棟	dòng	5
+hot (spicy)	辣	là	5
+to know	知道	zhī dào	5
+light repast, snack	小吃	xiǎo chī	5
 measure word for restaurants/shops	家	jiā	5
-medicine	藥	yào	5
-next year	明年	míng nián	5
+noodles	麵	miàn	5
 not bad	不錯	bù cuò	5
-not to look good	難看	nán kàn	5
-or	或是	huò shì	5
+not well	不好	bù hǎo	5
+to order (meals)	點	diǎn	5
 really	真	zhēn	5
-to rent	租	zū	5
-right (side)	右邊	yòu biān	5
+really must / definitely	一定	yī dìng	5
+restaurant	餐廳	cān tīng	5
 say	說	shuō	5
 self	自己	zì jǐ	5
 shop, store	店	diàn	5
+so	這麼	zhè me	5
 soup, broth	湯	tāng	5
 stinky tofu	臭豆腐	chòu dòu fu	5
-ten thousand	萬	wàn	5
-to taste good	好喝	hǎo hē	5
-the same / alike	一樣	yī yàng	5
-to think	想	xiǎng	5
-tired	累	lèi	5
+That's right	是啊	shì a	5
+therefore / so	所以	suǒ yǐ	5
+to	到	dào	5
+to be able to, can	會	huì	5
+to teach	教	jiāo	5
+most	最	zuì	5
 well-known / famous	有名	yǒu míng	5
 xiaolongbao	小籠包	xiǎo lóng bāo	5
 yesterday	昨天	zuó tiān	5
 at	在	zài	6
 back	後面	hòu miàn	6
-class	課	kè	6
-continuously, all the way	一直	yī zhí	6
-to drink	喝	hē	6
-far	遠	yuǎn	6
+because	因為	yīn wèi	6
+classroom	教室	jiào shì	6
+convenient	方便	fāng biàn	6
 dormitory	宿舍	sù shè	6
-to flow	流	liú	6
-for here	內用	nèi yòng	6
-to give it a try	試試看	shì shì kàn	6
-to go out	出去	chū qù	6
+downstairs	樓下	lóu xià	6
+far	遠	yuǎn	6
+friend	朋友	péng yǒu	6
+front	前面	qián miàn	6
 to have a meal	吃飯	chī fàn	6
-health center	健康中心	jiàn kāng zhōng xīn	6
 hear that	聽說	tīng shuō	6
-inside	裡面	lǐ miàn	6
-left (side)	左邊	zuǒ biān	6
-living room	客廳	kè tīng	6
-measure word for year	年	nián	6
-to microwave	微波	wéi bō	6
-most	最	zuì	6
-mountain	山	shān	6
-on a mountain	山上	shān shàng	6
-multi-storey building	大樓	dà lóu	6
+here, this place	這裡	zhè lǐ	6
 Hualien (city in Taiwan)	花蓮	Huā lián	6
+inside	裡面	lǐ miàn	6
+library	圖書館	tú shū guǎn	6
+measure word for buildings	棟	dòng	6
+mountain	山	shān	6
+multi-storey building	大樓	dà lóu	6
 near	近	jìn	6
-not well	不好	bù hǎo	6
-good	好	hǎo	6
-to order (meals)	點	diǎn	6
-to pay	付	fù	6
+now	現在	xiàn zài	6
+ocean	海	hǎi	6
+on a mountain	山上	shān shàng	6
+outside	外面	wài miàn	6
 place	地方	dì fāng	6
-really must / definitely	一定	yī dìng	6
+really, truly	真的	zhēn de	6
 scenery, landscape	風景	fēng jǐng	6
 school	學校	xué xiào	6
 side, next to	旁邊	páng biān	6
-store, shop	商店	shāng diàn	6
 a storey / floor	樓	lóu	6
+store, shop	商店	shāng diàn	6
 student	學生	xué shēng	6
 swimming pool	游泳池	yóu yǒng chí	6
-teahouse	茶館	chá guǎn	6
-the day after tomorrow	後天	hòu tiān	6
-these	這些	zhè xiē	6
-This is s/he speaking	我就是	wǒ jiù shì	6
-very	很	hěn	6
+that place / there	那裡	nà lǐ	6
+they (people only)	他們	tā men	6
+things / stuff	東西	dōng xi	6
+to be located at	在	zài	6
+to go to class	上課	shàng kè	6
+vicinity / nearby	附近	fù jìn	6
 where	哪裡	nǎ lǐ	6
 afternoon	下午	xià wǔ	7
 to ask	問	wèn	7
 bank	銀行	yín háng	7
 to begin, to start	開始	kāi shǐ	7
-brothers	兄弟	xiōng dì	7
 to be busy / engaged	有事	yǒu shì	7
+busy	忙	máng	7
 by the way	對了	duì le	7
 calligraphy	書法	shū fǎ	7
-cell phone	手機	shǒu jī	7
-Chinese last name (common in Taiwan)	林	Lín	7
-cuisine	菜	cài	7
-Excellent. Great.	太好了	tài hǎo le	7
-for (use)	用	yòng	7
-fragrant	香	xiāng	7
-to go/come to	到	dào	7
+character	字	zì	7
+class	課	kè	7
+Da-an (district name)	大安	Dà ān	7
+the day after tomorrow	後天	hòu tiān	7
+every, each	每	měi	7
+to finish	結束	jié shù	7
+to finish class	下課	xià kè	7
+from	從	cóng	7
+game, competition	比賽	bǐ sài	7
 Goodbye	再見	zài jiàn	7
 half	半	bàn	7
 to have free time	有空	yǒu kòng	7
 to have to, must	得	děi	7
 to be interesting	有意思	yǒu yì si	7
-don't (imperative)	別	bié	7
+just now	剛	gāng	7
 KTV	KTV	KTV	7
-last year	去年	qù nián	7
-to look for	找	zhǎo	7
-many	多	duō	7
-May all your wishes come true	心想事成	xīn xiǎng shì chéng	7
-measure word for Chinese money	塊	kuài	7
-to meet / to see (someone)	找	zhǎo	7
-morning	早上	zǎo shàng	7
-next week	下個星期	xià gè xīng qī	7
+later / wait a moment	等一下	děng yī xià	7
+lunch	午餐	wǔ cān	7
+may (permission)	可以	kě yǐ	7
+measure word for days	天	tiān	7
+to meet (each other)	見面	jiàn miàn	7
+minute	分	fēn	7
+next time	下次	xià cì	7
 No problem	沒問題	méi wèn tí	7
-ocean	海	hǎi	7
+noon	中午	zhōng wǔ	7
+o’clock (to order / dot)	點	diǎn	7
 progressive marker	在	zài	7
-to receive	收到	shōu dào	7
+recently	最近	zuì jìn	7
 to sing	唱歌	chàng gē	7
 soccer	足球	zú qiú	7
-then	就	jiù	7
 when	時候	shí hou	7
 to write	寫	xiě	7
 about the same	差不多	chà bù duō	8
 ancient times	古代	gǔ dài	8
-to be	是	shì	8
 both … and …	又…又…	yòu…yòu…	8
+bus	公共汽車（公車）	gōng gòng qì chē (gōng chē)	8
 but, however	但是	dàn shì	8
-cable TV	有線電視	yǒu xiàn diàn shì	8
-character	字	zì	8
-Chinese language	中文	Zhōng wén	8
-a city in southwestern Taiwan (Tainan)	臺南	Tái nán	8
-to come	來	lái	8
-to be concerned about	關心	guān xīn	8
+China	中國	Zhōng guó	8
+classmate	同學	tóng xué	8
+comfortable	舒服	shū fú	8
+comparatively more	比較	bǐ jiào	8
+convenience store	便利商店	biàn lì shāng diàn	8
 fast	快	kuài	8
-to get	拿	ná	8
+to give someone a ride	載	zài	8
 to have fun	玩	wán	8
-here, this place	這裡	zhè lǐ	8
-hotel	旅館	lǚ guǎn	8
-house	房子	fáng zi	8
+High Speed Rail (HSR)	高鐵	gāo tiě	8
+hour	鐘頭	zhōng tóu	8
 how	怎麼	zěn me	8
 on the Internet	網路上	wǎng lù shàng	8
-mango	芒果	máng guǒ	8
+MRT	捷運	jié yùn	8
 motorcycle / scooter	機車	jī chē	8
 National Palace Museum	故宮博物院	Gù gōng bó wù yuàn	8
-Oolong tea	烏龍茶	wū lóng chá	8
-restaurant	餐廳	cān tīng	8
+or	或是	huò shì	8
+to ride	騎	qí	8
 slow	慢	màn	8
 station	站	zhàn	8
+a city in southwestern Taiwan (Tainan)	臺南	Tái nán	8
 to take by / travel by	坐	zuò	8
 taxi	計程車	jì chéng chē	8
-tennis	網球	wǎng qiú	8
-that place / there	那裡	nà lǐ	8
+(more…) than	比	bǐ	8
 (train/bus) ticket	車票	chē piào	8
-completed action particle	了	le	8
-vicinity / nearby	附近	fù jìn	8
-will / be able to	會	huì	8
+tram / train	火車	huǒ chē	8
+very	非常	fēi cháng	8
+to visit (an institution)	參觀	cāng guān	8
+will not do	不行	bù xíng	8
 with	跟	gēn	8
 approximately, about, probably	大概	dà gài	9
 date (day of month)	號	hào	9
-game, competition	比賽	bǐ sài	9
-to give	給	gěi	9
-go home	回家	huí jiā	9
+to decide	決定	jué dìng	9
+film	影片	yǐng piàn	9
+girl; female	女	nǚ	9
+to go out	出去	chū qù	9
 to have a holiday	放假	fàng jià	9
-home, house	家	jiā	9
+homework	功課	gōng kè	9
 how long	多久	duō jiǔ	9
 if	要是	yào shì	9
 Maokong (tea area in Taipei)	貓空	Māo kōng	9
-Taitung (city in Taiwan)	臺東	Tái dōng	9
+month (of a year)	月	yuè	9
+next week	下個星期	xià gè xīng qī	9
 night market	夜市	yè shì	9
-noon	中午	zhōng wǔ	9
 to plan to	打算	dǎ suàn	9
-rent (for a room/house)	房租	fáng zū	9
+to return to one's country	回國	huí guó	9
 she, her	她	tā	9
 should	應該	yīng gāi	9
 sometimes	有時候	yǒu shí hou	9
 special	特別	tè bié	9
 still / additionally	還	hái	9
 suggestion	建議	jiàn yì	9
+Taitung (city in Taiwan)	臺東	Tái dōng	9
 to take	拿	ná	9
-then	那麼	nà me	9
-toward / to	往	wǎng	9
-to treat sb to sth	請	qǐng	9
+to take	帶	dài	9
+teahouse	茶館	chá guǎn	9
+then	就	jiù	9
+to travel	旅行	lǚ xíng	9
+TV	電視	diàn shì	9
 to wander around	逛	guàng	9
 week	星期	xīng qī	9
 beautiful	美	měi	10
 before	以前	yǐ qián	10
 blue	藍色	lán sè	10
-classmate	同學	tóng xué	10
-classroom	教室	jiào shì	10
-convenient	方便	fāng biàn	10
-five	五	wǔ	10
-for, on behalf of	替	tì	10
-gate, entrance	門口	mén kǒu	10
+boy; male	男	nán	10
+clean	乾淨	gān jìng	10
+clothes	衣服	yī fú	10
+correct, right	對	duì	10
+fragrant	香	xiāng	10
+fruit	水果	shuǐ guǒ	10
+to give	給	gěi	10
 happy	開心	kāi xīn	10
 to have a taste, try it	吃吃看	chī chī kàn	10
-hot (spicy)	辣	là	10
-large	大	dà	10
-later / wait a moment	等一下	děng yī xià	10
-a man from Honduras	馬安同	Mǎ Ān Tóng	10
-measure word for minutes	分鐘	fēn zhōng	10
-only, merely	只	zhǐ	10
-recently	最近	zuì jìn	10
+hotel	旅館	lǚ guǎn	10
+last month	上個月	shàng gè yuè	10
+to laugh, smile	笑	xiào	10
+mango	芒果	máng guǒ	10
+measure word for pieces of food	塊	kuài	10
+opportunity	機會	jī huì	10
+red	紅色	hóng sè	10
 sentence-final particle (guess)	吧	ba	10
 short (height)	矮	ǎi	10
 to stay / live	住	zhù	10
 sweet	甜	tián	10
 to take (pictures)	拍	pāi	10
 tall	高	gāo	10
-this	這	zhè	10
-tomorrow	明天	míng tiān	10
+these	這些	zhè xiē	10
+to treat sb to sth	請	qǐng	10
+toward / to	往	wǎng	10
 watermelon	西瓜	xī guā	10
 to wear / put on	穿	chuān	10
-why	為什麼	wèi shén me	10
-wind	風	fēng	10
+wife	太太	tài tai	10
+window	窗戶	chuāng hù	10
 yellow	黃色	huáng sè	10
 younger brother	弟弟	dì di	10
 already	已經	yǐ jīng	11
 to arrive	到	dào	11
-business	生意	shēng yì	11
-China	中國	Zhōng guó	11
-fruit	水果	shuǐ guǒ	11
-gift, present	禮物	lǐ wù	11
-however, but	不過	bù guò	11
+bathroom	浴室	yù shì	11
+bathroom	洗手間	xǐ shǒu jiān	11
+cable TV	有線電視	yǒu xiàn diàn shì	11
+Chinese last name (common in Taiwan)	林	Lín	11
+to get settled down / get used to	習慣	xí guàn	11
+to go back, return	回去	huí qù	11
+How come?	怎麼	zěn me	11
 to install	裝	zhuāng	11
 kitchen	廚房	chú fáng	11
-to know	知道	zhī dào	11
-to learn, study	學	xué	11
-to listen	聽	tīng	11
-lunch	午餐	wǔ cān	11
-measure word for flat objects (paper, tickets)	張	zhāng	11
+landlord	房東	fáng dōng	11
+left (side)	左邊	zuǒ biān	11
+living room	客廳	kè tīng	11
+to make a phone call	打電話	dǎ diàn huà	11
 measure word for houses/rooms	間	jiān	11
+measure word for minutes	分鐘	fēn zhōng	11
 Not a problem	沒關係	méi guān xì	11
-older brother	哥哥	gē ge	11
-parents	父母	fù mǔ	11
+only, merely	就	jiù	11
+to pay	付	fù	11
+phone particle	喂	wéi	11
 problem, question	問題	wèn tí	11
-really, truly	真的	zhēn de	11
-to remember	記得	jì de	11
-to return to one's country	回國	huí guó	11
-to ride	騎	qí	11
+to receive	收到	shōu dào	11
+rent (for a room/house)	房租	fáng zū	11
+right (side)	右邊	yòu biān	11
 room	房間	fáng jiān	11
 to seem / appear to be	好像	hǎo xiàng	11
 sorry / excuse me	不好意思	bù hǎo yì si	11
 suite (apartment)	套房	tào fáng	11
 supermarket	超市	chāo shì	11
+telephone	電話	diàn huà	11
+and then	再	zài	11
 then / in that case	那	nà	11
-they (people only)	他們	tā men	11
-this kind (of)	這樣	zhè yàng	11
-to (arrive at)	到	dào	11
-typhoon	颱風	tái fēng	11
+to (give to)	給	gěi	11
+to think	想	xiǎng	11
+to rent	租	zū	11
+vacant / empty	空	kōng	11
 to wait for	等	děng	11
 to walk	走路	zǒu lù	11
 water heater	熱水器	rè shuǐ qì	11
-wife	太太	tài tai	11
+will	會	huì	11
 afterwards	以後	yǐ hòu	12
 again	再	zài	12
-to buy	買	mǎi	12
-to come back	回來	huí lái	12
-could (possibility)	可以	kě yǐ	12
-do what	做什麼	zuò shén me	12
-to decide	決定	jué dìng	12
-egg	蛋	dàn	12
-to finish class	下課	xià kè	12
-to forget	忘（了）	wàng (le)	12
-general measure word	個	gè	12
-to give someone a ride	載	zài	12
-to go	去	qù	12
-to go to class	上課	shàng kè	12
+business	生意	shēng yì	12
+company	公司	gōng sī	12
+country	國家	guó jiā	12
+to do, to engage in	做	zuò	12
+easy to	好	hǎo	12
+first	先	xiān	12
+for, on behalf of	替	tì	12
+in the future	以後	yǐ hòu	12
+to give it a try	試試看	shì shì kàn	12
+to go/come to	到	dào	12
 to go to work	上班	shàng bān	12
 grades	成績	chéng jī	12
 hard to, difficult to	難	nán	12
-homework	功課	gōng kè	12
+to hope	希望	xī wàng	12
 job, work	工作	gōng zuò	12
 keep it up / cheer up	加油	jiā yóu	12
-language	語言	yǔ yán	12
-last time	上次	shàng cì	12
-to be located at	在	zài	12
-long time no see	好久不見	hǎo jiǔ bú jiàn	12
-measure word for times/occurrences	次	cì	12
+language center	語言中心	yǔ yán zhōng xīn	12
+last year	去年	qù nián	12
+long (time)	久	jiǔ	12
+to look for	找	zhǎo	12
+measure word for year	年	nián	12
 to need	需要	xū yào	12
+to plan to	計畫	jì huà	12
 scholarship	獎學金	jiǎng xué jīn	12
 to spend (time/money)	花	huā	12
 to study (recite)	念	niàn	12
 to study	念書	niàn shū	12
-things / stuff	東西	dōng xi	12
+then	那麼	nà me	12
+this kind (of)	這樣	zhè yàng	12
 time	時間	shí jiān	12
-too	太	tài	12
-to travel	旅行	lǚ xíng	12
-TV	電視	diàn shì	12
+tired	累	lèi	12
+to try	試	shì	12
+tuition	學費	xué fèi	12
+university	大學	dà xué	12
 to work	工作	gōng zuò	12
-a little, some	一點	yī diǎn	13
 approximately	左右	zuǒ yòu	13
 birthday	生日	shēng rì	13
-busy	忙	máng	13
-to celebrate	慶祝	qìng zhù	13
-Da-an (district name)	大安	Dà ān	13
+cake	蛋糕	dàn gāo	13
+to celebrate	過	guò	13
+certainly, of course	當然	dāng rán	13
+completed action particle	了	le	13
+Don't mention it / My pleasure	哪裡，哪裡	nǎ lǐ, nǎ lǐ	13
+egg	蛋	dàn	13
 with enthusiasm	熱心	rè xīn	13
-evening, night	晚上	wǎn shàng	13
-expensive	貴	guì	13
-Don't mention it / My pleasure	哪裡	nǎ lǐ	13
-first	先	xiān	13
-friend	朋友	péng yǒu	13
-in the future	以後	yǐ hòu	13
+to exchange	交換	jiāo huàn	13
+extra fine noodles	麵線	miàn xiàn	13
+to forget	忘（了）	wàng (le)	13
+gate, entrance	門口	mén kǒu	13
+gift, present	禮物	lǐ wù	13
 happy	快樂	kuài lè	13
 Happy Birthday	生日快樂	shēng rì kuài lè	13
-How come?	怎麼	zěn me	13
-landlord	房東	fáng dōng	13
-long (time)	久	jiǔ	13
-MRT	捷運	jié yùn	13
+language	語言	yǔ yán	13
+a little, some	一點	yī diǎn	13
+long time no see	好久不見	hǎo jiǔ bú jiàn	13
+May all your wishes come true	心想事成	xīn xiǎng shì chéng	13
 May everything go your way	萬事如意	wàn shì rú yì	13
 most (of), mostly	大部分	dà bù fèn	13
-next time	下次	xià cì	13
 No need to stand on formalities	不必客氣	bú bì kè qì	13
-or (in a question)	還是	hái shì	13
-painful	痛	tòng	13
-pretty	漂亮	piào liang	13
-red maple leaves	紅葉	hóng yè	13
+to order (in advance)	訂	dìng	13
+pork knuckles	豬腳	zhū jiǎo	13
+realization particle	啊	a	13
+to remember	記得	jì de	13
 Spain	西班牙	Xī bān yá	13
 Spanish language	西班牙文	Xī bān yá wén	13
-and then	再	zài	13
+so (very)	那麼	nà me	13
+That's very kind of you	太客氣	tài kè qì	13
+the same / alike	一樣	yī yàng	13
+This is s/he speaking	我就是	wǒ jiù shì	13
 this year	今年	jīn nián	13
-to (give to)	給	gěi	13
-two	兩	liǎng	13
+to / toward	對	duì	13
+tradition / customs	傳統	chuán tǒng	13
+to come back	回來	huí lái	13
 young	年輕	nián qīng	13
 annoying	討厭	tǎo yàn	14
 autumn (season)	秋天	qiū tiān	14
-bus	公共汽車（公車）	gōng gòng qì chē (gōng chē)	14
+Bye. Take care.	慢走	màn zǒu	14
 to be careful / take care	小心	xiǎo xīn	14
-clothes	衣服	yī fú	14
+cold	冷	lěng	14
+the end of December	十二月底	shí èr yuè dǐ	14
 even (more)	更	gèng	14
-every, each	每	měi	14
-to exchange	交換	jiāo huàn	14
-last month	上個月	shàng gè yuè	14
-minute	分	fēn	14
+everyone	大家	dà jiā	14
+last time	上次	shàng cì	14
+to miss (someone)	想	xiǎng	14
 New Year	新年	xīn nián	14
 New York	紐約	Niǔ yuē	14
 news	新聞	xīn wén	14
-noodles	麵	miàn	14
-older sister	姐姐	jiě jie	14
-outside	外面	wài miàn	14
+next year	明年	míng nián	14
+only, merely	只	zhǐ	14
+parents	父母	fù mǔ	14
 rain	雨	yǔ	14
 to rain	下雨	xià yǔ	14
-red	紅色	hóng sè	14
+red maple leaves	紅葉	hóng yè	14
 scary	可怕	kě pà	14
 to ski	滑雪	huá xuě	14
 to snow	下雪	xià xuě	14
@@ -511,66 +520,59 @@ spring (season)	春天	chūn tiān	14
 to stop	停	tíng	14
 summer (season)	夏天	xià tiān	14
 this time	這次	zhè cì	14
-together	一起	yī qǐ	14
-tram / train	火車	huǒ chē	14
-tuition	學費	xué fèi	14
-Vietnam	越南	Yuè nán	14
+typhoon	颱風	tái fēng	14
+umbrella	傘	sǎn	14
 weather	天氣	tiān qì	14
 wet	濕	shī	14
-will not do	不行	bù xíng	14
 will / be going to	要	yào	14
-window	窗戶	chuāng hù	14
+wind	風	fēng	14
 winter (season)	冬天	dōng tiān	14
 to wish (sb happiness, luck)	祝	zhù	14
 Yu Shan (Mount Jade)	玉山	Yù Shān	14
 a bit earlier	早一點	zǎo yī diǎn	15
-(a) few	幾	jǐ	15
+to accompany	陪	péi	15
 appetite	胃口	wèi kǒu	15
 to catch/have a cold	感冒	gǎn mào	15
-company	公司	gōng sī	15
-complement marker	得	de	15
-dinner	晚飯	wǎn fàn	15
-to do, to engage in	做	zuò	15
-the end of December	十二月底	shí èr yuè dǐ	15
-to fall ill	生病	shēng bìng	15
+to be concerned about	關心	guān xīn	15
+continuously, all the way	一直	yī zhí	15
+disposal marker	把	bǎ	15
+doctor	醫生	yī shēng	15
 don't (imperative)	別	bié	15
-film	片	piàn	15
-front	前面	qián miàn	15
-girl; female	女	nǚ	15
-to go back, return	回去	huí qù	15
-to accompany	陪	péi	15
+to fall ill	生病	shēng bìng	15
+(a) few	幾	jǐ	15
+to flow	流	liú	15
+to get	拿	ná	15
+go home	回家	huí jiā	15
 to have a fever	發燒	fā shāo	15
 head	頭	tóu	15
 health	健康	jiàn kāng	15
-hour (spoken)	鐘頭	zhōng tóu	15
+health center	健康中心	jiàn kāng zhōng xīn	15
+hour (spoken)	小時	xiǎo shí	15
 ice	冰	bīng	15
 to have inflammation	發炎	fā yán	15
 insurance	保險	bǎo xiǎn	15
 It would be best / should	最好	zuì hǎo	15
 It's not necessary	不用了	bù yòng le	15
-May I ask you… / Excuse me…	請問	qǐng wèn	15
-measure word for pieces of food	塊	kuài	15
-medium	中	zhōng	15
-to fear / not like	怕	pà	15
-often	常	cháng	15
-to order (in advance)	訂	dìng	15
-pork knuckles	豬腳	zhū jiǎo	15
+measure word for bags/packages	包	bāo	15
+measure word for times/occurrences	次	cì	15
+medicine	藥	yào	15
+not to look good	難看	nán kàn	15
+oily, greasy	油	yóu	15
+painful	痛	tòng	15
+a person's facial color	臉色	liǎn sè	15
+pharmacy / drugstore	藥局	yào jú	15
+poor, bad	差	chà	15
 to see a doctor	看病	kàn bìng	15
-to sleep (noun form)	睡覺	shuì jiào	15
 to sleep	睡	shuì	15
+to sleep (noun form)	睡覺	shuì jiào	15
 snot / runny nose	鼻水	bí shuǐ	15
 stomach, abdomen	肚子	dù zi	15
 to take a rest	休息	xiū xí	15
 throat	喉嚨	hóu lóng	15
 to throw up / vomit	吐	tù	15
+to	跟	gēn	15
 water	水	shuǐ	15
 What's wrong?	怎麼了	zěn me le	15
-
-
-
-
-
-
 
 
 Book 1 Grammar List:

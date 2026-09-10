@@ -14,14 +14,14 @@ const VOCAB_DATA = [
   {
     "id": 2,
     "book": 1,
-    "english": "a bowl of",
-    "traditional": "碗",
-    "pinyin": "wǎn",
+    "english": "coffee",
+    "traditional": "咖啡",
+    "pinyin": "kā fēi",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/bowl.png",
-    "localImage": "vocab_images/bowl.png",
-    "searchTerm": "a bowl of"
+    "photoUrl": "vocab_images/coffee.png",
+    "localImage": "vocab_images/coffee.png",
+    "searchTerm": "coffee"
   },
   {
     "id": 3,
@@ -38,65 +38,41 @@ const VOCAB_DATA = [
   {
     "id": 4,
     "book": 1,
-    "english": "clean",
-    "traditional": "乾淨",
-    "pinyin": "gān jìng",
+    "english": "to come",
+    "traditional": "來",
+    "pinyin": "lái",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/clean.png",
-    "localImage": "vocab_images/clean.png",
-    "searchTerm": "clean"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to come"
   },
   {
     "id": 5,
     "book": 1,
-    "english": "coffee",
-    "traditional": "咖啡",
-    "pinyin": "kā fēi",
+    "english": "to drink",
+    "traditional": "喝",
+    "pinyin": "hē",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/coffee.png",
-    "localImage": "vocab_images/coffee.png",
-    "searchTerm": "coffee"
+    "photoUrl": "vocab_images/drink.png",
+    "localImage": "vocab_images/drink.png",
+    "searchTerm": "to drink"
   },
   {
     "id": 6,
     "book": 1,
-    "english": "doctor",
-    "traditional": "醫生",
-    "pinyin": "yī shēng",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/doctor.png",
-    "localImage": "vocab_images/doctor.png",
-    "searchTerm": "doctor"
-  },
-  {
-    "id": 7,
-    "book": 1,
-    "english": "easy to",
+    "english": "fine, well",
     "traditional": "好",
     "pinyin": "hǎo",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/easy to.png",
-    "localImage": "vocab_images/easy to.png",
-    "searchTerm": "easy to"
+    "photoUrl": "vocab_images/fine.png",
+    "localImage": "vocab_images/fine.png",
+    "searchTerm": "fine, well"
   },
   {
-    "id": 8,
-    "book": 1,
-    "english": "downstairs",
-    "traditional": "樓下",
-    "pinyin": "lóu xià",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/downstairs.png",
-    "localImage": "vocab_images/downstairs.png",
-    "searchTerm": "downstairs"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "book": 1,
     "english": "he, him",
     "traditional": "他",
@@ -108,19 +84,19 @@ const VOCAB_DATA = [
     "searchTerm": "he, him"
   },
   {
-    "id": 10,
+    "id": 8,
     "book": 1,
     "english": "How are you? Hello.",
     "traditional": "你好",
     "pinyin": "nǐ hǎo",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hello.png",
+    "localImage": "vocab_images/hello.png",
     "searchTerm": "how are you? hello."
   },
   {
-    "id": 11,
+    "id": 9,
     "book": 1,
     "english": "I, me",
     "traditional": "我",
@@ -132,19 +108,19 @@ const VOCAB_DATA = [
     "searchTerm": "i, me"
   },
   {
-    "id": 12,
+    "id": 10,
     "book": 1,
     "english": "I'm sorry",
     "traditional": "對不起",
     "pinyin": "duì bù qǐ",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sorry.png",
+    "localImage": "vocab_images/sorry.png",
     "searchTerm": "i'm sorry"
   },
   {
-    "id": 13,
+    "id": 11,
     "book": 1,
     "english": "Japan",
     "traditional": "日本",
@@ -156,31 +132,19 @@ const VOCAB_DATA = [
     "searchTerm": "japan"
   },
   {
-    "id": 14,
+    "id": 12,
     "book": 1,
-    "english": "light repast, snack",
-    "traditional": "小吃",
-    "pinyin": "xiǎo chī",
+    "english": "to like",
+    "traditional": "喜歡",
+    "pinyin": "xǐ huān",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/snack.png",
-    "localImage": "vocab_images/snack.png",
-    "searchTerm": "light repast, snack"
+    "photoUrl": "vocab_images/like.png",
+    "localImage": "vocab_images/like.png",
+    "searchTerm": "to like"
   },
   {
-    "id": 15,
-    "book": 1,
-    "english": "a man from Japan",
-    "traditional": "田中誠一",
-    "pinyin": "Tián Zhōng Chéng Yī",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/Japan.png",
-    "localImage": "vocab_images/Japan.png",
-    "searchTerm": "a man from japan"
-  },
-  {
-    "id": 16,
+    "id": 13,
     "book": 1,
     "english": "a man from Taiwan",
     "traditional": "李明華",
@@ -192,19 +156,43 @@ const VOCAB_DATA = [
     "searchTerm": "a man from taiwan"
   },
   {
-    "id": 17,
+    "id": 14,
     "book": 1,
-    "english": "to miss (someone)",
-    "traditional": "想",
-    "pinyin": "xiǎng",
+    "english": "a man from the US",
+    "traditional": "王開文",
+    "pinyin": "Wáng Kāi Wén",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/miss.png",
-    "localImage": "vocab_images/miss.png",
-    "searchTerm": "to miss (someone)"
+    "photoUrl": "vocab_images/United States.png",
+    "localImage": "vocab_images/United States.png",
+    "searchTerm": "a man from the us"
   },
   {
-    "id": 18,
+    "id": 15,
+    "book": 1,
+    "english": "May I ask you… / Excuse me…",
+    "traditional": "請問",
+    "pinyin": "qǐng wèn",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "may i ask you… / excuse me…"
+  },
+  {
+    "id": 16,
+    "book": 1,
+    "english": "Miss / Ms.",
+    "traditional": "小姐",
+    "pinyin": "xiǎo jiě",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/lady.png",
+    "localImage": "vocab_images/lady.png",
+    "searchTerm": "miss / ms."
+  },
+  {
+    "id": 17,
     "book": 1,
     "english": "Mr.",
     "traditional": "先生",
@@ -216,55 +204,31 @@ const VOCAB_DATA = [
     "searchTerm": "mr."
   },
   {
+    "id": 18,
+    "book": 1,
+    "english": "not",
+    "traditional": "不",
+    "pinyin": "bù",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not.png",
+    "localImage": "vocab_images/not.png",
+    "searchTerm": "not"
+  },
+  {
     "id": 19,
     "book": 1,
-    "english": "not",
-    "traditional": "不",
-    "pinyin": "bù",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/not.png",
-    "localImage": "vocab_images/not.png",
-    "searchTerm": "not"
-  },
-  {
-    "id": 20,
-    "book": 1,
-    "english": "not",
-    "traditional": "不",
-    "pinyin": "bù",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/not.png",
-    "localImage": "vocab_images/not.png",
-    "searchTerm": "not"
-  },
-  {
-    "id": 21,
-    "book": 1,
-    "english": "only, merely",
-    "traditional": "就",
-    "pinyin": "jiù",
+    "english": "Oolong tea",
+    "traditional": "烏龍茶",
+    "pinyin": "wū lóng chá",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "only, merely"
+    "searchTerm": "oolong tea"
   },
   {
-    "id": 22,
-    "book": 1,
-    "english": "realization particle",
-    "traditional": "啊",
-    "pinyin": "a",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/realization particle.png",
-    "localImage": "vocab_images/realization particle.png",
-    "searchTerm": "realization particle"
-  },
-  {
-    "id": 23,
+    "id": 20,
     "book": 1,
     "english": "person / people",
     "traditional": "人",
@@ -276,7 +240,7 @@ const VOCAB_DATA = [
     "searchTerm": "person / people"
   },
   {
-    "id": 24,
+    "id": 21,
     "book": 1,
     "english": "to pick someone up",
     "traditional": "接",
@@ -288,19 +252,19 @@ const VOCAB_DATA = [
     "searchTerm": "to pick someone up"
   },
   {
-    "id": 25,
+    "id": 22,
     "book": 1,
-    "english": "please come in",
-    "traditional": "請進",
-    "pinyin": "qǐng jìn",
+    "english": "please",
+    "traditional": "請",
+    "pinyin": "qǐng",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "please come in"
+    "searchTerm": "please"
   },
   {
-    "id": 26,
+    "id": 23,
     "book": 1,
     "english": "sentence-final particle (question)",
     "traditional": "嗎",
@@ -312,7 +276,7 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle (question)"
   },
   {
-    "id": 27,
+    "id": 24,
     "book": 1,
     "english": "sentence-final particle",
     "traditional": "呢",
@@ -324,19 +288,19 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle"
   },
   {
-    "id": 28,
+    "id": 25,
     "book": 1,
-    "english": "so (very)",
-    "traditional": "很",
-    "pinyin": "hěn",
+    "english": "to be",
+    "traditional": "是",
+    "pinyin": "shì",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/so.png",
-    "localImage": "vocab_images/so.png",
-    "searchTerm": "so (very)"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be"
   },
   {
-    "id": 29,
+    "id": 26,
     "book": 1,
     "english": "to be surnamed",
     "traditional": "姓",
@@ -348,7 +312,7 @@ const VOCAB_DATA = [
     "searchTerm": "to be surnamed"
   },
   {
-    "id": 30,
+    "id": 27,
     "book": 1,
     "english": "Taiwan",
     "traditional": "臺灣",
@@ -360,7 +324,7 @@ const VOCAB_DATA = [
     "searchTerm": "taiwan"
   },
   {
-    "id": 31,
+    "id": 28,
     "book": 1,
     "english": "tea",
     "traditional": "茶",
@@ -372,43 +336,7 @@ const VOCAB_DATA = [
     "searchTerm": "tea"
   },
   {
-    "id": 32,
-    "book": 1,
-    "english": "teacher",
-    "traditional": "老師",
-    "pinyin": "lǎo shī",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/teacher.png",
-    "localImage": "vocab_images/teacher.png",
-    "searchTerm": "teacher"
-  },
-  {
-    "id": 33,
-    "book": 1,
-    "english": "telephone",
-    "traditional": "電話",
-    "pinyin": "diàn huà",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/telephone.png",
-    "localImage": "vocab_images/telephone.png",
-    "searchTerm": "telephone"
-  },
-  {
-    "id": 34,
-    "book": 1,
-    "english": "(more…) than",
-    "traditional": "比",
-    "pinyin": "bǐ",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "(more…) than"
-  },
-  {
-    "id": 35,
+    "id": 29,
     "book": 1,
     "english": "Thank you",
     "traditional": "謝謝",
@@ -420,31 +348,31 @@ const VOCAB_DATA = [
     "searchTerm": "thank you"
   },
   {
-    "id": 36,
+    "id": 30,
     "book": 1,
-    "english": "That's right",
-    "traditional": "是啊",
-    "pinyin": "shì a",
+    "english": "this",
+    "traditional": "這",
+    "pinyin": "zhè",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/this.png",
+    "localImage": "vocab_images/this.png",
+    "searchTerm": "this"
+  },
+  {
+    "id": 31,
+    "book": 1,
+    "english": "to taste good (drink)",
+    "traditional": "好喝",
+    "pinyin": "hǎo hē",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "that's right"
+    "searchTerm": "to taste good (drink)"
   },
   {
-    "id": 37,
-    "book": 1,
-    "english": "vacant / empty",
-    "traditional": "空",
-    "pinyin": "kōng",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/empty.png",
-    "localImage": "vocab_images/empty.png",
-    "searchTerm": "vacant / empty"
-  },
-  {
-    "id": 38,
+    "id": 32,
     "book": 1,
     "english": "to want to",
     "traditional": "要",
@@ -456,7 +384,19 @@ const VOCAB_DATA = [
     "searchTerm": "to want to"
   },
   {
-    "id": 39,
+    "id": 33,
+    "book": 1,
+    "english": "very",
+    "traditional": "很",
+    "pinyin": "hěn",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/very.png",
+    "localImage": "vocab_images/very.png",
+    "searchTerm": "very"
+  },
+  {
+    "id": 34,
     "book": 1,
     "english": "we / us",
     "traditional": "我們",
@@ -468,7 +408,7 @@ const VOCAB_DATA = [
     "searchTerm": "we / us"
   },
   {
-    "id": 40,
+    "id": 35,
     "book": 1,
     "english": "welcome",
     "traditional": "歡迎",
@@ -480,7 +420,7 @@ const VOCAB_DATA = [
     "searchTerm": "welcome"
   },
   {
-    "id": 41,
+    "id": 36,
     "book": 1,
     "english": "what",
     "traditional": "什麼",
@@ -492,7 +432,7 @@ const VOCAB_DATA = [
     "searchTerm": "what"
   },
   {
-    "id": 42,
+    "id": 37,
     "book": 1,
     "english": "which",
     "traditional": "哪",
@@ -504,19 +444,19 @@ const VOCAB_DATA = [
     "searchTerm": "which"
   },
   {
-    "id": 43,
+    "id": 38,
     "book": 1,
-    "english": "a woman from Taiwan",
-    "traditional": "張怡君",
-    "pinyin": "Zhāng Yí Jūn",
+    "english": "Which country?",
+    "traditional": "哪國",
+    "pinyin": "nǎ guó",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/person.png",
-    "localImage": "vocab_images/person.png",
-    "searchTerm": "a woman from taiwan"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "which country?"
   },
   {
-    "id": 44,
+    "id": 39,
     "book": 1,
     "english": "a woman from Vietnam",
     "traditional": "陳月美",
@@ -528,7 +468,7 @@ const VOCAB_DATA = [
     "searchTerm": "a woman from vietnam"
   },
   {
-    "id": 45,
+    "id": 40,
     "book": 1,
     "english": "yes",
     "traditional": "是的",
@@ -540,7 +480,7 @@ const VOCAB_DATA = [
     "searchTerm": "yes"
   },
   {
-    "id": 46,
+    "id": 41,
     "book": 1,
     "english": "you",
     "traditional": "你",
@@ -552,7 +492,7 @@ const VOCAB_DATA = [
     "searchTerm": "you"
   },
   {
-    "id": 47,
+    "id": 42,
     "book": 1,
     "english": "you (plural)",
     "traditional": "你們",
@@ -564,7 +504,7 @@ const VOCAB_DATA = [
     "searchTerm": "you (plural)"
   },
   {
-    "id": 48,
+    "id": 43,
     "book": 1,
     "english": "You're welcome",
     "traditional": "不客氣",
@@ -576,7 +516,7 @@ const VOCAB_DATA = [
     "searchTerm": "you're welcome"
   },
   {
-    "id": 49,
+    "id": 44,
     "book": 1,
     "english": "all, both",
     "traditional": "都",
@@ -588,7 +528,7 @@ const VOCAB_DATA = [
     "searchTerm": "all, both"
   },
   {
-    "id": 50,
+    "id": 45,
     "book": 1,
     "english": "aunt (friend’s mother)",
     "traditional": "伯母",
@@ -600,31 +540,7 @@ const VOCAB_DATA = [
     "searchTerm": "aunt (friend’s mother)"
   },
   {
-    "id": 51,
-    "book": 1,
-    "english": "bathroom",
-    "traditional": "洗手間",
-    "pinyin": "xǐ shǒu jiān",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/toilet.png",
-    "localImage": "vocab_images/toilet.png",
-    "searchTerm": "bathroom"
-  },
-  {
-    "id": 52,
-    "book": 1,
-    "english": "because",
-    "traditional": "因為",
-    "pinyin": "yīn wèi",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "because"
-  },
-  {
-    "id": 53,
+    "id": 46,
     "book": 1,
     "english": "book",
     "traditional": "書",
@@ -636,43 +552,67 @@ const VOCAB_DATA = [
     "searchTerm": "book"
   },
   {
-    "id": 54,
+    "id": 47,
     "book": 1,
-    "english": "but, however",
-    "traditional": "可是",
-    "pinyin": "kě shì",
+    "english": "brothers",
+    "traditional": "兄弟",
+    "pinyin": "xiōng dì",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "but, however"
+    "isVisual": true,
+    "photoUrl": "vocab_images/brothers.png",
+    "localImage": "vocab_images/brothers.png",
+    "searchTerm": "brothers"
   },
   {
-    "id": 55,
+    "id": 48,
+    "book": 1,
+    "english": "dad",
+    "traditional": "爸爸",
+    "pinyin": "bà ba",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dad.png",
+    "localImage": "vocab_images/dad.png",
+    "searchTerm": "dad"
+  },
+  {
+    "id": 49,
     "book": 1,
     "english": "family members",
     "traditional": "家人",
     "pinyin": "jiā rén",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/family.png",
+    "localImage": "vocab_images/family.png",
     "searchTerm": "family members"
   },
   {
-    "id": 56,
+    "id": 50,
     "book": 1,
-    "english": "from",
-    "traditional": "從",
-    "pinyin": "cóng",
+    "english": "five",
+    "traditional": "五",
+    "pinyin": "wǔ",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "from"
+    "isVisual": true,
+    "photoUrl": "vocab_images/five.png",
+    "localImage": "vocab_images/five.png",
+    "searchTerm": "five"
   },
   {
-    "id": 57,
+    "id": 51,
+    "book": 1,
+    "english": "general measure word",
+    "traditional": "個",
+    "pinyin": "gè",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/general measure word.png",
+    "localImage": "vocab_images/general measure word.png",
+    "searchTerm": "general measure word"
+  },
+  {
+    "id": 52,
     "book": 1,
     "english": "good-looking",
     "traditional": "好看",
@@ -684,7 +624,7 @@ const VOCAB_DATA = [
     "searchTerm": "good-looking"
   },
   {
-    "id": 58,
+    "id": 53,
     "book": 1,
     "english": "to have",
     "traditional": "有",
@@ -696,31 +636,31 @@ const VOCAB_DATA = [
     "searchTerm": "to have"
   },
   {
-    "id": 59,
+    "id": 54,
     "book": 1,
-    "english": "High Speed Rail (HSR)",
-    "traditional": "高鐵",
-    "pinyin": "gāo tiě",
+    "english": "home, house",
+    "traditional": "家",
+    "pinyin": "jiā",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/high speed train.png",
-    "localImage": "vocab_images/high speed train.png",
-    "searchTerm": "high speed rail (hsr)"
+    "photoUrl": "vocab_images/home.png",
+    "localImage": "vocab_images/home.png",
+    "searchTerm": "home, house"
   },
   {
-    "id": 60,
+    "id": 55,
     "book": 1,
-    "english": "hour",
-    "traditional": "小時",
-    "pinyin": "xiǎo shí",
+    "english": "house",
+    "traditional": "房子",
+    "pinyin": "fáng zi",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/hour.png",
-    "localImage": "vocab_images/hour.png",
-    "searchTerm": "hour"
+    "photoUrl": "vocab_images/house.png",
+    "localImage": "vocab_images/house.png",
+    "searchTerm": "house"
   },
   {
-    "id": 61,
+    "id": 56,
     "book": 1,
     "english": "how many",
     "traditional": "幾",
@@ -732,67 +672,55 @@ const VOCAB_DATA = [
     "searchTerm": "how many"
   },
   {
-    "id": 62,
+    "id": 57,
     "book": 1,
-    "english": "to make a phone call",
-    "traditional": "打電話",
-    "pinyin": "dǎ diàn huà",
+    "english": "a man from Honduras",
+    "traditional": "馬安同",
+    "pinyin": "Mǎ Ān Tóng",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to make a phone call"
+    "searchTerm": "a man from honduras"
   },
   {
-    "id": 63,
+    "id": 58,
     "book": 1,
-    "english": "a man from the US",
-    "traditional": "王開文",
-    "pinyin": "Wáng Kāi Wén",
+    "english": "a man from Japan",
+    "traditional": "田中誠一",
+    "pinyin": "Tián Zhōng Chéng Yī",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/United States.png",
-    "localImage": "vocab_images/United States.png",
-    "searchTerm": "a man from the us"
+    "photoUrl": "vocab_images/Japan.png",
+    "localImage": "vocab_images/Japan.png",
+    "searchTerm": "a man from japan"
   },
   {
-    "id": 64,
+    "id": 59,
     "book": 1,
-    "english": "may (permission)",
-    "traditional": "可以",
-    "pinyin": "kě yǐ",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "may (permission)"
-  },
-  {
-    "id": 65,
-    "book": 1,
-    "english": "measure word for days",
-    "traditional": "天",
-    "pinyin": "tiān",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for days"
-  },
-  {
-    "id": 66,
-    "book": 1,
-    "english": "Miss / Ms.",
-    "traditional": "小姐",
-    "pinyin": "xiǎo jiě",
+    "english": "many",
+    "traditional": "多",
+    "pinyin": "duō",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/lady.png",
-    "localImage": "vocab_images/lady.png",
-    "searchTerm": "miss / ms."
+    "photoUrl": "vocab_images/many.png",
+    "localImage": "vocab_images/many.png",
+    "searchTerm": "many"
   },
   {
-    "id": 67,
+    "id": 60,
+    "book": 1,
+    "english": "measure word for flat objects",
+    "traditional": "張",
+    "pinyin": "zhāng",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for flat objects"
+  },
+  {
+    "id": 61,
     "book": 1,
     "english": "modification marker",
     "traditional": "的",
@@ -804,19 +732,19 @@ const VOCAB_DATA = [
     "searchTerm": "modification marker"
   },
   {
-    "id": 68,
+    "id": 62,
     "book": 1,
-    "english": "comparatively more",
-    "traditional": "比較",
-    "pinyin": "bǐ jiào",
+    "english": "mom",
+    "traditional": "媽媽",
+    "pinyin": "mā ma",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/comparatively more.png",
-    "localImage": "vocab_images/comparatively more.png",
-    "searchTerm": "comparatively more"
+    "photoUrl": "vocab_images/mom.png",
+    "localImage": "vocab_images/mom.png",
+    "searchTerm": "mom"
   },
   {
-    "id": 69,
+    "id": 63,
     "book": 1,
     "english": "name",
     "traditional": "名字",
@@ -828,55 +756,91 @@ const VOCAB_DATA = [
     "searchTerm": "name"
   },
   {
-    "id": 70,
+    "id": 64,
     "book": 1,
-    "english": "OK (agreeing)",
-    "traditional": "好的",
-    "pinyin": "hǎo de",
+    "english": "not",
+    "traditional": "沒",
+    "pinyin": "méi",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not.png",
+    "localImage": "vocab_images/not.png",
+    "searchTerm": "not"
+  },
+  {
+    "id": 65,
+    "book": 1,
+    "english": "OK",
+    "traditional": "好",
+    "pinyin": "hǎo",
     "lesson": 2,
     "isVisual": true,
     "photoUrl": "vocab_images/ok.png",
     "localImage": "vocab_images/ok.png",
-    "searchTerm": "ok (agreeing)"
+    "searchTerm": "ok"
+  },
+  {
+    "id": 66,
+    "book": 1,
+    "english": "older brother",
+    "traditional": "哥哥",
+    "pinyin": "gē ge",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/older brother.png",
+    "localImage": "vocab_images/older brother.png",
+    "searchTerm": "older brother"
+  },
+  {
+    "id": 67,
+    "book": 1,
+    "english": "older sister",
+    "traditional": "姐姐",
+    "pinyin": "jiě jie",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/older sister.png",
+    "localImage": "vocab_images/older sister.png",
+    "searchTerm": "older sister"
+  },
+  {
+    "id": 68,
+    "book": 1,
+    "english": "photo",
+    "traditional": "照片",
+    "pinyin": "zhào piàn",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "photo"
+  },
+  {
+    "id": 69,
+    "book": 1,
+    "english": "please come in",
+    "traditional": "請進",
+    "pinyin": "qǐng jìn",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "please come in"
+  },
+  {
+    "id": 70,
+    "book": 1,
+    "english": "pretty",
+    "traditional": "漂亮",
+    "pinyin": "piào liang",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pretty.png",
+    "localImage": "vocab_images/pretty.png",
+    "searchTerm": "pretty"
   },
   {
     "id": 71,
-    "book": 1,
-    "english": "old",
-    "traditional": "舊",
-    "pinyin": "jiù",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/old.png",
-    "localImage": "vocab_images/old.png",
-    "searchTerm": "old"
-  },
-  {
-    "id": 72,
-    "book": 1,
-    "english": "phone particle",
-    "traditional": "喂",
-    "pinyin": "wéi",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/phone particle.png",
-    "localImage": "vocab_images/phone particle.png",
-    "searchTerm": "phone particle"
-  },
-  {
-    "id": 73,
-    "book": 1,
-    "english": "poor, bad",
-    "traditional": "可憐",
-    "pinyin": "kě lián",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/poor.png",
-    "localImage": "vocab_images/poor.png",
-    "searchTerm": "poor, bad"
-  },
-  {
-    "id": 74,
     "book": 1,
     "english": "to read",
     "traditional": "看書",
@@ -888,7 +852,7 @@ const VOCAB_DATA = [
     "searchTerm": "to read"
   },
   {
-    "id": 75,
+    "id": 72,
     "book": 1,
     "english": "sisters",
     "traditional": "姐妹",
@@ -900,7 +864,7 @@ const VOCAB_DATA = [
     "searchTerm": "sisters"
   },
   {
-    "id": 76,
+    "id": 73,
     "book": 1,
     "english": "to sit",
     "traditional": "坐",
@@ -912,7 +876,19 @@ const VOCAB_DATA = [
     "searchTerm": "to sit"
   },
   {
-    "id": 77,
+    "id": 74,
+    "book": 1,
+    "english": "teacher",
+    "traditional": "老師",
+    "pinyin": "lǎo shī",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/teacher.png",
+    "localImage": "vocab_images/teacher.png",
+    "searchTerm": "teacher"
+  },
+  {
+    "id": 75,
     "book": 1,
     "english": "to take a photo",
     "traditional": "照相",
@@ -924,55 +900,43 @@ const VOCAB_DATA = [
     "searchTerm": "to take a photo"
   },
   {
-    "id": 78,
+    "id": 76,
     "book": 1,
-    "english": "today",
-    "traditional": "今天",
-    "pinyin": "jīn tiān",
+    "english": "two",
+    "traditional": "兩",
+    "pinyin": "liǎng",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/today.png",
-    "localImage": "vocab_images/today.png",
-    "searchTerm": "today"
+    "photoUrl": "vocab_images/two.png",
+    "localImage": "vocab_images/two.png",
+    "searchTerm": "two"
+  },
+  {
+    "id": 77,
+    "book": 1,
+    "english": "who",
+    "traditional": "誰",
+    "pinyin": "shéi",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/who.png",
+    "localImage": "vocab_images/who.png",
+    "searchTerm": "who"
+  },
+  {
+    "id": 78,
+    "book": 1,
+    "english": "a woman from Taiwan",
+    "traditional": "張怡君",
+    "pinyin": "Zhāng Yí Jūn",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/person.png",
+    "localImage": "vocab_images/person.png",
+    "searchTerm": "a woman from taiwan"
   },
   {
     "id": 79,
-    "book": 1,
-    "english": "tradition / customs",
-    "traditional": "傳統",
-    "pinyin": "chuán tǒng",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tradition.png",
-    "localImage": "vocab_images/tradition.png",
-    "searchTerm": "tradition / customs"
-  },
-  {
-    "id": 80,
-    "book": 1,
-    "english": "to try",
-    "traditional": "試",
-    "pinyin": "shì",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to try"
-  },
-  {
-    "id": 81,
-    "book": 1,
-    "english": "Which country?",
-    "traditional": "哪國",
-    "pinyin": "nǎ guó",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "which country?"
-  },
-  {
-    "id": 82,
     "book": 1,
     "english": "you (honorific)",
     "traditional": "您",
@@ -984,7 +948,7 @@ const VOCAB_DATA = [
     "searchTerm": "you (honorific)"
   },
   {
-    "id": 83,
+    "id": 80,
     "book": 1,
     "english": "younger sister",
     "traditional": "妹妹",
@@ -996,7 +960,7 @@ const VOCAB_DATA = [
     "searchTerm": "younger sister"
   },
   {
-    "id": 84,
+    "id": 81,
     "book": 1,
     "english": "also",
     "traditional": "也",
@@ -1008,7 +972,7 @@ const VOCAB_DATA = [
     "searchTerm": "also"
   },
   {
-    "id": 85,
+    "id": 82,
     "book": 1,
     "english": "and, as well as",
     "traditional": "和",
@@ -1020,7 +984,7 @@ const VOCAB_DATA = [
     "searchTerm": "and, as well as"
   },
   {
-    "id": 86,
+    "id": 83,
     "book": 1,
     "english": "baseball",
     "traditional": "棒球",
@@ -1032,7 +996,7 @@ const VOCAB_DATA = [
     "searchTerm": "baseball"
   },
   {
-    "id": 87,
+    "id": 84,
     "book": 1,
     "english": "basketball",
     "traditional": "籃球",
@@ -1044,47 +1008,23 @@ const VOCAB_DATA = [
     "searchTerm": "basketball"
   },
   {
-    "id": 88,
+    "id": 85,
     "book": 1,
-    "english": "cheap, inexpensive",
-    "traditional": "便宜",
-    "pinyin": "pián yi",
+    "english": "Chinese language",
+    "traditional": "中文",
+    "pinyin": "Zhōng wén",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "cheap, inexpensive"
+    "searchTerm": "chinese language"
   },
   {
-    "id": 89,
-    "book": 1,
-    "english": "cold",
-    "traditional": "冷",
-    "pinyin": "lěng",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cold.png",
-    "localImage": "vocab_images/cold.png",
-    "searchTerm": "cold"
-  },
-  {
-    "id": 90,
-    "book": 1,
-    "english": "to cook",
-    "traditional": "做飯",
-    "pinyin": "zuò fàn",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cook.png",
-    "localImage": "vocab_images/cook.png",
-    "searchTerm": "to cook"
-  },
-  {
-    "id": 91,
+    "id": 86,
     "book": 1,
     "english": "could (possibility)",
-    "traditional": "可能",
-    "pinyin": "kě néng",
+    "traditional": "可以",
+    "pinyin": "kě yǐ",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
@@ -1092,31 +1032,43 @@ const VOCAB_DATA = [
     "searchTerm": "could (possibility)"
   },
   {
-    "id": 92,
+    "id": 87,
     "book": 1,
-    "english": "dessert",
-    "traditional": "甜點",
-    "pinyin": "tián diǎn",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/dessert.png",
-    "localImage": "vocab_images/dessert.png",
-    "searchTerm": "dessert"
-  },
-  {
-    "id": 93,
-    "book": 1,
-    "english": "disposal marker",
-    "traditional": "把",
-    "pinyin": "bǎ",
+    "english": "cuisine",
+    "traditional": "菜",
+    "pinyin": "cài",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "disposal marker"
+    "searchTerm": "cuisine"
   },
   {
-    "id": 94,
+    "id": 88,
+    "book": 1,
+    "english": "dinner",
+    "traditional": "晚飯",
+    "pinyin": "wǎn fàn",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dinner.png",
+    "localImage": "vocab_images/dinner.png",
+    "searchTerm": "dinner"
+  },
+  {
+    "id": 89,
+    "book": 1,
+    "english": "do what",
+    "traditional": "做什麼",
+    "pinyin": "zuò shén me",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "do what"
+  },
+  {
+    "id": 90,
     "book": 1,
     "english": "to eat",
     "traditional": "吃",
@@ -1128,31 +1080,19 @@ const VOCAB_DATA = [
     "searchTerm": "to eat"
   },
   {
-    "id": 95,
+    "id": 91,
     "book": 1,
-    "english": "everyone",
-    "traditional": "大家",
-    "pinyin": "dà jiā",
+    "english": "to exercise",
+    "traditional": "運動",
+    "pinyin": "yùn dòng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/everyone.png",
-    "localImage": "vocab_images/everyone.png",
-    "searchTerm": "everyone"
+    "photoUrl": "vocab_images/exercise.png",
+    "localImage": "vocab_images/exercise.png",
+    "searchTerm": "to exercise"
   },
   {
-    "id": 96,
-    "book": 1,
-    "english": "extra fine noodles",
-    "traditional": "麵線",
-    "pinyin": "miàn xiàn",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/noodles.png",
-    "localImage": "vocab_images/noodles.png",
-    "searchTerm": "extra fine noodles"
-  },
-  {
-    "id": 97,
+    "id": 92,
     "book": 1,
     "english": "to feel, to think",
     "traditional": "覺得",
@@ -1164,19 +1104,7 @@ const VOCAB_DATA = [
     "searchTerm": "to feel, to think"
   },
   {
-    "id": 98,
-    "book": 1,
-    "english": "to get settled down / get used to",
-    "traditional": "習慣",
-    "pinyin": "xí guàn",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to get settled down / get used to"
-  },
-  {
-    "id": 99,
+    "id": 93,
     "book": 1,
     "english": "How about it? / What do you think?",
     "traditional": "怎麼樣",
@@ -1188,7 +1116,7 @@ const VOCAB_DATA = [
     "searchTerm": "how about it? / what do you think?"
   },
   {
-    "id": 100,
+    "id": 94,
     "book": 1,
     "english": "How about…? How does that sound?",
     "traditional": "好不好",
@@ -1200,7 +1128,7 @@ const VOCAB_DATA = [
     "searchTerm": "how about…? how does that sound?"
   },
   {
-    "id": 101,
+    "id": 95,
     "book": 1,
     "english": "interesting, fun",
     "traditional": "好玩",
@@ -1212,7 +1140,7 @@ const VOCAB_DATA = [
     "searchTerm": "interesting, fun"
   },
   {
-    "id": 102,
+    "id": 96,
     "book": 1,
     "english": "to kick",
     "traditional": "踢",
@@ -1224,43 +1152,31 @@ const VOCAB_DATA = [
     "searchTerm": "to kick"
   },
   {
-    "id": 103,
+    "id": 97,
     "book": 1,
-    "english": "to laugh, smile",
-    "traditional": "笑",
-    "pinyin": "xiào",
+    "english": "to listen",
+    "traditional": "聽",
+    "pinyin": "tīng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/laugh.png",
-    "localImage": "vocab_images/laugh.png",
-    "searchTerm": "to laugh, smile"
+    "photoUrl": "vocab_images/listen.png",
+    "localImage": "vocab_images/listen.png",
+    "searchTerm": "to listen"
   },
   {
-    "id": 104,
+    "id": 98,
     "book": 1,
-    "english": "to like",
-    "traditional": "喜歡",
-    "pinyin": "xǐ huān",
+    "english": "morning",
+    "traditional": "早上",
+    "pinyin": "zǎo shàng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/like.png",
-    "localImage": "vocab_images/like.png",
-    "searchTerm": "to like"
+    "photoUrl": "vocab_images/morning.png",
+    "localImage": "vocab_images/morning.png",
+    "searchTerm": "morning"
   },
   {
-    "id": 105,
-    "book": 1,
-    "english": "month (of a year)",
-    "traditional": "月",
-    "pinyin": "yuè",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/month.png",
-    "localImage": "vocab_images/month.png",
-    "searchTerm": "month (of a year)"
-  },
-  {
-    "id": 106,
+    "id": 99,
     "book": 1,
     "english": "movie",
     "traditional": "電影",
@@ -1272,7 +1188,7 @@ const VOCAB_DATA = [
     "searchTerm": "movie"
   },
   {
-    "id": 107,
+    "id": 100,
     "book": 1,
     "english": "music",
     "traditional": "音樂",
@@ -1284,55 +1200,43 @@ const VOCAB_DATA = [
     "searchTerm": "music"
   },
   {
-    "id": 108,
+    "id": 101,
     "book": 1,
-    "english": "now",
-    "traditional": "現在",
-    "pinyin": "xiàn zài",
+    "english": "often",
+    "traditional": "常",
+    "pinyin": "cháng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/now.png",
-    "localImage": "vocab_images/now.png",
-    "searchTerm": "now"
+    "photoUrl": "vocab_images/often.png",
+    "localImage": "vocab_images/often.png",
+    "searchTerm": "often"
   },
   {
-    "id": 109,
+    "id": 102,
     "book": 1,
-    "english": "o’clock (to order / dot)",
-    "traditional": "點",
-    "pinyin": "diǎn",
+    "english": "OK (enthusiastic)",
+    "traditional": "好啊",
+    "pinyin": "hǎo a",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ok.png",
+    "localImage": "vocab_images/ok.png",
+    "searchTerm": "ok (enthusiastic)"
+  },
+  {
+    "id": 103,
+    "book": 1,
+    "english": "or (in a question)",
+    "traditional": "還是",
+    "pinyin": "hái shì",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "o’clock (to order / dot)"
+    "searchTerm": "or (in a question)"
   },
   {
-    "id": 110,
-    "book": 1,
-    "english": "opportunity",
-    "traditional": "機會",
-    "pinyin": "jī huì",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "opportunity"
-  },
-  {
-    "id": 111,
-    "book": 1,
-    "english": "pharmacy / drugstore",
-    "traditional": "藥局",
-    "pinyin": "yào jú",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/pharmacy.png",
-    "localImage": "vocab_images/pharmacy.png",
-    "searchTerm": "pharmacy / drugstore"
-  },
-  {
-    "id": 112,
+    "id": 104,
     "book": 1,
     "english": "to play (ball games)",
     "traditional": "打",
@@ -1344,7 +1248,7 @@ const VOCAB_DATA = [
     "searchTerm": "to play (ball games)"
   },
   {
-    "id": 113,
+    "id": 105,
     "book": 1,
     "english": "to see / to watch",
     "traditional": "看",
@@ -1356,7 +1260,7 @@ const VOCAB_DATA = [
     "searchTerm": "to see / to watch"
   },
   {
-    "id": 114,
+    "id": 106,
     "book": 1,
     "english": "sentence-final particle",
     "traditional": "啊",
@@ -1368,7 +1272,7 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle"
   },
   {
-    "id": 115,
+    "id": 107,
     "book": 1,
     "english": "sentence-final particle (suggestion)",
     "traditional": "吧",
@@ -1380,7 +1284,7 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle (suggestion)"
   },
   {
-    "id": 116,
+    "id": 108,
     "book": 1,
     "english": "to swim",
     "traditional": "游泳",
@@ -1392,55 +1296,31 @@ const VOCAB_DATA = [
     "searchTerm": "to swim"
   },
   {
-    "id": 117,
+    "id": 109,
     "book": 1,
-    "english": "to teach",
-    "traditional": "教",
-    "pinyin": "jiāo",
+    "english": "tennis",
+    "traditional": "網球",
+    "pinyin": "wǎng qiú",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/teach.png",
-    "localImage": "vocab_images/teach.png",
-    "searchTerm": "to teach"
+    "photoUrl": "vocab_images/tennis.png",
+    "localImage": "vocab_images/tennis.png",
+    "searchTerm": "tennis"
   },
   {
-    "id": 118,
+    "id": 110,
     "book": 1,
-    "english": "that",
-    "traditional": "那",
-    "pinyin": "nà",
+    "english": "to go",
+    "traditional": "去",
+    "pinyin": "qù",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/that.png",
-    "localImage": "vocab_images/that.png",
-    "searchTerm": "that"
+    "photoUrl": "vocab_images/go.png",
+    "localImage": "vocab_images/go.png",
+    "searchTerm": "to go"
   },
   {
-    "id": 119,
-    "book": 1,
-    "english": "to / toward",
-    "traditional": "對",
-    "pinyin": "duì",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to / toward"
-  },
-  {
-    "id": 120,
-    "book": 1,
-    "english": "very",
-    "traditional": "非常",
-    "pinyin": "fēi cháng",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/very.png",
-    "localImage": "vocab_images/very.png",
-    "searchTerm": "very"
-  },
-  {
-    "id": 121,
+    "id": 111,
     "book": 1,
     "english": "to want / to think",
     "traditional": "想",
@@ -1452,7 +1332,67 @@ const VOCAB_DATA = [
     "searchTerm": "to want / to think"
   },
   {
-    "id": 122,
+    "id": 112,
+    "book": 1,
+    "english": "today",
+    "traditional": "今天",
+    "pinyin": "jīn tiān",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/today.png",
+    "localImage": "vocab_images/today.png",
+    "searchTerm": "today"
+  },
+  {
+    "id": 113,
+    "book": 1,
+    "english": "together",
+    "traditional": "一起",
+    "pinyin": "yī qǐ",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/together.png",
+    "localImage": "vocab_images/together.png",
+    "searchTerm": "together"
+  },
+  {
+    "id": 114,
+    "book": 1,
+    "english": "tomorrow",
+    "traditional": "明天",
+    "pinyin": "míng tiān",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/tomorrow.png",
+    "localImage": "vocab_images/tomorrow.png",
+    "searchTerm": "tomorrow"
+  },
+  {
+    "id": 115,
+    "book": 1,
+    "english": "evening, night",
+    "traditional": "晚上",
+    "pinyin": "wǎn shàng",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/night.png",
+    "localImage": "vocab_images/night.png",
+    "searchTerm": "evening, night"
+  },
+  {
+    "id": 116,
+    "book": 1,
+    "english": "Vietnam",
+    "traditional": "越南",
+    "pinyin": "Yuè nán",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/Vietnam.png",
+    "localImage": "vocab_images/Vietnam.png",
+    "searchTerm": "vietnam"
+  },
+  {
+    "id": 117,
     "book": 1,
     "english": "weekend",
     "traditional": "週末",
@@ -1464,7 +1404,7 @@ const VOCAB_DATA = [
     "searchTerm": "weekend"
   },
   {
-    "id": 123,
+    "id": 118,
     "book": 1,
     "english": "a woman from the US",
     "traditional": "白如玉",
@@ -1476,7 +1416,7 @@ const VOCAB_DATA = [
     "searchTerm": "a woman from the us"
   },
   {
-    "id": 124,
+    "id": 119,
     "book": 1,
     "english": "you (female)",
     "traditional": "妳",
@@ -1488,19 +1428,19 @@ const VOCAB_DATA = [
     "searchTerm": "you (female)"
   },
   {
-    "id": 125,
+    "id": 120,
     "book": 1,
     "english": "to access the internet / to use the internet",
     "traditional": "上網",
     "pinyin": "shàng wǎng",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/internet.png",
+    "localImage": "vocab_images/internet.png",
     "searchTerm": "to access the internet / to use the internet"
   },
   {
-    "id": 126,
+    "id": 121,
     "book": 1,
     "english": "altogether",
     "traditional": "一共",
@@ -1512,31 +1452,19 @@ const VOCAB_DATA = [
     "searchTerm": "altogether"
   },
   {
-    "id": 127,
+    "id": 122,
     "book": 1,
-    "english": "boy; male",
-    "traditional": "男",
-    "pinyin": "nán",
+    "english": "to buy",
+    "traditional": "買",
+    "pinyin": "mǎi",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/boy.png",
-    "localImage": "vocab_images/boy.png",
-    "searchTerm": "boy; male"
+    "photoUrl": "vocab_images/buy.png",
+    "localImage": "vocab_images/buy.png",
+    "searchTerm": "to buy"
   },
   {
-    "id": 128,
-    "book": 1,
-    "english": "cake",
-    "traditional": "蛋糕",
-    "pinyin": "dàn gāo",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cake.png",
-    "localImage": "vocab_images/cake.png",
-    "searchTerm": "cake"
-  },
-  {
-    "id": 129,
+    "id": 123,
     "book": 1,
     "english": "can / to be able to",
     "traditional": "能",
@@ -1548,67 +1476,91 @@ const VOCAB_DATA = [
     "searchTerm": "can / to be able to"
   },
   {
-    "id": 130,
+    "id": 124,
     "book": 1,
-    "english": "certainly, of course",
-    "traditional": "當然",
-    "pinyin": "dāng rán",
+    "english": "cheap, inexpensive",
+    "traditional": "便宜",
+    "pinyin": "pián yi",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "certainly, of course"
+    "searchTerm": "cheap, inexpensive"
+  },
+  {
+    "id": 125,
+    "book": 1,
+    "english": "cup",
+    "traditional": "杯",
+    "pinyin": "bēi",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cup.png",
+    "localImage": "vocab_images/cup.png",
+    "searchTerm": "cup"
+  },
+  {
+    "id": 126,
+    "book": 1,
+    "english": "cell phone",
+    "traditional": "手機",
+    "pinyin": "shǒu jī",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cell phone.png",
+    "localImage": "vocab_images/cell phone.png",
+    "searchTerm": "cell phone"
+  },
+  {
+    "id": 127,
+    "book": 1,
+    "english": "expensive",
+    "traditional": "貴",
+    "pinyin": "guì",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/expensive.png",
+    "localImage": "vocab_images/expensive.png",
+    "searchTerm": "expensive"
+  },
+  {
+    "id": 128,
+    "book": 1,
+    "english": "for",
+    "traditional": "幫",
+    "pinyin": "bāng",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "for"
+  },
+  {
+    "id": 129,
+    "book": 1,
+    "english": "for here",
+    "traditional": "內用",
+    "pinyin": "nèi yòng",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "for here"
+  },
+  {
+    "id": 130,
+    "book": 1,
+    "english": "hot",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hot.png",
+    "localImage": "vocab_images/hot.png",
+    "searchTerm": "hot"
   },
   {
     "id": 131,
-    "book": 1,
-    "english": "country",
-    "traditional": "國家",
-    "pinyin": "guó jiā",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/country.png",
-    "localImage": "vocab_images/country.png",
-    "searchTerm": "country"
-  },
-  {
-    "id": 132,
-    "book": 1,
-    "english": "fine, well",
-    "traditional": "好",
-    "pinyin": "hǎo",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/fine.png",
-    "localImage": "vocab_images/fine.png",
-    "searchTerm": "fine, well"
-  },
-  {
-    "id": 133,
-    "book": 1,
-    "english": "to finish",
-    "traditional": "結束",
-    "pinyin": "jié shù",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to finish"
-  },
-  {
-    "id": 134,
-    "book": 1,
-    "english": "to hope",
-    "traditional": "希望",
-    "pinyin": "xī wàng",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to hope"
-  },
-  {
-    "id": 135,
     "book": 1,
     "english": "how much / how many",
     "traditional": "多少",
@@ -1620,7 +1572,7 @@ const VOCAB_DATA = [
     "searchTerm": "how much / how many"
   },
   {
-    "id": 136,
+    "id": 132,
     "book": 1,
     "english": "hundred",
     "traditional": "百",
@@ -1632,43 +1584,31 @@ const VOCAB_DATA = [
     "searchTerm": "hundred"
   },
   {
-    "id": 137,
+    "id": 133,
     "book": 1,
-    "english": "scale (to weigh)",
-    "traditional": "秤",
-    "pinyin": "chèng",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/scale.png",
-    "localImage": "vocab_images/scale.png",
-    "searchTerm": "scale (to weigh)"
-  },
-  {
-    "id": 138,
-    "book": 1,
-    "english": "language center",
-    "traditional": "語言中心",
-    "pinyin": "yǔ yán zhōng xīn",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/classroom.png",
-    "localImage": "vocab_images/classroom.png",
-    "searchTerm": "language center"
-  },
-  {
-    "id": 139,
-    "book": 1,
-    "english": "measure word for bags/packages",
-    "traditional": "包",
-    "pinyin": "bāo",
+    "english": "kind, type",
+    "traditional": "種",
+    "pinyin": "zhǒng",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "measure word for bags/packages"
+    "searchTerm": "kind, type"
   },
   {
-    "id": 140,
+    "id": 134,
+    "book": 1,
+    "english": "large",
+    "traditional": "大",
+    "pinyin": "dà",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/large.png",
+    "localImage": "vocab_images/large.png",
+    "searchTerm": "large"
+  },
+  {
+    "id": 135,
     "book": 1,
     "english": "measure word for cell phones",
     "traditional": "支",
@@ -1680,31 +1620,43 @@ const VOCAB_DATA = [
     "searchTerm": "measure word for cell phones"
   },
   {
-    "id": 141,
+    "id": 136,
     "book": 1,
-    "english": "to meet (each other)",
-    "traditional": "見面",
-    "pinyin": "jiàn miàn",
+    "english": "measure word for Chinese money",
+    "traditional": "塊",
+    "pinyin": "kuài",
     "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/meet.png",
-    "localImage": "vocab_images/meet.png",
-    "searchTerm": "to meet (each other)"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for chinese money"
   },
   {
-    "id": 142,
+    "id": 137,
     "book": 1,
-    "english": "mom",
-    "traditional": "媽媽",
-    "pinyin": "mā ma",
+    "english": "medium",
+    "traditional": "中",
+    "pinyin": "zhōng",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/mom.png",
-    "localImage": "vocab_images/mom.png",
-    "searchTerm": "mom"
+    "photoUrl": "vocab_images/medium.png",
+    "localImage": "vocab_images/medium.png",
+    "searchTerm": "medium"
   },
   {
-    "id": 143,
+    "id": 138,
+    "book": 1,
+    "english": "to microwave",
+    "traditional": "微波",
+    "pinyin": "wéi bō",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/microwave.png",
+    "localImage": "vocab_images/microwave.png",
+    "searchTerm": "to microwave"
+  },
+  {
+    "id": 139,
     "book": 1,
     "english": "money",
     "traditional": "錢",
@@ -1716,7 +1668,7 @@ const VOCAB_DATA = [
     "searchTerm": "money"
   },
   {
-    "id": 144,
+    "id": 140,
     "book": 1,
     "english": "new",
     "traditional": "新",
@@ -1728,31 +1680,31 @@ const VOCAB_DATA = [
     "searchTerm": "new"
   },
   {
-    "id": 145,
+    "id": 141,
     "book": 1,
-    "english": "OK (enthusiastic)",
-    "traditional": "好啊",
-    "pinyin": "hǎo a",
+    "english": "OK (agreeing)",
+    "traditional": "好的",
+    "pinyin": "hǎo de",
     "lesson": 4,
     "isVisual": true,
     "photoUrl": "vocab_images/ok.png",
     "localImage": "vocab_images/ok.png",
-    "searchTerm": "ok (enthusiastic)"
+    "searchTerm": "ok (agreeing)"
   },
   {
-    "id": 146,
+    "id": 142,
     "book": 1,
-    "english": "oily, greasy",
-    "traditional": "油",
-    "pinyin": "yóu",
+    "english": "old",
+    "traditional": "舊",
+    "pinyin": "jiù",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/oily.png",
-    "localImage": "vocab_images/oily.png",
-    "searchTerm": "oily, greasy"
+    "photoUrl": "vocab_images/old.png",
+    "localImage": "vocab_images/old.png",
+    "searchTerm": "old"
   },
   {
-    "id": 147,
+    "id": 143,
     "book": 1,
     "english": "to sell",
     "traditional": "賣",
@@ -1764,7 +1716,7 @@ const VOCAB_DATA = [
     "searchTerm": "to sell"
   },
   {
-    "id": 148,
+    "id": 144,
     "book": 1,
     "english": "sentence-final particle (certainty)",
     "traditional": "了",
@@ -1776,7 +1728,7 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle (certainty)"
   },
   {
-    "id": 149,
+    "id": 145,
     "book": 1,
     "english": "small",
     "traditional": "小",
@@ -1788,19 +1740,7 @@ const VOCAB_DATA = [
     "searchTerm": "small"
   },
   {
-    "id": 150,
-    "book": 1,
-    "english": "so",
-    "traditional": "所以",
-    "pinyin": "suǒ yǐ",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/so.png",
-    "localImage": "vocab_images/so.png",
-    "searchTerm": "so"
-  },
-  {
-    "id": 151,
+    "id": 146,
     "book": 1,
     "english": "steamed buns (with meat)",
     "traditional": "包子",
@@ -1812,7 +1752,7 @@ const VOCAB_DATA = [
     "searchTerm": "steamed buns (with meat)"
   },
   {
-    "id": 152,
+    "id": 147,
     "book": 1,
     "english": "store-owner, boss",
     "traditional": "老闆",
@@ -1824,7 +1764,7 @@ const VOCAB_DATA = [
     "searchTerm": "store-owner, boss"
   },
   {
-    "id": 153,
+    "id": 148,
     "book": 1,
     "english": "take out (food)",
     "traditional": "外帶",
@@ -1836,43 +1776,31 @@ const VOCAB_DATA = [
     "searchTerm": "take out (food)"
   },
   {
-    "id": 154,
+    "id": 149,
     "book": 1,
-    "english": "to take / to need",
-    "traditional": "要",
-    "pinyin": "yào",
+    "english": "ten thousand",
+    "traditional": "萬",
+    "pinyin": "wàn",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/take.png",
-    "localImage": "vocab_images/take.png",
-    "searchTerm": "to take / to need"
+    "photoUrl": "vocab_images/ten thousand.png",
+    "localImage": "vocab_images/ten thousand.png",
+    "searchTerm": "ten thousand"
   },
   {
-    "id": 155,
+    "id": 150,
     "book": 1,
-    "english": "That's very kind of you",
-    "traditional": "太客氣",
-    "pinyin": "tài kè qì",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "that's very kind of you"
-  },
-  {
-    "id": 156,
-    "book": 1,
-    "english": "therefore / so",
-    "traditional": "所以",
-    "pinyin": "suǒ yǐ",
+    "english": "that",
+    "traditional": "那",
+    "pinyin": "nà",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/so.png",
-    "localImage": "vocab_images/so.png",
-    "searchTerm": "therefore / so"
+    "photoUrl": "vocab_images/that.png",
+    "localImage": "vocab_images/that.png",
+    "searchTerm": "that"
   },
   {
-    "id": 157,
+    "id": 151,
     "book": 1,
     "english": "thousand",
     "traditional": "千",
@@ -1884,7 +1812,19 @@ const VOCAB_DATA = [
     "searchTerm": "thousand"
   },
   {
-    "id": 158,
+    "id": 152,
+    "book": 1,
+    "english": "to take / to need",
+    "traditional": "要",
+    "pinyin": "yào",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
+    "searchTerm": "to take / to need"
+  },
+  {
+    "id": 153,
     "book": 1,
     "english": "to want / to need",
     "traditional": "要",
@@ -1896,19 +1836,31 @@ const VOCAB_DATA = [
     "searchTerm": "to want / to need"
   },
   {
-    "id": 159,
+    "id": 154,
     "book": 1,
-    "english": "who",
-    "traditional": "誰",
-    "pinyin": "shéi",
+    "english": "too",
+    "traditional": "太",
+    "pinyin": "tài",
     "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/who.png",
-    "localImage": "vocab_images/who.png",
-    "searchTerm": "who"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "too"
   },
   {
-    "id": 160,
+    "id": 155,
+    "book": 1,
+    "english": "why",
+    "traditional": "為什麼",
+    "pinyin": "wèi shén me",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/why.png",
+    "localImage": "vocab_images/why.png",
+    "searchTerm": "why"
+  },
+  {
+    "id": 156,
     "book": 1,
     "english": "a little",
     "traditional": "有一點",
@@ -1920,19 +1872,7 @@ const VOCAB_DATA = [
     "searchTerm": "a little"
   },
   {
-    "id": 161,
-    "book": 1,
-    "english": "to be able to, can",
-    "traditional": "會",
-    "pinyin": "huì",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/can.png",
-    "localImage": "vocab_images/can.png",
-    "searchTerm": "to be able to, can"
-  },
-  {
-    "id": 162,
+    "id": 157,
     "book": 1,
     "english": "beef",
     "traditional": "牛肉",
@@ -1944,79 +1884,67 @@ const VOCAB_DATA = [
     "searchTerm": "beef"
   },
   {
-    "id": 163,
+    "id": 158,
     "book": 1,
-    "english": "Bye. Take care.",
-    "traditional": "慢走",
-    "pinyin": "màn zǒu",
+    "english": "a bowl of",
+    "traditional": "碗",
+    "pinyin": "wǎn",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/bowl.png",
+    "localImage": "vocab_images/bowl.png",
+    "searchTerm": "a bowl of"
+  },
+  {
+    "id": 159,
+    "book": 1,
+    "english": "but, however",
+    "traditional": "可是",
+    "pinyin": "kě shì",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "bye. take care."
+    "searchTerm": "but, however"
   },
   {
-    "id": 164,
+    "id": 160,
     "book": 1,
-    "english": "comfortable",
-    "traditional": "舒服",
-    "pinyin": "shū fú",
+    "english": "complement marker",
+    "traditional": "得",
+    "pinyin": "de",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "complement marker"
+  },
+  {
+    "id": 161,
+    "book": 1,
+    "english": "to cook",
+    "traditional": "做飯",
+    "pinyin": "zuò fàn",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/comfortable.png",
-    "localImage": "vocab_images/comfortable.png",
-    "searchTerm": "comfortable"
+    "photoUrl": "vocab_images/cook.png",
+    "localImage": "vocab_images/cook.png",
+    "searchTerm": "to cook"
   },
   {
-    "id": 165,
+    "id": 162,
     "book": 1,
-    "english": "convenience store",
-    "traditional": "便利商店",
-    "pinyin": "biàn lì shāng diàn",
+    "english": "could (possibility)",
+    "traditional": "可以",
+    "pinyin": "kě yǐ",
     "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/convenience store.png",
-    "localImage": "vocab_images/convenience store.png",
-    "searchTerm": "convenience store"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "could (possibility)"
   },
   {
-    "id": 166,
-    "book": 1,
-    "english": "correct, right",
-    "traditional": "對",
-    "pinyin": "duì",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/right.png",
-    "localImage": "vocab_images/right.png",
-    "searchTerm": "correct, right"
-  },
-  {
-    "id": 167,
-    "book": 1,
-    "english": "cup",
-    "traditional": "杯",
-    "pinyin": "bēi",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cup.png",
-    "localImage": "vocab_images/cup.png",
-    "searchTerm": "cup"
-  },
-  {
-    "id": 168,
-    "book": 1,
-    "english": "dad",
-    "traditional": "爸爸",
-    "pinyin": "bà ba",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/dad.png",
-    "localImage": "vocab_images/dad.png",
-    "searchTerm": "dad"
-  },
-  {
-    "id": 169,
+    "id": 163,
     "book": 1,
     "english": "delicious",
     "traditional": "好吃",
@@ -2028,19 +1956,43 @@ const VOCAB_DATA = [
     "searchTerm": "delicious"
   },
   {
-    "id": 170,
+    "id": 164,
     "book": 1,
-    "english": "to exercise",
-    "traditional": "運動",
-    "pinyin": "yùn dòng",
+    "english": "dessert",
+    "traditional": "甜點",
+    "pinyin": "tián diǎn",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/exercise.png",
-    "localImage": "vocab_images/exercise.png",
-    "searchTerm": "to exercise"
+    "photoUrl": "vocab_images/dessert.png",
+    "localImage": "vocab_images/dessert.png",
+    "searchTerm": "dessert"
   },
   {
-    "id": 171,
+    "id": 165,
+    "book": 1,
+    "english": "Excellent. Great.",
+    "traditional": "太好了",
+    "pinyin": "tài hǎo le",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "excellent. great."
+  },
+  {
+    "id": 166,
+    "book": 1,
+    "english": "to fear / not like",
+    "traditional": "怕",
+    "pinyin": "pà",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fear.png",
+    "localImage": "vocab_images/fear.png",
+    "searchTerm": "to fear / not like"
+  },
+  {
+    "id": 167,
     "book": 1,
     "english": "few in number",
     "traditional": "少",
@@ -2052,43 +2004,43 @@ const VOCAB_DATA = [
     "searchTerm": "few in number"
   },
   {
-    "id": 172,
+    "id": 168,
     "book": 1,
-    "english": "hot",
-    "traditional": "熱",
-    "pinyin": "rè",
+    "english": "hot (spicy)",
+    "traditional": "辣",
+    "pinyin": "là",
     "lesson": 5,
     "isVisual": true,
     "photoUrl": "vocab_images/hot.png",
     "localImage": "vocab_images/hot.png",
-    "searchTerm": "hot"
+    "searchTerm": "hot (spicy)"
   },
   {
-    "id": 173,
+    "id": 169,
     "book": 1,
-    "english": "library",
-    "traditional": "圖書館",
-    "pinyin": "tú shū guǎn",
+    "english": "to know",
+    "traditional": "知道",
+    "pinyin": "zhī dào",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/library.png",
-    "localImage": "vocab_images/library.png",
-    "searchTerm": "library"
+    "photoUrl": "vocab_images/know.png",
+    "localImage": "vocab_images/know.png",
+    "searchTerm": "to know"
   },
   {
-    "id": 174,
+    "id": 170,
     "book": 1,
-    "english": "measure word for buildings",
-    "traditional": "棟",
-    "pinyin": "dòng",
+    "english": "light repast, snack",
+    "traditional": "小吃",
+    "pinyin": "xiǎo chī",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for buildings"
+    "isVisual": true,
+    "photoUrl": "vocab_images/snack.png",
+    "localImage": "vocab_images/snack.png",
+    "searchTerm": "light repast, snack"
   },
   {
-    "id": 175,
+    "id": 171,
     "book": 1,
     "english": "measure word for restaurants/shops",
     "traditional": "家",
@@ -2100,31 +2052,19 @@ const VOCAB_DATA = [
     "searchTerm": "measure word for restaurants/shops"
   },
   {
-    "id": 176,
+    "id": 172,
     "book": 1,
-    "english": "medicine",
-    "traditional": "藥",
-    "pinyin": "yào",
+    "english": "noodles",
+    "traditional": "麵",
+    "pinyin": "miàn",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/medicine.png",
-    "localImage": "vocab_images/medicine.png",
-    "searchTerm": "medicine"
+    "photoUrl": "vocab_images/noodles.png",
+    "localImage": "vocab_images/noodles.png",
+    "searchTerm": "noodles"
   },
   {
-    "id": 177,
-    "book": 1,
-    "english": "next year",
-    "traditional": "明年",
-    "pinyin": "míng nián",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "next year"
-  },
-  {
-    "id": 178,
+    "id": 173,
     "book": 1,
     "english": "not bad",
     "traditional": "不錯",
@@ -2136,31 +2076,31 @@ const VOCAB_DATA = [
     "searchTerm": "not bad"
   },
   {
-    "id": 179,
+    "id": 174,
     "book": 1,
-    "english": "not to look good",
-    "traditional": "難看",
-    "pinyin": "nán kàn",
+    "english": "not well",
+    "traditional": "不好",
+    "pinyin": "bù hǎo",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/not well.png",
+    "localImage": "vocab_images/not well.png",
+    "searchTerm": "not well"
+  },
+  {
+    "id": 175,
+    "book": 1,
+    "english": "to order (meals)",
+    "traditional": "點",
+    "pinyin": "diǎn",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "not to look good"
+    "searchTerm": "to order (meals)"
   },
   {
-    "id": 180,
-    "book": 1,
-    "english": "or",
-    "traditional": "或是",
-    "pinyin": "huò shì",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "or"
-  },
-  {
-    "id": 181,
+    "id": 176,
     "book": 1,
     "english": "really",
     "traditional": "真",
@@ -2172,31 +2112,31 @@ const VOCAB_DATA = [
     "searchTerm": "really"
   },
   {
-    "id": 182,
+    "id": 177,
     "book": 1,
-    "english": "to rent",
-    "traditional": "租",
-    "pinyin": "zū",
+    "english": "really must / definitely",
+    "traditional": "一定",
+    "pinyin": "yī dìng",
     "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/rent.png",
-    "localImage": "vocab_images/rent.png",
-    "searchTerm": "to rent"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "really must / definitely"
   },
   {
-    "id": 183,
+    "id": 178,
     "book": 1,
-    "english": "right (side)",
-    "traditional": "右邊",
-    "pinyin": "yòu biān",
+    "english": "restaurant",
+    "traditional": "餐廳",
+    "pinyin": "cān tīng",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/right.png",
-    "localImage": "vocab_images/right.png",
-    "searchTerm": "right (side)"
+    "photoUrl": "vocab_images/restaurant.png",
+    "localImage": "vocab_images/restaurant.png",
+    "searchTerm": "restaurant"
   },
   {
-    "id": 184,
+    "id": 179,
     "book": 1,
     "english": "say",
     "traditional": "說",
@@ -2208,7 +2148,7 @@ const VOCAB_DATA = [
     "searchTerm": "say"
   },
   {
-    "id": 185,
+    "id": 180,
     "book": 1,
     "english": "self",
     "traditional": "自己",
@@ -2220,7 +2160,7 @@ const VOCAB_DATA = [
     "searchTerm": "self"
   },
   {
-    "id": 186,
+    "id": 181,
     "book": 1,
     "english": "shop, store",
     "traditional": "店",
@@ -2232,7 +2172,19 @@ const VOCAB_DATA = [
     "searchTerm": "shop, store"
   },
   {
-    "id": 187,
+    "id": 182,
+    "book": 1,
+    "english": "so",
+    "traditional": "這麼",
+    "pinyin": "zhè me",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
+    "searchTerm": "so"
+  },
+  {
+    "id": 183,
     "book": 1,
     "english": "soup, broth",
     "traditional": "湯",
@@ -2244,7 +2196,7 @@ const VOCAB_DATA = [
     "searchTerm": "soup, broth"
   },
   {
-    "id": 188,
+    "id": 184,
     "book": 1,
     "english": "stinky tofu",
     "traditional": "臭豆腐",
@@ -2256,67 +2208,79 @@ const VOCAB_DATA = [
     "searchTerm": "stinky tofu"
   },
   {
-    "id": 189,
+    "id": 185,
     "book": 1,
-    "english": "ten thousand",
-    "traditional": "萬",
-    "pinyin": "wàn",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/ten thousand.png",
-    "localImage": "vocab_images/ten thousand.png",
-    "searchTerm": "ten thousand"
-  },
-  {
-    "id": 190,
-    "book": 1,
-    "english": "to taste good",
-    "traditional": "好喝",
-    "pinyin": "hǎo hē",
+    "english": "That's right",
+    "traditional": "是啊",
+    "pinyin": "shì a",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to taste good"
+    "searchTerm": "that's right"
+  },
+  {
+    "id": 186,
+    "book": 1,
+    "english": "therefore / so",
+    "traditional": "所以",
+    "pinyin": "suǒ yǐ",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
+    "searchTerm": "therefore / so"
+  },
+  {
+    "id": 187,
+    "book": 1,
+    "english": "to",
+    "traditional": "到",
+    "pinyin": "dào",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to"
+  },
+  {
+    "id": 188,
+    "book": 1,
+    "english": "to be able to, can",
+    "traditional": "會",
+    "pinyin": "huì",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/can.png",
+    "localImage": "vocab_images/can.png",
+    "searchTerm": "to be able to, can"
+  },
+  {
+    "id": 189,
+    "book": 1,
+    "english": "to teach",
+    "traditional": "教",
+    "pinyin": "jiāo",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/teach.png",
+    "localImage": "vocab_images/teach.png",
+    "searchTerm": "to teach"
+  },
+  {
+    "id": 190,
+    "book": 1,
+    "english": "most",
+    "traditional": "最",
+    "pinyin": "zuì",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/most.png",
+    "localImage": "vocab_images/most.png",
+    "searchTerm": "most"
   },
   {
     "id": 191,
-    "book": 1,
-    "english": "the same / alike",
-    "traditional": "一樣",
-    "pinyin": "yī yàng",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/the same.png",
-    "localImage": "vocab_images/the same.png",
-    "searchTerm": "the same / alike"
-  },
-  {
-    "id": 192,
-    "book": 1,
-    "english": "to think",
-    "traditional": "想",
-    "pinyin": "xiǎng",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/think.png",
-    "localImage": "vocab_images/think.png",
-    "searchTerm": "to think"
-  },
-  {
-    "id": 193,
-    "book": 1,
-    "english": "tired",
-    "traditional": "累",
-    "pinyin": "lèi",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tired.png",
-    "localImage": "vocab_images/tired.png",
-    "searchTerm": "tired"
-  },
-  {
-    "id": 194,
     "book": 1,
     "english": "well-known / famous",
     "traditional": "有名",
@@ -2328,7 +2292,7 @@ const VOCAB_DATA = [
     "searchTerm": "well-known / famous"
   },
   {
-    "id": 195,
+    "id": 192,
     "book": 1,
     "english": "xiaolongbao",
     "traditional": "小籠包",
@@ -2340,7 +2304,7 @@ const VOCAB_DATA = [
     "searchTerm": "xiaolongbao"
   },
   {
-    "id": 196,
+    "id": 193,
     "book": 1,
     "english": "yesterday",
     "traditional": "昨天",
@@ -2352,7 +2316,7 @@ const VOCAB_DATA = [
     "searchTerm": "yesterday"
   },
   {
-    "id": 197,
+    "id": 194,
     "book": 1,
     "english": "at",
     "traditional": "在",
@@ -2364,7 +2328,7 @@ const VOCAB_DATA = [
     "searchTerm": "at"
   },
   {
-    "id": 198,
+    "id": 195,
     "book": 1,
     "english": "back",
     "traditional": "後面",
@@ -2376,55 +2340,43 @@ const VOCAB_DATA = [
     "searchTerm": "back"
   },
   {
-    "id": 199,
+    "id": 196,
     "book": 1,
-    "english": "class",
-    "traditional": "課",
-    "pinyin": "kè",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/class.png",
-    "localImage": "vocab_images/class.png",
-    "searchTerm": "class"
-  },
-  {
-    "id": 200,
-    "book": 1,
-    "english": "continuously, all the way",
-    "traditional": "一直",
-    "pinyin": "yī zhí",
+    "english": "because",
+    "traditional": "因為",
+    "pinyin": "yīn wèi",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "continuously, all the way"
+    "searchTerm": "because"
   },
   {
-    "id": 201,
+    "id": 197,
     "book": 1,
-    "english": "to drink",
-    "traditional": "喝",
-    "pinyin": "hē",
+    "english": "classroom",
+    "traditional": "教室",
+    "pinyin": "jiào shì",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/drink.png",
-    "localImage": "vocab_images/drink.png",
-    "searchTerm": "to drink"
+    "photoUrl": "vocab_images/classroom.png",
+    "localImage": "vocab_images/classroom.png",
+    "searchTerm": "classroom"
   },
   {
-    "id": 202,
+    "id": 198,
     "book": 1,
-    "english": "far",
-    "traditional": "遠",
-    "pinyin": "yuǎn",
+    "english": "convenient",
+    "traditional": "方便",
+    "pinyin": "fāng biàn",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/far.png",
-    "localImage": "vocab_images/far.png",
-    "searchTerm": "far"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "convenient"
   },
   {
-    "id": 203,
+    "id": 199,
     "book": 1,
     "english": "dormitory",
     "traditional": "宿舍",
@@ -2436,55 +2388,55 @@ const VOCAB_DATA = [
     "searchTerm": "dormitory"
   },
   {
+    "id": 200,
+    "book": 1,
+    "english": "downstairs",
+    "traditional": "樓下",
+    "pinyin": "lóu xià",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/downstairs.png",
+    "localImage": "vocab_images/downstairs.png",
+    "searchTerm": "downstairs"
+  },
+  {
+    "id": 201,
+    "book": 1,
+    "english": "far",
+    "traditional": "遠",
+    "pinyin": "yuǎn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/far.png",
+    "localImage": "vocab_images/far.png",
+    "searchTerm": "far"
+  },
+  {
+    "id": 202,
+    "book": 1,
+    "english": "friend",
+    "traditional": "朋友",
+    "pinyin": "péng yǒu",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/friend.png",
+    "localImage": "vocab_images/friend.png",
+    "searchTerm": "friend"
+  },
+  {
+    "id": 203,
+    "book": 1,
+    "english": "front",
+    "traditional": "前面",
+    "pinyin": "qián miàn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/in front of.png",
+    "localImage": "vocab_images/in front of.png",
+    "searchTerm": "front"
+  },
+  {
     "id": 204,
-    "book": 1,
-    "english": "to flow",
-    "traditional": "流",
-    "pinyin": "liú",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/flow.png",
-    "localImage": "vocab_images/flow.png",
-    "searchTerm": "to flow"
-  },
-  {
-    "id": 205,
-    "book": 1,
-    "english": "for here",
-    "traditional": "內用",
-    "pinyin": "nèi yòng",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "for here"
-  },
-  {
-    "id": 206,
-    "book": 1,
-    "english": "to give it a try",
-    "traditional": "試試看",
-    "pinyin": "shì shì kàn",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to give it a try"
-  },
-  {
-    "id": 207,
-    "book": 1,
-    "english": "to go out",
-    "traditional": "出去",
-    "pinyin": "chū qù",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/go out.png",
-    "localImage": "vocab_images/go out.png",
-    "searchTerm": "to go out"
-  },
-  {
-    "id": 208,
     "book": 1,
     "english": "to have a meal",
     "traditional": "吃飯",
@@ -2496,19 +2448,7 @@ const VOCAB_DATA = [
     "searchTerm": "to have a meal"
   },
   {
-    "id": 209,
-    "book": 1,
-    "english": "health center",
-    "traditional": "健康中心",
-    "pinyin": "jiàn kāng zhōng xīn",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/clinic.png",
-    "localImage": "vocab_images/clinic.png",
-    "searchTerm": "health center"
-  },
-  {
-    "id": 210,
+    "id": 205,
     "book": 1,
     "english": "hear that",
     "traditional": "聽說",
@@ -2520,115 +2460,19 @@ const VOCAB_DATA = [
     "searchTerm": "hear that"
   },
   {
-    "id": 211,
+    "id": 206,
     "book": 1,
-    "english": "inside",
-    "traditional": "裡面",
-    "pinyin": "lǐ miàn",
+    "english": "here, this place",
+    "traditional": "這裡",
+    "pinyin": "zhè lǐ",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/inside.png",
-    "localImage": "vocab_images/inside.png",
-    "searchTerm": "inside"
+    "photoUrl": "vocab_images/here.png",
+    "localImage": "vocab_images/here.png",
+    "searchTerm": "here, this place"
   },
   {
-    "id": 212,
-    "book": 1,
-    "english": "left (side)",
-    "traditional": "左邊",
-    "pinyin": "zuǒ biān",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/left.png",
-    "localImage": "vocab_images/left.png",
-    "searchTerm": "left (side)"
-  },
-  {
-    "id": 213,
-    "book": 1,
-    "english": "living room",
-    "traditional": "客廳",
-    "pinyin": "kè tīng",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/living room.png",
-    "localImage": "vocab_images/living room.png",
-    "searchTerm": "living room"
-  },
-  {
-    "id": 214,
-    "book": 1,
-    "english": "measure word for year",
-    "traditional": "年",
-    "pinyin": "nián",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for year"
-  },
-  {
-    "id": 215,
-    "book": 1,
-    "english": "to microwave",
-    "traditional": "微波",
-    "pinyin": "wéi bō",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/microwave.png",
-    "localImage": "vocab_images/microwave.png",
-    "searchTerm": "to microwave"
-  },
-  {
-    "id": 216,
-    "book": 1,
-    "english": "most",
-    "traditional": "最",
-    "pinyin": "zuì",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/most.png",
-    "localImage": "vocab_images/most.png",
-    "searchTerm": "most"
-  },
-  {
-    "id": 217,
-    "book": 1,
-    "english": "mountain",
-    "traditional": "山",
-    "pinyin": "shān",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/mountain.png",
-    "localImage": "vocab_images/mountain.png",
-    "searchTerm": "mountain"
-  },
-  {
-    "id": 218,
-    "book": 1,
-    "english": "on a mountain",
-    "traditional": "山上",
-    "pinyin": "shān shàng",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/on a mountain.png",
-    "localImage": "vocab_images/on a mountain.png",
-    "searchTerm": "on a mountain"
-  },
-  {
-    "id": 219,
-    "book": 1,
-    "english": "multi-storey building",
-    "traditional": "大樓",
-    "pinyin": "dà lóu",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/building.png",
-    "localImage": "vocab_images/building.png",
-    "searchTerm": "multi-storey building"
-  },
-  {
-    "id": 220,
+    "id": 207,
     "book": 1,
     "english": "Hualien (city in Taiwan)",
     "traditional": "花蓮",
@@ -2640,7 +2484,67 @@ const VOCAB_DATA = [
     "searchTerm": "hualien (city in taiwan)"
   },
   {
-    "id": 221,
+    "id": 208,
+    "book": 1,
+    "english": "inside",
+    "traditional": "裡面",
+    "pinyin": "lǐ miàn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/inside.png",
+    "localImage": "vocab_images/inside.png",
+    "searchTerm": "inside"
+  },
+  {
+    "id": 209,
+    "book": 1,
+    "english": "library",
+    "traditional": "圖書館",
+    "pinyin": "tú shū guǎn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/library.png",
+    "localImage": "vocab_images/library.png",
+    "searchTerm": "library"
+  },
+  {
+    "id": 210,
+    "book": 1,
+    "english": "measure word for buildings",
+    "traditional": "棟",
+    "pinyin": "dòng",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for buildings"
+  },
+  {
+    "id": 211,
+    "book": 1,
+    "english": "mountain",
+    "traditional": "山",
+    "pinyin": "shān",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/mountain.png",
+    "localImage": "vocab_images/mountain.png",
+    "searchTerm": "mountain"
+  },
+  {
+    "id": 212,
+    "book": 1,
+    "english": "multi-storey building",
+    "traditional": "大樓",
+    "pinyin": "dà lóu",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/building.png",
+    "localImage": "vocab_images/building.png",
+    "searchTerm": "multi-storey building"
+  },
+  {
+    "id": 213,
     "book": 1,
     "english": "near",
     "traditional": "近",
@@ -2652,55 +2556,55 @@ const VOCAB_DATA = [
     "searchTerm": "near"
   },
   {
-    "id": 222,
+    "id": 214,
     "book": 1,
-    "english": "not well",
-    "traditional": "不好",
-    "pinyin": "bù hǎo",
+    "english": "now",
+    "traditional": "現在",
+    "pinyin": "xiàn zài",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/not well.png",
-    "localImage": "vocab_images/not well.png",
-    "searchTerm": "not well"
+    "photoUrl": "vocab_images/now.png",
+    "localImage": "vocab_images/now.png",
+    "searchTerm": "now"
   },
   {
-    "id": 223,
+    "id": 215,
     "book": 1,
-    "english": "good",
-    "traditional": "好",
-    "pinyin": "hǎo",
+    "english": "ocean",
+    "traditional": "海",
+    "pinyin": "hǎi",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/good.png",
-    "localImage": "vocab_images/good.png",
-    "searchTerm": "good"
+    "photoUrl": "vocab_images/ocean.png",
+    "localImage": "vocab_images/ocean.png",
+    "searchTerm": "ocean"
   },
   {
-    "id": 224,
+    "id": 216,
     "book": 1,
-    "english": "to order (meals)",
-    "traditional": "點",
-    "pinyin": "diǎn",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to order (meals)"
-  },
-  {
-    "id": 225,
-    "book": 1,
-    "english": "to pay",
-    "traditional": "付",
-    "pinyin": "fù",
+    "english": "on a mountain",
+    "traditional": "山上",
+    "pinyin": "shān shàng",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/pay.png",
-    "localImage": "vocab_images/pay.png",
-    "searchTerm": "to pay"
+    "photoUrl": "vocab_images/on a mountain.png",
+    "localImage": "vocab_images/on a mountain.png",
+    "searchTerm": "on a mountain"
   },
   {
-    "id": 226,
+    "id": 217,
+    "book": 1,
+    "english": "outside",
+    "traditional": "外面",
+    "pinyin": "wài miàn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/outside.png",
+    "localImage": "vocab_images/outside.png",
+    "searchTerm": "outside"
+  },
+  {
+    "id": 218,
     "book": 1,
     "english": "place",
     "traditional": "地方",
@@ -2712,19 +2616,19 @@ const VOCAB_DATA = [
     "searchTerm": "place"
   },
   {
-    "id": 227,
+    "id": 219,
     "book": 1,
-    "english": "really must / definitely",
-    "traditional": "一定",
-    "pinyin": "yī dìng",
+    "english": "really, truly",
+    "traditional": "真的",
+    "pinyin": "zhēn de",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "really must / definitely"
+    "searchTerm": "really, truly"
   },
   {
-    "id": 228,
+    "id": 220,
     "book": 1,
     "english": "scenery, landscape",
     "traditional": "風景",
@@ -2736,7 +2640,7 @@ const VOCAB_DATA = [
     "searchTerm": "scenery, landscape"
   },
   {
-    "id": 229,
+    "id": 221,
     "book": 1,
     "english": "school",
     "traditional": "學校",
@@ -2748,7 +2652,7 @@ const VOCAB_DATA = [
     "searchTerm": "school"
   },
   {
-    "id": 230,
+    "id": 222,
     "book": 1,
     "english": "side, next to",
     "traditional": "旁邊",
@@ -2760,19 +2664,7 @@ const VOCAB_DATA = [
     "searchTerm": "side, next to"
   },
   {
-    "id": 231,
-    "book": 1,
-    "english": "store, shop",
-    "traditional": "商店",
-    "pinyin": "shāng diàn",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/shop.png",
-    "localImage": "vocab_images/shop.png",
-    "searchTerm": "store, shop"
-  },
-  {
-    "id": 232,
+    "id": 223,
     "book": 1,
     "english": "a storey / floor",
     "traditional": "樓",
@@ -2784,7 +2676,19 @@ const VOCAB_DATA = [
     "searchTerm": "a storey / floor"
   },
   {
-    "id": 233,
+    "id": 224,
+    "book": 1,
+    "english": "store, shop",
+    "traditional": "商店",
+    "pinyin": "shāng diàn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/shop.png",
+    "localImage": "vocab_images/shop.png",
+    "searchTerm": "store, shop"
+  },
+  {
+    "id": 225,
     "book": 1,
     "english": "student",
     "traditional": "學生",
@@ -2796,7 +2700,7 @@ const VOCAB_DATA = [
     "searchTerm": "student"
   },
   {
-    "id": 234,
+    "id": 226,
     "book": 1,
     "english": "swimming pool",
     "traditional": "游泳池",
@@ -2808,67 +2712,79 @@ const VOCAB_DATA = [
     "searchTerm": "swimming pool"
   },
   {
-    "id": 235,
+    "id": 227,
     "book": 1,
-    "english": "teahouse",
-    "traditional": "茶館",
-    "pinyin": "chá guǎn",
+    "english": "that place / there",
+    "traditional": "那裡",
+    "pinyin": "nà lǐ",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/teahouse.png",
-    "localImage": "vocab_images/teahouse.png",
-    "searchTerm": "teahouse"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "that place / there"
   },
   {
-    "id": 236,
+    "id": 228,
     "book": 1,
-    "english": "the day after tomorrow",
-    "traditional": "後天",
-    "pinyin": "hòu tiān",
+    "english": "they (people only)",
+    "traditional": "他們",
+    "pinyin": "tā men",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/the day after tomorrow.png",
-    "localImage": "vocab_images/the day after tomorrow.png",
-    "searchTerm": "the day after tomorrow"
+    "photoUrl": "vocab_images/they.png",
+    "localImage": "vocab_images/they.png",
+    "searchTerm": "they (people only)"
   },
   {
-    "id": 237,
+    "id": 229,
     "book": 1,
-    "english": "these",
-    "traditional": "這些",
-    "pinyin": "zhè xiē",
+    "english": "things / stuff",
+    "traditional": "東西",
+    "pinyin": "dōng xi",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/these.png",
-    "localImage": "vocab_images/these.png",
-    "searchTerm": "these"
+    "photoUrl": "vocab_images/things.png",
+    "localImage": "vocab_images/things.png",
+    "searchTerm": "things / stuff"
   },
   {
-    "id": 238,
+    "id": 230,
     "book": 1,
-    "english": "This is s/he speaking",
-    "traditional": "我就是",
-    "pinyin": "wǒ jiù shì",
+    "english": "to be located at",
+    "traditional": "在",
+    "pinyin": "zài",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be located at"
+  },
+  {
+    "id": 231,
+    "book": 1,
+    "english": "to go to class",
+    "traditional": "上課",
+    "pinyin": "shàng kè",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/this is s.png",
-    "localImage": "vocab_images/this is s.png",
-    "searchTerm": "this is s/he speaking"
+    "photoUrl": "vocab_images/go to class.png",
+    "localImage": "vocab_images/go to class.png",
+    "searchTerm": "to go to class"
   },
   {
-    "id": 239,
+    "id": 232,
     "book": 1,
-    "english": "very",
-    "traditional": "很",
-    "pinyin": "hěn",
+    "english": "vicinity / nearby",
+    "traditional": "附近",
+    "pinyin": "fù jìn",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/very.png",
-    "localImage": "vocab_images/very.png",
-    "searchTerm": "very"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "vicinity / nearby"
   },
   {
-    "id": 240,
+    "id": 233,
     "book": 1,
     "english": "where",
     "traditional": "哪裡",
@@ -2880,7 +2796,7 @@ const VOCAB_DATA = [
     "searchTerm": "where"
   },
   {
-    "id": 241,
+    "id": 234,
     "book": 1,
     "english": "afternoon",
     "traditional": "下午",
@@ -2892,7 +2808,7 @@ const VOCAB_DATA = [
     "searchTerm": "afternoon"
   },
   {
-    "id": 242,
+    "id": 235,
     "book": 1,
     "english": "to ask",
     "traditional": "問",
@@ -2904,7 +2820,7 @@ const VOCAB_DATA = [
     "searchTerm": "to ask"
   },
   {
-    "id": 243,
+    "id": 236,
     "book": 1,
     "english": "bank",
     "traditional": "銀行",
@@ -2916,7 +2832,7 @@ const VOCAB_DATA = [
     "searchTerm": "bank"
   },
   {
-    "id": 244,
+    "id": 237,
     "book": 1,
     "english": "to begin, to start",
     "traditional": "開始",
@@ -2928,19 +2844,7 @@ const VOCAB_DATA = [
     "searchTerm": "to begin, to start"
   },
   {
-    "id": 245,
-    "book": 1,
-    "english": "brothers",
-    "traditional": "兄弟",
-    "pinyin": "xiōng dì",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/brothers.png",
-    "localImage": "vocab_images/brothers.png",
-    "searchTerm": "brothers"
-  },
-  {
-    "id": 246,
+    "id": 238,
     "book": 1,
     "english": "to be busy / engaged",
     "traditional": "有事",
@@ -2952,7 +2856,19 @@ const VOCAB_DATA = [
     "searchTerm": "to be busy / engaged"
   },
   {
-    "id": 247,
+    "id": 239,
+    "book": 1,
+    "english": "busy",
+    "traditional": "忙",
+    "pinyin": "máng",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "busy"
+  },
+  {
+    "id": 240,
     "book": 1,
     "english": "by the way",
     "traditional": "對了",
@@ -2964,7 +2880,7 @@ const VOCAB_DATA = [
     "searchTerm": "by the way"
   },
   {
-    "id": 248,
+    "id": 241,
     "book": 1,
     "english": "calligraphy",
     "traditional": "書法",
@@ -2976,91 +2892,115 @@ const VOCAB_DATA = [
     "searchTerm": "calligraphy"
   },
   {
-    "id": 249,
+    "id": 242,
     "book": 1,
-    "english": "cell phone",
-    "traditional": "手機",
-    "pinyin": "shǒu jī",
+    "english": "character",
+    "traditional": "字",
+    "pinyin": "zì",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/cell phone.png",
-    "localImage": "vocab_images/cell phone.png",
-    "searchTerm": "cell phone"
+    "photoUrl": "vocab_images/character.png",
+    "localImage": "vocab_images/character.png",
+    "searchTerm": "character"
+  },
+  {
+    "id": 243,
+    "book": 1,
+    "english": "class",
+    "traditional": "課",
+    "pinyin": "kè",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/class.png",
+    "localImage": "vocab_images/class.png",
+    "searchTerm": "class"
+  },
+  {
+    "id": 244,
+    "book": 1,
+    "english": "Da-an (district name)",
+    "traditional": "大安",
+    "pinyin": "Dà ān",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/name.png",
+    "localImage": "vocab_images/name.png",
+    "searchTerm": "da-an (district name)"
+  },
+  {
+    "id": 245,
+    "book": 1,
+    "english": "the day after tomorrow",
+    "traditional": "後天",
+    "pinyin": "hòu tiān",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the day after tomorrow.png",
+    "localImage": "vocab_images/the day after tomorrow.png",
+    "searchTerm": "the day after tomorrow"
+  },
+  {
+    "id": 246,
+    "book": 1,
+    "english": "every, each",
+    "traditional": "每",
+    "pinyin": "měi",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "every, each"
+  },
+  {
+    "id": 247,
+    "book": 1,
+    "english": "to finish",
+    "traditional": "結束",
+    "pinyin": "jié shù",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to finish"
+  },
+  {
+    "id": 248,
+    "book": 1,
+    "english": "to finish class",
+    "traditional": "下課",
+    "pinyin": "xià kè",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to finish class"
+  },
+  {
+    "id": 249,
+    "book": 1,
+    "english": "from",
+    "traditional": "從",
+    "pinyin": "cóng",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "from"
   },
   {
     "id": 250,
     "book": 1,
-    "english": "Chinese last name (common in Taiwan)",
-    "traditional": "林",
-    "pinyin": "Lín",
+    "english": "game, competition",
+    "traditional": "比賽",
+    "pinyin": "bǐ sài",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "chinese last name (common in taiwan)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/competition.png",
+    "localImage": "vocab_images/competition.png",
+    "searchTerm": "game, competition"
   },
   {
     "id": 251,
-    "book": 1,
-    "english": "cuisine",
-    "traditional": "菜",
-    "pinyin": "cài",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "cuisine"
-  },
-  {
-    "id": 252,
-    "book": 1,
-    "english": "Excellent. Great.",
-    "traditional": "太好了",
-    "pinyin": "tài hǎo le",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "excellent. great."
-  },
-  {
-    "id": 253,
-    "book": 1,
-    "english": "for (use)",
-    "traditional": "用",
-    "pinyin": "yòng",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "for (use)"
-  },
-  {
-    "id": 254,
-    "book": 1,
-    "english": "fragrant",
-    "traditional": "香",
-    "pinyin": "xiāng",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "fragrant"
-  },
-  {
-    "id": 255,
-    "book": 1,
-    "english": "to go/come to",
-    "traditional": "到",
-    "pinyin": "dào",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/go.png",
-    "localImage": "vocab_images/go.png",
-    "searchTerm": "to go/come to"
-  },
-  {
-    "id": 256,
     "book": 1,
     "english": "Goodbye",
     "traditional": "再見",
@@ -3072,7 +3012,7 @@ const VOCAB_DATA = [
     "searchTerm": "goodbye"
   },
   {
-    "id": 257,
+    "id": 252,
     "book": 1,
     "english": "half",
     "traditional": "半",
@@ -3084,7 +3024,7 @@ const VOCAB_DATA = [
     "searchTerm": "half"
   },
   {
-    "id": 258,
+    "id": 253,
     "book": 1,
     "english": "to have free time",
     "traditional": "有空",
@@ -3096,7 +3036,7 @@ const VOCAB_DATA = [
     "searchTerm": "to have free time"
   },
   {
-    "id": 259,
+    "id": 254,
     "book": 1,
     "english": "to have to, must",
     "traditional": "得",
@@ -3108,7 +3048,7 @@ const VOCAB_DATA = [
     "searchTerm": "to have to, must"
   },
   {
-    "id": 260,
+    "id": 255,
     "book": 1,
     "english": "to be interesting",
     "traditional": "有意思",
@@ -3120,19 +3060,19 @@ const VOCAB_DATA = [
     "searchTerm": "to be interesting"
   },
   {
-    "id": 261,
+    "id": 256,
     "book": 1,
-    "english": "don't (imperative)",
-    "traditional": "別",
-    "pinyin": "bié",
+    "english": "just now",
+    "traditional": "剛",
+    "pinyin": "gāng",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "don't (imperative)"
+    "searchTerm": "just now"
   },
   {
-    "id": 262,
+    "id": 257,
     "book": 1,
     "english": "KTV",
     "traditional": "KTV",
@@ -3144,103 +3084,91 @@ const VOCAB_DATA = [
     "searchTerm": "ktv"
   },
   {
-    "id": 263,
+    "id": 258,
     "book": 1,
-    "english": "last year",
-    "traditional": "去年",
-    "pinyin": "qù nián",
+    "english": "later / wait a moment",
+    "traditional": "等一下",
+    "pinyin": "děng yī xià",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "last year"
+    "searchTerm": "later / wait a moment"
   },
   {
-    "id": 264,
+    "id": 259,
     "book": 1,
-    "english": "to look for",
-    "traditional": "找",
-    "pinyin": "zhǎo",
+    "english": "lunch",
+    "traditional": "午餐",
+    "pinyin": "wǔ cān",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/look for.png",
-    "localImage": "vocab_images/look for.png",
-    "searchTerm": "to look for"
+    "photoUrl": "vocab_images/lunch.png",
+    "localImage": "vocab_images/lunch.png",
+    "searchTerm": "lunch"
   },
   {
-    "id": 265,
+    "id": 260,
     "book": 1,
-    "english": "many",
-    "traditional": "多",
-    "pinyin": "duō",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/many.png",
-    "localImage": "vocab_images/many.png",
-    "searchTerm": "many"
-  },
-  {
-    "id": 266,
-    "book": 1,
-    "english": "May all your wishes come true",
-    "traditional": "心想事成",
-    "pinyin": "xīn xiǎng shì chéng",
+    "english": "may (permission)",
+    "traditional": "可以",
+    "pinyin": "kě yǐ",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "may all your wishes come true"
+    "searchTerm": "may (permission)"
   },
   {
-    "id": 267,
+    "id": 261,
     "book": 1,
-    "english": "measure word for Chinese money",
-    "traditional": "塊",
-    "pinyin": "kuài",
+    "english": "measure word for days",
+    "traditional": "天",
+    "pinyin": "tiān",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "measure word for chinese money"
+    "searchTerm": "measure word for days"
   },
   {
-    "id": 268,
+    "id": 262,
     "book": 1,
-    "english": "to meet / to see (someone)",
-    "traditional": "找",
-    "pinyin": "zhǎo",
+    "english": "to meet (each other)",
+    "traditional": "見面",
+    "pinyin": "jiàn miàn",
     "lesson": 7,
     "isVisual": true,
     "photoUrl": "vocab_images/meet.png",
     "localImage": "vocab_images/meet.png",
-    "searchTerm": "to meet / to see (someone)"
+    "searchTerm": "to meet (each other)"
   },
   {
-    "id": 269,
+    "id": 263,
     "book": 1,
-    "english": "morning",
-    "traditional": "早上",
-    "pinyin": "zǎo shàng",
+    "english": "minute",
+    "traditional": "分",
+    "pinyin": "fēn",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/morning.png",
-    "localImage": "vocab_images/morning.png",
-    "searchTerm": "morning"
+    "photoUrl": "vocab_images/minute.png",
+    "localImage": "vocab_images/minute.png",
+    "searchTerm": "minute"
   },
   {
-    "id": 270,
+    "id": 264,
     "book": 1,
-    "english": "next week",
-    "traditional": "下個星期",
-    "pinyin": "xià gè xīng qī",
+    "english": "next time",
+    "traditional": "下次",
+    "pinyin": "xià cì",
     "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/next week.png",
-    "localImage": "vocab_images/next week.png",
-    "searchTerm": "next week"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "next time"
   },
   {
-    "id": 271,
+    "id": 265,
     "book": 1,
     "english": "No problem",
     "traditional": "沒問題",
@@ -3252,19 +3180,31 @@ const VOCAB_DATA = [
     "searchTerm": "no problem"
   },
   {
-    "id": 272,
+    "id": 266,
     "book": 1,
-    "english": "ocean",
-    "traditional": "海",
-    "pinyin": "hǎi",
+    "english": "noon",
+    "traditional": "中午",
+    "pinyin": "zhōng wǔ",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/ocean.png",
-    "localImage": "vocab_images/ocean.png",
-    "searchTerm": "ocean"
+    "photoUrl": "vocab_images/noon.png",
+    "localImage": "vocab_images/noon.png",
+    "searchTerm": "noon"
   },
   {
-    "id": 273,
+    "id": 267,
+    "book": 1,
+    "english": "o’clock (to order / dot)",
+    "traditional": "點",
+    "pinyin": "diǎn",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "o’clock (to order / dot)"
+  },
+  {
+    "id": 268,
     "book": 1,
     "english": "progressive marker",
     "traditional": "在",
@@ -3276,19 +3216,19 @@ const VOCAB_DATA = [
     "searchTerm": "progressive marker"
   },
   {
-    "id": 274,
+    "id": 269,
     "book": 1,
-    "english": "to receive",
-    "traditional": "收到",
-    "pinyin": "shōu dào",
+    "english": "recently",
+    "traditional": "最近",
+    "pinyin": "zuì jìn",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/receive.png",
-    "localImage": "vocab_images/receive.png",
-    "searchTerm": "to receive"
+    "photoUrl": "vocab_images/recently.png",
+    "localImage": "vocab_images/recently.png",
+    "searchTerm": "recently"
   },
   {
-    "id": 275,
+    "id": 270,
     "book": 1,
     "english": "to sing",
     "traditional": "唱歌",
@@ -3300,7 +3240,7 @@ const VOCAB_DATA = [
     "searchTerm": "to sing"
   },
   {
-    "id": 276,
+    "id": 271,
     "book": 1,
     "english": "soccer",
     "traditional": "足球",
@@ -3312,19 +3252,7 @@ const VOCAB_DATA = [
     "searchTerm": "soccer"
   },
   {
-    "id": 277,
-    "book": 1,
-    "english": "then",
-    "traditional": "就",
-    "pinyin": "jiù",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "then"
-  },
-  {
-    "id": 278,
+    "id": 272,
     "book": 1,
     "english": "when",
     "traditional": "時候",
@@ -3336,7 +3264,7 @@ const VOCAB_DATA = [
     "searchTerm": "when"
   },
   {
-    "id": 279,
+    "id": 273,
     "book": 1,
     "english": "to write",
     "traditional": "寫",
@@ -3348,7 +3276,7 @@ const VOCAB_DATA = [
     "searchTerm": "to write"
   },
   {
-    "id": 280,
+    "id": 274,
     "book": 1,
     "english": "about the same",
     "traditional": "差不多",
@@ -3360,7 +3288,7 @@ const VOCAB_DATA = [
     "searchTerm": "about the same"
   },
   {
-    "id": 281,
+    "id": 275,
     "book": 1,
     "english": "ancient times",
     "traditional": "古代",
@@ -3372,19 +3300,7 @@ const VOCAB_DATA = [
     "searchTerm": "ancient times"
   },
   {
-    "id": 282,
-    "book": 1,
-    "english": "to be",
-    "traditional": "是",
-    "pinyin": "shì",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be"
-  },
-  {
-    "id": 283,
+    "id": 276,
     "book": 1,
     "english": "both … and …",
     "traditional": "又…又…",
@@ -3396,7 +3312,19 @@ const VOCAB_DATA = [
     "searchTerm": "both … and …"
   },
   {
-    "id": 284,
+    "id": 277,
+    "book": 1,
+    "english": "bus",
+    "traditional": "公共汽車（公車）",
+    "pinyin": "gōng gòng qì chē (gōng chē)",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/bus.png",
+    "localImage": "vocab_images/bus.png",
+    "searchTerm": "bus"
+  },
+  {
+    "id": 278,
     "book": 1,
     "english": "but, however",
     "traditional": "但是",
@@ -3408,79 +3336,67 @@ const VOCAB_DATA = [
     "searchTerm": "but, however"
   },
   {
-    "id": 285,
+    "id": 279,
     "book": 1,
-    "english": "cable TV",
-    "traditional": "有線電視",
-    "pinyin": "yǒu xiàn diàn shì",
+    "english": "China",
+    "traditional": "中國",
+    "pinyin": "Zhōng guó",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/cable tv.png",
-    "localImage": "vocab_images/cable tv.png",
-    "searchTerm": "cable tv"
+    "photoUrl": "vocab_images/China.png",
+    "localImage": "vocab_images/China.png",
+    "searchTerm": "china"
   },
   {
-    "id": 286,
+    "id": 280,
     "book": 1,
-    "english": "character",
-    "traditional": "字",
-    "pinyin": "zì",
+    "english": "classmate",
+    "traditional": "同學",
+    "pinyin": "tóng xué",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/character.png",
-    "localImage": "vocab_images/character.png",
-    "searchTerm": "character"
+    "photoUrl": "vocab_images/classmate.png",
+    "localImage": "vocab_images/classmate.png",
+    "searchTerm": "classmate"
   },
   {
-    "id": 287,
+    "id": 281,
     "book": 1,
-    "english": "Chinese language",
-    "traditional": "中文",
-    "pinyin": "Zhōng wén",
+    "english": "comfortable",
+    "traditional": "舒服",
+    "pinyin": "shū fú",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "chinese language"
+    "isVisual": true,
+    "photoUrl": "vocab_images/comfortable.png",
+    "localImage": "vocab_images/comfortable.png",
+    "searchTerm": "comfortable"
   },
   {
-    "id": 288,
+    "id": 282,
     "book": 1,
-    "english": "a city in southwestern Taiwan (Tainan)",
-    "traditional": "臺南",
-    "pinyin": "Tái nán",
+    "english": "comparatively more",
+    "traditional": "比較",
+    "pinyin": "bǐ jiào",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "a city in southwestern taiwan (tainan)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/comparatively more.png",
+    "localImage": "vocab_images/comparatively more.png",
+    "searchTerm": "comparatively more"
   },
   {
-    "id": 289,
+    "id": 283,
     "book": 1,
-    "english": "to come",
-    "traditional": "來",
-    "pinyin": "lái",
+    "english": "convenience store",
+    "traditional": "便利商店",
+    "pinyin": "biàn lì shāng diàn",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to come"
+    "isVisual": true,
+    "photoUrl": "vocab_images/convenience store.png",
+    "localImage": "vocab_images/convenience store.png",
+    "searchTerm": "convenience store"
   },
   {
-    "id": 290,
-    "book": 1,
-    "english": "to be concerned about",
-    "traditional": "關心",
-    "pinyin": "guān xīn",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be concerned about"
-  },
-  {
-    "id": 291,
+    "id": 284,
     "book": 1,
     "english": "fast",
     "traditional": "快",
@@ -3492,19 +3408,19 @@ const VOCAB_DATA = [
     "searchTerm": "fast"
   },
   {
-    "id": 292,
+    "id": 285,
     "book": 1,
-    "english": "to get",
-    "traditional": "拿",
-    "pinyin": "ná",
+    "english": "to give someone a ride",
+    "traditional": "載",
+    "pinyin": "zài",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/get.png",
-    "localImage": "vocab_images/get.png",
-    "searchTerm": "to get"
+    "photoUrl": "vocab_images/ride.png",
+    "localImage": "vocab_images/ride.png",
+    "searchTerm": "to give someone a ride"
   },
   {
-    "id": 293,
+    "id": 286,
     "book": 1,
     "english": "to have fun",
     "traditional": "玩",
@@ -3516,43 +3432,31 @@ const VOCAB_DATA = [
     "searchTerm": "to have fun"
   },
   {
-    "id": 294,
+    "id": 287,
     "book": 1,
-    "english": "here, this place",
-    "traditional": "這裡",
-    "pinyin": "zhè lǐ",
+    "english": "High Speed Rail (HSR)",
+    "traditional": "高鐵",
+    "pinyin": "gāo tiě",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/here.png",
-    "localImage": "vocab_images/here.png",
-    "searchTerm": "here, this place"
+    "photoUrl": "vocab_images/high speed train.png",
+    "localImage": "vocab_images/high speed train.png",
+    "searchTerm": "high speed rail (hsr)"
   },
   {
-    "id": 295,
+    "id": 288,
     "book": 1,
-    "english": "hotel",
-    "traditional": "旅館",
-    "pinyin": "lǚ guǎn",
+    "english": "hour",
+    "traditional": "鐘頭",
+    "pinyin": "zhōng tóu",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/hotel.png",
-    "localImage": "vocab_images/hotel.png",
-    "searchTerm": "hotel"
+    "photoUrl": "vocab_images/hour.png",
+    "localImage": "vocab_images/hour.png",
+    "searchTerm": "hour"
   },
   {
-    "id": 296,
-    "book": 1,
-    "english": "house",
-    "traditional": "房子",
-    "pinyin": "fáng zi",
-    "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/house.png",
-    "localImage": "vocab_images/house.png",
-    "searchTerm": "house"
-  },
-  {
-    "id": 297,
+    "id": 289,
     "book": 1,
     "english": "how",
     "traditional": "怎麼",
@@ -3564,7 +3468,7 @@ const VOCAB_DATA = [
     "searchTerm": "how"
   },
   {
-    "id": 298,
+    "id": 290,
     "book": 1,
     "english": "on the Internet",
     "traditional": "網路上",
@@ -3576,19 +3480,19 @@ const VOCAB_DATA = [
     "searchTerm": "on the internet"
   },
   {
-    "id": 299,
+    "id": 291,
     "book": 1,
-    "english": "mango",
-    "traditional": "芒果",
-    "pinyin": "máng guǒ",
+    "english": "MRT",
+    "traditional": "捷運",
+    "pinyin": "jié yùn",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/mango.png",
-    "localImage": "vocab_images/mango.png",
-    "searchTerm": "mango"
+    "photoUrl": "vocab_images/metro.png",
+    "localImage": "vocab_images/metro.png",
+    "searchTerm": "mrt"
   },
   {
-    "id": 300,
+    "id": 292,
     "book": 1,
     "english": "motorcycle / scooter",
     "traditional": "機車",
@@ -3600,43 +3504,43 @@ const VOCAB_DATA = [
     "searchTerm": "motorcycle / scooter"
   },
   {
-    "id": 301,
+    "id": 293,
     "book": 1,
     "english": "National Palace Museum",
     "traditional": "故宮博物院",
     "pinyin": "Gù gōng bó wù yuàn",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/museum.png",
+    "localImage": "vocab_images/museum.png",
     "searchTerm": "national palace museum"
   },
   {
-    "id": 302,
+    "id": 294,
     "book": 1,
-    "english": "Oolong tea",
-    "traditional": "烏龍茶",
-    "pinyin": "wū lóng chá",
+    "english": "or",
+    "traditional": "或是",
+    "pinyin": "huò shì",
     "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "oolong tea"
+    "searchTerm": "or"
   },
   {
-    "id": 303,
+    "id": 295,
     "book": 1,
-    "english": "restaurant",
-    "traditional": "餐廳",
-    "pinyin": "cān tīng",
+    "english": "to ride",
+    "traditional": "騎",
+    "pinyin": "qí",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/restaurant.png",
-    "localImage": "vocab_images/restaurant.png",
-    "searchTerm": "restaurant"
+    "photoUrl": "vocab_images/ride.png",
+    "localImage": "vocab_images/ride.png",
+    "searchTerm": "to ride"
   },
   {
-    "id": 304,
+    "id": 296,
     "book": 1,
     "english": "slow",
     "traditional": "慢",
@@ -3648,7 +3552,7 @@ const VOCAB_DATA = [
     "searchTerm": "slow"
   },
   {
-    "id": 305,
+    "id": 297,
     "book": 1,
     "english": "station",
     "traditional": "站",
@@ -3660,7 +3564,19 @@ const VOCAB_DATA = [
     "searchTerm": "station"
   },
   {
-    "id": 306,
+    "id": 298,
+    "book": 1,
+    "english": "a city in southwestern Taiwan (Tainan)",
+    "traditional": "臺南",
+    "pinyin": "Tái nán",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "a city in southwestern taiwan (tainan)"
+  },
+  {
+    "id": 299,
     "book": 1,
     "english": "to take by / travel by",
     "traditional": "坐",
@@ -3672,7 +3588,7 @@ const VOCAB_DATA = [
     "searchTerm": "to take by / travel by"
   },
   {
-    "id": 307,
+    "id": 300,
     "book": 1,
     "english": "taxi",
     "traditional": "計程車",
@@ -3684,31 +3600,19 @@ const VOCAB_DATA = [
     "searchTerm": "taxi"
   },
   {
-    "id": 308,
+    "id": 301,
     "book": 1,
-    "english": "tennis",
-    "traditional": "網球",
-    "pinyin": "wǎng qiú",
-    "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tennis.png",
-    "localImage": "vocab_images/tennis.png",
-    "searchTerm": "tennis"
-  },
-  {
-    "id": 309,
-    "book": 1,
-    "english": "that place / there",
-    "traditional": "那裡",
-    "pinyin": "nà lǐ",
+    "english": "(more…) than",
+    "traditional": "比",
+    "pinyin": "bǐ",
     "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "that place / there"
+    "searchTerm": "(more…) than"
   },
   {
-    "id": 310,
+    "id": 302,
     "book": 1,
     "english": "(train/bus) ticket",
     "traditional": "車票",
@@ -3720,43 +3624,55 @@ const VOCAB_DATA = [
     "searchTerm": "(train/bus) ticket"
   },
   {
-    "id": 311,
+    "id": 303,
     "book": 1,
-    "english": "completed action particle",
-    "traditional": "了",
-    "pinyin": "le",
+    "english": "tram / train",
+    "traditional": "火車",
+    "pinyin": "huǒ chē",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/train.png",
+    "localImage": "vocab_images/train.png",
+    "searchTerm": "tram / train"
+  },
+  {
+    "id": 304,
+    "book": 1,
+    "english": "very",
+    "traditional": "非常",
+    "pinyin": "fēi cháng",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/very.png",
+    "localImage": "vocab_images/very.png",
+    "searchTerm": "very"
+  },
+  {
+    "id": 305,
+    "book": 1,
+    "english": "to visit (an institution)",
+    "traditional": "參觀",
+    "pinyin": "cāng guān",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/visit.png",
+    "localImage": "vocab_images/visit.png",
+    "searchTerm": "to visit (an institution)"
+  },
+  {
+    "id": 306,
+    "book": 1,
+    "english": "will not do",
+    "traditional": "不行",
+    "pinyin": "bù xíng",
     "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "completed action particle"
+    "searchTerm": "will not do"
   },
   {
-    "id": 312,
-    "book": 1,
-    "english": "vicinity / nearby",
-    "traditional": "附近",
-    "pinyin": "fù jìn",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "vicinity / nearby"
-  },
-  {
-    "id": 313,
-    "book": 1,
-    "english": "will / be able to",
-    "traditional": "會",
-    "pinyin": "huì",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "will / be able to"
-  },
-  {
-    "id": 314,
+    "id": 307,
     "book": 1,
     "english": "with",
     "traditional": "跟",
@@ -3768,7 +3684,7 @@ const VOCAB_DATA = [
     "searchTerm": "with"
   },
   {
-    "id": 315,
+    "id": 308,
     "book": 1,
     "english": "approximately, about, probably",
     "traditional": "大概",
@@ -3780,7 +3696,7 @@ const VOCAB_DATA = [
     "searchTerm": "approximately, about, probably"
   },
   {
-    "id": 316,
+    "id": 309,
     "book": 1,
     "english": "date (day of month)",
     "traditional": "號",
@@ -3792,67 +3708,79 @@ const VOCAB_DATA = [
     "searchTerm": "date (day of month)"
   },
   {
-    "id": 317,
+    "id": 310,
     "book": 1,
-    "english": "game, competition",
-    "traditional": "比賽",
-    "pinyin": "bǐ sài",
+    "english": "to decide",
+    "traditional": "決定",
+    "pinyin": "jué dìng",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/competition.png",
-    "localImage": "vocab_images/competition.png",
-    "searchTerm": "game, competition"
+    "photoUrl": "vocab_images/decide.png",
+    "localImage": "vocab_images/decide.png",
+    "searchTerm": "to decide"
   },
   {
-    "id": 318,
+    "id": 311,
     "book": 1,
-    "english": "to give",
-    "traditional": "給",
-    "pinyin": "gěi",
+    "english": "film",
+    "traditional": "影片",
+    "pinyin": "yǐng piàn",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/give.png",
-    "localImage": "vocab_images/give.png",
-    "searchTerm": "to give"
+    "photoUrl": "vocab_images/film.png",
+    "localImage": "vocab_images/film.png",
+    "searchTerm": "film"
   },
   {
-    "id": 319,
+    "id": 312,
     "book": 1,
-    "english": "go home",
-    "traditional": "回家",
-    "pinyin": "huí jiā",
+    "english": "girl; female",
+    "traditional": "女",
+    "pinyin": "nǚ",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/go home.png",
-    "localImage": "vocab_images/go home.png",
-    "searchTerm": "go home"
+    "photoUrl": "vocab_images/girl.png",
+    "localImage": "vocab_images/girl.png",
+    "searchTerm": "girl; female"
   },
   {
-    "id": 320,
+    "id": 313,
+    "book": 1,
+    "english": "to go out",
+    "traditional": "出去",
+    "pinyin": "chū qù",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go out.png",
+    "localImage": "vocab_images/go out.png",
+    "searchTerm": "to go out"
+  },
+  {
+    "id": 314,
     "book": 1,
     "english": "to have a holiday",
     "traditional": "放假",
     "pinyin": "fàng jià",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/holiday.png",
+    "localImage": "vocab_images/holiday.png",
     "searchTerm": "to have a holiday"
   },
   {
-    "id": 321,
+    "id": 315,
     "book": 1,
-    "english": "home, house",
-    "traditional": "家",
-    "pinyin": "jiā",
+    "english": "homework",
+    "traditional": "功課",
+    "pinyin": "gōng kè",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/home.png",
-    "localImage": "vocab_images/home.png",
-    "searchTerm": "home, house"
+    "photoUrl": "vocab_images/homework.png",
+    "localImage": "vocab_images/homework.png",
+    "searchTerm": "homework"
   },
   {
-    "id": 322,
+    "id": 316,
     "book": 1,
     "english": "how long",
     "traditional": "多久",
@@ -3864,7 +3792,7 @@ const VOCAB_DATA = [
     "searchTerm": "how long"
   },
   {
-    "id": 323,
+    "id": 317,
     "book": 1,
     "english": "if",
     "traditional": "要是",
@@ -3876,7 +3804,7 @@ const VOCAB_DATA = [
     "searchTerm": "if"
   },
   {
-    "id": 324,
+    "id": 318,
     "book": 1,
     "english": "Maokong (tea area in Taipei)",
     "traditional": "貓空",
@@ -3888,19 +3816,31 @@ const VOCAB_DATA = [
     "searchTerm": "maokong (tea area in taipei)"
   },
   {
-    "id": 325,
+    "id": 319,
     "book": 1,
-    "english": "Taitung (city in Taiwan)",
-    "traditional": "臺東",
-    "pinyin": "Tái dōng",
+    "english": "month (of a year)",
+    "traditional": "月",
+    "pinyin": "yuè",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "taitung (city in taiwan)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/month.png",
+    "localImage": "vocab_images/month.png",
+    "searchTerm": "month (of a year)"
   },
   {
-    "id": 326,
+    "id": 320,
+    "book": 1,
+    "english": "next week",
+    "traditional": "下個星期",
+    "pinyin": "xià gè xīng qī",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/next week.png",
+    "localImage": "vocab_images/next week.png",
+    "searchTerm": "next week"
+  },
+  {
+    "id": 321,
     "book": 1,
     "english": "night market",
     "traditional": "夜市",
@@ -3912,19 +3852,7 @@ const VOCAB_DATA = [
     "searchTerm": "night market"
   },
   {
-    "id": 327,
-    "book": 1,
-    "english": "noon",
-    "traditional": "中午",
-    "pinyin": "zhōng wǔ",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/noon.png",
-    "localImage": "vocab_images/noon.png",
-    "searchTerm": "noon"
-  },
-  {
-    "id": 328,
+    "id": 322,
     "book": 1,
     "english": "to plan to",
     "traditional": "打算",
@@ -3936,19 +3864,19 @@ const VOCAB_DATA = [
     "searchTerm": "to plan to"
   },
   {
-    "id": 329,
+    "id": 323,
     "book": 1,
-    "english": "rent (for a room/house)",
-    "traditional": "房租",
-    "pinyin": "fáng zū",
+    "english": "to return to one's country",
+    "traditional": "回國",
+    "pinyin": "huí guó",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/rent.png",
-    "localImage": "vocab_images/rent.png",
-    "searchTerm": "rent (for a room/house)"
+    "photoUrl": "vocab_images/return.png",
+    "localImage": "vocab_images/return.png",
+    "searchTerm": "to return to one's country"
   },
   {
-    "id": 330,
+    "id": 324,
     "book": 1,
     "english": "she, her",
     "traditional": "她",
@@ -3960,7 +3888,7 @@ const VOCAB_DATA = [
     "searchTerm": "she, her"
   },
   {
-    "id": 331,
+    "id": 325,
     "book": 1,
     "english": "should",
     "traditional": "應該",
@@ -3972,7 +3900,7 @@ const VOCAB_DATA = [
     "searchTerm": "should"
   },
   {
-    "id": 332,
+    "id": 326,
     "book": 1,
     "english": "sometimes",
     "traditional": "有時候",
@@ -3984,7 +3912,7 @@ const VOCAB_DATA = [
     "searchTerm": "sometimes"
   },
   {
-    "id": 333,
+    "id": 327,
     "book": 1,
     "english": "special",
     "traditional": "特別",
@@ -3996,7 +3924,7 @@ const VOCAB_DATA = [
     "searchTerm": "special"
   },
   {
-    "id": 334,
+    "id": 328,
     "book": 1,
     "english": "still / additionally",
     "traditional": "還",
@@ -4008,7 +3936,7 @@ const VOCAB_DATA = [
     "searchTerm": "still / additionally"
   },
   {
-    "id": 335,
+    "id": 329,
     "book": 1,
     "english": "suggestion",
     "traditional": "建議",
@@ -4020,7 +3948,19 @@ const VOCAB_DATA = [
     "searchTerm": "suggestion"
   },
   {
-    "id": 336,
+    "id": 330,
+    "book": 1,
+    "english": "Taitung (city in Taiwan)",
+    "traditional": "臺東",
+    "pinyin": "Tái dōng",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "taitung (city in taiwan)"
+  },
+  {
+    "id": 331,
     "book": 1,
     "english": "to take",
     "traditional": "拿",
@@ -4032,11 +3972,35 @@ const VOCAB_DATA = [
     "searchTerm": "to take"
   },
   {
-    "id": 337,
+    "id": 332,
+    "book": 1,
+    "english": "to take",
+    "traditional": "帶",
+    "pinyin": "dài",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
+    "searchTerm": "to take"
+  },
+  {
+    "id": 333,
+    "book": 1,
+    "english": "teahouse",
+    "traditional": "茶館",
+    "pinyin": "chá guǎn",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/teahouse.png",
+    "localImage": "vocab_images/teahouse.png",
+    "searchTerm": "teahouse"
+  },
+  {
+    "id": 334,
     "book": 1,
     "english": "then",
-    "traditional": "那麼",
-    "pinyin": "nà me",
+    "traditional": "就",
+    "pinyin": "jiù",
     "lesson": 9,
     "isVisual": false,
     "photoUrl": null,
@@ -4044,31 +4008,31 @@ const VOCAB_DATA = [
     "searchTerm": "then"
   },
   {
-    "id": 338,
+    "id": 335,
     "book": 1,
-    "english": "toward / to",
-    "traditional": "往",
-    "pinyin": "wǎng",
+    "english": "to travel",
+    "traditional": "旅行",
+    "pinyin": "lǚ xíng",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "toward / to"
+    "isVisual": true,
+    "photoUrl": "vocab_images/travel.png",
+    "localImage": "vocab_images/travel.png",
+    "searchTerm": "to travel"
   },
   {
-    "id": 339,
+    "id": 336,
     "book": 1,
-    "english": "to treat sb to sth",
-    "traditional": "請",
-    "pinyin": "qǐng",
+    "english": "TV",
+    "traditional": "電視",
+    "pinyin": "diàn shì",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to treat sb to sth"
+    "isVisual": true,
+    "photoUrl": "vocab_images/tv.png",
+    "localImage": "vocab_images/tv.png",
+    "searchTerm": "tv"
   },
   {
-    "id": 340,
+    "id": 337,
     "book": 1,
     "english": "to wander around",
     "traditional": "逛",
@@ -4080,7 +4044,7 @@ const VOCAB_DATA = [
     "searchTerm": "to wander around"
   },
   {
-    "id": 341,
+    "id": 338,
     "book": 1,
     "english": "week",
     "traditional": "星期",
@@ -4092,7 +4056,7 @@ const VOCAB_DATA = [
     "searchTerm": "week"
   },
   {
-    "id": 342,
+    "id": 339,
     "book": 1,
     "english": "beautiful",
     "traditional": "美",
@@ -4104,7 +4068,7 @@ const VOCAB_DATA = [
     "searchTerm": "beautiful"
   },
   {
-    "id": 343,
+    "id": 340,
     "book": 1,
     "english": "before",
     "traditional": "以前",
@@ -4116,7 +4080,7 @@ const VOCAB_DATA = [
     "searchTerm": "before"
   },
   {
-    "id": 344,
+    "id": 341,
     "book": 1,
     "english": "blue",
     "traditional": "藍色",
@@ -4128,79 +4092,91 @@ const VOCAB_DATA = [
     "searchTerm": "blue"
   },
   {
-    "id": 345,
+    "id": 342,
     "book": 1,
-    "english": "classmate",
-    "traditional": "同學",
-    "pinyin": "tóng xué",
+    "english": "boy; male",
+    "traditional": "男",
+    "pinyin": "nán",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/classmate.png",
-    "localImage": "vocab_images/classmate.png",
-    "searchTerm": "classmate"
+    "photoUrl": "vocab_images/boy.png",
+    "localImage": "vocab_images/boy.png",
+    "searchTerm": "boy; male"
+  },
+  {
+    "id": 343,
+    "book": 1,
+    "english": "clean",
+    "traditional": "乾淨",
+    "pinyin": "gān jìng",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/clean.png",
+    "localImage": "vocab_images/clean.png",
+    "searchTerm": "clean"
+  },
+  {
+    "id": 344,
+    "book": 1,
+    "english": "clothes",
+    "traditional": "衣服",
+    "pinyin": "yī fú",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/clothes.png",
+    "localImage": "vocab_images/clothes.png",
+    "searchTerm": "clothes"
+  },
+  {
+    "id": 345,
+    "book": 1,
+    "english": "correct, right",
+    "traditional": "對",
+    "pinyin": "duì",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/right.png",
+    "localImage": "vocab_images/right.png",
+    "searchTerm": "correct, right"
   },
   {
     "id": 346,
     "book": 1,
-    "english": "classroom",
-    "traditional": "教室",
-    "pinyin": "jiào shì",
+    "english": "fragrant",
+    "traditional": "香",
+    "pinyin": "xiāng",
     "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/classroom.png",
-    "localImage": "vocab_images/classroom.png",
-    "searchTerm": "classroom"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "fragrant"
   },
   {
     "id": 347,
     "book": 1,
-    "english": "convenient",
-    "traditional": "方便",
-    "pinyin": "fāng biàn",
+    "english": "fruit",
+    "traditional": "水果",
+    "pinyin": "shuǐ guǒ",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "convenient"
+    "isVisual": true,
+    "photoUrl": "vocab_images/fruit.png",
+    "localImage": "vocab_images/fruit.png",
+    "searchTerm": "fruit"
   },
   {
     "id": 348,
     "book": 1,
-    "english": "five",
-    "traditional": "五",
-    "pinyin": "wǔ",
+    "english": "to give",
+    "traditional": "給",
+    "pinyin": "gěi",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/five.png",
-    "localImage": "vocab_images/five.png",
-    "searchTerm": "five"
+    "photoUrl": "vocab_images/give.png",
+    "localImage": "vocab_images/give.png",
+    "searchTerm": "to give"
   },
   {
     "id": 349,
-    "book": 1,
-    "english": "for, on behalf of",
-    "traditional": "替",
-    "pinyin": "tì",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "for, on behalf of"
-  },
-  {
-    "id": 350,
-    "book": 1,
-    "english": "gate, entrance",
-    "traditional": "門口",
-    "pinyin": "mén kǒu",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "gate, entrance"
-  },
-  {
-    "id": 351,
     "book": 1,
     "english": "happy",
     "traditional": "開心",
@@ -4212,7 +4188,7 @@ const VOCAB_DATA = [
     "searchTerm": "happy"
   },
   {
-    "id": 352,
+    "id": 350,
     "book": 1,
     "english": "to have a taste, try it",
     "traditional": "吃吃看",
@@ -4224,91 +4200,91 @@ const VOCAB_DATA = [
     "searchTerm": "to have a taste, try it"
   },
   {
-    "id": 353,
+    "id": 351,
     "book": 1,
-    "english": "hot (spicy)",
-    "traditional": "辣",
-    "pinyin": "là",
+    "english": "hotel",
+    "traditional": "旅館",
+    "pinyin": "lǚ guǎn",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/hot.png",
-    "localImage": "vocab_images/hot.png",
-    "searchTerm": "hot (spicy)"
+    "photoUrl": "vocab_images/hotel.png",
+    "localImage": "vocab_images/hotel.png",
+    "searchTerm": "hotel"
+  },
+  {
+    "id": 352,
+    "book": 1,
+    "english": "last month",
+    "traditional": "上個月",
+    "pinyin": "shàng gè yuè",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "last month"
+  },
+  {
+    "id": 353,
+    "book": 1,
+    "english": "to laugh, smile",
+    "traditional": "笑",
+    "pinyin": "xiào",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/laugh.png",
+    "localImage": "vocab_images/laugh.png",
+    "searchTerm": "to laugh, smile"
   },
   {
     "id": 354,
     "book": 1,
-    "english": "large",
-    "traditional": "大",
-    "pinyin": "dà",
+    "english": "mango",
+    "traditional": "芒果",
+    "pinyin": "máng guǒ",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/large.png",
-    "localImage": "vocab_images/large.png",
-    "searchTerm": "large"
+    "photoUrl": "vocab_images/mango.png",
+    "localImage": "vocab_images/mango.png",
+    "searchTerm": "mango"
   },
   {
     "id": 355,
     "book": 1,
-    "english": "later / wait a moment",
-    "traditional": "等一下",
-    "pinyin": "děng yī xià",
+    "english": "measure word for pieces of food",
+    "traditional": "塊",
+    "pinyin": "kuài",
     "lesson": 10,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "later / wait a moment"
+    "searchTerm": "measure word for pieces of food"
   },
   {
     "id": 356,
     "book": 1,
-    "english": "a man from Honduras",
-    "traditional": "馬安同",
-    "pinyin": "Mǎ Ān Tóng",
+    "english": "opportunity",
+    "traditional": "機會",
+    "pinyin": "jī huì",
     "lesson": 10,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "a man from honduras"
+    "searchTerm": "opportunity"
   },
   {
     "id": 357,
     "book": 1,
-    "english": "measure word for minutes",
-    "traditional": "分鐘",
-    "pinyin": "fēn zhōng",
+    "english": "red",
+    "traditional": "紅色",
+    "pinyin": "hóng sè",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for minutes"
+    "isVisual": true,
+    "photoUrl": "vocab_images/red.png",
+    "localImage": "vocab_images/red.png",
+    "searchTerm": "red"
   },
   {
     "id": 358,
-    "book": 1,
-    "english": "only, merely",
-    "traditional": "只",
-    "pinyin": "zhǐ",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "only, merely"
-  },
-  {
-    "id": 359,
-    "book": 1,
-    "english": "recently",
-    "traditional": "最近",
-    "pinyin": "zuì jìn",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/recently.png",
-    "localImage": "vocab_images/recently.png",
-    "searchTerm": "recently"
-  },
-  {
-    "id": 360,
     "book": 1,
     "english": "sentence-final particle (guess)",
     "traditional": "吧",
@@ -4320,7 +4296,7 @@ const VOCAB_DATA = [
     "searchTerm": "sentence-final particle (guess)"
   },
   {
-    "id": 361,
+    "id": 359,
     "book": 1,
     "english": "short (height)",
     "traditional": "矮",
@@ -4332,7 +4308,7 @@ const VOCAB_DATA = [
     "searchTerm": "short (height)"
   },
   {
-    "id": 362,
+    "id": 360,
     "book": 1,
     "english": "to stay / live",
     "traditional": "住",
@@ -4344,7 +4320,7 @@ const VOCAB_DATA = [
     "searchTerm": "to stay / live"
   },
   {
-    "id": 363,
+    "id": 361,
     "book": 1,
     "english": "sweet",
     "traditional": "甜",
@@ -4356,7 +4332,7 @@ const VOCAB_DATA = [
     "searchTerm": "sweet"
   },
   {
-    "id": 364,
+    "id": 362,
     "book": 1,
     "english": "to take (pictures)",
     "traditional": "拍",
@@ -4368,7 +4344,7 @@ const VOCAB_DATA = [
     "searchTerm": "to take (pictures)"
   },
   {
-    "id": 365,
+    "id": 363,
     "book": 1,
     "english": "tall",
     "traditional": "高",
@@ -4380,31 +4356,43 @@ const VOCAB_DATA = [
     "searchTerm": "tall"
   },
   {
-    "id": 366,
+    "id": 364,
     "book": 1,
-    "english": "this",
-    "traditional": "這",
-    "pinyin": "zhè",
+    "english": "these",
+    "traditional": "這些",
+    "pinyin": "zhè xiē",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/this.png",
-    "localImage": "vocab_images/this.png",
-    "searchTerm": "this"
+    "photoUrl": "vocab_images/these.png",
+    "localImage": "vocab_images/these.png",
+    "searchTerm": "these"
+  },
+  {
+    "id": 365,
+    "book": 1,
+    "english": "to treat sb to sth",
+    "traditional": "請",
+    "pinyin": "qǐng",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to treat sb to sth"
+  },
+  {
+    "id": 366,
+    "book": 1,
+    "english": "toward / to",
+    "traditional": "往",
+    "pinyin": "wǎng",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "toward / to"
   },
   {
     "id": 367,
-    "book": 1,
-    "english": "tomorrow",
-    "traditional": "明天",
-    "pinyin": "míng tiān",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tomorrow.png",
-    "localImage": "vocab_images/tomorrow.png",
-    "searchTerm": "tomorrow"
-  },
-  {
-    "id": 368,
     "book": 1,
     "english": "watermelon",
     "traditional": "西瓜",
@@ -4416,7 +4404,7 @@ const VOCAB_DATA = [
     "searchTerm": "watermelon"
   },
   {
-    "id": 369,
+    "id": 368,
     "book": 1,
     "english": "to wear / put on",
     "traditional": "穿",
@@ -4428,31 +4416,31 @@ const VOCAB_DATA = [
     "searchTerm": "to wear / put on"
   },
   {
-    "id": 370,
+    "id": 369,
     "book": 1,
-    "english": "why",
-    "traditional": "為什麼",
-    "pinyin": "wèi shén me",
+    "english": "wife",
+    "traditional": "太太",
+    "pinyin": "tài tai",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/why.png",
-    "localImage": "vocab_images/why.png",
-    "searchTerm": "why"
+    "photoUrl": "vocab_images/wife.png",
+    "localImage": "vocab_images/wife.png",
+    "searchTerm": "wife"
+  },
+  {
+    "id": 370,
+    "book": 1,
+    "english": "window",
+    "traditional": "窗戶",
+    "pinyin": "chuāng hù",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/window.png",
+    "localImage": "vocab_images/window.png",
+    "searchTerm": "window"
   },
   {
     "id": 371,
-    "book": 1,
-    "english": "wind",
-    "traditional": "風",
-    "pinyin": "fēng",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/wind.png",
-    "localImage": "vocab_images/wind.png",
-    "searchTerm": "wind"
-  },
-  {
-    "id": 372,
     "book": 1,
     "english": "yellow",
     "traditional": "黃色",
@@ -4464,7 +4452,7 @@ const VOCAB_DATA = [
     "searchTerm": "yellow"
   },
   {
-    "id": 373,
+    "id": 372,
     "book": 1,
     "english": "younger brother",
     "traditional": "弟弟",
@@ -4476,7 +4464,7 @@ const VOCAB_DATA = [
     "searchTerm": "younger brother"
   },
   {
-    "id": 374,
+    "id": 373,
     "book": 1,
     "english": "already",
     "traditional": "已經",
@@ -4488,7 +4476,7 @@ const VOCAB_DATA = [
     "searchTerm": "already"
   },
   {
-    "id": 375,
+    "id": 374,
     "book": 1,
     "english": "to arrive",
     "traditional": "到",
@@ -4500,67 +4488,91 @@ const VOCAB_DATA = [
     "searchTerm": "to arrive"
   },
   {
-    "id": 376,
+    "id": 375,
     "book": 1,
-    "english": "business",
-    "traditional": "生意",
-    "pinyin": "shēng yì",
+    "english": "bathroom",
+    "traditional": "浴室",
+    "pinyin": "yù shì",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/business.png",
-    "localImage": "vocab_images/business.png",
-    "searchTerm": "business"
+    "photoUrl": "vocab_images/toilet.png",
+    "localImage": "vocab_images/toilet.png",
+    "searchTerm": "bathroom"
+  },
+  {
+    "id": 376,
+    "book": 1,
+    "english": "bathroom",
+    "traditional": "洗手間",
+    "pinyin": "xǐ shǒu jiān",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/toilet.png",
+    "localImage": "vocab_images/toilet.png",
+    "searchTerm": "bathroom"
   },
   {
     "id": 377,
     "book": 1,
-    "english": "China",
-    "traditional": "中國",
-    "pinyin": "Zhōng guó",
+    "english": "cable TV",
+    "traditional": "有線電視",
+    "pinyin": "yǒu xiàn diàn shì",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/China.png",
-    "localImage": "vocab_images/China.png",
-    "searchTerm": "china"
+    "photoUrl": "vocab_images/cable tv.png",
+    "localImage": "vocab_images/cable tv.png",
+    "searchTerm": "cable tv"
   },
   {
     "id": 378,
     "book": 1,
-    "english": "fruit",
-    "traditional": "水果",
-    "pinyin": "shuǐ guǒ",
+    "english": "Chinese last name (common in Taiwan)",
+    "traditional": "林",
+    "pinyin": "Lín",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/fruit.png",
-    "localImage": "vocab_images/fruit.png",
-    "searchTerm": "fruit"
+    "photoUrl": "vocab_images/name.png",
+    "localImage": "vocab_images/name.png",
+    "searchTerm": "chinese last name (common in taiwan)"
   },
   {
     "id": 379,
     "book": 1,
-    "english": "gift, present",
-    "traditional": "禮物",
-    "pinyin": "lǐ wù",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/gift.png",
-    "localImage": "vocab_images/gift.png",
-    "searchTerm": "gift, present"
-  },
-  {
-    "id": 380,
-    "book": 1,
-    "english": "however, but",
-    "traditional": "不過",
-    "pinyin": "bù guò",
+    "english": "to get settled down / get used to",
+    "traditional": "習慣",
+    "pinyin": "xí guàn",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "however, but"
+    "searchTerm": "to get settled down / get used to"
+  },
+  {
+    "id": 380,
+    "book": 1,
+    "english": "to go back, return",
+    "traditional": "回去",
+    "pinyin": "huí qù",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/return.png",
+    "localImage": "vocab_images/return.png",
+    "searchTerm": "to go back, return"
   },
   {
     "id": 381,
+    "book": 1,
+    "english": "How come?",
+    "traditional": "怎麼",
+    "pinyin": "zěn me",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "how come?"
+  },
+  {
+    "id": 382,
     "book": 1,
     "english": "to install",
     "traditional": "裝",
@@ -4572,7 +4584,7 @@ const VOCAB_DATA = [
     "searchTerm": "to install"
   },
   {
-    "id": 382,
+    "id": 383,
     "book": 1,
     "english": "kitchen",
     "traditional": "廚房",
@@ -4584,64 +4596,52 @@ const VOCAB_DATA = [
     "searchTerm": "kitchen"
   },
   {
-    "id": 383,
-    "book": 1,
-    "english": "to know",
-    "traditional": "知道",
-    "pinyin": "zhī dào",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/know.png",
-    "localImage": "vocab_images/know.png",
-    "searchTerm": "to know"
-  },
-  {
     "id": 384,
     "book": 1,
-    "english": "to learn, study",
-    "traditional": "學",
-    "pinyin": "xué",
+    "english": "landlord",
+    "traditional": "房東",
+    "pinyin": "fáng dōng",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/learn.png",
-    "localImage": "vocab_images/learn.png",
-    "searchTerm": "to learn, study"
+    "photoUrl": "vocab_images/landlord.png",
+    "localImage": "vocab_images/landlord.png",
+    "searchTerm": "landlord"
   },
   {
     "id": 385,
     "book": 1,
-    "english": "to listen",
-    "traditional": "聽",
-    "pinyin": "tīng",
+    "english": "left (side)",
+    "traditional": "左邊",
+    "pinyin": "zuǒ biān",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/listen.png",
-    "localImage": "vocab_images/listen.png",
-    "searchTerm": "to listen"
+    "photoUrl": "vocab_images/left.png",
+    "localImage": "vocab_images/left.png",
+    "searchTerm": "left (side)"
   },
   {
     "id": 386,
     "book": 1,
-    "english": "lunch",
-    "traditional": "午餐",
-    "pinyin": "wǔ cān",
+    "english": "living room",
+    "traditional": "客廳",
+    "pinyin": "kè tīng",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/lunch.png",
-    "localImage": "vocab_images/lunch.png",
-    "searchTerm": "lunch"
+    "photoUrl": "vocab_images/living room.png",
+    "localImage": "vocab_images/living room.png",
+    "searchTerm": "living room"
   },
   {
     "id": 387,
     "book": 1,
-    "english": "measure word for flat objects (paper, tickets)",
-    "traditional": "張",
-    "pinyin": "zhāng",
+    "english": "to make a phone call",
+    "traditional": "打電話",
+    "pinyin": "dǎ diàn huà",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for flat objects (paper, tickets)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/call.png",
+    "localImage": "vocab_images/call.png",
+    "searchTerm": "to make a phone call"
   },
   {
     "id": 388,
@@ -4658,6 +4658,18 @@ const VOCAB_DATA = [
   {
     "id": 389,
     "book": 1,
+    "english": "measure word for minutes",
+    "traditional": "分鐘",
+    "pinyin": "fēn zhōng",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for minutes"
+  },
+  {
+    "id": 390,
+    "book": 1,
     "english": "Not a problem",
     "traditional": "沒關係",
     "pinyin": "méi guān xì",
@@ -4668,31 +4680,43 @@ const VOCAB_DATA = [
     "searchTerm": "not a problem"
   },
   {
-    "id": 390,
-    "book": 1,
-    "english": "older brother",
-    "traditional": "哥哥",
-    "pinyin": "gē ge",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/older brother.png",
-    "localImage": "vocab_images/older brother.png",
-    "searchTerm": "older brother"
-  },
-  {
     "id": 391,
     "book": 1,
-    "english": "parents",
-    "traditional": "父母",
-    "pinyin": "fù mǔ",
+    "english": "only, merely",
+    "traditional": "就",
+    "pinyin": "jiù",
     "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/parents.png",
-    "localImage": "vocab_images/parents.png",
-    "searchTerm": "parents"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "only, merely"
   },
   {
     "id": 392,
+    "book": 1,
+    "english": "to pay",
+    "traditional": "付",
+    "pinyin": "fù",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pay.png",
+    "localImage": "vocab_images/pay.png",
+    "searchTerm": "to pay"
+  },
+  {
+    "id": 393,
+    "book": 1,
+    "english": "phone particle",
+    "traditional": "喂",
+    "pinyin": "wéi",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/phone particle.png",
+    "localImage": "vocab_images/phone particle.png",
+    "searchTerm": "phone particle"
+  },
+  {
+    "id": 394,
     "book": 1,
     "english": "problem, question",
     "traditional": "問題",
@@ -4704,55 +4728,43 @@ const VOCAB_DATA = [
     "searchTerm": "problem, question"
   },
   {
-    "id": 393,
-    "book": 1,
-    "english": "really, truly",
-    "traditional": "真的",
-    "pinyin": "zhēn de",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "really, truly"
-  },
-  {
-    "id": 394,
-    "book": 1,
-    "english": "to remember",
-    "traditional": "記得",
-    "pinyin": "jì de",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/remember.png",
-    "localImage": "vocab_images/remember.png",
-    "searchTerm": "to remember"
-  },
-  {
     "id": 395,
     "book": 1,
-    "english": "to return to one's country",
-    "traditional": "回國",
-    "pinyin": "huí guó",
+    "english": "to receive",
+    "traditional": "收到",
+    "pinyin": "shōu dào",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to return to one's country"
+    "isVisual": true,
+    "photoUrl": "vocab_images/receive.png",
+    "localImage": "vocab_images/receive.png",
+    "searchTerm": "to receive"
   },
   {
     "id": 396,
     "book": 1,
-    "english": "to ride",
-    "traditional": "騎",
-    "pinyin": "qí",
+    "english": "rent (for a room/house)",
+    "traditional": "房租",
+    "pinyin": "fáng zū",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/ride.png",
-    "localImage": "vocab_images/ride.png",
-    "searchTerm": "to ride"
+    "photoUrl": "vocab_images/rent.png",
+    "localImage": "vocab_images/rent.png",
+    "searchTerm": "rent (for a room/house)"
   },
   {
     "id": 397,
+    "book": 1,
+    "english": "right (side)",
+    "traditional": "右邊",
+    "pinyin": "yòu biān",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/right.png",
+    "localImage": "vocab_images/right.png",
+    "searchTerm": "right (side)"
+  },
+  {
+    "id": 398,
     "book": 1,
     "english": "room",
     "traditional": "房間",
@@ -4764,7 +4776,7 @@ const VOCAB_DATA = [
     "searchTerm": "room"
   },
   {
-    "id": 398,
+    "id": 399,
     "book": 1,
     "english": "to seem / appear to be",
     "traditional": "好像",
@@ -4776,7 +4788,7 @@ const VOCAB_DATA = [
     "searchTerm": "to seem / appear to be"
   },
   {
-    "id": 399,
+    "id": 400,
     "book": 1,
     "english": "sorry / excuse me",
     "traditional": "不好意思",
@@ -4788,19 +4800,19 @@ const VOCAB_DATA = [
     "searchTerm": "sorry / excuse me"
   },
   {
-    "id": 400,
+    "id": 401,
     "book": 1,
     "english": "suite (apartment)",
     "traditional": "套房",
     "pinyin": "tào fáng",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/apartment.png",
+    "localImage": "vocab_images/apartment.png",
     "searchTerm": "suite (apartment)"
   },
   {
-    "id": 401,
+    "id": 402,
     "book": 1,
     "english": "supermarket",
     "traditional": "超市",
@@ -4812,7 +4824,31 @@ const VOCAB_DATA = [
     "searchTerm": "supermarket"
   },
   {
-    "id": 402,
+    "id": 403,
+    "book": 1,
+    "english": "telephone",
+    "traditional": "電話",
+    "pinyin": "diàn huà",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/telephone.png",
+    "localImage": "vocab_images/telephone.png",
+    "searchTerm": "telephone"
+  },
+  {
+    "id": 404,
+    "book": 1,
+    "english": "and then",
+    "traditional": "再",
+    "pinyin": "zài",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "and then"
+  },
+  {
+    "id": 405,
     "book": 1,
     "english": "then / in that case",
     "traditional": "那",
@@ -4824,55 +4860,55 @@ const VOCAB_DATA = [
     "searchTerm": "then / in that case"
   },
   {
-    "id": 403,
-    "book": 1,
-    "english": "they (people only)",
-    "traditional": "他們",
-    "pinyin": "tā men",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/they.png",
-    "localImage": "vocab_images/they.png",
-    "searchTerm": "they (people only)"
-  },
-  {
-    "id": 404,
-    "book": 1,
-    "english": "this kind (of)",
-    "traditional": "這樣",
-    "pinyin": "zhè yàng",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "this kind (of)"
-  },
-  {
-    "id": 405,
-    "book": 1,
-    "english": "to (arrive at)",
-    "traditional": "到",
-    "pinyin": "dào",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to (arrive at)"
-  },
-  {
     "id": 406,
     "book": 1,
-    "english": "typhoon",
-    "traditional": "颱風",
-    "pinyin": "tái fēng",
+    "english": "to (give to)",
+    "traditional": "給",
+    "pinyin": "gěi",
     "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/typhoon.png",
-    "localImage": "vocab_images/typhoon.png",
-    "searchTerm": "typhoon"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to (give to)"
   },
   {
     "id": 407,
+    "book": 1,
+    "english": "to think",
+    "traditional": "想",
+    "pinyin": "xiǎng",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/think.png",
+    "localImage": "vocab_images/think.png",
+    "searchTerm": "to think"
+  },
+  {
+    "id": 408,
+    "book": 1,
+    "english": "to rent",
+    "traditional": "租",
+    "pinyin": "zū",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/rent.png",
+    "localImage": "vocab_images/rent.png",
+    "searchTerm": "to rent"
+  },
+  {
+    "id": 409,
+    "book": 1,
+    "english": "vacant / empty",
+    "traditional": "空",
+    "pinyin": "kōng",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/empty.png",
+    "localImage": "vocab_images/empty.png",
+    "searchTerm": "vacant / empty"
+  },
+  {
+    "id": 410,
     "book": 1,
     "english": "to wait for",
     "traditional": "等",
@@ -4884,7 +4920,7 @@ const VOCAB_DATA = [
     "searchTerm": "to wait for"
   },
   {
-    "id": 408,
+    "id": 411,
     "book": 1,
     "english": "to walk",
     "traditional": "走路",
@@ -4896,7 +4932,7 @@ const VOCAB_DATA = [
     "searchTerm": "to walk"
   },
   {
-    "id": 409,
+    "id": 412,
     "book": 1,
     "english": "water heater",
     "traditional": "熱水器",
@@ -4908,19 +4944,19 @@ const VOCAB_DATA = [
     "searchTerm": "water heater"
   },
   {
-    "id": 410,
+    "id": 413,
     "book": 1,
-    "english": "wife",
-    "traditional": "太太",
-    "pinyin": "tài tai",
+    "english": "will",
+    "traditional": "會",
+    "pinyin": "huì",
     "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/wife.png",
-    "localImage": "vocab_images/wife.png",
-    "searchTerm": "wife"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "will"
   },
   {
-    "id": 411,
+    "id": 414,
     "book": 1,
     "english": "afterwards",
     "traditional": "以後",
@@ -4932,7 +4968,7 @@ const VOCAB_DATA = [
     "searchTerm": "afterwards"
   },
   {
-    "id": 412,
+    "id": 415,
     "book": 1,
     "english": "again",
     "traditional": "再",
@@ -4944,163 +4980,139 @@ const VOCAB_DATA = [
     "searchTerm": "again"
   },
   {
-    "id": 413,
-    "book": 1,
-    "english": "to buy",
-    "traditional": "買",
-    "pinyin": "mǎi",
-    "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/buy.png",
-    "localImage": "vocab_images/buy.png",
-    "searchTerm": "to buy"
-  },
-  {
-    "id": 414,
-    "book": 1,
-    "english": "to come back",
-    "traditional": "回來",
-    "pinyin": "huí lái",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to come back"
-  },
-  {
-    "id": 415,
-    "book": 1,
-    "english": "could (possibility)",
-    "traditional": "可以",
-    "pinyin": "kě yǐ",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "could (possibility)"
-  },
-  {
     "id": 416,
     "book": 1,
-    "english": "do what",
-    "traditional": "做什麼",
-    "pinyin": "zuò shén me",
+    "english": "business",
+    "traditional": "生意",
+    "pinyin": "shēng yì",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "do what"
+    "isVisual": true,
+    "photoUrl": "vocab_images/business.png",
+    "localImage": "vocab_images/business.png",
+    "searchTerm": "business"
   },
   {
     "id": 417,
     "book": 1,
-    "english": "to decide",
-    "traditional": "決定",
-    "pinyin": "jué dìng",
+    "english": "company",
+    "traditional": "公司",
+    "pinyin": "gōng sī",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/decide.png",
-    "localImage": "vocab_images/decide.png",
-    "searchTerm": "to decide"
+    "photoUrl": "vocab_images/company.png",
+    "localImage": "vocab_images/company.png",
+    "searchTerm": "company"
   },
   {
     "id": 418,
     "book": 1,
-    "english": "egg",
-    "traditional": "蛋",
-    "pinyin": "dàn",
+    "english": "country",
+    "traditional": "國家",
+    "pinyin": "guó jiā",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/egg.png",
-    "localImage": "vocab_images/egg.png",
-    "searchTerm": "egg"
+    "photoUrl": "vocab_images/country.png",
+    "localImage": "vocab_images/country.png",
+    "searchTerm": "country"
   },
   {
     "id": 419,
     "book": 1,
-    "english": "to finish class",
-    "traditional": "下課",
-    "pinyin": "xià kè",
+    "english": "to do, to engage in",
+    "traditional": "做",
+    "pinyin": "zuò",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to finish class"
+    "searchTerm": "to do, to engage in"
   },
   {
     "id": 420,
     "book": 1,
-    "english": "to forget",
-    "traditional": "忘（了）",
-    "pinyin": "wàng (le)",
+    "english": "easy to",
+    "traditional": "好",
+    "pinyin": "hǎo",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/forget.png",
-    "localImage": "vocab_images/forget.png",
-    "searchTerm": "to forget"
+    "photoUrl": "vocab_images/easy to.png",
+    "localImage": "vocab_images/easy to.png",
+    "searchTerm": "easy to"
   },
   {
     "id": 421,
     "book": 1,
-    "english": "general measure word",
-    "traditional": "個",
-    "pinyin": "gè",
+    "english": "first",
+    "traditional": "先",
+    "pinyin": "xiān",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/general measure word.png",
-    "localImage": "vocab_images/general measure word.png",
-    "searchTerm": "general measure word"
+    "photoUrl": "vocab_images/first.png",
+    "localImage": "vocab_images/first.png",
+    "searchTerm": "first"
   },
   {
     "id": 422,
     "book": 1,
-    "english": "to give someone a ride",
-    "traditional": "載",
-    "pinyin": "zài",
+    "english": "for, on behalf of",
+    "traditional": "替",
+    "pinyin": "tì",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to give someone a ride"
+    "searchTerm": "for, on behalf of"
   },
   {
     "id": 423,
     "book": 1,
-    "english": "to go",
-    "traditional": "去",
-    "pinyin": "qù",
+    "english": "in the future",
+    "traditional": "以後",
+    "pinyin": "yǐ hòu",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/go.png",
-    "localImage": "vocab_images/go.png",
-    "searchTerm": "to go"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "in the future"
   },
   {
     "id": 424,
     "book": 1,
-    "english": "to go to class",
-    "traditional": "上課",
-    "pinyin": "shàng kè",
+    "english": "to give it a try",
+    "traditional": "試試看",
+    "pinyin": "shì shì kàn",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/go to class.png",
-    "localImage": "vocab_images/go to class.png",
-    "searchTerm": "to go to class"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to give it a try"
   },
   {
     "id": 425,
+    "book": 1,
+    "english": "to go/come to",
+    "traditional": "到",
+    "pinyin": "dào",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go.png",
+    "localImage": "vocab_images/go.png",
+    "searchTerm": "to go/come to"
+  },
+  {
+    "id": 426,
     "book": 1,
     "english": "to go to work",
     "traditional": "上班",
     "pinyin": "shàng bān",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/work.png",
+    "localImage": "vocab_images/work.png",
     "searchTerm": "to go to work"
   },
   {
-    "id": 426,
+    "id": 427,
     "book": 1,
     "english": "grades",
     "traditional": "成績",
@@ -5112,7 +5124,7 @@ const VOCAB_DATA = [
     "searchTerm": "grades"
   },
   {
-    "id": 427,
+    "id": 428,
     "book": 1,
     "english": "hard to, difficult to",
     "traditional": "難",
@@ -5124,19 +5136,19 @@ const VOCAB_DATA = [
     "searchTerm": "hard to, difficult to"
   },
   {
-    "id": 428,
+    "id": 429,
     "book": 1,
-    "english": "homework",
-    "traditional": "功課",
-    "pinyin": "gōng kè",
+    "english": "to hope",
+    "traditional": "希望",
+    "pinyin": "xī wàng",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/homework.png",
-    "localImage": "vocab_images/homework.png",
-    "searchTerm": "homework"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to hope"
   },
   {
-    "id": 429,
+    "id": 430,
     "book": 1,
     "english": "job, work",
     "traditional": "工作",
@@ -5148,7 +5160,7 @@ const VOCAB_DATA = [
     "searchTerm": "job, work"
   },
   {
-    "id": 430,
+    "id": 431,
     "book": 1,
     "english": "keep it up / cheer up",
     "traditional": "加油",
@@ -5160,67 +5172,67 @@ const VOCAB_DATA = [
     "searchTerm": "keep it up / cheer up"
   },
   {
-    "id": 431,
-    "book": 1,
-    "english": "language",
-    "traditional": "語言",
-    "pinyin": "yǔ yán",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "language"
-  },
-  {
     "id": 432,
     "book": 1,
-    "english": "last time",
-    "traditional": "上次",
-    "pinyin": "shàng cì",
+    "english": "language center",
+    "traditional": "語言中心",
+    "pinyin": "yǔ yán zhōng xīn",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "last time"
+    "isVisual": true,
+    "photoUrl": "vocab_images/classroom.png",
+    "localImage": "vocab_images/classroom.png",
+    "searchTerm": "language center"
   },
   {
     "id": 433,
     "book": 1,
-    "english": "to be located at",
-    "traditional": "在",
-    "pinyin": "zài",
+    "english": "last year",
+    "traditional": "去年",
+    "pinyin": "qù nián",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to be located at"
+    "searchTerm": "last year"
   },
   {
     "id": 434,
     "book": 1,
-    "english": "long time no see",
-    "traditional": "好久不見",
-    "pinyin": "hǎo jiǔ bú jiàn",
+    "english": "long (time)",
+    "traditional": "久",
+    "pinyin": "jiǔ",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "long time no see"
+    "isVisual": true,
+    "photoUrl": "vocab_images/long.png",
+    "localImage": "vocab_images/long.png",
+    "searchTerm": "long (time)"
   },
   {
     "id": 435,
     "book": 1,
-    "english": "measure word for times/occurrences",
-    "traditional": "次",
-    "pinyin": "cì",
+    "english": "to look for",
+    "traditional": "找",
+    "pinyin": "zhǎo",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/look for.png",
+    "localImage": "vocab_images/look for.png",
+    "searchTerm": "to look for"
+  },
+  {
+    "id": 436,
+    "book": 1,
+    "english": "measure word for year",
+    "traditional": "年",
+    "pinyin": "nián",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "measure word for times/occurrences"
+    "searchTerm": "measure word for year"
   },
   {
-    "id": 436,
+    "id": 437,
     "book": 1,
     "english": "to need",
     "traditional": "需要",
@@ -5232,7 +5244,19 @@ const VOCAB_DATA = [
     "searchTerm": "to need"
   },
   {
-    "id": 437,
+    "id": 438,
+    "book": 1,
+    "english": "to plan to",
+    "traditional": "計畫",
+    "pinyin": "jì huà",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/plan to.png",
+    "localImage": "vocab_images/plan to.png",
+    "searchTerm": "to plan to"
+  },
+  {
+    "id": 439,
     "book": 1,
     "english": "scholarship",
     "traditional": "獎學金",
@@ -5244,7 +5268,7 @@ const VOCAB_DATA = [
     "searchTerm": "scholarship"
   },
   {
-    "id": 438,
+    "id": 440,
     "book": 1,
     "english": "to spend (time/money)",
     "traditional": "花",
@@ -5256,7 +5280,7 @@ const VOCAB_DATA = [
     "searchTerm": "to spend (time/money)"
   },
   {
-    "id": 439,
+    "id": 441,
     "book": 1,
     "english": "to study (recite)",
     "traditional": "念",
@@ -5268,7 +5292,7 @@ const VOCAB_DATA = [
     "searchTerm": "to study (recite)"
   },
   {
-    "id": 440,
+    "id": 442,
     "book": 1,
     "english": "to study",
     "traditional": "念書",
@@ -5280,19 +5304,31 @@ const VOCAB_DATA = [
     "searchTerm": "to study"
   },
   {
-    "id": 441,
+    "id": 443,
     "book": 1,
-    "english": "things / stuff",
-    "traditional": "東西",
-    "pinyin": "dōng xi",
+    "english": "then",
+    "traditional": "那麼",
+    "pinyin": "nà me",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/things.png",
-    "localImage": "vocab_images/things.png",
-    "searchTerm": "things / stuff"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "then"
   },
   {
-    "id": 442,
+    "id": 444,
+    "book": 1,
+    "english": "this kind (of)",
+    "traditional": "這樣",
+    "pinyin": "zhè yàng",
+    "lesson": 12,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "this kind (of)"
+  },
+  {
+    "id": 445,
     "book": 1,
     "english": "time",
     "traditional": "時間",
@@ -5304,43 +5340,55 @@ const VOCAB_DATA = [
     "searchTerm": "time"
   },
   {
-    "id": 443,
+    "id": 446,
     "book": 1,
-    "english": "too",
-    "traditional": "太",
-    "pinyin": "tài",
+    "english": "tired",
+    "traditional": "累",
+    "pinyin": "lèi",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/tired.png",
+    "localImage": "vocab_images/tired.png",
+    "searchTerm": "tired"
+  },
+  {
+    "id": 447,
+    "book": 1,
+    "english": "to try",
+    "traditional": "試",
+    "pinyin": "shì",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "too"
+    "searchTerm": "to try"
   },
   {
-    "id": 444,
+    "id": 448,
     "book": 1,
-    "english": "to travel",
-    "traditional": "旅行",
-    "pinyin": "lǚ xíng",
+    "english": "tuition",
+    "traditional": "學費",
+    "pinyin": "xué fèi",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/travel.png",
-    "localImage": "vocab_images/travel.png",
-    "searchTerm": "to travel"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "tuition"
   },
   {
-    "id": 445,
+    "id": 449,
     "book": 1,
-    "english": "TV",
-    "traditional": "電視",
-    "pinyin": "diàn shì",
+    "english": "university",
+    "traditional": "大學",
+    "pinyin": "dà xué",
     "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tv.png",
-    "localImage": "vocab_images/tv.png",
-    "searchTerm": "tv"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "university"
   },
   {
-    "id": 446,
+    "id": 450,
     "book": 1,
     "english": "to work",
     "traditional": "工作",
@@ -5352,19 +5400,7 @@ const VOCAB_DATA = [
     "searchTerm": "to work"
   },
   {
-    "id": 447,
-    "book": 1,
-    "english": "a little, some",
-    "traditional": "一點",
-    "pinyin": "yī diǎn",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "a little, some"
-  },
-  {
-    "id": 448,
+    "id": 451,
     "book": 1,
     "english": "approximately",
     "traditional": "左右",
@@ -5376,7 +5412,7 @@ const VOCAB_DATA = [
     "searchTerm": "approximately"
   },
   {
-    "id": 449,
+    "id": 452,
     "book": 1,
     "english": "birthday",
     "traditional": "生日",
@@ -5388,23 +5424,23 @@ const VOCAB_DATA = [
     "searchTerm": "birthday"
   },
   {
-    "id": 450,
+    "id": 453,
     "book": 1,
-    "english": "busy",
-    "traditional": "忙",
-    "pinyin": "máng",
+    "english": "cake",
+    "traditional": "蛋糕",
+    "pinyin": "dàn gāo",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "busy"
+    "isVisual": true,
+    "photoUrl": "vocab_images/cake.png",
+    "localImage": "vocab_images/cake.png",
+    "searchTerm": "cake"
   },
   {
-    "id": 451,
+    "id": 454,
     "book": 1,
     "english": "to celebrate",
-    "traditional": "慶祝",
-    "pinyin": "qìng zhù",
+    "traditional": "過",
+    "pinyin": "guò",
     "lesson": 13,
     "isVisual": true,
     "photoUrl": "vocab_images/celebrate.png",
@@ -5412,19 +5448,55 @@ const VOCAB_DATA = [
     "searchTerm": "to celebrate"
   },
   {
-    "id": 452,
+    "id": 455,
     "book": 1,
-    "english": "Da-an (district name)",
-    "traditional": "大安",
-    "pinyin": "Dà ān",
+    "english": "certainly, of course",
+    "traditional": "當然",
+    "pinyin": "dāng rán",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "da-an (district name)"
+    "searchTerm": "certainly, of course"
   },
   {
-    "id": 453,
+    "id": 456,
+    "book": 1,
+    "english": "completed action particle",
+    "traditional": "了",
+    "pinyin": "le",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "completed action particle"
+  },
+  {
+    "id": 457,
+    "book": 1,
+    "english": "Don't mention it / My pleasure",
+    "traditional": "哪裡，哪裡",
+    "pinyin": "nǎ lǐ, nǎ lǐ",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "don't mention it / my pleasure"
+  },
+  {
+    "id": 458,
+    "book": 1,
+    "english": "egg",
+    "traditional": "蛋",
+    "pinyin": "dàn",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/egg.png",
+    "localImage": "vocab_images/egg.png",
+    "searchTerm": "egg"
+  },
+  {
+    "id": 459,
     "book": 1,
     "english": "with enthusiasm",
     "traditional": "熱心",
@@ -5436,79 +5508,67 @@ const VOCAB_DATA = [
     "searchTerm": "with enthusiasm"
   },
   {
-    "id": 454,
-    "book": 1,
-    "english": "evening, night",
-    "traditional": "晚上",
-    "pinyin": "wǎn shàng",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/night.png",
-    "localImage": "vocab_images/night.png",
-    "searchTerm": "evening, night"
-  },
-  {
-    "id": 455,
-    "book": 1,
-    "english": "expensive",
-    "traditional": "貴",
-    "pinyin": "guì",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/expensive.png",
-    "localImage": "vocab_images/expensive.png",
-    "searchTerm": "expensive"
-  },
-  {
-    "id": 456,
-    "book": 1,
-    "english": "Don't mention it / My pleasure",
-    "traditional": "哪裡",
-    "pinyin": "nǎ lǐ",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "don't mention it / my pleasure"
-  },
-  {
-    "id": 457,
-    "book": 1,
-    "english": "first",
-    "traditional": "先",
-    "pinyin": "xiān",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/first.png",
-    "localImage": "vocab_images/first.png",
-    "searchTerm": "first"
-  },
-  {
-    "id": 458,
-    "book": 1,
-    "english": "friend",
-    "traditional": "朋友",
-    "pinyin": "péng yǒu",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/friend.png",
-    "localImage": "vocab_images/friend.png",
-    "searchTerm": "friend"
-  },
-  {
-    "id": 459,
-    "book": 1,
-    "english": "in the future",
-    "traditional": "以後",
-    "pinyin": "yǐ hòu",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "in the future"
-  },
-  {
     "id": 460,
+    "book": 1,
+    "english": "to exchange",
+    "traditional": "交換",
+    "pinyin": "jiāo huàn",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/exchange.png",
+    "localImage": "vocab_images/exchange.png",
+    "searchTerm": "to exchange"
+  },
+  {
+    "id": 461,
+    "book": 1,
+    "english": "extra fine noodles",
+    "traditional": "麵線",
+    "pinyin": "miàn xiàn",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/noodles.png",
+    "localImage": "vocab_images/noodles.png",
+    "searchTerm": "extra fine noodles"
+  },
+  {
+    "id": 462,
+    "book": 1,
+    "english": "to forget",
+    "traditional": "忘（了）",
+    "pinyin": "wàng (le)",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/forget.png",
+    "localImage": "vocab_images/forget.png",
+    "searchTerm": "to forget"
+  },
+  {
+    "id": 463,
+    "book": 1,
+    "english": "gate, entrance",
+    "traditional": "門口",
+    "pinyin": "mén kǒu",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "gate, entrance"
+  },
+  {
+    "id": 464,
+    "book": 1,
+    "english": "gift, present",
+    "traditional": "禮物",
+    "pinyin": "lǐ wù",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/gift.png",
+    "localImage": "vocab_images/gift.png",
+    "searchTerm": "gift, present"
+  },
+  {
+    "id": 465,
     "book": 1,
     "english": "happy",
     "traditional": "快樂",
@@ -5520,7 +5580,7 @@ const VOCAB_DATA = [
     "searchTerm": "happy"
   },
   {
-    "id": 461,
+    "id": 466,
     "book": 1,
     "english": "Happy Birthday",
     "traditional": "生日快樂",
@@ -5532,55 +5592,55 @@ const VOCAB_DATA = [
     "searchTerm": "happy birthday"
   },
   {
-    "id": 462,
+    "id": 467,
     "book": 1,
-    "english": "How come?",
-    "traditional": "怎麼",
-    "pinyin": "zěn me",
+    "english": "language",
+    "traditional": "語言",
+    "pinyin": "yǔ yán",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "how come?"
+    "searchTerm": "language"
   },
   {
-    "id": 463,
+    "id": 468,
     "book": 1,
-    "english": "landlord",
-    "traditional": "房東",
-    "pinyin": "fáng dōng",
+    "english": "a little, some",
+    "traditional": "一點",
+    "pinyin": "yī diǎn",
     "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/landlord.png",
-    "localImage": "vocab_images/landlord.png",
-    "searchTerm": "landlord"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "a little, some"
   },
   {
-    "id": 464,
+    "id": 469,
     "book": 1,
-    "english": "long (time)",
-    "traditional": "久",
-    "pinyin": "jiǔ",
+    "english": "long time no see",
+    "traditional": "好久不見",
+    "pinyin": "hǎo jiǔ bú jiàn",
     "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/long.png",
-    "localImage": "vocab_images/long.png",
-    "searchTerm": "long (time)"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "long time no see"
   },
   {
-    "id": 465,
+    "id": 470,
     "book": 1,
-    "english": "MRT",
-    "traditional": "捷運",
-    "pinyin": "jié yùn",
+    "english": "May all your wishes come true",
+    "traditional": "心想事成",
+    "pinyin": "xīn xiǎng shì chéng",
     "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/metro.png",
-    "localImage": "vocab_images/metro.png",
-    "searchTerm": "mrt"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "may all your wishes come true"
   },
   {
-    "id": 466,
+    "id": 471,
     "book": 1,
     "english": "May everything go your way",
     "traditional": "萬事如意",
@@ -5592,7 +5652,7 @@ const VOCAB_DATA = [
     "searchTerm": "may everything go your way"
   },
   {
-    "id": 467,
+    "id": 472,
     "book": 1,
     "english": "most (of), mostly",
     "traditional": "大部分",
@@ -5604,19 +5664,7 @@ const VOCAB_DATA = [
     "searchTerm": "most (of), mostly"
   },
   {
-    "id": 468,
-    "book": 1,
-    "english": "next time",
-    "traditional": "下次",
-    "pinyin": "xià cì",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "next time"
-  },
-  {
-    "id": 469,
+    "id": 473,
     "book": 1,
     "english": "No need to stand on formalities",
     "traditional": "不必客氣",
@@ -5628,55 +5676,55 @@ const VOCAB_DATA = [
     "searchTerm": "no need to stand on formalities"
   },
   {
-    "id": 470,
+    "id": 474,
     "book": 1,
-    "english": "or (in a question)",
-    "traditional": "還是",
-    "pinyin": "hái shì",
+    "english": "to order (in advance)",
+    "traditional": "訂",
+    "pinyin": "dìng",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "or (in a question)"
+    "searchTerm": "to order (in advance)"
   },
   {
-    "id": 471,
+    "id": 475,
     "book": 1,
-    "english": "painful",
-    "traditional": "痛",
-    "pinyin": "tòng",
+    "english": "pork knuckles",
+    "traditional": "豬腳",
+    "pinyin": "zhū jiǎo",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "pork knuckles"
+  },
+  {
+    "id": 476,
+    "book": 1,
+    "english": "realization particle",
+    "traditional": "啊",
+    "pinyin": "a",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/painful.png",
-    "localImage": "vocab_images/painful.png",
-    "searchTerm": "painful"
+    "photoUrl": "vocab_images/realization particle.png",
+    "localImage": "vocab_images/realization particle.png",
+    "searchTerm": "realization particle"
   },
   {
-    "id": 472,
+    "id": 477,
     "book": 1,
-    "english": "pretty",
-    "traditional": "漂亮",
-    "pinyin": "piào liang",
+    "english": "to remember",
+    "traditional": "記得",
+    "pinyin": "jì de",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/pretty.png",
-    "localImage": "vocab_images/pretty.png",
-    "searchTerm": "pretty"
+    "photoUrl": "vocab_images/remember.png",
+    "localImage": "vocab_images/remember.png",
+    "searchTerm": "to remember"
   },
   {
-    "id": 473,
-    "book": 1,
-    "english": "red maple leaves",
-    "traditional": "紅葉",
-    "pinyin": "hóng yè",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/red maple leaves.png",
-    "localImage": "vocab_images/red maple leaves.png",
-    "searchTerm": "red maple leaves"
-  },
-  {
-    "id": 474,
+    "id": 478,
     "book": 1,
     "english": "Spain",
     "traditional": "西班牙",
@@ -5688,7 +5736,7 @@ const VOCAB_DATA = [
     "searchTerm": "spain"
   },
   {
-    "id": 475,
+    "id": 479,
     "book": 1,
     "english": "Spanish language",
     "traditional": "西班牙文",
@@ -5700,19 +5748,55 @@ const VOCAB_DATA = [
     "searchTerm": "spanish language"
   },
   {
-    "id": 476,
+    "id": 480,
     "book": 1,
-    "english": "and then",
-    "traditional": "再",
-    "pinyin": "zài",
+    "english": "so (very)",
+    "traditional": "那麼",
+    "pinyin": "nà me",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/so.png",
+    "localImage": "vocab_images/so.png",
+    "searchTerm": "so (very)"
+  },
+  {
+    "id": 481,
+    "book": 1,
+    "english": "That's very kind of you",
+    "traditional": "太客氣",
+    "pinyin": "tài kè qì",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "and then"
+    "searchTerm": "that's very kind of you"
   },
   {
-    "id": 477,
+    "id": 482,
+    "book": 1,
+    "english": "the same / alike",
+    "traditional": "一樣",
+    "pinyin": "yī yàng",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the same.png",
+    "localImage": "vocab_images/the same.png",
+    "searchTerm": "the same / alike"
+  },
+  {
+    "id": 483,
+    "book": 1,
+    "english": "This is s/he speaking",
+    "traditional": "我就是",
+    "pinyin": "wǒ jiù shì",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/this is s.png",
+    "localImage": "vocab_images/this is s.png",
+    "searchTerm": "this is s/he speaking"
+  },
+  {
+    "id": 484,
     "book": 1,
     "english": "this year",
     "traditional": "今年",
@@ -5724,31 +5808,43 @@ const VOCAB_DATA = [
     "searchTerm": "this year"
   },
   {
-    "id": 478,
+    "id": 485,
     "book": 1,
-    "english": "to (give to)",
-    "traditional": "給",
-    "pinyin": "gěi",
+    "english": "to / toward",
+    "traditional": "對",
+    "pinyin": "duì",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to (give to)"
+    "searchTerm": "to / toward"
   },
   {
-    "id": 479,
+    "id": 486,
     "book": 1,
-    "english": "two",
-    "traditional": "兩",
-    "pinyin": "liǎng",
+    "english": "tradition / customs",
+    "traditional": "傳統",
+    "pinyin": "chuán tǒng",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/two.png",
-    "localImage": "vocab_images/two.png",
-    "searchTerm": "two"
+    "photoUrl": "vocab_images/tradition.png",
+    "localImage": "vocab_images/tradition.png",
+    "searchTerm": "tradition / customs"
   },
   {
-    "id": 480,
+    "id": 487,
+    "book": 1,
+    "english": "to come back",
+    "traditional": "回來",
+    "pinyin": "huí lái",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to come back"
+  },
+  {
+    "id": 488,
     "book": 1,
     "english": "young",
     "traditional": "年輕",
@@ -5760,7 +5856,7 @@ const VOCAB_DATA = [
     "searchTerm": "young"
   },
   {
-    "id": 481,
+    "id": 489,
     "book": 1,
     "english": "annoying",
     "traditional": "討厭",
@@ -5772,7 +5868,7 @@ const VOCAB_DATA = [
     "searchTerm": "annoying"
   },
   {
-    "id": 482,
+    "id": 490,
     "book": 1,
     "english": "autumn (season)",
     "traditional": "秋天",
@@ -5784,19 +5880,19 @@ const VOCAB_DATA = [
     "searchTerm": "autumn (season)"
   },
   {
-    "id": 483,
+    "id": 491,
     "book": 1,
-    "english": "bus",
-    "traditional": "公共汽車（公車）",
-    "pinyin": "gōng gòng qì chē (gōng chē)",
+    "english": "Bye. Take care.",
+    "traditional": "慢走",
+    "pinyin": "màn zǒu",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/bus.png",
-    "localImage": "vocab_images/bus.png",
-    "searchTerm": "bus"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "bye. take care."
   },
   {
-    "id": 484,
+    "id": 492,
     "book": 1,
     "english": "to be careful / take care",
     "traditional": "小心",
@@ -5808,19 +5904,31 @@ const VOCAB_DATA = [
     "searchTerm": "to be careful / take care"
   },
   {
-    "id": 485,
+    "id": 493,
     "book": 1,
-    "english": "clothes",
-    "traditional": "衣服",
-    "pinyin": "yī fú",
+    "english": "cold",
+    "traditional": "冷",
+    "pinyin": "lěng",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/clothes.png",
-    "localImage": "vocab_images/clothes.png",
-    "searchTerm": "clothes"
+    "photoUrl": "vocab_images/cold.png",
+    "localImage": "vocab_images/cold.png",
+    "searchTerm": "cold"
   },
   {
-    "id": 486,
+    "id": 494,
+    "book": 1,
+    "english": "the end of December",
+    "traditional": "十二月底",
+    "pinyin": "shí èr yuè dǐ",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "the end of december"
+  },
+  {
+    "id": 495,
     "book": 1,
     "english": "even (more)",
     "traditional": "更",
@@ -5832,55 +5940,43 @@ const VOCAB_DATA = [
     "searchTerm": "even (more)"
   },
   {
-    "id": 487,
+    "id": 496,
     "book": 1,
-    "english": "every, each",
-    "traditional": "每",
-    "pinyin": "měi",
+    "english": "everyone",
+    "traditional": "大家",
+    "pinyin": "dà jiā",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/everyone.png",
+    "localImage": "vocab_images/everyone.png",
+    "searchTerm": "everyone"
+  },
+  {
+    "id": 497,
+    "book": 1,
+    "english": "last time",
+    "traditional": "上次",
+    "pinyin": "shàng cì",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "every, each"
+    "searchTerm": "last time"
   },
   {
-    "id": 488,
+    "id": 498,
     "book": 1,
-    "english": "to exchange",
-    "traditional": "交換",
-    "pinyin": "jiāo huàn",
+    "english": "to miss (someone)",
+    "traditional": "想",
+    "pinyin": "xiǎng",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/exchange.png",
-    "localImage": "vocab_images/exchange.png",
-    "searchTerm": "to exchange"
+    "photoUrl": "vocab_images/miss.png",
+    "localImage": "vocab_images/miss.png",
+    "searchTerm": "to miss (someone)"
   },
   {
-    "id": 489,
-    "book": 1,
-    "english": "last month",
-    "traditional": "上個月",
-    "pinyin": "shàng gè yuè",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "last month"
-  },
-  {
-    "id": 490,
-    "book": 1,
-    "english": "minute",
-    "traditional": "分",
-    "pinyin": "fēn",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/minute.png",
-    "localImage": "vocab_images/minute.png",
-    "searchTerm": "minute"
-  },
-  {
-    "id": 491,
+    "id": 499,
     "book": 1,
     "english": "New Year",
     "traditional": "新年",
@@ -5892,7 +5988,7 @@ const VOCAB_DATA = [
     "searchTerm": "new year"
   },
   {
-    "id": 492,
+    "id": 500,
     "book": 1,
     "english": "New York",
     "traditional": "紐約",
@@ -5904,7 +6000,7 @@ const VOCAB_DATA = [
     "searchTerm": "new york"
   },
   {
-    "id": 493,
+    "id": 501,
     "book": 1,
     "english": "news",
     "traditional": "新聞",
@@ -5916,43 +6012,43 @@ const VOCAB_DATA = [
     "searchTerm": "news"
   },
   {
-    "id": 494,
+    "id": 502,
     "book": 1,
-    "english": "noodles",
-    "traditional": "麵",
-    "pinyin": "miàn",
+    "english": "next year",
+    "traditional": "明年",
+    "pinyin": "míng nián",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/noodles.png",
-    "localImage": "vocab_images/noodles.png",
-    "searchTerm": "noodles"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "next year"
   },
   {
-    "id": 495,
+    "id": 503,
     "book": 1,
-    "english": "older sister",
-    "traditional": "姐姐",
-    "pinyin": "jiě jie",
+    "english": "only, merely",
+    "traditional": "只",
+    "pinyin": "zhǐ",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/older sister.png",
-    "localImage": "vocab_images/older sister.png",
-    "searchTerm": "older sister"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "only, merely"
   },
   {
-    "id": 496,
+    "id": 504,
     "book": 1,
-    "english": "outside",
-    "traditional": "外面",
-    "pinyin": "wài miàn",
+    "english": "parents",
+    "traditional": "父母",
+    "pinyin": "fù mǔ",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/outside.png",
-    "localImage": "vocab_images/outside.png",
-    "searchTerm": "outside"
+    "photoUrl": "vocab_images/parents.png",
+    "localImage": "vocab_images/parents.png",
+    "searchTerm": "parents"
   },
   {
-    "id": 497,
+    "id": 505,
     "book": 1,
     "english": "rain",
     "traditional": "雨",
@@ -5964,7 +6060,7 @@ const VOCAB_DATA = [
     "searchTerm": "rain"
   },
   {
-    "id": 498,
+    "id": 506,
     "book": 1,
     "english": "to rain",
     "traditional": "下雨",
@@ -5976,19 +6072,19 @@ const VOCAB_DATA = [
     "searchTerm": "to rain"
   },
   {
-    "id": 499,
+    "id": 507,
     "book": 1,
-    "english": "red",
-    "traditional": "紅色",
-    "pinyin": "hóng sè",
+    "english": "red maple leaves",
+    "traditional": "紅葉",
+    "pinyin": "hóng yè",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/red.png",
-    "localImage": "vocab_images/red.png",
-    "searchTerm": "red"
+    "photoUrl": "vocab_images/red maple leaves.png",
+    "localImage": "vocab_images/red maple leaves.png",
+    "searchTerm": "red maple leaves"
   },
   {
-    "id": 500,
+    "id": 508,
     "book": 1,
     "english": "scary",
     "traditional": "可怕",
@@ -6000,7 +6096,7 @@ const VOCAB_DATA = [
     "searchTerm": "scary"
   },
   {
-    "id": 501,
+    "id": 509,
     "book": 1,
     "english": "to ski",
     "traditional": "滑雪",
@@ -6012,7 +6108,7 @@ const VOCAB_DATA = [
     "searchTerm": "to ski"
   },
   {
-    "id": 502,
+    "id": 510,
     "book": 1,
     "english": "to snow",
     "traditional": "下雪",
@@ -6024,7 +6120,7 @@ const VOCAB_DATA = [
     "searchTerm": "to snow"
   },
   {
-    "id": 503,
+    "id": 511,
     "book": 1,
     "english": "soon",
     "traditional": "快",
@@ -6036,7 +6132,7 @@ const VOCAB_DATA = [
     "searchTerm": "soon"
   },
   {
-    "id": 504,
+    "id": 512,
     "book": 1,
     "english": "spring (season)",
     "traditional": "春天",
@@ -6048,7 +6144,7 @@ const VOCAB_DATA = [
     "searchTerm": "spring (season)"
   },
   {
-    "id": 505,
+    "id": 513,
     "book": 1,
     "english": "to stop",
     "traditional": "停",
@@ -6060,7 +6156,7 @@ const VOCAB_DATA = [
     "searchTerm": "to stop"
   },
   {
-    "id": 506,
+    "id": 514,
     "book": 1,
     "english": "summer (season)",
     "traditional": "夏天",
@@ -6072,7 +6168,7 @@ const VOCAB_DATA = [
     "searchTerm": "summer (season)"
   },
   {
-    "id": 507,
+    "id": 515,
     "book": 1,
     "english": "this time",
     "traditional": "這次",
@@ -6084,55 +6180,31 @@ const VOCAB_DATA = [
     "searchTerm": "this time"
   },
   {
-    "id": 508,
+    "id": 516,
     "book": 1,
-    "english": "together",
-    "traditional": "一起",
-    "pinyin": "yī qǐ",
+    "english": "typhoon",
+    "traditional": "颱風",
+    "pinyin": "tái fēng",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/together.png",
-    "localImage": "vocab_images/together.png",
-    "searchTerm": "together"
+    "photoUrl": "vocab_images/typhoon.png",
+    "localImage": "vocab_images/typhoon.png",
+    "searchTerm": "typhoon"
   },
   {
-    "id": 509,
+    "id": 517,
     "book": 1,
-    "english": "tram / train",
-    "traditional": "火車",
-    "pinyin": "huǒ chē",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/train.png",
-    "localImage": "vocab_images/train.png",
-    "searchTerm": "tram / train"
-  },
-  {
-    "id": 510,
-    "book": 1,
-    "english": "tuition",
-    "traditional": "學費",
-    "pinyin": "xué fèi",
+    "english": "umbrella",
+    "traditional": "傘",
+    "pinyin": "sǎn",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "tuition"
+    "searchTerm": "umbrella"
   },
   {
-    "id": 511,
-    "book": 1,
-    "english": "Vietnam",
-    "traditional": "越南",
-    "pinyin": "Yuè nán",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/Vietnam.png",
-    "localImage": "vocab_images/Vietnam.png",
-    "searchTerm": "vietnam"
-  },
-  {
-    "id": 512,
+    "id": 518,
     "book": 1,
     "english": "weather",
     "traditional": "天氣",
@@ -6144,7 +6216,7 @@ const VOCAB_DATA = [
     "searchTerm": "weather"
   },
   {
-    "id": 513,
+    "id": 519,
     "book": 1,
     "english": "wet",
     "traditional": "濕",
@@ -6156,19 +6228,7 @@ const VOCAB_DATA = [
     "searchTerm": "wet"
   },
   {
-    "id": 514,
-    "book": 1,
-    "english": "will not do",
-    "traditional": "不行",
-    "pinyin": "bù xíng",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "will not do"
-  },
-  {
-    "id": 515,
+    "id": 520,
     "book": 1,
     "english": "will / be going to",
     "traditional": "要",
@@ -6180,19 +6240,19 @@ const VOCAB_DATA = [
     "searchTerm": "will / be going to"
   },
   {
-    "id": 516,
+    "id": 521,
     "book": 1,
-    "english": "window",
-    "traditional": "窗戶",
-    "pinyin": "chuāng hù",
+    "english": "wind",
+    "traditional": "風",
+    "pinyin": "fēng",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/window.png",
-    "localImage": "vocab_images/window.png",
-    "searchTerm": "window"
+    "photoUrl": "vocab_images/wind.png",
+    "localImage": "vocab_images/wind.png",
+    "searchTerm": "wind"
   },
   {
-    "id": 517,
+    "id": 522,
     "book": 1,
     "english": "winter (season)",
     "traditional": "冬天",
@@ -6204,7 +6264,7 @@ const VOCAB_DATA = [
     "searchTerm": "winter (season)"
   },
   {
-    "id": 518,
+    "id": 523,
     "book": 1,
     "english": "to wish (sb happiness, luck)",
     "traditional": "祝",
@@ -6216,7 +6276,7 @@ const VOCAB_DATA = [
     "searchTerm": "to wish (sb happiness, luck)"
   },
   {
-    "id": 519,
+    "id": 524,
     "book": 1,
     "english": "Yu Shan (Mount Jade)",
     "traditional": "玉山",
@@ -6228,7 +6288,7 @@ const VOCAB_DATA = [
     "searchTerm": "yu shan (mount jade)"
   },
   {
-    "id": 520,
+    "id": 525,
     "book": 1,
     "english": "a bit earlier",
     "traditional": "早一點",
@@ -6240,175 +6300,7 @@ const VOCAB_DATA = [
     "searchTerm": "a bit earlier"
   },
   {
-    "id": 521,
-    "book": 1,
-    "english": "(a) few",
-    "traditional": "幾",
-    "pinyin": "jǐ",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/few.png",
-    "localImage": "vocab_images/few.png",
-    "searchTerm": "(a) few"
-  },
-  {
-    "id": 522,
-    "book": 1,
-    "english": "appetite",
-    "traditional": "胃口",
-    "pinyin": "wèi kǒu",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/appetite.png",
-    "localImage": "vocab_images/appetite.png",
-    "searchTerm": "appetite"
-  },
-  {
-    "id": 523,
-    "book": 1,
-    "english": "to catch/have a cold",
-    "traditional": "感冒",
-    "pinyin": "gǎn mào",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cold illness.png",
-    "localImage": "vocab_images/cold illness.png",
-    "searchTerm": "to catch/have a cold"
-  },
-  {
-    "id": 524,
-    "book": 1,
-    "english": "company",
-    "traditional": "公司",
-    "pinyin": "gōng sī",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/company.png",
-    "localImage": "vocab_images/company.png",
-    "searchTerm": "company"
-  },
-  {
-    "id": 525,
-    "book": 1,
-    "english": "complement marker",
-    "traditional": "得",
-    "pinyin": "de",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "complement marker"
-  },
-  {
     "id": 526,
-    "book": 1,
-    "english": "dinner",
-    "traditional": "晚飯",
-    "pinyin": "wǎn fàn",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/dinner.png",
-    "localImage": "vocab_images/dinner.png",
-    "searchTerm": "dinner"
-  },
-  {
-    "id": 527,
-    "book": 1,
-    "english": "to do, to engage in",
-    "traditional": "做",
-    "pinyin": "zuò",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to do, to engage in"
-  },
-  {
-    "id": 528,
-    "book": 1,
-    "english": "the end of December",
-    "traditional": "十二月底",
-    "pinyin": "shí èr yuè dǐ",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "the end of december"
-  },
-  {
-    "id": 529,
-    "book": 1,
-    "english": "to fall ill",
-    "traditional": "生病",
-    "pinyin": "shēng bìng",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/sick.png",
-    "localImage": "vocab_images/sick.png",
-    "searchTerm": "to fall ill"
-  },
-  {
-    "id": 530,
-    "book": 1,
-    "english": "don't (imperative)",
-    "traditional": "別",
-    "pinyin": "bié",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "don't (imperative)"
-  },
-  {
-    "id": 531,
-    "book": 1,
-    "english": "film",
-    "traditional": "片",
-    "pinyin": "piàn",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/film.png",
-    "localImage": "vocab_images/film.png",
-    "searchTerm": "film"
-  },
-  {
-    "id": 532,
-    "book": 1,
-    "english": "front",
-    "traditional": "前面",
-    "pinyin": "qián miàn",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/in front of.png",
-    "localImage": "vocab_images/in front of.png",
-    "searchTerm": "front"
-  },
-  {
-    "id": 533,
-    "book": 1,
-    "english": "girl; female",
-    "traditional": "女",
-    "pinyin": "nǚ",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/girl.png",
-    "localImage": "vocab_images/girl.png",
-    "searchTerm": "girl; female"
-  },
-  {
-    "id": 534,
-    "book": 1,
-    "english": "to go back, return",
-    "traditional": "回去",
-    "pinyin": "huí qù",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/return.png",
-    "localImage": "vocab_images/return.png",
-    "searchTerm": "to go back, return"
-  },
-  {
-    "id": 535,
     "book": 1,
     "english": "to accompany",
     "traditional": "陪",
@@ -6420,7 +6312,151 @@ const VOCAB_DATA = [
     "searchTerm": "to accompany"
   },
   {
+    "id": 527,
+    "book": 1,
+    "english": "appetite",
+    "traditional": "胃口",
+    "pinyin": "wèi kǒu",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/appetite.png",
+    "localImage": "vocab_images/appetite.png",
+    "searchTerm": "appetite"
+  },
+  {
+    "id": 528,
+    "book": 1,
+    "english": "to catch/have a cold",
+    "traditional": "感冒",
+    "pinyin": "gǎn mào",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cold illness.png",
+    "localImage": "vocab_images/cold illness.png",
+    "searchTerm": "to catch/have a cold"
+  },
+  {
+    "id": 529,
+    "book": 1,
+    "english": "to be concerned about",
+    "traditional": "關心",
+    "pinyin": "guān xīn",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be concerned about"
+  },
+  {
+    "id": 530,
+    "book": 1,
+    "english": "continuously, all the way",
+    "traditional": "一直",
+    "pinyin": "yī zhí",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "continuously, all the way"
+  },
+  {
+    "id": 531,
+    "book": 1,
+    "english": "disposal marker",
+    "traditional": "把",
+    "pinyin": "bǎ",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "disposal marker"
+  },
+  {
+    "id": 532,
+    "book": 1,
+    "english": "doctor",
+    "traditional": "醫生",
+    "pinyin": "yī shēng",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/doctor.png",
+    "localImage": "vocab_images/doctor.png",
+    "searchTerm": "doctor"
+  },
+  {
+    "id": 533,
+    "book": 1,
+    "english": "don't (imperative)",
+    "traditional": "別",
+    "pinyin": "bié",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "don't (imperative)"
+  },
+  {
+    "id": 534,
+    "book": 1,
+    "english": "to fall ill",
+    "traditional": "生病",
+    "pinyin": "shēng bìng",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sick.png",
+    "localImage": "vocab_images/sick.png",
+    "searchTerm": "to fall ill"
+  },
+  {
+    "id": 535,
+    "book": 1,
+    "english": "(a) few",
+    "traditional": "幾",
+    "pinyin": "jǐ",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/few.png",
+    "localImage": "vocab_images/few.png",
+    "searchTerm": "(a) few"
+  },
+  {
     "id": 536,
+    "book": 1,
+    "english": "to flow",
+    "traditional": "流",
+    "pinyin": "liú",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/flow.png",
+    "localImage": "vocab_images/flow.png",
+    "searchTerm": "to flow"
+  },
+  {
+    "id": 537,
+    "book": 1,
+    "english": "to get",
+    "traditional": "拿",
+    "pinyin": "ná",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get.png",
+    "localImage": "vocab_images/get.png",
+    "searchTerm": "to get"
+  },
+  {
+    "id": 538,
+    "book": 1,
+    "english": "go home",
+    "traditional": "回家",
+    "pinyin": "huí jiā",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/go home.png",
+    "localImage": "vocab_images/go home.png",
+    "searchTerm": "go home"
+  },
+  {
+    "id": 539,
     "book": 1,
     "english": "to have a fever",
     "traditional": "發燒",
@@ -6432,7 +6468,7 @@ const VOCAB_DATA = [
     "searchTerm": "to have a fever"
   },
   {
-    "id": 537,
+    "id": 540,
     "book": 1,
     "english": "head",
     "traditional": "頭",
@@ -6444,7 +6480,7 @@ const VOCAB_DATA = [
     "searchTerm": "head"
   },
   {
-    "id": 538,
+    "id": 541,
     "book": 1,
     "english": "health",
     "traditional": "健康",
@@ -6456,11 +6492,23 @@ const VOCAB_DATA = [
     "searchTerm": "health"
   },
   {
-    "id": 539,
+    "id": 542,
+    "book": 1,
+    "english": "health center",
+    "traditional": "健康中心",
+    "pinyin": "jiàn kāng zhōng xīn",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/clinic.png",
+    "localImage": "vocab_images/clinic.png",
+    "searchTerm": "health center"
+  },
+  {
+    "id": 543,
     "book": 1,
     "english": "hour (spoken)",
-    "traditional": "鐘頭",
-    "pinyin": "zhōng tóu",
+    "traditional": "小時",
+    "pinyin": "xiǎo shí",
     "lesson": 15,
     "isVisual": true,
     "photoUrl": "vocab_images/hour.png",
@@ -6468,7 +6516,7 @@ const VOCAB_DATA = [
     "searchTerm": "hour (spoken)"
   },
   {
-    "id": 540,
+    "id": 544,
     "book": 1,
     "english": "ice",
     "traditional": "冰",
@@ -6480,7 +6528,7 @@ const VOCAB_DATA = [
     "searchTerm": "ice"
   },
   {
-    "id": 541,
+    "id": 545,
     "book": 1,
     "english": "to have inflammation",
     "traditional": "發炎",
@@ -6492,7 +6540,7 @@ const VOCAB_DATA = [
     "searchTerm": "to have inflammation"
   },
   {
-    "id": 542,
+    "id": 546,
     "book": 1,
     "english": "insurance",
     "traditional": "保險",
@@ -6504,7 +6552,7 @@ const VOCAB_DATA = [
     "searchTerm": "insurance"
   },
   {
-    "id": 543,
+    "id": 547,
     "book": 1,
     "english": "It would be best / should",
     "traditional": "最好",
@@ -6516,7 +6564,7 @@ const VOCAB_DATA = [
     "searchTerm": "it would be best / should"
   },
   {
-    "id": 544,
+    "id": 548,
     "book": 1,
     "english": "It's not necessary",
     "traditional": "不用了",
@@ -6528,91 +6576,115 @@ const VOCAB_DATA = [
     "searchTerm": "it's not necessary"
   },
   {
-    "id": 545,
-    "book": 1,
-    "english": "May I ask you… / Excuse me…",
-    "traditional": "請問",
-    "pinyin": "qǐng wèn",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "may i ask you… / excuse me…"
-  },
-  {
-    "id": 546,
-    "book": 1,
-    "english": "measure word for pieces of food",
-    "traditional": "塊",
-    "pinyin": "kuài",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for pieces of food"
-  },
-  {
-    "id": 547,
-    "book": 1,
-    "english": "medium",
-    "traditional": "中",
-    "pinyin": "zhōng",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/medium.png",
-    "localImage": "vocab_images/medium.png",
-    "searchTerm": "medium"
-  },
-  {
-    "id": 548,
-    "book": 1,
-    "english": "to fear / not like",
-    "traditional": "怕",
-    "pinyin": "pà",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/fear.png",
-    "localImage": "vocab_images/fear.png",
-    "searchTerm": "to fear / not like"
-  },
-  {
     "id": 549,
     "book": 1,
-    "english": "often",
-    "traditional": "常",
-    "pinyin": "cháng",
+    "english": "measure word for bags/packages",
+    "traditional": "包",
+    "pinyin": "bāo",
     "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/often.png",
-    "localImage": "vocab_images/often.png",
-    "searchTerm": "often"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for bags/packages"
   },
   {
     "id": 550,
     "book": 1,
-    "english": "to order (in advance)",
-    "traditional": "訂",
-    "pinyin": "dìng",
+    "english": "measure word for times/occurrences",
+    "traditional": "次",
+    "pinyin": "cì",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to order (in advance)"
+    "searchTerm": "measure word for times/occurrences"
   },
   {
     "id": 551,
     "book": 1,
-    "english": "pork knuckles",
-    "traditional": "豬腳",
-    "pinyin": "zhū jiǎo",
+    "english": "medicine",
+    "traditional": "藥",
+    "pinyin": "yào",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/medicine.png",
+    "localImage": "vocab_images/medicine.png",
+    "searchTerm": "medicine"
+  },
+  {
+    "id": 552,
+    "book": 1,
+    "english": "not to look good",
+    "traditional": "難看",
+    "pinyin": "nán kàn",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "pork knuckles"
+    "searchTerm": "not to look good"
   },
   {
-    "id": 552,
+    "id": 553,
+    "book": 1,
+    "english": "oily, greasy",
+    "traditional": "油",
+    "pinyin": "yóu",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/oily.png",
+    "localImage": "vocab_images/oily.png",
+    "searchTerm": "oily, greasy"
+  },
+  {
+    "id": 554,
+    "book": 1,
+    "english": "painful",
+    "traditional": "痛",
+    "pinyin": "tòng",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/painful.png",
+    "localImage": "vocab_images/painful.png",
+    "searchTerm": "painful"
+  },
+  {
+    "id": 555,
+    "book": 1,
+    "english": "a person's facial color",
+    "traditional": "臉色",
+    "pinyin": "liǎn sè",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "a person's facial color"
+  },
+  {
+    "id": 556,
+    "book": 1,
+    "english": "pharmacy / drugstore",
+    "traditional": "藥局",
+    "pinyin": "yào jú",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pharmacy.png",
+    "localImage": "vocab_images/pharmacy.png",
+    "searchTerm": "pharmacy / drugstore"
+  },
+  {
+    "id": 557,
+    "book": 1,
+    "english": "poor, bad",
+    "traditional": "差",
+    "pinyin": "chà",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/poor.png",
+    "localImage": "vocab_images/poor.png",
+    "searchTerm": "poor, bad"
+  },
+  {
+    "id": 558,
     "book": 1,
     "english": "to see a doctor",
     "traditional": "看病",
@@ -6624,19 +6696,7 @@ const VOCAB_DATA = [
     "searchTerm": "to see a doctor"
   },
   {
-    "id": 553,
-    "book": 1,
-    "english": "to sleep (noun form)",
-    "traditional": "睡覺",
-    "pinyin": "shuì jiào",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/sleep.png",
-    "localImage": "vocab_images/sleep.png",
-    "searchTerm": "to sleep (noun form)"
-  },
-  {
-    "id": 554,
+    "id": 559,
     "book": 1,
     "english": "to sleep",
     "traditional": "睡",
@@ -6648,7 +6708,19 @@ const VOCAB_DATA = [
     "searchTerm": "to sleep"
   },
   {
-    "id": 555,
+    "id": 560,
+    "book": 1,
+    "english": "to sleep (noun form)",
+    "traditional": "睡覺",
+    "pinyin": "shuì jiào",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sleep.png",
+    "localImage": "vocab_images/sleep.png",
+    "searchTerm": "to sleep (noun form)"
+  },
+  {
+    "id": 561,
     "book": 1,
     "english": "snot / runny nose",
     "traditional": "鼻水",
@@ -6660,7 +6732,7 @@ const VOCAB_DATA = [
     "searchTerm": "snot / runny nose"
   },
   {
-    "id": 556,
+    "id": 562,
     "book": 1,
     "english": "stomach, abdomen",
     "traditional": "肚子",
@@ -6672,7 +6744,7 @@ const VOCAB_DATA = [
     "searchTerm": "stomach, abdomen"
   },
   {
-    "id": 557,
+    "id": 563,
     "book": 1,
     "english": "to take a rest",
     "traditional": "休息",
@@ -6684,7 +6756,7 @@ const VOCAB_DATA = [
     "searchTerm": "to take a rest"
   },
   {
-    "id": 558,
+    "id": 564,
     "book": 1,
     "english": "throat",
     "traditional": "喉嚨",
@@ -6696,7 +6768,7 @@ const VOCAB_DATA = [
     "searchTerm": "throat"
   },
   {
-    "id": 559,
+    "id": 565,
     "book": 1,
     "english": "to throw up / vomit",
     "traditional": "吐",
@@ -6708,7 +6780,19 @@ const VOCAB_DATA = [
     "searchTerm": "to throw up / vomit"
   },
   {
-    "id": 560,
+    "id": 566,
+    "book": 1,
+    "english": "to",
+    "traditional": "跟",
+    "pinyin": "gēn",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to"
+  },
+  {
+    "id": 567,
     "book": 1,
     "english": "water",
     "traditional": "水",
@@ -6720,7 +6804,7 @@ const VOCAB_DATA = [
     "searchTerm": "water"
   },
   {
-    "id": 561,
+    "id": 568,
     "book": 1,
     "english": "What's wrong?",
     "traditional": "怎麼了",
@@ -6732,7 +6816,7 @@ const VOCAB_DATA = [
     "searchTerm": "what's wrong?"
   },
   {
-    "id": 562,
+    "id": 569,
     "book": 2,
     "english": "alley",
     "traditional": "巷子",
@@ -6744,19 +6828,19 @@ const VOCAB_DATA = [
     "searchTerm": "alley"
   },
   {
-    "id": 563,
+    "id": 570,
     "book": 2,
-    "english": "as long as",
-    "traditional": "只要",
-    "pinyin": "zhǐ yào",
+    "english": "articles of daily use",
+    "traditional": "日用品",
+    "pinyin": "rì yòng pǐn",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "as long as"
+    "searchTerm": "articles of daily use"
   },
   {
-    "id": 564,
+    "id": 571,
     "book": 2,
     "english": "ATM machine",
     "traditional": "提款機",
@@ -6768,7 +6852,7 @@ const VOCAB_DATA = [
     "searchTerm": "atm machine"
   },
   {
-    "id": 565,
+    "id": 572,
     "book": 2,
     "english": "(away) from",
     "traditional": "離",
@@ -6780,7 +6864,7 @@ const VOCAB_DATA = [
     "searchTerm": "(away) from"
   },
   {
-    "id": 566,
+    "id": 573,
     "book": 2,
     "english": "backpack",
     "traditional": "背包",
@@ -6792,67 +6876,43 @@ const VOCAB_DATA = [
     "searchTerm": "backpack"
   },
   {
-    "id": 567,
+    "id": 574,
     "book": 2,
-    "english": "to continue",
-    "traditional": "繼續",
-    "pinyin": "jì xù",
+    "english": "convenience store",
+    "traditional": "超商",
+    "pinyin": "chāo shāng",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/continue.png",
-    "localImage": "vocab_images/continue.png",
-    "searchTerm": "to continue"
+    "photoUrl": "vocab_images/convenience store.png",
+    "localImage": "vocab_images/convenience store.png",
+    "searchTerm": "convenience store"
   },
   {
-    "id": 568,
+    "id": 575,
     "book": 2,
-    "english": "director",
-    "traditional": "主任",
-    "pinyin": "zhǔ rèn",
+    "english": "easy to use / handy",
+    "traditional": "好用",
+    "pinyin": "hǎo yòng",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/director.png",
-    "localImage": "vocab_images/director.png",
-    "searchTerm": "director"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "easy to use / handy"
   },
   {
-    "id": 569,
+    "id": 576,
     "book": 2,
-    "english": "door",
-    "traditional": "門",
-    "pinyin": "mén",
+    "english": "to discover",
+    "traditional": "發現",
+    "pinyin": "fā xiàn",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/door.png",
-    "localImage": "vocab_images/door.png",
-    "searchTerm": "door"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to discover"
   },
   {
-    "id": 570,
-    "book": 2,
-    "english": "easy",
-    "traditional": "容易",
-    "pinyin": "róng yì",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/easy.png",
-    "localImage": "vocab_images/easy.png",
-    "searchTerm": "easy"
-  },
-  {
-    "id": 571,
-    "book": 2,
-    "english": "elementary school",
-    "traditional": "小學",
-    "pinyin": "xiǎo xué",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/school.png",
-    "localImage": "vocab_images/school.png",
-    "searchTerm": "elementary school"
-  },
-  {
-    "id": 572,
+    "id": 577,
     "book": 2,
     "english": "forward / ahead",
     "traditional": "往前",
@@ -6864,7 +6924,7 @@ const VOCAB_DATA = [
     "searchTerm": "forward / ahead"
   },
   {
-    "id": 573,
+    "id": 578,
     "book": 2,
     "english": "to get to",
     "traditional": "走",
@@ -6876,7 +6936,19 @@ const VOCAB_DATA = [
     "searchTerm": "to get to"
   },
   {
-    "id": 574,
+    "id": 579,
+    "book": 2,
+    "english": "to go past",
+    "traditional": "經過",
+    "pinyin": "jīng guò",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to go past"
+  },
+  {
+    "id": 580,
     "book": 2,
     "english": "to cross / pass",
     "traditional": "過",
@@ -6888,31 +6960,31 @@ const VOCAB_DATA = [
     "searchTerm": "to cross / pass"
   },
   {
-    "id": 575,
+    "id": 581,
     "book": 2,
-    "english": "help / assistance",
-    "traditional": "幫助",
-    "pinyin": "bāng zhù",
+    "english": "to help (do a favor)",
+    "traditional": "幫忙",
+    "pinyin": "bāng máng",
     "lesson": 1,
     "isVisual": true,
     "photoUrl": "vocab_images/help.png",
     "localImage": "vocab_images/help.png",
-    "searchTerm": "help / assistance"
+    "searchTerm": "to help (do a favor)"
   },
   {
-    "id": 576,
+    "id": 582,
     "book": 2,
-    "english": "holiday / festival",
-    "traditional": "節日",
-    "pinyin": "jié rì",
+    "english": "Heping East Road",
+    "traditional": "和平東路",
+    "pinyin": "Hé píng dōng lù",
     "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/holiday.png",
-    "localImage": "vocab_images/holiday.png",
-    "searchTerm": "holiday / festival"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "heping east road"
   },
   {
-    "id": 577,
+    "id": 583,
     "book": 2,
     "english": "hungry",
     "traditional": "餓",
@@ -6924,7 +6996,19 @@ const VOCAB_DATA = [
     "searchTerm": "hungry"
   },
   {
-    "id": 578,
+    "id": 584,
+    "book": 2,
+    "english": "in the end / finally",
+    "traditional": "最後",
+    "pinyin": "zuì hòu",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "in the end / finally"
+  },
+  {
+    "id": 585,
     "book": 2,
     "english": "at the same time (while)",
     "traditional": "一邊",
@@ -6936,7 +7020,7 @@ const VOCAB_DATA = [
     "searchTerm": "at the same time (while)"
   },
   {
-    "id": 579,
+    "id": 586,
     "book": 2,
     "english": "intersection",
     "traditional": "路口",
@@ -6948,115 +7032,127 @@ const VOCAB_DATA = [
     "searchTerm": "intersection"
   },
   {
-    "id": 580,
-    "book": 2,
-    "english": "jet ski",
-    "traditional": "水上摩托車",
-    "pinyin": "shuǐ shàng mó tuō chē",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/jet ski.png",
-    "localImage": "vocab_images/jet ski.png",
-    "searchTerm": "jet ski"
-  },
-  {
-    "id": 581,
-    "book": 2,
-    "english": "only",
-    "traditional": "才",
-    "pinyin": "cái",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "only"
-  },
-  {
-    "id": 582,
-    "book": 2,
-    "english": "to disappear",
-    "traditional": "不見",
-    "pinyin": "bú jiàn",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/disappear.png",
-    "localImage": "vocab_images/disappear.png",
-    "searchTerm": "to disappear"
-  },
-  {
-    "id": 583,
-    "book": 2,
-    "english": "management",
-    "traditional": "管理",
-    "pinyin": "guǎn lǐ",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "management"
-  },
-  {
-    "id": 584,
-    "book": 2,
-    "english": "originally",
-    "traditional": "本來",
-    "pinyin": "běn lái",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "originally"
-  },
-  {
-    "id": 585,
-    "book": 2,
-    "english": "measure word for street",
-    "traditional": "條",
-    "pinyin": "tiáo",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for street"
-  },
-  {
-    "id": 586,
-    "book": 2,
-    "english": "newspapers",
-    "traditional": "報紙",
-    "pinyin": "bào zhǐ",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/newspaper.png",
-    "localImage": "vocab_images/newspaper.png",
-    "searchTerm": "newspapers"
-  },
-  {
     "id": 587,
     "book": 2,
-    "english": "on the street",
-    "traditional": "街上",
-    "pinyin": "jiē shàng",
+    "english": "to get lost",
+    "traditional": "迷路",
+    "pinyin": "mí lù",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/street.png",
-    "localImage": "vocab_images/street.png",
-    "searchTerm": "on the street"
+    "photoUrl": "vocab_images/get lost.png",
+    "localImage": "vocab_images/get lost.png",
+    "searchTerm": "to get lost"
   },
   {
     "id": 588,
     "book": 2,
-    "english": "Paris",
-    "traditional": "巴黎",
-    "pinyin": "Bā lí",
+    "english": "map",
+    "traditional": "地圖",
+    "pinyin": "dì tú",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/paris.png",
-    "localImage": "vocab_images/paris.png",
-    "searchTerm": "paris"
+    "photoUrl": "vocab_images/map.png",
+    "localImage": "vocab_images/map.png",
+    "searchTerm": "map"
   },
   {
     "id": 589,
+    "book": 2,
+    "english": "measure word for books",
+    "traditional": "本",
+    "pinyin": "běn",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for books"
+  },
+  {
+    "id": 590,
+    "book": 2,
+    "english": "measure word for pens",
+    "traditional": "枝",
+    "pinyin": "zhī",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for pens"
+  },
+  {
+    "id": 591,
+    "book": 2,
+    "english": "next",
+    "traditional": "下",
+    "pinyin": "xià",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "next"
+  },
+  {
+    "id": 592,
+    "book": 2,
+    "english": "noodle shop",
+    "traditional": "麵店",
+    "pinyin": "miàn diàn",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/shop.png",
+    "localImage": "vocab_images/shop.png",
+    "searchTerm": "noodle shop"
+  },
+  {
+    "id": 593,
+    "book": 2,
+    "english": "notebook",
+    "traditional": "本子",
+    "pinyin": "běn zi",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/notebook.png",
+    "localImage": "vocab_images/notebook.png",
+    "searchTerm": "notebook"
+  },
+  {
+    "id": 594,
+    "book": 2,
+    "english": "NTNU (Shida)",
+    "traditional": "師大（師範大學）",
+    "pinyin": "Shī dà (Shī fàn Dà xué)",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "ntnu (shida)"
+  },
+  {
+    "id": 595,
+    "book": 2,
+    "english": "on Shida Road",
+    "traditional": "師大路",
+    "pinyin": "Shī dà lù",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "on shida road"
+  },
+  {
+    "id": 596,
+    "book": 2,
+    "english": "ordinal marker",
+    "traditional": "第",
+    "pinyin": "dì",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "ordinal marker"
+  },
+  {
+    "id": 597,
     "book": 2,
     "english": "pen",
     "traditional": "筆",
@@ -7068,67 +7164,31 @@ const VOCAB_DATA = [
     "searchTerm": "pen"
   },
   {
-    "id": 590,
+    "id": 598,
     "book": 2,
-    "english": "pollution",
-    "traditional": "汙染",
-    "pinyin": "wū rǎn",
+    "english": "post office",
+    "traditional": "郵局",
+    "pinyin": "yóu jú",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/pollution.png",
-    "localImage": "vocab_images/pollution.png",
-    "searchTerm": "pollution"
+    "photoUrl": "vocab_images/post office.png",
+    "localImage": "vocab_images/post office.png",
+    "searchTerm": "post office"
   },
   {
-    "id": 591,
+    "id": 599,
     "book": 2,
-    "english": "section",
-    "traditional": "段",
-    "pinyin": "duàn",
+    "english": "progressive particle",
+    "traditional": "著",
+    "pinyin": "zhe",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "section"
+    "searchTerm": "progressive particle"
   },
   {
-    "id": 592,
-    "book": 2,
-    "english": "to have seen",
-    "traditional": "看見",
-    "pinyin": "kàn jiàn",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to have seen"
-  },
-  {
-    "id": 593,
-    "book": 2,
-    "english": "should / ought to",
-    "traditional": "應該",
-    "pinyin": "yīng gāi",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "should / ought to"
-  },
-  {
-    "id": 594,
-    "book": 2,
-    "english": "soda can",
-    "traditional": "汽水罐",
-    "pinyin": "qì shuǐ guàn",
-    "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "soda can"
-  },
-  {
-    "id": 595,
+    "id": 600,
     "book": 2,
     "english": "passerby",
     "traditional": "路人",
@@ -7140,55 +7200,91 @@ const VOCAB_DATA = [
     "searchTerm": "passerby"
   },
   {
-    "id": 596,
+    "id": 601,
     "book": 2,
-    "english": "southeast side",
-    "traditional": "東南邊",
-    "pinyin": "dōng nán biān",
+    "english": "section",
+    "traditional": "段",
+    "pinyin": "duàn",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "southeast side"
+    "searchTerm": "section"
   },
   {
-    "id": 597,
+    "id": 602,
     "book": 2,
-    "english": "to take a test",
-    "traditional": "考",
-    "pinyin": "kǎo",
+    "english": "to have seen",
+    "traditional": "看見",
+    "pinyin": "kàn jiàn",
     "lesson": 1,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to take a test"
+    "searchTerm": "to have seen"
   },
   {
-    "id": 598,
+    "id": 603,
     "book": 2,
-    "english": "temple",
-    "traditional": "廟",
-    "pinyin": "miào",
+    "english": "should / ought to",
+    "traditional": "應該",
+    "pinyin": "yīng gāi",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "should / ought to"
+  },
+  {
+    "id": 604,
+    "book": 2,
+    "english": "to sound like",
+    "traditional": "聽起來",
+    "pinyin": "tīng qǐ lái",
+    "lesson": 1,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to sound like"
+  },
+  {
+    "id": 605,
+    "book": 2,
+    "english": "to tell",
+    "traditional": "告訴",
+    "pinyin": "gào sù",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/temple.png",
-    "localImage": "vocab_images/temple.png",
-    "searchTerm": "temple"
+    "photoUrl": "vocab_images/tell.png",
+    "localImage": "vocab_images/tell.png",
+    "searchTerm": "to tell"
   },
   {
-    "id": 599,
+    "id": 606,
     "book": 2,
-    "english": "troublesome",
-    "traditional": "麻煩",
-    "pinyin": "má fan",
+    "english": "traffic light",
+    "traditional": "紅綠燈",
+    "pinyin": "hóng lǜ dēng",
     "lesson": 1,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "troublesome"
+    "isVisual": true,
+    "photoUrl": "vocab_images/traffic light.png",
+    "localImage": "vocab_images/traffic light.png",
+    "searchTerm": "traffic light"
   },
   {
-    "id": 600,
+    "id": 607,
+    "book": 2,
+    "english": "to turn left",
+    "traditional": "左轉",
+    "pinyin": "zuǒ zhuǎn",
+    "lesson": 1,
+    "isVisual": true,
+    "photoUrl": "vocab_images/turn left.png",
+    "localImage": "vocab_images/turn left.png",
+    "searchTerm": "to turn left"
+  },
+  {
+    "id": 608,
     "book": 2,
     "english": "to turn right",
     "traditional": "右轉",
@@ -7200,55 +7296,19 @@ const VOCAB_DATA = [
     "searchTerm": "to turn right"
   },
   {
-    "id": 601,
+    "id": 609,
     "book": 2,
-    "english": "uncle (older)",
-    "traditional": "伯伯",
-    "pinyin": "bó bo",
+    "english": "to withdraw (money)",
+    "traditional": "提",
+    "pinyin": "tí",
     "lesson": 1,
     "isVisual": true,
-    "photoUrl": "vocab_images/uncle.png",
-    "localImage": "vocab_images/uncle.png",
-    "searchTerm": "uncle (older)"
+    "photoUrl": "vocab_images/withdraw.png",
+    "localImage": "vocab_images/withdraw.png",
+    "searchTerm": "to withdraw (money)"
   },
   {
-    "id": 602,
-    "book": 2,
-    "english": "to comprehend",
-    "traditional": "懂",
-    "pinyin": "dǒng",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/comprehend.png",
-    "localImage": "vocab_images/comprehend.png",
-    "searchTerm": "to comprehend"
-  },
-  {
-    "id": 603,
-    "book": 2,
-    "english": "usually",
-    "traditional": "平常",
-    "pinyin": "píng cháng",
-    "lesson": 1,
-    "isVisual": true,
-    "photoUrl": "vocab_images/usually.png",
-    "localImage": "vocab_images/usually.png",
-    "searchTerm": "usually"
-  },
-  {
-    "id": 604,
-    "book": 2,
-    "english": "adverbial particle",
-    "traditional": "地",
-    "pinyin": "de",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "adverbial particle"
-  },
-  {
-    "id": 605,
+    "id": 610,
     "book": 2,
     "english": "airplane",
     "traditional": "飛機",
@@ -7260,7 +7320,7 @@ const VOCAB_DATA = [
     "searchTerm": "airplane"
   },
   {
-    "id": 606,
+    "id": 611,
     "book": 2,
     "english": "airport",
     "traditional": "機場",
@@ -7272,19 +7332,31 @@ const VOCAB_DATA = [
     "searchTerm": "airport"
   },
   {
-    "id": 607,
+    "id": 612,
     "book": 2,
-    "english": "bicycle",
-    "traditional": "自行車",
-    "pinyin": "zì xíng chē",
+    "english": "boat / ship",
+    "traditional": "船",
+    "pinyin": "chuán",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/bicycle.png",
-    "localImage": "vocab_images/bicycle.png",
-    "searchTerm": "bicycle"
+    "photoUrl": "vocab_images/boat.png",
+    "localImage": "vocab_images/boat.png",
+    "searchTerm": "boat / ship"
   },
   {
-    "id": 608,
+    "id": 613,
+    "book": 2,
+    "english": "bus",
+    "traditional": "巴士",
+    "pinyin": "bā shì",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/bus.png",
+    "localImage": "vocab_images/bus.png",
+    "searchTerm": "bus"
+  },
+  {
+    "id": 614,
     "book": 2,
     "english": "bus/tram station",
     "traditional": "車站",
@@ -7296,175 +7368,115 @@ const VOCAB_DATA = [
     "searchTerm": "bus/tram station"
   },
   {
-    "id": 609,
-    "book": 2,
-    "english": "to calculate",
-    "traditional": "算",
-    "pinyin": "suàn",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/calculate.png",
-    "localImage": "vocab_images/calculate.png",
-    "searchTerm": "to calculate"
-  },
-  {
-    "id": 610,
-    "book": 2,
-    "english": "chopsticks",
-    "traditional": "筷子",
-    "pinyin": "kuài zi",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/chopsticks.png",
-    "localImage": "vocab_images/chopsticks.png",
-    "searchTerm": "chopsticks"
-  },
-  {
-    "id": 611,
-    "book": 2,
-    "english": "church / cathedral",
-    "traditional": "教堂",
-    "pinyin": "jiào táng",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/church.png",
-    "localImage": "vocab_images/church.png",
-    "searchTerm": "church / cathedral"
-  },
-  {
-    "id": 612,
-    "book": 2,
-    "english": "to collect",
-    "traditional": "收",
-    "pinyin": "shōu",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/collect.png",
-    "localImage": "vocab_images/collect.png",
-    "searchTerm": "to collect"
-  },
-  {
-    "id": 613,
-    "book": 2,
-    "english": "common Chinese surname",
-    "traditional": "黃",
-    "pinyin": "Huáng",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "common chinese surname"
-  },
-  {
-    "id": 614,
-    "book": 2,
-    "english": "completely",
-    "traditional": "完全",
-    "pinyin": "wán quán",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "completely"
-  },
-  {
     "id": 615,
     "book": 2,
-    "english": "contract / agreement",
-    "traditional": "合約",
-    "pinyin": "hé yuē",
+    "english": "complicated",
+    "traditional": "複雜",
+    "pinyin": "fù zá",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/paper.png",
-    "localImage": "vocab_images/paper.png",
-    "searchTerm": "contract / agreement"
+    "photoUrl": "vocab_images/complicated.png",
+    "localImage": "vocab_images/complicated.png",
+    "searchTerm": "complicated"
   },
   {
     "id": 616,
     "book": 2,
-    "english": "dining room",
-    "traditional": "飯廳",
-    "pinyin": "fàn tīng",
+    "english": "computer show",
+    "traditional": "電腦展",
+    "pinyin": "diàn nǎo zhǎn",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/dining room.png",
-    "localImage": "vocab_images/dining room.png",
-    "searchTerm": "dining room"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "computer show"
   },
   {
     "id": 617,
     "book": 2,
-    "english": "to dive",
-    "traditional": "潛水",
-    "pinyin": "qián shuǐ",
+    "english": "convenient / handy",
+    "traditional": "便利",
+    "pinyin": "biàn lì",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/diver.png",
-    "localImage": "vocab_images/diver.png",
-    "searchTerm": "to dive"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "convenient / handy"
   },
   {
     "id": 618,
     "book": 2,
-    "english": "to download",
-    "traditional": "下載",
-    "pinyin": "xià zài",
+    "english": "directly",
+    "traditional": "直接",
+    "pinyin": "zhí jiē",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/download.png",
-    "localImage": "vocab_images/download.png",
-    "searchTerm": "to download"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "directly"
   },
   {
     "id": 619,
     "book": 2,
-    "english": "the earth",
-    "traditional": "地球",
-    "pinyin": "dì qiú",
+    "english": "downtown",
+    "traditional": "市區",
+    "pinyin": "shì qū",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/the earth.png",
-    "localImage": "vocab_images/the earth.png",
-    "searchTerm": "the earth"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "downtown"
   },
   {
     "id": 620,
     "book": 2,
-    "english": "easy to use / handy",
-    "traditional": "好用",
-    "pinyin": "hǎo yòng",
+    "english": "eastern part",
+    "traditional": "東部",
+    "pinyin": "dōng bù",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "easy to use / handy"
+    "searchTerm": "eastern part"
   },
   {
     "id": 621,
     "book": 2,
-    "english": "end of a month",
-    "traditional": "月底",
-    "pinyin": "yuè dǐ",
+    "english": "EasyCard",
+    "traditional": "悠遊卡",
+    "pinyin": "yōu yóu kǎ",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "end of a month"
+    "searchTerm": "easycard"
   },
   {
     "id": 622,
     "book": 2,
-    "english": "event / happening",
-    "traditional": "事情",
-    "pinyin": "shì qing",
+    "english": "Europe",
+    "traditional": "歐洲",
+    "pinyin": "Ōu zhōu",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/event.png",
-    "localImage": "vocab_images/event.png",
-    "searchTerm": "event / happening"
+    "photoUrl": "vocab_images/Europe.png",
+    "localImage": "vocab_images/Europe.png",
+    "searchTerm": "europe"
   },
   {
     "id": 623,
+    "book": 2,
+    "english": "everywhere",
+    "traditional": "到處",
+    "pinyin": "dào chù",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "everywhere"
+  },
+  {
+    "id": 624,
     "book": 2,
     "english": "exhibition hall",
     "traditional": "展覽館",
@@ -7476,7 +7488,19 @@ const VOCAB_DATA = [
     "searchTerm": "exhibition hall"
   },
   {
-    "id": 624,
+    "id": 625,
+    "book": 2,
+    "english": "to do properly",
+    "traditional": "好好地",
+    "pinyin": "hǎo hǎo de",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to do properly"
+  },
+  {
+    "id": 626,
     "book": 2,
     "english": "France",
     "traditional": "法國",
@@ -7488,7 +7512,7 @@ const VOCAB_DATA = [
     "searchTerm": "france"
   },
   {
-    "id": 625,
+    "id": 627,
     "book": 2,
     "english": "to get off",
     "traditional": "下",
@@ -7500,7 +7524,7 @@ const VOCAB_DATA = [
     "searchTerm": "to get off"
   },
   {
-    "id": 626,
+    "id": 628,
     "book": 2,
     "english": "Good morning",
     "traditional": "早",
@@ -7512,31 +7536,19 @@ const VOCAB_DATA = [
     "searchTerm": "good morning"
   },
   {
-    "id": 627,
+    "id": 629,
     "book": 2,
     "english": "Green Island",
     "traditional": "綠島",
     "pinyin": "Lǜ dǎo",
     "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/island.png",
+    "localImage": "vocab_images/island.png",
     "searchTerm": "green island"
   },
   {
-    "id": 628,
-    "book": 2,
-    "english": "to make an appointment",
-    "traditional": "約",
-    "pinyin": "yuē",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/make an appointment.png",
-    "localImage": "vocab_images/make an appointment.png",
-    "searchTerm": "to make an appointment"
-  },
-  {
-    "id": 629,
+    "id": 630,
     "book": 2,
     "english": "island",
     "traditional": "島",
@@ -7548,7 +7560,7 @@ const VOCAB_DATA = [
     "searchTerm": "island"
   },
   {
-    "id": 630,
+    "id": 631,
     "book": 2,
     "english": "to leave",
     "traditional": "走",
@@ -7560,43 +7572,55 @@ const VOCAB_DATA = [
     "searchTerm": "to leave"
   },
   {
-    "id": 631,
-    "book": 2,
-    "english": "long",
-    "traditional": "長",
-    "pinyin": "cháng",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/long.png",
-    "localImage": "vocab_images/long.png",
-    "searchTerm": "long"
-  },
-  {
     "id": 632,
     "book": 2,
-    "english": "meter",
-    "traditional": "公尺",
-    "pinyin": "gōng chǐ",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/meter.png",
-    "localImage": "vocab_images/meter.png",
-    "searchTerm": "meter"
-  },
-  {
-    "id": 633,
-    "book": 2,
-    "english": "next",
-    "traditional": "下",
-    "pinyin": "xià",
+    "english": "Line 2 (MRT)",
+    "traditional": "二號線",
+    "pinyin": "èr hào xiàn",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "next"
+    "searchTerm": "line 2 (mrt)"
+  },
+  {
+    "id": 633,
+    "book": 2,
+    "english": "to make an appointment",
+    "traditional": "約",
+    "pinyin": "yuē",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/make an appointment.png",
+    "localImage": "vocab_images/make an appointment.png",
+    "searchTerm": "to make an appointment"
   },
   {
     "id": 634,
+    "book": 2,
+    "english": "Meimei (girl’s name)",
+    "traditional": "美美",
+    "pinyin": "Měi měi",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "meimei (girl’s name)"
+  },
+  {
+    "id": 635,
+    "book": 2,
+    "english": "no need to",
+    "traditional": "不必",
+    "pinyin": "bù bì",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "no need to"
+  },
+  {
+    "id": 636,
     "book": 2,
     "english": "No need to hurry",
     "traditional": "別急",
@@ -7608,55 +7632,67 @@ const VOCAB_DATA = [
     "searchTerm": "no need to hurry"
   },
   {
-    "id": 635,
-    "book": 2,
-    "english": "other / the remaining",
-    "traditional": "其他",
-    "pinyin": "qí tā",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "other / the remaining"
-  },
-  {
-    "id": 636,
-    "book": 2,
-    "english": "to pack into",
-    "traditional": "裝",
-    "pinyin": "zhuāng",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to pack into"
-  },
-  {
     "id": 637,
     "book": 2,
-    "english": "religion",
-    "traditional": "宗教",
-    "pinyin": "zōng jiào",
+    "english": "number of scheduled runs",
+    "traditional": "班次",
+    "pinyin": "bān cì",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/religion.png",
-    "localImage": "vocab_images/religion.png",
-    "searchTerm": "religion"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "number of scheduled runs"
   },
   {
     "id": 638,
     "book": 2,
-    "english": "rural town",
-    "traditional": "鎮",
-    "pinyin": "zhèn",
+    "english": "opposite",
+    "traditional": "對面",
+    "pinyin": "duì miàn",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "rural town"
+    "searchTerm": "opposite"
   },
   {
     "id": 639,
+    "book": 2,
+    "english": "adverbial particle",
+    "traditional": "地",
+    "pinyin": "de",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "adverbial particle"
+  },
+  {
+    "id": 640,
+    "book": 2,
+    "english": "right away / quickly",
+    "traditional": "趕快",
+    "pinyin": "gǎn kuài",
+    "lesson": 2,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "right away / quickly"
+  },
+  {
+    "id": 641,
+    "book": 2,
+    "english": "route",
+    "traditional": "路線",
+    "pinyin": "lù xiàn",
+    "lesson": 2,
+    "isVisual": true,
+    "photoUrl": "vocab_images/route.png",
+    "localImage": "vocab_images/route.png",
+    "searchTerm": "route"
+  },
+  {
+    "id": 642,
     "book": 2,
     "english": "seaside",
     "traditional": "海邊",
@@ -7668,7 +7704,7 @@ const VOCAB_DATA = [
     "searchTerm": "seaside"
   },
   {
-    "id": 640,
+    "id": 643,
     "book": 2,
     "english": "to see",
     "traditional": "見",
@@ -7680,7 +7716,7 @@ const VOCAB_DATA = [
     "searchTerm": "to see"
   },
   {
-    "id": 641,
+    "id": 644,
     "book": 2,
     "english": "should probably / had better",
     "traditional": "還是",
@@ -7692,112 +7728,76 @@ const VOCAB_DATA = [
     "searchTerm": "should probably / had better"
   },
   {
-    "id": 642,
-    "book": 2,
-    "english": "Spanish language",
-    "traditional": "西班牙語",
-    "pinyin": "xī bān yá yǔ",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "spanish language"
-  },
-  {
-    "id": 643,
-    "book": 2,
-    "english": "street",
-    "traditional": "街",
-    "pinyin": "jiē",
-    "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/street.png",
-    "localImage": "vocab_images/street.png",
-    "searchTerm": "street"
-  },
-  {
-    "id": 644,
-    "book": 2,
-    "english": "suitable for",
-    "traditional": "適合",
-    "pinyin": "shì hé",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "suitable for"
-  },
-  {
     "id": 645,
     "book": 2,
-    "english": "summer vacation",
-    "traditional": "暑假",
-    "pinyin": "shǔ jià",
+    "english": "southeast side",
+    "traditional": "東南邊",
+    "pinyin": "dōng nán biān",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "summer vacation"
+    "searchTerm": "southeast side"
   },
   {
     "id": 646,
     "book": 2,
-    "english": "Sun Moon Lake",
-    "traditional": "日月潭",
-    "pinyin": "Rì yuè tán",
+    "english": "Taipei",
+    "traditional": "台北",
+    "pinyin": "Tái běi",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "sun moon lake"
+    "searchTerm": "taipei"
   },
   {
     "id": 647,
     "book": 2,
-    "english": "then",
-    "traditional": "又",
-    "pinyin": "yòu",
+    "english": "Taipei 101",
+    "traditional": "台北101",
+    "pinyin": "Tái běi yī líng yī",
     "lesson": 2,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "then"
+    "searchTerm": "taipei 101"
   },
   {
     "id": 648,
     "book": 2,
-    "english": "idea",
-    "traditional": "想法",
-    "pinyin": "xiǎng fǎ",
+    "english": "to take (transport)",
+    "traditional": "搭",
+    "pinyin": "dā",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/idea.png",
-    "localImage": "vocab_images/idea.png",
-    "searchTerm": "idea"
+    "photoUrl": "vocab_images/take.png",
+    "localImage": "vocab_images/take.png",
+    "searchTerm": "to take (transport)"
   },
   {
     "id": 649,
     "book": 2,
-    "english": "through",
-    "traditional": "透過",
-    "pinyin": "tòu guò",
+    "english": "to transfer (flights)",
+    "traditional": "轉機",
+    "pinyin": "zhuǎn jī",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/through.png",
-    "localImage": "vocab_images/through.png",
-    "searchTerm": "through"
+    "photoUrl": "vocab_images/transfer.png",
+    "localImage": "vocab_images/transfer.png",
+    "searchTerm": "to transfer (flights)"
   },
   {
     "id": 650,
     "book": 2,
-    "english": "to turn left",
-    "traditional": "左轉",
-    "pinyin": "zuǒ zhuǎn",
+    "english": "to transfer (transport)",
+    "traditional": "換",
+    "pinyin": "huàn",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/turn left.png",
-    "localImage": "vocab_images/turn left.png",
-    "searchTerm": "to turn left"
+    "photoUrl": "vocab_images/transfer.png",
+    "localImage": "vocab_images/transfer.png",
+    "searchTerm": "to transfer (transport)"
   },
   {
     "id": 651,
@@ -7814,65 +7814,41 @@ const VOCAB_DATA = [
   {
     "id": 652,
     "book": 2,
-    "english": "to trouble / disturb",
-    "traditional": "打擾",
-    "pinyin": "dǎ rǎo",
+    "english": "troublesome",
+    "traditional": "麻煩",
+    "pinyin": "má fan",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/trouble.png",
-    "localImage": "vocab_images/trouble.png",
-    "searchTerm": "to trouble / disturb"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "troublesome"
   },
   {
     "id": 653,
     "book": 2,
-    "english": "to understand",
-    "traditional": "了解",
-    "pinyin": "liǎo jiě",
+    "english": "week",
+    "traditional": "禮拜",
+    "pinyin": "lǐ bài",
     "lesson": 2,
     "isVisual": true,
-    "photoUrl": "vocab_images/understand.png",
-    "localImage": "vocab_images/understand.png",
-    "searchTerm": "to understand"
+    "photoUrl": "vocab_images/week.png",
+    "localImage": "vocab_images/week.png",
+    "searchTerm": "week"
   },
   {
     "id": 654,
     "book": 2,
-    "english": "wedding banquet / reception",
-    "traditional": "喜宴",
-    "pinyin": "xǐ yàn",
+    "english": "with ease",
+    "traditional": "輕鬆",
+    "pinyin": "qīng sōng",
     "lesson": 2,
-    "isVisual": true,
-    "photoUrl": "vocab_images/banquet.png",
-    "localImage": "vocab_images/banquet.png",
-    "searchTerm": "wedding banquet / reception"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "with ease"
   },
   {
     "id": 655,
-    "book": 2,
-    "english": "what kind of",
-    "traditional": "什麼樣",
-    "pinyin": "shén me yàng",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "what kind of"
-  },
-  {
-    "id": 656,
-    "book": 2,
-    "english": "to work part-time",
-    "traditional": "打工",
-    "pinyin": "dǎ gōng",
-    "lesson": 2,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to work part-time"
-  },
-  {
-    "id": 657,
     "book": 2,
     "english": "World Trade Center Exhibition Hall",
     "traditional": "世貿展覽館",
@@ -7884,31 +7860,7 @@ const VOCAB_DATA = [
     "searchTerm": "world trade center exhibition hall"
   },
   {
-    "id": 658,
-    "book": 2,
-    "english": "a little bit of / some",
-    "traditional": "一點",
-    "pinyin": "yī diǎn",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "a little bit of / some"
-  },
-  {
-    "id": 659,
-    "book": 2,
-    "english": "activity center",
-    "traditional": "活動中心",
-    "pinyin": "huó dòng zhōng xīn",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "activity center"
-  },
-  {
-    "id": 660,
+    "id": 656,
     "book": 2,
     "english": "advertisement",
     "traditional": "廣告",
@@ -7920,7 +7872,7 @@ const VOCAB_DATA = [
     "searchTerm": "advertisement"
   },
   {
-    "id": 661,
+    "id": 657,
     "book": 2,
     "english": "to agree with",
     "traditional": "同意",
@@ -7932,7 +7884,7 @@ const VOCAB_DATA = [
     "searchTerm": "to agree with"
   },
   {
-    "id": 662,
+    "id": 658,
     "book": 2,
     "english": "although",
     "traditional": "雖然",
@@ -7944,115 +7896,103 @@ const VOCAB_DATA = [
     "searchTerm": "although"
   },
   {
-    "id": 663,
+    "id": 659,
     "book": 2,
-    "english": "bowl",
-    "traditional": "碗",
-    "pinyin": "wǎn",
+    "english": "bread",
+    "traditional": "麵包",
+    "pinyin": "miàn bāo",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/bowl.png",
-    "localImage": "vocab_images/bowl.png",
-    "searchTerm": "bowl"
+    "photoUrl": "vocab_images/bread.png",
+    "localImage": "vocab_images/bread.png",
+    "searchTerm": "bread"
+  },
+  {
+    "id": 660,
+    "book": 2,
+    "english": "Chinese characters",
+    "traditional": "漢字",
+    "pinyin": "hàn zì",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "chinese characters"
+  },
+  {
+    "id": 661,
+    "book": 2,
+    "english": "culture",
+    "traditional": "文化",
+    "pinyin": "wén huà",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/culture.png",
+    "localImage": "vocab_images/culture.png",
+    "searchTerm": "culture"
+  },
+  {
+    "id": 662,
+    "book": 2,
+    "english": "early",
+    "traditional": "早",
+    "pinyin": "zǎo",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/early.png",
+    "localImage": "vocab_images/early.png",
+    "searchTerm": "early"
+  },
+  {
+    "id": 663,
+    "book": 2,
+    "english": "easy",
+    "traditional": "容易",
+    "pinyin": "róng yì",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/easy.png",
+    "localImage": "vocab_images/easy.png",
+    "searchTerm": "easy"
   },
   {
     "id": 664,
     "book": 2,
-    "english": "bride",
-    "traditional": "新娘",
-    "pinyin": "xīn niáng",
+    "english": "elementary school",
+    "traditional": "小學",
+    "pinyin": "xiǎo xué",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/bride.png",
-    "localImage": "vocab_images/bride.png",
-    "searchTerm": "bride"
+    "photoUrl": "vocab_images/school.png",
+    "localImage": "vocab_images/school.png",
+    "searchTerm": "elementary school"
   },
   {
     "id": 665,
     "book": 2,
-    "english": "countryside",
-    "traditional": "鄉下",
-    "pinyin": "xiāng xià",
+    "english": "environment",
+    "traditional": "環境",
+    "pinyin": "huán jìng",
     "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/countryside.png",
-    "localImage": "vocab_images/countryside.png",
-    "searchTerm": "countryside"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "environment"
   },
   {
     "id": 666,
     "book": 2,
-    "english": "desk / table",
-    "traditional": "桌子",
-    "pinyin": "zhuō zi",
+    "english": "experiential particle",
+    "traditional": "過",
+    "pinyin": "guò",
     "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/table.png",
-    "localImage": "vocab_images/table.png",
-    "searchTerm": "desk / table"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "experiential particle"
   },
   {
     "id": 667,
-    "book": 2,
-    "english": "dusk",
-    "traditional": "黃昏",
-    "pinyin": "huáng hūn",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/dusk.png",
-    "localImage": "vocab_images/dusk.png",
-    "searchTerm": "dusk"
-  },
-  {
-    "id": 668,
-    "book": 2,
-    "english": "eastern part",
-    "traditional": "東部",
-    "pinyin": "dōng bù",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "eastern part"
-  },
-  {
-    "id": 669,
-    "book": 2,
-    "english": "electric power",
-    "traditional": "電",
-    "pinyin": "diàn",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/electric power.png",
-    "localImage": "vocab_images/electric power.png",
-    "searchTerm": "electric power"
-  },
-  {
-    "id": 670,
-    "book": 2,
-    "english": "enough",
-    "traditional": "夠",
-    "pinyin": "gòu",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "enough"
-  },
-  {
-    "id": 671,
-    "book": 2,
-    "english": "even",
-    "traditional": "連",
-    "pinyin": "lián",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/even.png",
-    "localImage": "vocab_images/even.png",
-    "searchTerm": "even"
-  },
-  {
-    "id": 672,
     "book": 2,
     "english": "fluent",
     "traditional": "流利",
@@ -8064,7 +8004,7 @@ const VOCAB_DATA = [
     "searchTerm": "fluent"
   },
   {
-    "id": 673,
+    "id": 668,
     "book": 2,
     "english": "foreigner",
     "traditional": "外國人",
@@ -8076,19 +8016,19 @@ const VOCAB_DATA = [
     "searchTerm": "foreigner"
   },
   {
-    "id": 674,
+    "id": 669,
     "book": 2,
     "english": "to get to know",
     "traditional": "認識",
     "pinyin": "rèn shi",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/know.png",
+    "localImage": "vocab_images/know.png",
     "searchTerm": "to get to know"
   },
   {
-    "id": 675,
+    "id": 670,
     "book": 2,
     "english": "glad / pleased",
     "traditional": "高興",
@@ -8100,7 +8040,7 @@ const VOCAB_DATA = [
     "searchTerm": "glad / pleased"
   },
   {
-    "id": 676,
+    "id": 671,
     "book": 2,
     "english": "to go hiking",
     "traditional": "爬山",
@@ -8112,7 +8052,7 @@ const VOCAB_DATA = [
     "searchTerm": "to go hiking"
   },
   {
-    "id": 677,
+    "id": 672,
     "book": 2,
     "english": "to chat",
     "traditional": "聊天",
@@ -8124,43 +8064,19 @@ const VOCAB_DATA = [
     "searchTerm": "to chat"
   },
   {
-    "id": 678,
+    "id": 673,
     "book": 2,
-    "english": "to think / hold the opinion",
-    "traditional": "認為",
-    "pinyin": "rèn wéi",
+    "english": "homework / assignment",
+    "traditional": "作業",
+    "pinyin": "zuò yè",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/think.png",
-    "localImage": "vocab_images/think.png",
-    "searchTerm": "to think / hold the opinion"
+    "photoUrl": "vocab_images/homework.png",
+    "localImage": "vocab_images/homework.png",
+    "searchTerm": "homework / assignment"
   },
   {
-    "id": 679,
-    "book": 2,
-    "english": "Hong Kong",
-    "traditional": "香港",
-    "pinyin": "Xiāng gǎng",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/Hong Kong.png",
-    "localImage": "vocab_images/Hong Kong.png",
-    "searchTerm": "hong kong"
-  },
-  {
-    "id": 680,
-    "book": 2,
-    "english": "light / relaxed",
-    "traditional": "輕",
-    "pinyin": "qīng",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "light / relaxed"
-  },
-  {
-    "id": 681,
+    "id": 674,
     "book": 2,
     "english": "to improve",
     "traditional": "進步",
@@ -8172,187 +8088,223 @@ const VOCAB_DATA = [
     "searchTerm": "to improve"
   },
   {
-    "id": 682,
+    "id": 675,
     "book": 2,
-    "english": "measure word for utterances",
-    "traditional": "句",
-    "pinyin": "jù",
+    "english": "life",
+    "traditional": "生活",
+    "pinyin": "shēng huó",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "measure word for utterances"
+    "searchTerm": "life"
+  },
+  {
+    "id": 676,
+    "book": 2,
+    "english": "measure word for people (polite)",
+    "traditional": "位",
+    "pinyin": "wèi",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for people (polite)"
+  },
+  {
+    "id": 677,
+    "book": 2,
+    "english": "middle of the night",
+    "traditional": "半夜",
+    "pinyin": "bàn yè",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/night.png",
+    "localImage": "vocab_images/night.png",
+    "searchTerm": "middle of the night"
+  },
+  {
+    "id": 678,
+    "book": 2,
+    "english": "newspapers",
+    "traditional": "報紙",
+    "pinyin": "bào zhǐ",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/newspaper.png",
+    "localImage": "vocab_images/newspaper.png",
+    "searchTerm": "newspapers"
+  },
+  {
+    "id": 679,
+    "book": 2,
+    "english": "not enough",
+    "traditional": "不夠",
+    "pinyin": "bù gòu",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "not enough"
+  },
+  {
+    "id": 680,
+    "book": 2,
+    "english": "only",
+    "traditional": "才",
+    "pinyin": "cái",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "only"
+  },
+  {
+    "id": 681,
+    "book": 2,
+    "english": "to practice",
+    "traditional": "練習",
+    "pinyin": "liàn xí",
+    "lesson": 3,
+    "isVisual": true,
+    "photoUrl": "vocab_images/practice.png",
+    "localImage": "vocab_images/practice.png",
+    "searchTerm": "to practice"
+  },
+  {
+    "id": 682,
+    "book": 2,
+    "english": "to prepare",
+    "traditional": "準備",
+    "pinyin": "zhǔn bèi",
+    "lesson": 3,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to prepare"
   },
   {
     "id": 683,
     "book": 2,
-    "english": "to be mistaken / wrong",
-    "traditional": "錯",
-    "pinyin": "cuò",
+    "english": "to recall / remember",
+    "traditional": "想起來",
+    "pinyin": "xiǎng qǐ lái",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/wrong.png",
-    "localImage": "vocab_images/wrong.png",
-    "searchTerm": "to be mistaken / wrong"
+    "photoUrl": "vocab_images/recall.png",
+    "localImage": "vocab_images/recall.png",
+    "searchTerm": "to recall / remember"
   },
   {
     "id": 684,
     "book": 2,
-    "english": "morning",
-    "traditional": "上午",
-    "pinyin": "shàng wǔ",
+    "english": "senior high school",
+    "traditional": "高中",
+    "pinyin": "gāo zhōng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/morning.png",
-    "localImage": "vocab_images/morning.png",
-    "searchTerm": "morning"
+    "photoUrl": "vocab_images/high school.png",
+    "localImage": "vocab_images/high school.png",
+    "searchTerm": "senior high school"
   },
   {
     "id": 685,
     "book": 2,
-    "english": "news / information",
-    "traditional": "消息",
-    "pinyin": "xiāo xī",
+    "english": "a little bit of / some",
+    "traditional": "一些",
+    "pinyin": "yī xiē",
     "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/news.png",
-    "localImage": "vocab_images/news.png",
-    "searchTerm": "news / information"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "a little bit of / some"
   },
   {
     "id": 686,
     "book": 2,
-    "english": "the north",
-    "traditional": "北部",
-    "pinyin": "běi bù",
+    "english": "to speak",
+    "traditional": "說話",
+    "pinyin": "shuō huà",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/the north.png",
-    "localImage": "vocab_images/the north.png",
-    "searchTerm": "the north"
+    "photoUrl": "vocab_images/speak.png",
+    "localImage": "vocab_images/speak.png",
+    "searchTerm": "to speak"
   },
   {
     "id": 687,
     "book": 2,
-    "english": "not to worry",
-    "traditional": "放心",
-    "pinyin": "fàng xīn",
+    "english": "speech / lecture",
+    "traditional": "演講",
+    "pinyin": "yǎn jiǎng",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "not to worry"
+    "isVisual": true,
+    "photoUrl": "vocab_images/lecture.png",
+    "localImage": "vocab_images/lecture.png",
+    "searchTerm": "speech / lecture"
   },
   {
     "id": 688,
     "book": 2,
-    "english": "organic",
-    "traditional": "有機",
-    "pinyin": "yǒu jī",
+    "english": "to take a test",
+    "traditional": "考",
+    "pinyin": "kǎo",
     "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "organic"
+    "searchTerm": "to take a test"
   },
   {
     "id": 689,
     "book": 2,
-    "english": "pot / wok etc.",
-    "traditional": "鍋子",
-    "pinyin": "guō zi",
+    "english": "test / exam",
+    "traditional": "考試",
+    "pinyin": "kǎo shì",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/pot.png",
-    "localImage": "vocab_images/pot.png",
-    "searchTerm": "pot / wok etc."
+    "photoUrl": "vocab_images/exam.png",
+    "localImage": "vocab_images/exam.png",
+    "searchTerm": "test / exam"
   },
   {
     "id": 690,
     "book": 2,
-    "english": "to select",
-    "traditional": "選",
-    "pinyin": "xuǎn",
+    "english": "dictation",
+    "traditional": "聽寫",
+    "pinyin": "tīng xiě",
     "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/select.png",
-    "localImage": "vocab_images/select.png",
-    "searchTerm": "to select"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "dictation"
   },
   {
     "id": 691,
     "book": 2,
-    "english": "spirit / energy",
-    "traditional": "精神",
-    "pinyin": "jīng shén",
+    "english": "to understand",
+    "traditional": "了解",
+    "pinyin": "liǎo jiě",
     "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "spirit / energy"
+    "isVisual": true,
+    "photoUrl": "vocab_images/understand.png",
+    "localImage": "vocab_images/understand.png",
+    "searchTerm": "to understand"
   },
   {
     "id": 692,
     "book": 2,
-    "english": "spring break",
-    "traditional": "春假",
-    "pinyin": "chūn jià",
+    "english": "usually",
+    "traditional": "平常",
+    "pinyin": "píng cháng",
     "lesson": 3,
     "isVisual": true,
-    "photoUrl": "vocab_images/spring break.png",
-    "localImage": "vocab_images/spring break.png",
-    "searchTerm": "spring break"
+    "photoUrl": "vocab_images/usually.png",
+    "localImage": "vocab_images/usually.png",
+    "searchTerm": "usually"
   },
   {
     "id": 693,
-    "book": 2,
-    "english": "to sunbathe",
-    "traditional": "曬太陽",
-    "pinyin": "shài tài yáng",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/sunbathe.png",
-    "localImage": "vocab_images/sunbathe.png",
-    "searchTerm": "to sunbathe"
-  },
-  {
-    "id": 694,
-    "book": 2,
-    "english": "to teach",
-    "traditional": "教書",
-    "pinyin": "jiāo shū",
-    "lesson": 3,
-    "isVisual": true,
-    "photoUrl": "vocab_images/teach.png",
-    "localImage": "vocab_images/teach.png",
-    "searchTerm": "to teach"
-  },
-  {
-    "id": 695,
-    "book": 2,
-    "english": "utterance / word",
-    "traditional": "話",
-    "pinyin": "huà",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "utterance / word"
-  },
-  {
-    "id": 696,
-    "book": 2,
-    "english": "worthwhile",
-    "traditional": "值得",
-    "pinyin": "zhí dé",
-    "lesson": 3,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "worthwhile"
-  },
-  {
-    "id": 697,
     "book": 2,
     "english": "Yangmingshan",
     "traditional": "陽明山",
@@ -8364,43 +8316,31 @@ const VOCAB_DATA = [
     "searchTerm": "yangmingshan"
   },
   {
-    "id": 698,
+    "id": 694,
     "book": 2,
     "english": "to accept",
     "traditional": "答應",
     "pinyin": "dā yìng",
-    "lesson": 4,
+    "lesson": 3,
     "isVisual": true,
     "photoUrl": "vocab_images/accept.png",
     "localImage": "vocab_images/accept.png",
     "searchTerm": "to accept"
   },
   {
-    "id": 699,
+    "id": 695,
     "book": 2,
     "english": "afterwards / and then",
     "traditional": "然後",
     "pinyin": "rán hòu",
-    "lesson": 4,
+    "lesson": 3,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
     "searchTerm": "afterwards / and then"
   },
   {
-    "id": 700,
-    "book": 2,
-    "english": "articles of daily use",
-    "traditional": "日用品",
-    "pinyin": "rì yòng pǐn",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "articles of daily use"
-  },
-  {
-    "id": 701,
+    "id": 696,
     "book": 2,
     "english": "Asia",
     "traditional": "亞洲",
@@ -8412,7 +8352,7 @@ const VOCAB_DATA = [
     "searchTerm": "asia"
   },
   {
-    "id": 702,
+    "id": 697,
     "book": 2,
     "english": "to ask (polite)",
     "traditional": "請教",
@@ -8424,7 +8364,7 @@ const VOCAB_DATA = [
     "searchTerm": "to ask (polite)"
   },
   {
-    "id": 703,
+    "id": 698,
     "book": 2,
     "english": "based on / according to",
     "traditional": "按照",
@@ -8436,55 +8376,67 @@ const VOCAB_DATA = [
     "searchTerm": "based on / according to"
   },
   {
+    "id": 699,
+    "book": 2,
+    "english": "to calculate",
+    "traditional": "算",
+    "pinyin": "suàn",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/calculate.png",
+    "localImage": "vocab_images/calculate.png",
+    "searchTerm": "to calculate"
+  },
+  {
+    "id": 700,
+    "book": 2,
+    "english": "common Chinese surname",
+    "traditional": "黃",
+    "pinyin": "Huáng",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "common chinese surname"
+  },
+  {
+    "id": 701,
+    "book": 2,
+    "english": "director",
+    "traditional": "主任",
+    "pinyin": "zhǔ rèn",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/director.png",
+    "localImage": "vocab_images/director.png",
+    "searchTerm": "director"
+  },
+  {
+    "id": 702,
+    "book": 2,
+    "english": "end of a month",
+    "traditional": "月底",
+    "pinyin": "yuè dǐ",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "end of a month"
+  },
+  {
+    "id": 703,
+    "book": 2,
+    "english": "enough",
+    "traditional": "夠",
+    "pinyin": "gòu",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "enough"
+  },
+  {
     "id": 704,
-    "book": 2,
-    "english": "to call (for attention)",
-    "traditional": "叫",
-    "pinyin": "jiào",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/call.png",
-    "localImage": "vocab_images/call.png",
-    "searchTerm": "to call (for attention)"
-  },
-  {
-    "id": 705,
-    "book": 2,
-    "english": "diplomacy / foreign affairs",
-    "traditional": "外交",
-    "pinyin": "wài jiāo",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "diplomacy / foreign affairs"
-  },
-  {
-    "id": 706,
-    "book": 2,
-    "english": "to do research",
-    "traditional": "研究",
-    "pinyin": "yán jiū",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/do research.png",
-    "localImage": "vocab_images/do research.png",
-    "searchTerm": "to do research"
-  },
-  {
-    "id": 707,
-    "book": 2,
-    "english": "to enrich / strengthen",
-    "traditional": "充實",
-    "pinyin": "chōng shí",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to enrich / strengthen"
-  },
-  {
-    "id": 708,
     "book": 2,
     "english": "experience",
     "traditional": "經驗",
@@ -8496,7 +8448,7 @@ const VOCAB_DATA = [
     "searchTerm": "experience"
   },
   {
-    "id": 709,
+    "id": 705,
     "book": 2,
     "english": "to explain",
     "traditional": "說明",
@@ -8508,7 +8460,19 @@ const VOCAB_DATA = [
     "searchTerm": "to explain"
   },
   {
-    "id": 710,
+    "id": 706,
+    "book": 2,
+    "english": "except for",
+    "traditional": "除了",
+    "pinyin": "chú le",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "except for"
+  },
+  {
+    "id": 707,
     "book": 2,
     "english": "French language",
     "traditional": "法文",
@@ -8520,19 +8484,7 @@ const VOCAB_DATA = [
     "searchTerm": "french language"
   },
   {
-    "id": 711,
-    "book": 2,
-    "english": "the future",
-    "traditional": "未來",
-    "pinyin": "wèi lái",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "the future"
-  },
-  {
-    "id": 712,
+    "id": 708,
     "book": 2,
     "english": "Gao Meiling",
     "traditional": "高美玲",
@@ -8544,19 +8496,7 @@ const VOCAB_DATA = [
     "searchTerm": "gao meiling"
   },
   {
-    "id": 713,
-    "book": 2,
-    "english": "smoothly",
-    "traditional": "順利",
-    "pinyin": "shùn lì",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "smoothly"
-  },
-  {
-    "id": 714,
+    "id": 709,
     "book": 2,
     "english": "grade (school year)",
     "traditional": "年級",
@@ -8568,7 +8508,7 @@ const VOCAB_DATA = [
     "searchTerm": "grade (school year)"
   },
   {
-    "id": 715,
+    "id": 710,
     "book": 2,
     "english": "grade three",
     "traditional": "三年級",
@@ -8580,19 +8520,31 @@ const VOCAB_DATA = [
     "searchTerm": "grade three"
   },
   {
-    "id": 716,
+    "id": 711,
     "book": 2,
     "english": "to have an interview",
     "traditional": "面談",
     "pinyin": "miàn tán",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/interview.png",
+    "localImage": "vocab_images/interview.png",
     "searchTerm": "to have an interview"
   },
   {
-    "id": 717,
+    "id": 712,
+    "book": 2,
+    "english": "hourly pay",
+    "traditional": "鐘點費",
+    "pinyin": "zhōng diǎn fèi",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "hourly pay"
+  },
+  {
+    "id": 713,
     "book": 2,
     "english": "immediately",
     "traditional": "馬上",
@@ -8604,7 +8556,7 @@ const VOCAB_DATA = [
     "searchTerm": "immediately"
   },
   {
-    "id": 718,
+    "id": 714,
     "book": 2,
     "english": "to introduce",
     "traditional": "介紹",
@@ -8616,7 +8568,7 @@ const VOCAB_DATA = [
     "searchTerm": "to introduce"
   },
   {
-    "id": 719,
+    "id": 715,
     "book": 2,
     "english": "law",
     "traditional": "法律",
@@ -8628,127 +8580,115 @@ const VOCAB_DATA = [
     "searchTerm": "law"
   },
   {
+    "id": 716,
+    "book": 2,
+    "english": "linguistics",
+    "traditional": "語言學",
+    "pinyin": "yǔ yán xué",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "linguistics"
+  },
+  {
+    "id": 717,
+    "book": 2,
+    "english": "measure word for job",
+    "traditional": "份",
+    "pinyin": "fèn",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for job"
+  },
+  {
+    "id": 718,
+    "book": 2,
+    "english": "office",
+    "traditional": "辦公室",
+    "pinyin": "bàn gōng shì",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "office"
+  },
+  {
+    "id": 719,
+    "book": 2,
+    "english": "overseas Chinese",
+    "traditional": "華僑",
+    "pinyin": "huá qiáo",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "overseas chinese"
+  },
+  {
     "id": 720,
     "book": 2,
-    "english": "location",
-    "traditional": "地點",
-    "pinyin": "dì diǎn",
+    "english": "to pay (wages)",
+    "traditional": "發",
+    "pinyin": "fā",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/location.png",
-    "localImage": "vocab_images/location.png",
-    "searchTerm": "location"
+    "photoUrl": "vocab_images/pay.png",
+    "localImage": "vocab_images/pay.png",
+    "searchTerm": "to pay (wages)"
   },
   {
     "id": 721,
     "book": 2,
-    "english": "to look / it seems",
-    "traditional": "看起來",
-    "pinyin": "kàn qǐ lái",
+    "english": "pay",
+    "traditional": "薪水",
+    "pinyin": "xīn shuǐ",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/look.png",
-    "localImage": "vocab_images/look.png",
-    "searchTerm": "to look / it seems"
+    "photoUrl": "vocab_images/pay.png",
+    "localImage": "vocab_images/pay.png",
+    "searchTerm": "pay"
   },
   {
     "id": 722,
     "book": 2,
-    "english": "measure word for people (polite)",
-    "traditional": "位",
-    "pinyin": "wèi",
+    "english": "professor",
+    "traditional": "教授",
+    "pinyin": "jiào shòu",
     "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for people (polite)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/professor.png",
+    "localImage": "vocab_images/professor.png",
+    "searchTerm": "professor"
   },
   {
     "id": 723,
     "book": 2,
-    "english": "number of scheduled runs",
-    "traditional": "班次",
-    "pinyin": "bān cì",
+    "english": "resume",
+    "traditional": "履歷",
+    "pinyin": "lǚ lì",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "number of scheduled runs"
+    "searchTerm": "resume"
   },
   {
     "id": 724,
     "book": 2,
-    "english": "on Shida Road",
-    "traditional": "師大路",
-    "pinyin": "Shī dà lù",
+    "english": "to serve as",
+    "traditional": "當",
+    "pinyin": "dāng",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "on shida road"
+    "searchTerm": "to serve as"
   },
   {
     "id": 725,
-    "book": 2,
-    "english": "park",
-    "traditional": "公園",
-    "pinyin": "gōng yuán",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/park.png",
-    "localImage": "vocab_images/park.png",
-    "searchTerm": "park"
-  },
-  {
-    "id": 726,
-    "book": 2,
-    "english": "profession / specialization",
-    "traditional": "專業",
-    "pinyin": "zhuān yè",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/profession.png",
-    "localImage": "vocab_images/profession.png",
-    "searchTerm": "profession / specialization"
-  },
-  {
-    "id": 727,
-    "book": 2,
-    "english": "pronunciation",
-    "traditional": "發音",
-    "pinyin": "fā yīn",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "pronunciation"
-  },
-  {
-    "id": 728,
-    "book": 2,
-    "english": "relationship",
-    "traditional": "關係",
-    "pinyin": "guān xì",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "relationship"
-  },
-  {
-    "id": 729,
-    "book": 2,
-    "english": "sentence-final particle (suggestion)",
-    "traditional": "喔",
-    "pinyin": "o",
-    "lesson": 4,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "sentence-final particle (suggestion)"
-  },
-  {
-    "id": 730,
     "book": 2,
     "english": "situation",
     "traditional": "情形",
@@ -8760,55 +8700,55 @@ const VOCAB_DATA = [
     "searchTerm": "situation"
   },
   {
-    "id": 731,
+    "id": 726,
     "book": 2,
-    "english": "speech / lecture",
-    "traditional": "演講",
-    "pinyin": "yǎn jiǎng",
-    "lesson": 4,
-    "isVisual": true,
-    "photoUrl": "vocab_images/lecture.png",
-    "localImage": "vocab_images/lecture.png",
-    "searchTerm": "speech / lecture"
-  },
-  {
-    "id": 732,
-    "book": 2,
-    "english": "Tai Chi",
-    "traditional": "太極拳",
-    "pinyin": "tài jí quán",
+    "english": "smoothly",
+    "traditional": "順利",
+    "pinyin": "shùn lì",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "tai chi"
+    "searchTerm": "smoothly"
   },
   {
-    "id": 733,
+    "id": 727,
     "book": 2,
-    "english": "Taichung",
-    "traditional": "台中",
-    "pinyin": "Tái zhōng",
+    "english": "Spanish language",
+    "traditional": "西班牙語",
+    "pinyin": "xī bān yá yǔ",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "taichung"
+    "searchTerm": "spanish language"
   },
   {
-    "id": 734,
+    "id": 728,
     "book": 2,
-    "english": "to take (transport)",
-    "traditional": "搭",
-    "pinyin": "dā",
+    "english": "suitable for",
+    "traditional": "適合",
+    "pinyin": "shì hé",
+    "lesson": 4,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "suitable for"
+  },
+  {
+    "id": 729,
+    "book": 2,
+    "english": "summer vacation",
+    "traditional": "暑假",
+    "pinyin": "shǔ jià",
     "lesson": 4,
     "isVisual": true,
-    "photoUrl": "vocab_images/take.png",
-    "localImage": "vocab_images/take.png",
-    "searchTerm": "to take (transport)"
+    "photoUrl": "vocab_images/summer.png",
+    "localImage": "vocab_images/summer.png",
+    "searchTerm": "summer vacation"
   },
   {
-    "id": 735,
+    "id": 730,
     "book": 2,
     "english": "to discuss",
     "traditional": "談",
@@ -8820,19 +8760,55 @@ const VOCAB_DATA = [
     "searchTerm": "to discuss"
   },
   {
-    "id": 736,
+    "id": 731,
     "book": 2,
-    "english": "unforgettable",
-    "traditional": "忘不了",
-    "pinyin": "wàng bu liǎo",
+    "english": "to talk",
+    "traditional": "談話",
+    "pinyin": "tán huà",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/talk.png",
+    "localImage": "vocab_images/talk.png",
+    "searchTerm": "to talk"
+  },
+  {
+    "id": 732,
+    "book": 2,
+    "english": "teaching assistant",
+    "traditional": "助教",
+    "pinyin": "zhù jiào",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/assistant.png",
+    "localImage": "vocab_images/assistant.png",
+    "searchTerm": "teaching assistant"
+  },
+  {
+    "id": 733,
+    "book": 2,
+    "english": "unexpectedly",
+    "traditional": "沒想到",
+    "pinyin": "méi xiǎng dào",
     "lesson": 4,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "unforgettable"
+    "searchTerm": "unexpectedly"
   },
   {
-    "id": 737,
+    "id": 734,
+    "book": 2,
+    "english": "to work part-time",
+    "traditional": "打工",
+    "pinyin": "dǎ gōng",
+    "lesson": 4,
+    "isVisual": true,
+    "photoUrl": "vocab_images/work.png",
+    "localImage": "vocab_images/work.png",
+    "searchTerm": "to work part-time"
+  },
+  {
+    "id": 735,
     "book": 2,
     "english": "years of age",
     "traditional": "歲",
@@ -8844,7 +8820,7 @@ const VOCAB_DATA = [
     "searchTerm": "years of age"
   },
   {
-    "id": 738,
+    "id": 736,
     "book": 2,
     "english": "your (honorific)",
     "traditional": "貴",
@@ -8856,7 +8832,7 @@ const VOCAB_DATA = [
     "searchTerm": "your (honorific)"
   },
   {
-    "id": 739,
+    "id": 737,
     "book": 2,
     "english": "adult",
     "traditional": "大人",
@@ -8868,7 +8844,19 @@ const VOCAB_DATA = [
     "searchTerm": "adult"
   },
   {
-    "id": 740,
+    "id": 738,
+    "book": 2,
+    "english": "another",
+    "traditional": "另外",
+    "pinyin": "lìng wài",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "another"
+  },
+  {
+    "id": 739,
     "book": 2,
     "english": "to attend",
     "traditional": "參加",
@@ -8880,7 +8868,7 @@ const VOCAB_DATA = [
     "searchTerm": "to attend"
   },
   {
-    "id": 741,
+    "id": 740,
     "book": 2,
     "english": "auspicious occasion",
     "traditional": "喜事",
@@ -8892,331 +8880,79 @@ const VOCAB_DATA = [
     "searchTerm": "auspicious occasion"
   },
   {
-    "id": 742,
+    "id": 741,
     "book": 2,
     "english": "availability of food and drink",
     "traditional": "有吃有喝",
     "pinyin": "yǒu chī yǒu hē",
     "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/food.png",
+    "localImage": "vocab_images/food.png",
     "searchTerm": "availability of food and drink"
+  },
+  {
+    "id": 742,
+    "book": 2,
+    "english": "bride",
+    "traditional": "新娘",
+    "pinyin": "xīn niáng",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/bride.png",
+    "localImage": "vocab_images/bride.png",
+    "searchTerm": "bride"
   },
   {
     "id": 743,
     "book": 2,
-    "english": "body",
-    "traditional": "身體",
-    "pinyin": "shēn tǐ",
+    "english": "bridegroom",
+    "traditional": "新郎",
+    "pinyin": "xīn láng",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/body.png",
-    "localImage": "vocab_images/body.png",
-    "searchTerm": "body"
+    "photoUrl": "vocab_images/bridegroom.png",
+    "localImage": "vocab_images/bridegroom.png",
+    "searchTerm": "bridegroom"
   },
   {
     "id": 744,
     "book": 2,
-    "english": "to break / split open",
-    "traditional": "破",
-    "pinyin": "pò",
+    "english": "camera",
+    "traditional": "照相機",
+    "pinyin": "zhào xiàng jī",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/break.png",
-    "localImage": "vocab_images/break.png",
-    "searchTerm": "to break / split open"
+    "photoUrl": "vocab_images/camera.png",
+    "localImage": "vocab_images/camera.png",
+    "searchTerm": "camera"
   },
   {
     "id": 745,
     "book": 2,
-    "english": "buildings",
-    "traditional": "建築",
-    "pinyin": "jiàn zhú",
+    "english": "candies",
+    "traditional": "糖",
+    "pinyin": "táng",
     "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/buildings.png",
-    "localImage": "vocab_images/buildings.png",
-    "searchTerm": "buildings"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "candies"
   },
   {
     "id": 746,
     "book": 2,
-    "english": "can’t get up",
-    "traditional": "起不來",
-    "pinyin": "qǐ bù lái",
+    "english": "century-long matrimony",
+    "traditional": "百年好合",
+    "pinyin": "bǎi nián hǎo hé",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "can’t get up"
+    "searchTerm": "century-long matrimony"
   },
   {
     "id": 747,
-    "book": 2,
-    "english": "complement (particle)",
-    "traditional": "了",
-    "pinyin": "le",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "complement (particle)"
-  },
-  {
-    "id": 748,
-    "book": 2,
-    "english": "car",
-    "traditional": "汽車",
-    "pinyin": "qì chē",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/car.png",
-    "localImage": "vocab_images/car.png",
-    "searchTerm": "car"
-  },
-  {
-    "id": 749,
-    "book": 2,
-    "english": "to charge (battery)",
-    "traditional": "充電",
-    "pinyin": "chōng diàn",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/charge.png",
-    "localImage": "vocab_images/charge.png",
-    "searchTerm": "to charge (battery)"
-  },
-  {
-    "id": 750,
-    "book": 2,
-    "english": "city",
-    "traditional": "城市",
-    "pinyin": "chéng shì",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/city.png",
-    "localImage": "vocab_images/city.png",
-    "searchTerm": "city"
-  },
-  {
-    "id": 751,
-    "book": 2,
-    "english": "color",
-    "traditional": "顏色",
-    "pinyin": "yán sè",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/color.png",
-    "localImage": "vocab_images/color.png",
-    "searchTerm": "color"
-  },
-  {
-    "id": 752,
-    "book": 2,
-    "english": "compared to",
-    "traditional": "比起來",
-    "pinyin": "bǐ qǐ lái",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/compared to.png",
-    "localImage": "vocab_images/compared to.png",
-    "searchTerm": "compared to"
-  },
-  {
-    "id": 753,
-    "book": 2,
-    "english": "to complete (academic program)",
-    "traditional": "念完",
-    "pinyin": "niàn wán",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/complete.png",
-    "localImage": "vocab_images/complete.png",
-    "searchTerm": "to complete (academic program)"
-  },
-  {
-    "id": 754,
-    "book": 2,
-    "english": "complicated",
-    "traditional": "複雜",
-    "pinyin": "fù zá",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/complicated.png",
-    "localImage": "vocab_images/complicated.png",
-    "searchTerm": "complicated"
-  },
-  {
-    "id": 755,
-    "book": 2,
-    "english": "computer show",
-    "traditional": "電腦展",
-    "pinyin": "diàn nǎo zhǎn",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "computer show"
-  },
-  {
-    "id": 756,
-    "book": 2,
-    "english": "to congratulate",
-    "traditional": "恭喜",
-    "pinyin": "gōng xǐ",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/congratulate.png",
-    "localImage": "vocab_images/congratulate.png",
-    "searchTerm": "to congratulate"
-  },
-  {
-    "id": 757,
-    "book": 2,
-    "english": "curious / to wonder",
-    "traditional": "好奇",
-    "pinyin": "hào qí",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/curious.png",
-    "localImage": "vocab_images/curious.png",
-    "searchTerm": "curious / to wonder"
-  },
-  {
-    "id": 758,
-    "book": 2,
-    "english": "in the daytime",
-    "traditional": "白天",
-    "pinyin": "bái tiān",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "in the daytime"
-  },
-  {
-    "id": 759,
-    "book": 2,
-    "english": "formal",
-    "traditional": "正式",
-    "pinyin": "zhèng shì",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "formal"
-  },
-  {
-    "id": 760,
-    "book": 2,
-    "english": "formal attire",
-    "traditional": "禮服",
-    "pinyin": "lǐ fú",
-    "lesson": 5,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "formal attire"
-  },
-  {
-    "id": 761,
-    "book": 2,
-    "english": "to get married",
-    "traditional": "結婚",
-    "pinyin": "jié hūn",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/get married.png",
-    "localImage": "vocab_images/get married.png",
-    "searchTerm": "to get married"
-  },
-  {
-    "id": 762,
-    "book": 2,
-    "english": "to send off / give gift",
-    "traditional": "送",
-    "pinyin": "sòng",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/send off.png",
-    "localImage": "vocab_images/send off.png",
-    "searchTerm": "to send off / give gift"
-  },
-  {
-    "id": 763,
-    "book": 2,
-    "english": "to give blessings",
-    "traditional": "祝福",
-    "pinyin": "zhù fú",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/give blessings.png",
-    "localImage": "vocab_images/give blessings.png",
-    "searchTerm": "to give blessings"
-  },
-  {
-    "id": 764,
-    "book": 2,
-    "english": "guest",
-    "traditional": "客人",
-    "pinyin": "kè rén",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/guest.png",
-    "localImage": "vocab_images/guest.png",
-    "searchTerm": "guest"
-  },
-  {
-    "id": 765,
-    "book": 2,
-    "english": "hand",
-    "traditional": "手",
-    "pinyin": "shǒu",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/hand.png",
-    "localImage": "vocab_images/hand.png",
-    "searchTerm": "hand"
-  },
-  {
-    "id": 766,
-    "book": 2,
-    "english": "handsome",
-    "traditional": "帥",
-    "pinyin": "shuài",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/handsome.png",
-    "localImage": "vocab_images/handsome.png",
-    "searchTerm": "handsome"
-  },
-  {
-    "id": 767,
-    "book": 2,
-    "english": "hot and sour soup",
-    "traditional": "酸辣湯",
-    "pinyin": "suān là tāng",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/hot and sour soup.png",
-    "localImage": "vocab_images/hot and sour soup.png",
-    "searchTerm": "hot and sour soup"
-  },
-  {
-    "id": 768,
-    "book": 2,
-    "english": "in a moment",
-    "traditional": "一會兒",
-    "pinyin": "yī huìr",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/in a moment.png",
-    "localImage": "vocab_images/in a moment.png",
-    "searchTerm": "in a moment"
-  },
-  {
-    "id": 769,
     "book": 2,
     "english": "chatting & laughing",
     "traditional": "有說有笑",
@@ -9228,7 +8964,199 @@ const VOCAB_DATA = [
     "searchTerm": "chatting & laughing"
   },
   {
-    "id": 770,
+    "id": 748,
+    "book": 2,
+    "english": "child / children",
+    "traditional": "小孩",
+    "pinyin": "xiǎo hái",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/child.png",
+    "localImage": "vocab_images/child.png",
+    "searchTerm": "child / children"
+  },
+  {
+    "id": 749,
+    "book": 2,
+    "english": "to congratulate",
+    "traditional": "恭喜",
+    "pinyin": "gōng xǐ",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/congratulate.png",
+    "localImage": "vocab_images/congratulate.png",
+    "searchTerm": "to congratulate"
+  },
+  {
+    "id": 750,
+    "book": 2,
+    "english": "day",
+    "traditional": "日子",
+    "pinyin": "rì zi",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "day"
+  },
+  {
+    "id": 751,
+    "book": 2,
+    "english": "to depart / to leave",
+    "traditional": "離開",
+    "pinyin": "lí kāi",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/leave.png",
+    "localImage": "vocab_images/leave.png",
+    "searchTerm": "to depart / to leave"
+  },
+  {
+    "id": 752,
+    "book": 2,
+    "english": "formal",
+    "traditional": "正式",
+    "pinyin": "zhèng shì",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "formal"
+  },
+  {
+    "id": 753,
+    "book": 2,
+    "english": "formal attire",
+    "traditional": "禮服",
+    "pinyin": "lǐ fú",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "formal attire"
+  },
+  {
+    "id": 754,
+    "book": 2,
+    "english": "to get married",
+    "traditional": "結婚",
+    "pinyin": "jié hūn",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/get married.png",
+    "localImage": "vocab_images/get married.png",
+    "searchTerm": "to get married"
+  },
+  {
+    "id": 755,
+    "book": 2,
+    "english": "to send off / give gift",
+    "traditional": "送",
+    "pinyin": "sòng",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/send off.png",
+    "localImage": "vocab_images/send off.png",
+    "searchTerm": "to send off / give gift"
+  },
+  {
+    "id": 756,
+    "book": 2,
+    "english": "to give blessings",
+    "traditional": "祝福",
+    "pinyin": "zhù fú",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/give blessings.png",
+    "localImage": "vocab_images/give blessings.png",
+    "searchTerm": "to give blessings"
+  },
+  {
+    "id": 757,
+    "book": 2,
+    "english": "guest",
+    "traditional": "客人",
+    "pinyin": "kè rén",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/guest.png",
+    "localImage": "vocab_images/guest.png",
+    "searchTerm": "guest"
+  },
+  {
+    "id": 758,
+    "book": 2,
+    "english": "hand",
+    "traditional": "手",
+    "pinyin": "shǒu",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hand.png",
+    "localImage": "vocab_images/hand.png",
+    "searchTerm": "hand"
+  },
+  {
+    "id": 759,
+    "book": 2,
+    "english": "handsome",
+    "traditional": "帥",
+    "pinyin": "shuài",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/handsome.png",
+    "localImage": "vocab_images/handsome.png",
+    "searchTerm": "handsome"
+  },
+  {
+    "id": 760,
+    "book": 2,
+    "english": "to host / treat",
+    "traditional": "請客",
+    "pinyin": "qǐng kè",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to host / treat"
+  },
+  {
+    "id": 761,
+    "book": 2,
+    "english": "in a moment",
+    "traditional": "一會兒",
+    "pinyin": "yī huìr",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/in a moment.png",
+    "localImage": "vocab_images/in a moment.png",
+    "searchTerm": "in a moment"
+  },
+  {
+    "id": 762,
+    "book": 2,
+    "english": "lively / boisterous",
+    "traditional": "熱鬧",
+    "pinyin": "rè nào",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "lively / boisterous"
+  },
+  {
+    "id": 763,
+    "book": 2,
+    "english": "to look / it seems",
+    "traditional": "看起來",
+    "pinyin": "kàn qǐ lái",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/look.png",
+    "localImage": "vocab_images/look.png",
+    "searchTerm": "to look / it seems"
+  },
+  {
+    "id": 764,
     "book": 2,
     "english": "to make a toast",
     "traditional": "敬酒",
@@ -9240,43 +9168,79 @@ const VOCAB_DATA = [
     "searchTerm": "to make a toast"
   },
   {
-    "id": 771,
+    "id": 765,
     "book": 2,
-    "english": "McDonald’s",
-    "traditional": "麥當勞",
-    "pinyin": "Mài dāng láo",
+    "english": "May you soon bear a child",
+    "traditional": "早生貴子",
+    "pinyin": "zǎo shēng guì zǐ",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "mcdonald’s"
+    "searchTerm": "may you soon bear a child"
   },
   {
-    "id": 772,
+    "id": 766,
     "book": 2,
-    "english": "measure word for number of times",
-    "traditional": "遍",
-    "pinyin": "biàn",
+    "english": "measure word for clothing",
+    "traditional": "件",
+    "pinyin": "jiàn",
     "lesson": 5,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "measure word for number of times"
+    "searchTerm": "measure word for clothing"
   },
   {
-    "id": 773,
+    "id": 767,
     "book": 2,
-    "english": "purse",
-    "traditional": "皮包",
-    "pinyin": "pí bāo",
+    "english": "measure word for utterances",
+    "traditional": "句",
+    "pinyin": "jù",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for utterances"
+  },
+  {
+    "id": 768,
+    "book": 2,
+    "english": "newlyweds",
+    "traditional": "新人",
+    "pinyin": "xīn rén",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "newlyweds"
+  },
+  {
+    "id": 769,
+    "book": 2,
+    "english": "red envelope",
+    "traditional": "紅包",
+    "pinyin": "hóng bāo",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/purse.png",
-    "localImage": "vocab_images/purse.png",
-    "searchTerm": "purse"
+    "photoUrl": "vocab_images/envelope.png",
+    "localImage": "vocab_images/envelope.png",
+    "searchTerm": "red envelope"
   },
   {
-    "id": 774,
+    "id": 770,
+    "book": 2,
+    "english": "relatives",
+    "traditional": "親戚",
+    "pinyin": "qīn qī",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/relatives.png",
+    "localImage": "vocab_images/relatives.png",
+    "searchTerm": "relatives"
+  },
+  {
+    "id": 771,
     "book": 2,
     "english": "seat",
     "traditional": "座位",
@@ -9288,19 +9252,31 @@ const VOCAB_DATA = [
     "searchTerm": "seat"
   },
   {
-    "id": 775,
+    "id": 772,
     "book": 2,
-    "english": "to steal",
-    "traditional": "偷",
-    "pinyin": "tōu",
+    "english": "to stand",
+    "traditional": "站",
+    "pinyin": "zhàn",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/steal.png",
-    "localImage": "vocab_images/steal.png",
-    "searchTerm": "to steal"
+    "photoUrl": "vocab_images/stand.png",
+    "localImage": "vocab_images/stand.png",
+    "searchTerm": "to stand"
   },
   {
-    "id": 776,
+    "id": 773,
+    "book": 2,
+    "english": "utterance / word",
+    "traditional": "話",
+    "pinyin": "huà",
+    "lesson": 5,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "utterance / word"
+  },
+  {
+    "id": 774,
     "book": 2,
     "english": "extremely / terribly",
     "traditional": "不得了",
@@ -9312,19 +9288,7 @@ const VOCAB_DATA = [
     "searchTerm": "extremely / terribly"
   },
   {
-    "id": 777,
-    "book": 2,
-    "english": "website",
-    "traditional": "網站",
-    "pinyin": "wǎng zhàn",
-    "lesson": 5,
-    "isVisual": true,
-    "photoUrl": "vocab_images/website.png",
-    "localImage": "vocab_images/website.png",
-    "searchTerm": "website"
-  },
-  {
-    "id": 778,
+    "id": 775,
     "book": 2,
     "english": "wedding banquet",
     "traditional": "喜酒",
@@ -9336,16 +9300,52 @@ const VOCAB_DATA = [
     "searchTerm": "wedding banquet"
   },
   {
-    "id": 779,
+    "id": 776,
     "book": 2,
-    "english": "the West",
-    "traditional": "西方",
-    "pinyin": "xī fāng",
+    "english": "wedding banquet / reception",
+    "traditional": "喜宴",
+    "pinyin": "xǐ yàn",
     "lesson": 5,
     "isVisual": true,
-    "photoUrl": "vocab_images/the west.png",
-    "localImage": "vocab_images/the west.png",
-    "searchTerm": "the west"
+    "photoUrl": "vocab_images/banquet.png",
+    "localImage": "vocab_images/banquet.png",
+    "searchTerm": "wedding banquet / reception"
+  },
+  {
+    "id": 777,
+    "book": 2,
+    "english": "wedding ceremony",
+    "traditional": "婚禮",
+    "pinyin": "hūn lǐ",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wedding.png",
+    "localImage": "vocab_images/wedding.png",
+    "searchTerm": "wedding ceremony"
+  },
+  {
+    "id": 778,
+    "book": 2,
+    "english": "white",
+    "traditional": "白",
+    "pinyin": "bái",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/white.png",
+    "localImage": "vocab_images/white.png",
+    "searchTerm": "white"
+  },
+  {
+    "id": 779,
+    "book": 2,
+    "english": "(western) suit",
+    "traditional": "西裝",
+    "pinyin": "xī zhuāng",
+    "lesson": 5,
+    "isVisual": true,
+    "photoUrl": "vocab_images/suit.png",
+    "localImage": "vocab_images/suit.png",
+    "searchTerm": "(western) suit"
   },
   {
     "id": 780,
@@ -9362,6 +9362,18 @@ const VOCAB_DATA = [
   {
     "id": 781,
     "book": 2,
+    "english": "activity center",
+    "traditional": "活動中心",
+    "pinyin": "huó dòng zhōng xīn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/activity.png",
+    "localImage": "vocab_images/activity.png",
+    "searchTerm": "activity center"
+  },
+  {
+    "id": 782,
+    "book": 2,
     "english": "also",
     "traditional": "而且",
     "pinyin": "ér qiě",
@@ -9372,7 +9384,7 @@ const VOCAB_DATA = [
     "searchTerm": "also"
   },
   {
-    "id": 782,
+    "id": 783,
     "book": 2,
     "english": "bed",
     "traditional": "床",
@@ -9384,7 +9396,7 @@ const VOCAB_DATA = [
     "searchTerm": "bed"
   },
   {
-    "id": 783,
+    "id": 784,
     "book": 2,
     "english": "bicycle",
     "traditional": "腳踏車",
@@ -9396,175 +9408,91 @@ const VOCAB_DATA = [
     "searchTerm": "bicycle"
   },
   {
-    "id": 784,
-    "book": 2,
-    "english": "to borrow",
-    "traditional": "借",
-    "pinyin": "jiè",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to borrow"
-  },
-  {
     "id": 785,
     "book": 2,
-    "english": "to chat",
-    "traditional": "聊",
-    "pinyin": "liáo",
+    "english": "bicycle",
+    "traditional": "自行車",
+    "pinyin": "zì xíng chē",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/chat.png",
-    "localImage": "vocab_images/chat.png",
-    "searchTerm": "to chat"
+    "photoUrl": "vocab_images/bicycle.png",
+    "localImage": "vocab_images/bicycle.png",
+    "searchTerm": "bicycle"
   },
   {
     "id": 786,
     "book": 2,
-    "english": "chili peppers",
-    "traditional": "辣椒",
-    "pinyin": "là jiāo",
+    "english": "both places / both sides",
+    "traditional": "兩邊",
+    "pinyin": "liǎng biān",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "chili peppers"
+    "searchTerm": "both places / both sides"
   },
   {
     "id": 787,
     "book": 2,
-    "english": "to consider",
-    "traditional": "考慮",
-    "pinyin": "kǎo lǜ",
+    "english": "chair",
+    "traditional": "椅子",
+    "pinyin": "yǐ zi",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/consider.png",
-    "localImage": "vocab_images/consider.png",
-    "searchTerm": "to consider"
+    "photoUrl": "vocab_images/chair.png",
+    "localImage": "vocab_images/chair.png",
+    "searchTerm": "chair"
   },
   {
     "id": 788,
     "book": 2,
-    "english": "Business Administration Dept.",
-    "traditional": "企業管理系",
-    "pinyin": "qǐ yè guǎn lǐ xì",
+    "english": "to be disappointed",
+    "traditional": "失望",
+    "pinyin": "shī wàng",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "business administration dept."
+    "searchTerm": "to be disappointed"
   },
   {
     "id": 789,
     "book": 2,
-    "english": "directly",
-    "traditional": "直接",
-    "pinyin": "zhí jiē",
+    "english": "club / association",
+    "traditional": "社團",
+    "pinyin": "shè tuán",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "directly"
+    "isVisual": true,
+    "photoUrl": "vocab_images/club.png",
+    "localImage": "vocab_images/club.png",
+    "searchTerm": "club / association"
   },
   {
     "id": 790,
     "book": 2,
-    "english": "to do properly",
-    "traditional": "好好地",
-    "pinyin": "hǎo hǎo de",
+    "english": "contract / agreement",
+    "traditional": "合約",
+    "pinyin": "hé yuē",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to do properly"
+    "isVisual": true,
+    "photoUrl": "vocab_images/paper.png",
+    "localImage": "vocab_images/paper.png",
+    "searchTerm": "contract / agreement"
   },
   {
     "id": 791,
     "book": 2,
-    "english": "downtown",
-    "traditional": "市區",
-    "pinyin": "shì qū",
+    "english": "desk / table",
+    "traditional": "桌子",
+    "pinyin": "zhuō zi",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "downtown"
+    "isVisual": true,
+    "photoUrl": "vocab_images/table.png",
+    "localImage": "vocab_images/table.png",
+    "searchTerm": "desk / table"
   },
   {
     "id": 792,
-    "book": 2,
-    "english": "drink / beverage",
-    "traditional": "飲料",
-    "pinyin": "yǐn liào",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/drink.png",
-    "localImage": "vocab_images/drink.png",
-    "searchTerm": "drink / beverage"
-  },
-  {
-    "id": 793,
-    "book": 2,
-    "english": "to expire",
-    "traditional": "到期",
-    "pinyin": "dào qī",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to expire"
-  },
-  {
-    "id": 794,
-    "book": 2,
-    "english": "fairly",
-    "traditional": "相當",
-    "pinyin": "xiāng dāng",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "fairly"
-  },
-  {
-    "id": 795,
-    "book": 2,
-    "english": "flash drive",
-    "traditional": "隨身碟",
-    "pinyin": "suí shēn dié",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/flash drive.png",
-    "localImage": "vocab_images/flash drive.png",
-    "searchTerm": "flash drive"
-  },
-  {
-    "id": 796,
-    "book": 2,
-    "english": "fortunately",
-    "traditional": "還好",
-    "pinyin": "hái hǎo",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/fortunately.png",
-    "localImage": "vocab_images/fortunately.png",
-    "searchTerm": "fortunately"
-  },
-  {
-    "id": 797,
-    "book": 2,
-    "english": "furniture",
-    "traditional": "家具",
-    "pinyin": "jiā jù",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/furniture.png",
-    "localImage": "vocab_images/furniture.png",
-    "searchTerm": "furniture"
-  },
-  {
-    "id": 798,
     "book": 2,
     "english": "to discuss",
     "traditional": "討論",
@@ -9576,7 +9504,91 @@ const VOCAB_DATA = [
     "searchTerm": "to discuss"
   },
   {
+    "id": 793,
+    "book": 2,
+    "english": "don’t rush / no hurry",
+    "traditional": "不急",
+    "pinyin": "bù jí",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "don’t rush / no hurry"
+  },
+  {
+    "id": 794,
+    "book": 2,
+    "english": "to drive",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/drive.png",
+    "localImage": "vocab_images/drive.png",
+    "searchTerm": "to drive"
+  },
+  {
+    "id": 795,
+    "book": 2,
+    "english": "to expire",
+    "traditional": "到期",
+    "pinyin": "dào qī",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to expire"
+  },
+  {
+    "id": 796,
+    "book": 2,
+    "english": "fairly",
+    "traditional": "相當",
+    "pinyin": "xiāng dāng",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "fairly"
+  },
+  {
+    "id": 797,
+    "book": 2,
+    "english": "flash drive",
+    "traditional": "隨身碟",
+    "pinyin": "suí shēn dié",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/flash drive.png",
+    "localImage": "vocab_images/flash drive.png",
+    "searchTerm": "flash drive"
+  },
+  {
+    "id": 798,
+    "book": 2,
+    "english": "fortunately",
+    "traditional": "還好",
+    "pinyin": "hái hǎo",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/fortunately.png",
+    "localImage": "vocab_images/fortunately.png",
+    "searchTerm": "fortunately"
+  },
+  {
     "id": 799,
+    "book": 2,
+    "english": "furniture",
+    "traditional": "家具",
+    "pinyin": "jiā jù",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/furniture.png",
+    "localImage": "vocab_images/furniture.png",
+    "searchTerm": "furniture"
+  },
+  {
+    "id": 800,
     "book": 2,
     "english": "if",
     "traditional": "如果",
@@ -9588,7 +9600,7 @@ const VOCAB_DATA = [
     "searchTerm": "if"
   },
   {
-    "id": 800,
+    "id": 801,
     "book": 2,
     "english": "important",
     "traditional": "重要",
@@ -9600,7 +9612,7 @@ const VOCAB_DATA = [
     "searchTerm": "important"
   },
   {
-    "id": 801,
+    "id": 802,
     "book": 2,
     "english": "information",
     "traditional": "資料",
@@ -9612,7 +9624,7 @@ const VOCAB_DATA = [
     "searchTerm": "information"
   },
   {
-    "id": 802,
+    "id": 803,
     "book": 2,
     "english": "to lack",
     "traditional": "少",
@@ -9624,43 +9636,55 @@ const VOCAB_DATA = [
     "searchTerm": "to lack"
   },
   {
-    "id": 803,
-    "book": 2,
-    "english": "to lie down",
-    "traditional": "躺",
-    "pinyin": "tǎng",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/lie down.png",
-    "localImage": "vocab_images/lie down.png",
-    "searchTerm": "to lie down"
-  },
-  {
     "id": 804,
     "book": 2,
-    "english": "to get lost",
-    "traditional": "迷路",
-    "pinyin": "mí lù",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/get lost.png",
-    "localImage": "vocab_images/get lost.png",
-    "searchTerm": "to get lost"
-  },
-  {
-    "id": 805,
-    "book": 2,
-    "english": "muddle-headed",
-    "traditional": "糊塗",
-    "pinyin": "hú tu",
+    "english": "living expenses",
+    "traditional": "生活費",
+    "pinyin": "shēng huó fèi",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "muddle-headed"
+    "searchTerm": "living expenses"
+  },
+  {
+    "id": 805,
+    "book": 2,
+    "english": "long",
+    "traditional": "長",
+    "pinyin": "cháng",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/long.png",
+    "localImage": "vocab_images/long.png",
+    "searchTerm": "long"
   },
   {
     "id": 806,
+    "book": 2,
+    "english": "to move (home)",
+    "traditional": "搬家",
+    "pinyin": "bān jiā",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/move.png",
+    "localImage": "vocab_images/move.png",
+    "searchTerm": "to move (home)"
+  },
+  {
+    "id": 807,
+    "book": 2,
+    "english": "to move to",
+    "traditional": "搬",
+    "pinyin": "bān",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to move to"
+  },
+  {
+    "id": 808,
     "book": 2,
     "english": "natural lighting",
     "traditional": "光線",
@@ -9672,7 +9696,7 @@ const VOCAB_DATA = [
     "searchTerm": "natural lighting"
   },
   {
-    "id": 807,
+    "id": 809,
     "book": 2,
     "english": "near / close by",
     "traditional": "近",
@@ -9684,103 +9708,67 @@ const VOCAB_DATA = [
     "searchTerm": "near / close by"
   },
   {
-    "id": 808,
-    "book": 2,
-    "english": "no need to",
-    "traditional": "不必",
-    "pinyin": "bù bì",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "no need to"
-  },
-  {
-    "id": 809,
-    "book": 2,
-    "english": "not only",
-    "traditional": "不但",
-    "pinyin": "bù dàn",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "not only"
-  },
-  {
     "id": 810,
     "book": 2,
-    "english": "not too bad",
-    "traditional": "不壞",
-    "pinyin": "bú huài",
+    "english": "noisy",
+    "traditional": "吵",
+    "pinyin": "chǎo",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "not too bad"
+    "isVisual": true,
+    "photoUrl": "vocab_images/noisy.png",
+    "localImage": "vocab_images/noisy.png",
+    "searchTerm": "noisy"
   },
   {
     "id": 811,
     "book": 2,
-    "english": "orange / tangerine",
-    "traditional": "橘子",
-    "pinyin": "jú zi",
+    "english": "not to worry",
+    "traditional": "放心",
+    "pinyin": "fàng xīn",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/orange.png",
-    "localImage": "vocab_images/orange.png",
-    "searchTerm": "orange / tangerine"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "not to worry"
   },
   {
     "id": 812,
     "book": 2,
-    "english": "to pay (wages)",
-    "traditional": "薪水",
-    "pinyin": "xīn shuǐ",
+    "english": "park",
+    "traditional": "公園",
+    "pinyin": "gōng yuán",
     "lesson": 6,
     "isVisual": true,
-    "photoUrl": "vocab_images/pay.png",
-    "localImage": "vocab_images/pay.png",
-    "searchTerm": "to pay (wages)"
+    "photoUrl": "vocab_images/park.png",
+    "localImage": "vocab_images/park.png",
+    "searchTerm": "park"
   },
   {
     "id": 813,
     "book": 2,
-    "english": "reluctant to part with",
-    "traditional": "捨不得",
-    "pinyin": "shě bu dé",
+    "english": "currently (in progress)",
+    "traditional": "正在",
+    "pinyin": "zhèng zài",
     "lesson": 6,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "reluctant to part with"
+    "searchTerm": "currently (in progress)"
   },
   {
     "id": 814,
     "book": 2,
-    "english": "resource",
-    "traditional": "資源",
-    "pinyin": "zī yuán",
+    "english": "riverside",
+    "traditional": "河邊",
+    "pinyin": "hé biān",
     "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "resource"
+    "isVisual": true,
+    "photoUrl": "vocab_images/riverside.png",
+    "localImage": "vocab_images/riverside.png",
+    "searchTerm": "riverside"
   },
   {
     "id": 815,
-    "book": 2,
-    "english": "romantic",
-    "traditional": "浪漫",
-    "pinyin": "làng màn",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/romantic.png",
-    "localImage": "vocab_images/romantic.png",
-    "searchTerm": "romantic"
-  },
-  {
-    "id": 816,
     "book": 2,
     "english": "to save",
     "traditional": "存",
@@ -9792,31 +9780,91 @@ const VOCAB_DATA = [
     "searchTerm": "to save"
   },
   {
+    "id": 816,
+    "book": 2,
+    "english": "Seoul",
+    "traditional": "首爾",
+    "pinyin": "Shǒu ěr",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "seoul"
+  },
+  {
     "id": 817,
     "book": 2,
-    "english": "senior high school",
-    "traditional": "高中",
-    "pinyin": "gāo zhōng",
+    "english": "suitable",
+    "traditional": "合適",
+    "pinyin": "hé shì",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/high school.png",
-    "localImage": "vocab_images/high school.png",
-    "searchTerm": "senior high school"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "suitable"
   },
   {
     "id": 818,
     "book": 2,
-    "english": "serious",
-    "traditional": "嚴重",
-    "pinyin": "yán zhòng",
+    "english": "take your time",
+    "traditional": "慢慢來",
+    "pinyin": "màn màn lái",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/serious.png",
-    "localImage": "vocab_images/serious.png",
-    "searchTerm": "serious"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "take your time"
   },
   {
     "id": 819,
+    "book": 2,
+    "english": "to stay / remain",
+    "traditional": "留",
+    "pinyin": "liú",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/stay.png",
+    "localImage": "vocab_images/stay.png",
+    "searchTerm": "to stay / remain"
+  },
+  {
+    "id": 820,
+    "book": 2,
+    "english": "to store / leave at",
+    "traditional": "放",
+    "pinyin": "fàng",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/store.png",
+    "localImage": "vocab_images/store.png",
+    "searchTerm": "to store / leave at"
+  },
+  {
+    "id": 821,
+    "book": 2,
+    "english": "to use",
+    "traditional": "用",
+    "pinyin": "yòng",
+    "lesson": 6,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to use"
+  },
+  {
+    "id": 822,
+    "book": 2,
+    "english": "website",
+    "traditional": "網站",
+    "pinyin": "wǎng zhàn",
+    "lesson": 6,
+    "isVisual": true,
+    "photoUrl": "vocab_images/website.png",
+    "localImage": "vocab_images/website.png",
+    "searchTerm": "website"
+  },
+  {
+    "id": 823,
     "book": 2,
     "english": "what a pity",
     "traditional": "可惜",
@@ -9828,115 +9876,19 @@ const VOCAB_DATA = [
     "searchTerm": "what a pity"
   },
   {
-    "id": 820,
-    "book": 2,
-    "english": "to stick on",
-    "traditional": "貼上",
-    "pinyin": "tiē shàng",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/stick on.png",
-    "localImage": "vocab_images/stick on.png",
-    "searchTerm": "to stick on"
-  },
-  {
-    "id": 821,
-    "book": 2,
-    "english": "to stay up (New Year’s)",
-    "traditional": "守歲",
-    "pinyin": "shǒu suì",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to stay up (new year’s)"
-  },
-  {
-    "id": 822,
-    "book": 2,
-    "english": "grammar",
-    "traditional": "語法",
-    "pinyin": "yǔ fǎ",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "grammar"
-  },
-  {
-    "id": 823,
-    "book": 2,
-    "english": "text message",
-    "traditional": "簡訊",
-    "pinyin": "jiǎn xùn",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "text message"
-  },
-  {
     "id": 824,
     "book": 2,
-    "english": "the world",
-    "traditional": "世界",
-    "pinyin": "shì jiè",
+    "english": "what kind of",
+    "traditional": "什麼樣",
+    "pinyin": "shén me yàng",
     "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/the world.png",
-    "localImage": "vocab_images/the world.png",
-    "searchTerm": "the world"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "what kind of"
   },
   {
     "id": 825,
-    "book": 2,
-    "english": "ordinal marker",
-    "traditional": "第",
-    "pinyin": "dì",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "ordinal marker"
-  },
-  {
-    "id": 826,
-    "book": 2,
-    "english": "way of saying / theory",
-    "traditional": "說法",
-    "pinyin": "shuō fǎ",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "way of saying / theory"
-  },
-  {
-    "id": 827,
-    "book": 2,
-    "english": "week",
-    "traditional": "禮拜",
-    "pinyin": "lǐ bài",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/week.png",
-    "localImage": "vocab_images/week.png",
-    "searchTerm": "week"
-  },
-  {
-    "id": 828,
-    "book": 2,
-    "english": "to accomplish / do successfully",
-    "traditional": "做出來",
-    "pinyin": "zuò chū lái",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to accomplish / do successfully"
-  },
-  {
-    "id": 829,
     "book": 2,
     "english": "to be willing to",
     "traditional": "願意",
@@ -9948,55 +9900,7 @@ const VOCAB_DATA = [
     "searchTerm": "to be willing to"
   },
   {
-    "id": 830,
-    "book": 2,
-    "english": "to withdraw (money)",
-    "traditional": "提",
-    "pinyin": "tí",
-    "lesson": 6,
-    "isVisual": true,
-    "photoUrl": "vocab_images/withdraw.png",
-    "localImage": "vocab_images/withdraw.png",
-    "searchTerm": "to withdraw (money)"
-  },
-  {
-    "id": 831,
-    "book": 2,
-    "english": "conveniently / while at it",
-    "traditional": "順便",
-    "pinyin": "shùn biàn",
-    "lesson": 6,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "conveniently / while at it"
-  },
-  {
-    "id": 832,
-    "book": 2,
-    "english": "resultative particle (beginning of state)",
-    "traditional": "起來",
-    "pinyin": "qǐ lái",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "resultative particle (beginning of state)"
-  },
-  {
-    "id": 833,
-    "book": 2,
-    "english": "to assume wrongly",
-    "traditional": "以為",
-    "pinyin": "yǐ wéi",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to assume wrongly"
-  },
-  {
-    "id": 834,
+    "id": 826,
     "book": 2,
     "english": "bag",
     "traditional": "袋子",
@@ -10008,67 +9912,103 @@ const VOCAB_DATA = [
     "searchTerm": "bag"
   },
   {
-    "id": 835,
+    "id": 827,
     "book": 2,
-    "english": "both places / both sides",
-    "traditional": "兩邊",
-    "pinyin": "liǎng biān",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "both places / both sides"
-  },
-  {
-    "id": 836,
-    "book": 2,
-    "english": "chair",
-    "traditional": "椅子",
-    "pinyin": "yǐ zi",
+    "english": "bottle",
+    "traditional": "瓶子",
+    "pinyin": "píng zi",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/chair.png",
-    "localImage": "vocab_images/chair.png",
-    "searchTerm": "chair"
+    "photoUrl": "vocab_images/bottle.png",
+    "localImage": "vocab_images/bottle.png",
+    "searchTerm": "bottle"
   },
   {
-    "id": 837,
+    "id": 828,
     "book": 2,
-    "english": "to look up (information)",
+    "english": "to chat",
+    "traditional": "聊",
+    "pinyin": "liáo",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/chat.png",
+    "localImage": "vocab_images/chat.png",
+    "searchTerm": "to chat"
+  },
+  {
+    "id": 829,
+    "book": 2,
+    "english": "to check",
     "traditional": "查",
     "pinyin": "chá",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to look up (information)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/check.png",
+    "localImage": "vocab_images/check.png",
+    "searchTerm": "to check"
   },
   {
-    "id": 838,
+    "id": 830,
     "book": 2,
-    "english": "to drive",
-    "traditional": "開車",
-    "pinyin": "kāi chē",
+    "english": "city",
+    "traditional": "城市",
+    "pinyin": "chéng shì",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/drive.png",
-    "localImage": "vocab_images/drive.png",
-    "searchTerm": "to drive"
+    "photoUrl": "vocab_images/city.png",
+    "localImage": "vocab_images/city.png",
+    "searchTerm": "city"
   },
   {
-    "id": 839,
+    "id": 831,
     "book": 2,
-    "english": "except for",
-    "traditional": "除了",
-    "pinyin": "chú le",
+    "english": "classification",
+    "traditional": "分類",
+    "pinyin": "fēn lèi",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "except for"
+    "searchTerm": "classification"
   },
   {
-    "id": 840,
+    "id": 832,
+    "book": 2,
+    "english": "to collect",
+    "traditional": "收",
+    "pinyin": "shōu",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/collect.png",
+    "localImage": "vocab_images/collect.png",
+    "searchTerm": "to collect"
+  },
+  {
+    "id": 833,
+    "book": 2,
+    "english": "to drive over",
+    "traditional": "開過來",
+    "pinyin": "kāi guò lái",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to drive over"
+  },
+  {
+    "id": 834,
+    "book": 2,
+    "english": "every day",
+    "traditional": "天天",
+    "pinyin": "tiān tiān",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "every day"
+  },
+  {
+    "id": 835,
     "book": 2,
     "english": "fixed / certain",
     "traditional": "一定",
@@ -10080,7 +10020,7 @@ const VOCAB_DATA = [
     "searchTerm": "fixed / certain"
   },
   {
-    "id": 841,
+    "id": 836,
     "book": 2,
     "english": "garbage",
     "traditional": "垃圾",
@@ -10092,19 +10032,19 @@ const VOCAB_DATA = [
     "searchTerm": "garbage"
   },
   {
-    "id": 842,
+    "id": 837,
     "book": 2,
-    "english": "to help (do a favor)",
-    "traditional": "幫忙",
-    "pinyin": "bāng máng",
+    "english": "to hear",
+    "traditional": "聽見",
+    "pinyin": "tīng jiàn",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/help.png",
-    "localImage": "vocab_images/help.png",
-    "searchTerm": "to help (do a favor)"
+    "photoUrl": "vocab_images/hear.png",
+    "localImage": "vocab_images/hear.png",
+    "searchTerm": "to hear"
   },
   {
-    "id": 843,
+    "id": 838,
     "book": 2,
     "english": "interesting",
     "traditional": "有趣",
@@ -10116,7 +10056,19 @@ const VOCAB_DATA = [
     "searchTerm": "interesting"
   },
   {
-    "id": 844,
+    "id": 839,
+    "book": 2,
+    "english": "location",
+    "traditional": "地點",
+    "pinyin": "dì diǎn",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/location.png",
+    "localImage": "vocab_images/location.png",
+    "searchTerm": "location"
+  },
+  {
+    "id": 840,
     "book": 2,
     "english": "to make use of",
     "traditional": "利用",
@@ -10128,79 +10080,115 @@ const VOCAB_DATA = [
     "searchTerm": "to make use of"
   },
   {
-    "id": 845,
+    "id": 841,
     "book": 2,
-    "english": "meat",
-    "traditional": "肉",
-    "pinyin": "ròu",
+    "english": "measure word for vehicles",
+    "traditional": "輛",
+    "pinyin": "liàng",
     "lesson": 7,
     "isVisual": true,
-    "photoUrl": "vocab_images/meat.png",
-    "localImage": "vocab_images/meat.png",
-    "searchTerm": "meat"
+    "photoUrl": "vocab_images/measure word for vehicles.png",
+    "localImage": "vocab_images/measure word for vehicles.png",
+    "searchTerm": "measure word for vehicles"
   },
   {
-    "id": 846,
+    "id": 842,
     "book": 2,
-    "english": "notebook",
-    "traditional": "本子",
-    "pinyin": "běn zi",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/notebook.png",
-    "localImage": "vocab_images/notebook.png",
-    "searchTerm": "notebook"
-  },
-  {
-    "id": 847,
-    "book": 2,
-    "english": "overseas Chinese",
-    "traditional": "華僑",
-    "pinyin": "huá qiáo",
+    "english": "not too bad",
+    "traditional": "不壞",
+    "pinyin": "bú huài",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "overseas chinese"
+    "searchTerm": "not too bad"
   },
   {
-    "id": 848,
+    "id": 843,
+    "book": 2,
+    "english": "on the street",
+    "traditional": "路上",
+    "pinyin": "lù shàng",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/street.png",
+    "localImage": "vocab_images/street.png",
+    "searchTerm": "on the street"
+  },
+  {
+    "id": 844,
+    "book": 2,
+    "english": "paper",
+    "traditional": "紙",
+    "pinyin": "zhǐ",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/paper.png",
+    "localImage": "vocab_images/paper.png",
+    "searchTerm": "paper"
+  },
+  {
+    "id": 845,
     "book": 2,
     "english": "paper cup",
     "traditional": "紙杯",
     "pinyin": "zhǐ bēi",
     "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/paper.png",
+    "localImage": "vocab_images/paper.png",
+    "searchTerm": "paper cup"
+  },
+  {
+    "id": 846,
+    "book": 2,
+    "english": "plastic",
+    "traditional": "塑膠",
+    "pinyin": "sù jiāo",
+    "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "paper cup"
+    "searchTerm": "plastic"
+  },
+  {
+    "id": 847,
+    "book": 2,
+    "english": "purse",
+    "traditional": "皮包",
+    "pinyin": "pí bāo",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/purse.png",
+    "localImage": "vocab_images/purse.png",
+    "searchTerm": "purse"
+  },
+  {
+    "id": 848,
+    "book": 2,
+    "english": "put down",
+    "traditional": "放下",
+    "pinyin": "fàng xià",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/put down.png",
+    "localImage": "vocab_images/put down.png",
+    "searchTerm": "put down"
   },
   {
     "id": 849,
     "book": 2,
-    "english": "progressive particle",
-    "traditional": "著",
-    "pinyin": "zhe",
+    "english": "to recycle",
+    "traditional": "回收",
+    "pinyin": "huí shōu",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "progressive particle"
+    "isVisual": true,
+    "photoUrl": "vocab_images/recycle.png",
+    "localImage": "vocab_images/recycle.png",
+    "searchTerm": "to recycle"
   },
   {
     "id": 850,
-    "book": 2,
-    "english": "passive particle",
-    "traditional": "被",
-    "pinyin": "bèi",
-    "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "passive particle"
-  },
-  {
-    "id": 851,
     "book": 2,
     "english": "recycling bin",
     "traditional": "回收桶",
@@ -10212,19 +10200,19 @@ const VOCAB_DATA = [
     "searchTerm": "recycling bin"
   },
   {
-    "id": 852,
+    "id": 851,
     "book": 2,
-    "english": "red envelope",
-    "traditional": "紅包",
-    "pinyin": "hóng bāo",
+    "english": "resource",
+    "traditional": "資源",
+    "pinyin": "zī yuán",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "red envelope"
+    "searchTerm": "resource"
   },
   {
-    "id": 853,
+    "id": 852,
     "book": 2,
     "english": "rules / regulations",
     "traditional": "規定",
@@ -10236,7 +10224,7 @@ const VOCAB_DATA = [
     "searchTerm": "rules / regulations"
   },
   {
-    "id": 854,
+    "id": 853,
     "book": 2,
     "english": "to run",
     "traditional": "跑",
@@ -10248,31 +10236,79 @@ const VOCAB_DATA = [
     "searchTerm": "to run"
   },
   {
+    "id": 854,
+    "book": 2,
+    "english": "to run after / chase",
+    "traditional": "追",
+    "pinyin": "zhuī",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/chase.png",
+    "localImage": "vocab_images/chase.png",
+    "searchTerm": "to run after / chase"
+  },
+  {
     "id": 855,
     "book": 2,
-    "english": "to sound like",
-    "traditional": "聽起來",
-    "pinyin": "tīng qǐ lái",
+    "english": "soda can",
+    "traditional": "汽水罐",
+    "pinyin": "qì shuǐ guàn",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to sound like"
+    "searchTerm": "soda can"
   },
   {
     "id": 856,
     "book": 2,
-    "english": "such as",
-    "traditional": "像",
-    "pinyin": "xiàng",
+    "english": "sound",
+    "traditional": "聲音",
+    "pinyin": "shēng yīn",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "such as"
+    "searchTerm": "sound"
   },
   {
     "id": 857,
+    "book": 2,
+    "english": "strange",
+    "traditional": "奇怪",
+    "pinyin": "qí guài",
+    "lesson": 7,
+    "isVisual": true,
+    "photoUrl": "vocab_images/strange.png",
+    "localImage": "vocab_images/strange.png",
+    "searchTerm": "strange"
+  },
+  {
+    "id": 858,
+    "book": 2,
+    "english": "to assume wrongly",
+    "traditional": "以為",
+    "pinyin": "yǐ wéi",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to assume wrongly"
+  },
+  {
+    "id": 859,
+    "book": 2,
+    "english": "to throw into",
+    "traditional": "丟進去",
+    "pinyin": "diū jìn qù",
+    "lesson": 7,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to throw into"
+  },
+  {
+    "id": 860,
     "book": 2,
     "english": "to throw out",
     "traditional": "倒",
@@ -10284,7 +10320,7 @@ const VOCAB_DATA = [
     "searchTerm": "to throw out"
   },
   {
-    "id": 858,
+    "id": 861,
     "book": 2,
     "english": "to throw away",
     "traditional": "丟",
@@ -10296,7 +10332,7 @@ const VOCAB_DATA = [
     "searchTerm": "to throw away"
   },
   {
-    "id": 859,
+    "id": 862,
     "book": 2,
     "english": "for the sake of",
     "traditional": "為了",
@@ -10308,51 +10344,15 @@ const VOCAB_DATA = [
     "searchTerm": "for the sake of"
   },
   {
-    "id": 860,
-    "book": 2,
-    "english": "traffic light",
-    "traditional": "紅綠燈",
-    "pinyin": "hóng lǜ dēng",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/traffic light.png",
-    "localImage": "vocab_images/traffic light.png",
-    "searchTerm": "traffic light"
-  },
-  {
-    "id": 861,
-    "book": 2,
-    "english": "to transfer (flights)",
-    "traditional": "轉機",
-    "pinyin": "zhuǎn jī",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/transfer.png",
-    "localImage": "vocab_images/transfer.png",
-    "searchTerm": "to transfer (flights)"
-  },
-  {
-    "id": 862,
-    "book": 2,
-    "english": "to transfer (transport)",
-    "traditional": "換",
-    "pinyin": "huàn",
-    "lesson": 7,
-    "isVisual": true,
-    "photoUrl": "vocab_images/transfer.png",
-    "localImage": "vocab_images/transfer.png",
-    "searchTerm": "to transfer (transport)"
-  },
-  {
     "id": 863,
     "book": 2,
     "english": "to walk out",
     "traditional": "走出來",
     "pinyin": "zǒu chū lái",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/walk.png",
+    "localImage": "vocab_images/walk.png",
     "searchTerm": "to walk out"
   },
   {
@@ -10362,37 +10362,25 @@ const VOCAB_DATA = [
     "traditional": "走過去",
     "pinyin": "zǒu guò qù",
     "lesson": 7,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
+    "isVisual": true,
+    "photoUrl": "vocab_images/walk.png",
+    "localImage": "vocab_images/walk.png",
     "searchTerm": "to walk over"
   },
   {
     "id": 865,
     "book": 2,
-    "english": "while / take advantage of",
-    "traditional": "趁",
-    "pinyin": "chèn",
+    "english": "what to do?",
+    "traditional": "怎麼辦",
+    "pinyin": "zěn me bàn",
     "lesson": 7,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "while / take advantage of"
+    "searchTerm": "what to do?"
   },
   {
     "id": 866,
-    "book": 2,
-    "english": "accomplishment",
-    "traditional": "成就",
-    "pinyin": "chéng jiù",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "accomplishment"
-  },
-  {
-    "id": 867,
     "book": 2,
     "english": "always / invariably",
     "traditional": "總是",
@@ -10404,7 +10392,7 @@ const VOCAB_DATA = [
     "searchTerm": "always / invariably"
   },
   {
-    "id": 868,
+    "id": 867,
     "book": 2,
     "english": "benefit",
     "traditional": "好處",
@@ -10416,40 +10404,52 @@ const VOCAB_DATA = [
     "searchTerm": "benefit"
   },
   {
-    "id": 869,
+    "id": 868,
     "book": 2,
-    "english": "boat / ship",
-    "traditional": "船",
-    "pinyin": "chuán",
+    "english": "body",
+    "traditional": "身體",
+    "pinyin": "shēn tǐ",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/boat.png",
-    "localImage": "vocab_images/boat.png",
-    "searchTerm": "boat / ship"
+    "photoUrl": "vocab_images/body.png",
+    "localImage": "vocab_images/body.png",
+    "searchTerm": "body"
   },
   {
-    "id": 870,
+    "id": 869,
     "book": 2,
-    "english": "lively / boisterous",
-    "traditional": "熱鬧",
-    "pinyin": "rè nào",
+    "english": "to borrow",
+    "traditional": "借",
+    "pinyin": "jiè",
     "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "lively / boisterous"
+    "searchTerm": "to borrow"
+  },
+  {
+    "id": 870,
+    "book": 2,
+    "english": "to call (for attention)",
+    "traditional": "叫",
+    "pinyin": "jiào",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/call.png",
+    "localImage": "vocab_images/call.png",
+    "searchTerm": "to call (for attention)"
   },
   {
     "id": 871,
     "book": 2,
-    "english": "camera",
-    "traditional": "照相機",
-    "pinyin": "zhào xiàng jī",
+    "english": "can’t get up",
+    "traditional": "起不來",
+    "pinyin": "qǐ bù lái",
     "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/camera.png",
-    "localImage": "vocab_images/camera.png",
-    "searchTerm": "camera"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "can’t get up"
   },
   {
     "id": 872,
@@ -10466,26 +10466,26 @@ const VOCAB_DATA = [
   {
     "id": 873,
     "book": 2,
-    "english": "Canada",
-    "traditional": "加拿大",
-    "pinyin": "Jiā ná dà",
+    "english": "to complain",
+    "traditional": "抱怨",
+    "pinyin": "bào yuàn",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/Canada.png",
-    "localImage": "vocab_images/Canada.png",
-    "searchTerm": "canada"
+    "photoUrl": "vocab_images/complain.png",
+    "localImage": "vocab_images/complain.png",
+    "searchTerm": "to complain"
   },
   {
     "id": 874,
     "book": 2,
-    "english": "environment",
-    "traditional": "環境",
-    "pinyin": "huán jìng",
+    "english": "an entire day",
+    "traditional": "整天",
+    "pinyin": "zhěng tiān",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "environment"
+    "isVisual": true,
+    "photoUrl": "vocab_images/entire day.png",
+    "localImage": "vocab_images/entire day.png",
+    "searchTerm": "an entire day"
   },
   {
     "id": 875,
@@ -10502,18 +10502,6 @@ const VOCAB_DATA = [
   {
     "id": 876,
     "book": 2,
-    "english": "to be gifted",
-    "traditional": "有天分",
-    "pinyin": "yǒu tiān fèn",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be gifted"
-  },
-  {
-    "id": 877,
-    "book": 2,
     "english": "gym (sports center)",
     "traditional": "體育館",
     "pinyin": "tǐ yù guǎn",
@@ -10524,7 +10512,7 @@ const VOCAB_DATA = [
     "searchTerm": "gym (sports center)"
   },
   {
-    "id": 878,
+    "id": 877,
     "book": 2,
     "english": "to influence",
     "traditional": "影響",
@@ -10536,7 +10524,7 @@ const VOCAB_DATA = [
     "searchTerm": "to influence"
   },
   {
-    "id": 879,
+    "id": 878,
     "book": 2,
     "english": "interest",
     "traditional": "興趣",
@@ -10548,7 +10536,7 @@ const VOCAB_DATA = [
     "searchTerm": "interest"
   },
   {
-    "id": 880,
+    "id": 879,
     "book": 2,
     "english": "kungfu",
     "traditional": "功夫",
@@ -10560,7 +10548,7 @@ const VOCAB_DATA = [
     "searchTerm": "kungfu"
   },
   {
-    "id": 881,
+    "id": 880,
     "book": 2,
     "english": "to learn / master",
     "traditional": "學會",
@@ -10572,7 +10560,7 @@ const VOCAB_DATA = [
     "searchTerm": "to learn / master"
   },
   {
-    "id": 882,
+    "id": 881,
     "book": 2,
     "english": "leg",
     "traditional": "腿",
@@ -10584,55 +10572,43 @@ const VOCAB_DATA = [
     "searchTerm": "leg"
   },
   {
-    "id": 883,
+    "id": 882,
     "book": 2,
-    "english": "Line 2 (MRT)",
-    "traditional": "二號線",
-    "pinyin": "èr hào xiàn",
+    "english": "light / relaxed",
+    "traditional": "輕",
+    "pinyin": "qīng",
     "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "line 2 (mrt)"
+    "searchTerm": "light / relaxed"
+  },
+  {
+    "id": 883,
+    "book": 2,
+    "english": "master (teacher)",
+    "traditional": "師父",
+    "pinyin": "shī fu",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/teacher.png",
+    "localImage": "vocab_images/teacher.png",
+    "searchTerm": "master (teacher)"
   },
   {
     "id": 884,
     "book": 2,
-    "english": "maybe",
-    "traditional": "可能",
-    "pinyin": "kě néng",
+    "english": "meter",
+    "traditional": "公尺",
+    "pinyin": "gōng chǐ",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/maybe.png",
-    "localImage": "vocab_images/maybe.png",
-    "searchTerm": "maybe"
+    "photoUrl": "vocab_images/meter.png",
+    "localImage": "vocab_images/meter.png",
+    "searchTerm": "meter"
   },
   {
     "id": 885,
-    "book": 2,
-    "english": "measure word for clothing",
-    "traditional": "件",
-    "pinyin": "jiàn",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for clothing"
-  },
-  {
-    "id": 886,
-    "book": 2,
-    "english": "more (even more)",
-    "traditional": "越",
-    "pinyin": "yuè",
-    "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/more.png",
-    "localImage": "vocab_images/more.png",
-    "searchTerm": "more (even more)"
-  },
-  {
-    "id": 887,
     "book": 2,
     "english": "movement / action",
     "traditional": "動作",
@@ -10644,11 +10620,59 @@ const VOCAB_DATA = [
     "searchTerm": "movement / action"
   },
   {
+    "id": 886,
+    "book": 2,
+    "english": "originally",
+    "traditional": "本來",
+    "pinyin": "běn lái",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "originally"
+  },
+  {
+    "id": 887,
+    "book": 2,
+    "english": "maybe",
+    "traditional": "可能",
+    "pinyin": "kě néng",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/maybe.png",
+    "localImage": "vocab_images/maybe.png",
+    "searchTerm": "maybe"
+  },
+  {
     "id": 888,
     "book": 2,
+    "english": "completion particle",
+    "traditional": "完",
+    "pinyin": "wán",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "completion particle"
+  },
+  {
+    "id": 889,
+    "book": 2,
+    "english": "physical strength",
+    "traditional": "體力",
+    "pinyin": "tǐ lì",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "physical strength"
+  },
+  {
+    "id": 890,
+    "book": 2,
     "english": "to practice",
-    "traditional": "練習",
-    "pinyin": "liàn xí",
+    "traditional": "練",
+    "pinyin": "liàn",
     "lesson": 8,
     "isVisual": true,
     "photoUrl": "vocab_images/practice.png",
@@ -10656,91 +10680,103 @@ const VOCAB_DATA = [
     "searchTerm": "to practice"
   },
   {
-    "id": 889,
-    "book": 2,
-    "english": "to be related to",
-    "traditional": "有關",
-    "pinyin": "yǒu guān",
-    "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be related to"
-  },
-  {
-    "id": 890,
-    "book": 2,
-    "english": "relatives",
-    "traditional": "親戚",
-    "pinyin": "qīn qī",
-    "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/relatives.png",
-    "localImage": "vocab_images/relatives.png",
-    "searchTerm": "relatives"
-  },
-  {
     "id": 891,
     "book": 2,
-    "english": "spring rolls",
-    "traditional": "春捲",
-    "pinyin": "chūn juǎn",
+    "english": "to push",
+    "traditional": "推",
+    "pinyin": "tuī",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "spring rolls"
+    "isVisual": true,
+    "photoUrl": "vocab_images/push.png",
+    "localImage": "vocab_images/push.png",
+    "searchTerm": "to push"
   },
   {
     "id": 892,
     "book": 2,
-    "english": "street",
-    "traditional": "馬路",
-    "pinyin": "mǎ lù",
+    "english": "to recall",
+    "traditional": "想起",
+    "pinyin": "xiǎng qǐ",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/street.png",
-    "localImage": "vocab_images/street.png",
-    "searchTerm": "street"
+    "photoUrl": "vocab_images/recall.png",
+    "localImage": "vocab_images/recall.png",
+    "searchTerm": "to recall"
   },
   {
     "id": 893,
     "book": 2,
-    "english": "(western) suit",
-    "traditional": "西裝",
-    "pinyin": "xī zhuāng",
+    "english": "to return",
+    "traditional": "回",
+    "pinyin": "huí",
     "lesson": 8,
     "isVisual": true,
-    "photoUrl": "vocab_images/suit.png",
-    "localImage": "vocab_images/suit.png",
-    "searchTerm": "(western) suit"
+    "photoUrl": "vocab_images/return.png",
+    "localImage": "vocab_images/return.png",
+    "searchTerm": "to return"
   },
   {
     "id": 894,
     "book": 2,
-    "english": "taste / flavor",
-    "traditional": "味道",
-    "pinyin": "wèi dào",
+    "english": "to see",
+    "traditional": "見",
+    "pinyin": "jiàn",
     "lesson": 8,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "taste / flavor"
+    "isVisual": true,
+    "photoUrl": "vocab_images/see.png",
+    "localImage": "vocab_images/see.png",
+    "searchTerm": "to see"
   },
   {
     "id": 895,
     "book": 2,
-    "english": "thin",
-    "traditional": "瘦",
-    "pinyin": "shòu",
+    "english": "spirit / energy",
+    "traditional": "精神",
+    "pinyin": "jīng shén",
     "lesson": 8,
-    "isVisual": true,
-    "photoUrl": "vocab_images/thin.png",
-    "localImage": "vocab_images/thin.png",
-    "searchTerm": "thin"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "spirit / energy"
   },
   {
     "id": 896,
+    "book": 2,
+    "english": "Tai Chi",
+    "traditional": "太極拳",
+    "pinyin": "tài jí quán",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "tai chi"
+  },
+  {
+    "id": 897,
+    "book": 2,
+    "english": "to continue (downward)",
+    "traditional": "下去",
+    "pinyin": "xià qù",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/continue.png",
+    "localImage": "vocab_images/continue.png",
+    "searchTerm": "to continue (downward)"
+  },
+  {
+    "id": 898,
+    "book": 2,
+    "english": "to comprehend",
+    "traditional": "懂",
+    "pinyin": "dǒng",
+    "lesson": 8,
+    "isVisual": true,
+    "photoUrl": "vocab_images/comprehend.png",
+    "localImage": "vocab_images/comprehend.png",
+    "searchTerm": "to comprehend"
+  },
+  {
+    "id": 899,
     "book": 2,
     "english": "to wake up",
     "traditional": "起來",
@@ -10752,31 +10788,67 @@ const VOCAB_DATA = [
     "searchTerm": "to wake up"
   },
   {
-    "id": 897,
+    "id": 900,
+    "book": 2,
+    "english": "to be gifted",
+    "traditional": "有天分",
+    "pinyin": "yǒu tiān fèn",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be gifted"
+  },
+  {
+    "id": 901,
+    "book": 2,
+    "english": "complement (particle)",
+    "traditional": "了",
+    "pinyin": "le",
+    "lesson": 8,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "complement (particle)"
+  },
+  {
+    "id": 902,
     "book": 2,
     "english": "absolutely / extremely",
     "traditional": "極了",
     "pinyin": "jí le",
-    "lesson": 9,
+    "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
     "searchTerm": "absolutely / extremely"
   },
   {
-    "id": 898,
+    "id": 903,
     "book": 2,
     "english": "afford / affordable",
     "traditional": "買得起",
     "pinyin": "mǎi de qǐ",
-    "lesson": 9,
+    "lesson": 8,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
     "searchTerm": "afford / affordable"
   },
   {
-    "id": 899,
+    "id": 904,
+    "book": 2,
+    "english": "resultative particle (proper completion)",
+    "traditional": "好",
+    "pinyin": "hǎo",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "resultative particle (proper completion)"
+  },
+  {
+    "id": 905,
     "book": 2,
     "english": "resultative particle (successful completion)",
     "traditional": "到",
@@ -10788,19 +10860,19 @@ const VOCAB_DATA = [
     "searchTerm": "resultative particle (successful completion)"
   },
   {
-    "id": 900,
+    "id": 906,
     "book": 2,
-    "english": "another",
-    "traditional": "另外",
-    "pinyin": "lìng wài",
+    "english": "apartment",
+    "traditional": "公寓",
+    "pinyin": "gōng yù",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "another"
+    "isVisual": true,
+    "photoUrl": "vocab_images/apartment.png",
+    "localImage": "vocab_images/apartment.png",
+    "searchTerm": "apartment"
   },
   {
-    "id": 901,
+    "id": 907,
     "book": 2,
     "english": "atmosphere",
     "traditional": "氣氛",
@@ -10812,43 +10884,31 @@ const VOCAB_DATA = [
     "searchTerm": "atmosphere"
   },
   {
-    "id": 902,
+    "id": 908,
     "book": 2,
-    "english": "bus",
-    "traditional": "巴士",
-    "pinyin": "bā shì",
+    "english": "buildings",
+    "traditional": "建築",
+    "pinyin": "jiàn zhú",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/bus.png",
-    "localImage": "vocab_images/bus.png",
-    "searchTerm": "bus"
+    "photoUrl": "vocab_images/buildings.png",
+    "localImage": "vocab_images/buildings.png",
+    "searchTerm": "buildings"
   },
   {
-    "id": 903,
+    "id": 909,
     "book": 2,
-    "english": "ability / capacity",
-    "traditional": "能力",
-    "pinyin": "néng lì",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "ability / capacity"
-  },
-  {
-    "id": 904,
-    "book": 2,
-    "english": "to celebrate the New Year",
-    "traditional": "過年",
-    "pinyin": "guò nián",
+    "english": "car",
+    "traditional": "汽車",
+    "pinyin": "qì chē",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/celebrate the new year.png",
-    "localImage": "vocab_images/celebrate the new year.png",
-    "searchTerm": "to celebrate the new year"
+    "photoUrl": "vocab_images/car.png",
+    "localImage": "vocab_images/car.png",
+    "searchTerm": "car"
   },
   {
-    "id": 905,
+    "id": 910,
     "book": 2,
     "english": "central and southern regions",
     "traditional": "中南部",
@@ -10860,115 +10920,127 @@ const VOCAB_DATA = [
     "searchTerm": "central and southern regions"
   },
   {
-    "id": 906,
-    "book": 2,
-    "english": "century-long matrimony",
-    "traditional": "百年好合",
-    "pinyin": "bǎi nián hǎo hé",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "century-long matrimony"
-  },
-  {
-    "id": 907,
-    "book": 2,
-    "english": "Chinese cabbage",
-    "traditional": "大白菜",
-    "pinyin": "dà bái cài",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "chinese cabbage"
-  },
-  {
-    "id": 908,
-    "book": 2,
-    "english": "to clean up (sweep)",
-    "traditional": "打掃",
-    "pinyin": "dǎ sǎo",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/clean up.png",
-    "localImage": "vocab_images/clean up.png",
-    "searchTerm": "to clean up (sweep)"
-  },
-  {
-    "id": 909,
-    "book": 2,
-    "english": "to cook (dishes)",
-    "traditional": "做菜",
-    "pinyin": "zuò cài",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cook.png",
-    "localImage": "vocab_images/cook.png",
-    "searchTerm": "to cook (dishes)"
-  },
-  {
-    "id": 910,
-    "book": 2,
-    "english": "to cook / to boil",
-    "traditional": "煮",
-    "pinyin": "zhǔ",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/cook.png",
-    "localImage": "vocab_images/cook.png",
-    "searchTerm": "to cook / to boil"
-  },
-  {
     "id": 911,
     "book": 2,
-    "english": "to depart / to leave",
-    "traditional": "離開",
-    "pinyin": "lí kāi",
+    "english": "church / cathedral",
+    "traditional": "教堂",
+    "pinyin": "jiào táng",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/leave.png",
-    "localImage": "vocab_images/leave.png",
-    "searchTerm": "to depart / to leave"
+    "photoUrl": "vocab_images/church.png",
+    "localImage": "vocab_images/church.png",
+    "searchTerm": "church / cathedral"
   },
   {
     "id": 912,
     "book": 2,
-    "english": "to develop",
-    "traditional": "發展",
-    "pinyin": "fā zhǎn",
+    "english": "color",
+    "traditional": "顏色",
+    "pinyin": "yán sè",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/develop.png",
-    "localImage": "vocab_images/develop.png",
-    "searchTerm": "to develop"
+    "photoUrl": "vocab_images/color.png",
+    "localImage": "vocab_images/color.png",
+    "searchTerm": "color"
   },
   {
     "id": 913,
     "book": 2,
-    "english": "to discover",
-    "traditional": "發現",
-    "pinyin": "fā xiàn",
+    "english": "compared to",
+    "traditional": "比起來",
+    "pinyin": "bǐ qǐ lái",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to discover"
+    "isVisual": true,
+    "photoUrl": "vocab_images/compared to.png",
+    "localImage": "vocab_images/compared to.png",
+    "searchTerm": "compared to"
   },
   {
     "id": 914,
     "book": 2,
-    "english": "enterprise",
-    "traditional": "企業",
-    "pinyin": "qǐ yè",
+    "english": "countryside",
+    "traditional": "鄉下",
+    "pinyin": "xiāng xià",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/countryside.png",
+    "localImage": "vocab_images/countryside.png",
+    "searchTerm": "countryside"
+  },
+  {
+    "id": 915,
+    "book": 2,
+    "english": "crowded",
+    "traditional": "擠",
+    "pinyin": "jǐ",
     "lesson": 9,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "enterprise"
+    "searchTerm": "crowded"
   },
   {
-    "id": 915,
+    "id": 916,
+    "book": 2,
+    "english": "department store",
+    "traditional": "百貨公司",
+    "pinyin": "bǎi huò gōng sī",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/store.png",
+    "localImage": "vocab_images/store.png",
+    "searchTerm": "department store"
+  },
+  {
+    "id": 917,
+    "book": 2,
+    "english": "different",
+    "traditional": "不同",
+    "pinyin": "bù tóng",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/different.png",
+    "localImage": "vocab_images/different.png",
+    "searchTerm": "different"
+  },
+  {
+    "id": 918,
+    "book": 2,
+    "english": "to dive",
+    "traditional": "潛水",
+    "pinyin": "qián shuǐ",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/diver.png",
+    "localImage": "vocab_images/diver.png",
+    "searchTerm": "to dive"
+  },
+  {
+    "id": 919,
+    "book": 2,
+    "english": "drink / beverage",
+    "traditional": "飲料",
+    "pinyin": "yǐn liào",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/drink.png",
+    "localImage": "vocab_images/drink.png",
+    "searchTerm": "drink / beverage"
+  },
+  {
+    "id": 920,
+    "book": 2,
+    "english": "enough",
+    "traditional": "夠",
+    "pinyin": "gòu",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "enough"
+  },
+  {
+    "id": 921,
     "book": 2,
     "english": "fish",
     "traditional": "魚",
@@ -10980,31 +11052,7 @@ const VOCAB_DATA = [
     "searchTerm": "fish"
   },
   {
-    "id": 916,
-    "book": 2,
-    "english": "to host / treat",
-    "traditional": "請客",
-    "pinyin": "qǐng kè",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to host / treat"
-  },
-  {
-    "id": 917,
-    "book": 2,
-    "english": "Kaohsiung City",
-    "traditional": "高雄市",
-    "pinyin": "Gāo xióng shì",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "kaohsiung city"
-  },
-  {
-    "id": 918,
+    "id": 922,
     "book": 2,
     "english": "lemon",
     "traditional": "檸檬",
@@ -11016,91 +11064,79 @@ const VOCAB_DATA = [
     "searchTerm": "lemon"
   },
   {
-    "id": 919,
-    "book": 2,
-    "english": "measure word for pens",
-    "traditional": "枝",
-    "pinyin": "zhī",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "measure word for pens"
-  },
-  {
-    "id": 920,
-    "book": 2,
-    "english": "middle of the night",
-    "traditional": "半夜",
-    "pinyin": "bàn yè",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "middle of the night"
-  },
-  {
-    "id": 921,
-    "book": 2,
-    "english": "to move (home)",
-    "traditional": "搬家",
-    "pinyin": "bān jiā",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/move.png",
-    "localImage": "vocab_images/move.png",
-    "searchTerm": "to move (home)"
-  },
-  {
-    "id": 922,
-    "book": 2,
-    "english": "noodle shop",
-    "traditional": "麵店",
-    "pinyin": "miàn diàn",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "noodle shop"
-  },
-  {
     "id": 923,
     "book": 2,
-    "english": "to open (business)",
-    "traditional": "開業",
-    "pinyin": "kāi yè",
+    "english": "modern",
+    "traditional": "現代",
+    "pinyin": "xiàn dài",
     "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/open.png",
-    "localImage": "vocab_images/open.png",
-    "searchTerm": "to open (business)"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "modern"
   },
   {
     "id": 924,
     "book": 2,
-    "english": "pay",
-    "traditional": "付",
-    "pinyin": "fù",
+    "english": "more and more",
+    "traditional": "越來越",
+    "pinyin": "yuè lái yuè",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/pay.png",
-    "localImage": "vocab_images/pay.png",
-    "searchTerm": "pay"
+    "photoUrl": "vocab_images/more and more.png",
+    "localImage": "vocab_images/more and more.png",
+    "searchTerm": "more and more"
   },
   {
     "id": 925,
     "book": 2,
-    "english": "to run after / chase",
-    "traditional": "追",
-    "pinyin": "zhuī",
+    "english": "the north",
+    "traditional": "北部",
+    "pinyin": "běi bù",
     "lesson": 9,
     "isVisual": true,
-    "photoUrl": "vocab_images/chase.png",
-    "localImage": "vocab_images/chase.png",
-    "searchTerm": "to run after / chase"
+    "photoUrl": "vocab_images/the north.png",
+    "localImage": "vocab_images/the north.png",
+    "searchTerm": "the north"
   },
   {
     "id": 926,
+    "book": 2,
+    "english": "old",
+    "traditional": "老",
+    "pinyin": "lǎo",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/old.png",
+    "localImage": "vocab_images/old.png",
+    "searchTerm": "old"
+  },
+  {
+    "id": 927,
+    "book": 2,
+    "english": "Paris",
+    "traditional": "巴黎",
+    "pinyin": "Bā lí",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/paris.png",
+    "localImage": "vocab_images/paris.png",
+    "searchTerm": "paris"
+  },
+  {
+    "id": 928,
+    "book": 2,
+    "english": "rural town",
+    "traditional": "鎮",
+    "pinyin": "zhèn",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "rural town"
+  },
+  {
+    "id": 929,
     "book": 2,
     "english": "similar to",
     "traditional": "像",
@@ -11112,7 +11148,7 @@ const VOCAB_DATA = [
     "searchTerm": "similar to"
   },
   {
-    "id": 927,
+    "id": 930,
     "book": 2,
     "english": "sour",
     "traditional": "酸",
@@ -11124,7 +11160,7 @@ const VOCAB_DATA = [
     "searchTerm": "sour"
   },
   {
-    "id": 928,
+    "id": 931,
     "book": 2,
     "english": "southern region",
     "traditional": "南部",
@@ -11136,79 +11172,79 @@ const VOCAB_DATA = [
     "searchTerm": "southern region"
   },
   {
-    "id": 929,
-    "book": 2,
-    "english": "to speak",
-    "traditional": "說話",
-    "pinyin": "shuō huà",
-    "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/speak.png",
-    "localImage": "vocab_images/speak.png",
-    "searchTerm": "to speak"
-  },
-  {
-    "id": 930,
-    "book": 2,
-    "english": "staff / personnel",
-    "traditional": "人員",
-    "pinyin": "rén yuán",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "staff / personnel"
-  },
-  {
-    "id": 931,
-    "book": 2,
-    "english": "suddenly",
-    "traditional": "忽然",
-    "pinyin": "hū rán",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "suddenly"
-  },
-  {
     "id": 932,
     "book": 2,
-    "english": "Taipei 101",
-    "traditional": "台北101",
-    "pinyin": "Tái běi yī líng yī",
+    "english": "spring break",
+    "traditional": "春假",
+    "pinyin": "chūn jià",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "taipei 101"
+    "isVisual": true,
+    "photoUrl": "vocab_images/spring break.png",
+    "localImage": "vocab_images/spring break.png",
+    "searchTerm": "spring break"
   },
   {
     "id": 933,
     "book": 2,
-    "english": "take your time",
-    "traditional": "慢慢來",
-    "pinyin": "màn màn lái",
+    "english": "street",
+    "traditional": "馬路",
+    "pinyin": "mǎ lù",
     "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "take your time"
+    "isVisual": true,
+    "photoUrl": "vocab_images/street.png",
+    "localImage": "vocab_images/street.png",
+    "searchTerm": "street"
   },
   {
     "id": 934,
     "book": 2,
-    "english": "to tell",
-    "traditional": "告訴",
-    "pinyin": "gào sù",
+    "english": "taste / flavor",
+    "traditional": "味道",
+    "pinyin": "wèi dào",
     "lesson": 9,
-    "isVisual": true,
-    "photoUrl": "vocab_images/tell.png",
-    "localImage": "vocab_images/tell.png",
-    "searchTerm": "to tell"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "taste / flavor"
   },
   {
     "id": 935,
+    "book": 2,
+    "english": "temple",
+    "traditional": "廟",
+    "pinyin": "miào",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/temple.png",
+    "localImage": "vocab_images/temple.png",
+    "searchTerm": "temple"
+  },
+  {
+    "id": 936,
+    "book": 2,
+    "english": "Thailand",
+    "traditional": "泰國",
+    "pinyin": "Tài guó",
+    "lesson": 9,
+    "isVisual": true,
+    "photoUrl": "vocab_images/Thailand.png",
+    "localImage": "vocab_images/Thailand.png",
+    "searchTerm": "thailand"
+  },
+  {
+    "id": 937,
+    "book": 2,
+    "english": "unforgettable",
+    "traditional": "忘不了",
+    "pinyin": "wàng bu liǎo",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "unforgettable"
+  },
+  {
+    "id": 938,
     "book": 2,
     "english": "distinctive traits",
     "traditional": "特色",
@@ -11220,19 +11256,7 @@ const VOCAB_DATA = [
     "searchTerm": "distinctive traits"
   },
   {
-    "id": 936,
-    "book": 2,
-    "english": "to upload",
-    "traditional": "上傳",
-    "pinyin": "shàng chuán",
-    "lesson": 9,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to upload"
-  },
-  {
-    "id": 937,
+    "id": 939,
     "book": 2,
     "english": "various",
     "traditional": "各",
@@ -11244,7 +11268,31 @@ const VOCAB_DATA = [
     "searchTerm": "various"
   },
   {
-    "id": 938,
+    "id": 940,
+    "book": 2,
+    "english": "warm-hearted",
+    "traditional": "熱情",
+    "pinyin": "rè qíng",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "warm-hearted"
+  },
+  {
+    "id": 941,
+    "book": 2,
+    "english": "wide",
+    "traditional": "寬",
+    "pinyin": "kuān",
+    "lesson": 9,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "wide"
+  },
+  {
+    "id": 942,
     "book": 2,
     "english": "to add",
     "traditional": "加",
@@ -11256,247 +11304,31 @@ const VOCAB_DATA = [
     "searchTerm": "to add"
   },
   {
-    "id": 939,
-    "book": 2,
-    "english": "bottle",
-    "traditional": "瓶子",
-    "pinyin": "píng zi",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/bottle.png",
-    "localImage": "vocab_images/bottle.png",
-    "searchTerm": "bottle"
-  },
-  {
-    "id": 940,
-    "book": 2,
-    "english": "branch (company)",
-    "traditional": "分公司",
-    "pinyin": "fēn gōng sī",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/branch.png",
-    "localImage": "vocab_images/branch.png",
-    "searchTerm": "branch (company)"
-  },
-  {
-    "id": 941,
-    "book": 2,
-    "english": "bridegroom",
-    "traditional": "新郎",
-    "pinyin": "xīn láng",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/bridegroom.png",
-    "localImage": "vocab_images/bridegroom.png",
-    "searchTerm": "bridegroom"
-  },
-  {
-    "id": 942,
-    "book": 2,
-    "english": "children",
-    "traditional": "孩子",
-    "pinyin": "hái zi",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/children.png",
-    "localImage": "vocab_images/children.png",
-    "searchTerm": "children"
-  },
-  {
     "id": 943,
     "book": 2,
-    "english": "convenience store",
-    "traditional": "超商",
-    "pinyin": "chāo shāng",
+    "english": "boiled dumplings",
+    "traditional": "水餃",
+    "pinyin": "shuǐ jiǎo",
     "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/convenience store.png",
-    "localImage": "vocab_images/convenience store.png",
-    "searchTerm": "convenience store"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "boiled dumplings"
   },
   {
     "id": 944,
     "book": 2,
-    "english": "convenient / handy",
-    "traditional": "便利",
-    "pinyin": "biàn lì",
+    "english": "bowl",
+    "traditional": "碗",
+    "pinyin": "wǎn",
     "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "convenient / handy"
+    "isVisual": true,
+    "photoUrl": "vocab_images/bowl.png",
+    "localImage": "vocab_images/bowl.png",
+    "searchTerm": "bowl"
   },
   {
     "id": 945,
-    "book": 2,
-    "english": "dictation",
-    "traditional": "聽寫",
-    "pinyin": "tīng xiě",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "dictation"
-  },
-  {
-    "id": 946,
-    "book": 2,
-    "english": "don’t rush / no hurry",
-    "traditional": "不急",
-    "pinyin": "bù jí",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "don’t rush / no hurry"
-  },
-  {
-    "id": 947,
-    "book": 2,
-    "english": "to drive over",
-    "traditional": "開過來",
-    "pinyin": "kāi guò lái",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to drive over"
-  },
-  {
-    "id": 948,
-    "book": 2,
-    "english": "dumplings",
-    "traditional": "餃子",
-    "pinyin": "jiǎo zi",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "dumplings"
-  },
-  {
-    "id": 949,
-    "book": 2,
-    "english": "filling (food)",
-    "traditional": "餡兒",
-    "pinyin": "xiàn ér",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/filling.png",
-    "localImage": "vocab_images/filling.png",
-    "searchTerm": "filling (food)"
-  },
-  {
-    "id": 950,
-    "book": 2,
-    "english": "to be finished / none left",
-    "traditional": "光",
-    "pinyin": "guāng",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be finished / none left"
-  },
-  {
-    "id": 951,
-    "book": 2,
-    "english": "flat",
-    "traditional": "扁",
-    "pinyin": "biǎn",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "flat"
-  },
-  {
-    "id": 952,
-    "book": 2,
-    "english": "food",
-    "traditional": "食物",
-    "pinyin": "shí wù",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/food.png",
-    "localImage": "vocab_images/food.png",
-    "searchTerm": "food"
-  },
-  {
-    "id": 953,
-    "book": 2,
-    "english": "glass",
-    "traditional": "玻璃",
-    "pinyin": "bō lí",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/glass.png",
-    "localImage": "vocab_images/glass.png",
-    "searchTerm": "glass"
-  },
-  {
-    "id": 954,
-    "book": 2,
-    "english": "to go bad",
-    "traditional": "壞",
-    "pinyin": "huài",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to go bad"
-  },
-  {
-    "id": 955,
-    "book": 2,
-    "english": "to be full",
-    "traditional": "飽",
-    "pinyin": "bǎo",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be full"
-  },
-  {
-    "id": 956,
-    "book": 2,
-    "english": "to recall / remember",
-    "traditional": "想起來",
-    "pinyin": "xiǎng qǐ lái",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/recall.png",
-    "localImage": "vocab_images/recall.png",
-    "searchTerm": "to recall / remember"
-  },
-  {
-    "id": 957,
-    "book": 2,
-    "english": "hot springs",
-    "traditional": "溫泉",
-    "pinyin": "wēn quán",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "hot springs"
-  },
-  {
-    "id": 958,
-    "book": 2,
-    "english": "ingredients / materials",
-    "traditional": "材料",
-    "pinyin": "cái liào",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/ingredients.png",
-    "localImage": "vocab_images/ingredients.png",
-    "searchTerm": "ingredients / materials"
-  },
-  {
-    "id": 959,
     "book": 2,
     "english": "can’t tell / can’t see",
     "traditional": "看不出來",
@@ -11508,7 +11340,223 @@ const VOCAB_DATA = [
     "searchTerm": "can’t tell / can’t see"
   },
   {
+    "id": 946,
+    "book": 2,
+    "english": "chili peppers",
+    "traditional": "辣椒",
+    "pinyin": "là jiāo",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "chili peppers"
+  },
+  {
+    "id": 947,
+    "book": 2,
+    "english": "Chinese cabbage",
+    "traditional": "大白菜",
+    "pinyin": "dà bái cài",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cabbage.png",
+    "localImage": "vocab_images/cabbage.png",
+    "searchTerm": "chinese cabbage"
+  },
+  {
+    "id": 948,
+    "book": 2,
+    "english": "chopsticks",
+    "traditional": "筷子",
+    "pinyin": "kuài zi",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/chopsticks.png",
+    "localImage": "vocab_images/chopsticks.png",
+    "searchTerm": "chopsticks"
+  },
+  {
+    "id": 949,
+    "book": 2,
+    "english": "to close",
+    "traditional": "關",
+    "pinyin": "guān",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/close.png",
+    "localImage": "vocab_images/close.png",
+    "searchTerm": "to close"
+  },
+  {
+    "id": 950,
+    "book": 2,
+    "english": "to cook (dishes)",
+    "traditional": "做菜",
+    "pinyin": "zuò cài",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cook.png",
+    "localImage": "vocab_images/cook.png",
+    "searchTerm": "to cook (dishes)"
+  },
+  {
+    "id": 951,
+    "book": 2,
+    "english": "to cook / to boil",
+    "traditional": "煮",
+    "pinyin": "zhǔ",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/cook.png",
+    "localImage": "vocab_images/cook.png",
+    "searchTerm": "to cook / to boil"
+  },
+  {
+    "id": 952,
+    "book": 2,
+    "english": "dining room",
+    "traditional": "飯廳",
+    "pinyin": "fàn tīng",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dining room.png",
+    "localImage": "vocab_images/dining room.png",
+    "searchTerm": "dining room"
+  },
+  {
+    "id": 953,
+    "book": 2,
+    "english": "door",
+    "traditional": "門",
+    "pinyin": "mén",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/door.png",
+    "localImage": "vocab_images/door.png",
+    "searchTerm": "door"
+  },
+  {
+    "id": 954,
+    "book": 2,
+    "english": "dumplings",
+    "traditional": "餃子",
+    "pinyin": "jiǎo zi",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "dumplings"
+  },
+  {
+    "id": 955,
+    "book": 2,
+    "english": "filling (food)",
+    "traditional": "餡兒",
+    "pinyin": "xiàn ér",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/filling.png",
+    "localImage": "vocab_images/filling.png",
+    "searchTerm": "filling (food)"
+  },
+  {
+    "id": 956,
+    "book": 2,
+    "english": "to be finished / none left",
+    "traditional": "光",
+    "pinyin": "guāng",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be finished / none left"
+  },
+  {
+    "id": 957,
+    "book": 2,
+    "english": "flat",
+    "traditional": "扁",
+    "pinyin": "biǎn",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "flat"
+  },
+  {
+    "id": 958,
+    "book": 2,
+    "english": "food",
+    "traditional": "食物",
+    "pinyin": "shí wù",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/food.png",
+    "localImage": "vocab_images/food.png",
+    "searchTerm": "food"
+  },
+  {
+    "id": 959,
+    "book": 2,
+    "english": "glass",
+    "traditional": "玻璃",
+    "pinyin": "bō lí",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/glass.png",
+    "localImage": "vocab_images/glass.png",
+    "searchTerm": "glass"
+  },
+  {
     "id": 960,
+    "book": 2,
+    "english": "to go bad",
+    "traditional": "壞",
+    "pinyin": "huài",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to go bad"
+  },
+  {
+    "id": 961,
+    "book": 2,
+    "english": "to be full",
+    "traditional": "飽",
+    "pinyin": "bǎo",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to be full"
+  },
+  {
+    "id": 962,
+    "book": 2,
+    "english": "hot and sour soup",
+    "traditional": "酸辣湯",
+    "pinyin": "suān là tāng",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/hot and sour soup.png",
+    "localImage": "vocab_images/hot and sour soup.png",
+    "searchTerm": "hot and sour soup"
+  },
+  {
+    "id": 963,
+    "book": 2,
+    "english": "ingredients / materials",
+    "traditional": "材料",
+    "pinyin": "cái liào",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/ingredients.png",
+    "localImage": "vocab_images/ingredients.png",
+    "searchTerm": "ingredients / materials"
+  },
+  {
+    "id": 964,
     "book": 2,
     "english": "kimchi",
     "traditional": "泡菜",
@@ -11520,7 +11568,7 @@ const VOCAB_DATA = [
     "searchTerm": "kimchi"
   },
   {
-    "id": 961,
+    "id": 965,
     "book": 2,
     "english": "Korea",
     "traditional": "韓國",
@@ -11532,31 +11580,7 @@ const VOCAB_DATA = [
     "searchTerm": "korea"
   },
   {
-    "id": 962,
-    "book": 2,
-    "english": "to lower one’s head",
-    "traditional": "低頭",
-    "pinyin": "dī tóu",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to lower one’s head"
-  },
-  {
-    "id": 963,
-    "book": 2,
-    "english": "map",
-    "traditional": "地圖",
-    "pinyin": "dì tú",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/map.png",
-    "localImage": "vocab_images/map.png",
-    "searchTerm": "map"
-  },
-  {
-    "id": 964,
+    "id": 966,
     "book": 2,
     "english": "measure word for dishes of food",
     "traditional": "道",
@@ -11566,30 +11590,6 @@ const VOCAB_DATA = [
     "photoUrl": null,
     "localImage": null,
     "searchTerm": "measure word for dishes of food"
-  },
-  {
-    "id": 965,
-    "book": 2,
-    "english": "otherwise",
-    "traditional": "要不然",
-    "pinyin": "yào bù rán",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "otherwise"
-  },
-  {
-    "id": 966,
-    "book": 2,
-    "english": "experiential particle",
-    "traditional": "過",
-    "pinyin": "guò",
-    "lesson": 10,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "experiential particle"
   },
   {
     "id": 967,
@@ -11606,41 +11606,17 @@ const VOCAB_DATA = [
   {
     "id": 968,
     "book": 2,
-    "english": "post office",
-    "traditional": "郵局",
-    "pinyin": "yóu jú",
+    "english": "pot / wok etc.",
+    "traditional": "鍋子",
+    "pinyin": "guō zi",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/post office.png",
-    "localImage": "vocab_images/post office.png",
-    "searchTerm": "post office"
+    "photoUrl": "vocab_images/pot.png",
+    "localImage": "vocab_images/pot.png",
+    "searchTerm": "pot / wok etc."
   },
   {
     "id": 969,
-    "book": 2,
-    "english": "to recycle",
-    "traditional": "回收",
-    "pinyin": "huí shōu",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/recycle.png",
-    "localImage": "vocab_images/recycle.png",
-    "searchTerm": "to recycle"
-  },
-  {
-    "id": 970,
-    "book": 2,
-    "english": "route",
-    "traditional": "路線",
-    "pinyin": "lù xiàn",
-    "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/route.png",
-    "localImage": "vocab_images/route.png",
-    "searchTerm": "route"
-  },
-  {
-    "id": 971,
     "book": 2,
     "english": "salt",
     "traditional": "鹽",
@@ -11652,7 +11628,7 @@ const VOCAB_DATA = [
     "searchTerm": "salt"
   },
   {
-    "id": 972,
+    "id": 970,
     "book": 2,
     "english": "to savor / taste",
     "traditional": "嚐",
@@ -11664,7 +11640,7 @@ const VOCAB_DATA = [
     "searchTerm": "to savor / taste"
   },
   {
-    "id": 973,
+    "id": 971,
     "book": 2,
     "english": "seasonings",
     "traditional": "調味料",
@@ -11676,19 +11652,19 @@ const VOCAB_DATA = [
     "searchTerm": "seasonings"
   },
   {
-    "id": 974,
+    "id": 972,
     "book": 2,
-    "english": "to set off firecrackers",
-    "traditional": "放鞭炮",
-    "pinyin": "fàng biān pào",
+    "english": "semester",
+    "traditional": "學期",
+    "pinyin": "xué qī",
     "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/set off firecrackers.png",
-    "localImage": "vocab_images/set off firecrackers.png",
-    "searchTerm": "to set off firecrackers"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "semester"
   },
   {
-    "id": 975,
+    "id": 973,
     "book": 2,
     "english": "shoes",
     "traditional": "鞋",
@@ -11700,7 +11676,7 @@ const VOCAB_DATA = [
     "searchTerm": "shoes"
   },
   {
-    "id": 976,
+    "id": 974,
     "book": 2,
     "english": "skin / wrap",
     "traditional": "皮",
@@ -11712,31 +11688,67 @@ const VOCAB_DATA = [
     "searchTerm": "skin / wrap"
   },
   {
-    "id": 977,
+    "id": 975,
     "book": 2,
-    "english": "to stand",
-    "traditional": "站",
-    "pinyin": "zhàn",
+    "english": "spring rolls",
+    "traditional": "春捲",
+    "pinyin": "chūn juǎn",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "spring rolls"
+  },
+  {
+    "id": 976,
+    "book": 2,
+    "english": "to stir / mix",
+    "traditional": "拌",
+    "pinyin": "bàn",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/stand.png",
-    "localImage": "vocab_images/stand.png",
-    "searchTerm": "to stand"
+    "photoUrl": "vocab_images/stir.png",
+    "localImage": "vocab_images/stir.png",
+    "searchTerm": "to stir / mix"
+  },
+  {
+    "id": 977,
+    "book": 2,
+    "english": "such as",
+    "traditional": "像",
+    "pinyin": "xiàng",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "such as"
   },
   {
     "id": 978,
     "book": 2,
-    "english": "strange",
-    "traditional": "奇怪",
-    "pinyin": "qí guài",
+    "english": "sushi",
+    "traditional": "壽司",
+    "pinyin": "shòu sī",
     "lesson": 10,
     "isVisual": true,
-    "photoUrl": "vocab_images/strange.png",
-    "localImage": "vocab_images/strange.png",
-    "searchTerm": "strange"
+    "photoUrl": "vocab_images/sushi.png",
+    "localImage": "vocab_images/sushi.png",
+    "searchTerm": "sushi"
   },
   {
     "id": 979,
+    "book": 2,
+    "english": "to take off (clothes)",
+    "traditional": "脫",
+    "pinyin": "tuō",
+    "lesson": 10,
+    "isVisual": true,
+    "photoUrl": "vocab_images/take off.png",
+    "localImage": "vocab_images/take off.png",
+    "searchTerm": "to take off (clothes)"
+  },
+  {
+    "id": 980,
     "book": 2,
     "english": "to wash",
     "traditional": "洗",
@@ -11748,19 +11760,43 @@ const VOCAB_DATA = [
     "searchTerm": "to wash"
   },
   {
-    "id": 980,
+    "id": 981,
     "book": 2,
-    "english": "white",
-    "traditional": "白",
-    "pinyin": "bái",
+    "english": "while / take advantage of",
+    "traditional": "趁",
+    "pinyin": "chèn",
     "lesson": 10,
-    "isVisual": true,
-    "photoUrl": "vocab_images/white.png",
-    "localImage": "vocab_images/white.png",
-    "searchTerm": "white"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "while / take advantage of"
   },
   {
-    "id": 981,
+    "id": 982,
+    "book": 2,
+    "english": "to wrap",
+    "traditional": "包",
+    "pinyin": "bāo",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to wrap"
+  },
+  {
+    "id": 983,
+    "book": 2,
+    "english": "when undertaken, to do",
+    "traditional": "做起來",
+    "pinyin": "zuò qǐ lái",
+    "lesson": 10,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "when undertaken, to do"
+  },
+  {
+    "id": 984,
     "book": 2,
     "english": "aborigines",
     "traditional": "原住民",
@@ -11772,7 +11808,7 @@ const VOCAB_DATA = [
     "searchTerm": "aborigines"
   },
   {
-    "id": 982,
+    "id": 985,
     "book": 2,
     "english": "all",
     "traditional": "所有",
@@ -11784,7 +11820,7 @@ const VOCAB_DATA = [
     "searchTerm": "all"
   },
   {
-    "id": 983,
+    "id": 986,
     "book": 2,
     "english": "and",
     "traditional": "又",
@@ -11796,7 +11832,7 @@ const VOCAB_DATA = [
     "searchTerm": "and"
   },
   {
-    "id": 984,
+    "id": 987,
     "book": 2,
     "english": "beach",
     "traditional": "沙灘",
@@ -11808,7 +11844,7 @@ const VOCAB_DATA = [
     "searchTerm": "beach"
   },
   {
-    "id": 985,
+    "id": 988,
     "book": 2,
     "english": "Bed & Breakfast lodgings",
     "traditional": "民宿",
@@ -11820,7 +11856,7 @@ const VOCAB_DATA = [
     "searchTerm": "bed & breakfast lodgings"
   },
   {
-    "id": 986,
+    "id": 989,
     "book": 2,
     "english": "beer",
     "traditional": "啤酒",
@@ -11832,31 +11868,43 @@ const VOCAB_DATA = [
     "searchTerm": "beer"
   },
   {
-    "id": 987,
+    "id": 990,
     "book": 2,
-    "english": "daughter",
-    "traditional": "女兒",
-    "pinyin": "nǚ ér",
+    "english": "to consider",
+    "traditional": "考慮",
+    "pinyin": "kǎo lǜ",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/daughter.png",
-    "localImage": "vocab_images/daughter.png",
-    "searchTerm": "daughter"
+    "photoUrl": "vocab_images/consider.png",
+    "localImage": "vocab_images/consider.png",
+    "searchTerm": "to consider"
   },
   {
-    "id": 988,
+    "id": 991,
     "book": 2,
-    "english": "boiled dumplings",
-    "traditional": "水餃",
-    "pinyin": "shuǐ jiǎo",
+    "english": "to disappear",
+    "traditional": "不見",
+    "pinyin": "bú jiàn",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "boiled dumplings"
+    "isVisual": true,
+    "photoUrl": "vocab_images/disappear.png",
+    "localImage": "vocab_images/disappear.png",
+    "searchTerm": "to disappear"
   },
   {
-    "id": 989,
+    "id": 992,
+    "book": 2,
+    "english": "dusk",
+    "traditional": "黃昏",
+    "pinyin": "huáng hūn",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/dusk.png",
+    "localImage": "vocab_images/dusk.png",
+    "searchTerm": "dusk"
+  },
+  {
+    "id": 993,
     "book": 2,
     "english": "to fall in love with",
     "traditional": "愛上",
@@ -11868,55 +11916,55 @@ const VOCAB_DATA = [
     "searchTerm": "to fall in love with"
   },
   {
-    "id": 990,
+    "id": 994,
     "book": 2,
-    "english": "to go past",
-    "traditional": "經過",
-    "pinyin": "jīng guò",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to go past"
-  },
-  {
-    "id": 991,
-    "book": 2,
-    "english": "homework / assignment",
-    "traditional": "作業",
-    "pinyin": "zuò yè",
+    "english": "hometown",
+    "traditional": "家鄉",
+    "pinyin": "jiā xiāng",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/homework.png",
-    "localImage": "vocab_images/homework.png",
-    "searchTerm": "homework / assignment"
+    "photoUrl": "vocab_images/home.png",
+    "localImage": "vocab_images/home.png",
+    "searchTerm": "hometown"
   },
   {
-    "id": 992,
+    "id": 995,
     "book": 2,
-    "english": "hourly pay",
-    "traditional": "鐘點費",
-    "pinyin": "zhōng diǎn fèi",
+    "english": "hot springs",
+    "traditional": "溫泉",
+    "pinyin": "wēn quán",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "hourly pay"
+    "searchTerm": "hot springs"
   },
   {
-    "id": 993,
+    "id": 996,
     "book": 2,
-    "english": "just / happen to",
-    "traditional": "正好",
-    "pinyin": "zhèng hǎo",
+    "english": "in the daytime",
+    "traditional": "白天",
+    "pinyin": "bái tiān",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "just / happen to"
+    "searchTerm": "in the daytime"
   },
   {
-    "id": 994,
+    "id": 997,
+    "book": 2,
+    "english": "jet ski",
+    "traditional": "水上摩托車",
+    "pinyin": "shuǐ shàng mó tuō chē",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/jet ski.png",
+    "localImage": "vocab_images/jet ski.png",
+    "searchTerm": "jet ski"
+  },
+  {
+    "id": 998,
     "book": 2,
     "english": "Kenting",
     "traditional": "墾丁",
@@ -11928,7 +11976,7 @@ const VOCAB_DATA = [
     "searchTerm": "kenting"
   },
   {
-    "id": 995,
+    "id": 999,
     "book": 2,
     "english": "lake",
     "traditional": "湖",
@@ -11940,7 +11988,7 @@ const VOCAB_DATA = [
     "searchTerm": "lake"
   },
   {
-    "id": 996,
+    "id": 1000,
     "book": 2,
     "english": "later",
     "traditional": "後來",
@@ -11952,79 +12000,103 @@ const VOCAB_DATA = [
     "searchTerm": "later"
   },
   {
-    "id": 997,
-    "book": 2,
-    "english": "life",
-    "traditional": "生活",
-    "pinyin": "shēng huó",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "life"
-  },
-  {
-    "id": 998,
-    "book": 2,
-    "english": "to lose",
-    "traditional": "掉",
-    "pinyin": "diào",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to lose"
-  },
-  {
-    "id": 999,
-    "book": 2,
-    "english": "measure word for vehicles",
-    "traditional": "輛",
-    "pinyin": "liàng",
-    "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/measure word for vehicles.png",
-    "localImage": "vocab_images/measure word for vehicles.png",
-    "searchTerm": "measure word for vehicles"
-  },
-  {
-    "id": 1000,
-    "book": 2,
-    "english": "Meimei (girl’s name)",
-    "traditional": "美美",
-    "pinyin": "Měi měi",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "meimei (girl’s name)"
-  },
-  {
     "id": 1001,
     "book": 2,
-    "english": "over there",
-    "traditional": "那邊",
-    "pinyin": "nà biān",
+    "english": "to lie down",
+    "traditional": "躺",
+    "pinyin": "tǎng",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/over there.png",
-    "localImage": "vocab_images/over there.png",
-    "searchTerm": "over there"
+    "photoUrl": "vocab_images/lie down.png",
+    "localImage": "vocab_images/lie down.png",
+    "searchTerm": "to lie down"
   },
   {
     "id": 1002,
     "book": 2,
-    "english": "paper",
-    "traditional": "紙",
-    "pinyin": "zhǐ",
+    "english": "luck",
+    "traditional": "運氣",
+    "pinyin": "yùn qì",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/paper.png",
-    "localImage": "vocab_images/paper.png",
-    "searchTerm": "paper"
+    "photoUrl": "vocab_images/luck.png",
+    "localImage": "vocab_images/luck.png",
+    "searchTerm": "luck"
   },
   {
     "id": 1003,
+    "book": 2,
+    "english": "measure word for street",
+    "traditional": "條",
+    "pinyin": "tiáo",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for street"
+  },
+  {
+    "id": 1004,
+    "book": 2,
+    "english": "measure word for number of times",
+    "traditional": "遍",
+    "pinyin": "biàn",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for number of times"
+  },
+  {
+    "id": 1005,
+    "book": 2,
+    "english": "measure word for trip",
+    "traditional": "趟",
+    "pinyin": "tàng",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "measure word for trip"
+  },
+  {
+    "id": 1006,
+    "book": 2,
+    "english": "motorcycle",
+    "traditional": "摩托車",
+    "pinyin": "mó tuō chē",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/motorcycle.png",
+    "localImage": "vocab_images/motorcycle.png",
+    "searchTerm": "motorcycle"
+  },
+  {
+    "id": 1007,
+    "book": 2,
+    "english": "other / the remaining",
+    "traditional": "其他",
+    "pinyin": "qí tā",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "other / the remaining"
+  },
+  {
+    "id": 1008,
+    "book": 2,
+    "english": "passive particle",
+    "traditional": "被",
+    "pinyin": "bèi",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "passive particle"
+  },
+  {
+    "id": 1009,
     "book": 2,
     "english": "to pay attention to",
     "traditional": "注意",
@@ -12036,43 +12108,31 @@ const VOCAB_DATA = [
     "searchTerm": "to pay attention to"
   },
   {
-    "id": 1004,
+    "id": 1010,
     "book": 2,
-    "english": "completion particle",
-    "traditional": "完",
-    "pinyin": "wán",
+    "english": "plants",
+    "traditional": "植物",
+    "pinyin": "zhí wù",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "completion particle"
+    "searchTerm": "plants"
   },
   {
-    "id": 1005,
+    "id": 1011,
     "book": 2,
-    "english": "resume",
-    "traditional": "履歷",
-    "pinyin": "lǚ lì",
+    "english": "romantic",
+    "traditional": "浪漫",
+    "pinyin": "làng màn",
     "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "resume"
+    "isVisual": true,
+    "photoUrl": "vocab_images/romantic.png",
+    "localImage": "vocab_images/romantic.png",
+    "searchTerm": "romantic"
   },
   {
-    "id": 1006,
-    "book": 2,
-    "english": "roommate",
-    "traditional": "室友",
-    "pinyin": "shì yǒu",
-    "lesson": 11,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "roommate"
-  },
-  {
-    "id": 1007,
+    "id": 1012,
     "book": 2,
     "english": "safe",
     "traditional": "安全",
@@ -12084,7 +12144,7 @@ const VOCAB_DATA = [
     "searchTerm": "safe"
   },
   {
-    "id": 1008,
+    "id": 1013,
     "book": 2,
     "english": "scenic area",
     "traditional": "風景區",
@@ -12096,19 +12156,19 @@ const VOCAB_DATA = [
     "searchTerm": "scenic area"
   },
   {
-    "id": 1009,
+    "id": 1014,
     "book": 2,
-    "english": "to stir / mix",
-    "traditional": "拌",
-    "pinyin": "bàn",
+    "english": "street",
+    "traditional": "街",
+    "pinyin": "jiē",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/stir.png",
-    "localImage": "vocab_images/stir.png",
-    "searchTerm": "to stir / mix"
+    "photoUrl": "vocab_images/street.png",
+    "localImage": "vocab_images/street.png",
+    "searchTerm": "street"
   },
   {
-    "id": 1010,
+    "id": 1015,
     "book": 2,
     "english": "to suggest",
     "traditional": "建議",
@@ -12120,31 +12180,55 @@ const VOCAB_DATA = [
     "searchTerm": "to suggest"
   },
   {
-    "id": 1011,
+    "id": 1016,
     "book": 2,
-    "english": "suitable",
-    "traditional": "合適",
-    "pinyin": "hé shì",
+    "english": "Sun Moon Lake",
+    "traditional": "日月潭",
+    "pinyin": "Rì yuè tán",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "suitable"
+    "searchTerm": "sun moon lake"
   },
   {
-    "id": 1012,
+    "id": 1017,
     "book": 2,
-    "english": "things like that",
-    "traditional": "等等",
-    "pinyin": "děng děng",
+    "english": "to sunbathe",
+    "traditional": "曬太陽",
+    "pinyin": "shài tài yáng",
+    "lesson": 11,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sunbathe.png",
+    "localImage": "vocab_images/sunbathe.png",
+    "searchTerm": "to sunbathe"
+  },
+  {
+    "id": 1018,
+    "book": 2,
+    "english": "Taichung",
+    "traditional": "台中",
+    "pinyin": "Tái zhōng",
     "lesson": 11,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "things like that"
+    "searchTerm": "taichung"
   },
   {
-    "id": 1013,
+    "id": 1019,
+    "book": 2,
+    "english": "then",
+    "traditional": "又",
+    "pinyin": "yòu",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "then"
+  },
+  {
+    "id": 1020,
     "book": 2,
     "english": "ticket",
     "traditional": "票",
@@ -12156,7 +12240,7 @@ const VOCAB_DATA = [
     "searchTerm": "ticket"
   },
   {
-    "id": 1014,
+    "id": 1021,
     "book": 2,
     "english": "tourist",
     "traditional": "觀光客",
@@ -12168,31 +12252,31 @@ const VOCAB_DATA = [
     "searchTerm": "tourist"
   },
   {
-    "id": 1015,
+    "id": 1022,
     "book": 2,
-    "english": "translator",
-    "traditional": "翻譯",
-    "pinyin": "fān yì",
+    "english": "tropical region",
+    "traditional": "熱帶",
+    "pinyin": "rè dài",
     "lesson": 11,
-    "isVisual": true,
-    "photoUrl": "vocab_images/translator.png",
-    "localImage": "vocab_images/translator.png",
-    "searchTerm": "translator"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "tropical region"
   },
   {
-    "id": 1016,
+    "id": 1023,
     "book": 2,
-    "english": "vacation / holiday",
-    "traditional": "假期",
-    "pinyin": "jià qí",
+    "english": "to steal",
+    "traditional": "偷",
+    "pinyin": "tōu",
     "lesson": 11,
     "isVisual": true,
-    "photoUrl": "vocab_images/holiday.png",
-    "localImage": "vocab_images/holiday.png",
-    "searchTerm": "vacation / holiday"
+    "photoUrl": "vocab_images/steal.png",
+    "localImage": "vocab_images/steal.png",
+    "searchTerm": "to steal"
   },
   {
-    "id": 1017,
+    "id": 1024,
     "book": 2,
     "english": "verb particle (contact between nouns)",
     "traditional": "上",
@@ -12204,7 +12288,7 @@ const VOCAB_DATA = [
     "searchTerm": "verb particle (contact between nouns)"
   },
   {
-    "id": 1018,
+    "id": 1025,
     "book": 2,
     "english": "wallet / purse",
     "traditional": "錢包",
@@ -12216,7 +12300,7 @@ const VOCAB_DATA = [
     "searchTerm": "wallet / purse"
   },
   {
-    "id": 1019,
+    "id": 1026,
     "book": 2,
     "english": "water activities",
     "traditional": "水上活動",
@@ -12228,19 +12312,43 @@ const VOCAB_DATA = [
     "searchTerm": "water activities"
   },
   {
-    "id": 1020,
+    "id": 1027,
     "book": 2,
-    "english": "apartment",
-    "traditional": "公寓",
-    "pinyin": "gōng yù",
-    "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/apartment.png",
-    "localImage": "vocab_images/apartment.png",
-    "searchTerm": "apartment"
+    "english": "worthwhile",
+    "traditional": "值得",
+    "pinyin": "zhí dé",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "worthwhile"
   },
   {
-    "id": 1021,
+    "id": 1028,
+    "book": 2,
+    "english": "conveniently / while at it",
+    "traditional": "順便",
+    "pinyin": "shùn biàn",
+    "lesson": 11,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "conveniently / while at it"
+  },
+  {
+    "id": 1029,
+    "book": 2,
+    "english": "as long as",
+    "traditional": "只要",
+    "pinyin": "zhǐ yào",
+    "lesson": 12,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "as long as"
+  },
+  {
+    "id": 1030,
     "book": 2,
     "english": "to become",
     "traditional": "變",
@@ -12252,79 +12360,67 @@ const VOCAB_DATA = [
     "searchTerm": "to become"
   },
   {
-    "id": 1022,
+    "id": 1031,
     "book": 2,
-    "english": "Chinese (ethnicity)",
-    "traditional": "華人",
-    "pinyin": "huá rén",
+    "english": "completely",
+    "traditional": "完全",
+    "pinyin": "wán quán",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "chinese (ethnicity)"
+    "searchTerm": "completely"
   },
   {
-    "id": 1023,
+    "id": 1032,
     "book": 2,
-    "english": "club / association",
-    "traditional": "社團",
-    "pinyin": "shè tuán",
+    "english": "curious / to wonder",
+    "traditional": "好奇",
+    "pinyin": "hào qí",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/club.png",
-    "localImage": "vocab_images/club.png",
-    "searchTerm": "club / association"
+    "photoUrl": "vocab_images/curious.png",
+    "localImage": "vocab_images/curious.png",
+    "searchTerm": "curious / to wonder"
   },
   {
-    "id": 1024,
+    "id": 1033,
     "book": 2,
-    "english": "crowded",
-    "traditional": "擠",
-    "pinyin": "jǐ",
+    "english": "to deep fry",
+    "traditional": "炸",
+    "pinyin": "zhà",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "crowded"
+    "searchTerm": "to deep fry"
   },
   {
-    "id": 1025,
+    "id": 1034,
     "book": 2,
-    "english": "day",
-    "traditional": "日子",
-    "pinyin": "rì zi",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "day"
-  },
-  {
-    "id": 1026,
-    "book": 2,
-    "english": "to be disappointed",
-    "traditional": "失望",
-    "pinyin": "shī wàng",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to be disappointed"
-  },
-  {
-    "id": 1027,
-    "book": 2,
-    "english": "early",
-    "traditional": "早",
-    "pinyin": "zǎo",
+    "english": "to dislike",
+    "traditional": "討厭",
+    "pinyin": "tǎo yàn",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/early.png",
-    "localImage": "vocab_images/early.png",
-    "searchTerm": "early"
+    "photoUrl": "vocab_images/dislike.png",
+    "localImage": "vocab_images/dislike.png",
+    "searchTerm": "to dislike"
   },
   {
-    "id": 1028,
+    "id": 1035,
+    "book": 2,
+    "english": "the earth",
+    "traditional": "地球",
+    "pinyin": "dì qiú",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the earth.png",
+    "localImage": "vocab_images/the earth.png",
+    "searchTerm": "the earth"
+  },
+  {
+    "id": 1036,
     "book": 2,
     "english": "fast food",
     "traditional": "速食",
@@ -12336,7 +12432,7 @@ const VOCAB_DATA = [
     "searchTerm": "fast food"
   },
   {
-    "id": 1029,
+    "id": 1037,
     "book": 2,
     "english": "fast food restaurant",
     "traditional": "速食店",
@@ -12348,7 +12444,7 @@ const VOCAB_DATA = [
     "searchTerm": "fast food restaurant"
   },
   {
-    "id": 1030,
+    "id": 1038,
     "book": 2,
     "english": "fat",
     "traditional": "胖",
@@ -12360,7 +12456,7 @@ const VOCAB_DATA = [
     "searchTerm": "fat"
   },
   {
-    "id": 1031,
+    "id": 1039,
     "book": 2,
     "english": "food products",
     "traditional": "食品",
@@ -12372,7 +12468,7 @@ const VOCAB_DATA = [
     "searchTerm": "food products"
   },
   {
-    "id": 1032,
+    "id": 1040,
     "book": 2,
     "english": "French fries",
     "traditional": "薯條",
@@ -12384,7 +12480,7 @@ const VOCAB_DATA = [
     "searchTerm": "french fries"
   },
   {
-    "id": 1033,
+    "id": 1041,
     "book": 2,
     "english": "girl",
     "traditional": "女孩",
@@ -12396,7 +12492,7 @@ const VOCAB_DATA = [
     "searchTerm": "girl"
   },
   {
-    "id": 1034,
+    "id": 1042,
     "book": 2,
     "english": "to grill / BBQ",
     "traditional": "烤",
@@ -12408,7 +12504,7 @@ const VOCAB_DATA = [
     "searchTerm": "to grill / bbq"
   },
   {
-    "id": 1035,
+    "id": 1043,
     "book": 2,
     "english": "hamburger",
     "traditional": "漢堡",
@@ -12420,19 +12516,7 @@ const VOCAB_DATA = [
     "searchTerm": "hamburger"
   },
   {
-    "id": 1036,
-    "book": 2,
-    "english": "hygiene",
-    "traditional": "衛生",
-    "pinyin": "wèi shēng",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "hygiene"
-  },
-  {
-    "id": 1037,
+    "id": 1044,
     "book": 2,
     "english": "hey! (interjection)",
     "traditional": "欸",
@@ -12444,7 +12528,19 @@ const VOCAB_DATA = [
     "searchTerm": "hey! (interjection)"
   },
   {
-    "id": 1038,
+    "id": 1045,
+    "book": 2,
+    "english": "hygiene",
+    "traditional": "衛生",
+    "pinyin": "wèi shēng",
+    "lesson": 12,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "hygiene"
+  },
+  {
+    "id": 1046,
     "book": 2,
     "english": "to let / allow",
     "traditional": "讓",
@@ -12456,19 +12552,19 @@ const VOCAB_DATA = [
     "searchTerm": "to let / allow"
   },
   {
-    "id": 1039,
+    "id": 1047,
     "book": 2,
-    "english": "master (teacher)",
-    "traditional": "師父",
-    "pinyin": "shī fu",
+    "english": "McDonald’s",
+    "traditional": "麥當勞",
+    "pinyin": "Mài dāng láo",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "master (teacher)"
+    "searchTerm": "mcdonald’s"
   },
   {
-    "id": 1040,
+    "id": 1048,
     "book": 2,
     "english": "measure word for dishes / kinds",
     "traditional": "樣",
@@ -12480,43 +12576,55 @@ const VOCAB_DATA = [
     "searchTerm": "measure word for dishes / kinds"
   },
   {
-    "id": 1041,
+    "id": 1049,
     "book": 2,
-    "english": "to mention",
-    "traditional": "說到",
-    "pinyin": "shuō dào",
+    "english": "measure word for meals",
+    "traditional": "餐",
+    "pinyin": "cān",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to mention"
+    "searchTerm": "measure word for meals"
   },
   {
-    "id": 1042,
+    "id": 1050,
     "book": 2,
-    "english": "method / approach",
-    "traditional": "方法",
-    "pinyin": "fāng fǎ",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "method / approach"
-  },
-  {
-    "id": 1043,
-    "book": 2,
-    "english": "motorcycle",
-    "traditional": "摩托車",
-    "pinyin": "mó tuō chē",
+    "english": "meat",
+    "traditional": "肉",
+    "pinyin": "ròu",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/motorcycle.png",
-    "localImage": "vocab_images/motorcycle.png",
-    "searchTerm": "motorcycle"
+    "photoUrl": "vocab_images/meat.png",
+    "localImage": "vocab_images/meat.png",
+    "searchTerm": "meat"
   },
   {
-    "id": 1044,
+    "id": 1051,
+    "book": 2,
+    "english": "to be mistaken / wrong",
+    "traditional": "錯",
+    "pinyin": "cuò",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/wrong.png",
+    "localImage": "vocab_images/wrong.png",
+    "searchTerm": "to be mistaken / wrong"
+  },
+  {
+    "id": 1052,
+    "book": 2,
+    "english": "more (even more)",
+    "traditional": "越",
+    "pinyin": "yuè",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/more.png",
+    "localImage": "vocab_images/more.png",
+    "searchTerm": "more (even more)"
+  },
+  {
+    "id": 1053,
     "book": 2,
     "english": "newly",
     "traditional": "新",
@@ -12528,103 +12636,115 @@ const VOCAB_DATA = [
     "searchTerm": "newly"
   },
   {
-    "id": 1045,
+    "id": 1054,
     "book": 2,
-    "english": "NTNU (Shida)",
-    "traditional": "師大（師範大學）",
-    "pinyin": "Shī dà (Shī fàn Dà xué)",
+    "english": "nutrition",
+    "traditional": "營養",
+    "pinyin": "yíng yǎng",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "ntnu (shida)"
+    "searchTerm": "nutrition"
   },
   {
-    "id": 1046,
+    "id": 1055,
     "book": 2,
-    "english": "to protect",
-    "traditional": "保護",
-    "pinyin": "bǎo hù",
+    "english": "oily / greasy",
+    "traditional": "油膩",
+    "pinyin": "yóu nì",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/protect.png",
-    "localImage": "vocab_images/protect.png",
-    "searchTerm": "to protect"
+    "photoUrl": "vocab_images/oily.png",
+    "localImage": "vocab_images/oily.png",
+    "searchTerm": "oily / greasy"
   },
   {
-    "id": 1047,
+    "id": 1056,
     "book": 2,
-    "english": "to push",
-    "traditional": "推",
-    "pinyin": "tuī",
+    "english": "to open (business)",
+    "traditional": "開",
+    "pinyin": "kāi",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/push.png",
-    "localImage": "vocab_images/push.png",
-    "searchTerm": "to push"
+    "photoUrl": "vocab_images/open.png",
+    "localImage": "vocab_images/open.png",
+    "searchTerm": "to open (business)"
   },
   {
-    "id": 1048,
+    "id": 1057,
     "book": 2,
-    "english": "put down",
-    "traditional": "放下",
-    "pinyin": "fàng xià",
-    "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/put down.png",
-    "localImage": "vocab_images/put down.png",
-    "searchTerm": "put down"
-  },
-  {
-    "id": 1049,
-    "book": 2,
-    "english": "to return",
-    "traditional": "回",
-    "pinyin": "huí",
-    "lesson": 12,
-    "isVisual": true,
-    "photoUrl": "vocab_images/return.png",
-    "localImage": "vocab_images/return.png",
-    "searchTerm": "to return"
-  },
-  {
-    "id": 1050,
-    "book": 2,
-    "english": "right away / quickly",
-    "traditional": "趕快",
-    "pinyin": "gǎn kuài",
+    "english": "organic",
+    "traditional": "有機",
+    "pinyin": "yǒu jī",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "right away / quickly"
+    "searchTerm": "organic"
   },
   {
-    "id": 1051,
+    "id": 1058,
     "book": 2,
-    "english": "currently (in progress)",
-    "traditional": "正在",
-    "pinyin": "zhèng zài",
+    "english": "pollution",
+    "traditional": "汙染",
+    "pinyin": "wū rǎn",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pollution.png",
+    "localImage": "vocab_images/pollution.png",
+    "searchTerm": "pollution"
+  },
+  {
+    "id": 1059,
+    "book": 2,
+    "english": "pork",
+    "traditional": "豬肉",
+    "pinyin": "zhū ròu",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/pork.png",
+    "localImage": "vocab_images/pork.png",
+    "searchTerm": "pork"
+  },
+  {
+    "id": 1060,
+    "book": 2,
+    "english": "relationship",
+    "traditional": "關係",
+    "pinyin": "guān xì",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "currently (in progress)"
+    "searchTerm": "relationship"
   },
   {
-    "id": 1052,
+    "id": 1061,
     "book": 2,
-    "english": "rise in social rank",
-    "traditional": "步步高升",
-    "pinyin": "bù bù gāo shēng",
+    "english": "religion",
+    "traditional": "宗教",
+    "pinyin": "zōng jiào",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/religion.png",
+    "localImage": "vocab_images/religion.png",
+    "searchTerm": "religion"
+  },
+  {
+    "id": 1062,
+    "book": 2,
+    "english": "roommate",
+    "traditional": "室友",
+    "pinyin": "shì yǒu",
     "lesson": 12,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "rise in social rank"
+    "searchTerm": "roommate"
   },
   {
-    "id": 1053,
+    "id": 1063,
     "book": 2,
     "english": "salad",
     "traditional": "沙拉",
@@ -12636,7 +12756,7 @@ const VOCAB_DATA = [
     "searchTerm": "salad"
   },
   {
-    "id": 1054,
+    "id": 1064,
     "book": 2,
     "english": "salty",
     "traditional": "鹹",
@@ -12648,19 +12768,19 @@ const VOCAB_DATA = [
     "searchTerm": "salty"
   },
   {
-    "id": 1055,
+    "id": 1065,
     "book": 2,
-    "english": "sentence-final particle (question)",
-    "traditional": "啦",
-    "pinyin": "la",
+    "english": "serious",
+    "traditional": "嚴重",
+    "pinyin": "yán zhòng",
     "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "sentence-final particle (question)"
+    "isVisual": true,
+    "photoUrl": "vocab_images/serious.png",
+    "localImage": "vocab_images/serious.png",
+    "searchTerm": "serious"
   },
   {
-    "id": 1056,
+    "id": 1066,
     "book": 2,
     "english": "simple",
     "traditional": "簡單",
@@ -12672,19 +12792,43 @@ const VOCAB_DATA = [
     "searchTerm": "simple"
   },
   {
-    "id": 1057,
+    "id": 1067,
     "book": 2,
-    "english": "to store / leave at",
-    "traditional": "放",
-    "pinyin": "fàng",
+    "english": "to steam",
+    "traditional": "蒸",
+    "pinyin": "zhēng",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/store.png",
-    "localImage": "vocab_images/store.png",
-    "searchTerm": "to store / leave at"
+    "photoUrl": "vocab_images/steam.png",
+    "localImage": "vocab_images/steam.png",
+    "searchTerm": "to steam"
   },
   {
-    "id": 1058,
+    "id": 1068,
+    "book": 2,
+    "english": "things like that",
+    "traditional": "什麼的",
+    "pinyin": "shén me de",
+    "lesson": 12,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "things like that"
+  },
+  {
+    "id": 1069,
+    "book": 2,
+    "english": "thin",
+    "traditional": "瘦",
+    "pinyin": "shòu",
+    "lesson": 12,
+    "isVisual": true,
+    "photoUrl": "vocab_images/thin.png",
+    "localImage": "vocab_images/thin.png",
+    "searchTerm": "thin"
+  },
+  {
+    "id": 1070,
     "book": 2,
     "english": "vegetables",
     "traditional": "青菜",
@@ -12696,7 +12840,7 @@ const VOCAB_DATA = [
     "searchTerm": "vegetables"
   },
   {
-    "id": 1059,
+    "id": 1071,
     "book": 2,
     "english": "vegetarian food",
     "traditional": "素食",
@@ -12708,7 +12852,7 @@ const VOCAB_DATA = [
     "searchTerm": "vegetarian food"
   },
   {
-    "id": 1060,
+    "id": 1072,
     "book": 2,
     "english": "vegetarian dishes",
     "traditional": "素菜",
@@ -12720,7 +12864,7 @@ const VOCAB_DATA = [
     "searchTerm": "vegetarian dishes"
   },
   {
-    "id": 1061,
+    "id": 1073,
     "book": 2,
     "english": "to be a vegetarian / eat vegetarian",
     "traditional": "吃素",
@@ -12732,7 +12876,7 @@ const VOCAB_DATA = [
     "searchTerm": "to be a vegetarian / eat vegetarian"
   },
   {
-    "id": 1062,
+    "id": 1074,
     "book": 2,
     "english": "way of doing (method)",
     "traditional": "作法",
@@ -12744,31 +12888,19 @@ const VOCAB_DATA = [
     "searchTerm": "way of doing (method)"
   },
   {
-    "id": 1063,
+    "id": 1075,
     "book": 2,
-    "english": "wedding ceremony",
-    "traditional": "婚禮",
-    "pinyin": "hūn lǐ",
+    "english": "the West",
+    "traditional": "西方",
+    "pinyin": "xī fāng",
     "lesson": 12,
     "isVisual": true,
-    "photoUrl": "vocab_images/wedding.png",
-    "localImage": "vocab_images/wedding.png",
-    "searchTerm": "wedding ceremony"
+    "photoUrl": "vocab_images/the west.png",
+    "localImage": "vocab_images/the west.png",
+    "searchTerm": "the west"
   },
   {
-    "id": 1064,
-    "book": 2,
-    "english": "what to do?",
-    "traditional": "怎麼辦",
-    "pinyin": "zěn me bàn",
-    "lesson": 12,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "what to do?"
-  },
-  {
-    "id": 1065,
+    "id": 1076,
     "book": 2,
     "english": "to be able to achieve / succeed in doing",
     "traditional": "做到",
@@ -12780,19 +12912,31 @@ const VOCAB_DATA = [
     "searchTerm": "to be able to achieve / succeed in doing"
   },
   {
-    "id": 1066,
+    "id": 1077,
     "book": 2,
     "english": "to get angry at",
     "traditional": "生氣",
     "pinyin": "shēng qì",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/get angry at.png",
-    "localImage": "vocab_images/get angry at.png",
+    "photoUrl": "vocab_images/angry.png",
+    "localImage": "vocab_images/angry.png",
     "searchTerm": "to get angry at"
   },
   {
-    "id": 1067,
+    "id": 1078,
+    "book": 2,
+    "english": "to charge (battery)",
+    "traditional": "充電",
+    "pinyin": "chōng diàn",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/charge.png",
+    "localImage": "vocab_images/charge.png",
+    "searchTerm": "to charge (battery)"
+  },
+  {
+    "id": 1079,
     "book": 2,
     "english": "to check",
     "traditional": "檢查",
@@ -12804,43 +12948,31 @@ const VOCAB_DATA = [
     "searchTerm": "to check"
   },
   {
-    "id": 1068,
+    "id": 1080,
     "book": 2,
-    "english": "economy",
-    "traditional": "經濟",
-    "pinyin": "jīng jì",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "economy"
-  },
-  {
-    "id": 1069,
-    "book": 2,
-    "english": "English language",
-    "traditional": "英文",
-    "pinyin": "yīng wén",
+    "english": "electric power",
+    "traditional": "電",
+    "pinyin": "diàn",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/english language.png",
-    "localImage": "vocab_images/english language.png",
-    "searchTerm": "english language"
+    "photoUrl": "vocab_images/electric power.png",
+    "localImage": "vocab_images/electric power.png",
+    "searchTerm": "electric power"
   },
   {
-    "id": 1070,
+    "id": 1081,
     "book": 2,
-    "english": "everywhere",
-    "traditional": "到處",
-    "pinyin": "dào chù",
+    "english": "event / happening",
+    "traditional": "事情",
+    "pinyin": "shì qing",
     "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "everywhere"
+    "isVisual": true,
+    "photoUrl": "vocab_images/event.png",
+    "localImage": "vocab_images/event.png",
+    "searchTerm": "event / happening"
   },
   {
-    "id": 1071,
+    "id": 1082,
     "book": 2,
     "english": "face-to-face",
     "traditional": "面對面",
@@ -12852,7 +12984,7 @@ const VOCAB_DATA = [
     "searchTerm": "face-to-face"
   },
   {
-    "id": 1072,
+    "id": 1083,
     "book": 2,
     "english": "to find / pick up",
     "traditional": "撿到",
@@ -12864,7 +12996,7 @@ const VOCAB_DATA = [
     "searchTerm": "to find / pick up"
   },
   {
-    "id": 1073,
+    "id": 1084,
     "book": 2,
     "english": "first-hand",
     "traditional": "第一手",
@@ -12876,7 +13008,7 @@ const VOCAB_DATA = [
     "searchTerm": "first-hand"
   },
   {
-    "id": 1074,
+    "id": 1085,
     "book": 2,
     "english": "flight",
     "traditional": "班機",
@@ -12888,7 +13020,7 @@ const VOCAB_DATA = [
     "searchTerm": "flight"
   },
   {
-    "id": 1075,
+    "id": 1086,
     "book": 2,
     "english": "for example",
     "traditional": "比方說",
@@ -12900,7 +13032,7 @@ const VOCAB_DATA = [
     "searchTerm": "for example"
   },
   {
-    "id": 1076,
+    "id": 1087,
     "book": 2,
     "english": "function",
     "traditional": "功能",
@@ -12912,7 +13044,7 @@ const VOCAB_DATA = [
     "searchTerm": "function"
   },
   {
-    "id": 1077,
+    "id": 1088,
     "book": 2,
     "english": "to get out of bed",
     "traditional": "起床",
@@ -12924,7 +13056,7 @@ const VOCAB_DATA = [
     "searchTerm": "to get out of bed"
   },
   {
-    "id": 1078,
+    "id": 1089,
     "book": 2,
     "english": "to greet / say hello",
     "traditional": "打招呼",
@@ -12936,7 +13068,7 @@ const VOCAB_DATA = [
     "searchTerm": "to greet / say hello"
   },
   {
-    "id": 1079,
+    "id": 1090,
     "book": 2,
     "english": "gym (fitness center)",
     "traditional": "健身房",
@@ -12948,7 +13080,7 @@ const VOCAB_DATA = [
     "searchTerm": "gym (fitness center)"
   },
   {
-    "id": 1080,
+    "id": 1091,
     "book": 2,
     "english": "to happen",
     "traditional": "發生",
@@ -12960,7 +13092,7 @@ const VOCAB_DATA = [
     "searchTerm": "to happen"
   },
   {
-    "id": 1081,
+    "id": 1092,
     "book": 2,
     "english": "immediately",
     "traditional": "立刻",
@@ -12972,7 +13104,7 @@ const VOCAB_DATA = [
     "searchTerm": "immediately"
   },
   {
-    "id": 1082,
+    "id": 1093,
     "book": 2,
     "english": "in a hurry to",
     "traditional": "急著",
@@ -12984,7 +13116,7 @@ const VOCAB_DATA = [
     "searchTerm": "in a hurry to"
   },
   {
-    "id": 1083,
+    "id": 1094,
     "book": 2,
     "english": "internet",
     "traditional": "網路",
@@ -12996,7 +13128,7 @@ const VOCAB_DATA = [
     "searchTerm": "internet"
   },
   {
-    "id": 1084,
+    "id": 1095,
     "book": 2,
     "english": "Italy",
     "traditional": "義大利",
@@ -13008,7 +13140,7 @@ const VOCAB_DATA = [
     "searchTerm": "italy"
   },
   {
-    "id": 1085,
+    "id": 1096,
     "book": 2,
     "english": "to keep / remain",
     "traditional": "留下",
@@ -13020,31 +13152,31 @@ const VOCAB_DATA = [
     "searchTerm": "to keep / remain"
   },
   {
-    "id": 1086,
+    "id": 1097,
     "book": 2,
-    "english": "linguistics",
-    "traditional": "語言學",
-    "pinyin": "yǔ yán xué",
+    "english": "to lose",
+    "traditional": "掉",
+    "pinyin": "diào",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "linguistics"
+    "searchTerm": "to lose"
   },
   {
-    "id": 1087,
+    "id": 1098,
     "book": 2,
-    "english": "luck",
-    "traditional": "運氣",
-    "pinyin": "yùn qì",
+    "english": "to lower one’s head",
+    "traditional": "低頭",
+    "pinyin": "dī tóu",
     "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/luck.png",
-    "localImage": "vocab_images/luck.png",
-    "searchTerm": "luck"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to lower one’s head"
   },
   {
-    "id": 1088,
+    "id": 1099,
     "book": 2,
     "english": "mail",
     "traditional": "郵件",
@@ -13056,7 +13188,7 @@ const VOCAB_DATA = [
     "searchTerm": "mail"
   },
   {
-    "id": 1089,
+    "id": 1100,
     "book": 2,
     "english": "to make reservations",
     "traditional": "訂位",
@@ -13068,55 +13200,79 @@ const VOCAB_DATA = [
     "searchTerm": "to make reservations"
   },
   {
-    "id": 1090,
+    "id": 1101,
     "book": 2,
-    "english": "to move to",
-    "traditional": "搬",
-    "pinyin": "bān",
+    "english": "modern-day people",
+    "traditional": "現代人",
+    "pinyin": "xiàn dài rén",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to move to"
+    "searchTerm": "modern-day people"
   },
   {
-    "id": 1091,
+    "id": 1102,
     "book": 2,
-    "english": "newlyweds",
-    "traditional": "新人",
-    "pinyin": "xīn rén",
+    "english": "muddle-headed",
+    "traditional": "糊塗",
+    "pinyin": "hú tu",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "newlyweds"
+    "searchTerm": "muddle-headed"
   },
   {
-    "id": 1092,
+    "id": 1103,
     "book": 2,
-    "english": "noisy",
-    "traditional": "吵",
-    "pinyin": "chǎo",
+    "english": "news / information",
+    "traditional": "消息",
+    "pinyin": "xiāo xī",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/noisy.png",
-    "localImage": "vocab_images/noisy.png",
-    "searchTerm": "noisy"
+    "photoUrl": "vocab_images/news.png",
+    "localImage": "vocab_images/news.png",
+    "searchTerm": "news / information"
   },
   {
-    "id": 1093,
+    "id": 1104,
     "book": 2,
-    "english": "opposite",
-    "traditional": "對面",
-    "pinyin": "duì miàn",
+    "english": "normal",
+    "traditional": "正常",
+    "pinyin": "zhèng cháng",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "opposite"
+    "searchTerm": "normal"
   },
   {
-    "id": 1094,
+    "id": 1105,
+    "book": 2,
+    "english": "sentence-final particle (question)",
+    "traditional": "啦",
+    "pinyin": "la",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "sentence-final particle (question)"
+  },
+  {
+    "id": 1106,
+    "book": 2,
+    "english": "sentence-final particle (suggestion)",
+    "traditional": "喔",
+    "pinyin": "o",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "sentence-final particle (suggestion)"
+  },
+  {
+    "id": 1107,
     "book": 2,
     "english": "to save (economize)",
     "traditional": "節省",
@@ -13128,19 +13284,7 @@ const VOCAB_DATA = [
     "searchTerm": "to save (economize)"
   },
   {
-    "id": 1095,
-    "book": 2,
-    "english": "semester",
-    "traditional": "學期",
-    "pinyin": "xué qī",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "semester"
-  },
-  {
-    "id": 1096,
+    "id": 1108,
     "book": 2,
     "english": "to send (text/email)",
     "traditional": "傳",
@@ -13152,31 +13296,43 @@ const VOCAB_DATA = [
     "searchTerm": "to send (text/email)"
   },
   {
-    "id": 1097,
+    "id": 1109,
     "book": 2,
-    "english": "sushi",
-    "traditional": "壽司",
-    "pinyin": "shòu sī",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/sushi.png",
-    "localImage": "vocab_images/sushi.png",
-    "searchTerm": "sushi"
-  },
-  {
-    "id": 1098,
-    "book": 2,
-    "english": "Taipei",
-    "traditional": "台北",
-    "pinyin": "Tái běi",
+    "english": "text message",
+    "traditional": "簡訊",
+    "pinyin": "jiǎn xùn",
     "lesson": 13,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "taipei"
+    "searchTerm": "text message"
   },
   {
-    "id": 1099,
+    "id": 1110,
+    "book": 2,
+    "english": "through",
+    "traditional": "透過",
+    "pinyin": "tòu guò",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/through.png",
+    "localImage": "vocab_images/through.png",
+    "searchTerm": "through"
+  },
+  {
+    "id": 1111,
+    "book": 2,
+    "english": "to discuss",
+    "traditional": "談",
+    "pinyin": "tán",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/discuss.png",
+    "localImage": "vocab_images/discuss.png",
+    "searchTerm": "to discuss"
+  },
+  {
+    "id": 1112,
     "book": 2,
     "english": "to take away",
     "traditional": "拿走",
@@ -13188,67 +13344,19 @@ const VOCAB_DATA = [
     "searchTerm": "to take away"
   },
   {
-    "id": 1100,
+    "id": 1113,
     "book": 2,
-    "english": "teaching assistant",
-    "traditional": "助教",
-    "pinyin": "zhù jiào",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "teaching assistant"
-  },
-  {
-    "id": 1101,
-    "book": 2,
-    "english": "test / exam",
-    "traditional": "考試",
-    "pinyin": "kǎo shì",
+    "english": "to tell / call",
+    "traditional": "叫",
+    "pinyin": "jiào",
     "lesson": 13,
     "isVisual": true,
-    "photoUrl": "vocab_images/exam.png",
-    "localImage": "vocab_images/exam.png",
-    "searchTerm": "test / exam"
+    "photoUrl": "vocab_images/tell.png",
+    "localImage": "vocab_images/tell.png",
+    "searchTerm": "to tell / call"
   },
   {
-    "id": 1102,
-    "book": 2,
-    "english": "Thailand",
-    "traditional": "泰國",
-    "pinyin": "Tài guó",
-    "lesson": 13,
-    "isVisual": true,
-    "photoUrl": "vocab_images/Thailand.png",
-    "localImage": "vocab_images/Thailand.png",
-    "searchTerm": "thailand"
-  },
-  {
-    "id": 1103,
-    "book": 2,
-    "english": "to throw into",
-    "traditional": "丟進去",
-    "pinyin": "diū jìn qù",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to throw into"
-  },
-  {
-    "id": 1104,
-    "book": 2,
-    "english": "to use",
-    "traditional": "用",
-    "pinyin": "yòng",
-    "lesson": 13,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to use"
-  },
-  {
-    "id": 1105,
+    "id": 1114,
     "book": 2,
     "english": "to scold / yell at",
     "traditional": "罵",
@@ -13260,7 +13368,31 @@ const VOCAB_DATA = [
     "searchTerm": "to scold / yell at"
   },
   {
-    "id": 1106,
+    "id": 1115,
+    "book": 2,
+    "english": "to upload",
+    "traditional": "上傳",
+    "pinyin": "shàng chuán",
+    "lesson": 13,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to upload"
+  },
+  {
+    "id": 1116,
+    "book": 2,
+    "english": "the world",
+    "traditional": "世界",
+    "pinyin": "shì jiè",
+    "lesson": 13,
+    "isVisual": true,
+    "photoUrl": "vocab_images/the world.png",
+    "localImage": "vocab_images/the world.png",
+    "searchTerm": "the world"
+  },
+  {
+    "id": 1117,
     "book": 2,
     "english": "academic department",
     "traditional": "系",
@@ -13272,7 +13404,7 @@ const VOCAB_DATA = [
     "searchTerm": "academic department"
   },
   {
-    "id": 1107,
+    "id": 1118,
     "book": 2,
     "english": "accurate",
     "traditional": "準",
@@ -13284,7 +13416,7 @@ const VOCAB_DATA = [
     "searchTerm": "accurate"
   },
   {
-    "id": 1108,
+    "id": 1119,
     "book": 2,
     "english": "at that time",
     "traditional": "當時",
@@ -13296,127 +13428,139 @@ const VOCAB_DATA = [
     "searchTerm": "at that time"
   },
   {
-    "id": 1109,
+    "id": 1120,
     "book": 2,
-    "english": "bread",
-    "traditional": "麵包",
-    "pinyin": "miàn bāo",
+    "english": "branch (company)",
+    "traditional": "分公司",
+    "pinyin": "fēn gōng sī",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/bread.png",
-    "localImage": "vocab_images/bread.png",
-    "searchTerm": "bread"
+    "photoUrl": "vocab_images/branch.png",
+    "localImage": "vocab_images/branch.png",
+    "searchTerm": "branch (company)"
   },
   {
-    "id": 1110,
+    "id": 1121,
     "book": 2,
-    "english": "candies",
-    "traditional": "糖",
-    "pinyin": "táng",
+    "english": "Business Administration Dept.",
+    "traditional": "企業管理系",
+    "pinyin": "qǐ yè guǎn lǐ xì",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "candies"
+    "searchTerm": "business administration dept."
   },
   {
-    "id": 1111,
+    "id": 1122,
     "book": 2,
-    "english": "Chinese characters",
-    "traditional": "漢字",
-    "pinyin": "hàn zì",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "chinese characters"
-  },
-  {
-    "id": 1112,
-    "book": 2,
-    "english": "to close",
-    "traditional": "關",
-    "pinyin": "guān",
+    "english": "Canada",
+    "traditional": "加拿大",
+    "pinyin": "Jiā ná dà",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/close.png",
-    "localImage": "vocab_images/close.png",
-    "searchTerm": "to close"
+    "photoUrl": "vocab_images/Canada.png",
+    "localImage": "vocab_images/Canada.png",
+    "searchTerm": "canada"
   },
   {
-    "id": 1113,
+    "id": 1123,
     "book": 2,
-    "english": "to deep fry",
-    "traditional": "炸",
-    "pinyin": "zhà",
+    "english": "capability / capacity",
+    "traditional": "能力",
+    "pinyin": "néng lì",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "to deep fry"
+    "searchTerm": "capability / capacity"
   },
   {
-    "id": 1114,
+    "id": 1124,
     "book": 2,
-    "english": "department store",
-    "traditional": "百貨公司",
-    "pinyin": "bǎi huò gōng sī",
+    "english": "to come true / realize",
+    "traditional": "實現",
+    "pinyin": "shí xiàn",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "department store"
+    "searchTerm": "to come true / realize"
   },
   {
-    "id": 1115,
+    "id": 1125,
     "book": 2,
-    "english": "different",
-    "traditional": "不同",
-    "pinyin": "bù tóng",
+    "english": "to complete (academic program)",
+    "traditional": "念完",
+    "pinyin": "niàn wán",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/different.png",
-    "localImage": "vocab_images/different.png",
-    "searchTerm": "different"
+    "photoUrl": "vocab_images/complete.png",
+    "localImage": "vocab_images/complete.png",
+    "searchTerm": "to complete (academic program)"
   },
   {
-    "id": 1116,
+    "id": 1126,
     "book": 2,
-    "english": "to dislike",
-    "traditional": "討厭",
-    "pinyin": "tǎo yàn",
+    "english": "to continue",
+    "traditional": "繼續",
+    "pinyin": "jì xù",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/dislike.png",
-    "localImage": "vocab_images/dislike.png",
-    "searchTerm": "to dislike"
+    "photoUrl": "vocab_images/continue.png",
+    "localImage": "vocab_images/continue.png",
+    "searchTerm": "to continue"
   },
   {
-    "id": 1117,
+    "id": 1127,
     "book": 2,
-    "english": "EasyCard",
-    "traditional": "悠遊卡",
-    "pinyin": "yōu yóu kǎ",
+    "english": "diplomacy / foreign affairs",
+    "traditional": "外交",
+    "pinyin": "wài jiāo",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "easycard"
+    "searchTerm": "diplomacy / foreign affairs"
   },
   {
-    "id": 1118,
+    "id": 1128,
     "book": 2,
-    "english": "in the end / finally",
-    "traditional": "最後",
-    "pinyin": "zuì hòu",
+    "english": "to do research",
+    "traditional": "研究",
+    "pinyin": "yán jiū",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/do research.png",
+    "localImage": "vocab_images/do research.png",
+    "searchTerm": "to do research"
+  },
+  {
+    "id": 1129,
+    "book": 2,
+    "english": "to enrich / strengthen",
+    "traditional": "充實",
+    "pinyin": "chōng shí",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "in the end / finally"
+    "searchTerm": "to enrich / strengthen"
   },
   {
-    "id": 1119,
+    "id": 1130,
+    "book": 2,
+    "english": "enterprise",
+    "traditional": "企業",
+    "pinyin": "qǐ yè",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "enterprise"
+  },
+  {
+    "id": 1131,
     "book": 2,
     "english": "to entertain (guests)",
     "traditional": "招待",
@@ -13428,79 +13572,31 @@ const VOCAB_DATA = [
     "searchTerm": "to entertain (guests)"
   },
   {
-    "id": 1120,
+    "id": 1132,
     "book": 2,
-    "english": "an entire day",
-    "traditional": "整天",
-    "pinyin": "zhěng tiān",
+    "english": "even",
+    "traditional": "連",
+    "pinyin": "lián",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/entire day.png",
-    "localImage": "vocab_images/entire day.png",
-    "searchTerm": "an entire day"
+    "photoUrl": "vocab_images/even.png",
+    "localImage": "vocab_images/even.png",
+    "searchTerm": "even"
   },
   {
-    "id": 1121,
+    "id": 1133,
     "book": 2,
-    "english": "the entire family",
-    "traditional": "全家",
-    "pinyin": "quán jiā",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/the entire family.png",
-    "localImage": "vocab_images/the entire family.png",
-    "searchTerm": "the entire family"
-  },
-  {
-    "id": 1122,
-    "book": 2,
-    "english": "every day",
-    "traditional": "天天",
-    "pinyin": "tiān tiān",
+    "english": "the future",
+    "traditional": "將來",
+    "pinyin": "jiāng lái",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "every day"
+    "searchTerm": "the future"
   },
   {
-    "id": 1123,
-    "book": 2,
-    "english": "to get together",
-    "traditional": "聚",
-    "pinyin": "jù",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to get together"
-  },
-  {
-    "id": 1124,
-    "book": 2,
-    "english": "get together (redup.)",
-    "traditional": "聚一聚",
-    "pinyin": "jù yī jù",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "get together (redup.)"
-  },
-  {
-    "id": 1125,
-    "book": 2,
-    "english": "goal / objective",
-    "traditional": "目的",
-    "pinyin": "mù dì",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/goal.png",
-    "localImage": "vocab_images/goal.png",
-    "searchTerm": "goal / objective"
-  },
-  {
-    "id": 1126,
+    "id": 1134,
     "book": 2,
     "english": "to graduate",
     "traditional": "畢業",
@@ -13512,7 +13608,7 @@ const VOCAB_DATA = [
     "searchTerm": "to graduate"
   },
   {
-    "id": 1127,
+    "id": 1135,
     "book": 2,
     "english": "graduate school",
     "traditional": "研究所",
@@ -13524,43 +13620,31 @@ const VOCAB_DATA = [
     "searchTerm": "graduate school"
   },
   {
-    "id": 1128,
+    "id": 1136,
     "book": 2,
-    "english": "to hear",
-    "traditional": "聽見",
-    "pinyin": "tīng jiàn",
+    "english": "help / assistance",
+    "traditional": "幫助",
+    "pinyin": "bāng zhù",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/hear.png",
-    "localImage": "vocab_images/hear.png",
-    "searchTerm": "to hear"
+    "photoUrl": "vocab_images/help.png",
+    "localImage": "vocab_images/help.png",
+    "searchTerm": "help / assistance"
   },
   {
-    "id": 1129,
+    "id": 1137,
     "book": 2,
-    "english": "Heping East Road",
-    "traditional": "和平東路",
-    "pinyin": "Hé píng dōng lù",
+    "english": "Hong Kong",
+    "traditional": "香港",
+    "pinyin": "Xiāng gǎng",
     "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "heping east road"
+    "isVisual": true,
+    "photoUrl": "vocab_images/Hong Kong.png",
+    "localImage": "vocab_images/Hong Kong.png",
+    "searchTerm": "hong kong"
   },
   {
-    "id": 1130,
-    "book": 2,
-    "english": "warm-hearted",
-    "traditional": "熱情",
-    "pinyin": "rè qíng",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "warm-hearted"
-  },
-  {
-    "id": 1131,
+    "id": 1138,
     "book": 2,
     "english": "instructor",
     "traditional": "教師",
@@ -13572,7 +13656,7 @@ const VOCAB_DATA = [
     "searchTerm": "instructor"
   },
   {
-    "id": 1132,
+    "id": 1139,
     "book": 2,
     "english": "international",
     "traditional": "國際",
@@ -13584,7 +13668,7 @@ const VOCAB_DATA = [
     "searchTerm": "international"
   },
   {
-    "id": 1133,
+    "id": 1140,
     "book": 2,
     "english": "international relations",
     "traditional": "國際關係",
@@ -13596,115 +13680,103 @@ const VOCAB_DATA = [
     "searchTerm": "international relations"
   },
   {
-    "id": 1134,
-    "book": 2,
-    "english": "to use",
-    "traditional": "使用",
-    "pinyin": "shǐ yòng",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to use"
-  },
-  {
-    "id": 1135,
-    "book": 2,
-    "english": "modern",
-    "traditional": "現代",
-    "pinyin": "xiàn dài",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "modern"
-  },
-  {
-    "id": 1136,
-    "book": 2,
-    "english": "modern-day people",
-    "traditional": "現代人",
-    "pinyin": "xiàn dài rén",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "modern-day people"
-  },
-  {
-    "id": 1137,
-    "book": 2,
-    "english": "more and more",
-    "traditional": "越來越",
-    "pinyin": "yuè lái yuè",
-    "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/more and more.png",
-    "localImage": "vocab_images/more and more.png",
-    "searchTerm": "more and more"
-  },
-  {
-    "id": 1138,
-    "book": 2,
-    "english": "normal",
-    "traditional": "正常",
-    "pinyin": "zhèng cháng",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "normal"
-  },
-  {
-    "id": 1139,
-    "book": 2,
-    "english": "not enough",
-    "traditional": "不夠",
-    "pinyin": "bù gòu",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "not enough"
-  },
-  {
-    "id": 1140,
-    "book": 2,
-    "english": "to prepare",
-    "traditional": "準備",
-    "pinyin": "zhǔn bèi",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to prepare"
-  },
-  {
     "id": 1141,
     "book": 2,
-    "english": "professor",
-    "traditional": "教授",
-    "pinyin": "jiào shòu",
+    "english": "management",
+    "traditional": "管理",
+    "pinyin": "guǎn lǐ",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/professor.png",
-    "localImage": "vocab_images/professor.png",
-    "searchTerm": "professor"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "management"
   },
   {
     "id": 1142,
     "book": 2,
-    "english": "to recall",
-    "traditional": "想起",
-    "pinyin": "xiǎng qǐ",
+    "english": "method / approach",
+    "traditional": "方法",
+    "pinyin": "fāng fǎ",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/recall.png",
-    "localImage": "vocab_images/recall.png",
-    "searchTerm": "to recall"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "method / approach"
   },
   {
     "id": 1143,
+    "book": 2,
+    "english": "to mention",
+    "traditional": "說到",
+    "pinyin": "shuō dào",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "to mention"
+  },
+  {
+    "id": 1144,
+    "book": 2,
+    "english": "goal / objective",
+    "traditional": "目的",
+    "pinyin": "mù dì",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/goal.png",
+    "localImage": "vocab_images/goal.png",
+    "searchTerm": "goal / objective"
+  },
+  {
+    "id": 1145,
+    "book": 2,
+    "english": "not only",
+    "traditional": "不但",
+    "pinyin": "bù dàn",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "not only"
+  },
+  {
+    "id": 1146,
+    "book": 2,
+    "english": "profession / specialization",
+    "traditional": "專業",
+    "pinyin": "zhuān yè",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/profession.png",
+    "localImage": "vocab_images/profession.png",
+    "searchTerm": "profession / specialization"
+  },
+  {
+    "id": 1147,
+    "book": 2,
+    "english": "pronunciation",
+    "traditional": "發音",
+    "pinyin": "fā yīn",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "pronunciation"
+  },
+  {
+    "id": 1148,
+    "book": 2,
+    "english": "reluctant to part with",
+    "traditional": "捨不得",
+    "pinyin": "shě bu dé",
+    "lesson": 14,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "reluctant to part with"
+  },
+  {
+    "id": 1149,
     "book": 2,
     "english": "to seek (applications)",
     "traditional": "徵求",
@@ -13716,19 +13788,7 @@ const VOCAB_DATA = [
     "searchTerm": "to seek (applications)"
   },
   {
-    "id": 1144,
-    "book": 2,
-    "english": "to serve as",
-    "traditional": "當",
-    "pinyin": "dāng",
-    "lesson": 14,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to serve as"
-  },
-  {
-    "id": 1145,
+    "id": 1150,
     "book": 2,
     "english": "Shanghai",
     "traditional": "上海",
@@ -13740,31 +13800,43 @@ const VOCAB_DATA = [
     "searchTerm": "shanghai"
   },
   {
-    "id": 1146,
+    "id": 1151,
     "book": 2,
-    "english": "to stay / remain",
-    "traditional": "留",
-    "pinyin": "liú",
+    "english": "grammar",
+    "traditional": "語法",
+    "pinyin": "yǔ fǎ",
     "lesson": 14,
-    "isVisual": true,
-    "photoUrl": "vocab_images/stay.png",
-    "localImage": "vocab_images/stay.png",
-    "searchTerm": "to stay / remain"
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "grammar"
   },
   {
-    "id": 1147,
+    "id": 1152,
     "book": 2,
-    "english": "to talk",
-    "traditional": "談話",
-    "pinyin": "tán huà",
+    "english": "to teach",
+    "traditional": "教書",
+    "pinyin": "jiāo shū",
     "lesson": 14,
     "isVisual": true,
-    "photoUrl": "vocab_images/talk.png",
-    "localImage": "vocab_images/talk.png",
-    "searchTerm": "to talk"
+    "photoUrl": "vocab_images/teach.png",
+    "localImage": "vocab_images/teach.png",
+    "searchTerm": "to teach"
   },
   {
-    "id": 1148,
+    "id": 1153,
+    "book": 2,
+    "english": "to think / hold the opinion",
+    "traditional": "認為",
+    "pinyin": "rèn wéi",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/think.png",
+    "localImage": "vocab_images/think.png",
+    "searchTerm": "to think / hold the opinion"
+  },
+  {
+    "id": 1154,
     "book": 2,
     "english": "tones",
     "traditional": "聲調",
@@ -13776,19 +13848,55 @@ const VOCAB_DATA = [
     "searchTerm": "tones"
   },
   {
-    "id": 1149,
+    "id": 1155,
     "book": 2,
-    "english": "tropical region",
-    "traditional": "熱帶",
-    "pinyin": "rè dài",
+    "english": "translator",
+    "traditional": "翻譯",
+    "pinyin": "fān yì",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/translator.png",
+    "localImage": "vocab_images/translator.png",
+    "searchTerm": "translator"
+  },
+  {
+    "id": 1156,
+    "book": 2,
+    "english": "to use",
+    "traditional": "使用",
+    "pinyin": "shǐ yòng",
     "lesson": 14,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "tropical region"
+    "searchTerm": "to use"
   },
   {
-    "id": 1150,
+    "id": 1157,
+    "book": 2,
+    "english": "idea",
+    "traditional": "想法",
+    "pinyin": "xiǎng fǎ",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/idea.png",
+    "localImage": "vocab_images/idea.png",
+    "searchTerm": "idea"
+  },
+  {
+    "id": 1158,
+    "book": 2,
+    "english": "to develop",
+    "traditional": "發展",
+    "pinyin": "fā zhǎn",
+    "lesson": 14,
+    "isVisual": true,
+    "photoUrl": "vocab_images/develop.png",
+    "localImage": "vocab_images/develop.png",
+    "searchTerm": "to develop"
+  },
+  {
+    "id": 1159,
     "book": 2,
     "english": "abroad",
     "traditional": "國外",
@@ -13800,7 +13908,7 @@ const VOCAB_DATA = [
     "searchTerm": "abroad"
   },
   {
-    "id": 1151,
+    "id": 1160,
     "book": 2,
     "english": "abundance every year",
     "traditional": "年年有餘",
@@ -13812,7 +13920,7 @@ const VOCAB_DATA = [
     "searchTerm": "abundance every year"
   },
   {
-    "id": 1152,
+    "id": 1161,
     "book": 2,
     "english": "again",
     "traditional": "又",
@@ -13824,7 +13932,7 @@ const VOCAB_DATA = [
     "searchTerm": "again"
   },
   {
-    "id": 1153,
+    "id": 1162,
     "book": 2,
     "english": "age",
     "traditional": "年紀",
@@ -13836,19 +13944,7 @@ const VOCAB_DATA = [
     "searchTerm": "age"
   },
   {
-    "id": 1154,
-    "book": 2,
-    "english": "resultative particle (proper completion)",
-    "traditional": "好",
-    "pinyin": "hǎo",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "resultative particle (proper completion)"
-  },
-  {
-    "id": 1155,
+    "id": 1163,
     "book": 2,
     "english": "auspicious",
     "traditional": "吉祥",
@@ -13860,7 +13956,7 @@ const VOCAB_DATA = [
     "searchTerm": "auspicious"
   },
   {
-    "id": 1156,
+    "id": 1164,
     "book": 2,
     "english": "to celebrate",
     "traditional": "慶祝",
@@ -13872,55 +13968,55 @@ const VOCAB_DATA = [
     "searchTerm": "to celebrate"
   },
   {
-    "id": 1157,
+    "id": 1165,
     "book": 2,
-    "english": "child / children",
-    "traditional": "小孩",
-    "pinyin": "xiǎo hái",
+    "english": "to celebrate the New Year",
+    "traditional": "過年",
+    "pinyin": "guò nián",
     "lesson": 15,
     "isVisual": true,
-    "photoUrl": "vocab_images/child.png",
-    "localImage": "vocab_images/child.png",
-    "searchTerm": "child / children"
+    "photoUrl": "vocab_images/celebrate the new year.png",
+    "localImage": "vocab_images/celebrate the new year.png",
+    "searchTerm": "to celebrate the new year"
   },
   {
-    "id": 1158,
+    "id": 1166,
     "book": 2,
-    "english": "classification",
-    "traditional": "分類",
-    "pinyin": "fēn lèi",
+    "english": "Chinese (ethnicity)",
+    "traditional": "華人",
+    "pinyin": "huá rén",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "classification"
+    "searchTerm": "chinese (ethnicity)"
   },
   {
-    "id": 1159,
+    "id": 1167,
     "book": 2,
-    "english": "to come true / realize",
-    "traditional": "實現",
-    "pinyin": "shí xiàn",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "to come true / realize"
-  },
-  {
-    "id": 1160,
-    "book": 2,
-    "english": "to complain",
-    "traditional": "抱怨",
-    "pinyin": "bào yuàn",
+    "english": "children",
+    "traditional": "孩子",
+    "pinyin": "hái zi",
     "lesson": 15,
     "isVisual": true,
-    "photoUrl": "vocab_images/complain.png",
-    "localImage": "vocab_images/complain.png",
-    "searchTerm": "to complain"
+    "photoUrl": "vocab_images/children.png",
+    "localImage": "vocab_images/children.png",
+    "searchTerm": "children"
   },
   {
-    "id": 1161,
+    "id": 1168,
+    "book": 2,
+    "english": "to clean up (sweep)",
+    "traditional": "打掃",
+    "pinyin": "dǎ sǎo",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/clean.png",
+    "localImage": "vocab_images/clean.png",
+    "searchTerm": "to clean up (sweep)"
+  },
+  {
+    "id": 1169,
     "book": 2,
     "english": "Congratulations. I wish you wealth",
     "traditional": "恭喜發財",
@@ -13932,67 +14028,31 @@ const VOCAB_DATA = [
     "searchTerm": "congratulations. i wish you wealth"
   },
   {
-    "id": 1162,
+    "id": 1170,
     "book": 2,
-    "english": "culture",
-    "traditional": "文化",
-    "pinyin": "wén huà",
+    "english": "daughter",
+    "traditional": "女兒",
+    "pinyin": "nǚ ér",
     "lesson": 15,
     "isVisual": true,
-    "photoUrl": "vocab_images/culture.png",
-    "localImage": "vocab_images/culture.png",
-    "searchTerm": "culture"
+    "photoUrl": "vocab_images/daughter.png",
+    "localImage": "vocab_images/daughter.png",
+    "searchTerm": "daughter"
   },
   {
-    "id": 1163,
+    "id": 1171,
     "book": 2,
-    "english": "Europe",
-    "traditional": "歐洲",
-    "pinyin": "Ōu zhōu",
+    "english": "the entire family",
+    "traditional": "全家",
+    "pinyin": "quán jiā",
     "lesson": 15,
     "isVisual": true,
-    "photoUrl": "vocab_images/Europe.png",
-    "localImage": "vocab_images/Europe.png",
-    "searchTerm": "europe"
+    "photoUrl": "vocab_images/the entire family.png",
+    "localImage": "vocab_images/the entire family.png",
+    "searchTerm": "the entire family"
   },
   {
-    "id": 1164,
-    "book": 2,
-    "english": "to fall asleep",
-    "traditional": "睡著",
-    "pinyin": "shuì zháo",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/fall asleep.png",
-    "localImage": "vocab_images/fall asleep.png",
-    "searchTerm": "to fall asleep"
-  },
-  {
-    "id": 1165,
-    "book": 2,
-    "english": "fifth day of Lunar New Year",
-    "traditional": "大年初五",
-    "pinyin": "dà nián chū wǔ",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "fifth day of lunar new year"
-  },
-  {
-    "id": 1166,
-    "book": 2,
-    "english": "first day of Lunar New Year",
-    "traditional": "大年初一",
-    "pinyin": "dà nián chū yī",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "first day of lunar new year"
-  },
-  {
-    "id": 1167,
+    "id": 1172,
     "book": 2,
     "english": "family gathering (NYE)",
     "traditional": "圍爐",
@@ -14004,19 +14064,55 @@ const VOCAB_DATA = [
     "searchTerm": "family gathering (nye)"
   },
   {
-    "id": 1168,
+    "id": 1173,
+    "book": 2,
+    "english": "fifth day of Lunar New Year",
+    "traditional": "大年初五",
+    "pinyin": "dà nián chū wǔ",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "fifth day of lunar new year"
+  },
+  {
+    "id": 1174,
+    "book": 2,
+    "english": "first day of Lunar New Year",
+    "traditional": "大年初一",
+    "pinyin": "dà nián chū yī",
+    "lesson": 15,
+    "isVisual": false,
+    "photoUrl": null,
+    "localImage": null,
+    "searchTerm": "first day of lunar new year"
+  },
+  {
+    "id": 1175,
+    "book": 2,
+    "english": "to fall asleep",
+    "traditional": "睡著",
+    "pinyin": "shuì zháo",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/sleep.png",
+    "localImage": "vocab_images/sleep.png",
+    "searchTerm": "to fall asleep"
+  },
+  {
+    "id": 1176,
     "book": 2,
     "english": "to go out (house)",
     "traditional": "出門",
     "pinyin": "chū mén",
     "lesson": 15,
     "isVisual": true,
-    "photoUrl": "vocab_images/go out.png",
-    "localImage": "vocab_images/go out.png",
+    "photoUrl": "vocab_images/house.png",
+    "localImage": "vocab_images/house.png",
     "searchTerm": "to go out (house)"
   },
   {
-    "id": 1169,
+    "id": 1177,
     "book": 2,
     "english": "great New Year wishes",
     "traditional": "大吉大利",
@@ -14028,19 +14124,19 @@ const VOCAB_DATA = [
     "searchTerm": "great new year wishes"
   },
   {
-    "id": 1170,
+    "id": 1178,
     "book": 2,
-    "english": "hometown",
-    "traditional": "家鄉",
-    "pinyin": "jiā xiāng",
+    "english": "holiday / festival",
+    "traditional": "節日",
+    "pinyin": "jié rì",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "hometown"
+    "isVisual": true,
+    "photoUrl": "vocab_images/holiday.png",
+    "localImage": "vocab_images/holiday.png",
+    "searchTerm": "holiday / festival"
   },
   {
-    "id": 1171,
+    "id": 1179,
     "book": 2,
     "english": "in addition",
     "traditional": "另外",
@@ -14052,7 +14148,7 @@ const VOCAB_DATA = [
     "searchTerm": "in addition"
   },
   {
-    "id": 1172,
+    "id": 1180,
     "book": 2,
     "english": "late",
     "traditional": "晚",
@@ -14064,7 +14160,7 @@ const VOCAB_DATA = [
     "searchTerm": "late"
   },
   {
-    "id": 1173,
+    "id": 1181,
     "book": 2,
     "english": "to live",
     "traditional": "活",
@@ -14076,31 +14172,7 @@ const VOCAB_DATA = [
     "searchTerm": "to live"
   },
   {
-    "id": 1174,
-    "book": 2,
-    "english": "living expenses",
-    "traditional": "生活費",
-    "pinyin": "shēng huó fèi",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "living expenses"
-  },
-  {
-    "id": 1175,
-    "book": 2,
-    "english": "Spring Festival",
-    "traditional": "春節",
-    "pinyin": "chūn jié",
-    "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "spring festival"
-  },
-  {
-    "id": 1176,
+    "id": 1182,
     "book": 2,
     "english": "Lunar New Year’s Eve",
     "traditional": "除夕",
@@ -14112,7 +14184,7 @@ const VOCAB_DATA = [
     "searchTerm": "lunar new year’s eve"
   },
   {
-    "id": 1177,
+    "id": 1183,
     "book": 2,
     "english": "Lunar New Year’s Eve dinner",
     "traditional": "年夜飯",
@@ -14124,19 +14196,19 @@ const VOCAB_DATA = [
     "searchTerm": "lunar new year’s eve dinner"
   },
   {
-    "id": 1178,
+    "id": 1184,
     "book": 2,
-    "english": "May you soon bear a child",
-    "traditional": "早生貴子",
-    "pinyin": "zǎo shēng guì zǐ",
+    "english": "Spring Festival",
+    "traditional": "春節",
+    "pinyin": "chūn jié",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "may you soon bear a child"
+    "searchTerm": "spring festival"
   },
   {
-    "id": 1179,
+    "id": 1185,
     "book": 2,
     "english": "New Year rice cake",
     "traditional": "年糕",
@@ -14148,7 +14220,7 @@ const VOCAB_DATA = [
     "searchTerm": "new year rice cake"
   },
   {
-    "id": 1180,
+    "id": 1186,
     "book": 2,
     "english": "New Year’s couplets",
     "traditional": "春聯",
@@ -14160,7 +14232,7 @@ const VOCAB_DATA = [
     "searchTerm": "new year’s couplets"
   },
   {
-    "id": 1181,
+    "id": 1187,
     "book": 2,
     "english": "New Year’s Eve money",
     "traditional": "壓歲錢",
@@ -14172,19 +14244,31 @@ const VOCAB_DATA = [
     "searchTerm": "new year’s eve money"
   },
   {
-    "id": 1182,
+    "id": 1188,
     "book": 2,
-    "english": "nutrition",
-    "traditional": "營養",
-    "pinyin": "yíng yǎng",
+    "english": "OK / all set",
+    "traditional": "好了",
+    "pinyin": "hǎo le",
     "lesson": 15,
-    "isVisual": false,
-    "photoUrl": null,
-    "localImage": null,
-    "searchTerm": "nutrition"
+    "isVisual": true,
+    "photoUrl": "vocab_images/ok.png",
+    "localImage": "vocab_images/ok.png",
+    "searchTerm": "ok / all set"
   },
   {
-    "id": 1183,
+    "id": 1189,
+    "book": 2,
+    "english": "orange / tangerine",
+    "traditional": "橘子",
+    "pinyin": "jú zi",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/orange.png",
+    "localImage": "vocab_images/orange.png",
+    "searchTerm": "orange / tangerine"
+  },
+  {
+    "id": 1190,
     "book": 2,
     "english": "to pay a New Year visit",
     "traditional": "拜年",
@@ -14196,7 +14280,7 @@ const VOCAB_DATA = [
     "searchTerm": "to pay a new year visit"
   },
   {
-    "id": 1184,
+    "id": 1191,
     "book": 2,
     "english": "peaceful / safe",
     "traditional": "平安",
@@ -14208,75 +14292,87 @@ const VOCAB_DATA = [
     "searchTerm": "peaceful / safe"
   },
   {
-    "id": 1185,
+    "id": 1192,
     "book": 2,
-    "english": "to take off (clothes)",
-    "traditional": "脫",
-    "pinyin": "tuō",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/take off.png",
-    "localImage": "vocab_images/take off.png",
-    "searchTerm": "to take off (clothes)"
-  },
-  {
-    "id": 1186,
-    "book": 2,
-    "english": "riverside",
-    "traditional": "河邊",
-    "pinyin": "hé biān",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/riverside.png",
-    "localImage": "vocab_images/riverside.png",
-    "searchTerm": "riverside"
-  },
-  {
-    "id": 1187,
-    "book": 2,
-    "english": "Seoul",
-    "traditional": "首爾",
-    "pinyin": "Shǒu ěr",
+    "english": "resultative particle (beginning of state)",
+    "traditional": "起來",
+    "pinyin": "qǐ lái",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "seoul"
+    "searchTerm": "resultative particle (beginning of state)"
   },
   {
-    "id": 1188,
+    "id": 1193,
     "book": 2,
-    "english": "to steam",
-    "traditional": "蒸",
-    "pinyin": "zhēng",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/steam.png",
-    "localImage": "vocab_images/steam.png",
-    "searchTerm": "to steam"
-  },
-  {
-    "id": 1189,
-    "book": 2,
-    "english": "to continue (downward)",
-    "traditional": "下去",
-    "pinyin": "xià qù",
-    "lesson": 15,
-    "isVisual": true,
-    "photoUrl": "vocab_images/continue.png",
-    "localImage": "vocab_images/continue.png",
-    "searchTerm": "to continue (downward)"
-  },
-  {
-    "id": 1190,
-    "book": 2,
-    "english": "unexpectedly",
-    "traditional": "沒想到",
-    "pinyin": "méi xiǎng dào",
+    "english": "rise in social rank",
+    "traditional": "步步高升",
+    "pinyin": "bù bù gāo shēng",
     "lesson": 15,
     "isVisual": false,
     "photoUrl": null,
     "localImage": null,
-    "searchTerm": "unexpectedly"
+    "searchTerm": "rise in social rank"
+  },
+  {
+    "id": 1194,
+    "book": 2,
+    "english": "to stay up (New Year’s)",
+    "traditional": "守歲",
+    "pinyin": "shǒu suì",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/night.png",
+    "localImage": "vocab_images/night.png",
+    "searchTerm": "to stay up (new year’s)"
+  },
+  {
+    "id": 1195,
+    "book": 2,
+    "english": "to stick on",
+    "traditional": "貼上",
+    "pinyin": "tiē shàng",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/stick on.png",
+    "localImage": "vocab_images/stick on.png",
+    "searchTerm": "to stick on"
+  },
+  {
+    "id": 1196,
+    "book": 2,
+    "english": "to trouble / disturb",
+    "traditional": "打擾",
+    "pinyin": "dǎ rǎo",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/trouble.png",
+    "localImage": "vocab_images/trouble.png",
+    "searchTerm": "to trouble / disturb"
+  },
+  {
+    "id": 1197,
+    "book": 2,
+    "english": "uncle (older)",
+    "traditional": "伯伯",
+    "pinyin": "bó bo",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/uncle.png",
+    "localImage": "vocab_images/uncle.png",
+    "searchTerm": "uncle (older)"
+  },
+  {
+    "id": 1198,
+    "book": 2,
+    "english": "way of saying / theory",
+    "traditional": "說法",
+    "pinyin": "shuō fǎ",
+    "lesson": 15,
+    "isVisual": true,
+    "photoUrl": "vocab_images/say.png",
+    "localImage": "vocab_images/say.png",
+    "searchTerm": "way of saying / theory"
   }
 ];

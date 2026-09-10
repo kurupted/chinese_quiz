@@ -201,7 +201,47 @@ def parse_all():
         "web page": ["web page", "internet"],
         "jet ski": ["jet ski"],
         "boat / ship": ["boat"],
-        "motorcycle / scooter": ["motorcycle", "scooter"]
+        "motorcycle / scooter": ["motorcycle", "scooter"],
+        "how are you? hello.": ["hello"],
+        "i'm sorry": ["sorry"],
+        "family members": ["family"],
+        "national palace museum": ["museum"],
+        "chinese cabbage": ["cabbage"],
+        "red envelope": ["envelope"],
+        "teaching assistant": ["assistant"],
+        "activity center": ["activity", "community center"],
+        "department store": ["store", "shop"],
+        "green island": ["island"],
+        "noodle shop": ["shop", "noodles"],
+        "middle of the night": ["night"],
+        "suite (apartment)": ["apartment"],
+        "to make a phone call": ["call", "telephone", "phone"],
+        "to access the internet / to use the internet": ["internet", "web page"],
+        "to have a holiday": ["holiday"],
+        "to return to one's country": ["return", "country"],
+        "chinese last name (common in taiwan)": ["name"],
+        "da-an (district name)": ["name"],
+        "to go to work": ["work"],
+        "to give someone a ride": ["ride"],
+        "to get to know": ["know"],
+        "availability of food and drink": ["food", "drink"],
+        "to have an interview": ["interview"],
+        "summer vacation": ["summer", "holiday"],
+        "to work part-time": ["work"],
+        "paper cup": ["paper", "cup"],
+        "to walk out": ["walk"],
+        "to walk over": ["walk"],
+        "can't walk": ["walk"],
+        "master (teacher)": ["teacher"],
+        "to get angry at": ["angry"],
+        "to fall asleep": ["sleep"],
+        "to clean up (sweep)": ["clean", "sweep"],
+        "to go out (house)": ["house"],
+        "hometown": ["home", "house"],
+        "to stay up (new year’s)": ["night"],
+        "to stick on": ["stick"],
+        "uncle (older)": ["uncle"],
+        "way of saying / theory": ["say", "speech"]
     }
 
     for b in books:
@@ -227,9 +267,9 @@ def parse_all():
         # 1. Parse Vocab
         for line in vocab_section.splitlines():
             line = line.strip()
-            if not line or 'Vocabulary List' in line or line.startswith('English\tTraditional') or line.startswith('from http'):
+            if not line or 'Vocabulary List' in line or line.startswith('English') or line.startswith('from http') or line.startswith('updated'):
                 continue
-            v_parts = line.split('\t')
+            v_parts = re.split(r'\t+|\s{2,}', line)
             if len(v_parts) >= 4:
                 english = v_parts[0].strip()
                 traditional = v_parts[1].strip()
