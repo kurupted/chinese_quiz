@@ -153,9 +153,30 @@
             </div>
           </div>
 
-          <!-- Dynamic Lessons Container -->
-          <div class="form-group-compact" id="lessonsContainer">
-            <!-- Dynamically populated per book in app.js -->
+          <!-- Practice Lessons Selector Card (Triggers Overlay Modal) -->
+          <div class="form-group-compact">
+            <div class="section-label-row">
+              <span class="section-label">PRACTICE LESSONS</span>
+              <div class="lesson-quick-actions">
+                <button type="button" class="text-link-btn" id="quickSelectAllBtn" title="Select all lessons">All</button>
+                <span class="sep">•</span>
+                <button type="button" class="text-link-btn" id="quickClearBtn" title="Clear selection">Clear</button>
+              </div>
+            </div>
+
+            <div class="lesson-select-trigger-card glass-panel" id="openLessonModalBtn" role="button" tabindex="0" title="Click to customize lessons">
+              <div class="trigger-card-left">
+                <div class="trigger-icon-wrap">📚</div>
+                <div class="trigger-info">
+                  <div class="trigger-title" id="lessonTriggerTitle">Loading lessons...</div>
+                  <div class="trigger-sub" id="lessonTriggerSub">Click to choose lessons</div>
+                  <div class="trigger-badges-container" id="lessonTriggerBadges"></div>
+                </div>
+              </div>
+              <div class="trigger-card-right">
+                <span class="trigger-action-pill">Choose Lessons ➔</span>
+              </div>
+            </div>
           </div>
 
           <div class="pool-badge-compact" id="poolStats" style="margin-top: -0.4rem; margin-bottom: 0.8rem;">
@@ -504,6 +525,19 @@
                 style="display: none;">✕</button>
             </div>
           </div>
+          <!-- Lesson Grammar Focus Banner (Shown when a specific lesson is filtered) -->
+          <div id="grammarLessonFocusBanner" class="grammar-focus-banner glass-panel" style="display: none;">
+            <div class="focus-banner-header">
+              <div class="focus-banner-badge" id="grammarFocusBadge">BOOK 1 • LESSON 1</div>
+              <h3 class="focus-banner-title" id="grammarFocusTitle">Lesson 1: Welcome to Taiwan!</h3>
+            </div>
+            <div class="focus-banner-content">
+              <div class="focus-banner-label">GRAMMAR FOCUS</div>
+              <ul class="focus-banner-list" id="grammarFocusList">
+                <!-- Dynamically populated numbered grammar points -->
+              </ul>
+            </div>
+          </div>
 
           <!-- Grammar Rules List -->
           <div class="grammar-list" id="grammarList">
@@ -542,7 +576,57 @@
     </div>
   </div>
 
+  <!-- Lesson Selection Overlay Modal -->
+  <div id="lessonPickerModal" class="lesson-modal-overlay" style="display: none;">
+    <div class="lesson-modal-backdrop" id="lessonModalBackdrop"></div>
+    <div class="lesson-modal-card glass-panel" role="dialog" aria-modal="true" aria-labelledby="lessonModalTitle">
+      <!-- Modal Header -->
+      <div class="lesson-modal-header">
+        <div class="modal-title-group">
+          <span class="modal-icon">📚</span>
+          <div>
+            <h3 class="lesson-modal-title" id="lessonModalTitle">Select Practice Lessons</h3>
+            <p class="lesson-modal-sub">Choose lessons to include in your practice pool</p>
+          </div>
+        </div>
+        <button type="button" id="closeLessonModalBtn" class="modal-close-btn" title="Close modal" aria-label="Close">✕</button>
+      </div>
+
+      <!-- Book Selector Tabs & Quick Toggles Inside Modal -->
+      <div class="lesson-modal-toolbar">
+        <div class="modal-book-tabs" id="modalBookTabs">
+          <button type="button" class="modal-book-tab active" data-book="1">Book 1</button>
+          <button type="button" class="modal-book-tab" data-book="2">Book 2</button>
+        </div>
+        <div class="modal-toolbar-actions">
+          <button type="button" class="text-link-btn" id="modalSelectAllBtn">Select All</button>
+          <span class="sep">•</span>
+          <button type="button" class="text-link-btn" id="modalClearBtn">Clear</button>
+        </div>
+      </div>
+
+      <!-- Scrollable Lesson List -->
+      <div class="lesson-modal-scrollable">
+        <div class="lesson-items-list" id="modalLessonList">
+          <!-- Dynamically populated lesson cards with checkboxes & expandable details -->
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="lesson-modal-footer">
+        <div class="modal-pool-summary">
+          <span class="modal-summary-badge" id="modalSelectedSummary">0 lessons selected</span>
+          <span class="modal-summary-sub" id="modalWordsSummary">0 words in pool</span>
+        </div>
+        <button type="button" id="applyLessonModalBtn" class="primary-btn-compact">
+          <span>Apply Selection ✓</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
+  <script src="lesson_metadata.js"></script>
   <script src="vocab_data.js"></script>
   <script src="grammar_data.js"></script>
   <script src="app.js"></script>

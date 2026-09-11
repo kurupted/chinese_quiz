@@ -161,6 +161,7 @@ def generate_clean_vocab():
             
             all_vocab.append({
                 "id": len(all_vocab) + 1,
+                "book": 1,
                 "english": english,
                 "traditional": traditional,
                 "pinyin": pinyin,
@@ -178,4 +179,5 @@ def generate_clean_vocab():
         f.write("const VOCAB_DATA = " + json.dumps(all_vocab, ensure_ascii=False, indent=2) + ";\n")
 
 if __name__ == '__main__':
-    generate_clean_vocab()
+    import parse_all_data
+    parse_all_data.parse_and_build_all()

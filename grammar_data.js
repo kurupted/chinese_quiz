@@ -17205,7 +17205,7 @@ const GRAMMAR_DATA = [
     "id": 118,
     "book": 2,
     "chapter": 1,
-    "pointZh": "從…往…走／去",
+    "pointZh": "從 cóng…往 wàng… go…from…",
     "pinyin": "cóng … wǎng … zǒu / qù",
     "english": "go from … toward … (to get somewhere)",
     "examples": [
@@ -17419,7 +17419,7 @@ const GRAMMAR_DATA = [
     "id": 119,
     "book": 2,
     "chapter": 1,
-    "pointZh": "V起來（看起來／聽起來／聞起來／吃起來…）",
+    "pointZh": "Judgmental V-起來 qǐlái it's my assessment that…",
     "pinyin": "… qǐlái (kàn qǐlái / tīng qǐlái / wén qǐlái / chī qǐlái …)",
     "english": "it seems/looks/sounds/smells/tastes… (speaker’s judgment)",
     "examples": [
@@ -17601,7 +17601,7 @@ const GRAMMAR_DATA = [
     "id": 120,
     "book": 2,
     "chapter": 1,
-    "pointZh": "V著（動作持續）",
+    "pointZh": "Ongoing Action with 著 zhe",
     "pinyin": "… zhe",
     "english": "ongoing action / continuing state",
     "examples": [
@@ -17759,7 +17759,7 @@ const GRAMMAR_DATA = [
     "id": 121,
     "book": 2,
     "chapter": 1,
-    "pointZh": "一邊…一邊…",
+    "pointZh": "Two Simultaneously Actions with 一邊 yībiān…一邊 yībiān…",
     "pinyin": "yìbiān … yìbiān …",
     "english": "do A while doing B",
     "examples": [
@@ -17937,7 +17937,7 @@ const GRAMMAR_DATA = [
     "id": 122,
     "book": 2,
     "chapter": 1,
-    "pointZh": "離…遠／近（離…有多遠？）",
+    "pointZh": "Distance from with 離 lí…",
     "pinyin": "lí … yuǎn / jìn (lí … yǒu duō yuǎn?)",
     "english": "be far/close from … (how far?)",
     "examples": [
@@ -18091,7 +18091,7 @@ const GRAMMAR_DATA = [
     "id": 123,
     "book": 2,
     "chapter": 2,
-    "pointZh": "一點也不…",
+    "pointZh": "Emphatic Negation with 一點也不 yīdiǎn yě bù V…",
     "pinyin": "yìdiǎn yě bù …",
     "english": "not … at all (emphatic negation)",
     "examples": [
@@ -18237,7 +18237,7 @@ const GRAMMAR_DATA = [
     "id": 124,
     "book": 2,
     "chapter": 2,
-    "pointZh": "還是…吧",
+    "pointZh": "還是 háishì…吧 ba ! It will be better if …",
     "pinyin": "háishì … ba",
     "english": "it’d be better to… / probably should…",
     "examples": [
@@ -18455,7 +18455,7 @@ const GRAMMAR_DATA = [
     "id": 125,
     "book": 2,
     "chapter": 2,
-    "pointZh": "（V 得）一點 + adj (adverbial)",
+    "pointZh": "Form Adverbials with 一點 yīdiǎn",
     "pinyin": "yìdiǎn",
     "english": "a bit more… / a little… (do it slightly)",
     "examples": [
@@ -18569,7 +18569,7 @@ const GRAMMAR_DATA = [
     "id": 126,
     "book": 2,
     "chapter": 2,
-    "pointZh": "AABB（雙音節形容詞重疊）",
+    "pointZh": "Reduplication of Disyllabic Adjectives",
     "pinyin": "(e.g., gāogāoxìngxìng, shūshūfúfú)",
     "english": "happily / comfortably / nicely (adjectives used adverbially)",
     "examples": [
@@ -18747,7 +18747,7 @@ const GRAMMAR_DATA = [
     "id": 127,
     "book": 2,
     "chapter": 2,
-    "pointZh": "不太…",
+    "pointZh": "不太 bútài not very",
     "pinyin": "bù tài …",
     "english": "not very… / not too…",
     "examples": [
@@ -18861,7 +18861,7 @@ const GRAMMAR_DATA = [
     "id": 128,
     "book": 2,
     "chapter": 2,
-    "pointZh": "…部／…邊（方位）",
+    "pointZh": "Locations with 部 bù / 邊 biān",
     "pinyin": "… bù / … biān",
     "english": "the ___ part / the ___ side (locations & directions)",
     "examples": [
@@ -19043,7 +19043,7 @@ const GRAMMAR_DATA = [
     "id": 129,
     "book": 2,
     "chapter": 3,
-    "pointZh": "差不多",
+    "pointZh": "Various Functions of 差不多 chàbùduō",
     "pinyin": "chàbuduō",
     "english": "almost; about; more or less; roughly the same",
     "examples": [
@@ -19225,7 +19225,7 @@ const GRAMMAR_DATA = [
     "id": 130,
     "book": 2,
     "chapter": 3,
-    "pointZh": "V過（經驗）",
+    "pointZh": "Experience Particle 過 guò",
     "pinyin": "V guò",
     "english": "have ever done (experience in the past)",
     "examples": [
@@ -19355,7 +19355,7 @@ const GRAMMAR_DATA = [
     "id": 131,
     "book": 2,
     "chapter": 3,
-    "pointZh": "才（僅僅）",
+    "pointZh": "才 cái merely, only",
     "pinyin": "cái",
     "english": "only; merely",
     "examples": [
@@ -19497,7 +19497,7 @@ const GRAMMAR_DATA = [
     "id": 132,
     "book": 2,
     "chapter": 3,
-    "pointZh": "想起來",
+    "pointZh": "想起來 xiǎng qǐlái to have remembered",
     "pinyin": "xiǎng qǐlái",
     "english": "to recall; to suddenly remember",
     "examples": [
@@ -19651,7 +19651,7 @@ const GRAMMAR_DATA = [
     "id": 133,
     "book": 2,
     "chapter": 3,
-    "pointZh": "才（比預期晚）",
+    "pointZh": "Longer/Later Than Expected with 才 cái",
     "pinyin": "cái",
     "english": "not until; only then (later than expected)",
     "examples": [
@@ -19813,7 +19813,7 @@ const GRAMMAR_DATA = [
     "id": 134,
     "book": 2,
     "chapter": 3,
-    "pointZh": "ABAB（雙音節動詞重疊）",
+    "pointZh": "Tentative Action with Reduplicated Disyllabic Verbs ABAB",
     "pinyin": "ABAB",
     "english": "try/do a bit; tentative or light action",
     "examples": [
@@ -19995,7 +19995,7 @@ const GRAMMAR_DATA = [
     "id": 135,
     "book": 2,
     "chapter": 4,
-    "pointZh": "除了…，還…",
+    "pointZh": "除了 chúle…，還 hái… in addition to…",
     "pinyin": "chúle … hái …",
     "english": "besides…; in addition to… also…",
     "examples": [
@@ -20201,7 +20201,7 @@ const GRAMMAR_DATA = [
     "id": 136,
     "book": 2,
     "chapter": 4,
-    "pointZh": "按照…",
+    "pointZh": "按照 ànzhào… in accordance with",
     "pinyin": "ànzhào …",
     "english": "according to…; in accordance with…",
     "examples": [
@@ -20403,7 +20403,7 @@ const GRAMMAR_DATA = [
     "id": 137,
     "book": 2,
     "chapter": 4,
-    "pointZh": "跟",
+    "pointZh": "Various Meaning of the Preposition 跟 gēn",
     "pinyin": "gēn",
     "english": "with; from; to (various relational meanings)",
     "examples": [
@@ -20557,7 +20557,7 @@ const GRAMMAR_DATA = [
     "id": 138,
     "book": 2,
     "chapter": 4,
-    "pointZh": "給",
+    "pointZh": "Various Meanings of 給 gěi",
     "pinyin": "gěi",
     "english": "give; for; to (indirect object marker)",
     "examples": [
@@ -20711,7 +20711,7 @@ const GRAMMAR_DATA = [
     "id": 139,
     "book": 2,
     "chapter": 4,
-    "pointZh": "對",
+    "pointZh": "對 duì… towards…",
     "pinyin": "duì",
     "english": "toward; to; regarding",
     "examples": [
@@ -20845,7 +20845,7 @@ const GRAMMAR_DATA = [
     "id": 140,
     "book": 2,
     "chapter": 5,
-    "pointZh": "還",
+    "pointZh": "還 hái still",
     "pinyin": "hái",
     "english": "still; yet",
     "examples": [
@@ -20971,7 +20971,7 @@ const GRAMMAR_DATA = [
     "id": 141,
     "book": 2,
     "chapter": 5,
-    "pointZh": "V著（方式）",
+    "pointZh": "Manner of an Action with V著 zhe",
     "pinyin": "V zhe",
     "english": "do something in a certain manner; while in a state",
     "examples": [
@@ -21113,7 +21113,7 @@ const GRAMMAR_DATA = [
     "id": 142,
     "book": 2,
     "chapter": 5,
-    "pointZh": "連動句（多個動詞）",
+    "pointZh": "Multiple Verb Phrases in a Sentence",
     "pinyin": "liándòng jù",
     "english": "serial verb construction",
     "examples": [
@@ -21255,7 +21255,7 @@ const GRAMMAR_DATA = [
     "id": 143,
     "book": 2,
     "chapter": 5,
-    "pointZh": "等…就…",
+    "pointZh": "When A comes, then B…with 等 děng…就 jiù…",
     "pinyin": "děng … jiù …",
     "english": "when/once… then…",
     "examples": [
@@ -21457,7 +21457,7 @@ const GRAMMAR_DATA = [
     "id": 144,
     "book": 2,
     "chapter": 5,
-    "pointZh": "V著V著，就…了",
+    "pointZh": "While doing A, B happens with V著 zhe V著 zhe，就 jiù…了 le",
     "pinyin": "V zhe V zhe, jiù … le",
     "english": "while doing A, suddenly B happened",
     "examples": [
@@ -21663,7 +21663,7 @@ const GRAMMAR_DATA = [
     "id": 145,
     "book": 2,
     "chapter": 6,
-    "pointZh": "到（目的地標記）",
+    "pointZh": "Destination Marker 到 dào",
     "pinyin": "dào",
     "english": "to; reach; arrive at (destination marker)",
     "examples": [
@@ -21825,7 +21825,7 @@ const GRAMMAR_DATA = [
     "id": 146,
     "book": 2,
     "chapter": 6,
-    "pointZh": "給（間接受詞）",
+    "pointZh": "Indirect Object Marker 給 gěi",
     "pinyin": "gěi",
     "english": "to; for (indirect object marker)",
     "examples": [
@@ -21995,7 +21995,7 @@ const GRAMMAR_DATA = [
     "id": 147,
     "book": 2,
     "chapter": 6,
-    "pointZh": "V + 在（結果位置）",
+    "pointZh": "Resultant Location with V+在 zài…",
     "pinyin": "V zài",
     "english": "put/place (resultant location)",
     "examples": [
@@ -22149,7 +22149,7 @@ const GRAMMAR_DATA = [
     "id": 148,
     "book": 2,
     "chapter": 6,
-    "pointZh": "把（把字句）",
+    "pointZh": "Moving an Object to a Location with 把 bǎ",
     "pinyin": "bǎ",
     "english": "object-disposal construction (move/handle object)",
     "examples": [
@@ -22295,7 +22295,7 @@ const GRAMMAR_DATA = [
     "id": 149,
     "book": 2,
     "chapter": 6,
-    "pointZh": "而且",
+    "pointZh": "而且 érqiě furthermore",
     "pinyin": "érqiě",
     "english": "moreover; furthermore; and also",
     "examples": [
@@ -22529,7 +22529,7 @@ const GRAMMAR_DATA = [
     "id": 150,
     "book": 2,
     "chapter": 7,
-    "pointZh": "方向補語（V₁ + V₂ / V₁ + V₂ + V₃）",
+    "pointZh": "Directional Constructions V₁V₂ and V₁V₂V₃",
     "pinyin": "fāngxiàng bǔyǔ",
     "english": "directional complements (go out, come in, bring back, etc.)",
     "examples": [
@@ -22679,7 +22679,7 @@ const GRAMMAR_DATA = [
     "id": 151,
     "book": 2,
     "chapter": 7,
-    "pointZh": "把 + 方向補語",
+    "pointZh": "把 bǎ with V₁V₂V₃",
     "pinyin": "bǎ + directional complement",
     "english": "move/handle object with direction",
     "examples": [
@@ -22809,7 +22809,7 @@ const GRAMMAR_DATA = [
     "id": 152,
     "book": 2,
     "chapter": 7,
-    "pointZh": "反問句 + 嗎",
+    "pointZh": "Confrontation with 嗎 ma",
     "pinyin": "fǎnwèn jù + ma",
     "english": "rhetorical question (confrontational tone)",
     "examples": [
@@ -22983,7 +22983,7 @@ const GRAMMAR_DATA = [
     "id": 153,
     "book": 2,
     "chapter": 7,
-    "pointZh": "姿態動詞存在句",
+    "pointZh": "Existential Sentence with Posture Verbs",
     "pinyin": "zītài dòngcí cúnzài jù",
     "english": "existential sentences with posture verbs",
     "examples": [
@@ -23169,7 +23169,7 @@ const GRAMMAR_DATA = [
     "id": 154,
     "book": 2,
     "chapter": 7,
-    "pointZh": "為了",
+    "pointZh": "為了 wèile in order to",
     "pinyin": "wèile",
     "english": "in order to; for the purpose of",
     "examples": [
@@ -23375,7 +23375,7 @@ const GRAMMAR_DATA = [
     "id": 155,
     "book": 2,
     "chapter": 8,
-    "pointZh": "見（感官結果）",
+    "pointZh": "見 jiàn as a Perceptual Result",
     "pinyin": "jiàn",
     "english": "perceptual result (see/hear successfully)",
     "examples": [
@@ -23529,7 +23529,7 @@ const GRAMMAR_DATA = [
     "id": 156,
     "book": 2,
     "chapter": 8,
-    "pointZh": "懂（理解結果）",
+    "pointZh": "懂 dǒng as a Cognitive Result",
     "pinyin": "dǒng",
     "english": "understand (as a result)",
     "examples": [
@@ -23691,7 +23691,7 @@ const GRAMMAR_DATA = [
     "id": 157,
     "book": 2,
     "chapter": 8,
-    "pointZh": "會（學會；達成結果）",
+    "pointZh": "會 huì as an Achievement Result",
     "pinyin": "huì",
     "english": "learn to; manage to (achievement)",
     "examples": [
@@ -23829,7 +23829,7 @@ const GRAMMAR_DATA = [
     "id": 158,
     "book": 2,
     "chapter": 8,
-    "pointZh": "V 得 / 不（可能補語）",
+    "pointZh": "Potential Capability with -得 de- or -不 bu-",
     "pinyin": "V de / bù",
     "english": "can / cannot (potential complement)",
     "examples": [
@@ -23971,7 +23971,7 @@ const GRAMMAR_DATA = [
     "id": 159,
     "book": 2,
     "chapter": 8,
-    "pointZh": "V 得了 / 不了（能力補語）",
+    "pointZh": "Capability Complement 了 liǎo",
     "pinyin": "V déliǎo / bùliǎo",
     "english": "be able / unable to (manage to)",
     "examples": [
@@ -24117,7 +24117,7 @@ const GRAMMAR_DATA = [
     "id": 160,
     "book": 2,
     "chapter": 8,
-    "pointZh": "V 得 + 補語（程度結果）",
+    "pointZh": "Vs + 得 de + complement so…that…",
     "pinyin": "V de + complement",
     "english": "so… that…",
     "examples": [
@@ -24259,7 +24259,7 @@ const GRAMMAR_DATA = [
     "id": 161,
     "book": 2,
     "chapter": 8,
-    "pointZh": "下去（繼續）",
+    "pointZh": "To Keep on Doing Something with 下去 xiàqù",
     "pinyin": "xiàqù",
     "english": "continue doing; keep on",
     "examples": [
@@ -24393,7 +24393,7 @@ const GRAMMAR_DATA = [
     "id": 162,
     "book": 2,
     "chapter": 8,
-    "pointZh": "V 完",
+    "pointZh": "Completion of an Action with V + 完 wán",
     "pinyin": "wán",
     "english": "finish; complete",
     "examples": [
@@ -24527,7 +24527,7 @@ const GRAMMAR_DATA = [
     "id": 163,
     "book": 2,
     "chapter": 9,
-    "pointZh": "V 好（完成／準備好）",
+    "pointZh": "All set and ready with Verb complement 好 hǎo",
     "pinyin": "V hǎo",
     "english": "have (something) done and ready; be all set",
     "examples": [
@@ -24701,7 +24701,7 @@ const GRAMMAR_DATA = [
     "id": 164,
     "book": 2,
     "chapter": 9,
-    "pointZh": "V 到（成功達成）",
+    "pointZh": "To be successful in …with Verb complement 到 dào",
     "pinyin": "V dào",
     "english": "succeed in; manage to (achieve the result)",
     "examples": [
@@ -24879,7 +24879,7 @@ const GRAMMAR_DATA = [
     "id": 165,
     "book": 2,
     "chapter": 9,
-    "pointZh": "比起來",
+    "pointZh": "Comparison with 比起來 bǐ qǐlái",
     "pinyin": "bǐ qǐlái",
     "english": "compared to…",
     "examples": [
@@ -25089,7 +25089,7 @@ const GRAMMAR_DATA = [
     "id": 166,
     "book": 2,
     "chapter": 9,
-    "pointZh": "像…一樣…",
+    "pointZh": "像 xiàng…一樣 yí yàng… is just like…",
     "pinyin": "xiàng … yíyàng …",
     "english": "(be) just like…; as…as…",
     "examples": [
@@ -25307,7 +25307,7 @@ const GRAMMAR_DATA = [
     "id": 167,
     "book": 2,
     "chapter": 9,
-    "pointZh": "極了／得不得了／得很",
+    "pointZh": "Adverbial Complements 極了 jí le, 得不得了 de bùdéliǎo, 得很 de hěn terribly, extremely",
     "pinyin": "jí le / de bùdéliǎo / de hěn",
     "english": "extremely; terribly; super…",
     "examples": [
@@ -25445,7 +25445,7 @@ const GRAMMAR_DATA = [
     "id": 168,
     "book": 2,
     "chapter": 9,
-    "pointZh": "V 得起",
+    "pointZh": "Verb complement 起 qǐ to be able to afford",
     "pinyin": "V deqǐ",
     "english": "can afford (cost/expense)",
     "examples": [
@@ -25635,7 +25635,7 @@ const GRAMMAR_DATA = [
     "id": 169,
     "book": 2,
     "chapter": 10,
-    "pointZh": "V 出來（看／聽／吃／算出來…）",
+    "pointZh": "To figure out with the Complement 出來 chūlái",
     "pinyin": "V chūlái",
     "english": "figure out; make out; discern (result becomes clear)",
     "examples": [
@@ -25825,7 +25825,7 @@ const GRAMMAR_DATA = [
     "id": 170,
     "book": 2,
     "chapter": 10,
-    "pointZh": "V 下（裝得下／坐得下／放得下…）",
+    "pointZh": "Enough space to accommodate with Verb Complement 下 xià",
     "pinyin": "V xià",
     "english": "have enough space/capacity to fit/hold",
     "examples": [
@@ -26011,7 +26011,7 @@ const GRAMMAR_DATA = [
     "id": 171,
     "book": 2,
     "chapter": 10,
-    "pointZh": "把 + V(一)V（先…再…）",
+    "pointZh": "Disposal Construction 把 bǎ with Verb Reduplication 把 bǎ…V(一)V",
     "pinyin": "bǎ + V(yī)V",
     "english": "do something briefly first; “take a quick…”",
     "examples": [
@@ -26217,7 +26217,7 @@ const GRAMMAR_DATA = [
     "id": 172,
     "book": 2,
     "chapter": 10,
-    "pointZh": "把 + 結果補語（洗乾淨／吃完／關上…）",
+    "pointZh": "Disposal Construction 把 bǎ with Resultative Complements",
     "pinyin": "bǎ + result complement",
     "english": "dispose of object to a clear result",
     "examples": [
@@ -26359,7 +26359,7 @@ const GRAMMAR_DATA = [
     "id": 173,
     "book": 2,
     "chapter": 10,
-    "pointZh": "趁…（趁 + 時機/狀態）",
+    "pointZh": "趁 chèn seize the moment",
     "pinyin": "chèn …",
     "english": "take advantage of; seize the moment",
     "examples": [
@@ -26561,7 +26561,7 @@ const GRAMMAR_DATA = [
     "id": 174,
     "book": 2,
     "chapter": 11,
-    "pointZh": "其他的／別的／另外的",
+    "pointZh": "The Others 其他的 qítā de vs. Other 別的 biéde vs. Another 另外的 lìngwài de",
     "pinyin": "qítā de / bié de / lìngwài de",
     "english": "other(s); another; different",
     "examples": [
@@ -26779,7 +26779,7 @@ const GRAMMAR_DATA = [
     "id": 175,
     "book": 2,
     "chapter": 11,
-    "pointZh": "動量詞：下／趟／遍／次",
+    "pointZh": "Verb Classifiers 下 xià, 趟 tàng, 遍 biàn, and 次 cì",
     "pinyin": "xià / tàng / biàn / cì",
     "english": "verb classifiers (once, time, trip, from start to finish)",
     "examples": [
@@ -26921,7 +26921,7 @@ const GRAMMAR_DATA = [
     "id": 176,
     "book": 2,
     "chapter": 11,
-    "pointZh": "然後／後來／以後",
+    "pointZh": "Expressing next in sequence with 然後 ránhòu, 後來 hòulái, and 以後 yǐhòu",
     "pinyin": "ránhòu / hòulái / yǐhòu",
     "english": "then; later; in the future",
     "examples": [
@@ -27103,7 +27103,7 @@ const GRAMMAR_DATA = [
     "id": 177,
     "book": 2,
     "chapter": 11,
-    "pointZh": "才（條件之後才）",
+    "pointZh": "才 cái then and only then",
     "pinyin": "cái",
     "english": "only then; not until",
     "examples": [
@@ -27277,7 +27277,7 @@ const GRAMMAR_DATA = [
     "id": 178,
     "book": 2,
     "chapter": 11,
-    "pointZh": "被（被動句）",
+    "pointZh": "Passive Sentences with 被 bèi",
     "pinyin": "bèi",
     "english": "passive voice; be affected by",
     "examples": [
@@ -27435,7 +27435,7 @@ const GRAMMAR_DATA = [
     "id": 179,
     "book": 2,
     "chapter": 11,
-    "pointZh": "V 了 V（動詞重疊）",
+    "pointZh": "Verb Reduplication in V 了 le V",
     "pinyin": "V le V",
     "english": "try/do briefly and see result",
     "examples": [
@@ -27577,7 +27577,7 @@ const GRAMMAR_DATA = [
     "id": 180,
     "book": 2,
     "chapter": 11,
-    "pointZh": "上（接觸／附著）",
+    "pointZh": "Verb Particle (Complement) 上 shàng coming into contact",
     "pinyin": "shàng",
     "english": "come into contact; attach; catch",
     "examples": [
@@ -27723,7 +27723,7 @@ const GRAMMAR_DATA = [
     "id": 181,
     "book": 2,
     "chapter": 12,
-    "pointZh": "讓",
+    "pointZh": "讓 ràng to let someone do something",
     "pinyin": "ràng",
     "english": "let; allow; make (someone do something)",
     "examples": [
@@ -27893,7 +27893,7 @@ const GRAMMAR_DATA = [
     "id": 182,
     "book": 2,
     "chapter": 12,
-    "pointZh": "快一點",
+    "pointZh": "快一點 kuài yīdiǎn hurry up",
     "pinyin": "kuài yìdiǎn",
     "english": "hurry up; a bit faster",
     "examples": [
@@ -28051,7 +28051,7 @@ const GRAMMAR_DATA = [
     "id": 183,
     "book": 2,
     "chapter": 12,
-    "pointZh": "V 起（談起／說起／想起…）",
+    "pointZh": "Verb Particle 起 qǐ to touch upon",
     "pinyin": "V qǐ",
     "english": "bring up; start to; touch upon",
     "examples": [
@@ -28213,7 +28213,7 @@ const GRAMMAR_DATA = [
     "id": 184,
     "book": 2,
     "chapter": 12,
-    "pointZh": "只要…就…",
+    "pointZh": "只要 zhǐyào…就 jiù… as long as…",
     "pinyin": "zhǐyào … jiù …",
     "english": "as long as… then…",
     "examples": [
@@ -28411,7 +28411,7 @@ const GRAMMAR_DATA = [
     "id": 185,
     "book": 2,
     "chapter": 12,
-    "pointZh": "越…越…",
+    "pointZh": "越 yuè…越 yuè… the more…, the more…",
     "pinyin": "yuè … yuè …",
     "english": "the more…, the more…",
     "examples": [
@@ -28561,7 +28561,7 @@ const GRAMMAR_DATA = [
     "id": 186,
     "book": 2,
     "chapter": 12,
-    "pointZh": "主題對比（話題對比）",
+    "pointZh": "Topic as Contrastive",
     "pinyin": "zhǔtí duìbǐ",
     "english": "topic as contrastive element",
     "examples": [
@@ -28767,7 +28767,7 @@ const GRAMMAR_DATA = [
     "id": 187,
     "book": 2,
     "chapter": 13,
-    "pointZh": "V 過（完成）",
+    "pointZh": "Completion of Action with V + 過 guò",
     "pinyin": "V guò",
     "english": "finish doing; have done (completion for the time being)",
     "examples": [
@@ -28921,7 +28921,7 @@ const GRAMMAR_DATA = [
     "id": 188,
     "book": 2,
     "chapter": 13,
-    "pointZh": "V 走",
+    "pointZh": "Verb Particle 走 zǒu away",
     "pinyin": "V zǒu",
     "english": "away; remove; take away",
     "examples": [
@@ -29055,7 +29055,7 @@ const GRAMMAR_DATA = [
     "id": 189,
     "book": 2,
     "chapter": 13,
-    "pointZh": "叫",
+    "pointZh": "Imperative Sentences with 叫 jiào",
     "pinyin": "jiào",
     "english": "tell/ask someone to do",
     "examples": [
@@ -29209,7 +29209,7 @@ const GRAMMAR_DATA = [
     "id": 190,
     "book": 2,
     "chapter": 13,
-    "pointZh": "別再…了",
+    "pointZh": "別再 bié zài…了 le stop doing it",
     "pinyin": "bié zài … le",
     "english": "stop doing; don’t… anymore",
     "examples": [
@@ -29335,7 +29335,7 @@ const GRAMMAR_DATA = [
     "id": 191,
     "book": 2,
     "chapter": 13,
-    "pointZh": "會…的（保證語氣）",
+    "pointZh": "To offer assurance with 會 huì…的 de",
     "pinyin": "huì … de",
     "english": "will surely…; assurance",
     "examples": [
@@ -29481,7 +29481,7 @@ const GRAMMAR_DATA = [
     "id": 192,
     "book": 2,
     "chapter": 13,
-    "pointZh": "透過",
+    "pointZh": "透過 tòuguò… by means of…",
     "pinyin": "tòuguò",
     "english": "through; by means of",
     "examples": [
@@ -29663,7 +29663,7 @@ const GRAMMAR_DATA = [
     "id": 193,
     "book": 2,
     "chapter": 13,
-    "pointZh": "才…就…",
+    "pointZh": "才 cái…就 jiù… only just…, and…already",
     "pinyin": "cái … jiù …",
     "english": "only just…, and already…",
     "examples": [
@@ -29837,7 +29837,7 @@ const GRAMMAR_DATA = [
     "id": 194,
     "book": 2,
     "chapter": 13,
-    "pointZh": "每 + 時間",
+    "pointZh": "Frequency with 每 měi + Time Expression",
     "pinyin": "měi + time expression",
     "english": "every…; once every…",
     "examples": [
@@ -29999,7 +29999,7 @@ const GRAMMAR_DATA = [
     "id": 195,
     "book": 2,
     "chapter": 13,
-    "pointZh": "只有…才…",
+    "pointZh": "只有 zhǐyǒu…，才 cái… cannot…, unless…",
     "pinyin": "zhǐyǒu … cái …",
     "english": "only if… then…",
     "examples": [
@@ -30173,7 +30173,7 @@ const GRAMMAR_DATA = [
     "id": 196,
     "book": 2,
     "chapter": 14,
-    "pointZh": "就要…了",
+    "pointZh": "就要 jiù yào…了 le will soon…",
     "pinyin": "jiù yào … le",
     "english": "be about to; will soon…",
     "examples": [
@@ -30319,7 +30319,7 @@ const GRAMMAR_DATA = [
     "id": 197,
     "book": 2,
     "chapter": 14,
-    "pointZh": "說到／談到",
+    "pointZh": "說到 shuōdào / 談到 tándào… talking of…",
     "pinyin": "shuōdào / tándào",
     "english": "speaking of; when it comes to…",
     "examples": [
@@ -30533,7 +30533,7 @@ const GRAMMAR_DATA = [
     "id": 198,
     "book": 2,
     "chapter": 14,
-    "pointZh": "對 A 有 B",
+    "pointZh": "對 duì A 有 yǒu B to be B in A",
     "pinyin": "duì A yǒu B",
     "english": "to have B toward A; to be B for A",
     "examples": [
@@ -30687,7 +30687,7 @@ const GRAMMAR_DATA = [
     "id": 199,
     "book": 2,
     "chapter": 14,
-    "pointZh": "連…都…",
+    "pointZh": "連 lián…都 dōu… even",
     "pinyin": "lián … dōu …",
     "english": "even…",
     "examples": [
@@ -30853,7 +30853,7 @@ const GRAMMAR_DATA = [
     "id": 200,
     "book": 2,
     "chapter": 14,
-    "pointZh": "不但…而且…",
+    "pointZh": "不但 búdàn…，而且 érqiě… not only…but also…",
     "pinyin": "bùdàn … érqiě …",
     "english": "not only… but also…",
     "examples": [
@@ -31099,7 +31099,7 @@ const GRAMMAR_DATA = [
     "id": 201,
     "book": 2,
     "chapter": 14,
-    "pointZh": "不小心／忘了（無意間）",
+    "pointZh": "Unintentional 把 bǎ construction",
     "pinyin": "bù xiǎoxīn / wàng le",
     "english": "unintentionally; accidentally",
     "examples": [
@@ -31289,7 +31289,7 @@ const GRAMMAR_DATA = [
     "id": 202,
     "book": 2,
     "chapter": 15,
-    "pointZh": "到 (後置介詞)",
+    "pointZh": "Post-verbal Preposition 到 dào upto, till",
     "pinyin": "dào",
     "english": "until; up to",
     "examples": [
@@ -31475,7 +31475,7 @@ const GRAMMAR_DATA = [
     "id": 203,
     "book": 2,
     "chapter": 15,
-    "pointZh": "一 M 一 M",
+    "pointZh": "Manner 一 M 一 M one at a time",
     "pinyin": "yī M yī M",
     "english": "one by one; one at a time",
     "examples": [
@@ -31649,7 +31649,7 @@ const GRAMMAR_DATA = [
     "id": 204,
     "book": 2,
     "chapter": 15,
-    "pointZh": "一 M 比 一 M + Adj",
+    "pointZh": "Intensifying a State with 一 M 一 M more and more X; more X than the last…",
     "pinyin": "yī M bǐ yī M",
     "english": "more and more; each more than the last",
     "examples": [
@@ -31799,7 +31799,7 @@ const GRAMMAR_DATA = [
     "id": 205,
     "book": 2,
     "chapter": 15,
-    "pointZh": "起來 (起始義)",
+    "pointZh": "Inchoative Meaning with 起來 qǐlái",
     "pinyin": "qǐlái",
     "english": "to start to; to begin to",
     "examples": [
@@ -31973,7 +31973,7 @@ const GRAMMAR_DATA = [
     "id": 206,
     "book": 2,
     "chapter": 15,
-    "pointZh": "四字格",
+    "pointZh": "Four-Character Phrases 四字格 sìzìgé",
     "pinyin": "sìzìgé",
     "english": "four-character phrases",
     "examples": [

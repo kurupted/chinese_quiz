@@ -1,5 +1,8 @@
 import json
-import re
+import random
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def test_grammar():
     with open('grammar_data.json', 'r', encoding='utf-8') as f:

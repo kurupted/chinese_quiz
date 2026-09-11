@@ -9,8 +9,9 @@
 const state = {
   activeTab: 'practice', // 'practice' | 'vocab' | 'grammar'
   selectedBook: 'all', // 'all' | 1 | 2
-  selectedLessonsB1: new Set(), // Book 1: 1..15 (default off)
-  selectedLessonsB2: new Set(), // Book 2: 1..15 (default off)
+  selectedLessonsB1: new Set(), // Book 1: 1..15
+  selectedLessonsB2: new Set(), // Book 2: 1..15
+  modalBook: 1, // Active book tab inside lesson picker modal (1 or 2)
   mode: 'photo', // 'photo' | 'zh2en' | 'en2zh' | 'grammar' | 'mixed'
   questionCount: 10,
   pinyinSetting: 'on-answer', // 'always' | 'on-answer' | 'hidden'
@@ -262,9 +263,26 @@ const elements = {
   modeCards: document.querySelectorAll('.mode-card-compact'),
   questionChips: document.querySelectorAll('#questionCountChips .chip-btn-c'),
   pinyinChips: document.querySelectorAll('#pinyinChips .chip-btn-c'),
-  lessonsContainer: document.getElementById('lessonsContainer'),
+  openLessonModalBtn: document.getElementById('openLessonModalBtn'),
+  lessonTriggerTitle: document.getElementById('lessonTriggerTitle'),
+  lessonTriggerSub: document.getElementById('lessonTriggerSub'),
+  lessonTriggerBadges: document.getElementById('lessonTriggerBadges'),
+  quickSelectAllBtn: document.getElementById('quickSelectAllBtn'),
+  quickClearBtn: document.getElementById('quickClearBtn'),
   poolStats: document.getElementById('poolStats'),
   startQuizBtn: document.getElementById('startQuizBtn'),
+
+  // Lesson Picker Modal Elements
+  lessonPickerModal: document.getElementById('lessonPickerModal'),
+  lessonModalBackdrop: document.getElementById('lessonModalBackdrop'),
+  closeLessonModalBtn: document.getElementById('closeLessonModalBtn'),
+  applyLessonModalBtn: document.getElementById('applyLessonModalBtn'),
+  modalBookTabs: document.querySelectorAll('.modal-book-tab'),
+  modalSelectAllBtn: document.getElementById('modalSelectAllBtn'),
+  modalClearBtn: document.getElementById('modalClearBtn'),
+  modalLessonList: document.getElementById('modalLessonList'),
+  modalSelectedSummary: document.getElementById('modalSelectedSummary'),
+  modalWordsSummary: document.getElementById('modalWordsSummary'),
 
   // Vocab Explorer Elements
   vocabFilterStats: document.getElementById('vocabFilterStats'),
@@ -288,6 +306,10 @@ const elements = {
   grammarNextLessonBtn: document.getElementById('grammarNextLessonBtn'),
   grammarSearchInput: document.getElementById('grammarSearchInput'),
   grammarSearchClear: document.getElementById('grammarSearchClear'),
+  grammarLessonFocusBanner: document.getElementById('grammarLessonFocusBanner'),
+  grammarFocusBadge: document.getElementById('grammarFocusBadge'),
+  grammarFocusTitle: document.getElementById('grammarFocusTitle'),
+  grammarFocusList: document.getElementById('grammarFocusList'),
   grammarList: document.getElementById('grammarList'),
   grammarLoadMoreWrap: document.getElementById('grammarLoadMoreWrap'),
   grammarLoadMoreBtn: document.getElementById('grammarLoadMoreBtn'),
@@ -360,12 +382,87 @@ const elements = {
 };
 
 // ==========================================================================
+// PERSISTENCE (LOCALSTORAGE)
+// ==========================================================================
+const SETTINGS_STORAGE_KEY = 'chinese_quiz_user_prefs';
+
+function saveSettings() {
+  try {
+    const data = {
+      selectedLessonsB1: Array.from(state.selectedLessonsB1),
+      selectedLessonsB2: Array.from(state.selectedLessonsB2),
+      mode: state.mode,
+      questionCount: state.questionCount,
+      pinyinSetting: state.pinyinSetting,
+      soundEnabled: state.soundEnabled,
+      theme: state.theme
+    };
+    localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(data));
+  } catch (e) {
+    console.warn('Could not save settings to localStorage:', e);
+  }
+}
+
+function loadSettings() {
+  try {
+    const saved = localStorage.getItem(SETTINGS_STORAGE_KEY);
+    if (saved) {
+      const data = JSON.parse(saved);
+      if (Array.isArray(data.selectedLessonsB1)) {
+        state.selectedLessonsB1 = new Set(data.selectedLessonsB1);
+      }
+      if (Array.isArray(data.selectedLessonsB2)) {
+        state.selectedLessonsB2 = new Set(data.selectedLessonsB2);
+      }
+      if (data.mode) state.mode = data.mode;
+      if (data.questionCount !== undefined) state.questionCount = data.questionCount;
+      if (data.pinyinSetting) state.pinyinSetting = data.pinyinSetting;
+      if (typeof data.soundEnabled === 'boolean') state.soundEnabled = data.soundEnabled;
+      if (data.theme) state.theme = data.theme;
+      return true;
+    }
+  } catch (e) {
+    console.warn('Could not load settings from localStorage:', e);
+  }
+  return false;
+}
+
+// ==========================================================================
 // INITIALIZATION
 // ==========================================================================
 function init() {
-  renderLessonSelectors();
+  const loaded = loadSettings();
+
+  // If no lessons selected (e.g. first visit), default to Book 1 Lesson 1
+  if (state.selectedLessonsB1.size === 0 && state.selectedLessonsB2.size === 0) {
+    state.selectedLessonsB1.add(1);
+  }
+
+  // Synchronize UI active states with restored state
+  elements.modeCards.forEach(c => c.classList.toggle('active', c.dataset.mode === state.mode));
+  elements.questionChips.forEach(c => c.classList.toggle('active', c.dataset.count == state.questionCount || (c.dataset.count === 'all' && state.questionCount === 'all')));
+  elements.pinyinChips.forEach(c => c.classList.toggle('active', c.dataset.pinyin === state.pinyinSetting));
+
+  if (state.soundEnabled !== undefined) {
+    elements.soundToggleBtns.forEach(b => {
+      const icon = b.querySelector('.icon');
+      if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
+    });
+  }
+
+  if (state.theme === 'light') {
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add('light-theme');
+    elements.themeToggleBtns.forEach(b => {
+      const icon = b.querySelector('.icon');
+      if (icon) icon.textContent = '☀️';
+    });
+  }
+
+  updateLessonSummaryCard();
   updatePoolStats();
   bindEvents();
+  bindLessonModalEvents();
 
   if ('speechSynthesis' in window) {
     window.speechSynthesis.onvoiceschanged = () => {
@@ -374,74 +471,332 @@ function init() {
   }
 }
 
-// Render dynamic lesson selector rows (separate rows for Book 1 & Book 2)
-function renderLessonSelectors() {
-  elements.lessonsContainer.innerHTML = '';
+// Format number arrays into readable ranges e.g. "1–3, 5, 8"
+function formatLessonNumberRanges(nums) {
+  if (nums.length === 0) return '';
+  if (nums.length <= 4) return nums.join(', ');
+  const ranges = [];
+  let start = nums[0];
+  let prev = start;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] === prev + 1) {
+      prev = nums[i];
+    } else {
+      ranges.push(start === prev ? `${start}` : `${start}–${prev}`);
+      start = nums[i];
+      prev = start;
+    }
+  }
+  ranges.push(start === prev ? `${start}` : `${start}–${prev}`);
+  return ranges.join(', ');
+}
 
-  const renderBookRow = (bookNum, title, setObj) => {
-    const block = document.createElement('div');
-    block.className = 'lesson-group-block';
+// Jump to Nth grammar card from Grammar Focus Banner
+function jumpToGrammarCard(idx) {
+  const cards = elements.grammarList.querySelectorAll('.grammar-card');
+  if (!cards || cards.length === 0) return;
+  const targetCard = cards[Math.min(idx, cards.length - 1)];
+  if (!targetCard) return;
 
-    const header = document.createElement('div');
-    header.className = 'lesson-header-compact';
-    header.innerHTML = `
-      <span class="section-label">${title}</span>
-      <div class="lesson-actions-compact">
-        <button type="button" class="text-link-btn" data-action="all">All</button>
-        <span class="sep">•</span>
-        <button type="button" class="text-link-btn" data-action="clear">Clear</button>
+  targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  // Trigger pulse highlight animation
+  targetCard.classList.remove('grammar-card-highlight');
+  void targetCard.offsetWidth; // force reflow
+  targetCard.classList.add('grammar-card-highlight');
+  setTimeout(() => {
+    targetCard.classList.remove('grammar-card-highlight');
+  }, 2000);
+}
+
+// Update the Main Setup Screen Lesson Trigger Card
+function updateLessonSummaryCard() {
+  if (!elements.lessonTriggerTitle) return;
+
+  const b1Arr = Array.from(state.selectedLessonsB1).sort((a, b) => a - b);
+  const b2Arr = Array.from(state.selectedLessonsB2).sort((a, b) => a - b);
+  const total = b1Arr.length + b2Arr.length;
+
+  if (total === 0) {
+    elements.lessonTriggerTitle.textContent = 'No Lessons Selected';
+    elements.lessonTriggerSub.textContent = 'Click to choose lessons for your practice pool';
+    elements.lessonTriggerBadges.innerHTML = `<span class="trigger-book-badge" style="opacity: 0.6;">0 lessons active</span>`;
+    return;
+  }
+
+  if (b1Arr.length === 15 && b2Arr.length === 15) {
+    elements.lessonTriggerTitle.textContent = 'All Lessons Selected (30)';
+    elements.lessonTriggerSub.textContent = 'Book 1 (1–15) • Book 2 (1–15)';
+    elements.lessonTriggerBadges.innerHTML = `
+      <span class="trigger-book-badge">Book 1: All 15</span>
+      <span class="trigger-book-badge b2">Book 2: All 15</span>
+    `;
+    return;
+  }
+
+  elements.lessonTriggerTitle.textContent = `${total} Lesson${total === 1 ? '' : 's'} Selected`;
+
+  let subText = '';
+  if (b1Arr.length > 0 && b2Arr.length > 0) {
+    subText = `Book 1 (${b1Arr.length}/15) • Book 2 (${b2Arr.length}/15)`;
+  } else if (b1Arr.length > 0) {
+    subText = `Book 1 (${b1Arr.length}/15 lessons)`;
+  } else {
+    subText = `Book 2 (${b2Arr.length}/15 lessons)`;
+  }
+  elements.lessonTriggerSub.textContent = subText;
+
+  let badgesHtml = '';
+  if (b1Arr.length > 0) {
+    const listStr = b1Arr.length === 15 ? 'All 15' : formatLessonNumberRanges(b1Arr);
+    badgesHtml += `<span class="trigger-book-badge">B1: ${listStr}</span>`;
+  }
+  if (b2Arr.length > 0) {
+    const listStr = b2Arr.length === 15 ? 'All 15' : formatLessonNumberRanges(b2Arr);
+    badgesHtml += `<span class="trigger-book-badge b2">B2: ${listStr}</span>`;
+  }
+  elements.lessonTriggerBadges.innerHTML = badgesHtml;
+}
+
+// Update Modal Summary Footer Counter
+function updateModalSummaryFooter() {
+  if (!elements.modalSelectedSummary || !elements.modalWordsSummary) return;
+  const b1Count = state.selectedLessonsB1.size;
+  const b2Count = state.selectedLessonsB2.size;
+  const total = b1Count + b2Count;
+
+  elements.modalSelectedSummary.textContent = `${total} lesson${total === 1 ? '' : 's'} selected (B1: ${b1Count}, B2: ${b2Count})`;
+
+  const pool = getFilteredPool();
+  const grammarPool = getFilteredGrammar();
+  elements.modalWordsSummary.textContent = `${pool.length} vocab words • ${grammarPool.length} grammar points`;
+}
+
+// Render the 15 lesson items inside the overlay for active modal book tab
+function renderModalLessons() {
+  if (!elements.modalLessonList) return;
+  const currentBook = state.modalBook || 1;
+  const targetSet = currentBook === 1 ? state.selectedLessonsB1 : state.selectedLessonsB2;
+
+  if (elements.modalBookTabs) {
+    elements.modalBookTabs.forEach(tab => {
+      const b = parseInt(tab.dataset.book, 10);
+      tab.classList.toggle('active', b === currentBook);
+    });
+  }
+
+  elements.modalLessonList.innerHTML = '';
+
+  for (let l = 1; l <= 15; l++) {
+    const isSelected = targetSet.has(l);
+    const meta = (typeof LESSON_METADATA !== 'undefined' && LESSON_METADATA[currentBook] && LESSON_METADATA[currentBook][l]) || {
+      title: `Lesson ${l}`,
+      objectives: [],
+      grammar: []
+    };
+
+    const card = document.createElement('div');
+    card.className = `lesson-item-card ${isSelected ? 'selected' : ''}`;
+    card.dataset.lesson = l;
+
+    const hasObjectives = meta.objectives && meta.objectives.length > 0;
+    const hasGrammar = meta.grammar && meta.grammar.length > 0;
+    const hasDetails = hasObjectives || hasGrammar;
+
+    const mainRow = document.createElement('div');
+    mainRow.className = 'lesson-item-main-row';
+
+    const checkboxWrap = document.createElement('div');
+    checkboxWrap.className = 'lesson-checkbox-wrap';
+    checkboxWrap.innerHTML = `
+      <div class="lesson-custom-checkbox">${isSelected ? '✓' : ''}</div>
+      <div class="lesson-card-labels">
+        <div class="lesson-card-num-title">
+          <span class="lesson-num-pill">L${l}</span>
+          <span>${escapeHtml(meta.title)}</span>
+        </div>
       </div>
     `;
 
-    const grid = document.createElement('div');
-    grid.className = 'lesson-grid-compact';
+    checkboxWrap.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (targetSet.has(l)) {
+        targetSet.delete(l);
+        card.classList.remove('selected');
+        const cb = card.querySelector('.lesson-custom-checkbox');
+        if (cb) cb.textContent = '';
+      } else {
+        targetSet.add(l);
+        card.classList.add('selected');
+        const cb = card.querySelector('.lesson-custom-checkbox');
+        if (cb) cb.textContent = '✓';
+      }
+      updatePoolStats();
+      updateLessonSummaryCard();
+      updateModalSummaryFooter();
+      saveSettings();
+    });
 
-    for (let l = 1; l <= 15; l++) {
-      const chip = document.createElement('button');
-      chip.type = 'button';
-      chip.className = `lesson-chip-c ${setObj.has(l) ? 'active' : ''}`;
-      chip.textContent = `${l}`;
-      chip.addEventListener('click', () => {
-        if (setObj.has(l)) {
-          setObj.delete(l);
-          chip.classList.remove('active');
-        } else {
-          setObj.add(l);
-          chip.classList.add('active');
-        }
-        updatePoolStats();
+    mainRow.appendChild(checkboxWrap);
+
+    if (hasDetails) {
+      const expandBtn = document.createElement('button');
+      expandBtn.type = 'button';
+      expandBtn.className = 'lesson-expand-btn';
+      expandBtn.title = 'View learning objectives and grammar focus';
+      expandBtn.innerHTML = '▼';
+      expandBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        card.classList.toggle('expanded');
       });
-      grid.appendChild(chip);
+      mainRow.appendChild(expandBtn);
     }
 
-    // Header actions
-    header.querySelector('[data-action="all"]').addEventListener('click', () => {
-      for (let l = 1; l <= 15; l++) setObj.add(l);
-      grid.querySelectorAll('.lesson-chip-c').forEach(c => c.classList.add('active'));
-      updatePoolStats();
+    card.appendChild(mainRow);
+
+    if (hasDetails) {
+      const drawer = document.createElement('div');
+      drawer.className = 'lesson-item-drawer';
+
+      let drawerHtml = '';
+      if (hasObjectives) {
+        drawerHtml += `
+          <div class="drawer-section">
+            <div class="drawer-section-title">🎯 Learning Objectives</div>
+            <ul class="drawer-list">
+              ${meta.objectives.map(obj => `<li>${escapeHtml(obj)}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+      }
+      if (hasGrammar) {
+        drawerHtml += `
+          <div class="drawer-section grammar-sec">
+            <div class="drawer-section-title">📝 Grammar Focus</div>
+            <ul class="drawer-list">
+              ${meta.grammar.map(pt => `<li>${escapeHtml(pt)}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+      }
+
+      drawer.innerHTML = drawerHtml;
+      card.appendChild(drawer);
+    }
+
+    elements.modalLessonList.appendChild(card);
+  }
+
+  updateModalSummaryFooter();
+}
+
+function openLessonModal() {
+  if (!elements.lessonPickerModal) return;
+  state.modalBook = state.modalBook || 1;
+  renderModalLessons();
+  elements.lessonPickerModal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLessonModal() {
+  if (!elements.lessonPickerModal) return;
+  elements.lessonPickerModal.style.display = 'none';
+  document.body.style.overflow = '';
+  updateLessonSummaryCard();
+  updatePoolStats();
+  saveSettings();
+}
+
+function bindLessonModalEvents() {
+  if (elements.openLessonModalBtn) {
+    elements.openLessonModalBtn.addEventListener('click', openLessonModal);
+    elements.openLessonModalBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openLessonModal();
+      }
     });
+  }
 
-    header.querySelector('[data-action="clear"]').addEventListener('click', () => {
-      setObj.clear();
-      grid.querySelectorAll('.lesson-chip-c').forEach(c => c.classList.remove('active'));
+  if (elements.quickSelectAllBtn) {
+    elements.quickSelectAllBtn.addEventListener('click', () => {
+      for (let l = 1; l <= 15; l++) {
+        state.selectedLessonsB1.add(l);
+        state.selectedLessonsB2.add(l);
+      }
+      updateLessonSummaryCard();
       updatePoolStats();
+      saveSettings();
     });
+  }
 
-    block.appendChild(header);
-    block.appendChild(grid);
-    elements.lessonsContainer.appendChild(block);
-  };
+  if (elements.quickClearBtn) {
+    elements.quickClearBtn.addEventListener('click', () => {
+      state.selectedLessonsB1.clear();
+      state.selectedLessonsB2.clear();
+      updateLessonSummaryCard();
+      updatePoolStats();
+      saveSettings();
+    });
+  }
 
-  renderBookRow(1, 'BOOK 1 LESSONS', state.selectedLessonsB1);
-  renderBookRow(2, 'BOOK 2 LESSONS', state.selectedLessonsB2);
+  if (elements.closeLessonModalBtn) {
+    elements.closeLessonModalBtn.addEventListener('click', closeLessonModal);
+  }
+  if (elements.applyLessonModalBtn) {
+    elements.applyLessonModalBtn.addEventListener('click', closeLessonModal);
+  }
+  if (elements.lessonModalBackdrop) {
+    elements.lessonModalBackdrop.addEventListener('click', closeLessonModal);
+  }
+
+  if (elements.modalBookTabs) {
+    elements.modalBookTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        state.modalBook = parseInt(tab.dataset.book, 10);
+        renderModalLessons();
+      });
+    });
+  }
+
+  if (elements.modalSelectAllBtn) {
+    elements.modalSelectAllBtn.addEventListener('click', () => {
+      const currentBook = state.modalBook || 1;
+      const targetSet = currentBook === 1 ? state.selectedLessonsB1 : state.selectedLessonsB2;
+      for (let l = 1; l <= 15; l++) targetSet.add(l);
+      renderModalLessons();
+      updateLessonSummaryCard();
+      updatePoolStats();
+      saveSettings();
+    });
+  }
+
+  if (elements.modalClearBtn) {
+    elements.modalClearBtn.addEventListener('click', () => {
+      const currentBook = state.modalBook || 1;
+      const targetSet = currentBook === 1 ? state.selectedLessonsB1 : state.selectedLessonsB2;
+      targetSet.clear();
+      renderModalLessons();
+      updateLessonSummaryCard();
+      updatePoolStats();
+      saveSettings();
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && elements.lessonPickerModal && elements.lessonPickerModal.style.display === 'flex') {
+      closeLessonModal();
+    }
+  });
 }
 
 // Filtered Vocabulary Pool
 function getFilteredPool() {
   if (typeof VOCAB_DATA === 'undefined') return [];
   return VOCAB_DATA.filter(item => {
-    if (item.book === 1) return state.selectedLessonsB1.has(item.lesson);
-    if (item.book === 2) return state.selectedLessonsB2.has(item.lesson);
+    const book = item.book || 1;
+    if (book === 1) return state.selectedLessonsB1.has(item.lesson);
+    if (book === 2) return state.selectedLessonsB2.has(item.lesson);
     return false;
   });
 }
@@ -450,8 +805,9 @@ function getFilteredPool() {
 function getFilteredGrammar() {
   if (typeof GRAMMAR_DATA === 'undefined') return [];
   return GRAMMAR_DATA.filter(item => {
-    if (item.book === 1) return state.selectedLessonsB1.has(item.chapter);
-    if (item.book === 2) return state.selectedLessonsB2.has(item.chapter);
+    const book = item.book || 1;
+    if (book === 1) return state.selectedLessonsB1.has(item.chapter);
+    if (book === 2) return state.selectedLessonsB2.has(item.chapter);
     return false;
   });
 }
@@ -460,9 +816,10 @@ function getFilteredGrammar() {
 function updatePoolStats() {
   const pool = getFilteredPool();
   const grammarPool = getFilteredGrammar();
-  const b1Count = pool.filter(w => w.book === 1).length;
+  const b1Count = pool.filter(w => (w.book || 1) === 1).length;
   const b2Count = pool.filter(w => w.book === 2).length;
   elements.poolStats.innerHTML = `Pool: <strong>${pool.length} vocab</strong> (B1: ${b1Count}, B2: ${b2Count}) • <strong>${grammarPool.length} grammar points</strong>`;
+  updateLessonSummaryCard();
 }
 
 // Event Bindings
@@ -474,6 +831,7 @@ function bindEvents() {
       elements.modeCards.forEach(c => c.classList.remove('active'));
       card.classList.add('active');
       state.mode = card.dataset.mode;
+      saveSettings();
     });
   });
 
@@ -484,6 +842,7 @@ function bindEvents() {
       chip.classList.add('active');
       const count = chip.dataset.count;
       state.questionCount = count === 'all' ? 'all' : parseInt(count, 10);
+      saveSettings();
     });
   });
 
@@ -493,6 +852,7 @@ function bindEvents() {
       elements.pinyinChips.forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
       state.pinyinSetting = chip.dataset.pinyin;
+      saveSettings();
     });
   });
 
@@ -504,6 +864,7 @@ function bindEvents() {
         const icon = b.querySelector('.icon');
         if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
       });
+      saveSettings();
     });
   });
 
@@ -525,6 +886,7 @@ function bindEvents() {
         const icon = b.querySelector('.icon');
         if (icon) icon.textContent = newIcon;
       });
+      saveSettings();
     });
   });
 
@@ -722,6 +1084,16 @@ function bindEvents() {
   elements.grammarLoadMoreBtn.addEventListener('click', () => {
     renderGrammarExplorer(false);
   });
+
+  // Grammar Focus Banner Jump to Card
+  if (elements.grammarFocusList) {
+    elements.grammarFocusList.addEventListener('click', (e) => {
+      const item = e.target.closest('li[data-index]');
+      if (!item) return;
+      const idx = parseInt(item.dataset.index, 10);
+      jumpToGrammarCard(idx);
+    });
+  }
 
   // Lightbox Modal Listeners
   elements.lightboxCloseBtn.addEventListener('click', closeImageLightbox);
@@ -1902,7 +2274,34 @@ function getExplorerGrammarList() {
   });
 }
 
+// Update Grammar Lesson Focus Banner at top of Grammar Reference Page
+function updateGrammarLessonFocusBanner() {
+  if (!elements.grammarLessonFocusBanner) return;
+  const lesson = state.grammarFilter.lesson;
+  if (lesson === 'all') {
+    elements.grammarLessonFocusBanner.style.display = 'none';
+    return;
+  }
+
+  const book = state.grammarFilter.book === 2 ? 2 : 1;
+  const meta = (typeof LESSON_METADATA !== 'undefined' && LESSON_METADATA[book] && LESSON_METADATA[book][lesson]);
+
+  if (!meta || !meta.grammar || meta.grammar.length === 0) {
+    elements.grammarLessonFocusBanner.style.display = 'none';
+    return;
+  }
+
+  elements.grammarFocusBadge.textContent = `BOOK ${book} • LESSON ${lesson}`;
+  elements.grammarFocusTitle.textContent = `Lesson ${lesson}: ${meta.title}`;
+  elements.grammarFocusList.innerHTML = meta.grammar.map((pt, idx) => 
+    `<li class="grammar-focus-item" data-index="${idx}" title="Jump to rule ${idx + 1}">${escapeHtml(pt)}</li>`
+  ).join('');
+  elements.grammarLessonFocusBanner.style.display = 'block';
+}
+
 function renderGrammarExplorer(reset = true) {
+  updateGrammarLessonFocusBanner();
+
   const filtered = getExplorerGrammarList();
   elements.grammarFilterStats.textContent = `Showing ${filtered.length.toLocaleString()} rule${filtered.length === 1 ? '' : 's'}`;
 
