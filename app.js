@@ -225,7 +225,8 @@ const soundEngine = {
 
 // Mandarin Text-to-Speech Engine
 const ttsEngine = {
-  speak(text) {
+  speak(text, { force = false } = {}) {
+    if (!state.soundEnabled && !force) return;
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
@@ -857,38 +858,67 @@ function bindEvents() {
   });
 
   // Sound toggles (desktop & mobile sync)
+  function toggleSound() {
+    state.soundEnabled = !state.soundEnabled;
+    if (!state.soundEnabled && ('speechSynthesis' in window)) {
+      window.speechSynthesis.cancel();
+    }
+    elements.soundToggleBtns.forEach(b => {
+      const icon = b.querySelector('.icon');
+      if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
+    });
+    saveSettings();
+  }
+
   elements.soundToggleBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      state.soundEnabled = !state.soundEnabled;
-      elements.soundToggleBtns.forEach(b => {
-        const icon = b.querySelector('.icon');
-        if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
-      });
-      saveSettings();
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleSound();
     });
   });
 
+  const soundMenuRow = document.getElementById('soundMenuRow');
+  if (soundMenuRow) {
+    soundMenuRow.addEventListener('click', (e) => {
+      if (e.target.closest('.sound-toggle-btn')) return;
+      toggleSound();
+    });
+  }
+
   // Theme toggles (desktop & mobile sync)
+  function toggleTheme() {
+    const isLight = document.body.classList.contains('light-theme');
+    if (isLight) {
+      document.body.classList.remove('light-theme');
+      document.body.classList.add('dark-theme');
+      state.theme = 'dark';
+    } else {
+      document.body.classList.remove('dark-theme');
+      document.body.classList.add('light-theme');
+      state.theme = 'light';
+    }
+    const newIcon = state.theme === 'light' ? '☀️' : '🌙';
+    elements.themeToggleBtns.forEach(b => {
+      const icon = b.querySelector('.icon');
+      if (icon) icon.textContent = newIcon;
+    });
+    saveSettings();
+  }
+
   elements.themeToggleBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const isLight = document.body.classList.contains('light-theme');
-      if (isLight) {
-        document.body.classList.remove('light-theme');
-        document.body.classList.add('dark-theme');
-        state.theme = 'dark';
-      } else {
-        document.body.classList.remove('dark-theme');
-        document.body.classList.add('light-theme');
-        state.theme = 'light';
-      }
-      const newIcon = state.theme === 'light' ? '☀️' : '🌙';
-      elements.themeToggleBtns.forEach(b => {
-        const icon = b.querySelector('.icon');
-        if (icon) icon.textContent = newIcon;
-      });
-      saveSettings();
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleTheme();
     });
   });
+
+  const themeMenuRow = document.getElementById('themeMenuRow');
+  if (themeMenuRow) {
+    themeMenuRow.addEventListener('click', (e) => {
+      if (e.target.closest('.theme-toggle-btn')) return;
+      toggleTheme();
+    });
+  }
 
   // Start button
   elements.startQuizBtn.addEventListener('click', () => {
@@ -926,14 +956,14 @@ function bindEvents() {
   elements.promptAudioBtn.addEventListener('click', () => {
     const currentQ = state.roundItems[state.currentIndex];
     if (currentQ && currentQ.traditional) {
-      ttsEngine.speak(currentQ.traditional);
+      ttsEngine.speak(currentQ.traditional, { force: true });
     }
   });
 
   elements.grammarAudioBtn.addEventListener('click', () => {
     const currentQ = state.roundItems[state.currentIndex];
     if (currentQ && currentQ.fullSentence) {
-      ttsEngine.speak(currentQ.fullSentence);
+      ttsEngine.speak(currentQ.fullSentence, { force: true });
     }
   });
 
@@ -968,12 +998,14 @@ function bindEvents() {
       elements.menuToggleBtn.classList.toggle('active', !isVisible);
     });
 
-    document.addEventListener('click', (e) => {
+    const closeDropdown = (e) => {
       if (!elements.settingsDropdownMenu.contains(e.target) && !elements.menuToggleBtn.contains(e.target)) {
         elements.settingsDropdownMenu.style.display = 'none';
         elements.menuToggleBtn.classList.remove('active');
       }
-    });
+    };
+    document.addEventListener('click', closeDropdown);
+    document.addEventListener('touchend', closeDropdown);
   }
 
   // Vocab Explorer Book Chips
@@ -1100,7 +1132,7 @@ function bindEvents() {
   elements.lightboxBackdrop.addEventListener('click', closeImageLightbox);
   elements.lightboxAudioBtn.addEventListener('click', () => {
     if (state.activeModalItem && state.activeModalItem.traditional) {
-      ttsEngine.speak(state.activeModalItem.traditional);
+      ttsEngine.speak(state.activeModalItem.traditional, { force: true });
     }
   });
 
@@ -1682,7 +1714,7 @@ function handleGrammarAnswer(selectedText, currentItem, clickedBtn) {
   const timeSpentMs = performance.now() - state.questionStartTime;
   const isCorrect = selectedText === currentItem.target;
 
-  if (currentItem.fullSentence) {
+  if (state.soundEnabled && currentItem.fullSentence) {
     ttsEngine.speak(currentItem.fullSentence);
   }
 
@@ -1841,7 +1873,7 @@ function handleAnswer(selectedItem, correctItem, clickedBtn, qType) {
   const timeSpentMs = performance.now() - state.questionStartTime;
   const isCorrect = selectedItem.id === correctItem.id;
 
-  if (correctItem.traditional) {
+  if (state.soundEnabled && correctItem.traditional) {
     ttsEngine.speak(correctItem.traditional);
   }
 
@@ -2037,7 +2069,7 @@ function renderReviewList(filterType) {
         </div>
       `;
       itemEl.querySelector('.review-audio-btn').addEventListener('click', () => {
-        ttsEngine.speak(item.fullSentence);
+        ttsEngine.speak(item.fullSentence, { force: true });
       });
 
     } else {
@@ -2074,7 +2106,7 @@ function renderReviewList(filterType) {
         </div>
       `;
       itemEl.querySelector('.review-audio-btn').addEventListener('click', () => {
-        ttsEngine.speak(item.traditional);
+        ttsEngine.speak(item.traditional, { force: true });
       });
     }
 
@@ -2226,7 +2258,7 @@ function renderVocabExplorer(reset = true) {
     // Audio click
     card.querySelector('.vocab-audio-btn').addEventListener('click', (e) => {
       e.stopPropagation();
-      ttsEngine.speak(item.traditional);
+      ttsEngine.speak(item.traditional, { force: true });
     });
 
     // Thumb click for modal
@@ -2389,7 +2421,7 @@ function renderGrammarExplorer(reset = true) {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         const sentence = btn.dataset.sentence;
-        if (sentence) ttsEngine.speak(sentence);
+        if (sentence) ttsEngine.speak(sentence, { force: true });
       });
     });
 

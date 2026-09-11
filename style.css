@@ -246,6 +246,20 @@ body.light-theme .main-nav-tabs {
   color: var(--text-secondary);
 }
 
+.clickable-menu-row {
+  cursor: pointer;
+  padding: 0.25rem 0.35rem;
+  border-radius: var(--radius-sm);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background var(--transition-fast);
+}
+
+.clickable-menu-row:hover,
+.clickable-menu-row:active {
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .icon-btn-compact {
   width: 34px;
   height: 34px;
