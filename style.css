@@ -246,18 +246,49 @@ body.light-theme .main-nav-tabs {
   color: var(--text-secondary);
 }
 
+button.menu-item-row {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font: inherit;
+  text-align: left;
+}
+
 .clickable-menu-row {
   cursor: pointer;
-  padding: 0.25rem 0.35rem;
+  padding: 0.35rem 0.5rem;
   border-radius: var(--radius-sm);
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  transition: background var(--transition-fast);
+  transition: background var(--transition-fast), color var(--transition-fast);
 }
 
 .clickable-menu-row:hover,
 .clickable-menu-row:active {
   background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.menu-item-ctrl {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.menu-status-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.12rem 0.42rem;
+  border-radius: var(--radius-pill);
+  background: rgba(99, 102, 241, 0.2);
+  color: var(--accent-secondary);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.menu-status-badge.muted {
+  background: rgba(239, 68, 68, 0.18);
+  color: #f87171;
 }
 
 .icon-btn-compact {

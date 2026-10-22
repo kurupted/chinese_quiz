@@ -8,7 +8,6 @@
   <meta name="description" content="Interactive Chinese vocabulary and grammar speed trainer for Book 1 & Book 2.">
   <meta name="referrer" content="no-referrer">
   <meta name="theme-color" content="#0a0d14">
-  <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/svg+xml" href="icon.svg">
   <link rel="apple-touch-icon" href="icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,18 +71,20 @@
 
           <!-- Dropdown Menu -->
           <div id="settingsDropdownMenu" class="settings-dropdown-menu glass-panel" style="display: none;">
-            <div class="menu-item-row clickable-menu-row" id="soundMenuRow">
+            <button type="button" class="menu-item-row clickable-menu-row" id="soundMenuRow" title="Toggle Sound" aria-label="Toggle Sound">
               <span class="menu-item-label">Sound</span>
-              <button type="button" class="icon-btn-compact sound-toggle-btn" title="Toggle Sound" aria-label="Toggle Sound">
-                <span class="icon">🔊</span>
-              </button>
-            </div>
-            <div class="menu-item-row clickable-menu-row" id="themeMenuRow">
+              <div class="menu-item-ctrl">
+                <span class="menu-status-badge" id="soundStatusBadge">ON</span>
+                <span class="icon sound-menu-icon" id="soundMenuIcon">🔊</span>
+              </div>
+            </button>
+            <button type="button" class="menu-item-row clickable-menu-row" id="themeMenuRow" title="Toggle Theme" aria-label="Toggle Theme">
               <span class="menu-item-label">Theme</span>
-              <button type="button" class="icon-btn-compact theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
-                <span class="icon">🌙</span>
-              </button>
-            </div>
+              <div class="menu-item-ctrl">
+                <span class="menu-status-badge" id="themeStatusBadge">Dark</span>
+                <span class="icon theme-menu-icon" id="themeMenuIcon">🌙</span>
+              </div>
+            </button>
           </div>
         </div>
       </div>

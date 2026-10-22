@@ -453,6 +453,80 @@ function loadSettings() {
 }
 
 // ==========================================================================
+// SOUND & THEME UI SYNCHRONIZATION
+// ==========================================================================
+function updateSoundUI() {
+  const isMuted = !state.soundEnabled;
+  const soundIcon = isMuted ? '🔇' : '🔊';
+  const statusText = isMuted ? 'OFF' : 'ON';
+
+  elements.soundToggleBtns.forEach(b => {
+    const icon = b.querySelector('.icon');
+    if (icon) icon.textContent = soundIcon;
+    b.title = isMuted ? 'Unmute Sound' : 'Mute Sound';
+    b.setAttribute('aria-label', isMuted ? 'Unmute Sound' : 'Mute Sound');
+    b.classList.toggle('muted', isMuted);
+  });
+
+  const soundMenuIcon = document.getElementById('soundMenuIcon');
+  if (soundMenuIcon) soundMenuIcon.textContent = soundIcon;
+
+  const soundStatusBadge = document.getElementById('soundStatusBadge');
+  if (soundStatusBadge) {
+    soundStatusBadge.textContent = statusText;
+    soundStatusBadge.classList.toggle('muted', isMuted);
+  }
+}
+
+function toggleSound() {
+  state.soundEnabled = !state.soundEnabled;
+  if (!state.soundEnabled) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    if (soundEngine.ctx && soundEngine.ctx.state === 'running') {
+      soundEngine.ctx.suspend().catch(() => {});
+    }
+  } else {
+    if (soundEngine.ctx && soundEngine.ctx.state === 'suspended') {
+      soundEngine.ctx.resume().catch(() => {});
+    }
+  }
+  updateSoundUI();
+  saveSettings();
+}
+
+function updateThemeUI() {
+  const isLight = state.theme === 'light';
+  const themeIcon = isLight ? '☀️' : '🌙';
+  const themeText = isLight ? 'Light' : 'Dark';
+
+  document.body.classList.toggle('dark-theme', !isLight);
+  document.body.classList.toggle('light-theme', isLight);
+
+  elements.themeToggleBtns.forEach(b => {
+    const icon = b.querySelector('.icon');
+    if (icon) icon.textContent = themeIcon;
+    b.title = isLight ? 'Switch to Dark Theme' : 'Switch to Light Theme';
+    b.setAttribute('aria-label', isLight ? 'Switch to Dark Theme' : 'Switch to Light Theme');
+  });
+
+  const themeMenuIcon = document.getElementById('themeMenuIcon');
+  if (themeMenuIcon) themeMenuIcon.textContent = themeIcon;
+
+  const themeStatusBadge = document.getElementById('themeStatusBadge');
+  if (themeStatusBadge) {
+    themeStatusBadge.textContent = themeText;
+  }
+}
+
+function toggleTheme() {
+  state.theme = state.theme === 'light' ? 'dark' : 'light';
+  updateThemeUI();
+  saveSettings();
+}
+
+// ==========================================================================
 // INITIALIZATION
 // ==========================================================================
 function init() {
@@ -468,21 +542,8 @@ function init() {
   elements.questionChips.forEach(c => c.classList.toggle('active', c.dataset.count == state.questionCount || (c.dataset.count === 'all' && state.questionCount === 'all')));
   elements.pinyinChips.forEach(c => c.classList.toggle('active', c.dataset.pinyin === state.pinyinSetting));
 
-  if (state.soundEnabled !== undefined) {
-    elements.soundToggleBtns.forEach(b => {
-      const icon = b.querySelector('.icon');
-      if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
-    });
-  }
-
-  if (state.theme === 'light') {
-    document.body.classList.remove('dark-theme');
-    document.body.classList.add('light-theme');
-    elements.themeToggleBtns.forEach(b => {
-      const icon = b.querySelector('.icon');
-      if (icon) icon.textContent = '☀️';
-    });
-  }
+  updateSoundUI();
+  updateThemeUI();
 
   updateLessonSummaryCard();
   updatePoolStats();
@@ -882,18 +943,6 @@ function bindEvents() {
   });
 
   // Sound toggles (desktop & mobile sync)
-  function toggleSound() {
-    state.soundEnabled = !state.soundEnabled;
-    if (!state.soundEnabled && ('speechSynthesis' in window)) {
-      window.speechSynthesis.cancel();
-    }
-    elements.soundToggleBtns.forEach(b => {
-      const icon = b.querySelector('.icon');
-      if (icon) icon.textContent = state.soundEnabled ? '🔊' : '🔇';
-    });
-    saveSettings();
-  }
-
   elements.soundToggleBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -904,31 +953,12 @@ function bindEvents() {
   const soundMenuRow = document.getElementById('soundMenuRow');
   if (soundMenuRow) {
     soundMenuRow.addEventListener('click', (e) => {
-      if (e.target.closest('.sound-toggle-btn')) return;
+      e.stopPropagation();
       toggleSound();
     });
   }
 
   // Theme toggles (desktop & mobile sync)
-  function toggleTheme() {
-    const isLight = document.body.classList.contains('light-theme');
-    if (isLight) {
-      document.body.classList.remove('light-theme');
-      document.body.classList.add('dark-theme');
-      state.theme = 'dark';
-    } else {
-      document.body.classList.remove('dark-theme');
-      document.body.classList.add('light-theme');
-      state.theme = 'light';
-    }
-    const newIcon = state.theme === 'light' ? '☀️' : '🌙';
-    elements.themeToggleBtns.forEach(b => {
-      const icon = b.querySelector('.icon');
-      if (icon) icon.textContent = newIcon;
-    });
-    saveSettings();
-  }
-
   elements.themeToggleBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -939,7 +969,7 @@ function bindEvents() {
   const themeMenuRow = document.getElementById('themeMenuRow');
   if (themeMenuRow) {
     themeMenuRow.addEventListener('click', (e) => {
-      if (e.target.closest('.theme-toggle-btn')) return;
+      e.stopPropagation();
       toggleTheme();
     });
   }
@@ -2485,17 +2515,24 @@ function renderGrammarExplorer(reset = true) {
 
 document.addEventListener('DOMContentLoaded', init);
 
-// Register Service Worker for Offline / Airplane Mode Support
-if ('serviceWorker' in navigator && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => {
-        console.log('ServiceWorker registered successfully with scope:', reg.scope);
-      })
-      .catch(err => {
-        console.warn('ServiceWorker registration error:', err);
-      });
-  });
+// Register Service Worker and Manifest for Offline / Airplane Mode Support (HTTP/HTTPS only)
+if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+  const manifestLink = document.createElement('link');
+  manifestLink.rel = 'manifest';
+  manifestLink.href = 'manifest.json';
+  document.head.appendChild(manifestLink);
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => {
+          console.log('ServiceWorker registered successfully with scope:', reg.scope);
+        })
+        .catch(err => {
+          console.warn('ServiceWorker registration error:', err);
+        });
+    });
+  }
 }
 
 // Ensure speech synthesis voices are ready when loaded asynchronously by browsers
