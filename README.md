@@ -119,3 +119,7 @@ python download_opensymbols.py 25
 ## 🚀 Getting Started
 
 Simply open `index.html` in your web browser. No web server or build step is required!
+
+### ✈️ Airplane Mode & Offline PWA
+- **Local Assets & Offline First**: 100% of vocabulary, grammar rules, audio synthesizers, and local assets work completely offline without an active network connection.
+- **PWA Installation**: When served locally (e.g. `python -m http.server`) or hosted on GitHub Pages, the Service Worker (`sw.js`) and Web App Manifest (`manifest.json`) automatically cache all application code and assets, allowing you to install it as an app and study anywhere in Airplane Mode.

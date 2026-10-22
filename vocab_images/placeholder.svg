@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141824"/>
+      <stop offset="50%" stop-color="#1a2035"/>
+      <stop offset="100%" stop-color="#0f131f"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1.5" y="1.5" width="397" height="297" rx="15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <circle cx="200" cy="115" r="48" fill="rgba(99, 102, 241, 0.12)" stroke="rgba(99, 102, 241, 0.25)" stroke-width="1.5"/>
+  <!-- Stylized Hanzi character 文 (Language / Culture) -->
+  <text x="200" y="132" font-family="'Noto Sans TC', 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="bold" fill="url(#iconGrad)" text-anchor="middle">文</text>
+  <text x="200" y="195" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5">Chinese Practice</text>
+  <text x="200" y="222" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Offline Placeholder</text>
+</svg>

@@ -228,17 +228,41 @@ const ttsEngine = {
   speak(text, { force = false } = {}) {
     if (!state.soundEnabled && !force) return;
     if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'zh-TW';
-    utterance.rate = 0.92;
 
-    const voices = window.speechSynthesis.getVoices();
-    const zhVoice = voices.find(v => v.lang === 'zh-TW' || v.lang === 'zh-HK' || v.lang.startsWith('zh'));
-    if (zhVoice) {
-      utterance.voice = zhVoice;
+    try {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'zh-TW';
+      utterance.rate = 0.92;
+
+      const voices = window.speechSynthesis.getVoices() || [];
+      const isOnline = typeof navigator === 'undefined' || navigator.onLine !== false;
+
+      let chosenVoice = null;
+      if (isOnline) {
+        // Preferred default: use natural cloud voices when connected
+        chosenVoice = voices.find(v => v.lang === 'zh-TW' || v.lang === 'zh-HK' || v.lang.startsWith('zh'));
+      } else {
+        // Offline / Airplane mode: select an on-device local voice
+        chosenVoice = voices.find(v => v.localService && (v.lang === 'zh-TW' || v.lang === 'zh-HK' || v.lang.startsWith('zh')));
+      }
+
+      if (chosenVoice) {
+        utterance.voice = chosenVoice;
+      } else if (!isOnline) {
+        // When offline and no local Chinese voice is installed, fail gracefully (no voice)
+        return;
+      }
+
+      utterance.onerror = (e) => {
+        // Safely catch any audio abort or network voice interruption
+        console.warn('TTS playback notification:', e.error || e);
+      };
+
+      window.speechSynthesis.speak(utterance);
+    } catch (err) {
+      console.warn('Speech synthesis unavailable:', err);
     }
-    window.speechSynthesis.speak(utterance);
   }
 };
 
@@ -1367,7 +1391,7 @@ function createGrammarClozeQuestion(grammarPoint, sentence, sentencePinyin = '',
   };
 }
 
-// Try local vocab_images first, with fallback to Unsplash CDN
+// Try local vocab_images first, with graceful local SVG fallback
 async function resolveItemImage(item) {
   if (state.cachedImages.has(item.id)) {
     return state.cachedImages.get(item.id);
@@ -1397,16 +1421,29 @@ async function resolveItemImage(item) {
   }
 
   if (item.photoUrl) {
-    state.cachedImages.set(item.id, item.photoUrl);
-    return item.photoUrl;
+    const isRemote = item.photoUrl.startsWith('http://') || item.photoUrl.startsWith('https://');
+    if (!isRemote || (typeof navigator === 'undefined' || navigator.onLine !== false)) {
+      const works = await testImageLoads(item.photoUrl);
+      if (works) {
+        state.cachedImages.set(item.id, item.photoUrl);
+        return item.photoUrl;
+      }
+    }
   }
 
-  const unsplashSearchUrl = `https://images.unsplash.com/photo-1507842229455-7d74900c608f?w=800&auto=format&fit=crop&q=80`;
-  state.cachedImages.set(item.id, unsplashSearchUrl);
-  return unsplashSearchUrl;
+  const fallbackUrl = 'vocab_images/placeholder.svg';
+  state.cachedImages.set(item.id, fallbackUrl);
+  return fallbackUrl;
 }
 
 function testImageLoads(url) {
+  if (!url) return Promise.resolve(false);
+  const isRemote = url.startsWith('http://') || url.startsWith('https://');
+  if (isRemote && typeof navigator !== 'undefined' && navigator.onLine === false) {
+    // Instantly bypass external network requests in airplane mode without waiting 1.2s timeout
+    return Promise.resolve(false);
+  }
+
   return new Promise((resolve) => {
     const img = new Image();
     img.referrerPolicy = 'no-referrer';
@@ -1548,7 +1585,10 @@ function loadQuestion(index) {
     elements.imagePromptContainer.style.display = 'flex';
     elements.promptInstruction.textContent = 'Select the correct Chinese word/phrase:';
 
-    const photoUrl = state.cachedImages.get(currentItem.id) || currentItem.localImage || currentItem.photoUrl;
+    const photoUrl = state.cachedImages.get(currentItem.id) || currentItem.localImage || currentItem.photoUrl || 'vocab_images/placeholder.svg';
+    elements.quizImage.onerror = () => {
+      elements.quizImage.src = 'vocab_images/placeholder.svg';
+    };
     elements.quizImage.src = photoUrl;
 
     const options = generateOptions(currentItem, qType);
@@ -2165,7 +2205,10 @@ function matchPinyin(source, query) {
 
 function openImageLightbox(item) {
   state.activeModalItem = item;
-  const imgSrc = item.localImage || item.photoUrl || '';
+  const imgSrc = item.localImage || item.photoUrl || 'vocab_images/placeholder.svg';
+  elements.lightboxImg.onerror = () => {
+    elements.lightboxImg.src = 'vocab_images/placeholder.svg';
+  };
   elements.lightboxImg.src = imgSrc;
   elements.lightboxImg.alt = item.traditional;
   elements.lightboxHanzi.textContent = item.traditional;
@@ -2441,4 +2484,24 @@ function renderGrammarExplorer(reset = true) {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// Register Service Worker for Offline / Airplane Mode Support
+if ('serviceWorker' in navigator && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then(reg => {
+        console.log('ServiceWorker registered successfully with scope:', reg.scope);
+      })
+      .catch(err => {
+        console.warn('ServiceWorker registration error:', err);
+      });
+  });
+}
+
+// Ensure speech synthesis voices are ready when loaded asynchronously by browsers
+if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis.onvoiceschanged !== undefined) {
+  window.speechSynthesis.onvoiceschanged = () => {
+    // Voices list loaded
+  };
+}
 
