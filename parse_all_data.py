@@ -1,7 +1,53 @@
 import os
 import json
 import re
-from pypinyin import pinyin, Style
+from pypinyin import pinyin, Style, load_phrases_dict, load_single_dict
+
+load_single_dict({
+    ord('著'): 'zhe',
+})
+
+load_phrases_dict({
+    '睡覺': [['shuì'], ['jiào']],
+    '睡著': [['shuì'], ['zháo']],
+    '睡不著': [['shuì'], ['bù'], ['zháo']],
+    '乾淨': [['gān'], ['jìng']],
+    '音樂': [['yīn'], ['yuè']],
+    '那行字': [['nà'], ['háng'], ['zì']],
+    '吃得了': [['chī'], ['de'], ['liǎo']],
+    '走得了': [['zǒu'], ['de'], ['liǎo']],
+    '不得了': [['bù'], ['dé'], ['liǎo']],
+    '便宜': [['pián'], ['yí']],
+    '照片': [['zhào'], ['piàn']],
+    '一張相': [['yī'], ['zhāng'], ['xiàng']],
+    '漂漂亮亮': [['piào'], ['piào'], ['liàng'], ['liàng']],
+    '教中文': [['jiāo'], ['zhōng'], ['wén']],
+    '教得': [['jiāo'], ['de']],
+    '都得上班': [['dōu'], ['děi'], ['shàng'], ['bān']],
+    '覺得': [['jué'], ['de']],
+    '做得': [['zuò'], ['de']],
+    '學得': [['xué'], ['de']],
+    '賣得': [['mài'], ['de']],
+    '說得': [['shuō'], ['de']],
+    '寫得': [['xiě'], ['de']],
+    '念得': [['niàn'], ['de']],
+    '遠得多': [['yuǎn'], ['de'], ['duō']],
+    '看得見': [['kàn'], ['de'], ['jiàn']],
+    '看得出來': [['kàn'], ['de'], ['chū'], ['lái']],
+    '聽得出來': [['tīng'], ['de'], ['chū'], ['lái']],
+    '坐得下': [['zuò'], ['de'], ['xià']],
+    '裝得下': [['zhuāng'], ['de'], ['xià']],
+    '買得到': [['mǎi'], ['de'], ['dào']],
+    '聽得到': [['tīng'], ['de'], ['dào']],
+    '租得起': [['zū'], ['de'], ['qǐ']],
+    '吃得起': [['chī'], ['de'], ['qǐ']],
+    '好得快': [['hǎo'], ['de'], ['kuài']],
+    '累得': [['lèi'], ['de']],
+    '冷得': [['lěng'], ['de']],
+    '痛得': [['tòng'], ['de']],
+    '餓得': [['è'], ['de']],
+    '熱鬧得很': [['rè'], ['nào'], ['de'], ['hěn']],
+})
 
 def format_sentence_pinyin(sentence):
     words = pinyin(sentence, style=Style.TONE)
@@ -241,7 +287,11 @@ def parse_all():
         "to stay up (new year’s)": ["night"],
         "to stick on": ["stick"],
         "uncle (older)": ["uncle"],
-        "way of saying / theory": ["say", "speech"]
+        "way of saying / theory": ["say", "speech"],
+        "to set off firecrackers": ["fireworks"],
+        "vacation / holiday": ["holiday"],
+        "to break / to split open": ["break"],
+        "over there / yonder": ["over there"]
     }
 
     grammar_translations = {}
@@ -278,7 +328,7 @@ def parse_all():
         # 1. Parse Vocab
         for line in vocab_section.splitlines():
             line = line.strip()
-            if not line or 'Vocabulary List' in line or line.startswith('English') or line.startswith('from http') or line.startswith('updated'):
+            if not line or 'Vocabulary List' in line or line.startswith('English\tTraditional') or line.startswith('from http') or line.startswith('updated'):
                 continue
             v_parts = re.split(r'\t+|\s{2,}', line)
             if len(v_parts) >= 4:

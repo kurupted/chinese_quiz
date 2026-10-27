@@ -7,23 +7,26 @@ Book 2 Vocabulary List:
 English	Traditional	Pinyin	Lesson
 alley	巷子	xiàng zi	1
 articles of daily use	日用品	rì yòng pǐn	1
+at the same time (while)	一邊	yī biān	1
 ATM machine	提款機	tí kuǎn jī	1
 (away) from	離	lí	1
 backpack	背包	bèi bāo	1
 convenience store	超商	chāo shāng	1
-easy to use / handy	好用	hǎo yòng	1
+to cross / pass	過	guò	1
 to discover	發現	fā xiàn	1
+to download	下載	xià zài	1
+easy to use / handy	好用	hǎo yòng	1
 forward / ahead	往前	wǎng qián	1
+to get lost	迷路	mí lù	1
 to get to	走	zǒu	1
 to go past	經過	jīng guò	1
-to cross / pass	過	guò	1
+to have seen	看見	kàn jiàn	1
 to help (do a favor)	幫忙	bāng máng	1
 Heping East Road	和平東路	Hé píng dōng lù	1
 hungry	餓	è	1
 in the end / finally	最後	zuì hòu	1
-at the same time (while)	一邊	yī biān	1
 intersection	路口	lù kǒu	1
-to get lost	迷路	mí lù	1
+just / happen to	正好	zhèng hǎo	1
 map	地圖	dì tú	1
 measure word for books	本	běn	1
 measure word for pens	枝	zhī	1
@@ -31,14 +34,14 @@ next	下	xià	1
 noodle shop	麵店	miàn diàn	1
 notebook	本子	běn zi	1
 NTNU (Shida)	師大（師範大學）	Shī dà (Shī fàn Dà xué)	1
-on Shida Road	師大路	Shī dà lù	1
+on Shida Road	師大路上	Shī dà lù shàng	1
 ordinal marker	第	dì	1
+over there / yonder	那邊	nà biān	1
+passerby	路人	lù rén	1
 pen	筆	bǐ	1
 post office	郵局	yóu jú	1
 progressive particle	著	zhe	1
-passerby	路人	lù rén	1
 section	段	duàn	1
-to have seen	看見	kàn jiàn	1
 should / ought to	應該	yīng gāi	1
 to sound like	聽起來	tīng qǐ lái	1
 to tell	告訴	gào sù	1
@@ -46,6 +49,7 @@ traffic light	紅綠燈	hóng lǜ dēng	1
 to turn left	左轉	zuǒ zhuǎn	1
 to turn right	右轉	yòu zhuǎn	1
 to withdraw (money)	提	tí	1
+adverbial particle	地	de	2
 airplane	飛機	fēi jī	2
 airport	機場	jī chǎng	2
 boat / ship	船	chuán	2
@@ -55,13 +59,13 @@ complicated	複雜	fù zá	2
 computer show	電腦展	diàn nǎo zhǎn	2
 convenient / handy	便利	biàn lì	2
 directly	直接	zhí jiē	2
+to do properly	好好地	hǎo hǎo de	2
 downtown	市區	shì qū	2
 eastern part	東部	dōng bù	2
 EasyCard	悠遊卡	yōu yóu kǎ	2
 Europe	歐洲	Ōu zhōu	2
 everywhere	到處	dào chù	2
 exhibition hall	展覽館	zhǎn lǎn guǎn	2
-to do properly	好好地	hǎo hǎo de	2
 France	法國	Fǎ guó	2
 to get off	下	xià	2
 Good morning	早	zǎo	2
@@ -75,7 +79,6 @@ no need to	不必	bù bì	2
 No need to hurry	別急	bié jí	2
 number of scheduled runs	班次	bān cì	2
 opposite	對面	duì miàn	2
-adverbial particle	地	de	2
 right away / quickly	趕快	gǎn kuài	2
 route	路線	lù xiàn	2
 seaside	海邊	hǎi biān	2
@@ -92,12 +95,16 @@ troublesome	麻煩	má fan	2
 week	禮拜	lǐ bài	2
 with ease	輕鬆	qīng sōng	2
 World Trade Center Exhibition Hall	世貿展覽館	shì mào zhǎn lǎn guǎn	2
+a little bit of / some	一些	yī xiē	3
+activity center	活動中心	huó dòng zhōng xīn	3
 advertisement	廣告	guǎng gào	3
 to agree with	同意	tóng yì	3
 although	雖然	suī rán	3
 bread	麵包	miàn bāo	3
+to chat	聊天	liáo tiān	3
 Chinese characters	漢字	hàn zì	3
 culture	文化	wén huà	3
+dictation	聽寫	tīng xiě	3
 early	早	zǎo	3
 easy	容易	róng yì	3
 elementary school	小學	xiǎo xué	3
@@ -108,7 +115,6 @@ foreigner	外國人	wài guó rén	3
 to get to know	認識	rèn shi	3
 glad / pleased	高興	gāo xìng	3
 to go hiking	爬山	pá shān	3
-to chat	聊天	liáo tiān	3
 homework / assignment	作業	zuò yè	3
 to improve	進步	jìn bù	3
 life	生活	shēng huó	3
@@ -116,34 +122,35 @@ measure word for people (polite)	位	wèi	3
 middle of the night	半夜	bàn yè	3
 newspapers	報紙	bào zhǐ	3
 not enough	不夠	bù gòu	3
+Oh	噢	ō	3
 only	才	cái	3
 to practice	練習	liàn xí	3
 to prepare	準備	zhǔn bèi	3
 to recall / remember	想起來	xiǎng qǐ lái	3
+to select	選	xuǎn	3
 senior high school	高中	gāo zhōng	3
-a little bit of / some	一些	yī xiē	3
 to speak	說話	shuō huà	3
 speech / lecture	演講	yǎn jiǎng	3
 to take a test	考	kǎo	3
 test / exam	考試	kǎo shì	3
-dictation	聽寫	tīng xiě	3
 to understand	了解	liǎo jiě	3
 usually	平常	píng cháng	3
 Yangmingshan	陽明山	yáng míng shān	3
-to accept	答應	dā yìng	3
-afterwards / and then	然後	rán hòu	3
+to accept	答應	dā yìng	4
+afterwards / and then	然後	rán hòu	4
 Asia	亞洲	Yà zhōu	4
 to ask (polite)	請教	qǐng jiào	4
 based on / according to	按照	àn zhào	4
 to calculate	算	suàn	4
 common Chinese surname	黃	Huáng	4
 director	主任	zhǔ rèn	4
+to discuss	談	tán	4
 end of a month	月底	yuè dǐ	4
 English language	英文	yīng wén	4
 enough	夠	gòu	4
+except for	除了	chú le	4
 experience	經驗	jīng yàn	4
 to explain	說明	shuō míng	4
-except for	除了	chú le	4
 French language	法文	Fǎ wén	4
 Gao Meiling	高美玲	Gāo Měi líng	4
 grade (school year)	年級	nián jí	4
@@ -155,10 +162,11 @@ to introduce	介紹	jiè shào	4
 law	法律	fǎ lǜ	4
 linguistics	語言學	yǔ yán xué	4
 measure word for job	份	fèn	4
+morning	上午	shàng wǔ	4
 office	辦公室	bàn gōng shì	4
 overseas Chinese	華僑	huá qiáo	4
-to pay (wages)	發	fā	4
 pay	薪水	xīn shuǐ	4
+to pay (wages)	發	fā	4
 professor	教授	jiào shòu	4
 resume	履歷	lǚ lì	4
 to serve as	當	dāng	4
@@ -167,7 +175,6 @@ smoothly	順利	shùn lì	4
 Spanish language	西班牙語	xī bān yá yǔ	4
 suitable for	適合	shì hé	4
 summer vacation	暑假	shǔ jià	4
-to discuss	談	tán	4
 to talk	談話	tán huà	4
 teaching assistant	助教	zhù jiào	4
 unexpectedly	沒想到	méi xiǎng dào	4
@@ -183,16 +190,17 @@ bride	新娘	xīn niáng	5
 bridegroom	新郎	xīn láng	5
 camera	照相機	zhào xiàng jī	5
 candies	糖	táng	5
+to celebrate	慶祝	qìng zhù	5
 century-long matrimony	百年好合	bǎi nián hǎo hé	5
 chatting & laughing	有說有笑	yǒu shuō yǒu xiào	5
 child / children	小孩	xiǎo hái	5
 to congratulate	恭喜	gōng xǐ	5
 day	日子	rì zi	5
 to depart / to leave	離開	lí kāi	5
+extremely / terribly	不得了	bù dé liǎo	5
 formal	正式	zhèng shì	5
 formal attire	禮服	lǐ fú	5
 to get married	結婚	jié hūn	5
-to send off / give gift	送	sòng	5
 to give blessings	祝福	zhù fú	5
 guest	客人	kè rén	5
 hand	手	shǒu	5
@@ -209,25 +217,26 @@ newlyweds	新人	xīn rén	5
 red envelope	紅包	hóng bāo	5
 relatives	親戚	qīn qī	5
 seat	座位	zuò wèi	5
+to send off / give gift	送	sòng	5
 to stand	站	zhàn	5
 utterance / word	話	huà	5
-extremely / terribly	不得了	bù dé liǎo	5
 wedding banquet	喜酒	xǐ jiǔ	5
 wedding banquet / reception	喜宴	xǐ yàn	5
 wedding ceremony	婚禮	hūn lǐ	5
-white	白	bái	5
 (western) suit	西裝	xī zhuāng	5
+white	白	bái	5
 activity	活動	huó dòng	6
-activity center	活動中心	huó dòng zhōng xīn	6
 also	而且	ér qiě	6
+to be disappointed	失望	shī wàng	6
+to be willing to	願意	yuàn yì	6
 bed	床	chuáng	6
 bicycle	腳踏車	jiǎo tà chē	6
 bicycle	自行車	zì xíng chē	6
 both places / both sides	兩邊	liǎng biān	6
 chair	椅子	yǐ zi	6
-to be disappointed	失望	shī wàng	6
 club / association	社團	shè tuán	6
 contract / agreement	合約	hé yuē	6
+currently (in progress)	正在	zhèng zài	6
 desk / table	桌子	zhuō zi	6
 to discuss	討論	tǎo lùn	6
 don’t rush / no hurry	不急	bù jí	6
@@ -241,38 +250,40 @@ if	如果	rú guǒ	6
 important	重要	zhòng yào	6
 information	資料	zī liào	6
 to lack	少	shǎo	6
+Li Dongjian	李東健	Lǐ Dōng jiàn	6
 living expenses	生活費	shēng huó fèi	6
 long	長	cháng	6
+low	低	dī	6
 to move (home)	搬家	bān jiā	6
 to move to	搬	bān	6
 natural lighting	光線	guāng xiàn	6
 near / close by	近	jìn	6
 noisy	吵	chǎo	6
 not to worry	放心	fàng xīn	6
+other	別的	bié de	6
 park	公園	gōng yuán	6
-currently (in progress)	正在	zhèng zài	6
 riverside	河邊	hé biān	6
 to save	存	cún	6
 Seoul	首爾	Shǒu ěr	6
-suitable	合適	hé shì	6
-take your time	慢慢來	màn màn lái	6
 to stay / remain	留	liú	6
 to store / leave at	放	fàng	6
+suitable	合適	hé shì	6
+take your time	慢慢來	màn màn lái	6
 to use	用	yòng	6
 website	網站	wǎng zhàn	6
 what a pity	可惜	kě xí	6
 what kind of	什麼樣	shén me yàng	6
-to be willing to	願意	yuàn yì	6
+to assume wrongly	以為	yǐ wéi	7
 bag	袋子	dài zi	7
 bottle	瓶子	píng zi	7
 to chat	聊	liáo	7
-to check	查	chá	7
 city	城市	chéng shì	7
 classification	分類	fēn lèi	7
 to collect	收	shōu	7
 to drive over	開過來	kāi guò lái	7
 every day	天天	tiān tiān	7
 fixed / certain	一定	yī dìng	7
+for the sake of	為了	wèi le	7
 garbage	垃圾	lā jī	7
 to hear	聽見	tīng jiàn	7
 interesting	有趣	yǒu qù	7
@@ -281,9 +292,11 @@ to make use of	利用	lì yòng	7
 measure word for vehicles	輛	liàng	7
 not too bad	不壞	bú huài	7
 on the street	路上	lù shàng	7
+otherwise	要不然	yào bù rán	7
 paper	紙	zhǐ	7
 paper cup	紙杯	zhǐ bēi	7
 plastic	塑膠	sù jiāo	7
+to protect	保護	bǎo hù	7
 purse	皮包	pí bāo	7
 put down	放下	fàng xià	7
 to recycle	回收	huí shōu	7
@@ -295,15 +308,16 @@ to run after / chase	追	zhuī	7
 soda can	汽水罐	qì shuǐ guàn	7
 sound	聲音	shēng yīn	7
 strange	奇怪	qí guài	7
-to assume wrongly	以為	yǐ wéi	7
+suddenly	忽然	hū rán	7
+to throw away	丟	diū	7
 to throw into	丟進去	diū jìn qù	7
 to throw out	倒	dào	7
-to throw away	丟	diū	7
-for the sake of	為了	wèi le	7
 to walk out	走出來	zǒu chū lái	7
 to walk over	走過去	zǒu guò qù	7
 what to do?	怎麼辦	zěn me bàn	7
 always / invariably	總是	zǒng shì	8
+an entire day	整天	zhěng tiān	8
+to be gifted	有天分	yǒu tiān fèn	8
 benefit	好處	hǎo chù	8
 body	身體	shēn tǐ	8
 to borrow	借	jiè	8
@@ -311,8 +325,10 @@ to call (for attention)	叫	jiào	8
 can’t get up	起不來	qǐ bù lái	8
 can’t walk	走不了路	zǒu bù liǎo lù	8
 to complain	抱怨	bào yuàn	8
-an entire day	整天	zhěng tiān	8
-talent	天分	tiān fèn	8
+complement (particle)	了	le	8
+completion particle	完	wán	8
+to comprehend	懂	dǒng	8
+to continue (downward)	下去	xià qù	8
 gym (sports center)	體育館	tǐ yù guǎn	8
 to influence	影響	yǐng xiǎng	8
 interest	興趣	xìng qù	8
@@ -321,11 +337,10 @@ to learn / master	學會	xué huì	8
 leg	腿	tuǐ	8
 light / relaxed	輕	qīng	8
 master (teacher)	師父	shī fu	8
+maybe	可能	kě néng	8
 meter	公尺	gōng chǐ	8
 movement / action	動作	dòng zuò	8
 originally	本來	běn lái	8
-maybe	可能	kě néng	8
-completion particle	完	wán	8
 physical strength	體力	tǐ lì	8
 to practice	練	liàn	8
 to push	推	tuī	8
@@ -334,15 +349,10 @@ to return	回	huí	8
 to see	見	jiàn	8
 spirit / energy	精神	jīng shén	8
 Tai Chi	太極拳	tài jí quán	8
-to continue (downward)	下去	xià qù	8
-to comprehend	懂	dǒng	8
+talent	天分	tiān fèn	8
 to wake up	起來	qǐ lái	8
-to be gifted	有天分	yǒu tiān fèn	8
-complement (particle)	了	le	8
-absolutely / extremely	極了	jí le	8
-afford / affordable	買得起	mǎi de qǐ	8
-resultative particle (proper completion)	好	hǎo	9
-resultative particle (successful completion)	到	dào	9
+absolutely / extremely	極了	jí le	9
+afford / affordable	買得起	mǎi de qǐ	9
 apartment	公寓	gōng yù	9
 atmosphere	氣氛	qì fēn	9
 buildings	建築	jiàn zhú	9
@@ -355,16 +365,20 @@ countryside	鄉下	xiāng xià	9
 crowded	擠	jǐ	9
 department store	百貨公司	bǎi huò gōng sī	9
 different	不同	bù tóng	9
+distinctive traits	特色	tè sè	9
 to dive	潛水	qián shuǐ	9
 drink / beverage	飲料	yǐn liào	9
 enough	夠	gòu	9
 fish	魚	yú	9
+Kaohsiung City	高雄市	Gāo xióng shì	9
 lemon	檸檬	níng méng	9
+measure word for floors and storeys	層	céng	9
 modern	現代	xiàn dài	9
 more and more	越來越	yuè lái yuè	9
-the north	北部	běi bù	9
 old	老	lǎo	9
 Paris	巴黎	Bā lí	9
+resultative particle (proper completion)	好	hǎo	9
+resultative particle (successful completion)	到	dào	9
 rural town	鎮	zhèn	9
 similar to	像	xiàng	9
 sour	酸	suān	9
@@ -374,14 +388,17 @@ street	馬路	mǎ lù	9
 taste / flavor	味道	wèi dào	9
 temple	廟	miào	9
 Thailand	泰國	Tài guó	9
+the north	北部	běi bù	9
 unforgettable	忘不了	wàng bu liǎo	9
-distinctive traits	特色	tè sè	9
 various	各	gè	9
 warm-hearted	熱情	rè qíng	9
 wide	寬	kuān	9
 to add	加	jiā	10
+to be finished / none left	光	guāng	10
+to be full	飽	bǎo	10
 boiled dumplings	水餃	shuǐ jiǎo	10
 bowl	碗	wǎn	10
+to break / to split open	破	pò	10
 can’t tell / can’t see	看不出來	kàn bu chū lái	10
 chili peppers	辣椒	là jiāo	10
 Chinese cabbage	大白菜	dà bái cài	10
@@ -393,18 +410,18 @@ dining room	飯廳	fàn tīng	10
 door	門	mén	10
 dumplings	餃子	jiǎo zi	10
 filling (food)	餡兒	xiàn ér	10
-to be finished / none left	光	guāng	10
 flat	扁	biǎn	10
 food	食物	shí wù	10
 glass	玻璃	bō lí	10
 to go bad	壞	huài	10
-to be full	飽	bǎo	10
+to have enough space to accommodate	下	xià	10
 hot and sour soup	酸辣湯	suān là tāng	10
 ingredients / materials	材料	cái liào	10
 kimchi	泡菜	pào cài	10
 Korea	韓國	Hán guó	10
+Martin	馬丁	Mǎ dīng	10
 measure word for dishes of food	道	dào	10
-pork	豬肉	zhū ròu	10
+to pack into	裝	zhuāng	10
 pot / wok etc.	鍋子	guō zi	10
 salt	鹽	yán	10
 to savor / taste	嚐	cháng	10
@@ -418,9 +435,9 @@ such as	像	xiàng	10
 sushi	壽司	shòu sī	10
 to take off (clothes)	脫	tuō	10
 to wash	洗	xǐ	10
+when undertaken, to do	做起來	zuò qǐ lái	10
 while / take advantage of	趁	chèn	10
 to wrap	包	bāo	10
-when undertaken, to do	做起來	zuò qǐ lái	10
 aborigines	原住民	yuán zhù mín	11
 all	所有	suǒ yǒu	11
 and	又	yòu	11
@@ -428,6 +445,7 @@ beach	沙灘	shā tān	11
 Bed & Breakfast lodgings	民宿	mín sù	11
 beer	啤酒	pí jiǔ	11
 to consider	考慮	kǎo lǜ	11
+conveniently / while at it	順便	shùn biàn	11
 to disappear	不見	bú jiàn	11
 dusk	黃昏	huáng hūn	11
 to fall in love with	愛上	ài shàng	11
@@ -440,8 +458,8 @@ lake	湖	hú	11
 later	後來	hòu lái	11
 to lie down	躺	tǎng	11
 luck	運氣	yùn qì	11
-measure word for street	條	tiáo	11
 measure word for number of times	遍	biàn	11
+measure word for street	條	tiáo	11
 measure word for trip	趟	tàng	11
 motorcycle	摩托車	mó tuō chē	11
 other / the remaining	其他	qí tā	11
@@ -451,6 +469,7 @@ plants	植物	zhí wù	11
 romantic	浪漫	làng màn	11
 safe	安全	ān quán	11
 scenic area	風景區	fēng jǐng qū	11
+to steal	偷	tōu	11
 street	街	jiē	11
 to suggest	建議	jiàn yì	11
 Sun Moon Lake	日月潭	Rì yuè tán	11
@@ -460,19 +479,19 @@ then	又	yòu	11
 ticket	票	piào	11
 tourist	觀光客	guān guāng kè	11
 tropical region	熱帶	rè dài	11
-to steal	偷	tōu	11
+vacation / holiday	假期	jià qī	11
 verb particle (contact between nouns)	上	shàng	11
 wallet / purse	錢包	qián bāo	11
 water activities	水上活動	shuǐ shàng huó dòng	11
 worthwhile	值得	zhí dé	11
-conveniently / while at it	順便	shùn biàn	11
 as long as	只要	zhǐ yào	12
+to be a vegetarian / eat vegetarian	吃素	chī sù	12
+to be mistaken / wrong	錯	cuò	12
 to become	變	biàn	12
 completely	完全	wán quán	12
 curious / to wonder	好奇	hào qí	12
 to deep fry	炸	zhà	12
 to dislike	討厭	tǎo yàn	12
-the earth	地球	dì qiú	12
 fast food	速食	sù shí	12
 fast food restaurant	速食店	sù shí diàn	12
 fat	胖	pàng	12
@@ -488,7 +507,6 @@ McDonald’s	麥當勞	Mài dāng láo	12
 measure word for dishes / kinds	樣	yàng	12
 measure word for meals	餐	cān	12
 meat	肉	ròu	12
-to be mistaken / wrong	錯	cuò	12
 more (even more)	越	yuè	12
 newly	新	xīn	12
 nutrition	營養	yíng yǎng	12
@@ -505,18 +523,19 @@ salty	鹹	xián	12
 serious	嚴重	yán zhòng	12
 simple	簡單	jiǎn dān	12
 to steam	蒸	zhēng	12
-things like that	什麼的	shén me de	12
-thin	瘦	shòu	12
-vegetables	青菜	qīng cài	12
-vegetarian food	素食	sù shí	12
-vegetarian dishes	素菜	sù cài	12
-to be a vegetarian / eat vegetarian	吃素	chī sù	12
-way of doing (method)	作法	zuò fǎ	12
+the earth	地球	dì qiú	12
 the West	西方	xī fāng	12
+thin	瘦	shòu	12
+things like that	什麼的	shén me de	12
+vegetables	青菜	qīng cài	12
+vegetarian dishes	素菜	sù cài	12
+vegetarian food	素食	sù shí	12
+way of doing (method)	作法	zuò fǎ	12
 to be able to achieve / succeed in doing	做到	zuò dào	13
-to get angry at	生氣	shēng qì	13
 to charge (battery)	充電	chōng diàn	13
+to check	查	chá	13
 to check	檢查	jiǎn chá	13
+to discuss	談	tán	13
 electric power	電	diàn	13
 event / happening	事情	shì qing	13
 face-to-face	面對面	miàn duì miàn	13
@@ -525,6 +544,7 @@ first-hand	第一手	dì yī shǒu	13
 flight	班機	bān jī	13
 for example	比方說	bǐ fāng shuō	13
 function	功能	gōng néng	13
+to get angry at	生氣	shēng qì	13
 to get out of bed	起床	qǐ chuáng	13
 to greet / say hello	打招呼	dǎ zhāo hū	13
 gym (fitness center)	健身房	jiàn shēn fáng	13
@@ -534,6 +554,7 @@ in a hurry to	急著	jí zhe	13
 internet	網路	wǎng lù	13
 Italy	義大利	Yì dà lì	13
 to keep / remain	留下	liú xià	13
+Lin Aili	林愛麗	Lín Ài lì	13
 to lose	掉	diào	13
 to lower one’s head	低頭	dī tóu	13
 mail	郵件	yóu jiàn	13
@@ -542,21 +563,22 @@ modern-day people	現代人	xiàn dài rén	13
 muddle-headed	糊塗	hú tu	13
 news / information	消息	xiāo xī	13
 normal	正常	zhèng cháng	13
+phase particle (completion)	過	guò	13
+to save (economize)	節省	jié shěng	13
+to scold / yell at	罵	mà	13
+to send (text/email)	傳	chuán	13
 sentence-final particle (question)	啦	la	13
 sentence-final particle (suggestion)	喔	o	13
-to save (economize)	節省	jié shěng	13
-to send (text/email)	傳	chuán	13
-text message	簡訊	jiǎn xùn	13
-through	透過	tòu guò	13
-to discuss	談	tán	13
 to take away	拿走	ná zǒu	13
 to tell / call	叫	jiào	13
-to scold / yell at	罵	mà	13
-to upload	上傳	shàng chuán	13
+text message	簡訊	jiǎn xùn	13
 the world	世界	shì jiè	13
+through	透過	tòu guò	13
+to upload	上傳	shàng chuán	13
 academic department	系	xì	14
 accurate	準	zhǔn	14
 at that time	當時	dāng shí	14
+to be related to	有關	yǒu guān	14
 branch (company)	分公司	fēn gōng sī	14
 Business Administration Dept.	企業管理系	qǐ yè guǎn lǐ xì	14
 Canada	加拿大	Jiā ná dà	14
@@ -564,55 +586,57 @@ capability / capacity	能力	néng lì	14
 to come true / realize	實現	shí xiàn	14
 to complete (academic program)	念完	niàn wán	14
 to continue	繼續	jì xù	14
+to develop	發展	fā zhǎn	14
 diplomacy / foreign affairs	外交	wài jiāo	14
 to do research	研究	yán jiū	14
+economy	經濟	jīng jì	14
 to enrich / strengthen	充實	chōng shí	14
 enterprise	企業	qǐ yè	14
 to entertain (guests)	招待	zhāo dài	14
 even	連	lián	14
-the future	將來	jiāng lái	14
+to get together	聚	jù	14
+get together	聚一聚	jù yī jù	14
+goal / objective	目的	mù dì	14
 to graduate	畢業	bì yè	14
 graduate school	研究所	yán jiū suǒ	14
+grammar	語法	yǔ fǎ	14
 help / assistance	幫助	bāng zhù	14
 Hong Kong	香港	Xiāng gǎng	14
+idea	想法	xiǎng fǎ	14
 instructor	教師	jiào shī	14
 international	國際	guó jì	14
 international relations	國際關係	guó jì guān xì	14
 management	管理	guǎn lǐ	14
-method / approach	方法	fāng fǎ	14
 to mention	說到	shuō dào	14
-goal / objective	目的	mù dì	14
+method / approach	方法	fāng fǎ	14
 not only	不但	bù dàn	14
 profession / specialization	專業	zhuān yè	14
 pronunciation	發音	fā yīn	14
 reluctant to part with	捨不得	shě bu dé	14
 to seek (applications)	徵求	zhēng qiú	14
 Shanghai	上海	Shàng hǎi	14
-grammar	語法	yǔ fǎ	14
+staff / personnel	人員	rén yuán	14
 to teach	教書	jiāo shū	14
+the future	將來	jiāng lái	14
 to think / hold the opinion	認為	rèn wéi	14
 tones	聲調	shēng diào	14
 translator	翻譯	fān yì	14
 to use	使用	shǐ yòng	14
-idea	想法	xiǎng fǎ	14
-to develop	發展	fā zhǎn	14
 abroad	國外	guó wài	15
 abundance every year	年年有餘	nián nián yǒu yú	15
 again	又	yòu	15
 age	年紀	nián jì	15
 auspicious	吉祥	jí xiáng	15
-to celebrate	慶祝	qìng zhù	15
 to celebrate the New Year	過年	guò nián	15
-Chinese (ethnicity)	華人	huá rén	15
 children	孩子	hái zi	15
+Chinese (ethnicity)	華人	huá rén	15
 to clean up (sweep)	打掃	dǎ sǎo	15
 Congratulations. I wish you wealth	恭喜發財	gōng xǐ fā cái	15
 daughter	女兒	nǚ ér	15
-the entire family	全家	quán jiā	15
+to fall asleep	睡著	shuì zháo	15
 family gathering (NYE)	圍爐	wéi lú	15
 fifth day of Lunar New Year	大年初五	dà nián chū wǔ	15
 first day of Lunar New Year	大年初一	dà nián chū yī	15
-to fall asleep	睡著	shuì zháo	15
 to go out (house)	出門	chū mén	15
 great New Year wishes	大吉大利	dà jí dà lì	15
 holiday / festival	節日	jié rì	15
@@ -620,8 +644,9 @@ in addition	另外	lìng wài	15
 late	晚	wǎn	15
 to live	活	huó	15
 Lunar New Year’s Eve	除夕	chú xī	15
+Lunar New Year’s Eve (night)	除夕夜	chú xī yè	15
 Lunar New Year’s Eve dinner	年夜飯	nián yè fàn	15
-Spring Festival	春節	chūn jié	15
+meaning	意思	yì si	15
 New Year rice cake	年糕	nián gāo	15
 New Year’s couplets	春聯	chūn lián	15
 New Year’s Eve money	壓歲錢	yā suì qián	15
@@ -631,8 +656,11 @@ to pay a New Year visit	拜年	bài nián	15
 peaceful / safe	平安	píng ān	15
 resultative particle (beginning of state)	起來	qǐ lái	15
 rise in social rank	步步高升	bù bù gāo shēng	15
+to set off firecrackers	放鞭炮	fàng biān pào	15
+Spring Festival	春節	chūn jié	15
 to stay up (New Year’s)	守歲	shǒu suì	15
 to stick on	貼上	tiē shàng	15
+the entire family	全家	quán jiā	15
 to trouble / disturb	打擾	dǎ rǎo	15
 uncle (older)	伯伯	bó bo	15
 way of saying / theory	說法	shuō fǎ	15
@@ -644,7 +672,7 @@ Chapter, Grammar Point (Traditional), Pinyin, English Translation, Example 1, Ex
 1	從 cóng…往 wàng… go…from…	cóng … wǎng … zǒu / qù	go from … toward … (to get somewhere)	從這裡往前走，就到師大了。	從路口往右轉，就到宿舍了。	從校門往裡走十分鐘，就到語言中心。	Used for giving directions: start point + direction/target. Often pairs with 就到… (“then you’ll arrive at…”). Common with 往前走／往左轉／往右轉. Negation often uses 不能…. Questions often use …會到…嗎？／…就到了嗎？
 1	Judgmental V-起來 qǐlái it's my assessment that…	… qǐlái (kàn qǐlái / tīng qǐlái / wén qǐlái / chī qǐlái …)	it seems/looks/sounds/smells/tastes… (speaker’s judgment)	她笑起來很好看。	這家店的點心看起來很香。	你說的很簡單，但做起來不簡單。	Expresses the speaker’s impression based on observation/experience. Often adjective-focused: 看起來很好／不太好. Contrast pattern: 看起來…，但…. Negation: 看起來不…／聽起來不…
 1	Ongoing Action with 著 zhe	… zhe	ongoing action / continuing state	他在門口等著你。	他拿著一杯冰咖啡。	他看著我，一句話也不說。	Marks an action/state that is continuing. Common: 拿著／坐著／站著／等著／看著. Often used in descriptions of what’s happening now.
-1	Two Simultaneously Actions with 一邊 yībiān…一邊 yībiān…	yìbiān … yìbiān …	do A while doing B	我常常一邊走路一邊聽歌。	她一邊吃飯一邊看電視。	他一邊逛夜市一邊拍照。	Two actions happen at the same time (same subject). Common with habits. Negation often: 不要／不能一邊…一邊…
+1	Two Simultaneous Actions with 一邊 yībiān…一邊 yībiān…	yìbiān … yìbiān …	do A while doing B	我常常一邊走路一邊聽歌。	她一邊吃飯一邊看電視。	他一邊逛夜市一邊拍照。	Two actions happen at the same time (same subject). Common with habits. Negation often: 不要／不能一邊…一邊…
 1	Distance from with 離 lí…	lí … yuǎn / jìn (lí … yǒu duō yuǎn?)	be far/close from … (how far?)	我家離學校很遠。	牛肉麵店離火車站很近。	學校離郵局遠不遠？	離 + place + 遠/近 describes distance. Intensifiers: 很／不太／非常. Questions: 離…遠不遠？／離…有多遠？. Preference constraints: 不能太近／不能太遠.
 2	Emphatic Negation with 一點也不 yīdiǎn yě bù V…	yìdiǎn yě bù …	not … at all (emphatic negation)	我一點也不累。	他一點也不喝茶。	夜市的東西一點也不貴。	Strongly emphasizes negation (“not even a little”). Common with adjectives/verbs: 一點也不慢／不想去／不困. Can take objects with “anything” sense: 一點也沒(有)吃／一點也沒(有)喝. Often used to contradict an expectation or what someone said.
 2	還是 háishì…吧 ba ! It will be better if …	háishì … ba	it’d be better to… / probably should…	週末還是出去吃吧。	已經十一點了，還是明天早上再打吧。	坐公車或捷運都可以，但還是坐捷運吧。	Suggestion after considering options; “let’s/you should probably…” Often implies the speaker thinks this is the wiser choice. Negation commonly: 還是不要…吧 (“better not…”).

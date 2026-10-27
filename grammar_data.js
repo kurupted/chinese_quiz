@@ -897,7 +897,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你們的照片",
-        "pinyin": "nǐ men de zhào piān",
+        "pinyin": "nǐ men de zhào piàn",
         "english": "Your (plural) photos",
         "charDetails": [
           {
@@ -918,7 +918,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           }
         ]
       },
@@ -1082,7 +1082,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "我有很多照片。",
-        "pinyin": "wǒ yǒu hěn duō zhào piān。",
+        "pinyin": "wǒ yǒu hěn duō zhào piàn。",
         "english": "I have many photos.",
         "charDetails": [
           {
@@ -1107,7 +1107,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "。",
@@ -1384,7 +1384,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你們有沒有照片？",
-        "pinyin": "nǐ men yǒu méi yǒu zhào piān？",
+        "pinyin": "nǐ men yǒu méi yǒu zhào piàn？",
         "english": "Do you (plural) have or not have photos?",
         "charDetails": [
           {
@@ -1413,7 +1413,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "？",
@@ -1692,7 +1692,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "兩張好看的照片",
-        "pinyin": "liǎng zhāng hǎo kàn de zhào piān",
+        "pinyin": "liǎng zhāng hǎo kàn de zhào piàn",
         "english": "Two good-looking photos",
         "charDetails": [
           {
@@ -1721,13 +1721,13 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           }
         ]
       },
       {
         "chinese": "幾張照片？",
-        "pinyin": "jǐ zhāng zhào piān？",
+        "pinyin": "jǐ zhāng zhào piàn？",
         "english": "How many photos?",
         "charDetails": [
           {
@@ -1744,7 +1744,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "？",
@@ -1754,7 +1754,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "哪一張照片？",
-        "pinyin": "nǎ yī zhāng zhào piān？",
+        "pinyin": "nǎ yī zhāng zhào piàn？",
         "english": "Which photo?",
         "charDetails": [
           {
@@ -1775,7 +1775,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "？",
@@ -1825,7 +1825,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "哪一張照片？",
-        "pinyin": "nǎ yī zhāng zhào piān？",
+        "pinyin": "nǎ yī zhāng zhào piàn？",
         "english": "Which photo?",
         "charDetails": [
           {
@@ -1846,7 +1846,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "？",
@@ -1856,7 +1856,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "幾張照片？",
-        "pinyin": "jǐ zhāng zhào piān？",
+        "pinyin": "jǐ zhāng zhào piàn？",
         "english": "How many photos?",
         "charDetails": [
           {
@@ -1873,7 +1873,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "？",
@@ -2278,7 +2278,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這張照片，我覺得很好看。",
-        "pinyin": "zhè zhāng zhào piān， wǒ jué dé hěn hǎo kàn。",
+        "pinyin": "zhè zhāng zhào piàn， wǒ jué de hěn hǎo kàn。",
         "english": "This photo, I think is very good-looking.",
         "charDetails": [
           {
@@ -2295,7 +2295,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "，",
@@ -2311,7 +2311,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -4256,7 +4256,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "他學中文學得不錯。",
-        "pinyin": "tā xué zhōng wén xué dé bù cuò。",
+        "pinyin": "tā xué zhōng wén xué de bù cuò。",
         "english": "He learns Chinese [and learns] not badly.",
         "charDetails": [
           {
@@ -4281,7 +4281,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "不",
@@ -4299,7 +4299,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你做得很好。",
-        "pinyin": "nǐ zuò dé hěn hǎo。",
+        "pinyin": "nǐ zuò de hěn hǎo。",
         "english": "You do [it] very well.",
         "charDetails": [
           {
@@ -4312,7 +4312,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -4330,7 +4330,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這種手機賣得很好。",
-        "pinyin": "zhè zhǒng shǒu jī mài dé hěn hǎo。",
+        "pinyin": "zhè zhǒng shǒu jī mài de hěn hǎo。",
         "english": "This kind of mobile phone sells very well.",
         "charDetails": [
           {
@@ -4355,7 +4355,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -4394,7 +4394,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "你做飯做得真好吃。",
-        "pinyin": "nǐ zuò fàn zuò dé zhēn hǎo chī。",
+        "pinyin": "nǐ zuò fàn zuò de zhēn hǎo chī。",
         "english": "You cook food [and cook] really deliciously.",
         "charDetails": [
           {
@@ -4415,7 +4415,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "真",
@@ -4437,7 +4437,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "我的老師教中文教得很好。",
-        "pinyin": "wǒ de lǎo shī jiāo zhōng wén jiào dé hěn hǎo。",
+        "pinyin": "wǒ de lǎo shī jiāo zhōng wén jiāo de hěn hǎo。",
         "english": "My teacher teaches Chinese [and teaches] very well.",
         "charDetails": [
           {
@@ -4470,11 +4470,11 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "教",
-            "pinyin": "jiào"
+            "pinyin": "jiāo"
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -4556,7 +4556,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "飯，他做得真好吃。",
-        "pinyin": "fàn， tā zuò dé zhēn hǎo chī。",
+        "pinyin": "fàn， tā zuò de zhēn hǎo chī。",
         "english": "Food, he makes really deliciously.",
         "charDetails": [
           {
@@ -4577,7 +4577,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "真",
@@ -4599,7 +4599,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "中文，你說得很好。",
-        "pinyin": "zhōng wén， nǐ shuō dé hěn hǎo。",
+        "pinyin": "zhōng wén， nǐ shuō de hěn hǎo。",
         "english": "Chinese, you speak very well.",
         "charDetails": [
           {
@@ -4624,7 +4624,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -4642,7 +4642,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這道菜，他做得很好。",
-        "pinyin": "zhè dào cài， tā zuò dé hěn hǎo。",
+        "pinyin": "zhè dào cài， tā zuò de hěn hǎo。",
         "english": "This dish, he makes very well.",
         "charDetails": [
           {
@@ -4671,7 +4671,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -5810,7 +5810,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "我覺得不是很貴。",
-        "pinyin": "wǒ jué dé bú shì hěn guì。",
+        "pinyin": "wǒ jué de bú shì hěn guì。",
         "english": "I feel it is not that it's very expensive.",
         "charDetails": [
           {
@@ -5823,7 +5823,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "不",
@@ -8032,7 +8032,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "這家餐廳的菜又便宜又好吃。",
-        "pinyin": "zhè jiā cān tīng de cài yòu pián yi yòu hǎo chī。",
+        "pinyin": "zhè jiā cān tīng de cài yòu pián yí yòu hǎo chī。",
         "english": "This restaurant's dishes are both cheap and delicious.",
         "charDetails": [
           {
@@ -8069,7 +8069,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "宜",
-            "pinyin": "yi"
+            "pinyin": "yí"
           },
           {
             "char": "又",
@@ -9268,7 +9268,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "看風景的時候，我覺得很舒服。",
-        "pinyin": "kàn fēng jǐng de shí hòu， wǒ jué dé hěn shū fú。",
+        "pinyin": "kàn fēng jǐng de shí hòu， wǒ jué de hěn shū fú。",
         "english": "At the time of looking at the scenery, I feel very comfortable.",
         "charDetails": [
           {
@@ -9309,7 +9309,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -12774,7 +12774,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "以後我都得上班。",
-        "pinyin": "yǐ hòu wǒ dōu dé shàng bān。",
+        "pinyin": "yǐ hòu wǒ dōu děi shàng bān。",
         "english": "In the future I all must go to work.",
         "charDetails": [
           {
@@ -12795,7 +12795,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "děi"
           },
           {
             "char": "上",
@@ -13168,7 +13168,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "便宜的咖啡不好喝。",
-        "pinyin": "pián yi de kā fēi bù hǎo hē。",
+        "pinyin": "pián yí de kā fēi bù hǎo hē。",
         "english": "Cheap coffee is not good to drink.",
         "charDetails": [
           {
@@ -13177,7 +13177,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "宜",
-            "pinyin": "yi"
+            "pinyin": "yí"
           },
           {
             "char": "的",
@@ -16351,7 +16351,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他吃了藥就睡覺。",
-        "pinyin": "tā chī le yào jiù shuì jué。",
+        "pinyin": "tā chī le yào jiù shuì jiào。",
         "english": "Once he takes the medicine, then he immediately sleeps.",
         "charDetails": [
           {
@@ -16380,7 +16380,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "覺",
-            "pinyin": "jué"
+            "pinyin": "jiào"
           },
           {
             "char": "。",
@@ -16600,7 +16600,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "他做得比我快。",
-        "pinyin": "tā zuò dé bǐ wǒ kuài。",
+        "pinyin": "tā zuò de bǐ wǒ kuài。",
         "english": "He does [it] faster than I do.",
         "charDetails": [
           {
@@ -16613,7 +16613,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "比",
@@ -16635,7 +16635,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "弟弟念得比哥哥好。",
-        "pinyin": "dì di niàn dé bǐ gē gē hǎo。",
+        "pinyin": "dì di niàn de bǐ gē gē hǎo。",
         "english": "Younger brother reads better than older brother.",
         "charDetails": [
           {
@@ -16652,7 +16652,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "比",
@@ -16678,7 +16678,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這種手機賣得比那種好。",
-        "pinyin": "zhè zhǒng shǒu jī mài dé bǐ nà zhǒng hǎo。",
+        "pinyin": "zhè zhǒng shǒu jī mài de bǐ nà zhǒng hǎo。",
         "english": "This kind of mobile phone sells better than that kind.",
         "charDetails": [
           {
@@ -16703,7 +16703,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "比",
@@ -16801,7 +16801,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "捷運站比公車站遠得多。",
-        "pinyin": "jié yùn zhàn bǐ gōng chē zhàn yuǎn dé duō。",
+        "pinyin": "jié yùn zhàn bǐ gōng chē zhàn yuǎn de duō。",
         "english": "The MRT station is much farther than the bus stop.",
         "charDetails": [
           {
@@ -16838,7 +16838,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "多",
@@ -16955,7 +16955,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他照了你一張相。",
-        "pinyin": "tā zhào le nǐ yī zhāng xiāng。",
+        "pinyin": "tā zhào le nǐ yī zhāng xiàng。",
         "english": "He took a photo of you.",
         "charDetails": [
           {
@@ -16984,7 +16984,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "相",
-            "pinyin": "xiāng"
+            "pinyin": "xiàng"
           },
           {
             "char": "。",
@@ -17612,7 +17612,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "他在門口等著你。",
-        "pinyin": "tā zài mén kǒu děng zhù nǐ。",
+        "pinyin": "tā zài mén kǒu děng zhe nǐ。",
         "english": "He is at the doorway waiting for you.",
         "charDetails": [
           {
@@ -17637,7 +17637,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "你",
@@ -17651,7 +17651,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他拿著一杯冰咖啡。",
-        "pinyin": "tā ná zhù yī bēi bīng kā fēi。",
+        "pinyin": "tā ná zhe yī bēi bīng kā fēi。",
         "english": "He is holding a cup of iced coffee.",
         "charDetails": [
           {
@@ -17664,7 +17664,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "一",
@@ -17694,7 +17694,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他看著我，一句話也不說。",
-        "pinyin": "tā kàn zhù wǒ， yī jù huà yě bù shuō。",
+        "pinyin": "tā kàn zhe wǒ， yī jù huà yě bù shuō。",
         "english": "He looked at me, without saying even one sentence.",
         "charDetails": [
           {
@@ -17707,7 +17707,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "我",
@@ -17759,7 +17759,7 @@ const GRAMMAR_DATA = [
     "id": 121,
     "book": 2,
     "chapter": 1,
-    "pointZh": "Two Simultaneously Actions with 一邊 yībiān…一邊 yībiān…",
+    "pointZh": "Two Simultaneous Actions with 一邊 yībiān…一邊 yībiān…",
     "pinyin": "yìbiān … yìbiān …",
     "english": "do A while doing B",
     "examples": [
@@ -18694,7 +18694,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他字寫得漂漂亮亮。",
-        "pinyin": "tā zì xiě dé piāo piāo liàng liàng。",
+        "pinyin": "tā zì xiě de piào piào liàng liàng。",
         "english": "He wrote the characters beautifully (neat and pretty).",
         "charDetails": [
           {
@@ -18711,15 +18711,15 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "漂",
-            "pinyin": "piāo"
+            "pinyin": "piào"
           },
           {
             "char": "漂",
-            "pinyin": "piāo"
+            "pinyin": "piào"
           },
           {
             "char": "亮",
@@ -18986,7 +18986,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "臺灣東邊的海很乾淨。",
-        "pinyin": "tái wān dōng biān de hǎi hěn qián jìng。",
+        "pinyin": "tái wān dōng biān de hǎi hěn gān jìng。",
         "english": "The sea on the east side of Taiwan is very clean.",
         "charDetails": [
           {
@@ -19019,7 +19019,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "乾",
-            "pinyin": "qián"
+            "pinyin": "gān"
           },
           {
             "char": "淨",
@@ -20982,7 +20982,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "他笑著跟客人說話。",
-        "pinyin": "tā xiào zhù gēn kè rén shuō huà。",
+        "pinyin": "tā xiào zhe gēn kè rén shuō huà。",
         "english": "He smilingly talked with the guests.",
         "charDetails": [
           {
@@ -20995,7 +20995,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "跟",
@@ -21025,7 +21025,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "吃飯的時候不要站著。",
-        "pinyin": "chī fàn de shí hòu bú yào zhàn zhù。",
+        "pinyin": "chī fàn de shí hòu bú yào zhàn zhe。",
         "english": "At the time of eating a meal, don't stand.",
         "charDetails": [
           {
@@ -21062,7 +21062,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "。",
@@ -21072,7 +21072,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他站著等你。",
-        "pinyin": "tā zhàn zhù děng nǐ。",
+        "pinyin": "tā zhàn zhe děng nǐ。",
         "english": "He is standing waiting for you.",
         "charDetails": [
           {
@@ -21085,7 +21085,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "等",
@@ -21468,7 +21468,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "大家吃著吃著，新人來敬酒了。",
-        "pinyin": "dà jiā chī zhù chī zhù， xīn rén lái jìng jiǔ le。",
+        "pinyin": "dà jiā chī zhe chī zhe， xīn rén lái jìng jiǔ le。",
         "english": "While everyone was eating and eating, the newlyweds came to make a toast.",
         "charDetails": [
           {
@@ -21485,7 +21485,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "吃",
@@ -21493,7 +21493,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "，",
@@ -21531,7 +21531,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "我們等著等著，宴會就開始了。",
-        "pinyin": "wǒ men děng zhù děng zhù， yàn huì jiù kāi shǐ le。",
+        "pinyin": "wǒ men děng zhe děng zhe， yàn huì jiù kāi shǐ le。",
         "english": "While we were waiting and waiting, the banquet then started.",
         "charDetails": [
           {
@@ -21548,7 +21548,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "等",
@@ -21556,7 +21556,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "，",
@@ -21594,7 +21594,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他看著看著，就學會做菜了。",
-        "pinyin": "tā kàn zhù kàn zhù， jiù xué huì zuò cài le。",
+        "pinyin": "tā kàn zhe kàn zhe， jiù xué huì zuò cài le。",
         "english": "While he was watching and watching, he then learned how to cook.",
         "charDetails": [
           {
@@ -21607,7 +21607,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "看",
@@ -21615,7 +21615,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "，",
@@ -22820,7 +22820,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "你不覺得這個字很難寫嗎？",
-        "pinyin": "nǐ bù jué dé zhè gè zì hěn nán xiě ma？",
+        "pinyin": "nǐ bù jué de zhè gè zì hěn nán xiě ma？",
         "english": "Don't you feel this character is very hard to write?",
         "charDetails": [
           {
@@ -22837,7 +22837,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "這",
@@ -22994,7 +22994,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "路口已經站著很多人。",
-        "pinyin": "lù kǒu yǐ jīng zhàn zhù hěn duō rén。",
+        "pinyin": "lù kǒu yǐ jīng zhàn zhe hěn duō rén。",
         "english": "At the intersection there are already many people standing.",
         "charDetails": [
           {
@@ -23019,7 +23019,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "很",
@@ -23041,7 +23041,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "活動中心前面站著很多外國學生。",
-        "pinyin": "huó dòng zhōng xīn qián miàn zhàn zhù hěn duō wài guó xué shēng。",
+        "pinyin": "huó dòng zhōng xīn qián miàn zhàn zhe hěn duō wài guó xué shēng。",
         "english": "In front of the activity center there are many foreign students standing.",
         "charDetails": [
           {
@@ -23074,7 +23074,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "很",
@@ -23108,7 +23108,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "咖啡廳裡坐著很多學生。",
-        "pinyin": "kā fēi tīng lǐ zuò zhù hěn duō xué shēng。",
+        "pinyin": "kā fēi tīng lǐ zuò zhe hěn duō xué shēng。",
         "english": "In the café there are many students sitting.",
         "charDetails": [
           {
@@ -23133,7 +23133,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "著",
-            "pinyin": "zhù"
+            "pinyin": "zhe"
           },
           {
             "char": "很",
@@ -23883,7 +23883,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "我聽不見音樂。",
-        "pinyin": "wǒ tīng bù jiàn yīn lè。",
+        "pinyin": "wǒ tīng bù jiàn yīn yuè。",
         "english": "I cannot hear the music.",
         "charDetails": [
           {
@@ -23908,7 +23908,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "樂",
-            "pinyin": "lè"
+            "pinyin": "yuè"
           },
           {
             "char": "。",
@@ -23918,7 +23918,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你看得見那行字嗎？",
-        "pinyin": "nǐ kàn dé jiàn nà xíng zì ma？",
+        "pinyin": "nǐ kàn de jiàn nà háng zì ma？",
         "english": "Can you see that line of words?",
         "charDetails": [
           {
@@ -23931,7 +23931,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "見",
@@ -23943,7 +23943,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "行",
-            "pinyin": "xíng"
+            "pinyin": "háng"
           },
           {
             "char": "字",
@@ -23982,7 +23982,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "我吃得了這碗麵。",
-        "pinyin": "wǒ chī dé le zhè wǎn miàn。",
+        "pinyin": "wǒ chī de liǎo zhè wǎn miàn。",
         "english": "I can finish eating this bowl of noodles.",
         "charDetails": [
           {
@@ -23995,11 +23995,11 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "了",
-            "pinyin": "le"
+            "pinyin": "liǎo"
           },
           {
             "char": "這",
@@ -24064,7 +24064,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你走得了半小時嗎？",
-        "pinyin": "nǐ zǒu dé le bàn xiǎo shí ma？",
+        "pinyin": "nǐ zǒu de liǎo bàn xiǎo shí ma？",
         "english": "Can you walk for half an hour?",
         "charDetails": [
           {
@@ -24077,11 +24077,11 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "了",
-            "pinyin": "le"
+            "pinyin": "liǎo"
           },
           {
             "char": "半",
@@ -24128,7 +24128,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "我累得走不動。",
-        "pinyin": "wǒ lèi dé zǒu bù dòng。",
+        "pinyin": "wǒ lèi de zǒu bù dòng。",
         "english": "I was tired to the point of being unable to walk.",
         "charDetails": [
           {
@@ -24141,7 +24141,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "走",
@@ -24163,7 +24163,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "天氣冷得大家不想出門。",
-        "pinyin": "tiān qì lěng dé dà jiā bù xiǎng chū mén。",
+        "pinyin": "tiān qì lěng de dà jiā bù xiǎng chū mén。",
         "english": "The weather was cold to the point that everyone didn't want to go out.",
         "charDetails": [
           {
@@ -24180,7 +24180,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "大",
@@ -24214,7 +24214,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "他痛得不能跑。",
-        "pinyin": "tā tòng dé bù néng pǎo。",
+        "pinyin": "tā tòng de bù néng pǎo。",
         "english": "He was in pain to the point of being unable to run.",
         "charDetails": [
           {
@@ -24227,7 +24227,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "不",
@@ -24763,7 +24763,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "在台灣買得到外國貨。",
-        "pinyin": "zài tái wān mǎi dé dào wài guó huò。",
+        "pinyin": "zài tái wān mǎi de dào wài guó huò。",
         "english": "In Taiwan one can buy foreign goods.",
         "charDetails": [
           {
@@ -24784,7 +24784,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "到",
@@ -24810,7 +24810,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "你聽得到十樓外面的車聲嗎？",
-        "pinyin": "nǐ tīng dé dào shí lóu wài miàn de chē shēng ma？",
+        "pinyin": "nǐ tīng de dào shí lóu wài miàn de chē shēng ma？",
         "english": "Can you hear the car sounds outside on the tenth floor?",
         "charDetails": [
           {
@@ -24823,7 +24823,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "到",
@@ -24890,7 +24890,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "比起美國的書，台灣的書比較便宜。",
-        "pinyin": "bǐ qǐ měi guó de shū， tái wān de shū bǐ jiào pián yi。",
+        "pinyin": "bǐ qǐ měi guó de shū， tái wān de shū bǐ jiào pián yí。",
         "english": "Compared to books in America, books in Taiwan are comparatively cheap.",
         "charDetails": [
           {
@@ -24951,7 +24951,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "宜",
-            "pinyin": "yi"
+            "pinyin": "yí"
           },
           {
             "char": "。",
@@ -25357,7 +25357,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "我餓得不得了。",
-        "pinyin": "wǒ è dé bù dé le。",
+        "pinyin": "wǒ è de bù dé liǎo。",
         "english": "I am hungry terribly (terribly hungry).",
         "charDetails": [
           {
@@ -25370,7 +25370,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "不",
@@ -25382,7 +25382,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "了",
-            "pinyin": "le"
+            "pinyin": "liǎo"
           },
           {
             "char": "。",
@@ -25392,7 +25392,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "婚禮氣氛熱鬧得很。",
-        "pinyin": "hūn lǐ qì fēn rè nào dé hěn。",
+        "pinyin": "hūn lǐ qì fēn rè nào de hěn。",
         "english": "The wedding atmosphere was lively indeed (very lively).",
         "charDetails": [
           {
@@ -25421,7 +25421,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "很",
@@ -25503,7 +25503,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "雖然房租不便宜，我還租得起。",
-        "pinyin": "suī rán fáng zū bù biàn yí， wǒ hái zū dé qǐ。",
+        "pinyin": "suī rán fáng zū bù biàn yí， wǒ hái zū de qǐ。",
         "english": "Although the rent is not cheap, I can still afford to rent [it].",
         "charDetails": [
           {
@@ -25552,7 +25552,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "起",
@@ -25566,7 +25566,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這家店的東西大家都吃得起。",
-        "pinyin": "zhè jiā diàn de dōng xī dà jiā dōu chī dé qǐ。",
+        "pinyin": "zhè jiā diàn de dōng xī dà jiā dōu chī de qǐ。",
         "english": "Things at this shop, everyone can afford to eat.",
         "charDetails": [
           {
@@ -25611,7 +25611,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "起",
@@ -25646,7 +25646,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "你要看久一點才看得出來是誰。",
-        "pinyin": "nǐ yào kàn jiǔ yī diǎn cái kàn dé chū lái shì shuí。",
+        "pinyin": "nǐ yào kàn jiǔ yī diǎn cái kàn de chū lái shì shuí。",
         "english": "You need to look a bit longer, only then can [you] tell who it is.",
         "charDetails": [
           {
@@ -25683,7 +25683,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "出",
@@ -25709,7 +25709,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "我聽得出來他在講台語。",
-        "pinyin": "wǒ tīng dé chū lái tā zài jiǎng tái yǔ。",
+        "pinyin": "wǒ tīng de chū lái tā zài jiǎng tái yǔ。",
         "english": "I can discern [by listening] that he is speaking Taiwanese.",
         "charDetails": [
           {
@@ -25722,7 +25722,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "出",
@@ -25836,7 +25836,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "這台車坐得下九個人。",
-        "pinyin": "zhè tái chē zuò dé xià jiǔ gè rén。",
+        "pinyin": "zhè tái chē zuò de xià jiǔ gè rén。",
         "english": "This car can seat nine people.",
         "charDetails": [
           {
@@ -25857,7 +25857,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "下",
@@ -25938,7 +25938,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "這個隨身碟裝得下這些照片嗎？",
-        "pinyin": "zhè gè suí shēn dié zhuāng dé xià zhè xiē zhào piān ma？",
+        "pinyin": "zhè gè suí shēn dié zhuāng de xià zhè xiē zhào piàn ma？",
         "english": "Can this flash drive fit these photos?",
         "charDetails": [
           {
@@ -25967,7 +25967,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "下",
@@ -25987,7 +25987,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "片",
-            "pinyin": "piān"
+            "pinyin": "piàn"
           },
           {
             "char": "嗎",
@@ -26228,7 +26228,7 @@ const GRAMMAR_DATA = [
     "exampleDetails": [
       {
         "chinese": "把高麗菜洗乾淨。",
-        "pinyin": "bǎ gāo lì cài xǐ qián jìng。",
+        "pinyin": "bǎ gāo lì cài xǐ gān jìng。",
         "english": "Wash the cabbage clean.",
         "charDetails": [
           {
@@ -26253,7 +26253,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "乾",
-            "pinyin": "qián"
+            "pinyin": "gān"
           },
           {
             "char": "淨",
@@ -30061,7 +30061,7 @@ const GRAMMAR_DATA = [
       },
       {
         "chinese": "只有多休息才會好得快。",
-        "pinyin": "zhǐ yǒu duō xiū xī cái huì hǎo dé kuài。",
+        "pinyin": "zhǐ yǒu duō xiū xī cái huì hǎo de kuài。",
         "english": "Only by resting more will [one] recover quickly.",
         "charDetails": [
           {
@@ -30098,7 +30098,7 @@ const GRAMMAR_DATA = [
           },
           {
             "char": "得",
-            "pinyin": "dé"
+            "pinyin": "de"
           },
           {
             "char": "快",

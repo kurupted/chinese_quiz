@@ -1,13 +1,13 @@
-const CACHE_NAME = 'chinese-practice-v1';
+const CACHE_NAME = 'chinese-practice-v3';
 
 const PRECACHE_ASSETS = [
   './',
   './index.html',
-  './style.css',
-  './app.js',
-  './lesson_metadata.js',
-  './vocab_data.js',
-  './grammar_data.js',
+  './style.css?v=3',
+  './app.js?v=3',
+  './lesson_metadata.js?v=3',
+  './vocab_data.js?v=3',
+  './grammar_data.js?v=3',
   './manifest.json',
   './icon.svg',
   './vocab_images/placeholder.svg'
@@ -37,7 +37,7 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch: Cache-first strategy with offline fallbacks
+// Fetch: Network-first for app shell/scripts/styles, cache-first for images, with offline fallback
 self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
@@ -47,39 +47,37 @@ self.addEventListener('fetch', (event) => {
   // Ignore browser extensions or non-http schemes
   if (!url.protocol.startsWith('http')) return;
 
-  event.respondWith(
-    caches.match(request).then((cachedResponse) => {
-      if (cachedResponse) {
-        // Fetch in background to update cache if connected
-        fetch(request).then((networkResponse) => {
+  const isImage = request.destination === 'image' || url.pathname.endsWith('.png') || url.pathname.endsWith('.jpg') || url.pathname.endsWith('.svg');
+
+  if (isImage) {
+    event.respondWith(
+      caches.match(request).then((cachedResponse) => {
+        if (cachedResponse) return cachedResponse;
+        return fetch(request).then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, networkResponse));
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, responseClone));
           }
-        }).catch(() => {
-          // Offline, quietly ignore background revalidation failure
-        });
-        return cachedResponse;
-      }
-
-      // Not in cache: fetch from network and store in cache
-      return fetch(request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200) {
           return networkResponse;
-        }
+        }).catch(() => caches.match('./vocab_images/placeholder.svg'));
+      })
+    );
+    return;
+  }
 
+  // Network-first for HTML, CSS, JS, JSON so updates appear immediately when online
+  event.respondWith(
+    fetch(request).then((networkResponse) => {
+      if (networkResponse && networkResponse.status === 200) {
         const responseClone = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(request, responseClone);
-        });
-
-        return networkResponse;
-      }).catch(() => {
-        // Network failed (airplane mode / offline)
+        caches.open(CACHE_NAME).then((cache) => cache.put(request, responseClone));
+      }
+      return networkResponse;
+    }).catch(() => {
+      return caches.match(request).then((cachedResponse) => {
+        if (cachedResponse) return cachedResponse;
         if (request.mode === 'navigate') {
           return caches.match('./index.html');
-        }
-        if (request.destination === 'image' || url.pathname.endsWith('.png') || url.pathname.endsWith('.jpg')) {
-          return caches.match('./vocab_images/placeholder.svg');
         }
       });
     })

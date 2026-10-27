@@ -256,7 +256,7 @@ const LESSON_METADATA = {
         "從 cóng…往 wàng… go…from…",
         "Judgmental V-起來 qǐlái it's my assessment that…",
         "Ongoing Action with 著 zhe",
-        "Two Simultaneously Actions with 一邊 yībiān…一邊 yībiān…",
+        "Two Simultaneous Actions with 一邊 yībiān…一邊 yībiān…",
         "Distance from with 離 lí…"
       ]
     },

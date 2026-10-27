@@ -43,9 +43,17 @@
 
   --font-en: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-zh: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', 'Apple LiGothic', 'Heiti TC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
 }
 
+html.dark-theme,
+body.dark-theme {
+  color-scheme: dark;
+}
+
+html.light-theme,
 body.light-theme {
+  color-scheme: light;
   --bg-primary: #f1f5f9;
   --bg-secondary: #ffffff;
   --bg-card: rgba(255, 255, 255, 0.9);
@@ -1395,8 +1403,9 @@ body.light-theme .review-sentence-translation {
 }
 
 .custom-select-c {
-  background: var(--bg-card);
-  color: var(--text-primary);
+  color-scheme: dark;
+  background-color: #121829;
+  color: #f8fafc;
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-md);
   padding: 0.35rem 0.75rem;
@@ -1411,12 +1420,35 @@ body.light-theme .review-sentence-translation {
 .custom-select-c:focus,
 .custom-select-c:hover {
   border-color: var(--accent-primary);
-  background: var(--bg-card-hover);
+  background-color: #121829;
 }
 
 .custom-select-c option {
-  background: var(--bg-secondary);
-  color: var(--text-primary);
+  color-scheme: dark;
+  background-color: #121829;
+  color: #f8fafc;
+}
+
+html.light-theme .custom-select-c,
+body.light-theme .custom-select-c {
+  color-scheme: light;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+html.light-theme .custom-select-c:focus,
+html.light-theme .custom-select-c:hover,
+body.light-theme .custom-select-c:focus,
+body.light-theme .custom-select-c:hover {
+  border-color: var(--accent-primary);
+  background-color: #ffffff;
+}
+
+html.light-theme .custom-select-c option,
+body.light-theme .custom-select-c option {
+  color-scheme: light;
+  background-color: #ffffff;
+  color: #0f172a;
 }
 
 .stepper-dropdown-wrap {
@@ -1437,6 +1469,7 @@ body.light-theme .review-sentence-translation {
   justify-content: center;
   font-size: 0.72rem;
   cursor: pointer;
+  user-select: none;
   transition: all var(--transition-fast);
 }
 
@@ -1445,6 +1478,14 @@ body.light-theme .review-sentence-translation {
   border-color: var(--accent-primary);
   color: #ffffff;
   transform: scale(1.08);
+}
+
+body.light-theme .step-btn-c:hover,
+body.light-theme .step-btn-c:focus,
+body.light-theme .step-btn-c:active {
+  background: rgba(79, 70, 229, 0.12);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
 }
 
 .step-btn-c:active {
@@ -1477,6 +1518,13 @@ body.light-theme .review-sentence-translation {
   border-color: var(--accent-secondary);
   color: #ffffff;
   box-shadow: 0 0 10px rgba(6, 182, 212, 0.25);
+}
+
+body.light-theme .toggle-pill-btn.active {
+  background: rgba(2, 132, 199, 0.12);
+  border-color: #0284c7;
+  color: #0284c7;
+  box-shadow: 0 0 8px rgba(2, 132, 199, 0.15);
 }
 
 .viewer-search-wrap {
@@ -1540,6 +1588,16 @@ body.light-theme .search-input-field {
 .search-clear-btn:hover {
   background: rgba(255, 255, 255, 0.22);
   color: #ffffff;
+}
+
+body.light-theme .search-clear-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--text-secondary);
+}
+
+body.light-theme .search-clear-btn:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: var(--text-primary);
 }
 
 /* ==========================================================================
@@ -1665,6 +1723,76 @@ body.light-theme .search-input-field {
 .vocab-lesson-pill.b2 {
   border: 1px solid rgba(6, 182, 212, 0.3);
   color: #67e8f9;
+}
+
+body.light-theme .vocab-lesson-pill.b1 {
+  background: rgba(79, 70, 229, 0.08);
+  border-color: rgba(79, 70, 229, 0.28);
+  color: #4f46e5;
+}
+
+body.light-theme .vocab-lesson-pill.b2 {
+  background: rgba(2, 132, 199, 0.08);
+  border-color: rgba(2, 132, 199, 0.28);
+  color: #0284c7;
+}
+
+.vocab-grammar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+  margin-top: 0.55rem;
+}
+
+.vocab-grammar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: 100%;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  font-family: inherit;
+  font-size: 0.73rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.vocab-grammar-link:hover {
+  background: rgba(56, 189, 248, 0.2);
+  border-color: #38bdf8;
+  color: #7dd3fc;
+  transform: translateX(2px);
+}
+
+.vocab-grammar-link-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.vocab-grammar-link-arrow {
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  opacity: 0.85;
+}
+
+body.light-theme .vocab-grammar-link {
+  background: rgba(2, 132, 199, 0.08);
+  border-color: rgba(2, 132, 199, 0.28);
+  color: #0284c7;
+}
+
+body.light-theme .vocab-grammar-link:hover {
+  background: rgba(2, 132, 199, 0.15);
+  border-color: #0284c7;
+  color: #0369a1;
 }
 
 .vocab-audio-btn {
@@ -2512,6 +2640,125 @@ body.light-theme .grammar-example-en {
 .modal-summary-sub {
   font-size: 0.74rem;
   color: var(--text-muted);
+}
+
+/* Light Theme Support for Choose Lesson Trigger & Modal */
+body.light-theme .lesson-select-trigger-card {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+body.light-theme .lesson-select-trigger-card:hover {
+  background: #ffffff;
+  border-color: rgba(79, 70, 229, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .trigger-action-pill {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+body.light-theme .trigger-book-badge {
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+  border-color: rgba(2, 132, 199, 0.25);
+}
+
+body.light-theme .trigger-book-badge.b2 {
+  background: rgba(147, 51, 234, 0.1);
+  color: #7e22ce;
+  border-color: rgba(147, 51, 234, 0.25);
+}
+
+body.light-theme .lesson-modal-backdrop {
+  background: rgba(15, 23, 42, 0.45);
+}
+
+body.light-theme .lesson-modal-card {
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .lesson-modal-toolbar {
+  background: #f8fafc;
+}
+
+body.light-theme .modal-book-tabs {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .modal-close-btn {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .lesson-modal-scrollable {
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+body.light-theme .lesson-modal-scrollable::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .lesson-item-card {
+  background: #f8fafc;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .lesson-item-card:hover {
+  background: #f1f5f9;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .lesson-item-card.selected {
+  background: rgba(2, 132, 199, 0.08);
+  border-color: rgba(2, 132, 199, 0.45);
+}
+
+body.light-theme .lesson-custom-checkbox {
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.22);
+}
+
+body.light-theme .lesson-item-card.selected .lesson-custom-checkbox {
+  background: #0284c7;
+  border-color: #0284c7;
+  color: #ffffff;
+}
+
+body.light-theme .lesson-num-pill {
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+}
+
+body.light-theme .lesson-expand-btn {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .lesson-expand-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .lesson-item-card.expanded .lesson-expand-btn {
+  background: rgba(2, 132, 199, 0.15);
+  color: #0284c7;
+}
+
+body.light-theme .lesson-item-drawer {
+  background: #f1f5f9;
+}
+
+body.light-theme .drawer-section-title {
+  color: #0284c7;
+}
+
+body.light-theme .drawer-section.grammar-sec .drawer-section-title {
+  color: #7e22ce;
+}
+
+body.light-theme .lesson-modal-footer {
+  background: #f8fafc;
 }
 
 /* ==========================================================================
